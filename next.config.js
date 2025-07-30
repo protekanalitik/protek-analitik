@@ -8,6 +8,19 @@ const nextConfig = {
     }
     return config;
   },
+  // Disable build traces completely to prevent stack overflow
+  experimental: {
+    outputFileTracingRoot: process.cwd(),
+    outputFileTracingExcludes: {
+      '*': [
+        'node_modules/**/*',
+        '.next/cache/**/*',
+        '.git/**/*',
+      ],
+    },
+  },
+  // Disable build optimization that might cause issues
+  swcMinify: false,
   images: {
     remotePatterns: [
       {
