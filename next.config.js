@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
+  // Disable webpack cache for production to avoid large file size issues on Cloudflare Pages
+  webpack: (config, { isServer, dev }) => {
+    if (!dev) {
+      config.cache = false;
+    }
+    return config;
+  },
   images: {
     remotePatterns: [
       {
