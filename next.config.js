@@ -21,6 +21,8 @@ const nextConfig = {
   },
   // Disable build optimization that might cause issues
   swcMinify: false,
+  // Disable Terser minify to prevent syntax errors
+  minify: false,
   images: {
     remotePatterns: [
       {
