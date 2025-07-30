@@ -1,5 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { AuthService } from '@/lib/auth'
+
+// Force dynamic rendering to prevent static generation errors
+export const dynamic = 'force-dynamic'
+// Use Edge Runtime for Cloudflare Pages compatibility
+export const runtime = 'edge'
 import { DatabaseUtils, ValidationUtils } from '@/lib/database'
 import { createSuccessResponse, createErrorResponse, AuthErrors, CommonErrors, DatabaseResponses, validateRequiredFields } from '@/lib/api-response'
 import { getD1Database } from '@/lib/db'

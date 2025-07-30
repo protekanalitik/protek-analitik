@@ -4,6 +4,11 @@ import { useState, useEffect } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { LockClosedIcon, EyeIcon, EyeSlashIcon } from '@heroicons/react/24/outline'
 
+// Force dynamic rendering to prevent static generation errors
+export const dynamic = 'force-dynamic'
+// Use Edge Runtime for Cloudflare Pages compatibility
+export const runtime = 'edge'
+
 export default function LoginPage() {
   const [usernameOrEmail, setUsernameOrEmail] = useState('')
   const [password, setPassword] = useState('')

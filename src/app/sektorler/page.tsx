@@ -4,6 +4,11 @@ import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
+
+// Force dynamic rendering to prevent static generation errors
+export const dynamic = 'force-dynamic'
+// Use Edge Runtime for Cloudflare Pages compatibility
+export const runtime = 'edge'
 import { 
   CubeIcon,
   BeakerIcon,

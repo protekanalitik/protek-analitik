@@ -3,6 +3,11 @@ import { NextRequest, NextResponse } from 'next/server'
 import { AuthService } from '@/lib/auth'
 import { d1Database, D1Utils, D1Product } from '@/lib/d1-database'
 
+// Force dynamic rendering to prevent static generation errors
+export const dynamic = 'force-dynamic'
+// Use Edge Runtime for Cloudflare Pages compatibility
+export const runtime = 'edge'
+
 // Standard response helpers
 function successResponse(data: any, message: string = 'Success', meta: any = {}) {
   return NextResponse.json({

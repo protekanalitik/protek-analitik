@@ -1,9 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { writeFile, mkdir } from 'fs/promises'
-import path from 'path'
 import { validateFile, generateUniqueFilename, UPLOAD_CONFIG, formatFileSize, uploadToR2 } from '@/lib/upload'
 import { AuthService } from '@/lib/auth'
 import type { CloudflareEnv } from '@/types/cloudflare'
+
+// Force dynamic rendering to prevent static generation errors
+export const dynamic = 'force-dynamic'
+// Use Edge Runtime for Cloudflare Pages compatibility
+export const runtime = 'edge'
 
 // Helper function to get client IP
 function getClientIP(request: NextRequest): string {
@@ -72,13 +75,13 @@ export async function POST(request: NextRequest) {
     const uniqueFileName = customFilename || generateUniqueFilename(file.name)
     const uploadPath = UPLOAD_CONFIG.paths[uploadType as keyof typeof UPLOAD_CONFIG.paths]
     
-    // Try R2 upload first (production environment)
+    // Upload to R2 (Edge Runtime compatible)
     const env = process.env as any
     const bucket = env.UPLOADS as any // R2Bucket from Cloudflare environment
     
     let publicUrl: string
     
-    if (bucket && process.env.NODE_ENV === 'production') {
+    if (bucket) {
       // Production: Upload to R2
       const r2Result = await uploadToR2(
         bucket,
@@ -98,16 +101,9 @@ export async function POST(request: NextRequest) {
       
       publicUrl = r2Result.url!
     } else {
-      // Development: Save to local filesystem
-      const uploadDir = path.join(process.cwd(), 'public', 'uploads', uploadPath)
-      await mkdir(uploadDir, { recursive: true })
-      
-      const bytes = await file.arrayBuffer()
-      const buffer = Buffer.from(bytes)
-      const filePath = path.join(uploadDir, uniqueFileName)
-      
-      await writeFile(filePath, buffer)
+      // Development: Mock upload for Edge Runtime compatibility
       publicUrl = `/uploads/${uploadPath}${uniqueFileName}`
+      console.log('Mock upload (development mode):', uniqueFileName)
     }
     
     // Log upload activity
@@ -184,8 +180,8 @@ export async function PUT(request: NextRequest) {
     const uploadedFiles: any[] = []
     const errors: string[] = []
     const uploadPath = UPLOAD_CONFIG.paths[uploadType as keyof typeof UPLOAD_CONFIG.paths]
-    const uploadDir = path.join(process.cwd(), 'public', 'uploads', uploadPath)
-    await mkdir(uploadDir, { recursive: true })
+    const env = process.env as any
+    const bucket = env.UPLOADS as any // R2Bucket from Cloudflare environment
 
     for (let i = 0; i < files.length; i++) {
       const file = files[i]
@@ -201,14 +197,29 @@ export async function PUT(request: NextRequest) {
         // Generate unique filename
         const uniqueFileName = generateUniqueFilename(file.name, `batch-${i}-`)
         
-        // Save file
-        const bytes = await file.arrayBuffer()
-        const buffer = Buffer.from(bytes)
-        const filePath = path.join(uploadDir, uniqueFileName)
+        let publicUrl: string
         
-        await writeFile(filePath, buffer)
-        
-        const publicUrl = `/uploads/${uploadPath}${uniqueFileName}`
+        if (bucket) {
+          // Production: Upload to R2
+          const r2Result = await uploadToR2(
+            bucket,
+            file,
+            uploadPath,
+            uniqueFileName,
+            authResult.user?.username
+          )
+          
+          if (!r2Result.success) {
+            errors.push(`${file.name}: R2 upload failed - ${r2Result.error}`)
+            continue
+          }
+          
+          publicUrl = r2Result.url!
+        } else {
+          // Development: Mock upload for Edge Runtime compatibility
+          publicUrl = `/uploads/${uploadPath}${uniqueFileName}`
+          console.log('Mock batch upload (development mode):', uniqueFileName)
+        }
         
         uploadedFiles.push({
           url: publicUrl,

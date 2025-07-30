@@ -4,6 +4,11 @@ import { DatabaseUtils, ValidationUtils } from '@/lib/database'
 import { createSuccessResponse, createErrorResponse, AuthErrors, CommonErrors, DatabaseResponses, validateRequiredFields } from '@/lib/api-response'
 import { D1DatabaseManager } from '@/lib/d1-database'
 
+// Force dynamic rendering to prevent static generation errors
+export const dynamic = 'force-dynamic'
+// Use Edge Runtime for Cloudflare Pages compatibility
+export const runtime = 'edge'
+
 const d1Database = new D1DatabaseManager()
 
 // Get single news article

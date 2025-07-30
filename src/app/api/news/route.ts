@@ -5,6 +5,11 @@ import { createSuccessResponse, createErrorResponse, AuthErrors, CommonErrors, D
 import { D1DatabaseManager } from '@/lib/d1-database'
 // Utils will be imported from database utils
 
+// Force dynamic rendering to prevent static generation errors
+export const dynamic = 'force-dynamic'
+// Use Edge Runtime for Cloudflare Pages compatibility
+export const runtime = 'edge'
+
 const d1Database = new D1DatabaseManager()
 
 // Get all news (requires authentication)

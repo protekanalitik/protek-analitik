@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
+  // Force all pages to be dynamic to prevent React context and Html import errors
+  output: 'standalone',
+  generateStaticParams: false,
   // Disable webpack cache for production to avoid large file size issues on Cloudflare Pages
   webpack: (config, { isServer, dev }) => {
     if (!dev) {
@@ -24,6 +27,11 @@ const nextConfig = {
         '.git/**/*',
       ],
     },
+    // Force all pages to be dynamic to prevent React context errors
+    isrMemoryCacheSize: 0,
+    workerThreads: false,
+    // Disable static generation completely
+    staticPageGenerationTimeout: 0,
   },
   // Disable ALL build optimizations that might cause issues
   swcMinify: false,

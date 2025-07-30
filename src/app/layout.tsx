@@ -1,6 +1,11 @@
 import type { Metadata } from 'next'
 import './globals.css'
 
+// Force dynamic rendering to prevent static generation errors with usePathname
+export const dynamic = 'force-dynamic'
+// Use Edge Runtime for Cloudflare Pages compatibility
+export const runtime = 'edge'
+
 export const metadata: Metadata = {
   title: 'Protek Analitik - Türkiye\'nin Laboratuvar Teknolojileri Lideri',
   description: 'Laboratuvar teknolojilerinde lider, güvenilir, yenilikçi ve kullanıcı odaklı çözümler. Analiz cihazları, laboratuvar kurulumu ve teknik destek hizmetleri.',

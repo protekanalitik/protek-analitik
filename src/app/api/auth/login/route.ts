@@ -2,6 +2,11 @@ import { NextRequest, NextResponse } from 'next/server'
 import { AuthService, RateLimiter } from '@/lib/auth'
 import { ValidationUtils } from '@/lib/database'
 
+// Force dynamic rendering to prevent static generation errors
+export const dynamic = 'force-dynamic'
+// Use Edge Runtime for Cloudflare Pages compatibility
+export const runtime = 'edge'
+
 // Login endpoint
 export async function POST(request: NextRequest) {
   try {

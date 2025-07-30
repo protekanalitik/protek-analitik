@@ -1,6 +1,11 @@
 'use client'
 
 import { useState } from 'react'
+
+// Force dynamic rendering to prevent static generation errors
+export const dynamic = 'force-dynamic'
+// Use Edge Runtime for Cloudflare Pages compatibility
+export const runtime = 'edge'
 import Header from '@/components/layout/Header'
 import { 
   CheckIcon, 

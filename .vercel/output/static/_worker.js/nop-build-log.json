@@ -1,0 +1,2475 @@
+{
+  "timestamp": 1753908649938,
+  "outputDir": ".vercel/output/static/_worker.js",
+  "versions": {
+    "@cloudflare/next-on-pages": "1.13.13"
+  },
+  "buildFiles": {
+    "functions": {
+      "invalid": [],
+      "middleware": [
+        "src/middleware"
+      ],
+      "edge": [
+        {
+          "relativePath": "/_not-found.func",
+          "config": {
+            "runtime": "edge",
+            "name": "_not-found",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/_not-found",
+            "overrides": [
+              "/_not-found.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/_not-found.func.js",
+          "outputByteSize": 755607
+        },
+        {
+          "relativePath": "/admin/categories.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/categories",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/categories",
+            "overrides": [
+              "/admin/categories.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/admin/categories.func.js",
+          "outputByteSize": 821272
+        },
+        {
+          "relativePath": "/admin/contact/messages.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/contact/messages",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/contact/messages",
+            "overrides": [
+              "/admin/contact/messages.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/admin/contact/messages.func.js",
+          "outputByteSize": 785725
+        },
+        {
+          "relativePath": "/admin/contact.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/contact",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/contact",
+            "overrides": [
+              "/admin/contact.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/admin/contact.func.js",
+          "outputByteSize": 774546
+        },
+        {
+          "relativePath": "/admin/products/[id]/edit.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/products/[id]/edit",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/products/[id]/edit",
+            "overrides": [
+              "/admin/products/[id]/edit.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/admin/products/[id]/edit.func.js",
+          "outputByteSize": 834258
+        },
+        {
+          "relativePath": "/admin/products/new.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/products/new",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/products/new",
+            "overrides": [
+              "/admin/products/new.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/admin/products/new.func.js",
+          "outputByteSize": 796043
+        },
+        {
+          "relativePath": "/admin/products.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/products",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/products",
+            "overrides": [
+              "/admin/products.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/admin/products.func.js",
+          "outputByteSize": 825600
+        },
+        {
+          "relativePath": "/admin/resources/events/[id]/edit.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/resources/events/[id]/edit",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/resources/events/[id]/edit",
+            "overrides": [
+              "/admin/resources/events/[id]/edit.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/admin/resources/events/[id]/edit.func.js",
+          "outputByteSize": 781997
+        },
+        {
+          "relativePath": "/admin/resources/events/new.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/resources/events/new",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/resources/events/new",
+            "overrides": [
+              "/admin/resources/events/new.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/admin/resources/events/new.func.js",
+          "outputByteSize": 787933
+        },
+        {
+          "relativePath": "/admin/resources/news/edit/[id].func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/resources/news/edit/[id]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/resources/news/edit/[id]",
+            "overrides": [
+              "/admin/resources/news/edit/[id].rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/admin/resources/news/edit/[id].func.js",
+          "outputByteSize": 785211
+        },
+        {
+          "relativePath": "/admin/resources/news/new.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/resources/news/new",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/resources/news/new",
+            "overrides": [
+              "/admin/resources/news/new.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/admin/resources/news/new.func.js",
+          "outputByteSize": 782620
+        },
+        {
+          "relativePath": "/admin/resources.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/resources",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/resources",
+            "overrides": [
+              "/admin/resources.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/admin/resources.func.js",
+          "outputByteSize": 780306
+        },
+        {
+          "relativePath": "/admin.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin",
+            "overrides": [
+              "/admin.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/admin.func.js",
+          "outputByteSize": 776240
+        },
+        {
+          "relativePath": "/api/auth/login.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/auth/login",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/auth/login",
+            "overrides": [
+              "/api/auth/login.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/auth/login.func.js",
+          "outputByteSize": 254097
+        },
+        {
+          "relativePath": "/api/auth/logout.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/auth/logout",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/auth/logout",
+            "overrides": [
+              "/api/auth/logout.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/auth/logout.func.js",
+          "outputByteSize": 201131
+        },
+        {
+          "relativePath": "/api/auth/me.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/auth/me",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/auth/me",
+            "overrides": [
+              "/api/auth/me.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/auth/me.func.js",
+          "outputByteSize": 253333
+        },
+        {
+          "relativePath": "/api/auth/refresh.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/auth/refresh",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/auth/refresh",
+            "overrides": [
+              "/api/auth/refresh.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/auth/refresh.func.js",
+          "outputByteSize": 253572
+        },
+        {
+          "relativePath": "/api/categories.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/categories",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/categories",
+            "overrides": [
+              "/api/categories.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/categories.func.js",
+          "outputByteSize": 263735
+        },
+        {
+          "relativePath": "/api/contact.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/contact",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/contact",
+            "overrides": [
+              "/api/contact.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/contact.func.js",
+          "outputByteSize": 269681
+        },
+        {
+          "relativePath": "/api/events/[id].func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/events/[id]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/events/[id]",
+            "overrides": [
+              "/api/events/[id].rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/events/[id].func.js",
+          "outputByteSize": 260645
+        },
+        {
+          "relativePath": "/api/events.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/events",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/events",
+            "overrides": [
+              "/api/events.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/events.func.js",
+          "outputByteSize": 262745
+        },
+        {
+          "relativePath": "/api/news/[id].func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/news/[id]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/news/[id]",
+            "overrides": [
+              "/api/news/[id].rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/news/[id].func.js",
+          "outputByteSize": 267389
+        },
+        {
+          "relativePath": "/api/news.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/news",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/news",
+            "overrides": [
+              "/api/news.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/news.func.js",
+          "outputByteSize": 268138
+        },
+        {
+          "relativePath": "/api/products/[id].func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/products/[id]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/products/[id]",
+            "overrides": [
+              "/api/products/[id].rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/products/[id].func.js",
+          "outputByteSize": 264404
+        },
+        {
+          "relativePath": "/api/products-d1.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/products-d1",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/products-d1",
+            "overrides": [
+              "/api/products-d1.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/products-d1.func.js",
+          "outputByteSize": 262236
+        },
+        {
+          "relativePath": "/api/products.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/products",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/products",
+            "overrides": [
+              "/api/products.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/products.func.js",
+          "outputByteSize": 301442
+        },
+        {
+          "relativePath": "/api/quotes.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/quotes",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/quotes",
+            "overrides": [
+              "/api/quotes.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/quotes.func.js",
+          "outputByteSize": 254026
+        },
+        {
+          "relativePath": "/api/upload.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/upload",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/upload",
+            "overrides": [
+              "/api/upload.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/upload.func.js",
+          "outputByteSize": 259578
+        },
+        {
+          "relativePath": "/cozumler/anahtar-teslim-projeler.func",
+          "config": {
+            "runtime": "edge",
+            "name": "cozumler/anahtar-teslim-projeler",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/cozumler/anahtar-teslim-projeler",
+            "overrides": [
+              "/cozumler/anahtar-teslim-projeler.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/cozumler/anahtar-teslim-projeler.func.js",
+          "outputByteSize": 777623
+        },
+        {
+          "relativePath": "/cozumler/ar-ge-laboratuvarlari.func",
+          "config": {
+            "runtime": "edge",
+            "name": "cozumler/ar-ge-laboratuvarlari",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/cozumler/ar-ge-laboratuvarlari",
+            "overrides": [
+              "/cozumler/ar-ge-laboratuvarlari.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/cozumler/ar-ge-laboratuvarlari.func.js",
+          "outputByteSize": 778611
+        },
+        {
+          "relativePath": "/cozumler/endustriyel-laboratuvar-kurulumu.func",
+          "config": {
+            "runtime": "edge",
+            "name": "cozumler/endustriyel-laboratuvar-kurulumu",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/cozumler/endustriyel-laboratuvar-kurulumu",
+            "overrides": [
+              "/cozumler/endustriyel-laboratuvar-kurulumu.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/cozumler/endustriyel-laboratuvar-kurulumu.func.js",
+          "outputByteSize": 788195
+        },
+        {
+          "relativePath": "/cozumler/kalite-guvence-sistemleri.func",
+          "config": {
+            "runtime": "edge",
+            "name": "cozumler/kalite-guvence-sistemleri",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/cozumler/kalite-guvence-sistemleri",
+            "overrides": [
+              "/cozumler/kalite-guvence-sistemleri.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/cozumler/kalite-guvence-sistemleri.func.js",
+          "outputByteSize": 781048
+        },
+        {
+          "relativePath": "/cozumler/otomasyon-sistemleri.func",
+          "config": {
+            "runtime": "edge",
+            "name": "cozumler/otomasyon-sistemleri",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/cozumler/otomasyon-sistemleri",
+            "overrides": [
+              "/cozumler/otomasyon-sistemleri.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/cozumler/otomasyon-sistemleri.func.js",
+          "outputByteSize": 796113
+        },
+        {
+          "relativePath": "/cozumler.func",
+          "config": {
+            "runtime": "edge",
+            "name": "cozumler",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/cozumler",
+            "overrides": [
+              "/cozumler.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/cozumler.func.js",
+          "outputByteSize": 811460
+        },
+        {
+          "relativePath": "/hakkimizda.func",
+          "config": {
+            "runtime": "edge",
+            "name": "hakkimizda",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/hakkimizda",
+            "overrides": [
+              "/hakkimizda.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/hakkimizda.func.js",
+          "outputByteSize": 785356
+        },
+        {
+          "relativePath": "/iletisim.func",
+          "config": {
+            "runtime": "edge",
+            "name": "iletisim",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/iletisim",
+            "overrides": [
+              "/iletisim.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/iletisim.func.js",
+          "outputByteSize": 801726
+        },
+        {
+          "relativePath": "/index.func",
+          "config": {
+            "runtime": "edge",
+            "name": "index",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/index",
+            "overrides": [
+              "/",
+              "/index.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/index.func.js",
+          "outputByteSize": 887409
+        },
+        {
+          "relativePath": "/kaynaklar/etkinlik/[id].func",
+          "config": {
+            "runtime": "edge",
+            "name": "kaynaklar/etkinlik/[id]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/kaynaklar/etkinlik/[id]",
+            "overrides": [
+              "/kaynaklar/etkinlik/[id].rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/kaynaklar/etkinlik/[id].func.js",
+          "outputByteSize": 772155
+        },
+        {
+          "relativePath": "/kaynaklar/haber/[id].func",
+          "config": {
+            "runtime": "edge",
+            "name": "kaynaklar/haber/[id]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/kaynaklar/haber/[id]",
+            "overrides": [
+              "/kaynaklar/haber/[id].rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/kaynaklar/haber/[id].func.js",
+          "outputByteSize": 768543
+        },
+        {
+          "relativePath": "/kaynaklar.func",
+          "config": {
+            "runtime": "edge",
+            "name": "kaynaklar",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/kaynaklar",
+            "overrides": [
+              "/kaynaklar.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/kaynaklar.func.js",
+          "outputByteSize": 786851
+        },
+        {
+          "relativePath": "/login.func",
+          "config": {
+            "runtime": "edge",
+            "name": "login",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/login",
+            "overrides": [
+              "/login.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/login.func.js",
+          "outputByteSize": 763563
+        },
+        {
+          "relativePath": "/sektorler.func",
+          "config": {
+            "runtime": "edge",
+            "name": "sektorler",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/sektorler",
+            "overrides": [
+              "/sektorler.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/sektorler.func.js",
+          "outputByteSize": 817553
+        },
+        {
+          "relativePath": "/src/middleware.func",
+          "config": {
+            "runtime": "edge",
+            "name": "src/middleware",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/src/middleware",
+            "overrides": []
+          },
+          "outputPath": "__next-on-pages-dist__/functions/src/middleware.func.js",
+          "outputByteSize": 130017
+        },
+        {
+          "relativePath": "/teklif-al.func",
+          "config": {
+            "runtime": "edge",
+            "name": "teklif-al",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/teklif-al",
+            "overrides": [
+              "/teklif-al.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/teklif-al.func.js",
+          "outputByteSize": 779384
+        },
+        {
+          "relativePath": "/urunler/[category]/[subcategory]/[product].func",
+          "config": {
+            "runtime": "edge",
+            "name": "urunler/[category]/[subcategory]/[product]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/urunler/[category]/[subcategory]/[product]",
+            "overrides": [
+              "/urunler/[category]/[subcategory]/[product].rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/urunler/[category]/[subcategory]/[product].func.js",
+          "outputByteSize": 829791
+        },
+        {
+          "relativePath": "/urunler/[category]/[subcategory].func",
+          "config": {
+            "runtime": "edge",
+            "name": "urunler/[category]/[subcategory]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/urunler/[category]/[subcategory]",
+            "overrides": [
+              "/urunler/[category]/[subcategory].rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/urunler/[category]/[subcategory].func.js",
+          "outputByteSize": 812391
+        },
+        {
+          "relativePath": "/urunler/[category].func",
+          "config": {
+            "runtime": "edge",
+            "name": "urunler/[category]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/urunler/[category]",
+            "overrides": [
+              "/urunler/[category].rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/urunler/[category].func.js",
+          "outputByteSize": 805703
+        },
+        {
+          "relativePath": "/urunler.func",
+          "config": {
+            "runtime": "edge",
+            "name": "urunler",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/urunler",
+            "overrides": [
+              "/urunler.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/urunler.func.js",
+          "outputByteSize": 812346
+        }
+      ],
+      "prerendered": [],
+      "ignored": [
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/_not-found.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "_not-found",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/_not-found.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/admin/categories.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/categories",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/categories.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/admin/contact/messages.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/contact/messages",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/contact/messages.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/admin/contact.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/contact",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/contact.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/admin/products/[id]/edit.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/products/[id]/edit",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/products/[id]/edit.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/admin/products/new.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/products/new",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/products/new.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/admin/products.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/products",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/products.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/admin/resources/events/[id]/edit.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/resources/events/[id]/edit",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/resources/events/[id]/edit.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/admin/resources/events/new.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/resources/events/new",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/resources/events/new.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/admin/resources/news/edit/[id].rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/resources/news/edit/[id]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/resources/news/edit/[id].rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/admin/resources/news/new.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/resources/news/new",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/resources/news/new.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/admin/resources.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin/resources",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin/resources.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/admin.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "admin",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/admin.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/api/auth/login.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/auth/login",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/auth/login.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/api/auth/logout.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/auth/logout",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/auth/logout.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/api/auth/me.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/auth/me",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/auth/me.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/api/auth/refresh.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/auth/refresh",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/auth/refresh.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/api/categories.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/categories",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/categories.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/api/contact.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/contact",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/contact.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/api/events/[id].rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/events/[id]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/events/[id].rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/api/events.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/events",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/events.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/api/news/[id].rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/news/[id]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/news/[id].rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/api/news.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/news",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/news.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/api/products/[id].rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/products/[id]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/products/[id].rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/api/products-d1.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/products-d1",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/products-d1.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/api/products.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/products",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/products.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/api/quotes.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/quotes",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/quotes.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/api/upload.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/upload",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/upload.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/cozumler/anahtar-teslim-projeler.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "cozumler/anahtar-teslim-projeler",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/cozumler/anahtar-teslim-projeler.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/cozumler/ar-ge-laboratuvarlari.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "cozumler/ar-ge-laboratuvarlari",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/cozumler/ar-ge-laboratuvarlari.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/cozumler/endustriyel-laboratuvar-kurulumu.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "cozumler/endustriyel-laboratuvar-kurulumu",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/cozumler/endustriyel-laboratuvar-kurulumu.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/cozumler/kalite-guvence-sistemleri.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "cozumler/kalite-guvence-sistemleri",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/cozumler/kalite-guvence-sistemleri.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/cozumler/otomasyon-sistemleri.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "cozumler/otomasyon-sistemleri",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/cozumler/otomasyon-sistemleri.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/cozumler.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "cozumler",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/cozumler.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/hakkimizda.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "hakkimizda",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/hakkimizda.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/iletisim.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "iletisim",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/iletisim.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/index.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "index",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/index.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/kaynaklar/etkinlik/[id].rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "kaynaklar/etkinlik/[id]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/kaynaklar/etkinlik/[id].rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/kaynaklar/haber/[id].rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "kaynaklar/haber/[id]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/kaynaklar/haber/[id].rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/kaynaklar.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "kaynaklar",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/kaynaklar.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/login.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "login",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/login.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/sektorler.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "sektorler",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/sektorler.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/teklif-al.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "teklif-al",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/teklif-al.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/urunler/[category]/[subcategory]/[product].rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "urunler/[category]/[subcategory]/[product]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/urunler/[category]/[subcategory]/[product].rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/urunler/[category]/[subcategory].rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "urunler/[category]/[subcategory]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/urunler/[category]/[subcategory].rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/urunler/[category].rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "urunler/[category]",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/urunler/[category].rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/urunler.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "urunler",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/urunler.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "invalid _error functions in app directory are ignored",
+          "relativePath": "/_error.func",
+          "config": {
+            "operationType": "Page",
+            "handler": "___next_launcher.cjs",
+            "runtime": "nodejs22.x",
+            "architecture": "arm64",
+            "environment": {},
+            "supportsMultiPayloads": true,
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "experimentalAllowBundling": false,
+            "launcherType": "Nodejs",
+            "shouldAddHelpers": false,
+            "shouldAddSourcemapSupport": false,
+            "filePathMap": {
+              "node_modules/next/dist/compiled/jest-worker/processChild.js": "node_modules/next/dist/compiled/jest-worker/processChild.js",
+              "node_modules/next/dist/compiled/jest-worker/threadChild.js": "node_modules/next/dist/compiled/jest-worker/threadChild.js",
+              "node_modules/styled-jsx/index.js": "node_modules/styled-jsx/index.js",
+              "node_modules/styled-jsx/style.js": "node_modules/styled-jsx/style.js",
+              "node_modules/next/dist/server/lib/start-server.js": "node_modules/next/dist/server/lib/start-server.js",
+              "node_modules/next/dist/server/next.js": "node_modules/next/dist/server/next.js",
+              "node_modules/next/dist/server/require-hook.js": "node_modules/next/dist/server/require-hook.js",
+              "node_modules/next/dist/server/next-server.js": "node_modules/next/dist/server/next-server.js",
+              "node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js": "node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js",
+              "node_modules/next/dist/server/future/route-modules/pages/module.compiled.js": "node_modules/next/dist/server/future/route-modules/pages/module.compiled.js",
+              ".env.example": ".env.example",
+              ".env.local": ".env.local",
+              ".next/build-manifest.json": ".next/build-manifest.json",
+              ".next/prerender-manifest.json": ".next/prerender-manifest.json",
+              ".next/prerender-manifest.js": ".next/prerender-manifest.js",
+              ".next/server/middleware-manifest.json": ".next/server/middleware-manifest.json",
+              ".next/server/middleware-build-manifest.js": ".next/server/middleware-build-manifest.js",
+              ".next/server/middleware-react-loadable-manifest.js": ".next/server/middleware-react-loadable-manifest.js",
+              ".next/app-path-routes-manifest.json": ".next/app-path-routes-manifest.json",
+              ".next/app-build-manifest.json": ".next/app-build-manifest.json",
+              ".next/server/server-reference-manifest.js": ".next/server/server-reference-manifest.js",
+              ".next/server/server-reference-manifest.json": ".next/server/server-reference-manifest.json",
+              ".next/react-loadable-manifest.json": ".next/react-loadable-manifest.json",
+              ".next/server/font-manifest.json": ".next/server/font-manifest.json",
+              ".next/BUILD_ID": ".next/BUILD_ID",
+              ".next/server/next-font-manifest.js": ".next/server/next-font-manifest.js",
+              ".next/server/next-font-manifest.json": ".next/server/next-font-manifest.json",
+              "package.json": "package.json",
+              ".next/package.json": ".next/package.json",
+              ".next/server/chunks/329.js": ".next/server/chunks/329.js",
+              ".next/server/chunks/font-manifest.json": ".next/server/chunks/font-manifest.json",
+              ".next/server/webpack-runtime.js": ".next/server/webpack-runtime.js",
+              ".next/server/pages/_error.js": ".next/server/pages/_error.js",
+              ".next/server/pages/_app.js": ".next/server/pages/_app.js",
+              ".next/server/pages/_document.js": ".next/server/pages/_document.js"
+            }
+          }
+        }
+      ]
+    },
+    "staticAssets": [
+      "/.DS_Store",
+      "/500.html",
+      "/__next_data_catchall.json",
+      "/_app.rsc.json",
+      "/_document.rsc.json",
+      "/_error.rsc.json",
+      "/_next/static/F3F58Ws0yITT6658bZYPl/_buildManifest.js",
+      "/_next/static/F3F58Ws0yITT6658bZYPl/_ssgManifest.js",
+      "/_next/static/chunks/1176-218f3a328b5f1886.js",
+      "/_next/static/chunks/1832-a9a735b5c92625dc.js",
+      "/_next/static/chunks/2695-063f111499e151c1.js",
+      "/_next/static/chunks/2767-e19184863b871a18.js",
+      "/_next/static/chunks/2958-2326f1cf5f8256f7.js",
+      "/_next/static/chunks/4890-ae4611809fa6c168.js",
+      "/_next/static/chunks/6330-081ef9d1546995a6.js",
+      "/_next/static/chunks/7506-425697d8473f4624.js",
+      "/_next/static/chunks/919-22e7d5bfcaec0b4a.js",
+      "/_next/static/chunks/993-00a156fd2f68067b.js",
+      "/_next/static/chunks/app/admin/categories/page-83abf471b5500f4c.js",
+      "/_next/static/chunks/app/admin/contact/messages/page-dfdaab63643aa2b6.js",
+      "/_next/static/chunks/app/admin/contact/page-6f51f4934928e3ed.js",
+      "/_next/static/chunks/app/admin/layout-ccd0209c3aade434.js",
+      "/_next/static/chunks/app/admin/page-36164383d381bb8b.js",
+      "/_next/static/chunks/app/admin/products/[id]/edit/page-bbd7158ab2f2a082.js",
+      "/_next/static/chunks/app/admin/products/new/page-22b42cd2758110c6.js",
+      "/_next/static/chunks/app/admin/products/page-ac8d98a4e0367f54.js",
+      "/_next/static/chunks/app/admin/resources/events/[id]/edit/page-7a6697298d1dfe9c.js",
+      "/_next/static/chunks/app/admin/resources/events/new/page-2d2eb395fbe0cb81.js",
+      "/_next/static/chunks/app/admin/resources/news/edit/[id]/page-6b127f79d36a7323.js",
+      "/_next/static/chunks/app/admin/resources/news/new/page-02b2d10e7c38b232.js",
+      "/_next/static/chunks/app/admin/resources/page-a234031809fe6b1e.js",
+      "/_next/static/chunks/app/cozumler/anahtar-teslim-projeler/page-fef232a99e6dc077.js",
+      "/_next/static/chunks/app/cozumler/ar-ge-laboratuvarlari/page-32a5b1d4b5af3f1a.js",
+      "/_next/static/chunks/app/cozumler/endustriyel-laboratuvar-kurulumu/page-81b5e52eb76a1e65.js",
+      "/_next/static/chunks/app/cozumler/kalite-guvence-sistemleri/page-e7a8620b8bb474f1.js",
+      "/_next/static/chunks/app/cozumler/otomasyon-sistemleri/page-8ea392654a9f7f64.js",
+      "/_next/static/chunks/app/cozumler/page-7e259dd36c12c04d.js",
+      "/_next/static/chunks/app/error-801a618c04191910.js",
+      "/_next/static/chunks/app/hakkimizda/page-382feb3478af84c2.js",
+      "/_next/static/chunks/app/iletisim/page-f5a3c3929fbaafd5.js",
+      "/_next/static/chunks/app/kaynaklar/etkinlik/[id]/page-c06b482e7998aea3.js",
+      "/_next/static/chunks/app/kaynaklar/haber/[id]/page-167164d04b29b9f2.js",
+      "/_next/static/chunks/app/kaynaklar/page-50940055314626bf.js",
+      "/_next/static/chunks/app/layout-27f0bc8fd967d6d1.js",
+      "/_next/static/chunks/app/login/page-7e86595bd7624354.js",
+      "/_next/static/chunks/app/not-found-2f2237ca554a317a.js",
+      "/_next/static/chunks/app/page-857f0d63e5a38343.js",
+      "/_next/static/chunks/app/sektorler/page-7368f969f76c45bb.js",
+      "/_next/static/chunks/app/teklif-al/page-3d662e5a58e04bce.js",
+      "/_next/static/chunks/app/urunler/[category]/[subcategory]/[product]/page-ec386b1bc438a9c8.js",
+      "/_next/static/chunks/app/urunler/[category]/[subcategory]/page-1b613ff09e2aea06.js",
+      "/_next/static/chunks/app/urunler/[category]/page-ca1dc1d4e79191e3.js",
+      "/_next/static/chunks/app/urunler/page-d79d13e15de8c183.js",
+      "/_next/static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "/_next/static/chunks/framework-b566207abf043e2e.js",
+      "/_next/static/chunks/main-app-b5434e56c2b0ff6f.js",
+      "/_next/static/chunks/main-b6dcccc33a0bd6ed.js",
+      "/_next/static/chunks/pages/_app-11c09b1e93f7270c.js",
+      "/_next/static/chunks/pages/_error-7ae0e5d1f9ec0862.js",
+      "/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+      "/_next/static/chunks/webpack-64a9b8d610704ad7.js",
+      "/_next/static/css/d82e42ca3c0ab6c5.css",
+      "/apple-touch-icon.png",
+      "/client-images/3nh.jpg",
+      "/client-images/allience.jpg",
+      "/client-images/apera.jpg",
+      "/client-images/atago.jpg",
+      "/client-images/atre2.jpg",
+      "/client-images/awernes.jpg",
+      "/client-images/behr.jpg",
+      "/client-images/chemo.jpg",
+      "/client-images/foodtech.jpg",
+      "/client-images/goldstandard.jpg",
+      "/client-images/harrer.jpg",
+      "/client-images/interline.jpg",
+      "/client-images/labplus.jpg",
+      "/client-images/maselli.jpg",
+      "/client-images/mazyme.jpg",
+      "/client-images/miris.png",
+      "/client-images/moist.jpg",
+      "/client-images/neogen.jpg",
+      "/client-images/novasina.jpg",
+      "/client-images/orion.jpg",
+      "/client-images/pentair.jpg",
+      "/client-images/waterid.jpg",
+      "/client-images/xebios.jpg",
+      "/favicon-16x16.png",
+      "/favicon-32x32.png",
+      "/images/.DS_Store",
+      "/images/banner-lab.jpg",
+      "/images/favicon.png",
+      "/images/instagram-logo.svg",
+      "/images/lab-1.jpg",
+      "/images/lab-10.jpg",
+      "/images/lab-2.jpg",
+      "/images/lab-3.jpg",
+      "/images/lab-4.jpg",
+      "/images/lab-7.jpg",
+      "/images/lab-pattern.svg",
+      "/images/linkedin-logo.svg",
+      "/images/logo-protek-white.png",
+      "/images/logo-protek.png",
+      "/images/promo-images/banner-lab.jpg",
+      "/images/promo-images/banner-lab2.jpg",
+      "/images/promo-images/banner-lab3.jpg",
+      "/logo-protek.png",
+      "/site.webmanifest",
+      "/uploads/products/1750707410682-1ade7db09ccdf767144027cb9323670ebf6df8b051a674f19aba4d100d53c86e.png",
+      "/uploads/products/1750707410684-3b709303ff8c1bc3be2b9297b5d6ff1faeb5cb5b20b909507fc15d71817ea9e9.png",
+      "/uploads/products/1750707410686-676c519f9a9f48924b2819c460d063c0d58fcf53c5ad65a8c6d31c575e0612a7.png",
+      "/uploads/products/1750707488518-lab-1.jpg",
+      "/uploads/products/1750707608705-3b709303ff8c1bc3be2b9297b5d6ff1faeb5cb5b20b909507fc15d71817ea9e9.png",
+      "/uploads/products/1750707608706-065489deedaabc57ebd6fa20bb36b20cdb16e286ef7d8a50e4e2c36c3c2df470.png",
+      "/uploads/products/1750707608706-676c519f9a9f48924b2819c460d063c0d58fcf53c5ad65a8c6d31c575e0612a7.png",
+      "/uploads/products/1750723179625-3b709303ff8c1bc3be2b9297b5d6ff1faeb5cb5b20b909507fc15d71817ea9e9.png",
+      "/uploads/products/1750874536753-1ade7db09ccdf767144027cb9323670ebf6df8b051a674f19aba4d100d53c86e.png",
+      "/uploads/products/1750874536753-3b709303ff8c1bc3be2b9297b5d6ff1faeb5cb5b20b909507fc15d71817ea9e9.png",
+      "/uploads/products/1750876243847-3b709303ff8c1bc3be2b9297b5d6ff1faeb5cb5b20b909507fc15d71817ea9e9.png",
+      "/uploads/products/1750876243848-676c519f9a9f48924b2819c460d063c0d58fcf53c5ad65a8c6d31c575e0612a7.png",
+      "/uploads/products/1750876460279-676c519f9a9f48924b2819c460d063c0d58fcf53c5ad65a8c6d31c575e0612a7.png",
+      "/uploads/products/1750876460280-065489deedaabc57ebd6fa20bb36b20cdb16e286ef7d8a50e4e2c36c3c2df470.png",
+      "/uploads/products/1750876825198-duvar-6000x2800-2.jpg",
+      "/uploads/products/1750877347006-duvar-6000x2800-3.jpg",
+      "/uploads/products/1750878191359-duvar-6000x2800-3.jpg",
+      "/uploads/products/1750878295815-duvar-6000x2800.jpg",
+      "/uploads/products/1750878424094-065489deedaabc57ebd6fa20bb36b20cdb16e286ef7d8a50e4e2c36c3c2df470.png",
+      "/uploads/products/1750881672195-duvar-6000x2800.jpg",
+      "/uploads/products/1753800196470-6ibusa-ekran-resmi-2025-07-29-15-13-28.png",
+      "/uploads/products/1753800436237-swyhga-ekran-resmi-2025-07-29-15-16-47.png",
+      "/uploads/products/1753800446602-6q2qqx-ekran-resmi-2025-07-29-15-13-28.png",
+      "/uploads/products/1753800455637-ww6pfu-ekran-resmi-2025-07-29-15-16-47.png",
+      "/uploads/products/1753800641167-yeeo46-ekran-resmi-2025-07-29-15-13-28.png",
+      "/uploads/products/1753801029950-4wb5dg-ekran-resmi-2025-07-29-15-16-47.png",
+      "/uploads/products/Digital_Refraktometre_DR_A1_1_1750722840930.png",
+      "/uploads/products/batch-0-1753708788425-b6jdqb-mug.png",
+      "/uploads/products/batch-0-1753708822416-8mdh2n-mug1.png",
+      "/uploads/products/batch-0-1753708862061-asajml-ekran-resmi-2025-07-11-15-23-55.png",
+      "/uploads/products/batch-0-1753709829147-2j2uco-proforma-invoice.jpg",
+      "/uploads/products/batch-0-1753710215303-tpnt5i-mug1.png",
+      "/uploads/products/batch-0-1753710220167-dpcl0c-mug.png",
+      "/uploads/products/batch-0-1753710613711-8tj955-mug.png",
+      "/uploads/products/batch-0-1753714753962-8fdd01-mug.png",
+      "/uploads/products/batch-0-1753794396364-saqqlz-ekran-resmi-2025-07-29-15-13-28.png"
+    ],
+    "identifiers": {
+      "wasm": {},
+      "manifest": {
+        "__RSC_SERVER_MANIFEST": {
+          "consumers": 32,
+          "newDest": "__next-on-pages-dist__/manifest/__RSC_SERVER_MANIFEST.js",
+          "byteLength": 176,
+          "consumersList": [
+            "/_not-found.func/index.js",
+            "/admin.func/index.js",
+            "/admin/categories.func/index.js",
+            "/admin/contact.func/index.js",
+            "/admin/contact/messages.func/index.js",
+            "/admin/products.func/index.js",
+            "/admin/products/[id]/edit.func/index.js",
+            "/admin/products/new.func/index.js",
+            "/admin/resources.func/index.js",
+            "/admin/resources/events/[id]/edit.func/index.js",
+            "/admin/resources/events/new.func/index.js",
+            "/admin/resources/news/edit/[id].func/index.js",
+            "/admin/resources/news/new.func/index.js",
+            "/cozumler.func/index.js",
+            "/cozumler/anahtar-teslim-projeler.func/index.js",
+            "/cozumler/ar-ge-laboratuvarlari.func/index.js",
+            "/cozumler/endustriyel-laboratuvar-kurulumu.func/index.js",
+            "/cozumler/kalite-guvence-sistemleri.func/index.js",
+            "/cozumler/otomasyon-sistemleri.func/index.js",
+            "/hakkimizda.func/index.js",
+            "/iletisim.func/index.js",
+            "/index.func/index.js",
+            "/kaynaklar.func/index.js",
+            "/kaynaklar/etkinlik/[id].func/index.js",
+            "/kaynaklar/haber/[id].func/index.js",
+            "/login.func/index.js",
+            "/sektorler.func/index.js",
+            "/teklif-al.func/index.js",
+            "/urunler.func/index.js",
+            "/urunler/[category].func/index.js",
+            "/urunler/[category]/[subcategory].func/index.js",
+            "/urunler/[category]/[subcategory]/[product].func/index.js"
+          ]
+        },
+        "__BUILD_MANIFEST": {
+          "consumers": 47,
+          "groupedPath": "27d10e462fba646daaa29468a0656e12",
+          "newDest": "__next-on-pages-dist__/manifest/27d10e462fba646daaa29468a0656e12.js",
+          "byteLength": 886,
+          "consumersList": [
+            "/_not-found.func/index.js",
+            "/admin.func/index.js",
+            "/admin/categories.func/index.js",
+            "/admin/contact.func/index.js",
+            "/admin/contact/messages.func/index.js",
+            "/admin/products.func/index.js",
+            "/admin/products/[id]/edit.func/index.js",
+            "/admin/products/new.func/index.js",
+            "/admin/resources.func/index.js",
+            "/admin/resources/events/[id]/edit.func/index.js",
+            "/admin/resources/events/new.func/index.js",
+            "/admin/resources/news/edit/[id].func/index.js",
+            "/admin/resources/news/new.func/index.js",
+            "/api/auth/login.func/index.js",
+            "/api/auth/logout.func/index.js",
+            "/api/auth/me.func/index.js",
+            "/api/auth/refresh.func/index.js",
+            "/api/categories.func/index.js",
+            "/api/contact.func/index.js",
+            "/api/events.func/index.js",
+            "/api/events/[id].func/index.js",
+            "/api/news.func/index.js",
+            "/api/news/[id].func/index.js",
+            "/api/products-d1.func/index.js",
+            "/api/products.func/index.js",
+            "/api/products/[id].func/index.js",
+            "/api/quotes.func/index.js",
+            "/api/upload.func/index.js",
+            "/cozumler.func/index.js",
+            "/cozumler/anahtar-teslim-projeler.func/index.js",
+            "/cozumler/ar-ge-laboratuvarlari.func/index.js",
+            "/cozumler/endustriyel-laboratuvar-kurulumu.func/index.js",
+            "/cozumler/kalite-guvence-sistemleri.func/index.js",
+            "/cozumler/otomasyon-sistemleri.func/index.js",
+            "/hakkimizda.func/index.js",
+            "/iletisim.func/index.js",
+            "/index.func/index.js",
+            "/kaynaklar.func/index.js",
+            "/kaynaklar/etkinlik/[id].func/index.js",
+            "/kaynaklar/haber/[id].func/index.js",
+            "/login.func/index.js",
+            "/sektorler.func/index.js",
+            "/teklif-al.func/index.js",
+            "/urunler.func/index.js",
+            "/urunler/[category].func/index.js",
+            "/urunler/[category]/[subcategory].func/index.js",
+            "/urunler/[category]/[subcategory]/[product].func/index.js"
+          ]
+        },
+        "__REACT_LOADABLE_MANIFEST": {
+          "consumers": 47,
+          "groupedPath": "27d10e462fba646daaa29468a0656e12",
+          "newDest": "__next-on-pages-dist__/manifest/27d10e462fba646daaa29468a0656e12.js",
+          "byteLength": 94,
+          "consumersList": [
+            "/_not-found.func/index.js",
+            "/admin.func/index.js",
+            "/admin/categories.func/index.js",
+            "/admin/contact.func/index.js",
+            "/admin/contact/messages.func/index.js",
+            "/admin/products.func/index.js",
+            "/admin/products/[id]/edit.func/index.js",
+            "/admin/products/new.func/index.js",
+            "/admin/resources.func/index.js",
+            "/admin/resources/events/[id]/edit.func/index.js",
+            "/admin/resources/events/new.func/index.js",
+            "/admin/resources/news/edit/[id].func/index.js",
+            "/admin/resources/news/new.func/index.js",
+            "/api/auth/login.func/index.js",
+            "/api/auth/logout.func/index.js",
+            "/api/auth/me.func/index.js",
+            "/api/auth/refresh.func/index.js",
+            "/api/categories.func/index.js",
+            "/api/contact.func/index.js",
+            "/api/events.func/index.js",
+            "/api/events/[id].func/index.js",
+            "/api/news.func/index.js",
+            "/api/news/[id].func/index.js",
+            "/api/products-d1.func/index.js",
+            "/api/products.func/index.js",
+            "/api/products/[id].func/index.js",
+            "/api/quotes.func/index.js",
+            "/api/upload.func/index.js",
+            "/cozumler.func/index.js",
+            "/cozumler/anahtar-teslim-projeler.func/index.js",
+            "/cozumler/ar-ge-laboratuvarlari.func/index.js",
+            "/cozumler/endustriyel-laboratuvar-kurulumu.func/index.js",
+            "/cozumler/kalite-guvence-sistemleri.func/index.js",
+            "/cozumler/otomasyon-sistemleri.func/index.js",
+            "/hakkimizda.func/index.js",
+            "/iletisim.func/index.js",
+            "/index.func/index.js",
+            "/kaynaklar.func/index.js",
+            "/kaynaklar/etkinlik/[id].func/index.js",
+            "/kaynaklar/haber/[id].func/index.js",
+            "/login.func/index.js",
+            "/sektorler.func/index.js",
+            "/teklif-al.func/index.js",
+            "/urunler.func/index.js",
+            "/urunler/[category].func/index.js",
+            "/urunler/[category]/[subcategory].func/index.js",
+            "/urunler/[category]/[subcategory]/[product].func/index.js"
+          ]
+        },
+        "__NEXT_FONT_MANIFEST": {
+          "consumers": 47,
+          "groupedPath": "27d10e462fba646daaa29468a0656e12",
+          "newDest": "__next-on-pages-dist__/manifest/27d10e462fba646daaa29468a0656e12.js",
+          "byteLength": 167,
+          "consumersList": [
+            "/_not-found.func/index.js",
+            "/admin.func/index.js",
+            "/admin/categories.func/index.js",
+            "/admin/contact.func/index.js",
+            "/admin/contact/messages.func/index.js",
+            "/admin/products.func/index.js",
+            "/admin/products/[id]/edit.func/index.js",
+            "/admin/products/new.func/index.js",
+            "/admin/resources.func/index.js",
+            "/admin/resources/events/[id]/edit.func/index.js",
+            "/admin/resources/events/new.func/index.js",
+            "/admin/resources/news/edit/[id].func/index.js",
+            "/admin/resources/news/new.func/index.js",
+            "/api/auth/login.func/index.js",
+            "/api/auth/logout.func/index.js",
+            "/api/auth/me.func/index.js",
+            "/api/auth/refresh.func/index.js",
+            "/api/categories.func/index.js",
+            "/api/contact.func/index.js",
+            "/api/events.func/index.js",
+            "/api/events/[id].func/index.js",
+            "/api/news.func/index.js",
+            "/api/news/[id].func/index.js",
+            "/api/products-d1.func/index.js",
+            "/api/products.func/index.js",
+            "/api/products/[id].func/index.js",
+            "/api/quotes.func/index.js",
+            "/api/upload.func/index.js",
+            "/cozumler.func/index.js",
+            "/cozumler/anahtar-teslim-projeler.func/index.js",
+            "/cozumler/ar-ge-laboratuvarlari.func/index.js",
+            "/cozumler/endustriyel-laboratuvar-kurulumu.func/index.js",
+            "/cozumler/kalite-guvence-sistemleri.func/index.js",
+            "/cozumler/otomasyon-sistemleri.func/index.js",
+            "/hakkimizda.func/index.js",
+            "/iletisim.func/index.js",
+            "/index.func/index.js",
+            "/kaynaklar.func/index.js",
+            "/kaynaklar/etkinlik/[id].func/index.js",
+            "/kaynaklar/haber/[id].func/index.js",
+            "/login.func/index.js",
+            "/sektorler.func/index.js",
+            "/teklif-al.func/index.js",
+            "/urunler.func/index.js",
+            "/urunler/[category].func/index.js",
+            "/urunler/[category]/[subcategory].func/index.js",
+            "/urunler/[category]/[subcategory]/[product].func/index.js"
+          ]
+        }
+      },
+      "webpack": {}
+    }
+  }
+}

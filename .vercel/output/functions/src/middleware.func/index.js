@@ -1,0 +1,9164 @@
+
+  
+  globalThis._ENTRIES = {};
+/**/;self.__PRERENDER_MANIFEST="{\"version\":4,\"routes\":{},\"dynamicRoutes\":{},\"notFoundRoutes\":[],\"preview\":{\"previewModeId\":\"eb652a4d9c20992daab59d60be840cf8\",\"previewModeSigningKey\":\"b47de7fd81def8299c8740dceb48ee9e8218ebd847e384a6aa15bbb56d4db62f\",\"previewModeEncryptionKey\":\"e01ab5e3fa614ee5c8cb375ebac0305ab73a0d3fa03143facfd7274b2bc4255f\"}}"
+/**/;/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		var threw = true;
+/******/ 		try {
+/******/ 			__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 			threw = false;
+/******/ 		} finally {
+/******/ 			if(threw) delete __webpack_module_cache__[moduleId];
+/******/ 		}
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/chunk loaded */
+/******/ 	(() => {
+/******/ 		var deferred = [];
+/******/ 		__webpack_require__.O = (result, chunkIds, fn, priority) => {
+/******/ 			if(chunkIds) {
+/******/ 				priority = priority || 0;
+/******/ 				for(var i = deferred.length; i > 0 && deferred[i - 1][2] > priority; i--) deferred[i] = deferred[i - 1];
+/******/ 				deferred[i] = [chunkIds, fn, priority];
+/******/ 				return;
+/******/ 			}
+/******/ 			var notFulfilled = Infinity;
+/******/ 			for (var i = 0; i < deferred.length; i++) {
+/******/ 				var [chunkIds, fn, priority] = deferred[i];
+/******/ 				var fulfilled = true;
+/******/ 				for (var j = 0; j < chunkIds.length; j++) {
+/******/ 					if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every((key) => (__webpack_require__.O[key](chunkIds[j])))) {
+/******/ 						chunkIds.splice(j--, 1);
+/******/ 					} else {
+/******/ 						fulfilled = false;
+/******/ 						if(priority < notFulfilled) notFulfilled = priority;
+/******/ 					}
+/******/ 				}
+/******/ 				if(fulfilled) {
+/******/ 					deferred.splice(i--, 1)
+/******/ 					var r = fn();
+/******/ 					if (r !== undefined) result = r;
+/******/ 				}
+/******/ 			}
+/******/ 			return result;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/ensure chunk */
+/******/ 	(() => {
+/******/ 		// The chunk loading function for additional chunks
+/******/ 		// Since all referenced chunks are already included
+/******/ 		// in this file, this function is empty here.
+/******/ 		__webpack_require__.e = () => (Promise.resolve());
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		// no baseURI
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			993: 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		__webpack_require__.O.j = (chunkId) => (installedChunks[chunkId] === 0);
+/******/ 		
+/******/ 		// install a JSONP callback for chunk loading
+/******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
+/******/ 			var [chunkIds, moreModules, runtime] = data;
+/******/ 			// add "moreModules" to the modules object,
+/******/ 			// then flag all "chunkIds" as loaded and fire callback
+/******/ 			var moduleId, chunkId, i = 0;
+/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
+/******/ 				for(moduleId in moreModules) {
+/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
+/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 					}
+/******/ 				}
+/******/ 				if(runtime) var result = runtime(__webpack_require__);
+/******/ 			}
+/******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
+/******/ 			for(;i < chunkIds.length; i++) {
+/******/ 				chunkId = chunkIds[i];
+/******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
+/******/ 					installedChunks[chunkId][0]();
+/******/ 				}
+/******/ 				installedChunks[chunkId] = 0;
+/******/ 			}
+/******/ 			return __webpack_require__.O(result);
+/******/ 		}
+/******/ 		
+/******/ 		var chunkLoadingGlobal = self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || [];
+/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
+/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	
+/******/ })()
+;
+//# sourceMappingURL=edge-runtime-webpack.js.map
+/**/;(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([[727],{
+
+/***/ 2067:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:async_hooks");
+
+/***/ }),
+
+/***/ 6195:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:buffer");
+
+/***/ }),
+
+/***/ 468:
+/***/ (() => {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 4610:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ nHandler)
+});
+
+// NAMESPACE OBJECT: ./src/middleware.ts
+var middleware_namespaceObject = {};
+__webpack_require__.r(middleware_namespaceObject);
+__webpack_require__.d(middleware_namespaceObject, {
+  config: () => (config),
+  middleware: () => (middleware)
+});
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/web/globals.js
+async function registerInstrumentation() {
+    if ("_ENTRIES" in globalThis && _ENTRIES.middleware_instrumentation && _ENTRIES.middleware_instrumentation.register) {
+        try {
+            await _ENTRIES.middleware_instrumentation.register();
+        } catch (err) {
+            err.message = `An error occurred while loading instrumentation hook: ${err.message}`;
+            throw err;
+        }
+    }
+}
+let registerInstrumentationPromise = null;
+function ensureInstrumentationRegistered() {
+    if (!registerInstrumentationPromise) {
+        registerInstrumentationPromise = registerInstrumentation();
+    }
+    return registerInstrumentationPromise;
+}
+function getUnsupportedModuleErrorMessage(module) {
+    // warning: if you change these messages, you must adjust how react-dev-overlay's middleware detects modules not found
+    return `The edge runtime does not support Node.js '${module}' module.
+Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
+}
+function __import_unsupported(moduleName) {
+    const proxy = new Proxy(function() {}, {
+        get (_obj, prop) {
+            if (prop === "then") {
+                return {};
+            }
+            throw new Error(getUnsupportedModuleErrorMessage(moduleName));
+        },
+        construct () {
+            throw new Error(getUnsupportedModuleErrorMessage(moduleName));
+        },
+        apply (_target, _this, args) {
+            if (typeof args[0] === "function") {
+                return args[0](proxy);
+            }
+            throw new Error(getUnsupportedModuleErrorMessage(moduleName));
+        }
+    });
+    return new Proxy({}, {
+        get: ()=>proxy
+    });
+}
+function enhanceGlobals() {
+    // The condition is true when the "process" module is provided
+    if (process !== __webpack_require__.g.process) {
+        // prefer local process but global.process has correct "env"
+        process.env = __webpack_require__.g.process.env;
+        __webpack_require__.g.process = process;
+    }
+    // to allow building code that import but does not use node.js modules,
+    // webpack will expect this function to exist in global scope
+    Object.defineProperty(globalThis, "__import_unsupported", {
+        value: __import_unsupported,
+        enumerable: false,
+        configurable: false
+    });
+    // Eagerly fire instrumentation hook to make the startup faster.
+    void ensureInstrumentationRegistered();
+}
+enhanceGlobals(); //# sourceMappingURL=globals.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/web/error.js
+class PageSignatureError extends Error {
+    constructor({ page }){
+        super(`The middleware "${page}" accepts an async API directly with the form:
+  
+  export function middleware(request, event) {
+    return NextResponse.redirect('/new-location')
+  }
+  
+  Read more: https://nextjs.org/docs/messages/middleware-new-signature
+  `);
+    }
+}
+class RemovedPageError extends Error {
+    constructor(){
+        super(`The request.page has been deprecated in favour of \`URLPattern\`.
+  Read more: https://nextjs.org/docs/messages/middleware-request-page
+  `);
+    }
+}
+class RemovedUAError extends Error {
+    constructor(){
+        super(`The request.ua has been removed in favour of \`userAgent\` function.
+  Read more: https://nextjs.org/docs/messages/middleware-parse-user-agent
+  `);
+    }
+} //# sourceMappingURL=error.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/web/utils.js
+/**
+ * Converts a Node.js IncomingHttpHeaders object to a Headers object. Any
+ * headers with multiple values will be joined with a comma and space. Any
+ * headers that have an undefined value will be ignored and others will be
+ * coerced to strings.
+ *
+ * @param nodeHeaders the headers object to convert
+ * @returns the converted headers object
+ */ function fromNodeOutgoingHttpHeaders(nodeHeaders) {
+    const headers = new Headers();
+    for (let [key, value] of Object.entries(nodeHeaders)){
+        const values = Array.isArray(value) ? value : [
+            value
+        ];
+        for (let v of values){
+            if (typeof v === "undefined") continue;
+            if (typeof v === "number") {
+                v = v.toString();
+            }
+            headers.append(key, v);
+        }
+    }
+    return headers;
+}
+/*
+  Set-Cookie header field-values are sometimes comma joined in one string. This splits them without choking on commas
+  that are within a single set-cookie field-value, such as in the Expires portion.
+  This is uncommon, but explicitly allowed - see https://tools.ietf.org/html/rfc2616#section-4.2
+  Node.js does this for every header *except* set-cookie - see https://github.com/nodejs/node/blob/d5e363b77ebaf1caf67cd7528224b651c86815c1/lib/_http_incoming.js#L128
+  React Native's fetch does this for *every* header, including set-cookie.
+  
+  Based on: https://github.com/google/j2objc/commit/16820fdbc8f76ca0c33472810ce0cb03d20efe25
+  Credits to: https://github.com/tomball for original and https://github.com/chrusart for JavaScript implementation
+*/ function splitCookiesString(cookiesString) {
+    var cookiesStrings = [];
+    var pos = 0;
+    var start;
+    var ch;
+    var lastComma;
+    var nextStart;
+    var cookiesSeparatorFound;
+    function skipWhitespace() {
+        while(pos < cookiesString.length && /\s/.test(cookiesString.charAt(pos))){
+            pos += 1;
+        }
+        return pos < cookiesString.length;
+    }
+    function notSpecialChar() {
+        ch = cookiesString.charAt(pos);
+        return ch !== "=" && ch !== ";" && ch !== ",";
+    }
+    while(pos < cookiesString.length){
+        start = pos;
+        cookiesSeparatorFound = false;
+        while(skipWhitespace()){
+            ch = cookiesString.charAt(pos);
+            if (ch === ",") {
+                // ',' is a cookie separator if we have later first '=', not ';' or ','
+                lastComma = pos;
+                pos += 1;
+                skipWhitespace();
+                nextStart = pos;
+                while(pos < cookiesString.length && notSpecialChar()){
+                    pos += 1;
+                }
+                // currently special character
+                if (pos < cookiesString.length && cookiesString.charAt(pos) === "=") {
+                    // we found cookies separator
+                    cookiesSeparatorFound = true;
+                    // pos is inside the next cookie, so back up and return it.
+                    pos = nextStart;
+                    cookiesStrings.push(cookiesString.substring(start, lastComma));
+                    start = pos;
+                } else {
+                    // in param ',' or param separator ';',
+                    // we continue from that comma
+                    pos = lastComma + 1;
+                }
+            } else {
+                pos += 1;
+            }
+        }
+        if (!cookiesSeparatorFound || pos >= cookiesString.length) {
+            cookiesStrings.push(cookiesString.substring(start, cookiesString.length));
+        }
+    }
+    return cookiesStrings;
+}
+/**
+ * Converts a Headers object to a Node.js OutgoingHttpHeaders object. This is
+ * required to support the set-cookie header, which may have multiple values.
+ *
+ * @param headers the headers object to convert
+ * @returns the converted headers object
+ */ function toNodeOutgoingHttpHeaders(headers) {
+    const nodeHeaders = {};
+    const cookies = [];
+    if (headers) {
+        for (const [key, value] of headers.entries()){
+            if (key.toLowerCase() === "set-cookie") {
+                // We may have gotten a comma joined string of cookies, or multiple
+                // set-cookie headers. We need to merge them into one header array
+                // to represent all the cookies.
+                cookies.push(...splitCookiesString(value));
+                nodeHeaders[key] = cookies.length === 1 ? cookies[0] : cookies;
+            } else {
+                nodeHeaders[key] = value;
+            }
+        }
+    }
+    return nodeHeaders;
+}
+/**
+ * Validate the correctness of a user-provided URL.
+ */ function validateURL(url) {
+    try {
+        return String(new URL(String(url)));
+    } catch (error) {
+        throw new Error(`URL is malformed "${String(url)}". Please use only absolute URLs - https://nextjs.org/docs/messages/middleware-relative-urls`, {
+            cause: error
+        });
+    }
+} //# sourceMappingURL=utils.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/web/spec-extension/fetch-event.js
+
+const responseSymbol = Symbol("response");
+const passThroughSymbol = Symbol("passThrough");
+const waitUntilSymbol = Symbol("waitUntil");
+class FetchEvent {
+    // eslint-disable-next-line @typescript-eslint/no-useless-constructor
+    constructor(_request){
+        this[waitUntilSymbol] = [];
+        this[passThroughSymbol] = false;
+    }
+    respondWith(response) {
+        if (!this[responseSymbol]) {
+            this[responseSymbol] = Promise.resolve(response);
+        }
+    }
+    passThroughOnException() {
+        this[passThroughSymbol] = true;
+    }
+    waitUntil(promise) {
+        this[waitUntilSymbol].push(promise);
+    }
+}
+class NextFetchEvent extends FetchEvent {
+    constructor(params){
+        super(params.request);
+        this.sourcePage = params.page;
+    }
+    /**
+   * @deprecated The `request` is now the first parameter and the API is now async.
+   *
+   * Read more: https://nextjs.org/docs/messages/middleware-new-signature
+   */ get request() {
+        throw new PageSignatureError({
+            page: this.sourcePage
+        });
+    }
+    /**
+   * @deprecated Using `respondWith` is no longer needed.
+   *
+   * Read more: https://nextjs.org/docs/messages/middleware-new-signature
+   */ respondWith() {
+        throw new PageSignatureError({
+            page: this.sourcePage
+        });
+    }
+} //# sourceMappingURL=fetch-event.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/i18n/detect-domain-locale.js
+function detectDomainLocale(domainItems, hostname, detectedLocale) {
+    if (!domainItems) return;
+    if (detectedLocale) {
+        detectedLocale = detectedLocale.toLowerCase();
+    }
+    for (const item of domainItems){
+        var _item_domain, _item_locales;
+        // remove port if present
+        const domainHostname = (_item_domain = item.domain) == null ? void 0 : _item_domain.split(":", 1)[0].toLowerCase();
+        if (hostname === domainHostname || detectedLocale === item.defaultLocale.toLowerCase() || ((_item_locales = item.locales) == null ? void 0 : _item_locales.some((locale)=>locale.toLowerCase() === detectedLocale))) {
+            return item;
+        }
+    }
+} //# sourceMappingURL=detect-domain-locale.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/router/utils/remove-trailing-slash.js
+/**
+ * Removes the trailing slash for a given route or page path. Preserves the
+ * root page. Examples:
+ *   - `/foo/bar/` -> `/foo/bar`
+ *   - `/foo/bar` -> `/foo/bar`
+ *   - `/` -> `/`
+ */ function removeTrailingSlash(route) {
+    return route.replace(/\/$/, "") || "/";
+} //# sourceMappingURL=remove-trailing-slash.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/router/utils/parse-path.js
+/**
+ * Given a path this function will find the pathname, query and hash and return
+ * them. This is useful to parse full paths on the client side.
+ * @param path A path to parse e.g. /foo/bar?id=1#hash
+ */ function parsePath(path) {
+    const hashIndex = path.indexOf("#");
+    const queryIndex = path.indexOf("?");
+    const hasQuery = queryIndex > -1 && (hashIndex < 0 || queryIndex < hashIndex);
+    if (hasQuery || hashIndex > -1) {
+        return {
+            pathname: path.substring(0, hasQuery ? queryIndex : hashIndex),
+            query: hasQuery ? path.substring(queryIndex, hashIndex > -1 ? hashIndex : undefined) : "",
+            hash: hashIndex > -1 ? path.slice(hashIndex) : ""
+        };
+    }
+    return {
+        pathname: path,
+        query: "",
+        hash: ""
+    };
+} //# sourceMappingURL=parse-path.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/router/utils/add-path-prefix.js
+
+/**
+ * Adds the provided prefix to the given path. It first ensures that the path
+ * is indeed starting with a slash.
+ */ function addPathPrefix(path, prefix) {
+    if (!path.startsWith("/") || !prefix) {
+        return path;
+    }
+    const { pathname, query, hash } = parsePath(path);
+    return "" + prefix + pathname + query + hash;
+} //# sourceMappingURL=add-path-prefix.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/router/utils/add-path-suffix.js
+
+/**
+ * Similarly to `addPathPrefix`, this function adds a suffix at the end on the
+ * provided path. It also works only for paths ensuring the argument starts
+ * with a slash.
+ */ function addPathSuffix(path, suffix) {
+    if (!path.startsWith("/") || !suffix) {
+        return path;
+    }
+    const { pathname, query, hash } = parsePath(path);
+    return "" + pathname + suffix + query + hash;
+} //# sourceMappingURL=add-path-suffix.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js
+
+/**
+ * Checks if a given path starts with a given prefix. It ensures it matches
+ * exactly without containing extra chars. e.g. prefix /docs should replace
+ * for /docs, /docs/, /docs/a but not /docsss
+ * @param path The path to check.
+ * @param prefix The prefix to check against.
+ */ function pathHasPrefix(path, prefix) {
+    if (typeof path !== "string") {
+        return false;
+    }
+    const { pathname } = parsePath(path);
+    return pathname === prefix || pathname.startsWith(prefix + "/");
+} //# sourceMappingURL=path-has-prefix.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/router/utils/add-locale.js
+
+
+/**
+ * For a given path and a locale, if the locale is given, it will prefix the
+ * locale. The path shouldn't be an API path. If a default locale is given the
+ * prefix will be omitted if the locale is already the default locale.
+ */ function addLocale(path, locale, defaultLocale, ignorePrefix) {
+    // If no locale was given or the locale is the default locale, we don't need
+    // to prefix the path.
+    if (!locale || locale === defaultLocale) return path;
+    const lower = path.toLowerCase();
+    // If the path is an API path or the path already has the locale prefix, we
+    // don't need to prefix the path.
+    if (!ignorePrefix) {
+        if (pathHasPrefix(lower, "/api")) return path;
+        if (pathHasPrefix(lower, "/" + locale.toLowerCase())) return path;
+    }
+    // Add the locale prefix to the path.
+    return addPathPrefix(path, "/" + locale);
+} //# sourceMappingURL=add-locale.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js
+
+
+
+
+function formatNextPathnameInfo(info) {
+    let pathname = addLocale(info.pathname, info.locale, info.buildId ? undefined : info.defaultLocale, info.ignorePrefix);
+    if (info.buildId || !info.trailingSlash) {
+        pathname = removeTrailingSlash(pathname);
+    }
+    if (info.buildId) {
+        pathname = addPathSuffix(addPathPrefix(pathname, "/_next/data/" + info.buildId), info.pathname === "/" ? "index.json" : ".json");
+    }
+    pathname = addPathPrefix(pathname, info.basePath);
+    return !info.buildId && info.trailingSlash ? !pathname.endsWith("/") ? addPathSuffix(pathname, "/") : pathname : removeTrailingSlash(pathname);
+} //# sourceMappingURL=format-next-pathname-info.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/get-hostname.js
+/**
+ * Takes an object with a hostname property (like a parsed URL) and some
+ * headers that may contain Host and returns the preferred hostname.
+ * @param parsed An object containing a hostname property.
+ * @param headers A dictionary with headers containing a `host`.
+ */ function getHostname(parsed, headers) {
+    // Get the hostname from the headers if it exists, otherwise use the parsed
+    // hostname.
+    let hostname;
+    if ((headers == null ? void 0 : headers.host) && !Array.isArray(headers.host)) {
+        hostname = headers.host.toString().split(":", 1)[0];
+    } else if (parsed.hostname) {
+        hostname = parsed.hostname;
+    } else return;
+    return hostname.toLowerCase();
+} //# sourceMappingURL=get-hostname.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/i18n/normalize-locale-path.js
+/**
+ * For a pathname that may include a locale from a list of locales, it
+ * removes the locale from the pathname returning it alongside with the
+ * detected locale.
+ *
+ * @param pathname A pathname that may include a locale.
+ * @param locales A list of locales.
+ * @returns The detected locale and pathname without locale
+ */ function normalizeLocalePath(pathname, locales) {
+    let detectedLocale;
+    // first item will be empty string from splitting at first char
+    const pathnameParts = pathname.split("/");
+    (locales || []).some((locale)=>{
+        if (pathnameParts[1] && pathnameParts[1].toLowerCase() === locale.toLowerCase()) {
+            detectedLocale = locale;
+            pathnameParts.splice(1, 1);
+            pathname = pathnameParts.join("/") || "/";
+            return true;
+        }
+        return false;
+    });
+    return {
+        pathname,
+        detectedLocale
+    };
+} //# sourceMappingURL=normalize-locale-path.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/router/utils/remove-path-prefix.js
+
+/**
+ * Given a path and a prefix it will remove the prefix when it exists in the
+ * given path. It ensures it matches exactly without containing extra chars
+ * and if the prefix is not there it will be noop.
+ *
+ * @param path The path to remove the prefix from.
+ * @param prefix The prefix to be removed.
+ */ function removePathPrefix(path, prefix) {
+    // If the path doesn't start with the prefix we can return it as is. This
+    // protects us from situations where the prefix is a substring of the path
+    // prefix such as:
+    //
+    // For prefix: /blog
+    //
+    //   /blog -> true
+    //   /blog/ -> true
+    //   /blog/1 -> true
+    //   /blogging -> false
+    //   /blogging/ -> false
+    //   /blogging/1 -> false
+    if (!pathHasPrefix(path, prefix)) {
+        return path;
+    }
+    // Remove the prefix from the path via slicing.
+    const withoutPrefix = path.slice(prefix.length);
+    // If the path without the prefix starts with a `/` we can return it as is.
+    if (withoutPrefix.startsWith("/")) {
+        return withoutPrefix;
+    }
+    // If the path without the prefix doesn't start with a `/` we need to add it
+    // back to the path to make sure it's a valid path.
+    return "/" + withoutPrefix;
+} //# sourceMappingURL=remove-path-prefix.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js
+
+
+
+function getNextPathnameInfo(pathname, options) {
+    var _options_nextConfig;
+    const { basePath, i18n, trailingSlash } = (_options_nextConfig = options.nextConfig) != null ? _options_nextConfig : {};
+    const info = {
+        pathname,
+        trailingSlash: pathname !== "/" ? pathname.endsWith("/") : trailingSlash
+    };
+    if (basePath && pathHasPrefix(info.pathname, basePath)) {
+        info.pathname = removePathPrefix(info.pathname, basePath);
+        info.basePath = basePath;
+    }
+    let pathnameNoDataPrefix = info.pathname;
+    if (info.pathname.startsWith("/_next/data/") && info.pathname.endsWith(".json")) {
+        const paths = info.pathname.replace(/^\/_next\/data\//, "").replace(/\.json$/, "").split("/");
+        const buildId = paths[0];
+        info.buildId = buildId;
+        pathnameNoDataPrefix = paths[1] !== "index" ? "/" + paths.slice(1).join("/") : "/";
+        // update pathname with normalized if enabled although
+        // we use normalized to populate locale info still
+        if (options.parseData === true) {
+            info.pathname = pathnameNoDataPrefix;
+        }
+    }
+    // If provided, use the locale route normalizer to detect the locale instead
+    // of the function below.
+    if (i18n) {
+        let result = options.i18nProvider ? options.i18nProvider.analyze(info.pathname) : normalizeLocalePath(info.pathname, i18n.locales);
+        info.locale = result.detectedLocale;
+        var _result_pathname;
+        info.pathname = (_result_pathname = result.pathname) != null ? _result_pathname : info.pathname;
+        if (!result.detectedLocale && info.buildId) {
+            result = options.i18nProvider ? options.i18nProvider.analyze(pathnameNoDataPrefix) : normalizeLocalePath(pathnameNoDataPrefix, i18n.locales);
+            if (result.detectedLocale) {
+                info.locale = result.detectedLocale;
+            }
+        }
+    }
+    return info;
+} //# sourceMappingURL=get-next-pathname-info.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/web/next-url.js
+
+
+
+
+const REGEX_LOCALHOST_HOSTNAME = /(?!^https?:\/\/)(127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}|\[::1\]|localhost)/;
+function parseURL(url, base) {
+    return new URL(String(url).replace(REGEX_LOCALHOST_HOSTNAME, "localhost"), base && String(base).replace(REGEX_LOCALHOST_HOSTNAME, "localhost"));
+}
+const Internal = Symbol("NextURLInternal");
+class NextURL {
+    constructor(input, baseOrOpts, opts){
+        let base;
+        let options;
+        if (typeof baseOrOpts === "object" && "pathname" in baseOrOpts || typeof baseOrOpts === "string") {
+            base = baseOrOpts;
+            options = opts || {};
+        } else {
+            options = opts || baseOrOpts || {};
+        }
+        this[Internal] = {
+            url: parseURL(input, base ?? options.base),
+            options: options,
+            basePath: ""
+        };
+        this.analyze();
+    }
+    analyze() {
+        var _this_Internal_options_nextConfig_i18n, _this_Internal_options_nextConfig, _this_Internal_domainLocale, _this_Internal_options_nextConfig_i18n1, _this_Internal_options_nextConfig1;
+        const info = getNextPathnameInfo(this[Internal].url.pathname, {
+            nextConfig: this[Internal].options.nextConfig,
+            parseData: !undefined,
+            i18nProvider: this[Internal].options.i18nProvider
+        });
+        const hostname = getHostname(this[Internal].url, this[Internal].options.headers);
+        this[Internal].domainLocale = this[Internal].options.i18nProvider ? this[Internal].options.i18nProvider.detectDomainLocale(hostname) : detectDomainLocale((_this_Internal_options_nextConfig = this[Internal].options.nextConfig) == null ? void 0 : (_this_Internal_options_nextConfig_i18n = _this_Internal_options_nextConfig.i18n) == null ? void 0 : _this_Internal_options_nextConfig_i18n.domains, hostname);
+        const defaultLocale = ((_this_Internal_domainLocale = this[Internal].domainLocale) == null ? void 0 : _this_Internal_domainLocale.defaultLocale) || ((_this_Internal_options_nextConfig1 = this[Internal].options.nextConfig) == null ? void 0 : (_this_Internal_options_nextConfig_i18n1 = _this_Internal_options_nextConfig1.i18n) == null ? void 0 : _this_Internal_options_nextConfig_i18n1.defaultLocale);
+        this[Internal].url.pathname = info.pathname;
+        this[Internal].defaultLocale = defaultLocale;
+        this[Internal].basePath = info.basePath ?? "";
+        this[Internal].buildId = info.buildId;
+        this[Internal].locale = info.locale ?? defaultLocale;
+        this[Internal].trailingSlash = info.trailingSlash;
+    }
+    formatPathname() {
+        return formatNextPathnameInfo({
+            basePath: this[Internal].basePath,
+            buildId: this[Internal].buildId,
+            defaultLocale: !this[Internal].options.forceLocale ? this[Internal].defaultLocale : undefined,
+            locale: this[Internal].locale,
+            pathname: this[Internal].url.pathname,
+            trailingSlash: this[Internal].trailingSlash
+        });
+    }
+    formatSearch() {
+        return this[Internal].url.search;
+    }
+    get buildId() {
+        return this[Internal].buildId;
+    }
+    set buildId(buildId) {
+        this[Internal].buildId = buildId;
+    }
+    get locale() {
+        return this[Internal].locale ?? "";
+    }
+    set locale(locale) {
+        var _this_Internal_options_nextConfig_i18n, _this_Internal_options_nextConfig;
+        if (!this[Internal].locale || !((_this_Internal_options_nextConfig = this[Internal].options.nextConfig) == null ? void 0 : (_this_Internal_options_nextConfig_i18n = _this_Internal_options_nextConfig.i18n) == null ? void 0 : _this_Internal_options_nextConfig_i18n.locales.includes(locale))) {
+            throw new TypeError(`The NextURL configuration includes no locale "${locale}"`);
+        }
+        this[Internal].locale = locale;
+    }
+    get defaultLocale() {
+        return this[Internal].defaultLocale;
+    }
+    get domainLocale() {
+        return this[Internal].domainLocale;
+    }
+    get searchParams() {
+        return this[Internal].url.searchParams;
+    }
+    get host() {
+        return this[Internal].url.host;
+    }
+    set host(value) {
+        this[Internal].url.host = value;
+    }
+    get hostname() {
+        return this[Internal].url.hostname;
+    }
+    set hostname(value) {
+        this[Internal].url.hostname = value;
+    }
+    get port() {
+        return this[Internal].url.port;
+    }
+    set port(value) {
+        this[Internal].url.port = value;
+    }
+    get protocol() {
+        return this[Internal].url.protocol;
+    }
+    set protocol(value) {
+        this[Internal].url.protocol = value;
+    }
+    get href() {
+        const pathname = this.formatPathname();
+        const search = this.formatSearch();
+        return `${this.protocol}//${this.host}${pathname}${search}${this.hash}`;
+    }
+    set href(url) {
+        this[Internal].url = parseURL(url);
+        this.analyze();
+    }
+    get origin() {
+        return this[Internal].url.origin;
+    }
+    get pathname() {
+        return this[Internal].url.pathname;
+    }
+    set pathname(value) {
+        this[Internal].url.pathname = value;
+    }
+    get hash() {
+        return this[Internal].url.hash;
+    }
+    set hash(value) {
+        this[Internal].url.hash = value;
+    }
+    get search() {
+        return this[Internal].url.search;
+    }
+    set search(value) {
+        this[Internal].url.search = value;
+    }
+    get password() {
+        return this[Internal].url.password;
+    }
+    set password(value) {
+        this[Internal].url.password = value;
+    }
+    get username() {
+        return this[Internal].url.username;
+    }
+    set username(value) {
+        this[Internal].url.username = value;
+    }
+    get basePath() {
+        return this[Internal].basePath;
+    }
+    set basePath(value) {
+        this[Internal].basePath = value.startsWith("/") ? value : `/${value}`;
+    }
+    toString() {
+        return this.href;
+    }
+    toJSON() {
+        return this.href;
+    }
+    [Symbol.for("edge-runtime.inspect.custom")]() {
+        return {
+            href: this.href,
+            origin: this.origin,
+            protocol: this.protocol,
+            username: this.username,
+            password: this.password,
+            host: this.host,
+            hostname: this.hostname,
+            port: this.port,
+            pathname: this.pathname,
+            search: this.search,
+            searchParams: this.searchParams,
+            hash: this.hash
+        };
+    }
+    clone() {
+        return new NextURL(String(this), this[Internal].options);
+    }
+} //# sourceMappingURL=next-url.js.map
+
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/@edge-runtime/cookies/index.js
+var _edge_runtime_cookies = __webpack_require__(1170);
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/web/spec-extension/cookies.js
+ //# sourceMappingURL=cookies.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/web/spec-extension/request.js
+
+
+
+
+const INTERNALS = Symbol("internal request");
+class NextRequest extends Request {
+    constructor(input, init = {}){
+        const url = typeof input !== "string" && "url" in input ? input.url : String(input);
+        validateURL(url);
+        if (input instanceof Request) super(input, init);
+        else super(url, init);
+        const nextUrl = new NextURL(url, {
+            headers: toNodeOutgoingHttpHeaders(this.headers),
+            nextConfig: init.nextConfig
+        });
+        this[INTERNALS] = {
+            cookies: new _edge_runtime_cookies.RequestCookies(this.headers),
+            geo: init.geo || {},
+            ip: init.ip,
+            nextUrl,
+            url:  false ? 0 : nextUrl.toString()
+        };
+    }
+    [Symbol.for("edge-runtime.inspect.custom")]() {
+        return {
+            cookies: this.cookies,
+            geo: this.geo,
+            ip: this.ip,
+            nextUrl: this.nextUrl,
+            url: this.url,
+            // rest of props come from Request
+            bodyUsed: this.bodyUsed,
+            cache: this.cache,
+            credentials: this.credentials,
+            destination: this.destination,
+            headers: Object.fromEntries(this.headers),
+            integrity: this.integrity,
+            keepalive: this.keepalive,
+            method: this.method,
+            mode: this.mode,
+            redirect: this.redirect,
+            referrer: this.referrer,
+            referrerPolicy: this.referrerPolicy,
+            signal: this.signal
+        };
+    }
+    get cookies() {
+        return this[INTERNALS].cookies;
+    }
+    get geo() {
+        return this[INTERNALS].geo;
+    }
+    get ip() {
+        return this[INTERNALS].ip;
+    }
+    get nextUrl() {
+        return this[INTERNALS].nextUrl;
+    }
+    /**
+   * @deprecated
+   * `page` has been deprecated in favour of `URLPattern`.
+   * Read more: https://nextjs.org/docs/messages/middleware-request-page
+   */ get page() {
+        throw new RemovedPageError();
+    }
+    /**
+   * @deprecated
+   * `ua` has been removed in favour of \`userAgent\` function.
+   * Read more: https://nextjs.org/docs/messages/middleware-parse-user-agent
+   */ get ua() {
+        throw new RemovedUAError();
+    }
+    get url() {
+        return this[INTERNALS].url;
+    }
+} //# sourceMappingURL=request.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/web/spec-extension/response.js
+
+
+
+const response_INTERNALS = Symbol("internal response");
+const REDIRECTS = new Set([
+    301,
+    302,
+    303,
+    307,
+    308
+]);
+function handleMiddlewareField(init, headers) {
+    var _init_request;
+    if (init == null ? void 0 : (_init_request = init.request) == null ? void 0 : _init_request.headers) {
+        if (!(init.request.headers instanceof Headers)) {
+            throw new Error("request.headers must be an instance of Headers");
+        }
+        const keys = [];
+        for (const [key, value] of init.request.headers){
+            headers.set("x-middleware-request-" + key, value);
+            keys.push(key);
+        }
+        headers.set("x-middleware-override-headers", keys.join(","));
+    }
+}
+class NextResponse extends Response {
+    constructor(body, init = {}){
+        super(body, init);
+        this[response_INTERNALS] = {
+            cookies: new _edge_runtime_cookies.ResponseCookies(this.headers),
+            url: init.url ? new NextURL(init.url, {
+                headers: toNodeOutgoingHttpHeaders(this.headers),
+                nextConfig: init.nextConfig
+            }) : undefined
+        };
+    }
+    [Symbol.for("edge-runtime.inspect.custom")]() {
+        return {
+            cookies: this.cookies,
+            url: this.url,
+            // rest of props come from Response
+            body: this.body,
+            bodyUsed: this.bodyUsed,
+            headers: Object.fromEntries(this.headers),
+            ok: this.ok,
+            redirected: this.redirected,
+            status: this.status,
+            statusText: this.statusText,
+            type: this.type
+        };
+    }
+    get cookies() {
+        return this[response_INTERNALS].cookies;
+    }
+    static json(body, init) {
+        const response = Response.json(body, init);
+        return new NextResponse(response.body, response);
+    }
+    static redirect(url, init) {
+        const status = typeof init === "number" ? init : (init == null ? void 0 : init.status) ?? 307;
+        if (!REDIRECTS.has(status)) {
+            throw new RangeError('Failed to execute "redirect" on "response": Invalid status code');
+        }
+        const initObj = typeof init === "object" ? init : {};
+        const headers = new Headers(initObj == null ? void 0 : initObj.headers);
+        headers.set("Location", validateURL(url));
+        return new NextResponse(null, {
+            ...initObj,
+            headers,
+            status
+        });
+    }
+    static rewrite(destination, init) {
+        const headers = new Headers(init == null ? void 0 : init.headers);
+        headers.set("x-middleware-rewrite", validateURL(destination));
+        handleMiddlewareField(init, headers);
+        return new NextResponse(null, {
+            ...init,
+            headers
+        });
+    }
+    static next(init) {
+        const headers = new Headers(init == null ? void 0 : init.headers);
+        headers.set("x-middleware-next", "1");
+        handleMiddlewareField(init, headers);
+        return new NextResponse(null, {
+            ...init,
+            headers
+        });
+    }
+} //# sourceMappingURL=response.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/router/utils/relativize-url.js
+/**
+ * Given a URL as a string and a base URL it will make the URL relative
+ * if the parsed protocol and host is the same as the one in the base
+ * URL. Otherwise it returns the same URL string.
+ */ function relativizeURL(url, base) {
+    const baseURL = typeof base === "string" ? new URL(base) : base;
+    const relative = new URL(url, base);
+    const origin = baseURL.protocol + "//" + baseURL.host;
+    return relative.protocol + "//" + relative.host === origin ? relative.toString().replace(origin, "") : relative.toString();
+} //# sourceMappingURL=relativize-url.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/client/components/app-router-headers.js
+const RSC_HEADER = "RSC";
+const ACTION = "Next-Action";
+const NEXT_ROUTER_STATE_TREE = "Next-Router-State-Tree";
+const NEXT_ROUTER_PREFETCH_HEADER = "Next-Router-Prefetch";
+const NEXT_URL = "Next-Url";
+const RSC_CONTENT_TYPE_HEADER = "text/x-component";
+const RSC_VARY_HEADER = RSC_HEADER + ", " + NEXT_ROUTER_STATE_TREE + ", " + NEXT_ROUTER_PREFETCH_HEADER + ", " + NEXT_URL;
+const FLIGHT_PARAMETERS = [
+    [
+        RSC_HEADER
+    ],
+    [
+        NEXT_ROUTER_STATE_TREE
+    ],
+    [
+        NEXT_ROUTER_PREFETCH_HEADER
+    ]
+];
+const NEXT_RSC_UNION_QUERY = "_rsc";
+const NEXT_DID_POSTPONE_HEADER = "x-nextjs-postponed"; //# sourceMappingURL=app-router-headers.js.map
+
+// EXTERNAL MODULE: ./node_modules/next/dist/esm/shared/lib/modern-browserslist-target.js
+var modern_browserslist_target = __webpack_require__(687);
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/constants.js
+
+
+const COMPILER_NAMES = {
+    client: "client",
+    server: "server",
+    edgeServer: "edge-server"
+};
+/**
+ * Headers that are set by the Next.js server and should be stripped from the
+ * request headers going to the user's application.
+ */ const constants_INTERNAL_HEADERS = (/* unused pure expression or super */ null && ([
+    "x-invoke-error",
+    "x-invoke-output",
+    "x-invoke-path",
+    "x-invoke-query",
+    "x-invoke-status",
+    "x-middleware-invoke"
+]));
+const COMPILER_INDEXES = {
+    [COMPILER_NAMES.client]: 0,
+    [COMPILER_NAMES.server]: 1,
+    [COMPILER_NAMES.edgeServer]: 2
+};
+const PHASE_EXPORT = "phase-export";
+const PHASE_PRODUCTION_BUILD = "phase-production-build";
+const PHASE_PRODUCTION_SERVER = "phase-production-server";
+const PHASE_DEVELOPMENT_SERVER = "phase-development-server";
+const PHASE_TEST = "phase-test";
+const PHASE_INFO = "phase-info";
+const PAGES_MANIFEST = "pages-manifest.json";
+const APP_PATHS_MANIFEST = "app-paths-manifest.json";
+const APP_PATH_ROUTES_MANIFEST = "app-path-routes-manifest.json";
+const BUILD_MANIFEST = "build-manifest.json";
+const APP_BUILD_MANIFEST = "app-build-manifest.json";
+const FUNCTIONS_CONFIG_MANIFEST = "functions-config-manifest.json";
+const SUBRESOURCE_INTEGRITY_MANIFEST = "subresource-integrity-manifest";
+const NEXT_FONT_MANIFEST = "next-font-manifest";
+const EXPORT_MARKER = "export-marker.json";
+const EXPORT_DETAIL = "export-detail.json";
+const PRERENDER_MANIFEST = "prerender-manifest.json";
+const ROUTES_MANIFEST = "routes-manifest.json";
+const IMAGES_MANIFEST = "images-manifest.json";
+const SERVER_FILES_MANIFEST = "required-server-files.json";
+const DEV_CLIENT_PAGES_MANIFEST = "_devPagesManifest.json";
+const MIDDLEWARE_MANIFEST = "middleware-manifest.json";
+const DEV_MIDDLEWARE_MANIFEST = "_devMiddlewareManifest.json";
+const REACT_LOADABLE_MANIFEST = "react-loadable-manifest.json";
+const FONT_MANIFEST = "font-manifest.json";
+const SERVER_DIRECTORY = "server";
+const CONFIG_FILES = (/* unused pure expression or super */ null && ([
+    "next.config.js",
+    "next.config.mjs"
+]));
+const BUILD_ID_FILE = "BUILD_ID";
+const BLOCKED_PAGES = (/* unused pure expression or super */ null && ([
+    "/_document",
+    "/_app",
+    "/_error"
+]));
+const CLIENT_PUBLIC_FILES_PATH = "public";
+const CLIENT_STATIC_FILES_PATH = "static";
+const STRING_LITERAL_DROP_BUNDLE = "__NEXT_DROP_CLIENT_FILE__";
+const NEXT_BUILTIN_DOCUMENT = "__NEXT_BUILTIN_DOCUMENT__";
+const BARREL_OPTIMIZATION_PREFIX = "__barrel_optimize__";
+// server/[entry]/page_client-reference-manifest.js
+const CLIENT_REFERENCE_MANIFEST = "client-reference-manifest";
+// server/server-reference-manifest
+const SERVER_REFERENCE_MANIFEST = "server-reference-manifest";
+// server/middleware-build-manifest.js
+const MIDDLEWARE_BUILD_MANIFEST = "middleware-build-manifest";
+// server/middleware-react-loadable-manifest.js
+const MIDDLEWARE_REACT_LOADABLE_MANIFEST = "middleware-react-loadable-manifest";
+// static/runtime/main.js
+const CLIENT_STATIC_FILES_RUNTIME_MAIN = "main";
+const CLIENT_STATIC_FILES_RUNTIME_MAIN_APP = "" + CLIENT_STATIC_FILES_RUNTIME_MAIN + "-app";
+// next internal client components chunk for layouts
+const APP_CLIENT_INTERNALS = "app-pages-internals";
+// static/runtime/react-refresh.js
+const CLIENT_STATIC_FILES_RUNTIME_REACT_REFRESH = "react-refresh";
+// static/runtime/amp.js
+const CLIENT_STATIC_FILES_RUNTIME_AMP = "amp";
+// static/runtime/webpack.js
+const CLIENT_STATIC_FILES_RUNTIME_WEBPACK = "webpack";
+// static/runtime/polyfills.js
+const CLIENT_STATIC_FILES_RUNTIME_POLYFILLS = "polyfills";
+const CLIENT_STATIC_FILES_RUNTIME_POLYFILLS_SYMBOL = Symbol(CLIENT_STATIC_FILES_RUNTIME_POLYFILLS);
+const EDGE_RUNTIME_WEBPACK = "edge-runtime-webpack";
+const STATIC_PROPS_ID = "__N_SSG";
+const SERVER_PROPS_ID = "__N_SSP";
+const PAGE_SEGMENT_KEY = "__PAGE__";
+const GOOGLE_FONT_PROVIDER = "https://fonts.googleapis.com/";
+const OPTIMIZED_FONT_PROVIDERS = [
+    {
+        url: GOOGLE_FONT_PROVIDER,
+        preconnect: "https://fonts.gstatic.com"
+    },
+    {
+        url: "https://use.typekit.net",
+        preconnect: "https://use.typekit.net"
+    }
+];
+const DEFAULT_SERIF_FONT = {
+    name: "Times New Roman",
+    xAvgCharWidth: 821,
+    azAvgWidth: 854.3953488372093,
+    unitsPerEm: 2048
+};
+const DEFAULT_SANS_SERIF_FONT = {
+    name: "Arial",
+    xAvgCharWidth: 904,
+    azAvgWidth: 934.5116279069767,
+    unitsPerEm: 2048
+};
+const STATIC_STATUS_PAGES = (/* unused pure expression or super */ null && ([
+    "/500"
+]));
+const TRACE_OUTPUT_VERSION = 1;
+// in `MB`
+const TURBO_TRACE_DEFAULT_MEMORY_LIMIT = 6000;
+const RSC_MODULE_TYPES = {
+    client: "client",
+    server: "server"
+};
+// comparing
+// https://nextjs.org/docs/api-reference/edge-runtime
+// with
+// https://nodejs.org/docs/latest/api/globals.html
+const EDGE_UNSUPPORTED_NODE_APIS = (/* unused pure expression or super */ null && ([
+    "clearImmediate",
+    "setImmediate",
+    "BroadcastChannel",
+    "ByteLengthQueuingStrategy",
+    "CompressionStream",
+    "CountQueuingStrategy",
+    "DecompressionStream",
+    "DomException",
+    "MessageChannel",
+    "MessageEvent",
+    "MessagePort",
+    "ReadableByteStreamController",
+    "ReadableStreamBYOBRequest",
+    "ReadableStreamDefaultController",
+    "TransformStreamDefaultController",
+    "WritableStreamDefaultController"
+]));
+const SYSTEM_ENTRYPOINTS = new Set([
+    CLIENT_STATIC_FILES_RUNTIME_MAIN,
+    CLIENT_STATIC_FILES_RUNTIME_REACT_REFRESH,
+    CLIENT_STATIC_FILES_RUNTIME_AMP,
+    CLIENT_STATIC_FILES_RUNTIME_MAIN_APP
+]); //# sourceMappingURL=constants.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/internal-utils.js
+
+
+const INTERNAL_QUERY_NAMES = [
+    "__nextFallback",
+    "__nextLocale",
+    "__nextInferredLocaleFromDefault",
+    "__nextDefaultLocale",
+    "__nextIsNotFound",
+    NEXT_RSC_UNION_QUERY
+];
+const EDGE_EXTENDED_INTERNAL_QUERY_NAMES = [
+    "__nextDataReq"
+];
+function stripInternalQueries(query) {
+    for (const name of INTERNAL_QUERY_NAMES){
+        delete query[name];
+    }
+}
+function stripInternalSearchParams(url, isEdge) {
+    const isStringUrl = typeof url === "string";
+    const instance = isStringUrl ? new URL(url) : url;
+    for (const name of INTERNAL_QUERY_NAMES){
+        instance.searchParams.delete(name);
+    }
+    if (isEdge) {
+        for (const name of EDGE_EXTENDED_INTERNAL_QUERY_NAMES){
+            instance.searchParams.delete(name);
+        }
+    }
+    return isStringUrl ? instance.toString() : instance;
+}
+/**
+ * Strip internal headers from the request headers.
+ *
+ * @param headers the headers to strip of internal headers
+ */ function stripInternalHeaders(headers) {
+    for (const key of INTERNAL_HEADERS){
+        delete headers[key];
+    }
+} //# sourceMappingURL=internal-utils.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+
+
+/**
+ * Normalizes an app route so it represents the actual request path. Essentially
+ * performing the following transformations:
+ *
+ * - `/(dashboard)/user/[id]/page` to `/user/[id]`
+ * - `/(dashboard)/account/page` to `/account`
+ * - `/user/[id]/page` to `/user/[id]`
+ * - `/account/page` to `/account`
+ * - `/page` to `/`
+ * - `/(dashboard)/user/[id]/route` to `/user/[id]`
+ * - `/(dashboard)/account/route` to `/account`
+ * - `/user/[id]/route` to `/user/[id]`
+ * - `/account/route` to `/account`
+ * - `/route` to `/`
+ * - `/` to `/`
+ *
+ * @param route the app route to normalize
+ * @returns the normalized pathname
+ */ function normalizeAppPath(route) {
+    return ensureLeadingSlash(route.split("/").reduce((pathname, segment, index, segments)=>{
+        // Empty segments are ignored.
+        if (!segment) {
+            return pathname;
+        }
+        // Groups are ignored.
+        if (isGroupSegment(segment)) {
+            return pathname;
+        }
+        // Parallel segments are ignored.
+        if (segment[0] === "@") {
+            return pathname;
+        }
+        // The last segment (if it's a leaf) should be ignored.
+        if ((segment === "page" || segment === "route") && index === segments.length - 1) {
+            return pathname;
+        }
+        return pathname + "/" + segment;
+    }, ""));
+}
+/**
+ * Strips the `.rsc` extension if it's in the pathname.
+ * Since this function is used on full urls it checks `?` for searchParams handling.
+ */ function normalizeRscURL(url) {
+    return url.replace(/\.rsc($|\?)/, "$1");
+} //# sourceMappingURL=app-paths.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/lib/constants.js
+const NEXT_QUERY_PARAM_PREFIX = "nxtP";
+const PRERENDER_REVALIDATE_HEADER = "x-prerender-revalidate";
+const PRERENDER_REVALIDATE_ONLY_GENERATED_HEADER = "x-prerender-revalidate-if-generated";
+const RSC_PREFETCH_SUFFIX = ".prefetch.rsc";
+const RSC_SUFFIX = ".rsc";
+const NEXT_DATA_SUFFIX = ".json";
+const NEXT_META_SUFFIX = ".meta";
+const NEXT_BODY_SUFFIX = ".body";
+const NEXT_CACHE_TAGS_HEADER = "x-next-cache-tags";
+const NEXT_CACHE_SOFT_TAGS_HEADER = "x-next-cache-soft-tags";
+const NEXT_CACHE_REVALIDATED_TAGS_HEADER = "x-next-revalidated-tags";
+const NEXT_CACHE_REVALIDATE_TAG_TOKEN_HEADER = "x-next-revalidate-tag-token";
+const NEXT_CACHE_TAG_MAX_LENGTH = 256;
+const NEXT_CACHE_SOFT_TAG_MAX_LENGTH = 1024;
+const NEXT_CACHE_IMPLICIT_TAG_ID = "_N_T_";
+// in seconds
+const CACHE_ONE_YEAR = 31536000;
+// Patterns to detect middleware files
+const MIDDLEWARE_FILENAME = "middleware";
+const MIDDLEWARE_LOCATION_REGEXP = (/* unused pure expression or super */ null && (`(?:src/)?${MIDDLEWARE_FILENAME}`));
+// Pattern to detect instrumentation hooks file
+const INSTRUMENTATION_HOOK_FILENAME = "instrumentation";
+// Because on Windows absolute paths in the generated code can break because of numbers, eg 1 in the path,
+// we have to use a private alias
+const PAGES_DIR_ALIAS = "private-next-pages";
+const DOT_NEXT_ALIAS = "private-dot-next";
+const ROOT_DIR_ALIAS = "private-next-root-dir";
+const APP_DIR_ALIAS = "private-next-app-dir";
+const RSC_MOD_REF_PROXY_ALIAS = "private-next-rsc-mod-ref-proxy";
+const RSC_ACTION_VALIDATE_ALIAS = "private-next-rsc-action-validate";
+const RSC_ACTION_PROXY_ALIAS = "private-next-rsc-action-proxy";
+const RSC_ACTION_ENCRYPTION_ALIAS = "private-next-rsc-action-encryption";
+const RSC_ACTION_CLIENT_WRAPPER_ALIAS = "private-next-rsc-action-client-wrapper";
+const PUBLIC_DIR_MIDDLEWARE_CONFLICT = (/* unused pure expression or super */ null && (`You can not have a '_next' folder inside of your public folder. This conflicts with the internal '/_next' route. https://nextjs.org/docs/messages/public-next-folder-conflict`));
+const SSG_GET_INITIAL_PROPS_CONFLICT = (/* unused pure expression or super */ null && (`You can not use getInitialProps with getStaticProps. To use SSG, please remove your getInitialProps`));
+const SERVER_PROPS_GET_INIT_PROPS_CONFLICT = (/* unused pure expression or super */ null && (`You can not use getInitialProps with getServerSideProps. Please remove getInitialProps.`));
+const SERVER_PROPS_SSG_CONFLICT = (/* unused pure expression or super */ null && (`You can not use getStaticProps or getStaticPaths with getServerSideProps. To use SSG, please remove getServerSideProps`));
+const STATIC_STATUS_PAGE_GET_INITIAL_PROPS_ERROR = (/* unused pure expression or super */ null && (`can not have getInitialProps/getServerSideProps, https://nextjs.org/docs/messages/404-get-initial-props`));
+const SERVER_PROPS_EXPORT_ERROR = (/* unused pure expression or super */ null && (`pages with \`getServerSideProps\` can not be exported. See more info here: https://nextjs.org/docs/messages/gssp-export`));
+const GSP_NO_RETURNED_VALUE = "Your `getStaticProps` function did not return an object. Did you forget to add a `return`?";
+const GSSP_NO_RETURNED_VALUE = "Your `getServerSideProps` function did not return an object. Did you forget to add a `return`?";
+const UNSTABLE_REVALIDATE_RENAME_ERROR = (/* unused pure expression or super */ null && ("The `unstable_revalidate` property is available for general use.\n" + "Please use `revalidate` instead."));
+const GSSP_COMPONENT_MEMBER_ERROR = (/* unused pure expression or super */ null && (`can not be attached to a page's component and must be exported from the page. See more info here: https://nextjs.org/docs/messages/gssp-component-member`));
+const NON_STANDARD_NODE_ENV = (/* unused pure expression or super */ null && (`You are using a non-standard "NODE_ENV" value in your environment. This creates inconsistencies in the project and is strongly advised against. Read more: https://nextjs.org/docs/messages/non-standard-node-env`));
+const SSG_FALLBACK_EXPORT_ERROR = (/* unused pure expression or super */ null && (`Pages with \`fallback\` enabled in \`getStaticPaths\` can not be exported. See more info here: https://nextjs.org/docs/messages/ssg-fallback-true-export`));
+const ESLINT_DEFAULT_DIRS = (/* unused pure expression or super */ null && ([
+    "app",
+    "pages",
+    "components",
+    "lib",
+    "src"
+]));
+const ESLINT_PROMPT_VALUES = [
+    {
+        title: "Strict",
+        recommended: true,
+        config: {
+            extends: "next/core-web-vitals"
+        }
+    },
+    {
+        title: "Base",
+        config: {
+            extends: "next"
+        }
+    },
+    {
+        title: "Cancel",
+        config: null
+    }
+];
+const SERVER_RUNTIME = {
+    edge: "edge",
+    experimentalEdge: "experimental-edge",
+    nodejs: "nodejs"
+};
+/**
+ * The names of the webpack layers. These layers are the primitives for the
+ * webpack chunks.
+ */ const WEBPACK_LAYERS_NAMES = {
+    /**
+   * The layer for the shared code between the client and server bundles.
+   */ shared: "shared",
+    /**
+   * React Server Components layer (rsc).
+   */ reactServerComponents: "rsc",
+    /**
+   * Server Side Rendering layer for app (ssr).
+   */ serverSideRendering: "ssr",
+    /**
+   * The browser client bundle layer for actions.
+   */ actionBrowser: "action-browser",
+    /**
+   * The layer for the API routes.
+   */ api: "api",
+    /**
+   * The layer for the middleware code.
+   */ middleware: "middleware",
+    /**
+   * The layer for assets on the edge.
+   */ edgeAsset: "edge-asset",
+    /**
+   * The browser client bundle layer for App directory.
+   */ appPagesBrowser: "app-pages-browser",
+    /**
+   * The server bundle layer for metadata routes.
+   */ appMetadataRoute: "app-metadata-route",
+    /**
+   * The layer for the server bundle for App Route handlers.
+   */ appRouteHandler: "app-route-handler"
+};
+const WEBPACK_LAYERS = {
+    ...WEBPACK_LAYERS_NAMES,
+    GROUP: {
+        server: [
+            WEBPACK_LAYERS_NAMES.reactServerComponents,
+            WEBPACK_LAYERS_NAMES.actionBrowser,
+            WEBPACK_LAYERS_NAMES.appMetadataRoute,
+            WEBPACK_LAYERS_NAMES.appRouteHandler
+        ],
+        nonClientServerTarget: [
+            // plus middleware and pages api
+            WEBPACK_LAYERS_NAMES.middleware,
+            WEBPACK_LAYERS_NAMES.api
+        ],
+        app: [
+            WEBPACK_LAYERS_NAMES.reactServerComponents,
+            WEBPACK_LAYERS_NAMES.actionBrowser,
+            WEBPACK_LAYERS_NAMES.appMetadataRoute,
+            WEBPACK_LAYERS_NAMES.appRouteHandler,
+            WEBPACK_LAYERS_NAMES.serverSideRendering,
+            WEBPACK_LAYERS_NAMES.appPagesBrowser
+        ]
+    }
+};
+const WEBPACK_RESOURCE_QUERIES = {
+    edgeSSREntry: "__next_edge_ssr_entry__",
+    metadata: "__next_metadata__",
+    metadataRoute: "__next_metadata_route__",
+    metadataImageMeta: "__next_metadata_image_meta__"
+};
+ //# sourceMappingURL=constants.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/web/spec-extension/adapters/reflect.js
+class ReflectAdapter {
+    static get(target, prop, receiver) {
+        const value = Reflect.get(target, prop, receiver);
+        if (typeof value === "function") {
+            return value.bind(target);
+        }
+        return value;
+    }
+    static set(target, prop, value, receiver) {
+        return Reflect.set(target, prop, value, receiver);
+    }
+    static has(target, prop) {
+        return Reflect.has(target, prop);
+    }
+    static deleteProperty(target, prop) {
+        return Reflect.deleteProperty(target, prop);
+    }
+} //# sourceMappingURL=reflect.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/web/spec-extension/adapters/headers.js
+
+/**
+ * @internal
+ */ class ReadonlyHeadersError extends Error {
+    constructor(){
+        super("Headers cannot be modified. Read more: https://nextjs.org/docs/app/api-reference/functions/headers");
+    }
+    static callable() {
+        throw new ReadonlyHeadersError();
+    }
+}
+class HeadersAdapter extends Headers {
+    constructor(headers){
+        // We've already overridden the methods that would be called, so we're just
+        // calling the super constructor to ensure that the instanceof check works.
+        super();
+        this.headers = new Proxy(headers, {
+            get (target, prop, receiver) {
+                // Because this is just an object, we expect that all "get" operations
+                // are for properties. If it's a "get" for a symbol, we'll just return
+                // the symbol.
+                if (typeof prop === "symbol") {
+                    return ReflectAdapter.get(target, prop, receiver);
+                }
+                const lowercased = prop.toLowerCase();
+                // Let's find the original casing of the key. This assumes that there is
+                // no mixed case keys (e.g. "Content-Type" and "content-type") in the
+                // headers object.
+                const original = Object.keys(headers).find((o)=>o.toLowerCase() === lowercased);
+                // If the original casing doesn't exist, return undefined.
+                if (typeof original === "undefined") return;
+                // If the original casing exists, return the value.
+                return ReflectAdapter.get(target, original, receiver);
+            },
+            set (target, prop, value, receiver) {
+                if (typeof prop === "symbol") {
+                    return ReflectAdapter.set(target, prop, value, receiver);
+                }
+                const lowercased = prop.toLowerCase();
+                // Let's find the original casing of the key. This assumes that there is
+                // no mixed case keys (e.g. "Content-Type" and "content-type") in the
+                // headers object.
+                const original = Object.keys(headers).find((o)=>o.toLowerCase() === lowercased);
+                // If the original casing doesn't exist, use the prop as the key.
+                return ReflectAdapter.set(target, original ?? prop, value, receiver);
+            },
+            has (target, prop) {
+                if (typeof prop === "symbol") return ReflectAdapter.has(target, prop);
+                const lowercased = prop.toLowerCase();
+                // Let's find the original casing of the key. This assumes that there is
+                // no mixed case keys (e.g. "Content-Type" and "content-type") in the
+                // headers object.
+                const original = Object.keys(headers).find((o)=>o.toLowerCase() === lowercased);
+                // If the original casing doesn't exist, return false.
+                if (typeof original === "undefined") return false;
+                // If the original casing exists, return true.
+                return ReflectAdapter.has(target, original);
+            },
+            deleteProperty (target, prop) {
+                if (typeof prop === "symbol") return ReflectAdapter.deleteProperty(target, prop);
+                const lowercased = prop.toLowerCase();
+                // Let's find the original casing of the key. This assumes that there is
+                // no mixed case keys (e.g. "Content-Type" and "content-type") in the
+                // headers object.
+                const original = Object.keys(headers).find((o)=>o.toLowerCase() === lowercased);
+                // If the original casing doesn't exist, return true.
+                if (typeof original === "undefined") return true;
+                // If the original casing exists, delete the property.
+                return ReflectAdapter.deleteProperty(target, original);
+            }
+        });
+    }
+    /**
+   * Seals a Headers instance to prevent modification by throwing an error when
+   * any mutating method is called.
+   */ static seal(headers) {
+        return new Proxy(headers, {
+            get (target, prop, receiver) {
+                switch(prop){
+                    case "append":
+                    case "delete":
+                    case "set":
+                        return ReadonlyHeadersError.callable;
+                    default:
+                        return ReflectAdapter.get(target, prop, receiver);
+                }
+            }
+        });
+    }
+    /**
+   * Merges a header value into a string. This stores multiple values as an
+   * array, so we need to merge them into a string.
+   *
+   * @param value a header value
+   * @returns a merged header value (a string)
+   */ merge(value) {
+        if (Array.isArray(value)) return value.join(", ");
+        return value;
+    }
+    /**
+   * Creates a Headers instance from a plain object or a Headers instance.
+   *
+   * @param headers a plain object or a Headers instance
+   * @returns a headers instance
+   */ static from(headers) {
+        if (headers instanceof Headers) return headers;
+        return new HeadersAdapter(headers);
+    }
+    append(name, value) {
+        const existing = this.headers[name];
+        if (typeof existing === "string") {
+            this.headers[name] = [
+                existing,
+                value
+            ];
+        } else if (Array.isArray(existing)) {
+            existing.push(value);
+        } else {
+            this.headers[name] = value;
+        }
+    }
+    delete(name) {
+        delete this.headers[name];
+    }
+    get(name) {
+        const value = this.headers[name];
+        if (typeof value !== "undefined") return this.merge(value);
+        return null;
+    }
+    has(name) {
+        return typeof this.headers[name] !== "undefined";
+    }
+    set(name, value) {
+        this.headers[name] = value;
+    }
+    forEach(callbackfn, thisArg) {
+        for (const [name, value] of this.entries()){
+            callbackfn.call(thisArg, value, name, this);
+        }
+    }
+    *entries() {
+        for (const key of Object.keys(this.headers)){
+            const name = key.toLowerCase();
+            // We assert here that this is a string because we got it from the
+            // Object.keys() call above.
+            const value = this.get(name);
+            yield [
+                name,
+                value
+            ];
+        }
+    }
+    *keys() {
+        for (const key of Object.keys(this.headers)){
+            const name = key.toLowerCase();
+            yield name;
+        }
+    }
+    *values() {
+        for (const key of Object.keys(this.headers)){
+            // We assert here that this is a string because we got it from the
+            // Object.keys() call above.
+            const value = this.get(key);
+            yield value;
+        }
+    }
+    [Symbol.iterator]() {
+        return this.entries();
+    }
+} //# sourceMappingURL=headers.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/web/spec-extension/adapters/request-cookies.js
+
+
+/**
+ * @internal
+ */ class ReadonlyRequestCookiesError extends Error {
+    constructor(){
+        super("Cookies can only be modified in a Server Action or Route Handler. Read more: https://nextjs.org/docs/app/api-reference/functions/cookies#cookiessetname-value-options");
+    }
+    static callable() {
+        throw new ReadonlyRequestCookiesError();
+    }
+}
+class RequestCookiesAdapter {
+    static seal(cookies) {
+        return new Proxy(cookies, {
+            get (target, prop, receiver) {
+                switch(prop){
+                    case "clear":
+                    case "delete":
+                    case "set":
+                        return ReadonlyRequestCookiesError.callable;
+                    default:
+                        return ReflectAdapter.get(target, prop, receiver);
+                }
+            }
+        });
+    }
+}
+const SYMBOL_MODIFY_COOKIE_VALUES = Symbol.for("next.mutated.cookies");
+function getModifiedCookieValues(cookies) {
+    const modified = cookies[SYMBOL_MODIFY_COOKIE_VALUES];
+    if (!modified || !Array.isArray(modified) || modified.length === 0) {
+        return [];
+    }
+    return modified;
+}
+function appendMutableCookies(headers, mutableCookies) {
+    const modifiedCookieValues = getModifiedCookieValues(mutableCookies);
+    if (modifiedCookieValues.length === 0) {
+        return false;
+    }
+    // Return a new response that extends the response with
+    // the modified cookies as fallbacks. `res` cookies
+    // will still take precedence.
+    const resCookies = new ResponseCookies(headers);
+    const returnedCookies = resCookies.getAll();
+    // Set the modified cookies as fallbacks.
+    for (const cookie of modifiedCookieValues){
+        resCookies.set(cookie);
+    }
+    // Set the original cookies as the final values.
+    for (const cookie of returnedCookies){
+        resCookies.set(cookie);
+    }
+    return true;
+}
+class MutableRequestCookiesAdapter {
+    static wrap(cookies, onUpdateCookies) {
+        const responseCookes = new _edge_runtime_cookies.ResponseCookies(new Headers());
+        for (const cookie of cookies.getAll()){
+            responseCookes.set(cookie);
+        }
+        let modifiedValues = [];
+        const modifiedCookies = new Set();
+        const updateResponseCookies = ()=>{
+            var _fetch___nextGetStaticStore;
+            // TODO-APP: change method of getting staticGenerationAsyncStore
+            const staticGenerationAsyncStore = fetch.__nextGetStaticStore == null ? void 0 : (_fetch___nextGetStaticStore = fetch.__nextGetStaticStore.call(fetch)) == null ? void 0 : _fetch___nextGetStaticStore.getStore();
+            if (staticGenerationAsyncStore) {
+                staticGenerationAsyncStore.pathWasRevalidated = true;
+            }
+            const allCookies = responseCookes.getAll();
+            modifiedValues = allCookies.filter((c)=>modifiedCookies.has(c.name));
+            if (onUpdateCookies) {
+                const serializedCookies = [];
+                for (const cookie of modifiedValues){
+                    const tempCookies = new _edge_runtime_cookies.ResponseCookies(new Headers());
+                    tempCookies.set(cookie);
+                    serializedCookies.push(tempCookies.toString());
+                }
+                onUpdateCookies(serializedCookies);
+            }
+        };
+        return new Proxy(responseCookes, {
+            get (target, prop, receiver) {
+                switch(prop){
+                    // A special symbol to get the modified cookie values
+                    case SYMBOL_MODIFY_COOKIE_VALUES:
+                        return modifiedValues;
+                    // TODO: Throw error if trying to set a cookie after the response
+                    // headers have been set.
+                    case "delete":
+                        return function(...args) {
+                            modifiedCookies.add(typeof args[0] === "string" ? args[0] : args[0].name);
+                            try {
+                                target.delete(...args);
+                            } finally{
+                                updateResponseCookies();
+                            }
+                        };
+                    case "set":
+                        return function(...args) {
+                            modifiedCookies.add(typeof args[0] === "string" ? args[0] : args[0].name);
+                            try {
+                                return target.set(...args);
+                            } finally{
+                                updateResponseCookies();
+                            }
+                        };
+                    default:
+                        return ReflectAdapter.get(target, prop, receiver);
+                }
+            }
+        });
+    }
+} //# sourceMappingURL=request-cookies.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/api-utils/index.js
+
+
+/**
+ *
+ * @param res response object
+ * @param statusCode `HTTP` status code of response
+ */ function sendStatusCode(res, statusCode) {
+    res.statusCode = statusCode;
+    return res;
+}
+/**
+ *
+ * @param res response object
+ * @param [statusOrUrl] `HTTP` status code of redirect
+ * @param url URL of redirect
+ */ function redirect(res, statusOrUrl, url) {
+    if (typeof statusOrUrl === "string") {
+        url = statusOrUrl;
+        statusOrUrl = 307;
+    }
+    if (typeof statusOrUrl !== "number" || typeof url !== "string") {
+        throw new Error(`Invalid redirect arguments. Please use a single argument URL, e.g. res.redirect('/destination') or use a status code and URL, e.g. res.redirect(307, '/destination').`);
+    }
+    res.writeHead(statusOrUrl, {
+        Location: url
+    });
+    res.write(url);
+    res.end();
+    return res;
+}
+function checkIsOnDemandRevalidate(req, previewProps) {
+    const headers = HeadersAdapter.from(req.headers);
+    const previewModeId = headers.get(PRERENDER_REVALIDATE_HEADER);
+    const isOnDemandRevalidate = previewModeId === previewProps.previewModeId;
+    const revalidateOnlyGenerated = headers.has(PRERENDER_REVALIDATE_ONLY_GENERATED_HEADER);
+    return {
+        isOnDemandRevalidate,
+        revalidateOnlyGenerated
+    };
+}
+const COOKIE_NAME_PRERENDER_BYPASS = `__prerender_bypass`;
+const COOKIE_NAME_PRERENDER_DATA = `__next_preview_data`;
+const RESPONSE_LIMIT_DEFAULT = (/* unused pure expression or super */ null && (4 * 1024 * 1024));
+const SYMBOL_PREVIEW_DATA = Symbol(COOKIE_NAME_PRERENDER_DATA);
+const SYMBOL_CLEARED_COOKIES = Symbol(COOKIE_NAME_PRERENDER_BYPASS);
+function clearPreviewData(res, options = {}) {
+    if (SYMBOL_CLEARED_COOKIES in res) {
+        return res;
+    }
+    const { serialize } = __webpack_require__(1053);
+    const previous = res.getHeader("Set-Cookie");
+    res.setHeader(`Set-Cookie`, [
+        ...typeof previous === "string" ? [
+            previous
+        ] : Array.isArray(previous) ? previous : [],
+        serialize(COOKIE_NAME_PRERENDER_BYPASS, "", {
+            // To delete a cookie, set `expires` to a date in the past:
+            // https://tools.ietf.org/html/rfc6265#section-4.1.1
+            // `Max-Age: 0` is not valid, thus ignored, and the cookie is persisted.
+            expires: new Date(0),
+            httpOnly: true,
+            sameSite:  true ? "none" : 0,
+            secure: "production" !== "development",
+            path: "/",
+            ...options.path !== undefined ? {
+                path: options.path
+            } : undefined
+        }),
+        serialize(COOKIE_NAME_PRERENDER_DATA, "", {
+            // To delete a cookie, set `expires` to a date in the past:
+            // https://tools.ietf.org/html/rfc6265#section-4.1.1
+            // `Max-Age: 0` is not valid, thus ignored, and the cookie is persisted.
+            expires: new Date(0),
+            httpOnly: true,
+            sameSite:  true ? "none" : 0,
+            secure: "production" !== "development",
+            path: "/",
+            ...options.path !== undefined ? {
+                path: options.path
+            } : undefined
+        })
+    ]);
+    Object.defineProperty(res, SYMBOL_CLEARED_COOKIES, {
+        value: true,
+        enumerable: false
+    });
+    return res;
+}
+/**
+ * Custom error class
+ */ class ApiError extends (/* unused pure expression or super */ null && (Error)) {
+    constructor(statusCode, message){
+        super(message);
+        this.statusCode = statusCode;
+    }
+}
+/**
+ * Sends error in `response`
+ * @param res response object
+ * @param statusCode of response
+ * @param message of response
+ */ function sendError(res, statusCode, message) {
+    res.statusCode = statusCode;
+    res.statusMessage = message;
+    res.end(message);
+}
+/**
+ * Execute getter function only if its needed
+ * @param LazyProps `req` and `params` for lazyProp
+ * @param prop name of property
+ * @param getter function to get data
+ */ function setLazyProp({ req }, prop, getter) {
+    const opts = {
+        configurable: true,
+        enumerable: true
+    };
+    const optsReset = {
+        ...opts,
+        writable: true
+    };
+    Object.defineProperty(req, prop, {
+        ...opts,
+        get: ()=>{
+            const value = getter();
+            // we set the property on the object to avoid recalculating it
+            Object.defineProperty(req, prop, {
+                ...optsReset,
+                value
+            });
+            return value;
+        },
+        set: (value)=>{
+            Object.defineProperty(req, prop, {
+                ...optsReset,
+                value
+            });
+        }
+    });
+} //# sourceMappingURL=index.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/async-storage/draft-mode-provider.js
+
+class DraftModeProvider {
+    constructor(previewProps, req, cookies, mutableCookies){
+        var _cookies_get;
+        // The logic for draftMode() is very similar to tryGetPreviewData()
+        // but Draft Mode does not have any data associated with it.
+        const isOnDemandRevalidate = previewProps && checkIsOnDemandRevalidate(req, previewProps).isOnDemandRevalidate;
+        const cookieValue = (_cookies_get = cookies.get(COOKIE_NAME_PRERENDER_BYPASS)) == null ? void 0 : _cookies_get.value;
+        this.isEnabled = Boolean(!isOnDemandRevalidate && cookieValue && previewProps && cookieValue === previewProps.previewModeId);
+        this._previewModeId = previewProps == null ? void 0 : previewProps.previewModeId;
+        this._mutableCookies = mutableCookies;
+    }
+    enable() {
+        if (!this._previewModeId) {
+            throw new Error("Invariant: previewProps missing previewModeId this should never happen");
+        }
+        this._mutableCookies.set({
+            name: COOKIE_NAME_PRERENDER_BYPASS,
+            value: this._previewModeId,
+            httpOnly: true,
+            sameSite:  true ? "none" : 0,
+            secure: "production" !== "development",
+            path: "/"
+        });
+    }
+    disable() {
+        // To delete a cookie, set `expires` to a date in the past:
+        // https://tools.ietf.org/html/rfc6265#section-4.1.1
+        // `Max-Age: 0` is not valid, thus ignored, and the cookie is persisted.
+        this._mutableCookies.set({
+            name: COOKIE_NAME_PRERENDER_BYPASS,
+            value: "",
+            httpOnly: true,
+            sameSite:  true ? "none" : 0,
+            secure: "production" !== "development",
+            path: "/",
+            expires: new Date(0)
+        });
+    }
+} //# sourceMappingURL=draft-mode-provider.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/async-storage/request-async-storage-wrapper.js
+
+
+
+
+
+function getHeaders(headers) {
+    const cleaned = HeadersAdapter.from(headers);
+    for (const param of FLIGHT_PARAMETERS){
+        cleaned.delete(param.toString().toLowerCase());
+    }
+    return HeadersAdapter.seal(cleaned);
+}
+function getCookies(headers) {
+    const cookies = new _edge_runtime_cookies.RequestCookies(HeadersAdapter.from(headers));
+    return RequestCookiesAdapter.seal(cookies);
+}
+function getMutableCookies(headers, onUpdateCookies) {
+    const cookies = new _edge_runtime_cookies.RequestCookies(HeadersAdapter.from(headers));
+    return MutableRequestCookiesAdapter.wrap(cookies, onUpdateCookies);
+}
+const RequestAsyncStorageWrapper = {
+    /**
+   * Wrap the callback with the given store so it can access the underlying
+   * store using hooks.
+   *
+   * @param storage underlying storage object returned by the module
+   * @param context context to seed the store
+   * @param callback function to call within the scope of the context
+   * @returns the result returned by the callback
+   */ wrap (storage, { req, res, renderOpts }, callback) {
+        let previewProps = undefined;
+        if (renderOpts && "previewProps" in renderOpts) {
+            // TODO: investigate why previewProps isn't on RenderOpts
+            previewProps = renderOpts.previewProps;
+        }
+        function defaultOnUpdateCookies(cookies) {
+            if (res) {
+                res.setHeader("Set-Cookie", cookies);
+            }
+        }
+        const cache = {};
+        const store = {
+            get headers () {
+                if (!cache.headers) {
+                    // Seal the headers object that'll freeze out any methods that could
+                    // mutate the underlying data.
+                    cache.headers = getHeaders(req.headers);
+                }
+                return cache.headers;
+            },
+            get cookies () {
+                if (!cache.cookies) {
+                    // Seal the cookies object that'll freeze out any methods that could
+                    // mutate the underlying data.
+                    cache.cookies = getCookies(req.headers);
+                }
+                return cache.cookies;
+            },
+            get mutableCookies () {
+                if (!cache.mutableCookies) {
+                    cache.mutableCookies = getMutableCookies(req.headers, (renderOpts == null ? void 0 : renderOpts.onUpdateCookies) || (res ? defaultOnUpdateCookies : undefined));
+                }
+                return cache.mutableCookies;
+            },
+            get draftMode () {
+                if (!cache.draftMode) {
+                    cache.draftMode = new DraftModeProvider(previewProps, req, this.cookies, this.mutableCookies);
+                }
+                return cache.draftMode;
+            }
+        };
+        return storage.run(store, callback, store);
+    }
+}; //# sourceMappingURL=request-async-storage-wrapper.js.map
+
+// EXTERNAL MODULE: ./node_modules/next/dist/esm/client/components/async-local-storage.js
+var async_local_storage = __webpack_require__(9186);
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/client/components/request-async-storage.external.js
+
+const requestAsyncStorage = (0,async_local_storage/* createAsyncLocalStorage */.P)(); //# sourceMappingURL=request-async-storage.external.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/lib/trace/constants.js
+/**
+ * Contains predefined constants for the trace span name in next/server.
+ *
+ * Currently, next/server/tracer is internal implementation only for tracking
+ * next.js's implementation only with known span names defined here.
+ **/ // eslint typescript has a bug with TS enums
+/* eslint-disable no-shadow */ var BaseServerSpan;
+(function(BaseServerSpan) {
+    BaseServerSpan["handleRequest"] = "BaseServer.handleRequest";
+    BaseServerSpan["run"] = "BaseServer.run";
+    BaseServerSpan["pipe"] = "BaseServer.pipe";
+    BaseServerSpan["getStaticHTML"] = "BaseServer.getStaticHTML";
+    BaseServerSpan["render"] = "BaseServer.render";
+    BaseServerSpan["renderToResponseWithComponents"] = "BaseServer.renderToResponseWithComponents";
+    BaseServerSpan["renderToResponse"] = "BaseServer.renderToResponse";
+    BaseServerSpan["renderToHTML"] = "BaseServer.renderToHTML";
+    BaseServerSpan["renderError"] = "BaseServer.renderError";
+    BaseServerSpan["renderErrorToResponse"] = "BaseServer.renderErrorToResponse";
+    BaseServerSpan["renderErrorToHTML"] = "BaseServer.renderErrorToHTML";
+    BaseServerSpan["render404"] = "BaseServer.render404";
+})(BaseServerSpan || (BaseServerSpan = {}));
+var LoadComponentsSpan;
+(function(LoadComponentsSpan) {
+    LoadComponentsSpan["loadDefaultErrorComponents"] = "LoadComponents.loadDefaultErrorComponents";
+    LoadComponentsSpan["loadComponents"] = "LoadComponents.loadComponents";
+})(LoadComponentsSpan || (LoadComponentsSpan = {}));
+var NextServerSpan;
+(function(NextServerSpan) {
+    NextServerSpan["getRequestHandler"] = "NextServer.getRequestHandler";
+    NextServerSpan["getServer"] = "NextServer.getServer";
+    NextServerSpan["getServerRequestHandler"] = "NextServer.getServerRequestHandler";
+    NextServerSpan["createServer"] = "createServer.createServer";
+})(NextServerSpan || (NextServerSpan = {}));
+var NextNodeServerSpan;
+(function(NextNodeServerSpan) {
+    NextNodeServerSpan["compression"] = "NextNodeServer.compression";
+    NextNodeServerSpan["getBuildId"] = "NextNodeServer.getBuildId";
+    NextNodeServerSpan["generateStaticRoutes"] = "NextNodeServer.generateStaticRoutes";
+    NextNodeServerSpan["generateFsStaticRoutes"] = "NextNodeServer.generateFsStaticRoutes";
+    NextNodeServerSpan["generatePublicRoutes"] = "NextNodeServer.generatePublicRoutes";
+    NextNodeServerSpan["generateImageRoutes"] = "NextNodeServer.generateImageRoutes.route";
+    NextNodeServerSpan["sendRenderResult"] = "NextNodeServer.sendRenderResult";
+    NextNodeServerSpan["proxyRequest"] = "NextNodeServer.proxyRequest";
+    NextNodeServerSpan["runApi"] = "NextNodeServer.runApi";
+    NextNodeServerSpan["render"] = "NextNodeServer.render";
+    NextNodeServerSpan["renderHTML"] = "NextNodeServer.renderHTML";
+    NextNodeServerSpan["imageOptimizer"] = "NextNodeServer.imageOptimizer";
+    NextNodeServerSpan["getPagePath"] = "NextNodeServer.getPagePath";
+    NextNodeServerSpan["getRoutesManifest"] = "NextNodeServer.getRoutesManifest";
+    NextNodeServerSpan["findPageComponents"] = "NextNodeServer.findPageComponents";
+    NextNodeServerSpan["getFontManifest"] = "NextNodeServer.getFontManifest";
+    NextNodeServerSpan["getServerComponentManifest"] = "NextNodeServer.getServerComponentManifest";
+    NextNodeServerSpan["getRequestHandler"] = "NextNodeServer.getRequestHandler";
+    NextNodeServerSpan["renderToHTML"] = "NextNodeServer.renderToHTML";
+    NextNodeServerSpan["renderError"] = "NextNodeServer.renderError";
+    NextNodeServerSpan["renderErrorToHTML"] = "NextNodeServer.renderErrorToHTML";
+    NextNodeServerSpan["render404"] = "NextNodeServer.render404";
+    NextNodeServerSpan["route"] = "route";
+    NextNodeServerSpan["onProxyReq"] = "onProxyReq";
+    NextNodeServerSpan["apiResolver"] = "apiResolver";
+    NextNodeServerSpan["internalFetch"] = "internalFetch";
+})(NextNodeServerSpan || (NextNodeServerSpan = {}));
+var StartServerSpan;
+(function(StartServerSpan) {
+    StartServerSpan["startServer"] = "startServer.startServer";
+})(StartServerSpan || (StartServerSpan = {}));
+var RenderSpan;
+(function(RenderSpan) {
+    RenderSpan["getServerSideProps"] = "Render.getServerSideProps";
+    RenderSpan["getStaticProps"] = "Render.getStaticProps";
+    RenderSpan["renderToString"] = "Render.renderToString";
+    RenderSpan["renderDocument"] = "Render.renderDocument";
+    RenderSpan["createBodyResult"] = "Render.createBodyResult";
+})(RenderSpan || (RenderSpan = {}));
+var AppRenderSpan;
+(function(AppRenderSpan) {
+    AppRenderSpan["renderToString"] = "AppRender.renderToString";
+    AppRenderSpan["renderToReadableStream"] = "AppRender.renderToReadableStream";
+    AppRenderSpan["getBodyResult"] = "AppRender.getBodyResult";
+    AppRenderSpan["fetch"] = "AppRender.fetch";
+})(AppRenderSpan || (AppRenderSpan = {}));
+var RouterSpan;
+(function(RouterSpan) {
+    RouterSpan["executeRoute"] = "Router.executeRoute";
+})(RouterSpan || (RouterSpan = {}));
+var NodeSpan;
+(function(NodeSpan) {
+    NodeSpan["runHandler"] = "Node.runHandler";
+})(NodeSpan || (NodeSpan = {}));
+var AppRouteRouteHandlersSpan;
+(function(AppRouteRouteHandlersSpan) {
+    AppRouteRouteHandlersSpan["runHandler"] = "AppRouteRouteHandlers.runHandler";
+})(AppRouteRouteHandlersSpan || (AppRouteRouteHandlersSpan = {}));
+var ResolveMetadataSpan;
+(function(ResolveMetadataSpan) {
+    ResolveMetadataSpan["generateMetadata"] = "ResolveMetadata.generateMetadata";
+    ResolveMetadataSpan["generateViewport"] = "ResolveMetadata.generateViewport";
+})(ResolveMetadataSpan || (ResolveMetadataSpan = {}));
+// This list is used to filter out spans that are not relevant to the user
+const NextVanillaSpanAllowlist = [
+    "BaseServer.handleRequest",
+    "Render.getServerSideProps",
+    "Render.getStaticProps",
+    "AppRender.fetch",
+    "AppRender.getBodyResult",
+    "Render.renderDocument",
+    "Node.runHandler",
+    "AppRouteRouteHandlers.runHandler",
+    "ResolveMetadata.generateMetadata",
+    "ResolveMetadata.generateViewport"
+];
+ //# sourceMappingURL=constants.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/lib/trace/tracer.js
+
+let api;
+// we want to allow users to use their own version of @opentelemetry/api if they
+// want to, so we try to require it first, and if it fails we fall back to the
+// version that is bundled with Next.js
+// this is because @opentelemetry/api has to be synced with the version of
+// @opentelemetry/tracing that is used, and we don't want to force users to use
+// the version that is bundled with Next.js.
+// the API is ~stable, so this should be fine
+if (true) {
+    api = __webpack_require__(3016);
+} else {}
+const { context, propagation, trace, SpanStatusCode, SpanKind, ROOT_CONTEXT } = api;
+const isPromise = (p)=>{
+    return p !== null && typeof p === "object" && typeof p.then === "function";
+};
+const closeSpanWithError = (span, error)=>{
+    if ((error == null ? void 0 : error.bubble) === true) {
+        span.setAttribute("next.bubble", true);
+    } else {
+        if (error) {
+            span.recordException(error);
+        }
+        span.setStatus({
+            code: SpanStatusCode.ERROR,
+            message: error == null ? void 0 : error.message
+        });
+    }
+    span.end();
+};
+/** we use this map to propagate attributes from nested spans to the top span */ const rootSpanAttributesStore = new Map();
+const rootSpanIdKey = api.createContextKey("next.rootSpanId");
+let lastSpanId = 0;
+const getSpanId = ()=>lastSpanId++;
+class NextTracerImpl {
+    /**
+   * Returns an instance to the trace with configured name.
+   * Since wrap / trace can be defined in any place prior to actual trace subscriber initialization,
+   * This should be lazily evaluated.
+   */ getTracerInstance() {
+        return trace.getTracer("next.js", "0.0.1");
+    }
+    getContext() {
+        return context;
+    }
+    getActiveScopeSpan() {
+        return trace.getSpan(context == null ? void 0 : context.active());
+    }
+    withPropagatedContext(carrier, fn, getter) {
+        const activeContext = context.active();
+        if (trace.getSpanContext(activeContext)) {
+            // Active span is already set, too late to propagate.
+            return fn();
+        }
+        const remoteContext = propagation.extract(activeContext, carrier, getter);
+        return context.with(remoteContext, fn);
+    }
+    trace(...args) {
+        var _trace_getSpanContext;
+        const [type, fnOrOptions, fnOrEmpty] = args;
+        // coerce options form overload
+        const { fn, options } = typeof fnOrOptions === "function" ? {
+            fn: fnOrOptions,
+            options: {}
+        } : {
+            fn: fnOrEmpty,
+            options: {
+                ...fnOrOptions
+            }
+        };
+        if (!NextVanillaSpanAllowlist.includes(type) && process.env.NEXT_OTEL_VERBOSE !== "1" || options.hideSpan) {
+            return fn();
+        }
+        const spanName = options.spanName ?? type;
+        // Trying to get active scoped span to assign parent. If option specifies parent span manually, will try to use it.
+        let spanContext = this.getSpanContext((options == null ? void 0 : options.parentSpan) ?? this.getActiveScopeSpan());
+        let isRootSpan = false;
+        if (!spanContext) {
+            spanContext = ROOT_CONTEXT;
+            isRootSpan = true;
+        } else if ((_trace_getSpanContext = trace.getSpanContext(spanContext)) == null ? void 0 : _trace_getSpanContext.isRemote) {
+            isRootSpan = true;
+        }
+        const spanId = getSpanId();
+        options.attributes = {
+            "next.span_name": spanName,
+            "next.span_type": type,
+            ...options.attributes
+        };
+        return context.with(spanContext.setValue(rootSpanIdKey, spanId), ()=>this.getTracerInstance().startActiveSpan(spanName, options, (span)=>{
+                const onCleanup = ()=>{
+                    rootSpanAttributesStore.delete(spanId);
+                };
+                if (isRootSpan) {
+                    rootSpanAttributesStore.set(spanId, new Map(Object.entries(options.attributes ?? {})));
+                }
+                try {
+                    if (fn.length > 1) {
+                        return fn(span, (err)=>closeSpanWithError(span, err));
+                    }
+                    const result = fn(span);
+                    if (isPromise(result)) {
+                        result.then(()=>span.end(), (err)=>closeSpanWithError(span, err)).finally(onCleanup);
+                    } else {
+                        span.end();
+                        onCleanup();
+                    }
+                    return result;
+                } catch (err) {
+                    closeSpanWithError(span, err);
+                    onCleanup();
+                    throw err;
+                }
+            }));
+    }
+    wrap(...args) {
+        const tracer = this;
+        const [name, options, fn] = args.length === 3 ? args : [
+            args[0],
+            {},
+            args[1]
+        ];
+        if (!NextVanillaSpanAllowlist.includes(name) && process.env.NEXT_OTEL_VERBOSE !== "1") {
+            return fn;
+        }
+        return function() {
+            let optionsObj = options;
+            if (typeof optionsObj === "function" && typeof fn === "function") {
+                optionsObj = optionsObj.apply(this, arguments);
+            }
+            const lastArgId = arguments.length - 1;
+            const cb = arguments[lastArgId];
+            if (typeof cb === "function") {
+                const scopeBoundCb = tracer.getContext().bind(context.active(), cb);
+                return tracer.trace(name, optionsObj, (_span, done)=>{
+                    arguments[lastArgId] = function(err) {
+                        done == null ? void 0 : done(err);
+                        return scopeBoundCb.apply(this, arguments);
+                    };
+                    return fn.apply(this, arguments);
+                });
+            } else {
+                return tracer.trace(name, optionsObj, ()=>fn.apply(this, arguments));
+            }
+        };
+    }
+    startSpan(...args) {
+        const [type, options] = args;
+        const spanContext = this.getSpanContext((options == null ? void 0 : options.parentSpan) ?? this.getActiveScopeSpan());
+        return this.getTracerInstance().startSpan(type, options, spanContext);
+    }
+    getSpanContext(parentSpan) {
+        const spanContext = parentSpan ? trace.setSpan(context.active(), parentSpan) : undefined;
+        return spanContext;
+    }
+    getRootSpanAttributes() {
+        const spanId = context.active().getValue(rootSpanIdKey);
+        return rootSpanAttributesStore.get(spanId);
+    }
+}
+const getTracer = (()=>{
+    const tracer = new NextTracerImpl();
+    return ()=>tracer;
+})();
+ //# sourceMappingURL=tracer.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/web/adapter.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class NextRequestHint extends NextRequest {
+    constructor(params){
+        super(params.input, params.init);
+        this.sourcePage = params.page;
+    }
+    get request() {
+        throw new PageSignatureError({
+            page: this.sourcePage
+        });
+    }
+    respondWith() {
+        throw new PageSignatureError({
+            page: this.sourcePage
+        });
+    }
+    waitUntil() {
+        throw new PageSignatureError({
+            page: this.sourcePage
+        });
+    }
+}
+const headersGetter = {
+    keys: (headers)=>Array.from(headers.keys()),
+    get: (headers, key)=>headers.get(key) ?? undefined
+};
+let propagator = (request, fn)=>{
+    const tracer = getTracer();
+    return tracer.withPropagatedContext(request.headers, fn, headersGetter);
+};
+let testApisIntercepted = false;
+function ensureTestApisIntercepted() {
+    if (!testApisIntercepted) {
+        testApisIntercepted = true;
+        if (process.env.NEXT_PRIVATE_TEST_PROXY === "true") {
+            const { interceptTestApis, wrapRequestHandler } = __webpack_require__(3457);
+            interceptTestApis();
+            propagator = wrapRequestHandler(propagator);
+        }
+    }
+}
+async function adapter(params) {
+    ensureTestApisIntercepted();
+    await ensureInstrumentationRegistered();
+    // TODO-APP: use explicit marker for this
+    const isEdgeRendering = typeof self.__BUILD_MANIFEST !== "undefined";
+    const prerenderManifest = typeof self.__PRERENDER_MANIFEST === "string" ? JSON.parse(self.__PRERENDER_MANIFEST) : undefined;
+    params.request.url = normalizeRscURL(params.request.url);
+    const requestUrl = new NextURL(params.request.url, {
+        headers: params.request.headers,
+        nextConfig: params.request.nextConfig
+    });
+    // Iterator uses an index to keep track of the current iteration. Because of deleting and appending below we can't just use the iterator.
+    // Instead we use the keys before iteration.
+    const keys = [
+        ...requestUrl.searchParams.keys()
+    ];
+    for (const key of keys){
+        const value = requestUrl.searchParams.getAll(key);
+        if (key !== NEXT_QUERY_PARAM_PREFIX && key.startsWith(NEXT_QUERY_PARAM_PREFIX)) {
+            const normalizedKey = key.substring(NEXT_QUERY_PARAM_PREFIX.length);
+            requestUrl.searchParams.delete(normalizedKey);
+            for (const val of value){
+                requestUrl.searchParams.append(normalizedKey, val);
+            }
+            requestUrl.searchParams.delete(key);
+        }
+    }
+    // Ensure users only see page requests, never data requests.
+    const buildId = requestUrl.buildId;
+    requestUrl.buildId = "";
+    const isDataReq = params.request.headers["x-nextjs-data"];
+    if (isDataReq && requestUrl.pathname === "/index") {
+        requestUrl.pathname = "/";
+    }
+    const requestHeaders = fromNodeOutgoingHttpHeaders(params.request.headers);
+    const flightHeaders = new Map();
+    // Parameters should only be stripped for middleware
+    if (!isEdgeRendering) {
+        for (const param of FLIGHT_PARAMETERS){
+            const key = param.toString().toLowerCase();
+            const value = requestHeaders.get(key);
+            if (value) {
+                flightHeaders.set(key, requestHeaders.get(key));
+                requestHeaders.delete(key);
+            }
+        }
+    }
+    const normalizeUrl =  false ? 0 : requestUrl;
+    const request = new NextRequestHint({
+        page: params.page,
+        // Strip internal query parameters off the request.
+        input: stripInternalSearchParams(normalizeUrl, true).toString(),
+        init: {
+            body: params.request.body,
+            geo: params.request.geo,
+            headers: requestHeaders,
+            ip: params.request.ip,
+            method: params.request.method,
+            nextConfig: params.request.nextConfig,
+            signal: params.request.signal
+        }
+    });
+    /**
+   * This allows to identify the request as a data request. The user doesn't
+   * need to know about this property neither use it. We add it for testing
+   * purposes.
+   */ if (isDataReq) {
+        Object.defineProperty(request, "__isData", {
+            enumerable: false,
+            value: true
+        });
+    }
+    if (!globalThis.__incrementalCache && params.IncrementalCache) {
+        globalThis.__incrementalCache = new params.IncrementalCache({
+            appDir: true,
+            fetchCache: true,
+            minimalMode: "production" !== "development",
+            fetchCacheKeyPrefix: undefined,
+            dev: "production" === "development",
+            requestHeaders: params.request.headers,
+            requestProtocol: "https",
+            getPrerenderManifest: ()=>{
+                return {
+                    version: -1,
+                    routes: {},
+                    dynamicRoutes: {},
+                    notFoundRoutes: [],
+                    preview: {
+                        previewModeId: "development-id"
+                    }
+                };
+            }
+        });
+    }
+    const event = new NextFetchEvent({
+        request,
+        page: params.page
+    });
+    let response;
+    let cookiesFromResponse;
+    response = await propagator(request, ()=>{
+        // we only care to make async storage available for middleware
+        const isMiddleware = params.page === "/middleware" || params.page === "/src/middleware";
+        if (isMiddleware) {
+            return RequestAsyncStorageWrapper.wrap(requestAsyncStorage, {
+                req: request,
+                renderOpts: {
+                    onUpdateCookies: (cookies)=>{
+                        cookiesFromResponse = cookies;
+                    },
+                    // @ts-expect-error: TODO: investigate why previewProps isn't on RenderOpts
+                    previewProps: (prerenderManifest == null ? void 0 : prerenderManifest.preview) || {
+                        previewModeId: "development-id",
+                        previewModeEncryptionKey: "",
+                        previewModeSigningKey: ""
+                    }
+                }
+            }, ()=>params.handler(request, event));
+        }
+        return params.handler(request, event);
+    });
+    // check if response is a Response object
+    if (response && !(response instanceof Response)) {
+        throw new TypeError("Expected an instance of Response to be returned");
+    }
+    if (response && cookiesFromResponse) {
+        response.headers.set("set-cookie", cookiesFromResponse);
+    }
+    /**
+   * For rewrites we must always include the locale in the final pathname
+   * so we re-create the NextURL forcing it to include it when the it is
+   * an internal rewrite. Also we make sure the outgoing rewrite URL is
+   * a data URL if the request was a data request.
+   */ const rewrite = response == null ? void 0 : response.headers.get("x-middleware-rewrite");
+    if (response && rewrite) {
+        const rewriteUrl = new NextURL(rewrite, {
+            forceLocale: true,
+            headers: params.request.headers,
+            nextConfig: params.request.nextConfig
+        });
+        if (true) {
+            if (rewriteUrl.host === request.nextUrl.host) {
+                rewriteUrl.buildId = buildId || rewriteUrl.buildId;
+                response.headers.set("x-middleware-rewrite", String(rewriteUrl));
+            }
+        }
+        /**
+     * When the request is a data request we must show if there was a rewrite
+     * with an internal header so the client knows which component to load
+     * from the data request.
+     */ const relativizedRewrite = relativizeURL(String(rewriteUrl), String(requestUrl));
+        if (isDataReq && // if the rewrite is external and external rewrite
+        // resolving config is enabled don't add this header
+        // so the upstream app can set it instead
+        !(undefined && 0)) {
+            response.headers.set("x-nextjs-rewrite", relativizedRewrite);
+        }
+    }
+    /**
+   * For redirects we will not include the locale in case when it is the
+   * default and we must also make sure the outgoing URL is a data one if
+   * the incoming request was a data request.
+   */ const redirect = response == null ? void 0 : response.headers.get("Location");
+    if (response && redirect && !isEdgeRendering) {
+        const redirectURL = new NextURL(redirect, {
+            forceLocale: false,
+            headers: params.request.headers,
+            nextConfig: params.request.nextConfig
+        });
+        /**
+     * Responses created from redirects have immutable headers so we have
+     * to clone the response to be able to modify it.
+     */ response = new Response(response.body, response);
+        if (true) {
+            if (redirectURL.host === request.nextUrl.host) {
+                redirectURL.buildId = buildId || redirectURL.buildId;
+                response.headers.set("Location", String(redirectURL));
+            }
+        }
+        /**
+     * When the request is a data request we can't use the location header as
+     * it may end up with CORS error. Instead we map to an internal header so
+     * the client knows the destination.
+     */ if (isDataReq) {
+            response.headers.delete("Location");
+            response.headers.set("x-nextjs-redirect", relativizeURL(String(redirectURL), String(requestUrl)));
+        }
+    }
+    const finalResponse = response ? response : NextResponse.next();
+    // Flight headers are not overridable / removable so they are applied at the end.
+    const middlewareOverrideHeaders = finalResponse.headers.get("x-middleware-override-headers");
+    const overwrittenHeaders = [];
+    if (middlewareOverrideHeaders) {
+        for (const [key, value] of flightHeaders){
+            finalResponse.headers.set(`x-middleware-request-${key}`, value);
+            overwrittenHeaders.push(key);
+        }
+        if (overwrittenHeaders.length > 0) {
+            finalResponse.headers.set("x-middleware-override-headers", middlewareOverrideHeaders + "," + overwrittenHeaders.join(","));
+        }
+    }
+    return {
+        response: finalResponse,
+        waitUntil: Promise.all(event[waitUntilSymbol]),
+        fetchMetrics: request.fetchMetrics
+    };
+} //# sourceMappingURL=adapter.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/web/exports/next-response.js
+// This file is for modularized imports for next/server to get fully-treeshaking.
+ //# sourceMappingURL=next-response.js.map
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/buffer_utils.js
+const encoder = new TextEncoder();
+const decoder = new TextDecoder();
+const MAX_INT32 = (/* unused pure expression or super */ null && (2 ** 32));
+function concat(...buffers) {
+    const size = buffers.reduce((acc, { length })=>acc + length, 0);
+    const buf = new Uint8Array(size);
+    let i = 0;
+    for (const buffer of buffers){
+        buf.set(buffer, i);
+        i += buffer.length;
+    }
+    return buf;
+}
+function writeUInt32BE(buf, value, offset) {
+    if (value < 0 || value >= MAX_INT32) {
+        throw new RangeError(`value must be >= 0 and <= ${MAX_INT32 - 1}. Received ${value}`);
+    }
+    buf.set([
+        value >>> 24,
+        value >>> 16,
+        value >>> 8,
+        value & 0xff
+    ], offset);
+}
+function uint64be(value) {
+    const high = Math.floor(value / MAX_INT32);
+    const low = value % MAX_INT32;
+    const buf = new Uint8Array(8);
+    writeUInt32BE(buf, high, 0);
+    writeUInt32BE(buf, low, 4);
+    return buf;
+}
+function uint32be(value) {
+    const buf = new Uint8Array(4);
+    writeUInt32BE(buf, value);
+    return buf;
+}
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/base64.js
+function encodeBase64(input) {
+    if (Uint8Array.prototype.toBase64) {
+        return input.toBase64();
+    }
+    const CHUNK_SIZE = 0x8000;
+    const arr = [];
+    for(let i = 0; i < input.length; i += CHUNK_SIZE){
+        arr.push(String.fromCharCode.apply(null, input.subarray(i, i + CHUNK_SIZE)));
+    }
+    return btoa(arr.join(""));
+}
+function decodeBase64(encoded) {
+    if (Uint8Array.fromBase64) {
+        return Uint8Array.fromBase64(encoded);
+    }
+    const binary = atob(encoded);
+    const bytes = new Uint8Array(binary.length);
+    for(let i = 0; i < binary.length; i++){
+        bytes[i] = binary.charCodeAt(i);
+    }
+    return bytes;
+}
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/util/base64url.js
+
+
+function decode(input) {
+    if (Uint8Array.fromBase64) {
+        return Uint8Array.fromBase64(typeof input === "string" ? input : decoder.decode(input), {
+            alphabet: "base64url"
+        });
+    }
+    let encoded = input;
+    if (encoded instanceof Uint8Array) {
+        encoded = decoder.decode(encoded);
+    }
+    encoded = encoded.replace(/-/g, "+").replace(/_/g, "/").replace(/\s/g, "");
+    try {
+        return decodeBase64(encoded);
+    } catch  {
+        throw new TypeError("The input to be decoded is not correctly encoded.");
+    }
+}
+function encode(input) {
+    let unencoded = input;
+    if (typeof unencoded === "string") {
+        unencoded = encoder.encode(unencoded);
+    }
+    if (Uint8Array.prototype.toBase64) {
+        return unencoded.toBase64({
+            alphabet: "base64url",
+            omitPadding: true
+        });
+    }
+    return encodeBase64(unencoded).replace(/=/g, "").replace(/\+/g, "-").replace(/\//g, "_");
+}
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/util/errors.js
+class JOSEError extends Error {
+    static{
+        this.code = "ERR_JOSE_GENERIC";
+    }
+    constructor(message, options){
+        super(message, options);
+        this.code = "ERR_JOSE_GENERIC";
+        this.name = this.constructor.name;
+        Error.captureStackTrace?.(this, this.constructor);
+    }
+}
+class JWTClaimValidationFailed extends JOSEError {
+    static{
+        this.code = "ERR_JWT_CLAIM_VALIDATION_FAILED";
+    }
+    constructor(message, payload, claim = "unspecified", reason = "unspecified"){
+        super(message, {
+            cause: {
+                claim,
+                reason,
+                payload
+            }
+        });
+        this.code = "ERR_JWT_CLAIM_VALIDATION_FAILED";
+        this.claim = claim;
+        this.reason = reason;
+        this.payload = payload;
+    }
+}
+class JWTExpired extends JOSEError {
+    static{
+        this.code = "ERR_JWT_EXPIRED";
+    }
+    constructor(message, payload, claim = "unspecified", reason = "unspecified"){
+        super(message, {
+            cause: {
+                claim,
+                reason,
+                payload
+            }
+        });
+        this.code = "ERR_JWT_EXPIRED";
+        this.claim = claim;
+        this.reason = reason;
+        this.payload = payload;
+    }
+}
+class JOSEAlgNotAllowed extends JOSEError {
+    static{
+        this.code = "ERR_JOSE_ALG_NOT_ALLOWED";
+    }
+    constructor(...args){
+        super(...args);
+        this.code = "ERR_JOSE_ALG_NOT_ALLOWED";
+    }
+}
+class JOSENotSupported extends JOSEError {
+    static{
+        this.code = "ERR_JOSE_NOT_SUPPORTED";
+    }
+    constructor(...args){
+        super(...args);
+        this.code = "ERR_JOSE_NOT_SUPPORTED";
+    }
+}
+class JWEDecryptionFailed extends JOSEError {
+    static{
+        this.code = "ERR_JWE_DECRYPTION_FAILED";
+    }
+    constructor(message = "decryption operation failed", options){
+        super(message, options);
+        this.code = "ERR_JWE_DECRYPTION_FAILED";
+    }
+}
+class JWEInvalid extends JOSEError {
+    static{
+        this.code = "ERR_JWE_INVALID";
+    }
+    constructor(...args){
+        super(...args);
+        this.code = "ERR_JWE_INVALID";
+    }
+}
+class JWSInvalid extends JOSEError {
+    static{
+        this.code = "ERR_JWS_INVALID";
+    }
+    constructor(...args){
+        super(...args);
+        this.code = "ERR_JWS_INVALID";
+    }
+}
+class JWTInvalid extends JOSEError {
+    static{
+        this.code = "ERR_JWT_INVALID";
+    }
+    constructor(...args){
+        super(...args);
+        this.code = "ERR_JWT_INVALID";
+    }
+}
+class JWKInvalid extends JOSEError {
+    static{
+        this.code = "ERR_JWK_INVALID";
+    }
+    constructor(...args){
+        super(...args);
+        this.code = "ERR_JWK_INVALID";
+    }
+}
+class JWKSInvalid extends JOSEError {
+    static{
+        this.code = "ERR_JWKS_INVALID";
+    }
+    constructor(...args){
+        super(...args);
+        this.code = "ERR_JWKS_INVALID";
+    }
+}
+class JWKSNoMatchingKey extends JOSEError {
+    static{
+        this.code = "ERR_JWKS_NO_MATCHING_KEY";
+    }
+    constructor(message = "no applicable key found in the JSON Web Key Set", options){
+        super(message, options);
+        this.code = "ERR_JWKS_NO_MATCHING_KEY";
+    }
+}
+let prop;
+class JWKSMultipleMatchingKeys extends JOSEError {
+    static{
+        prop = Symbol.asyncIterator;
+    }
+    static{
+        this.code = "ERR_JWKS_MULTIPLE_MATCHING_KEYS";
+    }
+    constructor(message = "multiple matching keys found in the JSON Web Key Set", options){
+        super(message, options);
+        this.code = "ERR_JWKS_MULTIPLE_MATCHING_KEYS";
+    }
+}
+class JWKSTimeout extends JOSEError {
+    static{
+        this.code = "ERR_JWKS_TIMEOUT";
+    }
+    constructor(message = "request timed out", options){
+        super(message, options);
+        this.code = "ERR_JWKS_TIMEOUT";
+    }
+}
+class JWSSignatureVerificationFailed extends JOSEError {
+    static{
+        this.code = "ERR_JWS_SIGNATURE_VERIFICATION_FAILED";
+    }
+    constructor(message = "signature verification failed", options){
+        super(message, options);
+        this.code = "ERR_JWS_SIGNATURE_VERIFICATION_FAILED";
+    }
+}
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/subtle_dsa.js
+
+/* harmony default export */ const subtle_dsa = ((alg, algorithm)=>{
+    const hash = `SHA-${alg.slice(-3)}`;
+    switch(alg){
+        case "HS256":
+        case "HS384":
+        case "HS512":
+            return {
+                hash,
+                name: "HMAC"
+            };
+        case "PS256":
+        case "PS384":
+        case "PS512":
+            return {
+                hash,
+                name: "RSA-PSS",
+                saltLength: parseInt(alg.slice(-3), 10) >> 3
+            };
+        case "RS256":
+        case "RS384":
+        case "RS512":
+            return {
+                hash,
+                name: "RSASSA-PKCS1-v1_5"
+            };
+        case "ES256":
+        case "ES384":
+        case "ES512":
+            return {
+                hash,
+                name: "ECDSA",
+                namedCurve: algorithm.namedCurve
+            };
+        case "Ed25519":
+        case "EdDSA":
+            return {
+                name: "Ed25519"
+            };
+        default:
+            throw new JOSENotSupported(`alg ${alg} is not supported either by JOSE or your javascript runtime`);
+    }
+});
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/check_key_length.js
+/* harmony default export */ const check_key_length = ((alg, key)=>{
+    if (alg.startsWith("RS") || alg.startsWith("PS")) {
+        const { modulusLength } = key.algorithm;
+        if (typeof modulusLength !== "number" || modulusLength < 2048) {
+            throw new TypeError(`${alg} requires key modulusLength to be 2048 bits or larger`);
+        }
+    }
+});
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/crypto_key.js
+function unusable(name, prop = "algorithm.name") {
+    return new TypeError(`CryptoKey does not support this operation, its ${prop} must be ${name}`);
+}
+function isAlgorithm(algorithm, name) {
+    return algorithm.name === name;
+}
+function getHashLength(hash) {
+    return parseInt(hash.name.slice(4), 10);
+}
+function getNamedCurve(alg) {
+    switch(alg){
+        case "ES256":
+            return "P-256";
+        case "ES384":
+            return "P-384";
+        case "ES512":
+            return "P-521";
+        default:
+            throw new Error("unreachable");
+    }
+}
+function checkUsage(key, usage) {
+    if (usage && !key.usages.includes(usage)) {
+        throw new TypeError(`CryptoKey does not support this operation, its usages must include ${usage}.`);
+    }
+}
+function checkSigCryptoKey(key, alg, usage) {
+    switch(alg){
+        case "HS256":
+        case "HS384":
+        case "HS512":
+            {
+                if (!isAlgorithm(key.algorithm, "HMAC")) throw unusable("HMAC");
+                const expected = parseInt(alg.slice(2), 10);
+                const actual = getHashLength(key.algorithm.hash);
+                if (actual !== expected) throw unusable(`SHA-${expected}`, "algorithm.hash");
+                break;
+            }
+        case "RS256":
+        case "RS384":
+        case "RS512":
+            {
+                if (!isAlgorithm(key.algorithm, "RSASSA-PKCS1-v1_5")) throw unusable("RSASSA-PKCS1-v1_5");
+                const expected = parseInt(alg.slice(2), 10);
+                const actual = getHashLength(key.algorithm.hash);
+                if (actual !== expected) throw unusable(`SHA-${expected}`, "algorithm.hash");
+                break;
+            }
+        case "PS256":
+        case "PS384":
+        case "PS512":
+            {
+                if (!isAlgorithm(key.algorithm, "RSA-PSS")) throw unusable("RSA-PSS");
+                const expected = parseInt(alg.slice(2), 10);
+                const actual = getHashLength(key.algorithm.hash);
+                if (actual !== expected) throw unusable(`SHA-${expected}`, "algorithm.hash");
+                break;
+            }
+        case "Ed25519":
+        case "EdDSA":
+            {
+                if (!isAlgorithm(key.algorithm, "Ed25519")) throw unusable("Ed25519");
+                break;
+            }
+        case "ES256":
+        case "ES384":
+        case "ES512":
+            {
+                if (!isAlgorithm(key.algorithm, "ECDSA")) throw unusable("ECDSA");
+                const expected = getNamedCurve(alg);
+                const actual = key.algorithm.namedCurve;
+                if (actual !== expected) throw unusable(expected, "algorithm.namedCurve");
+                break;
+            }
+        default:
+            throw new TypeError("CryptoKey does not support this operation");
+    }
+    checkUsage(key, usage);
+}
+function checkEncCryptoKey(key, alg, usage) {
+    switch(alg){
+        case "A128GCM":
+        case "A192GCM":
+        case "A256GCM":
+            {
+                if (!isAlgorithm(key.algorithm, "AES-GCM")) throw unusable("AES-GCM");
+                const expected = parseInt(alg.slice(1, 4), 10);
+                const actual = key.algorithm.length;
+                if (actual !== expected) throw unusable(expected, "algorithm.length");
+                break;
+            }
+        case "A128KW":
+        case "A192KW":
+        case "A256KW":
+            {
+                if (!isAlgorithm(key.algorithm, "AES-KW")) throw unusable("AES-KW");
+                const expected = parseInt(alg.slice(1, 4), 10);
+                const actual = key.algorithm.length;
+                if (actual !== expected) throw unusable(expected, "algorithm.length");
+                break;
+            }
+        case "ECDH":
+            {
+                switch(key.algorithm.name){
+                    case "ECDH":
+                    case "X25519":
+                        break;
+                    default:
+                        throw unusable("ECDH or X25519");
+                }
+                break;
+            }
+        case "PBES2-HS256+A128KW":
+        case "PBES2-HS384+A192KW":
+        case "PBES2-HS512+A256KW":
+            if (!isAlgorithm(key.algorithm, "PBKDF2")) throw unusable("PBKDF2");
+            break;
+        case "RSA-OAEP":
+        case "RSA-OAEP-256":
+        case "RSA-OAEP-384":
+        case "RSA-OAEP-512":
+            {
+                if (!isAlgorithm(key.algorithm, "RSA-OAEP")) throw unusable("RSA-OAEP");
+                const expected = parseInt(alg.slice(9), 10) || 1;
+                const actual = getHashLength(key.algorithm.hash);
+                if (actual !== expected) throw unusable(`SHA-${expected}`, "algorithm.hash");
+                break;
+            }
+        default:
+            throw new TypeError("CryptoKey does not support this operation");
+    }
+    checkUsage(key, usage);
+}
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/invalid_key_input.js
+function message(msg, actual, ...types) {
+    types = types.filter(Boolean);
+    if (types.length > 2) {
+        const last = types.pop();
+        msg += `one of type ${types.join(", ")}, or ${last}.`;
+    } else if (types.length === 2) {
+        msg += `one of type ${types[0]} or ${types[1]}.`;
+    } else {
+        msg += `of type ${types[0]}.`;
+    }
+    if (actual == null) {
+        msg += ` Received ${actual}`;
+    } else if (typeof actual === "function" && actual.name) {
+        msg += ` Received function ${actual.name}`;
+    } else if (typeof actual === "object" && actual != null) {
+        if (actual.constructor?.name) {
+            msg += ` Received an instance of ${actual.constructor.name}`;
+        }
+    }
+    return msg;
+}
+/* harmony default export */ const invalid_key_input = ((actual, ...types)=>{
+    return message("Key must be ", actual, ...types);
+});
+function withAlg(alg, actual, ...types) {
+    return message(`Key for the ${alg} algorithm must be `, actual, ...types);
+}
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/get_sign_verify_key.js
+
+
+/* harmony default export */ const get_sign_verify_key = (async (alg, key, usage)=>{
+    if (key instanceof Uint8Array) {
+        if (!alg.startsWith("HS")) {
+            throw new TypeError(invalid_key_input(key, "CryptoKey", "KeyObject", "JSON Web Key"));
+        }
+        return crypto.subtle.importKey("raw", key, {
+            hash: `SHA-${alg.slice(-3)}`,
+            name: "HMAC"
+        }, false, [
+            usage
+        ]);
+    }
+    checkSigCryptoKey(key, alg, usage);
+    return key;
+});
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/sign.js
+
+
+
+/* harmony default export */ const sign = (async (alg, key, data)=>{
+    const cryptoKey = await get_sign_verify_key(alg, key, "sign");
+    check_key_length(alg, cryptoKey);
+    const signature = await crypto.subtle.sign(subtle_dsa(alg, cryptoKey.algorithm), cryptoKey, data);
+    return new Uint8Array(signature);
+});
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/is_disjoint.js
+/* harmony default export */ const is_disjoint = ((...headers)=>{
+    const sources = headers.filter(Boolean);
+    if (sources.length === 0 || sources.length === 1) {
+        return true;
+    }
+    let acc;
+    for (const header of sources){
+        const parameters = Object.keys(header);
+        if (!acc || acc.size === 0) {
+            acc = new Set(parameters);
+            continue;
+        }
+        for (const parameter of parameters){
+            if (acc.has(parameter)) {
+                return false;
+            }
+            acc.add(parameter);
+        }
+    }
+    return true;
+});
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/is_key_like.js
+function assertCryptoKey(key) {
+    if (!isCryptoKey(key)) {
+        throw new Error("CryptoKey instance expected");
+    }
+}
+function isCryptoKey(key) {
+    return key?.[Symbol.toStringTag] === "CryptoKey";
+}
+function isKeyObject(key) {
+    return key?.[Symbol.toStringTag] === "KeyObject";
+}
+/* harmony default export */ const is_key_like = ((key)=>{
+    return isCryptoKey(key) || isKeyObject(key);
+});
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/is_object.js
+function isObjectLike(value) {
+    return typeof value === "object" && value !== null;
+}
+/* harmony default export */ const is_object = ((input)=>{
+    if (!isObjectLike(input) || Object.prototype.toString.call(input) !== "[object Object]") {
+        return false;
+    }
+    if (Object.getPrototypeOf(input) === null) {
+        return true;
+    }
+    let proto = input;
+    while(Object.getPrototypeOf(proto) !== null){
+        proto = Object.getPrototypeOf(proto);
+    }
+    return Object.getPrototypeOf(input) === proto;
+});
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/is_jwk.js
+
+function isJWK(key) {
+    return is_object(key) && typeof key.kty === "string";
+}
+function isPrivateJWK(key) {
+    return key.kty !== "oct" && typeof key.d === "string";
+}
+function isPublicJWK(key) {
+    return key.kty !== "oct" && typeof key.d === "undefined";
+}
+function isSecretJWK(key) {
+    return key.kty === "oct" && typeof key.k === "string";
+}
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/check_key_type.js
+
+
+
+const tag = (key)=>key?.[Symbol.toStringTag];
+const jwkMatchesOp = (alg, key, usage)=>{
+    if (key.use !== undefined) {
+        let expected;
+        switch(usage){
+            case "sign":
+            case "verify":
+                expected = "sig";
+                break;
+            case "encrypt":
+            case "decrypt":
+                expected = "enc";
+                break;
+        }
+        if (key.use !== expected) {
+            throw new TypeError(`Invalid key for this operation, its "use" must be "${expected}" when present`);
+        }
+    }
+    if (key.alg !== undefined && key.alg !== alg) {
+        throw new TypeError(`Invalid key for this operation, its "alg" must be "${alg}" when present`);
+    }
+    if (Array.isArray(key.key_ops)) {
+        let expectedKeyOp;
+        switch(true){
+            case usage === "sign" || usage === "verify":
+            case alg === "dir":
+            case alg.includes("CBC-HS"):
+                expectedKeyOp = usage;
+                break;
+            case alg.startsWith("PBES2"):
+                expectedKeyOp = "deriveBits";
+                break;
+            case /^A\d{3}(?:GCM)?(?:KW)?$/.test(alg):
+                if (!alg.includes("GCM") && alg.endsWith("KW")) {
+                    expectedKeyOp = usage === "encrypt" ? "wrapKey" : "unwrapKey";
+                } else {
+                    expectedKeyOp = usage;
+                }
+                break;
+            case usage === "encrypt" && alg.startsWith("RSA"):
+                expectedKeyOp = "wrapKey";
+                break;
+            case usage === "decrypt":
+                expectedKeyOp = alg.startsWith("RSA") ? "unwrapKey" : "deriveBits";
+                break;
+        }
+        if (expectedKeyOp && key.key_ops?.includes?.(expectedKeyOp) === false) {
+            throw new TypeError(`Invalid key for this operation, its "key_ops" must include "${expectedKeyOp}" when present`);
+        }
+    }
+    return true;
+};
+const symmetricTypeCheck = (alg, key, usage)=>{
+    if (key instanceof Uint8Array) return;
+    if (isJWK(key)) {
+        if (isSecretJWK(key) && jwkMatchesOp(alg, key, usage)) return;
+        throw new TypeError(`JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present`);
+    }
+    if (!is_key_like(key)) {
+        throw new TypeError(withAlg(alg, key, "CryptoKey", "KeyObject", "JSON Web Key", "Uint8Array"));
+    }
+    if (key.type !== "secret") {
+        throw new TypeError(`${tag(key)} instances for symmetric algorithms must be of type "secret"`);
+    }
+};
+const asymmetricTypeCheck = (alg, key, usage)=>{
+    if (isJWK(key)) {
+        switch(usage){
+            case "decrypt":
+            case "sign":
+                if (isPrivateJWK(key) && jwkMatchesOp(alg, key, usage)) return;
+                throw new TypeError(`JSON Web Key for this operation be a private JWK`);
+            case "encrypt":
+            case "verify":
+                if (isPublicJWK(key) && jwkMatchesOp(alg, key, usage)) return;
+                throw new TypeError(`JSON Web Key for this operation be a public JWK`);
+        }
+    }
+    if (!is_key_like(key)) {
+        throw new TypeError(withAlg(alg, key, "CryptoKey", "KeyObject", "JSON Web Key"));
+    }
+    if (key.type === "secret") {
+        throw new TypeError(`${tag(key)} instances for asymmetric algorithms must not be of type "secret"`);
+    }
+    if (key.type === "public") {
+        switch(usage){
+            case "sign":
+                throw new TypeError(`${tag(key)} instances for asymmetric algorithm signing must be of type "private"`);
+            case "decrypt":
+                throw new TypeError(`${tag(key)} instances for asymmetric algorithm decryption must be of type "private"`);
+            default:
+                break;
+        }
+    }
+    if (key.type === "private") {
+        switch(usage){
+            case "verify":
+                throw new TypeError(`${tag(key)} instances for asymmetric algorithm verifying must be of type "public"`);
+            case "encrypt":
+                throw new TypeError(`${tag(key)} instances for asymmetric algorithm encryption must be of type "public"`);
+            default:
+                break;
+        }
+    }
+};
+/* harmony default export */ const check_key_type = ((alg, key, usage)=>{
+    const symmetric = alg.startsWith("HS") || alg === "dir" || alg.startsWith("PBES2") || /^A(?:128|192|256)(?:GCM)?(?:KW)?$/.test(alg) || /^A(?:128|192|256)CBC-HS(?:256|384|512)$/.test(alg);
+    if (symmetric) {
+        symmetricTypeCheck(alg, key, usage);
+    } else {
+        asymmetricTypeCheck(alg, key, usage);
+    }
+});
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/validate_crit.js
+
+/* harmony default export */ const validate_crit = ((Err, recognizedDefault, recognizedOption, protectedHeader, joseHeader)=>{
+    if (joseHeader.crit !== undefined && protectedHeader?.crit === undefined) {
+        throw new Err('"crit" (Critical) Header Parameter MUST be integrity protected');
+    }
+    if (!protectedHeader || protectedHeader.crit === undefined) {
+        return new Set();
+    }
+    if (!Array.isArray(protectedHeader.crit) || protectedHeader.crit.length === 0 || protectedHeader.crit.some((input)=>typeof input !== "string" || input.length === 0)) {
+        throw new Err('"crit" (Critical) Header Parameter MUST be an array of non-empty strings when present');
+    }
+    let recognized;
+    if (recognizedOption !== undefined) {
+        recognized = new Map([
+            ...Object.entries(recognizedOption),
+            ...recognizedDefault.entries()
+        ]);
+    } else {
+        recognized = recognizedDefault;
+    }
+    for (const parameter of protectedHeader.crit){
+        if (!recognized.has(parameter)) {
+            throw new JOSENotSupported(`Extension Header Parameter "${parameter}" is not recognized`);
+        }
+        if (joseHeader[parameter] === undefined) {
+            throw new Err(`Extension Header Parameter "${parameter}" is missing`);
+        }
+        if (recognized.get(parameter) && protectedHeader[parameter] === undefined) {
+            throw new Err(`Extension Header Parameter "${parameter}" MUST be integrity protected`);
+        }
+    }
+    return new Set(protectedHeader.crit);
+});
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/jwk_to_key.js
+
+function subtleMapping(jwk) {
+    let algorithm;
+    let keyUsages;
+    switch(jwk.kty){
+        case "RSA":
+            {
+                switch(jwk.alg){
+                    case "PS256":
+                    case "PS384":
+                    case "PS512":
+                        algorithm = {
+                            name: "RSA-PSS",
+                            hash: `SHA-${jwk.alg.slice(-3)}`
+                        };
+                        keyUsages = jwk.d ? [
+                            "sign"
+                        ] : [
+                            "verify"
+                        ];
+                        break;
+                    case "RS256":
+                    case "RS384":
+                    case "RS512":
+                        algorithm = {
+                            name: "RSASSA-PKCS1-v1_5",
+                            hash: `SHA-${jwk.alg.slice(-3)}`
+                        };
+                        keyUsages = jwk.d ? [
+                            "sign"
+                        ] : [
+                            "verify"
+                        ];
+                        break;
+                    case "RSA-OAEP":
+                    case "RSA-OAEP-256":
+                    case "RSA-OAEP-384":
+                    case "RSA-OAEP-512":
+                        algorithm = {
+                            name: "RSA-OAEP",
+                            hash: `SHA-${parseInt(jwk.alg.slice(-3), 10) || 1}`
+                        };
+                        keyUsages = jwk.d ? [
+                            "decrypt",
+                            "unwrapKey"
+                        ] : [
+                            "encrypt",
+                            "wrapKey"
+                        ];
+                        break;
+                    default:
+                        throw new JOSENotSupported('Invalid or unsupported JWK "alg" (Algorithm) Parameter value');
+                }
+                break;
+            }
+        case "EC":
+            {
+                switch(jwk.alg){
+                    case "ES256":
+                        algorithm = {
+                            name: "ECDSA",
+                            namedCurve: "P-256"
+                        };
+                        keyUsages = jwk.d ? [
+                            "sign"
+                        ] : [
+                            "verify"
+                        ];
+                        break;
+                    case "ES384":
+                        algorithm = {
+                            name: "ECDSA",
+                            namedCurve: "P-384"
+                        };
+                        keyUsages = jwk.d ? [
+                            "sign"
+                        ] : [
+                            "verify"
+                        ];
+                        break;
+                    case "ES512":
+                        algorithm = {
+                            name: "ECDSA",
+                            namedCurve: "P-521"
+                        };
+                        keyUsages = jwk.d ? [
+                            "sign"
+                        ] : [
+                            "verify"
+                        ];
+                        break;
+                    case "ECDH-ES":
+                    case "ECDH-ES+A128KW":
+                    case "ECDH-ES+A192KW":
+                    case "ECDH-ES+A256KW":
+                        algorithm = {
+                            name: "ECDH",
+                            namedCurve: jwk.crv
+                        };
+                        keyUsages = jwk.d ? [
+                            "deriveBits"
+                        ] : [];
+                        break;
+                    default:
+                        throw new JOSENotSupported('Invalid or unsupported JWK "alg" (Algorithm) Parameter value');
+                }
+                break;
+            }
+        case "OKP":
+            {
+                switch(jwk.alg){
+                    case "Ed25519":
+                    case "EdDSA":
+                        algorithm = {
+                            name: "Ed25519"
+                        };
+                        keyUsages = jwk.d ? [
+                            "sign"
+                        ] : [
+                            "verify"
+                        ];
+                        break;
+                    case "ECDH-ES":
+                    case "ECDH-ES+A128KW":
+                    case "ECDH-ES+A192KW":
+                    case "ECDH-ES+A256KW":
+                        algorithm = {
+                            name: jwk.crv
+                        };
+                        keyUsages = jwk.d ? [
+                            "deriveBits"
+                        ] : [];
+                        break;
+                    default:
+                        throw new JOSENotSupported('Invalid or unsupported JWK "alg" (Algorithm) Parameter value');
+                }
+                break;
+            }
+        default:
+            throw new JOSENotSupported('Invalid or unsupported JWK "kty" (Key Type) Parameter value');
+    }
+    return {
+        algorithm,
+        keyUsages
+    };
+}
+/* harmony default export */ const jwk_to_key = (async (jwk)=>{
+    if (!jwk.alg) {
+        throw new TypeError('"alg" argument is required when "jwk.alg" is not present');
+    }
+    const { algorithm, keyUsages } = subtleMapping(jwk);
+    const keyData = {
+        ...jwk
+    };
+    delete keyData.alg;
+    delete keyData.use;
+    return crypto.subtle.importKey("jwk", keyData, algorithm, jwk.ext ?? (jwk.d ? false : true), jwk.key_ops ?? keyUsages);
+});
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/normalize_key.js
+
+
+
+
+let cache;
+const handleJWK = async (key, jwk, alg, freeze = false)=>{
+    cache ||= new WeakMap();
+    let cached = cache.get(key);
+    if (cached?.[alg]) {
+        return cached[alg];
+    }
+    const cryptoKey = await jwk_to_key({
+        ...jwk,
+        alg
+    });
+    if (freeze) Object.freeze(key);
+    if (!cached) {
+        cache.set(key, {
+            [alg]: cryptoKey
+        });
+    } else {
+        cached[alg] = cryptoKey;
+    }
+    return cryptoKey;
+};
+const handleKeyObject = (keyObject, alg)=>{
+    cache ||= new WeakMap();
+    let cached = cache.get(keyObject);
+    if (cached?.[alg]) {
+        return cached[alg];
+    }
+    const isPublic = keyObject.type === "public";
+    const extractable = isPublic ? true : false;
+    let cryptoKey;
+    if (keyObject.asymmetricKeyType === "x25519") {
+        switch(alg){
+            case "ECDH-ES":
+            case "ECDH-ES+A128KW":
+            case "ECDH-ES+A192KW":
+            case "ECDH-ES+A256KW":
+                break;
+            default:
+                throw new TypeError("given KeyObject instance cannot be used for this algorithm");
+        }
+        cryptoKey = keyObject.toCryptoKey(keyObject.asymmetricKeyType, extractable, isPublic ? [] : [
+            "deriveBits"
+        ]);
+    }
+    if (keyObject.asymmetricKeyType === "ed25519") {
+        if (alg !== "EdDSA" && alg !== "Ed25519") {
+            throw new TypeError("given KeyObject instance cannot be used for this algorithm");
+        }
+        cryptoKey = keyObject.toCryptoKey(keyObject.asymmetricKeyType, extractable, [
+            isPublic ? "verify" : "sign"
+        ]);
+    }
+    if (keyObject.asymmetricKeyType === "rsa") {
+        let hash;
+        switch(alg){
+            case "RSA-OAEP":
+                hash = "SHA-1";
+                break;
+            case "RS256":
+            case "PS256":
+            case "RSA-OAEP-256":
+                hash = "SHA-256";
+                break;
+            case "RS384":
+            case "PS384":
+            case "RSA-OAEP-384":
+                hash = "SHA-384";
+                break;
+            case "RS512":
+            case "PS512":
+            case "RSA-OAEP-512":
+                hash = "SHA-512";
+                break;
+            default:
+                throw new TypeError("given KeyObject instance cannot be used for this algorithm");
+        }
+        if (alg.startsWith("RSA-OAEP")) {
+            return keyObject.toCryptoKey({
+                name: "RSA-OAEP",
+                hash
+            }, extractable, isPublic ? [
+                "encrypt"
+            ] : [
+                "decrypt"
+            ]);
+        }
+        cryptoKey = keyObject.toCryptoKey({
+            name: alg.startsWith("PS") ? "RSA-PSS" : "RSASSA-PKCS1-v1_5",
+            hash
+        }, extractable, [
+            isPublic ? "verify" : "sign"
+        ]);
+    }
+    if (keyObject.asymmetricKeyType === "ec") {
+        const nist = new Map([
+            [
+                "prime256v1",
+                "P-256"
+            ],
+            [
+                "secp384r1",
+                "P-384"
+            ],
+            [
+                "secp521r1",
+                "P-521"
+            ]
+        ]);
+        const namedCurve = nist.get(keyObject.asymmetricKeyDetails?.namedCurve);
+        if (!namedCurve) {
+            throw new TypeError("given KeyObject instance cannot be used for this algorithm");
+        }
+        if (alg === "ES256" && namedCurve === "P-256") {
+            cryptoKey = keyObject.toCryptoKey({
+                name: "ECDSA",
+                namedCurve
+            }, extractable, [
+                isPublic ? "verify" : "sign"
+            ]);
+        }
+        if (alg === "ES384" && namedCurve === "P-384") {
+            cryptoKey = keyObject.toCryptoKey({
+                name: "ECDSA",
+                namedCurve
+            }, extractable, [
+                isPublic ? "verify" : "sign"
+            ]);
+        }
+        if (alg === "ES512" && namedCurve === "P-521") {
+            cryptoKey = keyObject.toCryptoKey({
+                name: "ECDSA",
+                namedCurve
+            }, extractable, [
+                isPublic ? "verify" : "sign"
+            ]);
+        }
+        if (alg.startsWith("ECDH-ES")) {
+            cryptoKey = keyObject.toCryptoKey({
+                name: "ECDH",
+                namedCurve
+            }, extractable, isPublic ? [] : [
+                "deriveBits"
+            ]);
+        }
+    }
+    if (!cryptoKey) {
+        throw new TypeError("given KeyObject instance cannot be used for this algorithm");
+    }
+    if (!cached) {
+        cache.set(keyObject, {
+            [alg]: cryptoKey
+        });
+    } else {
+        cached[alg] = cryptoKey;
+    }
+    return cryptoKey;
+};
+/* harmony default export */ const normalize_key = (async (key, alg)=>{
+    if (key instanceof Uint8Array) {
+        return key;
+    }
+    if (isCryptoKey(key)) {
+        return key;
+    }
+    if (isKeyObject(key)) {
+        if (key.type === "secret") {
+            return key.export();
+        }
+        if ("toCryptoKey" in key && typeof key.toCryptoKey === "function") {
+            try {
+                return handleKeyObject(key, alg);
+            } catch (err) {
+                if (err instanceof TypeError) {
+                    throw err;
+                }
+            }
+        }
+        let jwk = key.export({
+            format: "jwk"
+        });
+        return handleJWK(key, jwk, alg);
+    }
+    if (isJWK(key)) {
+        if (key.k) {
+            return decode(key.k);
+        }
+        return handleJWK(key, key, alg, true);
+    }
+    throw new Error("unreachable");
+});
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/jws/flattened/sign.js
+
+
+
+
+
+
+
+
+class FlattenedSign {
+    #payload;
+    #protectedHeader;
+    #unprotectedHeader;
+    constructor(payload){
+        if (!(payload instanceof Uint8Array)) {
+            throw new TypeError("payload must be an instance of Uint8Array");
+        }
+        this.#payload = payload;
+    }
+    setProtectedHeader(protectedHeader) {
+        if (this.#protectedHeader) {
+            throw new TypeError("setProtectedHeader can only be called once");
+        }
+        this.#protectedHeader = protectedHeader;
+        return this;
+    }
+    setUnprotectedHeader(unprotectedHeader) {
+        if (this.#unprotectedHeader) {
+            throw new TypeError("setUnprotectedHeader can only be called once");
+        }
+        this.#unprotectedHeader = unprotectedHeader;
+        return this;
+    }
+    async sign(key, options) {
+        if (!this.#protectedHeader && !this.#unprotectedHeader) {
+            throw new JWSInvalid("either setProtectedHeader or setUnprotectedHeader must be called before #sign()");
+        }
+        if (!is_disjoint(this.#protectedHeader, this.#unprotectedHeader)) {
+            throw new JWSInvalid("JWS Protected and JWS Unprotected Header Parameter names must be disjoint");
+        }
+        const joseHeader = {
+            ...this.#protectedHeader,
+            ...this.#unprotectedHeader
+        };
+        const extensions = validate_crit(JWSInvalid, new Map([
+            [
+                "b64",
+                true
+            ]
+        ]), options?.crit, this.#protectedHeader, joseHeader);
+        let b64 = true;
+        if (extensions.has("b64")) {
+            b64 = this.#protectedHeader.b64;
+            if (typeof b64 !== "boolean") {
+                throw new JWSInvalid('The "b64" (base64url-encode payload) Header Parameter must be a boolean');
+            }
+        }
+        const { alg } = joseHeader;
+        if (typeof alg !== "string" || !alg) {
+            throw new JWSInvalid('JWS "alg" (Algorithm) Header Parameter missing or invalid');
+        }
+        check_key_type(alg, key, "sign");
+        let payload = this.#payload;
+        if (b64) {
+            payload = encoder.encode(encode(payload));
+        }
+        let protectedHeader;
+        if (this.#protectedHeader) {
+            protectedHeader = encoder.encode(encode(JSON.stringify(this.#protectedHeader)));
+        } else {
+            protectedHeader = encoder.encode("");
+        }
+        const data = concat(protectedHeader, encoder.encode("."), payload);
+        const k = await normalize_key(key, alg);
+        const signature = await sign(alg, k, data);
+        const jws = {
+            signature: encode(signature),
+            payload: ""
+        };
+        if (b64) {
+            jws.payload = decoder.decode(payload);
+        }
+        if (this.#unprotectedHeader) {
+            jws.header = this.#unprotectedHeader;
+        }
+        if (this.#protectedHeader) {
+            jws.protected = decoder.decode(protectedHeader);
+        }
+        return jws;
+    }
+}
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/jws/compact/sign.js
+
+class CompactSign {
+    #flattened;
+    constructor(payload){
+        this.#flattened = new FlattenedSign(payload);
+    }
+    setProtectedHeader(protectedHeader) {
+        this.#flattened.setProtectedHeader(protectedHeader);
+        return this;
+    }
+    async sign(key, options) {
+        const jws = await this.#flattened.sign(key, options);
+        if (jws.payload === undefined) {
+            throw new TypeError("use the flattened module for creating JWS with b64: false");
+        }
+        return `${jws.protected}.${jws.payload}.${jws.signature}`;
+    }
+}
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/epoch.js
+/* harmony default export */ const epoch = ((date)=>Math.floor(date.getTime() / 1000));
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/secs.js
+const minute = 60;
+const hour = minute * 60;
+const day = hour * 24;
+const week = day * 7;
+const year = day * 365.25;
+const REGEX = /^(\+|\-)? ?(\d+|\d+\.\d+) ?(seconds?|secs?|s|minutes?|mins?|m|hours?|hrs?|h|days?|d|weeks?|w|years?|yrs?|y)(?: (ago|from now))?$/i;
+/* harmony default export */ const secs = ((str)=>{
+    const matched = REGEX.exec(str);
+    if (!matched || matched[4] && matched[1]) {
+        throw new TypeError("Invalid time period format");
+    }
+    const value = parseFloat(matched[2]);
+    const unit = matched[3].toLowerCase();
+    let numericDate;
+    switch(unit){
+        case "sec":
+        case "secs":
+        case "second":
+        case "seconds":
+        case "s":
+            numericDate = Math.round(value);
+            break;
+        case "minute":
+        case "minutes":
+        case "min":
+        case "mins":
+        case "m":
+            numericDate = Math.round(value * minute);
+            break;
+        case "hour":
+        case "hours":
+        case "hr":
+        case "hrs":
+        case "h":
+            numericDate = Math.round(value * hour);
+            break;
+        case "day":
+        case "days":
+        case "d":
+            numericDate = Math.round(value * day);
+            break;
+        case "week":
+        case "weeks":
+        case "w":
+            numericDate = Math.round(value * week);
+            break;
+        default:
+            numericDate = Math.round(value * year);
+            break;
+    }
+    if (matched[1] === "-" || matched[4] === "ago") {
+        return -numericDate;
+    }
+    return numericDate;
+});
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/jwt_claims_set.js
+
+
+
+
+
+
+function validateInput(label, input) {
+    if (!Number.isFinite(input)) {
+        throw new TypeError(`Invalid ${label} input`);
+    }
+    return input;
+}
+const normalizeTyp = (value)=>{
+    if (value.includes("/")) {
+        return value.toLowerCase();
+    }
+    return `application/${value.toLowerCase()}`;
+};
+const checkAudiencePresence = (audPayload, audOption)=>{
+    if (typeof audPayload === "string") {
+        return audOption.includes(audPayload);
+    }
+    if (Array.isArray(audPayload)) {
+        return audOption.some(Set.prototype.has.bind(new Set(audPayload)));
+    }
+    return false;
+};
+function validateClaimsSet(protectedHeader, encodedPayload, options = {}) {
+    let payload;
+    try {
+        payload = JSON.parse(decoder.decode(encodedPayload));
+    } catch  {}
+    if (!is_object(payload)) {
+        throw new JWTInvalid("JWT Claims Set must be a top-level JSON object");
+    }
+    const { typ } = options;
+    if (typ && (typeof protectedHeader.typ !== "string" || normalizeTyp(protectedHeader.typ) !== normalizeTyp(typ))) {
+        throw new JWTClaimValidationFailed('unexpected "typ" JWT header value', payload, "typ", "check_failed");
+    }
+    const { requiredClaims = [], issuer, subject, audience, maxTokenAge } = options;
+    const presenceCheck = [
+        ...requiredClaims
+    ];
+    if (maxTokenAge !== undefined) presenceCheck.push("iat");
+    if (audience !== undefined) presenceCheck.push("aud");
+    if (subject !== undefined) presenceCheck.push("sub");
+    if (issuer !== undefined) presenceCheck.push("iss");
+    for (const claim of new Set(presenceCheck.reverse())){
+        if (!(claim in payload)) {
+            throw new JWTClaimValidationFailed(`missing required "${claim}" claim`, payload, claim, "missing");
+        }
+    }
+    if (issuer && !(Array.isArray(issuer) ? issuer : [
+        issuer
+    ]).includes(payload.iss)) {
+        throw new JWTClaimValidationFailed('unexpected "iss" claim value', payload, "iss", "check_failed");
+    }
+    if (subject && payload.sub !== subject) {
+        throw new JWTClaimValidationFailed('unexpected "sub" claim value', payload, "sub", "check_failed");
+    }
+    if (audience && !checkAudiencePresence(payload.aud, typeof audience === "string" ? [
+        audience
+    ] : audience)) {
+        throw new JWTClaimValidationFailed('unexpected "aud" claim value', payload, "aud", "check_failed");
+    }
+    let tolerance;
+    switch(typeof options.clockTolerance){
+        case "string":
+            tolerance = secs(options.clockTolerance);
+            break;
+        case "number":
+            tolerance = options.clockTolerance;
+            break;
+        case "undefined":
+            tolerance = 0;
+            break;
+        default:
+            throw new TypeError("Invalid clockTolerance option type");
+    }
+    const { currentDate } = options;
+    const now = epoch(currentDate || new Date());
+    if ((payload.iat !== undefined || maxTokenAge) && typeof payload.iat !== "number") {
+        throw new JWTClaimValidationFailed('"iat" claim must be a number', payload, "iat", "invalid");
+    }
+    if (payload.nbf !== undefined) {
+        if (typeof payload.nbf !== "number") {
+            throw new JWTClaimValidationFailed('"nbf" claim must be a number', payload, "nbf", "invalid");
+        }
+        if (payload.nbf > now + tolerance) {
+            throw new JWTClaimValidationFailed('"nbf" claim timestamp check failed', payload, "nbf", "check_failed");
+        }
+    }
+    if (payload.exp !== undefined) {
+        if (typeof payload.exp !== "number") {
+            throw new JWTClaimValidationFailed('"exp" claim must be a number', payload, "exp", "invalid");
+        }
+        if (payload.exp <= now - tolerance) {
+            throw new JWTExpired('"exp" claim timestamp check failed', payload, "exp", "check_failed");
+        }
+    }
+    if (maxTokenAge) {
+        const age = now - payload.iat;
+        const max = typeof maxTokenAge === "number" ? maxTokenAge : secs(maxTokenAge);
+        if (age - tolerance > max) {
+            throw new JWTExpired('"iat" claim timestamp check failed (too far in the past)', payload, "iat", "check_failed");
+        }
+        if (age < 0 - tolerance) {
+            throw new JWTClaimValidationFailed('"iat" claim timestamp check failed (it should be in the past)', payload, "iat", "check_failed");
+        }
+    }
+    return payload;
+}
+class JWTClaimsBuilder {
+    #payload;
+    constructor(payload){
+        if (!is_object(payload)) {
+            throw new TypeError("JWT Claims Set MUST be an object");
+        }
+        this.#payload = structuredClone(payload);
+    }
+    data() {
+        return encoder.encode(JSON.stringify(this.#payload));
+    }
+    get iss() {
+        return this.#payload.iss;
+    }
+    set iss(value) {
+        this.#payload.iss = value;
+    }
+    get sub() {
+        return this.#payload.sub;
+    }
+    set sub(value) {
+        this.#payload.sub = value;
+    }
+    get aud() {
+        return this.#payload.aud;
+    }
+    set aud(value) {
+        this.#payload.aud = value;
+    }
+    set jti(value) {
+        this.#payload.jti = value;
+    }
+    set nbf(value) {
+        if (typeof value === "number") {
+            this.#payload.nbf = validateInput("setNotBefore", value);
+        } else if (value instanceof Date) {
+            this.#payload.nbf = validateInput("setNotBefore", epoch(value));
+        } else {
+            this.#payload.nbf = epoch(new Date()) + secs(value);
+        }
+    }
+    set exp(value) {
+        if (typeof value === "number") {
+            this.#payload.exp = validateInput("setExpirationTime", value);
+        } else if (value instanceof Date) {
+            this.#payload.exp = validateInput("setExpirationTime", epoch(value));
+        } else {
+            this.#payload.exp = epoch(new Date()) + secs(value);
+        }
+    }
+    set iat(value) {
+        if (typeof value === "undefined") {
+            this.#payload.iat = epoch(new Date());
+        } else if (value instanceof Date) {
+            this.#payload.iat = validateInput("setIssuedAt", epoch(value));
+        } else if (typeof value === "string") {
+            this.#payload.iat = validateInput("setIssuedAt", epoch(new Date()) + secs(value));
+        } else {
+            this.#payload.iat = validateInput("setIssuedAt", value);
+        }
+    }
+}
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/jwt/sign.js
+
+
+
+class SignJWT {
+    #protectedHeader;
+    #jwt;
+    constructor(payload = {}){
+        this.#jwt = new JWTClaimsBuilder(payload);
+    }
+    setIssuer(issuer) {
+        this.#jwt.iss = issuer;
+        return this;
+    }
+    setSubject(subject) {
+        this.#jwt.sub = subject;
+        return this;
+    }
+    setAudience(audience) {
+        this.#jwt.aud = audience;
+        return this;
+    }
+    setJti(jwtId) {
+        this.#jwt.jti = jwtId;
+        return this;
+    }
+    setNotBefore(input) {
+        this.#jwt.nbf = input;
+        return this;
+    }
+    setExpirationTime(input) {
+        this.#jwt.exp = input;
+        return this;
+    }
+    setIssuedAt(input) {
+        this.#jwt.iat = input;
+        return this;
+    }
+    setProtectedHeader(protectedHeader) {
+        this.#protectedHeader = protectedHeader;
+        return this;
+    }
+    async sign(key, options) {
+        const sig = new CompactSign(this.#jwt.data());
+        sig.setProtectedHeader(this.#protectedHeader);
+        if (Array.isArray(this.#protectedHeader?.crit) && this.#protectedHeader.crit.includes("b64") && this.#protectedHeader.b64 === false) {
+            throw new JWTInvalid("JWTs MUST NOT use unencoded payload");
+        }
+        return sig.sign(key, options);
+    }
+}
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/verify.js
+
+
+
+/* harmony default export */ const verify = (async (alg, key, signature, data)=>{
+    const cryptoKey = await get_sign_verify_key(alg, key, "verify");
+    check_key_length(alg, cryptoKey);
+    const algorithm = subtle_dsa(alg, cryptoKey.algorithm);
+    try {
+        return await crypto.subtle.verify(algorithm, cryptoKey, signature, data);
+    } catch  {
+        return false;
+    }
+});
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/lib/validate_algorithms.js
+/* harmony default export */ const validate_algorithms = ((option, algorithms)=>{
+    if (algorithms !== undefined && (!Array.isArray(algorithms) || algorithms.some((s)=>typeof s !== "string"))) {
+        throw new TypeError(`"${option}" option must be an array of strings`);
+    }
+    if (!algorithms) {
+        return undefined;
+    }
+    return new Set(algorithms);
+});
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/jws/flattened/verify.js
+
+
+
+
+
+
+
+
+
+
+async function flattenedVerify(jws, key, options) {
+    if (!is_object(jws)) {
+        throw new JWSInvalid("Flattened JWS must be an object");
+    }
+    if (jws.protected === undefined && jws.header === undefined) {
+        throw new JWSInvalid('Flattened JWS must have either of the "protected" or "header" members');
+    }
+    if (jws.protected !== undefined && typeof jws.protected !== "string") {
+        throw new JWSInvalid("JWS Protected Header incorrect type");
+    }
+    if (jws.payload === undefined) {
+        throw new JWSInvalid("JWS Payload missing");
+    }
+    if (typeof jws.signature !== "string") {
+        throw new JWSInvalid("JWS Signature missing or incorrect type");
+    }
+    if (jws.header !== undefined && !is_object(jws.header)) {
+        throw new JWSInvalid("JWS Unprotected Header incorrect type");
+    }
+    let parsedProt = {};
+    if (jws.protected) {
+        try {
+            const protectedHeader = decode(jws.protected);
+            parsedProt = JSON.parse(decoder.decode(protectedHeader));
+        } catch  {
+            throw new JWSInvalid("JWS Protected Header is invalid");
+        }
+    }
+    if (!is_disjoint(parsedProt, jws.header)) {
+        throw new JWSInvalid("JWS Protected and JWS Unprotected Header Parameter names must be disjoint");
+    }
+    const joseHeader = {
+        ...parsedProt,
+        ...jws.header
+    };
+    const extensions = validate_crit(JWSInvalid, new Map([
+        [
+            "b64",
+            true
+        ]
+    ]), options?.crit, parsedProt, joseHeader);
+    let b64 = true;
+    if (extensions.has("b64")) {
+        b64 = parsedProt.b64;
+        if (typeof b64 !== "boolean") {
+            throw new JWSInvalid('The "b64" (base64url-encode payload) Header Parameter must be a boolean');
+        }
+    }
+    const { alg } = joseHeader;
+    if (typeof alg !== "string" || !alg) {
+        throw new JWSInvalid('JWS "alg" (Algorithm) Header Parameter missing or invalid');
+    }
+    const algorithms = options && validate_algorithms("algorithms", options.algorithms);
+    if (algorithms && !algorithms.has(alg)) {
+        throw new JOSEAlgNotAllowed('"alg" (Algorithm) Header Parameter value not allowed');
+    }
+    if (b64) {
+        if (typeof jws.payload !== "string") {
+            throw new JWSInvalid("JWS Payload must be a string");
+        }
+    } else if (typeof jws.payload !== "string" && !(jws.payload instanceof Uint8Array)) {
+        throw new JWSInvalid("JWS Payload must be a string or an Uint8Array instance");
+    }
+    let resolvedKey = false;
+    if (typeof key === "function") {
+        key = await key(parsedProt, jws);
+        resolvedKey = true;
+    }
+    check_key_type(alg, key, "verify");
+    const data = concat(encoder.encode(jws.protected ?? ""), encoder.encode("."), typeof jws.payload === "string" ? encoder.encode(jws.payload) : jws.payload);
+    let signature;
+    try {
+        signature = decode(jws.signature);
+    } catch  {
+        throw new JWSInvalid("Failed to base64url decode the signature");
+    }
+    const k = await normalize_key(key, alg);
+    const verified = await verify(alg, k, signature, data);
+    if (!verified) {
+        throw new JWSSignatureVerificationFailed();
+    }
+    let payload;
+    if (b64) {
+        try {
+            payload = decode(jws.payload);
+        } catch  {
+            throw new JWSInvalid("Failed to base64url decode the payload");
+        }
+    } else if (typeof jws.payload === "string") {
+        payload = encoder.encode(jws.payload);
+    } else {
+        payload = jws.payload;
+    }
+    const result = {
+        payload
+    };
+    if (jws.protected !== undefined) {
+        result.protectedHeader = parsedProt;
+    }
+    if (jws.header !== undefined) {
+        result.unprotectedHeader = jws.header;
+    }
+    if (resolvedKey) {
+        return {
+            ...result,
+            key: k
+        };
+    }
+    return result;
+}
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/jws/compact/verify.js
+
+
+
+async function compactVerify(jws, key, options) {
+    if (jws instanceof Uint8Array) {
+        jws = decoder.decode(jws);
+    }
+    if (typeof jws !== "string") {
+        throw new JWSInvalid("Compact JWS must be a string or Uint8Array");
+    }
+    const { 0: protectedHeader, 1: payload, 2: signature, length } = jws.split(".");
+    if (length !== 3) {
+        throw new JWSInvalid("Invalid Compact JWS");
+    }
+    const verified = await flattenedVerify({
+        payload,
+        protected: protectedHeader,
+        signature
+    }, key, options);
+    const result = {
+        payload: verified.payload,
+        protectedHeader: verified.protectedHeader
+    };
+    if (typeof key === "function") {
+        return {
+            ...result,
+            key: verified.key
+        };
+    }
+    return result;
+}
+
+;// CONCATENATED MODULE: ./node_modules/jose/dist/webapi/jwt/verify.js
+
+
+
+async function jwtVerify(jwt, key, options) {
+    const verified = await compactVerify(jwt, key, options);
+    if (verified.protectedHeader.crit?.includes("b64") && verified.protectedHeader.b64 === false) {
+        throw new JWTInvalid("JWTs MUST NOT use unencoded payload");
+    }
+    const payload = validateClaimsSet(verified.protectedHeader, verified.payload, options);
+    const result = {
+        payload,
+        protectedHeader: verified.protectedHeader
+    };
+    if (typeof key === "function") {
+        return {
+            ...result,
+            key: verified.key
+        };
+    }
+    return result;
+}
+
+// EXTERNAL MODULE: crypto (ignored)
+var crypto_ignored_ = __webpack_require__(468);
+;// CONCATENATED MODULE: ./node_modules/bcryptjs/index.js
+/*
+ Copyright (c) 2012 Nevins Bartolomeo <nevins.bartolomeo@gmail.com>
+ Copyright (c) 2012 Shane Girish <shaneGirish@gmail.com>
+ Copyright (c) 2025 Daniel Wirtz <dcode@dcode.io>
+
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+ derived from this software without specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */ // The Node.js crypto module is used as a fallback for the Web Crypto API. When
+// building for the browser, inclusion of the crypto module should be disabled,
+// which the package hints at in its package.json for bundlers that support it.
+
+/**
+ * The random implementation to use as a fallback.
+ * @type {?function(number):!Array.<number>}
+ * @inner
+ */ var randomFallback = null;
+/**
+ * Generates cryptographically secure random bytes.
+ * @function
+ * @param {number} len Bytes length
+ * @returns {!Array.<number>} Random bytes
+ * @throws {Error} If no random implementation is available
+ * @inner
+ */ function randomBytes(len) {
+    // Web Crypto API. Globally available in the browser and in Node.js >=23.
+    try {
+        return crypto.getRandomValues(new Uint8Array(len));
+    } catch  {}
+    // Node.js crypto module for non-browser environments.
+    try {
+        return crypto_ignored_.randomBytes(len);
+    } catch  {}
+    // Custom fallback specified with `setRandomFallback`.
+    if (!randomFallback) {
+        throw Error("Neither WebCryptoAPI nor a crypto module is available. Use bcrypt.setRandomFallback to set an alternative");
+    }
+    return randomFallback(len);
+}
+/**
+ * Sets the pseudo random number generator to use as a fallback if neither node's `crypto` module nor the Web Crypto
+ *  API is available. Please note: It is highly important that the PRNG used is cryptographically secure and that it
+ *  is seeded properly!
+ * @param {?function(number):!Array.<number>} random Function taking the number of bytes to generate as its
+ *  sole argument, returning the corresponding array of cryptographically secure random byte values.
+ * @see http://nodejs.org/api/crypto.html
+ * @see http://www.w3.org/TR/WebCryptoAPI/
+ */ function setRandomFallback(random) {
+    randomFallback = random;
+}
+/**
+ * Synchronously generates a salt.
+ * @param {number=} rounds Number of rounds to use, defaults to 10 if omitted
+ * @param {number=} seed_length Not supported.
+ * @returns {string} Resulting salt
+ * @throws {Error} If a random fallback is required but not set
+ */ function genSaltSync(rounds, seed_length) {
+    rounds = rounds || GENSALT_DEFAULT_LOG2_ROUNDS;
+    if (typeof rounds !== "number") throw Error("Illegal arguments: " + typeof rounds + ", " + typeof seed_length);
+    if (rounds < 4) rounds = 4;
+    else if (rounds > 31) rounds = 31;
+    var salt = [];
+    salt.push("$2b$");
+    if (rounds < 10) salt.push("0");
+    salt.push(rounds.toString());
+    salt.push("$");
+    salt.push(base64_encode(randomBytes(BCRYPT_SALT_LEN), BCRYPT_SALT_LEN)); // May throw
+    return salt.join("");
+}
+/**
+ * Asynchronously generates a salt.
+ * @param {(number|function(Error, string=))=} rounds Number of rounds to use, defaults to 10 if omitted
+ * @param {(number|function(Error, string=))=} seed_length Not supported.
+ * @param {function(Error, string=)=} callback Callback receiving the error, if any, and the resulting salt
+ * @returns {!Promise} If `callback` has been omitted
+ * @throws {Error} If `callback` is present but not a function
+ */ function genSalt(rounds, seed_length, callback) {
+    if (typeof seed_length === "function") callback = seed_length, seed_length = undefined; // Not supported.
+    if (typeof rounds === "function") callback = rounds, rounds = undefined;
+    if (typeof rounds === "undefined") rounds = GENSALT_DEFAULT_LOG2_ROUNDS;
+    else if (typeof rounds !== "number") throw Error("illegal arguments: " + typeof rounds);
+    function _async(callback) {
+        nextTick(function() {
+            // Pretty thin, but salting is fast enough
+            try {
+                callback(null, genSaltSync(rounds));
+            } catch (err) {
+                callback(err);
+            }
+        });
+    }
+    if (callback) {
+        if (typeof callback !== "function") throw Error("Illegal callback: " + typeof callback);
+        _async(callback);
+    } else return new Promise(function(resolve, reject) {
+        _async(function(err, res) {
+            if (err) {
+                reject(err);
+                return;
+            }
+            resolve(res);
+        });
+    });
+}
+/**
+ * Synchronously generates a hash for the given password.
+ * @param {string} password Password to hash
+ * @param {(number|string)=} salt Salt length to generate or salt to use, default to 10
+ * @returns {string} Resulting hash
+ */ function hashSync(password, salt) {
+    if (typeof salt === "undefined") salt = GENSALT_DEFAULT_LOG2_ROUNDS;
+    if (typeof salt === "number") salt = genSaltSync(salt);
+    if (typeof password !== "string" || typeof salt !== "string") throw Error("Illegal arguments: " + typeof password + ", " + typeof salt);
+    return _hash(password, salt);
+}
+/**
+ * Asynchronously generates a hash for the given password.
+ * @param {string} password Password to hash
+ * @param {number|string} salt Salt length to generate or salt to use
+ * @param {function(Error, string=)=} callback Callback receiving the error, if any, and the resulting hash
+ * @param {function(number)=} progressCallback Callback successively called with the percentage of rounds completed
+ *  (0.0 - 1.0), maximally once per `MAX_EXECUTION_TIME = 100` ms.
+ * @returns {!Promise} If `callback` has been omitted
+ * @throws {Error} If `callback` is present but not a function
+ */ function hash(password, salt, callback, progressCallback) {
+    function _async(callback) {
+        if (typeof password === "string" && typeof salt === "number") genSalt(salt, function(err, salt) {
+            _hash(password, salt, callback, progressCallback);
+        });
+        else if (typeof password === "string" && typeof salt === "string") _hash(password, salt, callback, progressCallback);
+        else nextTick(callback.bind(this, Error("Illegal arguments: " + typeof password + ", " + typeof salt)));
+    }
+    if (callback) {
+        if (typeof callback !== "function") throw Error("Illegal callback: " + typeof callback);
+        _async(callback);
+    } else return new Promise(function(resolve, reject) {
+        _async(function(err, res) {
+            if (err) {
+                reject(err);
+                return;
+            }
+            resolve(res);
+        });
+    });
+}
+/**
+ * Compares two strings of the same length in constant time.
+ * @param {string} known Must be of the correct length
+ * @param {string} unknown Must be the same length as `known`
+ * @returns {boolean}
+ * @inner
+ */ function safeStringCompare(known, unknown) {
+    var diff = known.length ^ unknown.length;
+    for(var i = 0; i < known.length; ++i){
+        diff |= known.charCodeAt(i) ^ unknown.charCodeAt(i);
+    }
+    return diff === 0;
+}
+/**
+ * Synchronously tests a password against a hash.
+ * @param {string} password Password to compare
+ * @param {string} hash Hash to test against
+ * @returns {boolean} true if matching, otherwise false
+ * @throws {Error} If an argument is illegal
+ */ function compareSync(password, hash) {
+    if (typeof password !== "string" || typeof hash !== "string") throw Error("Illegal arguments: " + typeof password + ", " + typeof hash);
+    if (hash.length !== 60) return false;
+    return safeStringCompare(hashSync(password, hash.substring(0, hash.length - 31)), hash);
+}
+/**
+ * Asynchronously tests a password against a hash.
+ * @param {string} password Password to compare
+ * @param {string} hashValue Hash to test against
+ * @param {function(Error, boolean)=} callback Callback receiving the error, if any, otherwise the result
+ * @param {function(number)=} progressCallback Callback successively called with the percentage of rounds completed
+ *  (0.0 - 1.0), maximally once per `MAX_EXECUTION_TIME = 100` ms.
+ * @returns {!Promise} If `callback` has been omitted
+ * @throws {Error} If `callback` is present but not a function
+ */ function compare(password, hashValue, callback, progressCallback) {
+    function _async(callback) {
+        if (typeof password !== "string" || typeof hashValue !== "string") {
+            nextTick(callback.bind(this, Error("Illegal arguments: " + typeof password + ", " + typeof hashValue)));
+            return;
+        }
+        if (hashValue.length !== 60) {
+            nextTick(callback.bind(this, null, false));
+            return;
+        }
+        hash(password, hashValue.substring(0, 29), function(err, comp) {
+            if (err) callback(err);
+            else callback(null, safeStringCompare(comp, hashValue));
+        }, progressCallback);
+    }
+    if (callback) {
+        if (typeof callback !== "function") throw Error("Illegal callback: " + typeof callback);
+        _async(callback);
+    } else return new Promise(function(resolve, reject) {
+        _async(function(err, res) {
+            if (err) {
+                reject(err);
+                return;
+            }
+            resolve(res);
+        });
+    });
+}
+/**
+ * Gets the number of rounds used to encrypt the specified hash.
+ * @param {string} hash Hash to extract the used number of rounds from
+ * @returns {number} Number of rounds used
+ * @throws {Error} If `hash` is not a string
+ */ function getRounds(hash) {
+    if (typeof hash !== "string") throw Error("Illegal arguments: " + typeof hash);
+    return parseInt(hash.split("$")[2], 10);
+}
+/**
+ * Gets the salt portion from a hash. Does not validate the hash.
+ * @param {string} hash Hash to extract the salt from
+ * @returns {string} Extracted salt part
+ * @throws {Error} If `hash` is not a string or otherwise invalid
+ */ function getSalt(hash) {
+    if (typeof hash !== "string") throw Error("Illegal arguments: " + typeof hash);
+    if (hash.length !== 60) throw Error("Illegal hash length: " + hash.length + " != 60");
+    return hash.substring(0, 29);
+}
+/**
+ * Tests if a password will be truncated when hashed, that is its length is
+ * greater than 72 bytes when converted to UTF-8.
+ * @param {string} password The password to test
+ * @returns {boolean} `true` if truncated, otherwise `false`
+ */ function truncates(password) {
+    if (typeof password !== "string") throw Error("Illegal arguments: " + typeof password);
+    return utf8Length(password) > 72;
+}
+/**
+ * Continues with the callback on the next tick.
+ * @function
+ * @param {function(...[*])} callback Callback to execute
+ * @inner
+ */ var nextTick = typeof process !== "undefined" && process && typeof process.nextTick === "function" ? typeof setImmediate === "function" ? setImmediate : process.nextTick : setTimeout;
+/** Calculates the byte length of a string encoded as UTF8. */ function utf8Length(string) {
+    var len = 0, c = 0;
+    for(var i = 0; i < string.length; ++i){
+        c = string.charCodeAt(i);
+        if (c < 128) len += 1;
+        else if (c < 2048) len += 2;
+        else if ((c & 0xfc00) === 0xd800 && (string.charCodeAt(i + 1) & 0xfc00) === 0xdc00) {
+            ++i;
+            len += 4;
+        } else len += 3;
+    }
+    return len;
+}
+/** Converts a string to an array of UTF8 bytes. */ function utf8Array(string) {
+    var offset = 0, c1, c2;
+    var buffer = new Array(utf8Length(string));
+    for(var i = 0, k = string.length; i < k; ++i){
+        c1 = string.charCodeAt(i);
+        if (c1 < 128) {
+            buffer[offset++] = c1;
+        } else if (c1 < 2048) {
+            buffer[offset++] = c1 >> 6 | 192;
+            buffer[offset++] = c1 & 63 | 128;
+        } else if ((c1 & 0xfc00) === 0xd800 && ((c2 = string.charCodeAt(i + 1)) & 0xfc00) === 0xdc00) {
+            c1 = 0x10000 + ((c1 & 0x03ff) << 10) + (c2 & 0x03ff);
+            ++i;
+            buffer[offset++] = c1 >> 18 | 240;
+            buffer[offset++] = c1 >> 12 & 63 | 128;
+            buffer[offset++] = c1 >> 6 & 63 | 128;
+            buffer[offset++] = c1 & 63 | 128;
+        } else {
+            buffer[offset++] = c1 >> 12 | 224;
+            buffer[offset++] = c1 >> 6 & 63 | 128;
+            buffer[offset++] = c1 & 63 | 128;
+        }
+    }
+    return buffer;
+}
+// A base64 implementation for the bcrypt algorithm. This is partly non-standard.
+/**
+ * bcrypt's own non-standard base64 dictionary.
+ * @type {!Array.<string>}
+ * @const
+ * @inner
+ **/ var BASE64_CODE = "./ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split("");
+/**
+ * @type {!Array.<number>}
+ * @const
+ * @inner
+ **/ var BASE64_INDEX = [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    0,
+    1,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+];
+/**
+ * Encodes a byte array to base64 with up to len bytes of input.
+ * @param {!Array.<number>} b Byte array
+ * @param {number} len Maximum input length
+ * @returns {string}
+ * @inner
+ */ function base64_encode(b, len) {
+    var off = 0, rs = [], c1, c2;
+    if (len <= 0 || len > b.length) throw Error("Illegal len: " + len);
+    while(off < len){
+        c1 = b[off++] & 0xff;
+        rs.push(BASE64_CODE[c1 >> 2 & 0x3f]);
+        c1 = (c1 & 0x03) << 4;
+        if (off >= len) {
+            rs.push(BASE64_CODE[c1 & 0x3f]);
+            break;
+        }
+        c2 = b[off++] & 0xff;
+        c1 |= c2 >> 4 & 0x0f;
+        rs.push(BASE64_CODE[c1 & 0x3f]);
+        c1 = (c2 & 0x0f) << 2;
+        if (off >= len) {
+            rs.push(BASE64_CODE[c1 & 0x3f]);
+            break;
+        }
+        c2 = b[off++] & 0xff;
+        c1 |= c2 >> 6 & 0x03;
+        rs.push(BASE64_CODE[c1 & 0x3f]);
+        rs.push(BASE64_CODE[c2 & 0x3f]);
+    }
+    return rs.join("");
+}
+/**
+ * Decodes a base64 encoded string to up to len bytes of output.
+ * @param {string} s String to decode
+ * @param {number} len Maximum output length
+ * @returns {!Array.<number>}
+ * @inner
+ */ function base64_decode(s, len) {
+    var off = 0, slen = s.length, olen = 0, rs = [], c1, c2, c3, c4, o, code;
+    if (len <= 0) throw Error("Illegal len: " + len);
+    while(off < slen - 1 && olen < len){
+        code = s.charCodeAt(off++);
+        c1 = code < BASE64_INDEX.length ? BASE64_INDEX[code] : -1;
+        code = s.charCodeAt(off++);
+        c2 = code < BASE64_INDEX.length ? BASE64_INDEX[code] : -1;
+        if (c1 == -1 || c2 == -1) break;
+        o = c1 << 2 >>> 0;
+        o |= (c2 & 0x30) >> 4;
+        rs.push(String.fromCharCode(o));
+        if (++olen >= len || off >= slen) break;
+        code = s.charCodeAt(off++);
+        c3 = code < BASE64_INDEX.length ? BASE64_INDEX[code] : -1;
+        if (c3 == -1) break;
+        o = (c2 & 0x0f) << 4 >>> 0;
+        o |= (c3 & 0x3c) >> 2;
+        rs.push(String.fromCharCode(o));
+        if (++olen >= len || off >= slen) break;
+        code = s.charCodeAt(off++);
+        c4 = code < BASE64_INDEX.length ? BASE64_INDEX[code] : -1;
+        o = (c3 & 0x03) << 6 >>> 0;
+        o |= c4;
+        rs.push(String.fromCharCode(o));
+        ++olen;
+    }
+    var res = [];
+    for(off = 0; off < olen; off++)res.push(rs[off].charCodeAt(0));
+    return res;
+}
+/**
+ * @type {number}
+ * @const
+ * @inner
+ */ var BCRYPT_SALT_LEN = 16;
+/**
+ * @type {number}
+ * @const
+ * @inner
+ */ var GENSALT_DEFAULT_LOG2_ROUNDS = 10;
+/**
+ * @type {number}
+ * @const
+ * @inner
+ */ var BLOWFISH_NUM_ROUNDS = 16;
+/**
+ * @type {number}
+ * @const
+ * @inner
+ */ var MAX_EXECUTION_TIME = 100;
+/**
+ * @type {Array.<number>}
+ * @const
+ * @inner
+ */ var P_ORIG = [
+    0x243f6a88,
+    0x85a308d3,
+    0x13198a2e,
+    0x03707344,
+    0xa4093822,
+    0x299f31d0,
+    0x082efa98,
+    0xec4e6c89,
+    0x452821e6,
+    0x38d01377,
+    0xbe5466cf,
+    0x34e90c6c,
+    0xc0ac29b7,
+    0xc97c50dd,
+    0x3f84d5b5,
+    0xb5470917,
+    0x9216d5d9,
+    0x8979fb1b
+];
+/**
+ * @type {Array.<number>}
+ * @const
+ * @inner
+ */ var S_ORIG = [
+    0xd1310ba6,
+    0x98dfb5ac,
+    0x2ffd72db,
+    0xd01adfb7,
+    0xb8e1afed,
+    0x6a267e96,
+    0xba7c9045,
+    0xf12c7f99,
+    0x24a19947,
+    0xb3916cf7,
+    0x0801f2e2,
+    0x858efc16,
+    0x636920d8,
+    0x71574e69,
+    0xa458fea3,
+    0xf4933d7e,
+    0x0d95748f,
+    0x728eb658,
+    0x718bcd58,
+    0x82154aee,
+    0x7b54a41d,
+    0xc25a59b5,
+    0x9c30d539,
+    0x2af26013,
+    0xc5d1b023,
+    0x286085f0,
+    0xca417918,
+    0xb8db38ef,
+    0x8e79dcb0,
+    0x603a180e,
+    0x6c9e0e8b,
+    0xb01e8a3e,
+    0xd71577c1,
+    0xbd314b27,
+    0x78af2fda,
+    0x55605c60,
+    0xe65525f3,
+    0xaa55ab94,
+    0x57489862,
+    0x63e81440,
+    0x55ca396a,
+    0x2aab10b6,
+    0xb4cc5c34,
+    0x1141e8ce,
+    0xa15486af,
+    0x7c72e993,
+    0xb3ee1411,
+    0x636fbc2a,
+    0x2ba9c55d,
+    0x741831f6,
+    0xce5c3e16,
+    0x9b87931e,
+    0xafd6ba33,
+    0x6c24cf5c,
+    0x7a325381,
+    0x28958677,
+    0x3b8f4898,
+    0x6b4bb9af,
+    0xc4bfe81b,
+    0x66282193,
+    0x61d809cc,
+    0xfb21a991,
+    0x487cac60,
+    0x5dec8032,
+    0xef845d5d,
+    0xe98575b1,
+    0xdc262302,
+    0xeb651b88,
+    0x23893e81,
+    0xd396acc5,
+    0x0f6d6ff3,
+    0x83f44239,
+    0x2e0b4482,
+    0xa4842004,
+    0x69c8f04a,
+    0x9e1f9b5e,
+    0x21c66842,
+    0xf6e96c9a,
+    0x670c9c61,
+    0xabd388f0,
+    0x6a51a0d2,
+    0xd8542f68,
+    0x960fa728,
+    0xab5133a3,
+    0x6eef0b6c,
+    0x137a3be4,
+    0xba3bf050,
+    0x7efb2a98,
+    0xa1f1651d,
+    0x39af0176,
+    0x66ca593e,
+    0x82430e88,
+    0x8cee8619,
+    0x456f9fb4,
+    0x7d84a5c3,
+    0x3b8b5ebe,
+    0xe06f75d8,
+    0x85c12073,
+    0x401a449f,
+    0x56c16aa6,
+    0x4ed3aa62,
+    0x363f7706,
+    0x1bfedf72,
+    0x429b023d,
+    0x37d0d724,
+    0xd00a1248,
+    0xdb0fead3,
+    0x49f1c09b,
+    0x075372c9,
+    0x80991b7b,
+    0x25d479d8,
+    0xf6e8def7,
+    0xe3fe501a,
+    0xb6794c3b,
+    0x976ce0bd,
+    0x04c006ba,
+    0xc1a94fb6,
+    0x409f60c4,
+    0x5e5c9ec2,
+    0x196a2463,
+    0x68fb6faf,
+    0x3e6c53b5,
+    0x1339b2eb,
+    0x3b52ec6f,
+    0x6dfc511f,
+    0x9b30952c,
+    0xcc814544,
+    0xaf5ebd09,
+    0xbee3d004,
+    0xde334afd,
+    0x660f2807,
+    0x192e4bb3,
+    0xc0cba857,
+    0x45c8740f,
+    0xd20b5f39,
+    0xb9d3fbdb,
+    0x5579c0bd,
+    0x1a60320a,
+    0xd6a100c6,
+    0x402c7279,
+    0x679f25fe,
+    0xfb1fa3cc,
+    0x8ea5e9f8,
+    0xdb3222f8,
+    0x3c7516df,
+    0xfd616b15,
+    0x2f501ec8,
+    0xad0552ab,
+    0x323db5fa,
+    0xfd238760,
+    0x53317b48,
+    0x3e00df82,
+    0x9e5c57bb,
+    0xca6f8ca0,
+    0x1a87562e,
+    0xdf1769db,
+    0xd542a8f6,
+    0x287effc3,
+    0xac6732c6,
+    0x8c4f5573,
+    0x695b27b0,
+    0xbbca58c8,
+    0xe1ffa35d,
+    0xb8f011a0,
+    0x10fa3d98,
+    0xfd2183b8,
+    0x4afcb56c,
+    0x2dd1d35b,
+    0x9a53e479,
+    0xb6f84565,
+    0xd28e49bc,
+    0x4bfb9790,
+    0xe1ddf2da,
+    0xa4cb7e33,
+    0x62fb1341,
+    0xcee4c6e8,
+    0xef20cada,
+    0x36774c01,
+    0xd07e9efe,
+    0x2bf11fb4,
+    0x95dbda4d,
+    0xae909198,
+    0xeaad8e71,
+    0x6b93d5a0,
+    0xd08ed1d0,
+    0xafc725e0,
+    0x8e3c5b2f,
+    0x8e7594b7,
+    0x8ff6e2fb,
+    0xf2122b64,
+    0x8888b812,
+    0x900df01c,
+    0x4fad5ea0,
+    0x688fc31c,
+    0xd1cff191,
+    0xb3a8c1ad,
+    0x2f2f2218,
+    0xbe0e1777,
+    0xea752dfe,
+    0x8b021fa1,
+    0xe5a0cc0f,
+    0xb56f74e8,
+    0x18acf3d6,
+    0xce89e299,
+    0xb4a84fe0,
+    0xfd13e0b7,
+    0x7cc43b81,
+    0xd2ada8d9,
+    0x165fa266,
+    0x80957705,
+    0x93cc7314,
+    0x211a1477,
+    0xe6ad2065,
+    0x77b5fa86,
+    0xc75442f5,
+    0xfb9d35cf,
+    0xebcdaf0c,
+    0x7b3e89a0,
+    0xd6411bd3,
+    0xae1e7e49,
+    0x00250e2d,
+    0x2071b35e,
+    0x226800bb,
+    0x57b8e0af,
+    0x2464369b,
+    0xf009b91e,
+    0x5563911d,
+    0x59dfa6aa,
+    0x78c14389,
+    0xd95a537f,
+    0x207d5ba2,
+    0x02e5b9c5,
+    0x83260376,
+    0x6295cfa9,
+    0x11c81968,
+    0x4e734a41,
+    0xb3472dca,
+    0x7b14a94a,
+    0x1b510052,
+    0x9a532915,
+    0xd60f573f,
+    0xbc9bc6e4,
+    0x2b60a476,
+    0x81e67400,
+    0x08ba6fb5,
+    0x571be91f,
+    0xf296ec6b,
+    0x2a0dd915,
+    0xb6636521,
+    0xe7b9f9b6,
+    0xff34052e,
+    0xc5855664,
+    0x53b02d5d,
+    0xa99f8fa1,
+    0x08ba4799,
+    0x6e85076a,
+    0x4b7a70e9,
+    0xb5b32944,
+    0xdb75092e,
+    0xc4192623,
+    0xad6ea6b0,
+    0x49a7df7d,
+    0x9cee60b8,
+    0x8fedb266,
+    0xecaa8c71,
+    0x699a17ff,
+    0x5664526c,
+    0xc2b19ee1,
+    0x193602a5,
+    0x75094c29,
+    0xa0591340,
+    0xe4183a3e,
+    0x3f54989a,
+    0x5b429d65,
+    0x6b8fe4d6,
+    0x99f73fd6,
+    0xa1d29c07,
+    0xefe830f5,
+    0x4d2d38e6,
+    0xf0255dc1,
+    0x4cdd2086,
+    0x8470eb26,
+    0x6382e9c6,
+    0x021ecc5e,
+    0x09686b3f,
+    0x3ebaefc9,
+    0x3c971814,
+    0x6b6a70a1,
+    0x687f3584,
+    0x52a0e286,
+    0xb79c5305,
+    0xaa500737,
+    0x3e07841c,
+    0x7fdeae5c,
+    0x8e7d44ec,
+    0x5716f2b8,
+    0xb03ada37,
+    0xf0500c0d,
+    0xf01c1f04,
+    0x0200b3ff,
+    0xae0cf51a,
+    0x3cb574b2,
+    0x25837a58,
+    0xdc0921bd,
+    0xd19113f9,
+    0x7ca92ff6,
+    0x94324773,
+    0x22f54701,
+    0x3ae5e581,
+    0x37c2dadc,
+    0xc8b57634,
+    0x9af3dda7,
+    0xa9446146,
+    0x0fd0030e,
+    0xecc8c73e,
+    0xa4751e41,
+    0xe238cd99,
+    0x3bea0e2f,
+    0x3280bba1,
+    0x183eb331,
+    0x4e548b38,
+    0x4f6db908,
+    0x6f420d03,
+    0xf60a04bf,
+    0x2cb81290,
+    0x24977c79,
+    0x5679b072,
+    0xbcaf89af,
+    0xde9a771f,
+    0xd9930810,
+    0xb38bae12,
+    0xdccf3f2e,
+    0x5512721f,
+    0x2e6b7124,
+    0x501adde6,
+    0x9f84cd87,
+    0x7a584718,
+    0x7408da17,
+    0xbc9f9abc,
+    0xe94b7d8c,
+    0xec7aec3a,
+    0xdb851dfa,
+    0x63094366,
+    0xc464c3d2,
+    0xef1c1847,
+    0x3215d908,
+    0xdd433b37,
+    0x24c2ba16,
+    0x12a14d43,
+    0x2a65c451,
+    0x50940002,
+    0x133ae4dd,
+    0x71dff89e,
+    0x10314e55,
+    0x81ac77d6,
+    0x5f11199b,
+    0x043556f1,
+    0xd7a3c76b,
+    0x3c11183b,
+    0x5924a509,
+    0xf28fe6ed,
+    0x97f1fbfa,
+    0x9ebabf2c,
+    0x1e153c6e,
+    0x86e34570,
+    0xeae96fb1,
+    0x860e5e0a,
+    0x5a3e2ab3,
+    0x771fe71c,
+    0x4e3d06fa,
+    0x2965dcb9,
+    0x99e71d0f,
+    0x803e89d6,
+    0x5266c825,
+    0x2e4cc978,
+    0x9c10b36a,
+    0xc6150eba,
+    0x94e2ea78,
+    0xa5fc3c53,
+    0x1e0a2df4,
+    0xf2f74ea7,
+    0x361d2b3d,
+    0x1939260f,
+    0x19c27960,
+    0x5223a708,
+    0xf71312b6,
+    0xebadfe6e,
+    0xeac31f66,
+    0xe3bc4595,
+    0xa67bc883,
+    0xb17f37d1,
+    0x018cff28,
+    0xc332ddef,
+    0xbe6c5aa5,
+    0x65582185,
+    0x68ab9802,
+    0xeecea50f,
+    0xdb2f953b,
+    0x2aef7dad,
+    0x5b6e2f84,
+    0x1521b628,
+    0x29076170,
+    0xecdd4775,
+    0x619f1510,
+    0x13cca830,
+    0xeb61bd96,
+    0x0334fe1e,
+    0xaa0363cf,
+    0xb5735c90,
+    0x4c70a239,
+    0xd59e9e0b,
+    0xcbaade14,
+    0xeecc86bc,
+    0x60622ca7,
+    0x9cab5cab,
+    0xb2f3846e,
+    0x648b1eaf,
+    0x19bdf0ca,
+    0xa02369b9,
+    0x655abb50,
+    0x40685a32,
+    0x3c2ab4b3,
+    0x319ee9d5,
+    0xc021b8f7,
+    0x9b540b19,
+    0x875fa099,
+    0x95f7997e,
+    0x623d7da8,
+    0xf837889a,
+    0x97e32d77,
+    0x11ed935f,
+    0x16681281,
+    0x0e358829,
+    0xc7e61fd6,
+    0x96dedfa1,
+    0x7858ba99,
+    0x57f584a5,
+    0x1b227263,
+    0x9b83c3ff,
+    0x1ac24696,
+    0xcdb30aeb,
+    0x532e3054,
+    0x8fd948e4,
+    0x6dbc3128,
+    0x58ebf2ef,
+    0x34c6ffea,
+    0xfe28ed61,
+    0xee7c3c73,
+    0x5d4a14d9,
+    0xe864b7e3,
+    0x42105d14,
+    0x203e13e0,
+    0x45eee2b6,
+    0xa3aaabea,
+    0xdb6c4f15,
+    0xfacb4fd0,
+    0xc742f442,
+    0xef6abbb5,
+    0x654f3b1d,
+    0x41cd2105,
+    0xd81e799e,
+    0x86854dc7,
+    0xe44b476a,
+    0x3d816250,
+    0xcf62a1f2,
+    0x5b8d2646,
+    0xfc8883a0,
+    0xc1c7b6a3,
+    0x7f1524c3,
+    0x69cb7492,
+    0x47848a0b,
+    0x5692b285,
+    0x095bbf00,
+    0xad19489d,
+    0x1462b174,
+    0x23820e00,
+    0x58428d2a,
+    0x0c55f5ea,
+    0x1dadf43e,
+    0x233f7061,
+    0x3372f092,
+    0x8d937e41,
+    0xd65fecf1,
+    0x6c223bdb,
+    0x7cde3759,
+    0xcbee7460,
+    0x4085f2a7,
+    0xce77326e,
+    0xa6078084,
+    0x19f8509e,
+    0xe8efd855,
+    0x61d99735,
+    0xa969a7aa,
+    0xc50c06c2,
+    0x5a04abfc,
+    0x800bcadc,
+    0x9e447a2e,
+    0xc3453484,
+    0xfdd56705,
+    0x0e1e9ec9,
+    0xdb73dbd3,
+    0x105588cd,
+    0x675fda79,
+    0xe3674340,
+    0xc5c43465,
+    0x713e38d8,
+    0x3d28f89e,
+    0xf16dff20,
+    0x153e21e7,
+    0x8fb03d4a,
+    0xe6e39f2b,
+    0xdb83adf7,
+    0xe93d5a68,
+    0x948140f7,
+    0xf64c261c,
+    0x94692934,
+    0x411520f7,
+    0x7602d4f7,
+    0xbcf46b2e,
+    0xd4a20068,
+    0xd4082471,
+    0x3320f46a,
+    0x43b7d4b7,
+    0x500061af,
+    0x1e39f62e,
+    0x97244546,
+    0x14214f74,
+    0xbf8b8840,
+    0x4d95fc1d,
+    0x96b591af,
+    0x70f4ddd3,
+    0x66a02f45,
+    0xbfbc09ec,
+    0x03bd9785,
+    0x7fac6dd0,
+    0x31cb8504,
+    0x96eb27b3,
+    0x55fd3941,
+    0xda2547e6,
+    0xabca0a9a,
+    0x28507825,
+    0x530429f4,
+    0x0a2c86da,
+    0xe9b66dfb,
+    0x68dc1462,
+    0xd7486900,
+    0x680ec0a4,
+    0x27a18dee,
+    0x4f3ffea2,
+    0xe887ad8c,
+    0xb58ce006,
+    0x7af4d6b6,
+    0xaace1e7c,
+    0xd3375fec,
+    0xce78a399,
+    0x406b2a42,
+    0x20fe9e35,
+    0xd9f385b9,
+    0xee39d7ab,
+    0x3b124e8b,
+    0x1dc9faf7,
+    0x4b6d1856,
+    0x26a36631,
+    0xeae397b2,
+    0x3a6efa74,
+    0xdd5b4332,
+    0x6841e7f7,
+    0xca7820fb,
+    0xfb0af54e,
+    0xd8feb397,
+    0x454056ac,
+    0xba489527,
+    0x55533a3a,
+    0x20838d87,
+    0xfe6ba9b7,
+    0xd096954b,
+    0x55a867bc,
+    0xa1159a58,
+    0xcca92963,
+    0x99e1db33,
+    0xa62a4a56,
+    0x3f3125f9,
+    0x5ef47e1c,
+    0x9029317c,
+    0xfdf8e802,
+    0x04272f70,
+    0x80bb155c,
+    0x05282ce3,
+    0x95c11548,
+    0xe4c66d22,
+    0x48c1133f,
+    0xc70f86dc,
+    0x07f9c9ee,
+    0x41041f0f,
+    0x404779a4,
+    0x5d886e17,
+    0x325f51eb,
+    0xd59bc0d1,
+    0xf2bcc18f,
+    0x41113564,
+    0x257b7834,
+    0x602a9c60,
+    0xdff8e8a3,
+    0x1f636c1b,
+    0x0e12b4c2,
+    0x02e1329e,
+    0xaf664fd1,
+    0xcad18115,
+    0x6b2395e0,
+    0x333e92e1,
+    0x3b240b62,
+    0xeebeb922,
+    0x85b2a20e,
+    0xe6ba0d99,
+    0xde720c8c,
+    0x2da2f728,
+    0xd0127845,
+    0x95b794fd,
+    0x647d0862,
+    0xe7ccf5f0,
+    0x5449a36f,
+    0x877d48fa,
+    0xc39dfd27,
+    0xf33e8d1e,
+    0x0a476341,
+    0x992eff74,
+    0x3a6f6eab,
+    0xf4f8fd37,
+    0xa812dc60,
+    0xa1ebddf8,
+    0x991be14c,
+    0xdb6e6b0d,
+    0xc67b5510,
+    0x6d672c37,
+    0x2765d43b,
+    0xdcd0e804,
+    0xf1290dc7,
+    0xcc00ffa3,
+    0xb5390f92,
+    0x690fed0b,
+    0x667b9ffb,
+    0xcedb7d9c,
+    0xa091cf0b,
+    0xd9155ea3,
+    0xbb132f88,
+    0x515bad24,
+    0x7b9479bf,
+    0x763bd6eb,
+    0x37392eb3,
+    0xcc115979,
+    0x8026e297,
+    0xf42e312d,
+    0x6842ada7,
+    0xc66a2b3b,
+    0x12754ccc,
+    0x782ef11c,
+    0x6a124237,
+    0xb79251e7,
+    0x06a1bbe6,
+    0x4bfb6350,
+    0x1a6b1018,
+    0x11caedfa,
+    0x3d25bdd8,
+    0xe2e1c3c9,
+    0x44421659,
+    0x0a121386,
+    0xd90cec6e,
+    0xd5abea2a,
+    0x64af674e,
+    0xda86a85f,
+    0xbebfe988,
+    0x64e4c3fe,
+    0x9dbc8057,
+    0xf0f7c086,
+    0x60787bf8,
+    0x6003604d,
+    0xd1fd8346,
+    0xf6381fb0,
+    0x7745ae04,
+    0xd736fccc,
+    0x83426b33,
+    0xf01eab71,
+    0xb0804187,
+    0x3c005e5f,
+    0x77a057be,
+    0xbde8ae24,
+    0x55464299,
+    0xbf582e61,
+    0x4e58f48f,
+    0xf2ddfda2,
+    0xf474ef38,
+    0x8789bdc2,
+    0x5366f9c3,
+    0xc8b38e74,
+    0xb475f255,
+    0x46fcd9b9,
+    0x7aeb2661,
+    0x8b1ddf84,
+    0x846a0e79,
+    0x915f95e2,
+    0x466e598e,
+    0x20b45770,
+    0x8cd55591,
+    0xc902de4c,
+    0xb90bace1,
+    0xbb8205d0,
+    0x11a86248,
+    0x7574a99e,
+    0xb77f19b6,
+    0xe0a9dc09,
+    0x662d09a1,
+    0xc4324633,
+    0xe85a1f02,
+    0x09f0be8c,
+    0x4a99a025,
+    0x1d6efe10,
+    0x1ab93d1d,
+    0x0ba5a4df,
+    0xa186f20f,
+    0x2868f169,
+    0xdcb7da83,
+    0x573906fe,
+    0xa1e2ce9b,
+    0x4fcd7f52,
+    0x50115e01,
+    0xa70683fa,
+    0xa002b5c4,
+    0x0de6d027,
+    0x9af88c27,
+    0x773f8641,
+    0xc3604c06,
+    0x61a806b5,
+    0xf0177a28,
+    0xc0f586e0,
+    0x006058aa,
+    0x30dc7d62,
+    0x11e69ed7,
+    0x2338ea63,
+    0x53c2dd94,
+    0xc2c21634,
+    0xbbcbee56,
+    0x90bcb6de,
+    0xebfc7da1,
+    0xce591d76,
+    0x6f05e409,
+    0x4b7c0188,
+    0x39720a3d,
+    0x7c927c24,
+    0x86e3725f,
+    0x724d9db9,
+    0x1ac15bb4,
+    0xd39eb8fc,
+    0xed545578,
+    0x08fca5b5,
+    0xd83d7cd3,
+    0x4dad0fc4,
+    0x1e50ef5e,
+    0xb161e6f8,
+    0xa28514d9,
+    0x6c51133c,
+    0x6fd5c7e7,
+    0x56e14ec4,
+    0x362abfce,
+    0xddc6c837,
+    0xd79a3234,
+    0x92638212,
+    0x670efa8e,
+    0x406000e0,
+    0x3a39ce37,
+    0xd3faf5cf,
+    0xabc27737,
+    0x5ac52d1b,
+    0x5cb0679e,
+    0x4fa33742,
+    0xd3822740,
+    0x99bc9bbe,
+    0xd5118e9d,
+    0xbf0f7315,
+    0xd62d1c7e,
+    0xc700c47b,
+    0xb78c1b6b,
+    0x21a19045,
+    0xb26eb1be,
+    0x6a366eb4,
+    0x5748ab2f,
+    0xbc946e79,
+    0xc6a376d2,
+    0x6549c2c8,
+    0x530ff8ee,
+    0x468dde7d,
+    0xd5730a1d,
+    0x4cd04dc6,
+    0x2939bbdb,
+    0xa9ba4650,
+    0xac9526e8,
+    0xbe5ee304,
+    0xa1fad5f0,
+    0x6a2d519a,
+    0x63ef8ce2,
+    0x9a86ee22,
+    0xc089c2b8,
+    0x43242ef6,
+    0xa51e03aa,
+    0x9cf2d0a4,
+    0x83c061ba,
+    0x9be96a4d,
+    0x8fe51550,
+    0xba645bd6,
+    0x2826a2f9,
+    0xa73a3ae1,
+    0x4ba99586,
+    0xef5562e9,
+    0xc72fefd3,
+    0xf752f7da,
+    0x3f046f69,
+    0x77fa0a59,
+    0x80e4a915,
+    0x87b08601,
+    0x9b09e6ad,
+    0x3b3ee593,
+    0xe990fd5a,
+    0x9e34d797,
+    0x2cf0b7d9,
+    0x022b8b51,
+    0x96d5ac3a,
+    0x017da67d,
+    0xd1cf3ed6,
+    0x7c7d2d28,
+    0x1f9f25cf,
+    0xadf2b89b,
+    0x5ad6b472,
+    0x5a88f54c,
+    0xe029ac71,
+    0xe019a5e6,
+    0x47b0acfd,
+    0xed93fa9b,
+    0xe8d3c48d,
+    0x283b57cc,
+    0xf8d56629,
+    0x79132e28,
+    0x785f0191,
+    0xed756055,
+    0xf7960e44,
+    0xe3d35e8c,
+    0x15056dd4,
+    0x88f46dba,
+    0x03a16125,
+    0x0564f0bd,
+    0xc3eb9e15,
+    0x3c9057a2,
+    0x97271aec,
+    0xa93a072a,
+    0x1b3f6d9b,
+    0x1e6321f5,
+    0xf59c66fb,
+    0x26dcf319,
+    0x7533d928,
+    0xb155fdf5,
+    0x03563482,
+    0x8aba3cbb,
+    0x28517711,
+    0xc20ad9f8,
+    0xabcc5167,
+    0xccad925f,
+    0x4de81751,
+    0x3830dc8e,
+    0x379d5862,
+    0x9320f991,
+    0xea7a90c2,
+    0xfb3e7bce,
+    0x5121ce64,
+    0x774fbe32,
+    0xa8b6e37e,
+    0xc3293d46,
+    0x48de5369,
+    0x6413e680,
+    0xa2ae0810,
+    0xdd6db224,
+    0x69852dfd,
+    0x09072166,
+    0xb39a460a,
+    0x6445c0dd,
+    0x586cdecf,
+    0x1c20c8ae,
+    0x5bbef7dd,
+    0x1b588d40,
+    0xccd2017f,
+    0x6bb4e3bb,
+    0xdda26a7e,
+    0x3a59ff45,
+    0x3e350a44,
+    0xbcb4cdd5,
+    0x72eacea8,
+    0xfa6484bb,
+    0x8d6612ae,
+    0xbf3c6f47,
+    0xd29be463,
+    0x542f5d9e,
+    0xaec2771b,
+    0xf64e6370,
+    0x740e0d8d,
+    0xe75b1357,
+    0xf8721671,
+    0xaf537d5d,
+    0x4040cb08,
+    0x4eb4e2cc,
+    0x34d2466a,
+    0x0115af84,
+    0xe1b00428,
+    0x95983a1d,
+    0x06b89fb4,
+    0xce6ea048,
+    0x6f3f3b82,
+    0x3520ab82,
+    0x011a1d4b,
+    0x277227f8,
+    0x611560b1,
+    0xe7933fdc,
+    0xbb3a792b,
+    0x344525bd,
+    0xa08839e1,
+    0x51ce794b,
+    0x2f32c9b7,
+    0xa01fbac9,
+    0xe01cc87e,
+    0xbcc7d1f6,
+    0xcf0111c3,
+    0xa1e8aac7,
+    0x1a908749,
+    0xd44fbd9a,
+    0xd0dadecb,
+    0xd50ada38,
+    0x0339c32a,
+    0xc6913667,
+    0x8df9317c,
+    0xe0b12b4f,
+    0xf79e59b7,
+    0x43f5bb3a,
+    0xf2d519ff,
+    0x27d9459c,
+    0xbf97222c,
+    0x15e6fc2a,
+    0x0f91fc71,
+    0x9b941525,
+    0xfae59361,
+    0xceb69ceb,
+    0xc2a86459,
+    0x12baa8d1,
+    0xb6c1075e,
+    0xe3056a0c,
+    0x10d25065,
+    0xcb03a442,
+    0xe0ec6e0e,
+    0x1698db3b,
+    0x4c98a0be,
+    0x3278e964,
+    0x9f1f9532,
+    0xe0d392df,
+    0xd3a0342b,
+    0x8971f21e,
+    0x1b0a7441,
+    0x4ba3348c,
+    0xc5be7120,
+    0xc37632d8,
+    0xdf359f8d,
+    0x9b992f2e,
+    0xe60b6f47,
+    0x0fe3f11d,
+    0xe54cda54,
+    0x1edad891,
+    0xce6279cf,
+    0xcd3e7e6f,
+    0x1618b166,
+    0xfd2c1d05,
+    0x848fd2c5,
+    0xf6fb2299,
+    0xf523f357,
+    0xa6327623,
+    0x93a83531,
+    0x56cccd02,
+    0xacf08162,
+    0x5a75ebb5,
+    0x6e163697,
+    0x88d273cc,
+    0xde966292,
+    0x81b949d0,
+    0x4c50901b,
+    0x71c65614,
+    0xe6c6c7bd,
+    0x327a140a,
+    0x45e1d006,
+    0xc3f27b9a,
+    0xc9aa53fd,
+    0x62a80f00,
+    0xbb25bfe2,
+    0x35bdd2f6,
+    0x71126905,
+    0xb2040222,
+    0xb6cbcf7c,
+    0xcd769c2b,
+    0x53113ec0,
+    0x1640e3d3,
+    0x38abbd60,
+    0x2547adf0,
+    0xba38209c,
+    0xf746ce76,
+    0x77afa1c5,
+    0x20756060,
+    0x85cbfe4e,
+    0x8ae88dd8,
+    0x7aaaf9b0,
+    0x4cf9aa7e,
+    0x1948c25c,
+    0x02fb8a8c,
+    0x01c36ae4,
+    0xd6ebe1f9,
+    0x90d4f869,
+    0xa65cdea0,
+    0x3f09252d,
+    0xc208e69f,
+    0xb74e6132,
+    0xce77e25b,
+    0x578fdfe3,
+    0x3ac372e6
+];
+/**
+ * @type {Array.<number>}
+ * @const
+ * @inner
+ */ var C_ORIG = [
+    0x4f727068,
+    0x65616e42,
+    0x65686f6c,
+    0x64657253,
+    0x63727944,
+    0x6f756274
+];
+/**
+ * @param {Array.<number>} lr
+ * @param {number} off
+ * @param {Array.<number>} P
+ * @param {Array.<number>} S
+ * @returns {Array.<number>}
+ * @inner
+ */ function _encipher(lr, off, P, S) {
+    // This is our bottleneck: 1714/1905 ticks / 90% - see profile.txt
+    var n, l = lr[off], r = lr[off + 1];
+    l ^= P[0];
+    /*
+    for (var i=0, k=BLOWFISH_NUM_ROUNDS-2; i<=k;)
+        // Feistel substitution on left word
+        n  = S[l >>> 24],
+        n += S[0x100 | ((l >> 16) & 0xff)],
+        n ^= S[0x200 | ((l >> 8) & 0xff)],
+        n += S[0x300 | (l & 0xff)],
+        r ^= n ^ P[++i],
+        // Feistel substitution on right word
+        n  = S[r >>> 24],
+        n += S[0x100 | ((r >> 16) & 0xff)],
+        n ^= S[0x200 | ((r >> 8) & 0xff)],
+        n += S[0x300 | (r & 0xff)],
+        l ^= n ^ P[++i];
+    */ //The following is an unrolled version of the above loop.
+    //Iteration 0
+    n = S[l >>> 24];
+    n += S[0x100 | l >> 16 & 0xff];
+    n ^= S[0x200 | l >> 8 & 0xff];
+    n += S[0x300 | l & 0xff];
+    r ^= n ^ P[1];
+    n = S[r >>> 24];
+    n += S[0x100 | r >> 16 & 0xff];
+    n ^= S[0x200 | r >> 8 & 0xff];
+    n += S[0x300 | r & 0xff];
+    l ^= n ^ P[2];
+    //Iteration 1
+    n = S[l >>> 24];
+    n += S[0x100 | l >> 16 & 0xff];
+    n ^= S[0x200 | l >> 8 & 0xff];
+    n += S[0x300 | l & 0xff];
+    r ^= n ^ P[3];
+    n = S[r >>> 24];
+    n += S[0x100 | r >> 16 & 0xff];
+    n ^= S[0x200 | r >> 8 & 0xff];
+    n += S[0x300 | r & 0xff];
+    l ^= n ^ P[4];
+    //Iteration 2
+    n = S[l >>> 24];
+    n += S[0x100 | l >> 16 & 0xff];
+    n ^= S[0x200 | l >> 8 & 0xff];
+    n += S[0x300 | l & 0xff];
+    r ^= n ^ P[5];
+    n = S[r >>> 24];
+    n += S[0x100 | r >> 16 & 0xff];
+    n ^= S[0x200 | r >> 8 & 0xff];
+    n += S[0x300 | r & 0xff];
+    l ^= n ^ P[6];
+    //Iteration 3
+    n = S[l >>> 24];
+    n += S[0x100 | l >> 16 & 0xff];
+    n ^= S[0x200 | l >> 8 & 0xff];
+    n += S[0x300 | l & 0xff];
+    r ^= n ^ P[7];
+    n = S[r >>> 24];
+    n += S[0x100 | r >> 16 & 0xff];
+    n ^= S[0x200 | r >> 8 & 0xff];
+    n += S[0x300 | r & 0xff];
+    l ^= n ^ P[8];
+    //Iteration 4
+    n = S[l >>> 24];
+    n += S[0x100 | l >> 16 & 0xff];
+    n ^= S[0x200 | l >> 8 & 0xff];
+    n += S[0x300 | l & 0xff];
+    r ^= n ^ P[9];
+    n = S[r >>> 24];
+    n += S[0x100 | r >> 16 & 0xff];
+    n ^= S[0x200 | r >> 8 & 0xff];
+    n += S[0x300 | r & 0xff];
+    l ^= n ^ P[10];
+    //Iteration 5
+    n = S[l >>> 24];
+    n += S[0x100 | l >> 16 & 0xff];
+    n ^= S[0x200 | l >> 8 & 0xff];
+    n += S[0x300 | l & 0xff];
+    r ^= n ^ P[11];
+    n = S[r >>> 24];
+    n += S[0x100 | r >> 16 & 0xff];
+    n ^= S[0x200 | r >> 8 & 0xff];
+    n += S[0x300 | r & 0xff];
+    l ^= n ^ P[12];
+    //Iteration 6
+    n = S[l >>> 24];
+    n += S[0x100 | l >> 16 & 0xff];
+    n ^= S[0x200 | l >> 8 & 0xff];
+    n += S[0x300 | l & 0xff];
+    r ^= n ^ P[13];
+    n = S[r >>> 24];
+    n += S[0x100 | r >> 16 & 0xff];
+    n ^= S[0x200 | r >> 8 & 0xff];
+    n += S[0x300 | r & 0xff];
+    l ^= n ^ P[14];
+    //Iteration 7
+    n = S[l >>> 24];
+    n += S[0x100 | l >> 16 & 0xff];
+    n ^= S[0x200 | l >> 8 & 0xff];
+    n += S[0x300 | l & 0xff];
+    r ^= n ^ P[15];
+    n = S[r >>> 24];
+    n += S[0x100 | r >> 16 & 0xff];
+    n ^= S[0x200 | r >> 8 & 0xff];
+    n += S[0x300 | r & 0xff];
+    l ^= n ^ P[16];
+    lr[off] = r ^ P[BLOWFISH_NUM_ROUNDS + 1];
+    lr[off + 1] = l;
+    return lr;
+}
+/**
+ * @param {Array.<number>} data
+ * @param {number} offp
+ * @returns {{key: number, offp: number}}
+ * @inner
+ */ function _streamtoword(data, offp) {
+    for(var i = 0, word = 0; i < 4; ++i)word = word << 8 | data[offp] & 0xff, offp = (offp + 1) % data.length;
+    return {
+        key: word,
+        offp: offp
+    };
+}
+/**
+ * @param {Array.<number>} key
+ * @param {Array.<number>} P
+ * @param {Array.<number>} S
+ * @inner
+ */ function _key(key, P, S) {
+    var offset = 0, lr = [
+        0,
+        0
+    ], plen = P.length, slen = S.length, sw;
+    for(var i = 0; i < plen; i++)sw = _streamtoword(key, offset), offset = sw.offp, P[i] = P[i] ^ sw.key;
+    for(i = 0; i < plen; i += 2)lr = _encipher(lr, 0, P, S), P[i] = lr[0], P[i + 1] = lr[1];
+    for(i = 0; i < slen; i += 2)lr = _encipher(lr, 0, P, S), S[i] = lr[0], S[i + 1] = lr[1];
+}
+/**
+ * Expensive key schedule Blowfish.
+ * @param {Array.<number>} data
+ * @param {Array.<number>} key
+ * @param {Array.<number>} P
+ * @param {Array.<number>} S
+ * @inner
+ */ function _ekskey(data, key, P, S) {
+    var offp = 0, lr = [
+        0,
+        0
+    ], plen = P.length, slen = S.length, sw;
+    for(var i = 0; i < plen; i++)sw = _streamtoword(key, offp), offp = sw.offp, P[i] = P[i] ^ sw.key;
+    offp = 0;
+    for(i = 0; i < plen; i += 2)sw = _streamtoword(data, offp), offp = sw.offp, lr[0] ^= sw.key, sw = _streamtoword(data, offp), offp = sw.offp, lr[1] ^= sw.key, lr = _encipher(lr, 0, P, S), P[i] = lr[0], P[i + 1] = lr[1];
+    for(i = 0; i < slen; i += 2)sw = _streamtoword(data, offp), offp = sw.offp, lr[0] ^= sw.key, sw = _streamtoword(data, offp), offp = sw.offp, lr[1] ^= sw.key, lr = _encipher(lr, 0, P, S), S[i] = lr[0], S[i + 1] = lr[1];
+}
+/**
+ * Internaly crypts a string.
+ * @param {Array.<number>} b Bytes to crypt
+ * @param {Array.<number>} salt Salt bytes to use
+ * @param {number} rounds Number of rounds
+ * @param {function(Error, Array.<number>=)=} callback Callback receiving the error, if any, and the resulting bytes. If
+ *  omitted, the operation will be performed synchronously.
+ *  @param {function(number)=} progressCallback Callback called with the current progress
+ * @returns {!Array.<number>|undefined} Resulting bytes if callback has been omitted, otherwise `undefined`
+ * @inner
+ */ function _crypt(b, salt, rounds, callback, progressCallback) {
+    var cdata = C_ORIG.slice(), clen = cdata.length, err;
+    // Validate
+    if (rounds < 4 || rounds > 31) {
+        err = Error("Illegal number of rounds (4-31): " + rounds);
+        if (callback) {
+            nextTick(callback.bind(this, err));
+            return;
+        } else throw err;
+    }
+    if (salt.length !== BCRYPT_SALT_LEN) {
+        err = Error("Illegal salt length: " + salt.length + " != " + BCRYPT_SALT_LEN);
+        if (callback) {
+            nextTick(callback.bind(this, err));
+            return;
+        } else throw err;
+    }
+    rounds = 1 << rounds >>> 0;
+    var P, S, i = 0, j;
+    //Use typed arrays when available - huge speedup!
+    if (typeof Int32Array === "function") {
+        P = new Int32Array(P_ORIG);
+        S = new Int32Array(S_ORIG);
+    } else {
+        P = P_ORIG.slice();
+        S = S_ORIG.slice();
+    }
+    _ekskey(salt, b, P, S);
+    /**
+   * Calcualtes the next round.
+   * @returns {Array.<number>|undefined} Resulting array if callback has been omitted, otherwise `undefined`
+   * @inner
+   */ function next() {
+        if (progressCallback) progressCallback(i / rounds);
+        if (i < rounds) {
+            var start = Date.now();
+            for(; i < rounds;){
+                i = i + 1;
+                _key(b, P, S);
+                _key(salt, P, S);
+                if (Date.now() - start > MAX_EXECUTION_TIME) break;
+            }
+        } else {
+            for(i = 0; i < 64; i++)for(j = 0; j < clen >> 1; j++)_encipher(cdata, j << 1, P, S);
+            var ret = [];
+            for(i = 0; i < clen; i++)ret.push((cdata[i] >> 24 & 0xff) >>> 0), ret.push((cdata[i] >> 16 & 0xff) >>> 0), ret.push((cdata[i] >> 8 & 0xff) >>> 0), ret.push((cdata[i] & 0xff) >>> 0);
+            if (callback) {
+                callback(null, ret);
+                return;
+            } else return ret;
+        }
+        if (callback) nextTick(next);
+    }
+    // Async
+    if (typeof callback !== "undefined") {
+        next();
+    // Sync
+    } else {
+        var res;
+        while(true)if (typeof (res = next()) !== "undefined") return res || [];
+    }
+}
+/**
+ * Internally hashes a password.
+ * @param {string} password Password to hash
+ * @param {?string} salt Salt to use, actually never null
+ * @param {function(Error, string=)=} callback Callback receiving the error, if any, and the resulting hash. If omitted,
+ *  hashing is performed synchronously.
+ *  @param {function(number)=} progressCallback Callback called with the current progress
+ * @returns {string|undefined} Resulting hash if callback has been omitted, otherwise `undefined`
+ * @inner
+ */ function _hash(password, salt, callback, progressCallback) {
+    var err;
+    if (typeof password !== "string" || typeof salt !== "string") {
+        err = Error("Invalid string / salt: Not a string");
+        if (callback) {
+            nextTick(callback.bind(this, err));
+            return;
+        } else throw err;
+    }
+    // Validate the salt
+    var minor, offset;
+    if (salt.charAt(0) !== "$" || salt.charAt(1) !== "2") {
+        err = Error("Invalid salt version: " + salt.substring(0, 2));
+        if (callback) {
+            nextTick(callback.bind(this, err));
+            return;
+        } else throw err;
+    }
+    if (salt.charAt(2) === "$") minor = String.fromCharCode(0), offset = 3;
+    else {
+        minor = salt.charAt(2);
+        if (minor !== "a" && minor !== "b" && minor !== "y" || salt.charAt(3) !== "$") {
+            err = Error("Invalid salt revision: " + salt.substring(2, 4));
+            if (callback) {
+                nextTick(callback.bind(this, err));
+                return;
+            } else throw err;
+        }
+        offset = 4;
+    }
+    // Extract number of rounds
+    if (salt.charAt(offset + 2) > "$") {
+        err = Error("Missing salt rounds");
+        if (callback) {
+            nextTick(callback.bind(this, err));
+            return;
+        } else throw err;
+    }
+    var r1 = parseInt(salt.substring(offset, offset + 1), 10) * 10, r2 = parseInt(salt.substring(offset + 1, offset + 2), 10), rounds = r1 + r2, real_salt = salt.substring(offset + 3, offset + 25);
+    password += minor >= "a" ? "\x00" : "";
+    var passwordb = utf8Array(password), saltb = base64_decode(real_salt, BCRYPT_SALT_LEN);
+    /**
+   * Finishes hashing.
+   * @param {Array.<number>} bytes Byte array
+   * @returns {string}
+   * @inner
+   */ function finish(bytes) {
+        var res = [];
+        res.push("$2");
+        if (minor >= "a") res.push(minor);
+        res.push("$");
+        if (rounds < 10) res.push("0");
+        res.push(rounds.toString());
+        res.push("$");
+        res.push(base64_encode(saltb, saltb.length));
+        res.push(base64_encode(bytes, C_ORIG.length * 4 - 1));
+        return res.join("");
+    }
+    // Sync
+    if (typeof callback == "undefined") return finish(_crypt(passwordb, saltb, rounds));
+    else {
+        _crypt(passwordb, saltb, rounds, function(err, bytes) {
+            if (err) callback(err, null);
+            else callback(null, finish(bytes));
+        }, progressCallback);
+    }
+}
+/**
+ * Encodes a byte array to base64 with up to len bytes of input, using the custom bcrypt alphabet.
+ * @function
+ * @param {!Array.<number>} bytes Byte array
+ * @param {number} length Maximum input length
+ * @returns {string}
+ */ function bcryptjs_encodeBase64(bytes, length) {
+    return base64_encode(bytes, length);
+}
+/**
+ * Decodes a base64 encoded string to up to len bytes of output, using the custom bcrypt alphabet.
+ * @function
+ * @param {string} string String to decode
+ * @param {number} length Maximum output length
+ * @returns {!Array.<number>}
+ */ function bcryptjs_decodeBase64(string, length) {
+    return base64_decode(string, length);
+}
+/* harmony default export */ const bcryptjs = ({
+    setRandomFallback,
+    genSaltSync,
+    genSalt,
+    hashSync,
+    hash,
+    compareSync,
+    compare,
+    getRounds,
+    getSalt,
+    truncates,
+    encodeBase64: bcryptjs_encodeBase64,
+    decodeBase64: bcryptjs_decodeBase64
+});
+
+;// CONCATENATED MODULE: ./src/lib/database.ts
+// Database connection utility for Cloudflare D1
+// Database connection helper
+function getDatabase() {
+    // In development, we'll use a mock or local database
+    if (false) {}
+    // In production, this will be injected by Cloudflare Workers
+    // @ts-ignore - This will be available in the Cloudflare Workers environment
+    return globalThis.DB;
+}
+// Database query helper with error handling
+async function executeQuery(db, query, params = []) {
+    try {
+        const result = await db.prepare(query).bind(...params).all();
+        return {
+            success: true,
+            data: result.results,
+            meta: {
+                duration: result.meta?.duration,
+                changes: result.meta?.changes,
+                last_row_id: result.meta?.last_row_id,
+                rows_read: result.meta?.rows_read,
+                rows_written: result.meta?.rows_written
+            }
+        };
+    } catch (error) {
+        console.error("Database query error:", error);
+        return {
+            success: false,
+            error: error instanceof Error ? error.message : "Unknown database error"
+        };
+    }
+}
+// Database query helper for single row
+async function executeQueryFirst(db, query, params = []) {
+    try {
+        const result = await db.prepare(query).bind(...params).first();
+        return {
+            success: true,
+            data: result
+        };
+    } catch (error) {
+        console.error("Database query error:", error);
+        return {
+            success: false,
+            error: error instanceof Error ? error.message : "Unknown database error"
+        };
+    }
+}
+// Database transaction helper
+async function executeTransaction(db, queries) {
+    try {
+        const statements = queries.map(({ query, params = [] })=>db.prepare(query).bind(...params));
+        const results = await db.batch(statements);
+        return {
+            success: true,
+            results: results.map((r)=>r.results)
+        };
+    } catch (error) {
+        console.error("Database transaction error:", error);
+        return {
+            success: false,
+            error: error instanceof Error ? error.message : "Unknown transaction error"
+        };
+    }
+}
+// Utility functions for common database operations
+const DatabaseUtils = {
+    // Generate UUID for IDs
+    generateId: ()=>{
+        return crypto.randomUUID();
+    },
+    // Convert JavaScript object to JSON string for storage
+    toJson: (obj)=>{
+        return JSON.stringify(obj);
+    },
+    // Parse JSON string from database
+    fromJson: (jsonString)=>{
+        if (!jsonString) return null;
+        try {
+            return JSON.parse(jsonString);
+        } catch  {
+            return null;
+        }
+    },
+    // Generate slug from title
+    generateSlug: (title)=>{
+        return title.toLowerCase().replace(/ğ/g, "g").replace(/ü/g, "u").replace(/ş/g, "s").replace(/ı/g, "i").replace(/ö/g, "o").replace(/ç/g, "c").replace(/[^a-z0-9]/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "");
+    },
+    // Format date for database storage
+    formatDate: (date = new Date())=>{
+        return date.toISOString();
+    },
+    // Pagination helper
+    getPaginationParams: (page = 1, limit = 20)=>{
+        const offset = (page - 1) * limit;
+        return {
+            limit,
+            offset
+        };
+    }
+};
+// Database validation helpers
+const ValidationUtils = {
+    isValidEmail: (email)=>{
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    },
+    isValidPhone: (phone)=>{
+        const phoneRegex = /^[\+]?[0-9\s\-\(\)]{10,}$/;
+        return phoneRegex.test(phone);
+    },
+    isValidUrl: (url)=>{
+        try {
+            new URL(url);
+            return true;
+        } catch  {
+            return false;
+        }
+    },
+    sanitizeHtml: (html)=>{
+        // Basic HTML sanitization - in production, use a proper library like DOMPurify
+        return html.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, "").replace(/<iframe\b[^<]*(?:(?!<\/iframe>)<[^<]*)*<\/iframe>/gi, "").replace(/on\w+="[^"]*"/gi, "");
+    }
+};
+
+;// CONCATENATED MODULE: ./src/lib/auth.ts
+// Authentication utilities and services
+
+
+
+// JWT Configuration
+const JWT_SECRET = process.env.JWT_SECRET || "your-super-secret-jwt-key-change-in-production";
+const JWT_ACCESS_EXPIRES_IN = process.env.JWT_ACCESS_EXPIRES_IN || "15m";
+const JWT_REFRESH_EXPIRES_IN = process.env.JWT_REFRESH_EXPIRES_IN || "7d";
+// JWT Utilities
+class JWTUtils {
+    static getSecret() {
+        return new TextEncoder().encode(JWT_SECRET);
+    }
+    // Generate access token (short-lived)
+    static async generateAccessToken(user) {
+        const payload = {
+            sub: user.id,
+            username: user.username,
+            email: user.email,
+            role: user.role,
+            type: "access"
+        };
+        return await new SignJWT(payload).setProtectedHeader({
+            alg: "HS256"
+        }).setIssuedAt().setExpirationTime(JWT_ACCESS_EXPIRES_IN).sign(this.getSecret());
+    }
+    // Generate refresh token (long-lived)
+    static async generateRefreshToken(user) {
+        const payload = {
+            sub: user.id,
+            username: user.username,
+            email: user.email,
+            role: user.role,
+            type: "refresh"
+        };
+        return await new SignJWT(payload).setProtectedHeader({
+            alg: "HS256"
+        }).setIssuedAt().setExpirationTime(JWT_REFRESH_EXPIRES_IN).sign(this.getSecret());
+    }
+    // Verify JWT token
+    static async verifyToken(token) {
+        try {
+            const { payload } = await jwtVerify(token, this.getSecret());
+            return {
+                success: true,
+                payload
+            };
+        } catch (error) {
+            return {
+                success: false,
+                error: error.message || "Invalid token"
+            };
+        }
+    }
+}
+// Password utilities
+class PasswordUtils {
+    // Hash password
+    static async hashPassword(password) {
+        const saltRounds = 12;
+        return await bcrypt.hash(password, saltRounds);
+    }
+    // Verify password
+    static async verifyPassword(password, hashedPassword) {
+        return await bcrypt.compare(password, hashedPassword);
+    }
+    // Generate random password
+    static generateRandomPassword(length = 12) {
+        const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*";
+        let password = "";
+        for(let i = 0; i < length; i++){
+            password += chars.charAt(Math.floor(Math.random() * chars.length));
+        }
+        return password;
+    }
+}
+// Rate limiting utilities
+class RateLimiter {
+    static{
+        this.attempts = new Map();
+    }
+    static isRateLimited(key, maxAttempts = 5, windowMs = 15 * 60 * 1000) {
+        const now = Date.now();
+        const record = this.attempts.get(key);
+        if (!record || now > record.resetTime) {
+            this.attempts.set(key, {
+                count: 1,
+                resetTime: now + windowMs
+            });
+            return false;
+        }
+        if (record.count >= maxAttempts) {
+            return true;
+        }
+        record.count++;
+        return false;
+    }
+    static clearAttempts(key) {
+        this.attempts.delete(key);
+    }
+    static resetRateLimit(key) {
+        this.attempts.delete(key);
+    }
+    static cleanup() {
+        const now = Date.now();
+        const keysToDelete = [];
+        this.attempts.forEach((record, key)=>{
+            if (now > record.resetTime) {
+                keysToDelete.push(key);
+            }
+        });
+        keysToDelete.forEach((key)=>{
+            this.attempts.delete(key);
+        });
+    }
+}
+// Authentication service
+class AuthService {
+    // Authenticate user with username/email and password
+    static async authenticate(usernameOrEmail, password) {
+        try {
+            // For now, use hardcoded admin credentials (will be moved to database later)
+            if ((usernameOrEmail === "protekadmin" || usernameOrEmail === "admin@protekanalitik.com") && password === "protek1234") {
+                const user = {
+                    id: "admin-001",
+                    username: "protekadmin",
+                    email: "admin@protekanalitik.com",
+                    first_name: "Admin",
+                    last_name: "User",
+                    role: "admin",
+                    is_active: true,
+                    last_login: DatabaseUtils.formatDate(),
+                    created_at: DatabaseUtils.formatDate(),
+                    updated_at: DatabaseUtils.formatDate()
+                };
+                // Generate tokens
+                const accessToken = await JWTUtils.generateAccessToken(user);
+                const refreshToken = await JWTUtils.generateRefreshToken(user);
+                return {
+                    success: true,
+                    user,
+                    accessToken,
+                    refreshToken
+                };
+            } else {
+                return {
+                    success: false,
+                    error: "Ge\xe7ersiz kullanıcı adı veya şifre"
+                };
+            }
+        } catch (error) {
+            console.error("Authentication error:", error);
+            return {
+                success: false,
+                error: "Kimlik doğrulama sırasında hata oluştu"
+            };
+        }
+    }
+    // Refresh access token using refresh token
+    static async refreshAccessToken(refreshToken) {
+        try {
+            const verification = await JWTUtils.verifyToken(refreshToken);
+            if (!verification.success || !verification.payload) {
+                return {
+                    success: false,
+                    error: "Ge\xe7ersiz refresh token"
+                };
+            }
+            if (verification.payload.type !== "refresh") {
+                return {
+                    success: false,
+                    error: "Ge\xe7ersiz token tipi"
+                };
+            }
+            // Create user object from token payload
+            const user = {
+                id: verification.payload.sub,
+                username: verification.payload.username,
+                email: verification.payload.email,
+                role: verification.payload.role,
+                is_active: true,
+                created_at: DatabaseUtils.formatDate(),
+                updated_at: DatabaseUtils.formatDate()
+            };
+            const newAccessToken = await JWTUtils.generateAccessToken(user);
+            return {
+                success: true,
+                user,
+                accessToken: newAccessToken,
+                refreshToken
+            };
+        } catch (error) {
+            console.error("Token refresh error:", error);
+            return {
+                success: false,
+                error: "Token yenileme sırasında hata oluştu"
+            };
+        }
+    }
+    // Verify access token
+    static async verifyAccessToken(token) {
+        try {
+            const verification = await JWTUtils.verifyToken(token);
+            if (!verification.success || !verification.payload) {
+                return {
+                    success: false,
+                    error: "Ge\xe7ersiz token"
+                };
+            }
+            if (verification.payload.type !== "access") {
+                return {
+                    success: false,
+                    error: "Ge\xe7ersiz token tipi"
+                };
+            }
+            // Create user object from token payload
+            const user = {
+                id: verification.payload.sub,
+                username: verification.payload.username,
+                email: verification.payload.email,
+                role: verification.payload.role,
+                is_active: true,
+                created_at: DatabaseUtils.formatDate(),
+                updated_at: DatabaseUtils.formatDate()
+            };
+            return {
+                success: true,
+                user
+            };
+        } catch (error) {
+            console.error("Token verification error:", error);
+            return {
+                success: false,
+                error: "Token doğrulama sırasında hata oluştu"
+            };
+        }
+    }
+    // Check if user has required role
+    static hasRole(user, requiredRole) {
+        const roleHierarchy = {
+            "viewer": 1,
+            "editor": 2,
+            "admin": 3,
+            "super_admin": 4
+        };
+        return roleHierarchy[user.role] >= roleHierarchy[requiredRole];
+    }
+    // Generate password reset token
+    static async generatePasswordResetToken(userId) {
+        const payload = {
+            sub: userId,
+            type: "password_reset",
+            exp: Math.floor(Date.now() / 1000) + 60 * 60 // 1 hour
+        };
+        return await new SignJWT(payload).setProtectedHeader({
+            alg: "HS256"
+        }).setIssuedAt().setExpirationTime("1h").sign(JWTUtils["getSecret"]());
+    }
+    // Verify password reset token
+    static async verifyPasswordResetToken(token) {
+        try {
+            const verification = await JWTUtils.verifyToken(token);
+            if (!verification.success || !verification.payload || verification.payload.type !== "password_reset") {
+                return {
+                    success: false,
+                    error: "Ge\xe7ersiz şifre sıfırlama token"
+                };
+            }
+            return {
+                success: true,
+                userId: verification.payload.sub
+            };
+        } catch (error) {
+            console.error("Password reset token verification error:", error);
+            return {
+                success: false,
+                error: "Token doğrulama sırasında hata oluştu"
+            };
+        }
+    }
+}
+
+;// CONCATENATED MODULE: ./src/middleware.ts
+
+
+// Protected routes that require authentication
+const protectedRoutes = [
+    "/admin",
+    "/api/products",
+    "/api/categories",
+    "/api/news",
+    "/api/events",
+    "/api/upload"
+];
+// Public API routes that don't require authentication
+const publicApiRoutes = [
+    "/api/auth/login",
+    "/api/auth/refresh",
+    "/api/auth/logout",
+    "/api/products/public",
+    "/api/contact" // Contact form submission
+];
+async function middleware(request) {
+    const { pathname } = request.nextUrl;
+    // Skip middleware for static files and Next.js internals
+    if (pathname.startsWith("/_next") || pathname.startsWith("/static") || pathname.includes(".") || pathname === "/favicon.ico") {
+        return NextResponse.next();
+    }
+    // Check if route requires authentication
+    const isProtectedRoute = protectedRoutes.some((route)=>pathname.startsWith(route));
+    const isPublicApiRoute = publicApiRoutes.some((route)=>pathname.startsWith(route));
+    if (!isProtectedRoute || isPublicApiRoute) {
+        return NextResponse.next();
+    }
+    // Get access token from cookie or Authorization header
+    let accessToken = request.cookies.get("accessToken")?.value;
+    if (!accessToken) {
+        const authHeader = request.headers.get("authorization");
+        if (authHeader && authHeader.startsWith("Bearer ")) {
+            accessToken = authHeader.substring(7);
+        }
+    }
+    // If no token, redirect to login or return 401
+    if (!accessToken) {
+        if (pathname.startsWith("/admin")) {
+            // Redirect admin routes to login page
+            const loginUrl = new URL("/login", request.url);
+            loginUrl.searchParams.set("redirect", pathname);
+            return NextResponse.redirect(loginUrl);
+        } else {
+            // Return 401 for API routes
+            return NextResponse.json({
+                success: false,
+                error: "Authentication required",
+                code: "AUTHENTICATION_REQUIRED"
+            }, {
+                status: 401
+            });
+        }
+    }
+    // Verify access token
+    try {
+        const verificationResult = await AuthService.verifyAccessToken(accessToken);
+        if (!verificationResult.success) {
+            // Token is invalid, try to refresh
+            const refreshToken = request.cookies.get("refreshToken")?.value;
+            if (refreshToken) {
+                const refreshResult = await AuthService.refreshAccessToken(refreshToken);
+                if (refreshResult.success) {
+                    // Token refreshed successfully, update cookie and continue
+                    const response = NextResponse.next();
+                    response.cookies.set("accessToken", refreshResult.accessToken, {
+                        httpOnly: true,
+                        secure: "production" === "production",
+                        sameSite: "strict",
+                        path: "/",
+                        maxAge: 15 * 60 // 15 minutes
+                    });
+                    // Add user info to request headers for use in API routes
+                    response.headers.set("x-user-id", refreshResult.user.id);
+                    response.headers.set("x-user-role", refreshResult.user.role);
+                    return response;
+                }
+            }
+            // Both access and refresh tokens are invalid
+            if (pathname.startsWith("/admin")) {
+                const loginUrl = new URL("/login", request.url);
+                loginUrl.searchParams.set("redirect", pathname);
+                const response = NextResponse.redirect(loginUrl);
+                // Clear invalid cookies
+                response.cookies.delete("accessToken");
+                response.cookies.delete("refreshToken");
+                return response;
+            } else {
+                const response = NextResponse.json({
+                    success: false,
+                    error: "Invalid or expired token",
+                    code: "INVALID_TOKEN"
+                }, {
+                    status: 401
+                });
+                // Clear invalid cookies
+                response.cookies.delete("accessToken");
+                response.cookies.delete("refreshToken");
+                return response;
+            }
+        }
+        // Token is valid, add user info to request headers
+        const response = NextResponse.next();
+        response.headers.set("x-user-id", verificationResult.user.id);
+        response.headers.set("x-user-role", verificationResult.user.role);
+        response.headers.set("x-user-email", verificationResult.user.email);
+        return response;
+    } catch (error) {
+        console.error("Middleware error:", error);
+        if (pathname.startsWith("/admin")) {
+            return NextResponse.redirect(new URL("/login", request.url));
+        } else {
+            return NextResponse.json({
+                success: false,
+                error: "Authentication error",
+                code: "AUTH_ERROR"
+            }, {
+                status: 500
+            });
+        }
+    }
+}
+const config = {
+    matcher: [
+        /*
+     * Match all request paths except for the ones starting with:
+     * - api/auth (authentication endpoints)
+     * - _next/static (static files)
+     * - _next/image (image optimization files)
+     * - favicon.ico (favicon file)
+     * - public folder files
+     */ "/((?!api/auth|_next/static|_next/image|favicon.ico|public).*)"
+    ]
+};
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-middleware-loader.js?absolutePagePath=private-next-root-dir%2Fsrc%2Fmiddleware.ts&page=%2Fsrc%2Fmiddleware&rootDir=%2FUsers%2Fdenizhan%2FDocuments%2FWindsurf%2Fprotekanalitik&matchers=W3sicmVnZXhwIjoiXig%2FOlxcLyhfbmV4dFxcL2RhdGFcXC9bXi9dezEsfSkpPyg%2FOlxcLygoPyFhcGlcXC9hdXRofF9uZXh0XFwvc3RhdGljfF9uZXh0XFwvaW1hZ2V8ZmF2aWNvbi5pY298cHVibGljKS4qKSkoLmpzb24pP1tcXC8jXFw%2FXT8kIiwib3JpZ2luYWxTb3VyY2UiOiIvKCg%2FIWFwaS9hdXRofF9uZXh0L3N0YXRpY3xfbmV4dC9pbWFnZXxmYXZpY29uLmljb3xwdWJsaWMpLiopIn1d&preferredRegion=&middlewareConfig=eyJtYXRjaGVycyI6W3sicmVnZXhwIjoiXig%2FOlxcLyhfbmV4dFxcL2RhdGFcXC9bXi9dezEsfSkpPyg%2FOlxcLygoPyFhcGlcXC9hdXRofF9uZXh0XFwvc3RhdGljfF9uZXh0XFwvaW1hZ2V8ZmF2aWNvbi5pY298cHVibGljKS4qKSkoLmpzb24pP1tcXC8jXFw%2FXT8kIiwib3JpZ2luYWxTb3VyY2UiOiIvKCg%2FIWFwaS9hdXRofF9uZXh0L3N0YXRpY3xfbmV4dC9pbWFnZXxmYXZpY29uLmljb3xwdWJsaWMpLiopIn1dfQ%3D%3D!
+
+
+// Import the userland code.
+
+const mod = {
+    ...middleware_namespaceObject
+};
+const handler = mod.middleware || mod.default;
+const page = "/src/middleware";
+if (typeof handler !== "function") {
+    throw new Error(`The Middleware "${page}" must export a \`middleware\` or a \`default\` function`);
+}
+function nHandler(opts) {
+    return adapter({
+        ...opts,
+        page,
+        handler
+    });
+}
+
+//# sourceMappingURL=middleware.js.map
+
+/***/ }),
+
+/***/ 1170:
+/***/ ((module) => {
+
+"use strict";
+
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all)=>{
+    for(var name in all)__defProp(target, name, {
+        get: all[name],
+        enumerable: true
+    });
+};
+var __copyProps = (to, from, except, desc)=>{
+    if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames(from))if (!__hasOwnProp.call(to, key) && key !== except) __defProp(to, key, {
+            get: ()=>from[key],
+            enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable
+        });
+    }
+    return to;
+};
+var __toCommonJS = (mod)=>__copyProps(__defProp({}, "__esModule", {
+        value: true
+    }), mod);
+// src/index.ts
+var src_exports = {};
+__export(src_exports, {
+    RequestCookies: ()=>RequestCookies,
+    ResponseCookies: ()=>ResponseCookies,
+    parseCookie: ()=>parseCookie,
+    parseSetCookie: ()=>parseSetCookie,
+    stringifyCookie: ()=>stringifyCookie
+});
+module.exports = __toCommonJS(src_exports);
+// src/serialize.ts
+function stringifyCookie(c) {
+    var _a;
+    const attrs = [
+        "path" in c && c.path && `Path=${c.path}`,
+        "expires" in c && (c.expires || c.expires === 0) && `Expires=${(typeof c.expires === "number" ? new Date(c.expires) : c.expires).toUTCString()}`,
+        "maxAge" in c && typeof c.maxAge === "number" && `Max-Age=${c.maxAge}`,
+        "domain" in c && c.domain && `Domain=${c.domain}`,
+        "secure" in c && c.secure && "Secure",
+        "httpOnly" in c && c.httpOnly && "HttpOnly",
+        "sameSite" in c && c.sameSite && `SameSite=${c.sameSite}`,
+        "priority" in c && c.priority && `Priority=${c.priority}`
+    ].filter(Boolean);
+    return `${c.name}=${encodeURIComponent((_a = c.value) != null ? _a : "")}; ${attrs.join("; ")}`;
+}
+function parseCookie(cookie) {
+    const map = /* @__PURE__ */ new Map();
+    for (const pair of cookie.split(/; */)){
+        if (!pair) continue;
+        const splitAt = pair.indexOf("=");
+        if (splitAt === -1) {
+            map.set(pair, "true");
+            continue;
+        }
+        const [key, value] = [
+            pair.slice(0, splitAt),
+            pair.slice(splitAt + 1)
+        ];
+        try {
+            map.set(key, decodeURIComponent(value != null ? value : "true"));
+        } catch  {}
+    }
+    return map;
+}
+function parseSetCookie(setCookie) {
+    if (!setCookie) {
+        return void 0;
+    }
+    const [[name, value], ...attributes] = parseCookie(setCookie);
+    const { domain, expires, httponly, maxage, path, samesite, secure, priority } = Object.fromEntries(attributes.map(([key, value2])=>[
+            key.toLowerCase(),
+            value2
+        ]));
+    const cookie = {
+        name,
+        value: decodeURIComponent(value),
+        domain,
+        ...expires && {
+            expires: new Date(expires)
+        },
+        ...httponly && {
+            httpOnly: true
+        },
+        ...typeof maxage === "string" && {
+            maxAge: Number(maxage)
+        },
+        path,
+        ...samesite && {
+            sameSite: parseSameSite(samesite)
+        },
+        ...secure && {
+            secure: true
+        },
+        ...priority && {
+            priority: parsePriority(priority)
+        }
+    };
+    return compact(cookie);
+}
+function compact(t) {
+    const newT = {};
+    for(const key in t){
+        if (t[key]) {
+            newT[key] = t[key];
+        }
+    }
+    return newT;
+}
+var SAME_SITE = [
+    "strict",
+    "lax",
+    "none"
+];
+function parseSameSite(string) {
+    string = string.toLowerCase();
+    return SAME_SITE.includes(string) ? string : void 0;
+}
+var PRIORITY = [
+    "low",
+    "medium",
+    "high"
+];
+function parsePriority(string) {
+    string = string.toLowerCase();
+    return PRIORITY.includes(string) ? string : void 0;
+}
+function splitCookiesString(cookiesString) {
+    if (!cookiesString) return [];
+    var cookiesStrings = [];
+    var pos = 0;
+    var start;
+    var ch;
+    var lastComma;
+    var nextStart;
+    var cookiesSeparatorFound;
+    function skipWhitespace() {
+        while(pos < cookiesString.length && /\s/.test(cookiesString.charAt(pos))){
+            pos += 1;
+        }
+        return pos < cookiesString.length;
+    }
+    function notSpecialChar() {
+        ch = cookiesString.charAt(pos);
+        return ch !== "=" && ch !== ";" && ch !== ",";
+    }
+    while(pos < cookiesString.length){
+        start = pos;
+        cookiesSeparatorFound = false;
+        while(skipWhitespace()){
+            ch = cookiesString.charAt(pos);
+            if (ch === ",") {
+                lastComma = pos;
+                pos += 1;
+                skipWhitespace();
+                nextStart = pos;
+                while(pos < cookiesString.length && notSpecialChar()){
+                    pos += 1;
+                }
+                if (pos < cookiesString.length && cookiesString.charAt(pos) === "=") {
+                    cookiesSeparatorFound = true;
+                    pos = nextStart;
+                    cookiesStrings.push(cookiesString.substring(start, lastComma));
+                    start = pos;
+                } else {
+                    pos = lastComma + 1;
+                }
+            } else {
+                pos += 1;
+            }
+        }
+        if (!cookiesSeparatorFound || pos >= cookiesString.length) {
+            cookiesStrings.push(cookiesString.substring(start, cookiesString.length));
+        }
+    }
+    return cookiesStrings;
+}
+// src/request-cookies.ts
+var RequestCookies = class {
+    constructor(requestHeaders){
+        /** @internal */ this._parsed = /* @__PURE__ */ new Map();
+        this._headers = requestHeaders;
+        const header = requestHeaders.get("cookie");
+        if (header) {
+            const parsed = parseCookie(header);
+            for (const [name, value] of parsed){
+                this._parsed.set(name, {
+                    name,
+                    value
+                });
+            }
+        }
+    }
+    [Symbol.iterator]() {
+        return this._parsed[Symbol.iterator]();
+    }
+    /**
+   * The amount of cookies received from the client
+   */ get size() {
+        return this._parsed.size;
+    }
+    get(...args) {
+        const name = typeof args[0] === "string" ? args[0] : args[0].name;
+        return this._parsed.get(name);
+    }
+    getAll(...args) {
+        var _a;
+        const all = Array.from(this._parsed);
+        if (!args.length) {
+            return all.map(([_, value])=>value);
+        }
+        const name = typeof args[0] === "string" ? args[0] : (_a = args[0]) == null ? void 0 : _a.name;
+        return all.filter(([n])=>n === name).map(([_, value])=>value);
+    }
+    has(name) {
+        return this._parsed.has(name);
+    }
+    set(...args) {
+        const [name, value] = args.length === 1 ? [
+            args[0].name,
+            args[0].value
+        ] : args;
+        const map = this._parsed;
+        map.set(name, {
+            name,
+            value
+        });
+        this._headers.set("cookie", Array.from(map).map(([_, value2])=>stringifyCookie(value2)).join("; "));
+        return this;
+    }
+    /**
+   * Delete the cookies matching the passed name or names in the request.
+   */ delete(names) {
+        const map = this._parsed;
+        const result = !Array.isArray(names) ? map.delete(names) : names.map((name)=>map.delete(name));
+        this._headers.set("cookie", Array.from(map).map(([_, value])=>stringifyCookie(value)).join("; "));
+        return result;
+    }
+    /**
+   * Delete all the cookies in the cookies in the request.
+   */ clear() {
+        this.delete(Array.from(this._parsed.keys()));
+        return this;
+    }
+    /**
+   * Format the cookies in the request as a string for logging
+   */ [Symbol.for("edge-runtime.inspect.custom")]() {
+        return `RequestCookies ${JSON.stringify(Object.fromEntries(this._parsed))}`;
+    }
+    toString() {
+        return [
+            ...this._parsed.values()
+        ].map((v)=>`${v.name}=${encodeURIComponent(v.value)}`).join("; ");
+    }
+};
+// src/response-cookies.ts
+var ResponseCookies = class {
+    constructor(responseHeaders){
+        /** @internal */ this._parsed = /* @__PURE__ */ new Map();
+        var _a, _b, _c;
+        this._headers = responseHeaders;
+        const setCookie = (_c = (_b = (_a = responseHeaders.getSetCookie) == null ? void 0 : _a.call(responseHeaders)) != null ? _b : responseHeaders.get("set-cookie")) != null ? _c : [];
+        const cookieStrings = Array.isArray(setCookie) ? setCookie : splitCookiesString(setCookie);
+        for (const cookieString of cookieStrings){
+            const parsed = parseSetCookie(cookieString);
+            if (parsed) this._parsed.set(parsed.name, parsed);
+        }
+    }
+    /**
+   * {@link https://wicg.github.io/cookie-store/#CookieStore-get CookieStore#get} without the Promise.
+   */ get(...args) {
+        const key = typeof args[0] === "string" ? args[0] : args[0].name;
+        return this._parsed.get(key);
+    }
+    /**
+   * {@link https://wicg.github.io/cookie-store/#CookieStore-getAll CookieStore#getAll} without the Promise.
+   */ getAll(...args) {
+        var _a;
+        const all = Array.from(this._parsed.values());
+        if (!args.length) {
+            return all;
+        }
+        const key = typeof args[0] === "string" ? args[0] : (_a = args[0]) == null ? void 0 : _a.name;
+        return all.filter((c)=>c.name === key);
+    }
+    has(name) {
+        return this._parsed.has(name);
+    }
+    /**
+   * {@link https://wicg.github.io/cookie-store/#CookieStore-set CookieStore#set} without the Promise.
+   */ set(...args) {
+        const [name, value, cookie] = args.length === 1 ? [
+            args[0].name,
+            args[0].value,
+            args[0]
+        ] : args;
+        const map = this._parsed;
+        map.set(name, normalizeCookie({
+            name,
+            value,
+            ...cookie
+        }));
+        replace(map, this._headers);
+        return this;
+    }
+    /**
+   * {@link https://wicg.github.io/cookie-store/#CookieStore-delete CookieStore#delete} without the Promise.
+   */ delete(...args) {
+        const [name, path, domain] = typeof args[0] === "string" ? [
+            args[0]
+        ] : [
+            args[0].name,
+            args[0].path,
+            args[0].domain
+        ];
+        return this.set({
+            name,
+            path,
+            domain,
+            value: "",
+            expires: /* @__PURE__ */ new Date(0)
+        });
+    }
+    [Symbol.for("edge-runtime.inspect.custom")]() {
+        return `ResponseCookies ${JSON.stringify(Object.fromEntries(this._parsed))}`;
+    }
+    toString() {
+        return [
+            ...this._parsed.values()
+        ].map(stringifyCookie).join("; ");
+    }
+};
+function replace(bag, headers) {
+    headers.delete("set-cookie");
+    for (const [, value] of bag){
+        const serialized = stringifyCookie(value);
+        headers.append("set-cookie", serialized);
+    }
+}
+function normalizeCookie(cookie = {
+    name: "",
+    value: ""
+}) {
+    if (typeof cookie.expires === "number") {
+        cookie.expires = new Date(cookie.expires);
+    }
+    if (cookie.maxAge) {
+        cookie.expires = new Date(Date.now() + cookie.maxAge * 1e3);
+    }
+    if (cookie.path === null || cookie.path === void 0) {
+        cookie.path = "/";
+    }
+    return cookie;
+}
+// Annotate the CommonJS export names for ESM import in node:
+0 && (0);
+
+
+/***/ }),
+
+/***/ 3016:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+var __dirname = "/";
+
+(()=>{
+    "use strict";
+    var e = {
+        491: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.ContextAPI = void 0;
+            const n = r(223);
+            const a = r(172);
+            const o = r(930);
+            const i = "context";
+            const c = new n.NoopContextManager;
+            class ContextAPI {
+                constructor(){}
+                static getInstance() {
+                    if (!this._instance) {
+                        this._instance = new ContextAPI;
+                    }
+                    return this._instance;
+                }
+                setGlobalContextManager(e) {
+                    return (0, a.registerGlobal)(i, e, o.DiagAPI.instance());
+                }
+                active() {
+                    return this._getContextManager().active();
+                }
+                with(e, t, r, ...n) {
+                    return this._getContextManager().with(e, t, r, ...n);
+                }
+                bind(e, t) {
+                    return this._getContextManager().bind(e, t);
+                }
+                _getContextManager() {
+                    return (0, a.getGlobal)(i) || c;
+                }
+                disable() {
+                    this._getContextManager().disable();
+                    (0, a.unregisterGlobal)(i, o.DiagAPI.instance());
+                }
+            }
+            t.ContextAPI = ContextAPI;
+        },
+        930: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.DiagAPI = void 0;
+            const n = r(56);
+            const a = r(912);
+            const o = r(957);
+            const i = r(172);
+            const c = "diag";
+            class DiagAPI {
+                constructor(){
+                    function _logProxy(e) {
+                        return function(...t) {
+                            const r = (0, i.getGlobal)("diag");
+                            if (!r) return;
+                            return r[e](...t);
+                        };
+                    }
+                    const e = this;
+                    const setLogger = (t, r = {
+                        logLevel: o.DiagLogLevel.INFO
+                    })=>{
+                        var n, c, s;
+                        if (t === e) {
+                            const t = new Error("Cannot use diag as the logger for itself. Please use a DiagLogger implementation like ConsoleDiagLogger or a custom implementation");
+                            e.error((n = t.stack) !== null && n !== void 0 ? n : t.message);
+                            return false;
+                        }
+                        if (typeof r === "number") {
+                            r = {
+                                logLevel: r
+                            };
+                        }
+                        const u = (0, i.getGlobal)("diag");
+                        const l = (0, a.createLogLevelDiagLogger)((c = r.logLevel) !== null && c !== void 0 ? c : o.DiagLogLevel.INFO, t);
+                        if (u && !r.suppressOverrideMessage) {
+                            const e = (s = (new Error).stack) !== null && s !== void 0 ? s : "<failed to generate stacktrace>";
+                            u.warn(`Current logger will be overwritten from ${e}`);
+                            l.warn(`Current logger will overwrite one already registered from ${e}`);
+                        }
+                        return (0, i.registerGlobal)("diag", l, e, true);
+                    };
+                    e.setLogger = setLogger;
+                    e.disable = ()=>{
+                        (0, i.unregisterGlobal)(c, e);
+                    };
+                    e.createComponentLogger = (e)=>new n.DiagComponentLogger(e);
+                    e.verbose = _logProxy("verbose");
+                    e.debug = _logProxy("debug");
+                    e.info = _logProxy("info");
+                    e.warn = _logProxy("warn");
+                    e.error = _logProxy("error");
+                }
+                static instance() {
+                    if (!this._instance) {
+                        this._instance = new DiagAPI;
+                    }
+                    return this._instance;
+                }
+            }
+            t.DiagAPI = DiagAPI;
+        },
+        653: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.MetricsAPI = void 0;
+            const n = r(660);
+            const a = r(172);
+            const o = r(930);
+            const i = "metrics";
+            class MetricsAPI {
+                constructor(){}
+                static getInstance() {
+                    if (!this._instance) {
+                        this._instance = new MetricsAPI;
+                    }
+                    return this._instance;
+                }
+                setGlobalMeterProvider(e) {
+                    return (0, a.registerGlobal)(i, e, o.DiagAPI.instance());
+                }
+                getMeterProvider() {
+                    return (0, a.getGlobal)(i) || n.NOOP_METER_PROVIDER;
+                }
+                getMeter(e, t, r) {
+                    return this.getMeterProvider().getMeter(e, t, r);
+                }
+                disable() {
+                    (0, a.unregisterGlobal)(i, o.DiagAPI.instance());
+                }
+            }
+            t.MetricsAPI = MetricsAPI;
+        },
+        181: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.PropagationAPI = void 0;
+            const n = r(172);
+            const a = r(874);
+            const o = r(194);
+            const i = r(277);
+            const c = r(369);
+            const s = r(930);
+            const u = "propagation";
+            const l = new a.NoopTextMapPropagator;
+            class PropagationAPI {
+                constructor(){
+                    this.createBaggage = c.createBaggage;
+                    this.getBaggage = i.getBaggage;
+                    this.getActiveBaggage = i.getActiveBaggage;
+                    this.setBaggage = i.setBaggage;
+                    this.deleteBaggage = i.deleteBaggage;
+                }
+                static getInstance() {
+                    if (!this._instance) {
+                        this._instance = new PropagationAPI;
+                    }
+                    return this._instance;
+                }
+                setGlobalPropagator(e) {
+                    return (0, n.registerGlobal)(u, e, s.DiagAPI.instance());
+                }
+                inject(e, t, r = o.defaultTextMapSetter) {
+                    return this._getGlobalPropagator().inject(e, t, r);
+                }
+                extract(e, t, r = o.defaultTextMapGetter) {
+                    return this._getGlobalPropagator().extract(e, t, r);
+                }
+                fields() {
+                    return this._getGlobalPropagator().fields();
+                }
+                disable() {
+                    (0, n.unregisterGlobal)(u, s.DiagAPI.instance());
+                }
+                _getGlobalPropagator() {
+                    return (0, n.getGlobal)(u) || l;
+                }
+            }
+            t.PropagationAPI = PropagationAPI;
+        },
+        997: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.TraceAPI = void 0;
+            const n = r(172);
+            const a = r(846);
+            const o = r(139);
+            const i = r(607);
+            const c = r(930);
+            const s = "trace";
+            class TraceAPI {
+                constructor(){
+                    this._proxyTracerProvider = new a.ProxyTracerProvider;
+                    this.wrapSpanContext = o.wrapSpanContext;
+                    this.isSpanContextValid = o.isSpanContextValid;
+                    this.deleteSpan = i.deleteSpan;
+                    this.getSpan = i.getSpan;
+                    this.getActiveSpan = i.getActiveSpan;
+                    this.getSpanContext = i.getSpanContext;
+                    this.setSpan = i.setSpan;
+                    this.setSpanContext = i.setSpanContext;
+                }
+                static getInstance() {
+                    if (!this._instance) {
+                        this._instance = new TraceAPI;
+                    }
+                    return this._instance;
+                }
+                setGlobalTracerProvider(e) {
+                    const t = (0, n.registerGlobal)(s, this._proxyTracerProvider, c.DiagAPI.instance());
+                    if (t) {
+                        this._proxyTracerProvider.setDelegate(e);
+                    }
+                    return t;
+                }
+                getTracerProvider() {
+                    return (0, n.getGlobal)(s) || this._proxyTracerProvider;
+                }
+                getTracer(e, t) {
+                    return this.getTracerProvider().getTracer(e, t);
+                }
+                disable() {
+                    (0, n.unregisterGlobal)(s, c.DiagAPI.instance());
+                    this._proxyTracerProvider = new a.ProxyTracerProvider;
+                }
+            }
+            t.TraceAPI = TraceAPI;
+        },
+        277: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.deleteBaggage = t.setBaggage = t.getActiveBaggage = t.getBaggage = void 0;
+            const n = r(491);
+            const a = r(780);
+            const o = (0, a.createContextKey)("OpenTelemetry Baggage Key");
+            function getBaggage(e) {
+                return e.getValue(o) || undefined;
+            }
+            t.getBaggage = getBaggage;
+            function getActiveBaggage() {
+                return getBaggage(n.ContextAPI.getInstance().active());
+            }
+            t.getActiveBaggage = getActiveBaggage;
+            function setBaggage(e, t) {
+                return e.setValue(o, t);
+            }
+            t.setBaggage = setBaggage;
+            function deleteBaggage(e) {
+                return e.deleteValue(o);
+            }
+            t.deleteBaggage = deleteBaggage;
+        },
+        993: (e, t)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.BaggageImpl = void 0;
+            class BaggageImpl {
+                constructor(e){
+                    this._entries = e ? new Map(e) : new Map;
+                }
+                getEntry(e) {
+                    const t = this._entries.get(e);
+                    if (!t) {
+                        return undefined;
+                    }
+                    return Object.assign({}, t);
+                }
+                getAllEntries() {
+                    return Array.from(this._entries.entries()).map(([e, t])=>[
+                            e,
+                            t
+                        ]);
+                }
+                setEntry(e, t) {
+                    const r = new BaggageImpl(this._entries);
+                    r._entries.set(e, t);
+                    return r;
+                }
+                removeEntry(e) {
+                    const t = new BaggageImpl(this._entries);
+                    t._entries.delete(e);
+                    return t;
+                }
+                removeEntries(...e) {
+                    const t = new BaggageImpl(this._entries);
+                    for (const r of e){
+                        t._entries.delete(r);
+                    }
+                    return t;
+                }
+                clear() {
+                    return new BaggageImpl;
+                }
+            }
+            t.BaggageImpl = BaggageImpl;
+        },
+        830: (e, t)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.baggageEntryMetadataSymbol = void 0;
+            t.baggageEntryMetadataSymbol = Symbol("BaggageEntryMetadata");
+        },
+        369: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.baggageEntryMetadataFromString = t.createBaggage = void 0;
+            const n = r(930);
+            const a = r(993);
+            const o = r(830);
+            const i = n.DiagAPI.instance();
+            function createBaggage(e = {}) {
+                return new a.BaggageImpl(new Map(Object.entries(e)));
+            }
+            t.createBaggage = createBaggage;
+            function baggageEntryMetadataFromString(e) {
+                if (typeof e !== "string") {
+                    i.error(`Cannot create baggage metadata from unknown type: ${typeof e}`);
+                    e = "";
+                }
+                return {
+                    __TYPE__: o.baggageEntryMetadataSymbol,
+                    toString () {
+                        return e;
+                    }
+                };
+            }
+            t.baggageEntryMetadataFromString = baggageEntryMetadataFromString;
+        },
+        67: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.context = void 0;
+            const n = r(491);
+            t.context = n.ContextAPI.getInstance();
+        },
+        223: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.NoopContextManager = void 0;
+            const n = r(780);
+            class NoopContextManager {
+                active() {
+                    return n.ROOT_CONTEXT;
+                }
+                with(e, t, r, ...n) {
+                    return t.call(r, ...n);
+                }
+                bind(e, t) {
+                    return t;
+                }
+                enable() {
+                    return this;
+                }
+                disable() {
+                    return this;
+                }
+            }
+            t.NoopContextManager = NoopContextManager;
+        },
+        780: (e, t)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.ROOT_CONTEXT = t.createContextKey = void 0;
+            function createContextKey(e) {
+                return Symbol.for(e);
+            }
+            t.createContextKey = createContextKey;
+            class BaseContext {
+                constructor(e){
+                    const t = this;
+                    t._currentContext = e ? new Map(e) : new Map;
+                    t.getValue = (e)=>t._currentContext.get(e);
+                    t.setValue = (e, r)=>{
+                        const n = new BaseContext(t._currentContext);
+                        n._currentContext.set(e, r);
+                        return n;
+                    };
+                    t.deleteValue = (e)=>{
+                        const r = new BaseContext(t._currentContext);
+                        r._currentContext.delete(e);
+                        return r;
+                    };
+                }
+            }
+            t.ROOT_CONTEXT = new BaseContext;
+        },
+        506: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.diag = void 0;
+            const n = r(930);
+            t.diag = n.DiagAPI.instance();
+        },
+        56: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.DiagComponentLogger = void 0;
+            const n = r(172);
+            class DiagComponentLogger {
+                constructor(e){
+                    this._namespace = e.namespace || "DiagComponentLogger";
+                }
+                debug(...e) {
+                    return logProxy("debug", this._namespace, e);
+                }
+                error(...e) {
+                    return logProxy("error", this._namespace, e);
+                }
+                info(...e) {
+                    return logProxy("info", this._namespace, e);
+                }
+                warn(...e) {
+                    return logProxy("warn", this._namespace, e);
+                }
+                verbose(...e) {
+                    return logProxy("verbose", this._namespace, e);
+                }
+            }
+            t.DiagComponentLogger = DiagComponentLogger;
+            function logProxy(e, t, r) {
+                const a = (0, n.getGlobal)("diag");
+                if (!a) {
+                    return;
+                }
+                r.unshift(t);
+                return a[e](...r);
+            }
+        },
+        972: (e, t)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.DiagConsoleLogger = void 0;
+            const r = [
+                {
+                    n: "error",
+                    c: "error"
+                },
+                {
+                    n: "warn",
+                    c: "warn"
+                },
+                {
+                    n: "info",
+                    c: "info"
+                },
+                {
+                    n: "debug",
+                    c: "debug"
+                },
+                {
+                    n: "verbose",
+                    c: "trace"
+                }
+            ];
+            class DiagConsoleLogger {
+                constructor(){
+                    function _consoleFunc(e) {
+                        return function(...t) {
+                            if (console) {
+                                let r = console[e];
+                                if (typeof r !== "function") {
+                                    r = console.log;
+                                }
+                                if (typeof r === "function") {
+                                    return r.apply(console, t);
+                                }
+                            }
+                        };
+                    }
+                    for(let e = 0; e < r.length; e++){
+                        this[r[e].n] = _consoleFunc(r[e].c);
+                    }
+                }
+            }
+            t.DiagConsoleLogger = DiagConsoleLogger;
+        },
+        912: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.createLogLevelDiagLogger = void 0;
+            const n = r(957);
+            function createLogLevelDiagLogger(e, t) {
+                if (e < n.DiagLogLevel.NONE) {
+                    e = n.DiagLogLevel.NONE;
+                } else if (e > n.DiagLogLevel.ALL) {
+                    e = n.DiagLogLevel.ALL;
+                }
+                t = t || {};
+                function _filterFunc(r, n) {
+                    const a = t[r];
+                    if (typeof a === "function" && e >= n) {
+                        return a.bind(t);
+                    }
+                    return function() {};
+                }
+                return {
+                    error: _filterFunc("error", n.DiagLogLevel.ERROR),
+                    warn: _filterFunc("warn", n.DiagLogLevel.WARN),
+                    info: _filterFunc("info", n.DiagLogLevel.INFO),
+                    debug: _filterFunc("debug", n.DiagLogLevel.DEBUG),
+                    verbose: _filterFunc("verbose", n.DiagLogLevel.VERBOSE)
+                };
+            }
+            t.createLogLevelDiagLogger = createLogLevelDiagLogger;
+        },
+        957: (e, t)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.DiagLogLevel = void 0;
+            var r;
+            (function(e) {
+                e[e["NONE"] = 0] = "NONE";
+                e[e["ERROR"] = 30] = "ERROR";
+                e[e["WARN"] = 50] = "WARN";
+                e[e["INFO"] = 60] = "INFO";
+                e[e["DEBUG"] = 70] = "DEBUG";
+                e[e["VERBOSE"] = 80] = "VERBOSE";
+                e[e["ALL"] = 9999] = "ALL";
+            })(r = t.DiagLogLevel || (t.DiagLogLevel = {}));
+        },
+        172: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.unregisterGlobal = t.getGlobal = t.registerGlobal = void 0;
+            const n = r(200);
+            const a = r(521);
+            const o = r(130);
+            const i = a.VERSION.split(".")[0];
+            const c = Symbol.for(`opentelemetry.js.api.${i}`);
+            const s = n._globalThis;
+            function registerGlobal(e, t, r, n = false) {
+                var o;
+                const i = s[c] = (o = s[c]) !== null && o !== void 0 ? o : {
+                    version: a.VERSION
+                };
+                if (!n && i[e]) {
+                    const t = new Error(`@opentelemetry/api: Attempted duplicate registration of API: ${e}`);
+                    r.error(t.stack || t.message);
+                    return false;
+                }
+                if (i.version !== a.VERSION) {
+                    const t = new Error(`@opentelemetry/api: Registration of version v${i.version} for ${e} does not match previously registered API v${a.VERSION}`);
+                    r.error(t.stack || t.message);
+                    return false;
+                }
+                i[e] = t;
+                r.debug(`@opentelemetry/api: Registered a global for ${e} v${a.VERSION}.`);
+                return true;
+            }
+            t.registerGlobal = registerGlobal;
+            function getGlobal(e) {
+                var t, r;
+                const n = (t = s[c]) === null || t === void 0 ? void 0 : t.version;
+                if (!n || !(0, o.isCompatible)(n)) {
+                    return;
+                }
+                return (r = s[c]) === null || r === void 0 ? void 0 : r[e];
+            }
+            t.getGlobal = getGlobal;
+            function unregisterGlobal(e, t) {
+                t.debug(`@opentelemetry/api: Unregistering a global for ${e} v${a.VERSION}.`);
+                const r = s[c];
+                if (r) {
+                    delete r[e];
+                }
+            }
+            t.unregisterGlobal = unregisterGlobal;
+        },
+        130: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.isCompatible = t._makeCompatibilityCheck = void 0;
+            const n = r(521);
+            const a = /^(\d+)\.(\d+)\.(\d+)(-(.+))?$/;
+            function _makeCompatibilityCheck(e) {
+                const t = new Set([
+                    e
+                ]);
+                const r = new Set;
+                const n = e.match(a);
+                if (!n) {
+                    return ()=>false;
+                }
+                const o = {
+                    major: +n[1],
+                    minor: +n[2],
+                    patch: +n[3],
+                    prerelease: n[4]
+                };
+                if (o.prerelease != null) {
+                    return function isExactmatch(t) {
+                        return t === e;
+                    };
+                }
+                function _reject(e) {
+                    r.add(e);
+                    return false;
+                }
+                function _accept(e) {
+                    t.add(e);
+                    return true;
+                }
+                return function isCompatible(e) {
+                    if (t.has(e)) {
+                        return true;
+                    }
+                    if (r.has(e)) {
+                        return false;
+                    }
+                    const n = e.match(a);
+                    if (!n) {
+                        return _reject(e);
+                    }
+                    const i = {
+                        major: +n[1],
+                        minor: +n[2],
+                        patch: +n[3],
+                        prerelease: n[4]
+                    };
+                    if (i.prerelease != null) {
+                        return _reject(e);
+                    }
+                    if (o.major !== i.major) {
+                        return _reject(e);
+                    }
+                    if (o.major === 0) {
+                        if (o.minor === i.minor && o.patch <= i.patch) {
+                            return _accept(e);
+                        }
+                        return _reject(e);
+                    }
+                    if (o.minor <= i.minor) {
+                        return _accept(e);
+                    }
+                    return _reject(e);
+                };
+            }
+            t._makeCompatibilityCheck = _makeCompatibilityCheck;
+            t.isCompatible = _makeCompatibilityCheck(n.VERSION);
+        },
+        886: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.metrics = void 0;
+            const n = r(653);
+            t.metrics = n.MetricsAPI.getInstance();
+        },
+        901: (e, t)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.ValueType = void 0;
+            var r;
+            (function(e) {
+                e[e["INT"] = 0] = "INT";
+                e[e["DOUBLE"] = 1] = "DOUBLE";
+            })(r = t.ValueType || (t.ValueType = {}));
+        },
+        102: (e, t)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.createNoopMeter = t.NOOP_OBSERVABLE_UP_DOWN_COUNTER_METRIC = t.NOOP_OBSERVABLE_GAUGE_METRIC = t.NOOP_OBSERVABLE_COUNTER_METRIC = t.NOOP_UP_DOWN_COUNTER_METRIC = t.NOOP_HISTOGRAM_METRIC = t.NOOP_COUNTER_METRIC = t.NOOP_METER = t.NoopObservableUpDownCounterMetric = t.NoopObservableGaugeMetric = t.NoopObservableCounterMetric = t.NoopObservableMetric = t.NoopHistogramMetric = t.NoopUpDownCounterMetric = t.NoopCounterMetric = t.NoopMetric = t.NoopMeter = void 0;
+            class NoopMeter {
+                constructor(){}
+                createHistogram(e, r) {
+                    return t.NOOP_HISTOGRAM_METRIC;
+                }
+                createCounter(e, r) {
+                    return t.NOOP_COUNTER_METRIC;
+                }
+                createUpDownCounter(e, r) {
+                    return t.NOOP_UP_DOWN_COUNTER_METRIC;
+                }
+                createObservableGauge(e, r) {
+                    return t.NOOP_OBSERVABLE_GAUGE_METRIC;
+                }
+                createObservableCounter(e, r) {
+                    return t.NOOP_OBSERVABLE_COUNTER_METRIC;
+                }
+                createObservableUpDownCounter(e, r) {
+                    return t.NOOP_OBSERVABLE_UP_DOWN_COUNTER_METRIC;
+                }
+                addBatchObservableCallback(e, t) {}
+                removeBatchObservableCallback(e) {}
+            }
+            t.NoopMeter = NoopMeter;
+            class NoopMetric {
+            }
+            t.NoopMetric = NoopMetric;
+            class NoopCounterMetric extends NoopMetric {
+                add(e, t) {}
+            }
+            t.NoopCounterMetric = NoopCounterMetric;
+            class NoopUpDownCounterMetric extends NoopMetric {
+                add(e, t) {}
+            }
+            t.NoopUpDownCounterMetric = NoopUpDownCounterMetric;
+            class NoopHistogramMetric extends NoopMetric {
+                record(e, t) {}
+            }
+            t.NoopHistogramMetric = NoopHistogramMetric;
+            class NoopObservableMetric {
+                addCallback(e) {}
+                removeCallback(e) {}
+            }
+            t.NoopObservableMetric = NoopObservableMetric;
+            class NoopObservableCounterMetric extends NoopObservableMetric {
+            }
+            t.NoopObservableCounterMetric = NoopObservableCounterMetric;
+            class NoopObservableGaugeMetric extends NoopObservableMetric {
+            }
+            t.NoopObservableGaugeMetric = NoopObservableGaugeMetric;
+            class NoopObservableUpDownCounterMetric extends NoopObservableMetric {
+            }
+            t.NoopObservableUpDownCounterMetric = NoopObservableUpDownCounterMetric;
+            t.NOOP_METER = new NoopMeter;
+            t.NOOP_COUNTER_METRIC = new NoopCounterMetric;
+            t.NOOP_HISTOGRAM_METRIC = new NoopHistogramMetric;
+            t.NOOP_UP_DOWN_COUNTER_METRIC = new NoopUpDownCounterMetric;
+            t.NOOP_OBSERVABLE_COUNTER_METRIC = new NoopObservableCounterMetric;
+            t.NOOP_OBSERVABLE_GAUGE_METRIC = new NoopObservableGaugeMetric;
+            t.NOOP_OBSERVABLE_UP_DOWN_COUNTER_METRIC = new NoopObservableUpDownCounterMetric;
+            function createNoopMeter() {
+                return t.NOOP_METER;
+            }
+            t.createNoopMeter = createNoopMeter;
+        },
+        660: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.NOOP_METER_PROVIDER = t.NoopMeterProvider = void 0;
+            const n = r(102);
+            class NoopMeterProvider {
+                getMeter(e, t, r) {
+                    return n.NOOP_METER;
+                }
+            }
+            t.NoopMeterProvider = NoopMeterProvider;
+            t.NOOP_METER_PROVIDER = new NoopMeterProvider;
+        },
+        200: function(e, t, r) {
+            var n = this && this.__createBinding || (Object.create ? function(e, t, r, n) {
+                if (n === undefined) n = r;
+                Object.defineProperty(e, n, {
+                    enumerable: true,
+                    get: function() {
+                        return t[r];
+                    }
+                });
+            } : function(e, t, r, n) {
+                if (n === undefined) n = r;
+                e[n] = t[r];
+            });
+            var a = this && this.__exportStar || function(e, t) {
+                for(var r in e)if (r !== "default" && !Object.prototype.hasOwnProperty.call(t, r)) n(t, e, r);
+            };
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            a(r(46), t);
+        },
+        651: (e, t)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t._globalThis = void 0;
+            t._globalThis = typeof globalThis === "object" ? globalThis : __webpack_require__.g;
+        },
+        46: function(e, t, r) {
+            var n = this && this.__createBinding || (Object.create ? function(e, t, r, n) {
+                if (n === undefined) n = r;
+                Object.defineProperty(e, n, {
+                    enumerable: true,
+                    get: function() {
+                        return t[r];
+                    }
+                });
+            } : function(e, t, r, n) {
+                if (n === undefined) n = r;
+                e[n] = t[r];
+            });
+            var a = this && this.__exportStar || function(e, t) {
+                for(var r in e)if (r !== "default" && !Object.prototype.hasOwnProperty.call(t, r)) n(t, e, r);
+            };
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            a(r(651), t);
+        },
+        939: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.propagation = void 0;
+            const n = r(181);
+            t.propagation = n.PropagationAPI.getInstance();
+        },
+        874: (e, t)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.NoopTextMapPropagator = void 0;
+            class NoopTextMapPropagator {
+                inject(e, t) {}
+                extract(e, t) {
+                    return e;
+                }
+                fields() {
+                    return [];
+                }
+            }
+            t.NoopTextMapPropagator = NoopTextMapPropagator;
+        },
+        194: (e, t)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.defaultTextMapSetter = t.defaultTextMapGetter = void 0;
+            t.defaultTextMapGetter = {
+                get (e, t) {
+                    if (e == null) {
+                        return undefined;
+                    }
+                    return e[t];
+                },
+                keys (e) {
+                    if (e == null) {
+                        return [];
+                    }
+                    return Object.keys(e);
+                }
+            };
+            t.defaultTextMapSetter = {
+                set (e, t, r) {
+                    if (e == null) {
+                        return;
+                    }
+                    e[t] = r;
+                }
+            };
+        },
+        845: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.trace = void 0;
+            const n = r(997);
+            t.trace = n.TraceAPI.getInstance();
+        },
+        403: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.NonRecordingSpan = void 0;
+            const n = r(476);
+            class NonRecordingSpan {
+                constructor(e = n.INVALID_SPAN_CONTEXT){
+                    this._spanContext = e;
+                }
+                spanContext() {
+                    return this._spanContext;
+                }
+                setAttribute(e, t) {
+                    return this;
+                }
+                setAttributes(e) {
+                    return this;
+                }
+                addEvent(e, t) {
+                    return this;
+                }
+                setStatus(e) {
+                    return this;
+                }
+                updateName(e) {
+                    return this;
+                }
+                end(e) {}
+                isRecording() {
+                    return false;
+                }
+                recordException(e, t) {}
+            }
+            t.NonRecordingSpan = NonRecordingSpan;
+        },
+        614: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.NoopTracer = void 0;
+            const n = r(491);
+            const a = r(607);
+            const o = r(403);
+            const i = r(139);
+            const c = n.ContextAPI.getInstance();
+            class NoopTracer {
+                startSpan(e, t, r = c.active()) {
+                    const n = Boolean(t === null || t === void 0 ? void 0 : t.root);
+                    if (n) {
+                        return new o.NonRecordingSpan;
+                    }
+                    const s = r && (0, a.getSpanContext)(r);
+                    if (isSpanContext(s) && (0, i.isSpanContextValid)(s)) {
+                        return new o.NonRecordingSpan(s);
+                    } else {
+                        return new o.NonRecordingSpan;
+                    }
+                }
+                startActiveSpan(e, t, r, n) {
+                    let o;
+                    let i;
+                    let s;
+                    if (arguments.length < 2) {
+                        return;
+                    } else if (arguments.length === 2) {
+                        s = t;
+                    } else if (arguments.length === 3) {
+                        o = t;
+                        s = r;
+                    } else {
+                        o = t;
+                        i = r;
+                        s = n;
+                    }
+                    const u = i !== null && i !== void 0 ? i : c.active();
+                    const l = this.startSpan(e, o, u);
+                    const g = (0, a.setSpan)(u, l);
+                    return c.with(g, s, undefined, l);
+                }
+            }
+            t.NoopTracer = NoopTracer;
+            function isSpanContext(e) {
+                return typeof e === "object" && typeof e["spanId"] === "string" && typeof e["traceId"] === "string" && typeof e["traceFlags"] === "number";
+            }
+        },
+        124: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.NoopTracerProvider = void 0;
+            const n = r(614);
+            class NoopTracerProvider {
+                getTracer(e, t, r) {
+                    return new n.NoopTracer;
+                }
+            }
+            t.NoopTracerProvider = NoopTracerProvider;
+        },
+        125: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.ProxyTracer = void 0;
+            const n = r(614);
+            const a = new n.NoopTracer;
+            class ProxyTracer {
+                constructor(e, t, r, n){
+                    this._provider = e;
+                    this.name = t;
+                    this.version = r;
+                    this.options = n;
+                }
+                startSpan(e, t, r) {
+                    return this._getTracer().startSpan(e, t, r);
+                }
+                startActiveSpan(e, t, r, n) {
+                    const a = this._getTracer();
+                    return Reflect.apply(a.startActiveSpan, a, arguments);
+                }
+                _getTracer() {
+                    if (this._delegate) {
+                        return this._delegate;
+                    }
+                    const e = this._provider.getDelegateTracer(this.name, this.version, this.options);
+                    if (!e) {
+                        return a;
+                    }
+                    this._delegate = e;
+                    return this._delegate;
+                }
+            }
+            t.ProxyTracer = ProxyTracer;
+        },
+        846: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.ProxyTracerProvider = void 0;
+            const n = r(125);
+            const a = r(124);
+            const o = new a.NoopTracerProvider;
+            class ProxyTracerProvider {
+                getTracer(e, t, r) {
+                    var a;
+                    return (a = this.getDelegateTracer(e, t, r)) !== null && a !== void 0 ? a : new n.ProxyTracer(this, e, t, r);
+                }
+                getDelegate() {
+                    var e;
+                    return (e = this._delegate) !== null && e !== void 0 ? e : o;
+                }
+                setDelegate(e) {
+                    this._delegate = e;
+                }
+                getDelegateTracer(e, t, r) {
+                    var n;
+                    return (n = this._delegate) === null || n === void 0 ? void 0 : n.getTracer(e, t, r);
+                }
+            }
+            t.ProxyTracerProvider = ProxyTracerProvider;
+        },
+        996: (e, t)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.SamplingDecision = void 0;
+            var r;
+            (function(e) {
+                e[e["NOT_RECORD"] = 0] = "NOT_RECORD";
+                e[e["RECORD"] = 1] = "RECORD";
+                e[e["RECORD_AND_SAMPLED"] = 2] = "RECORD_AND_SAMPLED";
+            })(r = t.SamplingDecision || (t.SamplingDecision = {}));
+        },
+        607: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.getSpanContext = t.setSpanContext = t.deleteSpan = t.setSpan = t.getActiveSpan = t.getSpan = void 0;
+            const n = r(780);
+            const a = r(403);
+            const o = r(491);
+            const i = (0, n.createContextKey)("OpenTelemetry Context Key SPAN");
+            function getSpan(e) {
+                return e.getValue(i) || undefined;
+            }
+            t.getSpan = getSpan;
+            function getActiveSpan() {
+                return getSpan(o.ContextAPI.getInstance().active());
+            }
+            t.getActiveSpan = getActiveSpan;
+            function setSpan(e, t) {
+                return e.setValue(i, t);
+            }
+            t.setSpan = setSpan;
+            function deleteSpan(e) {
+                return e.deleteValue(i);
+            }
+            t.deleteSpan = deleteSpan;
+            function setSpanContext(e, t) {
+                return setSpan(e, new a.NonRecordingSpan(t));
+            }
+            t.setSpanContext = setSpanContext;
+            function getSpanContext(e) {
+                var t;
+                return (t = getSpan(e)) === null || t === void 0 ? void 0 : t.spanContext();
+            }
+            t.getSpanContext = getSpanContext;
+        },
+        325: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.TraceStateImpl = void 0;
+            const n = r(564);
+            const a = 32;
+            const o = 512;
+            const i = ",";
+            const c = "=";
+            class TraceStateImpl {
+                constructor(e){
+                    this._internalState = new Map;
+                    if (e) this._parse(e);
+                }
+                set(e, t) {
+                    const r = this._clone();
+                    if (r._internalState.has(e)) {
+                        r._internalState.delete(e);
+                    }
+                    r._internalState.set(e, t);
+                    return r;
+                }
+                unset(e) {
+                    const t = this._clone();
+                    t._internalState.delete(e);
+                    return t;
+                }
+                get(e) {
+                    return this._internalState.get(e);
+                }
+                serialize() {
+                    return this._keys().reduce((e, t)=>{
+                        e.push(t + c + this.get(t));
+                        return e;
+                    }, []).join(i);
+                }
+                _parse(e) {
+                    if (e.length > o) return;
+                    this._internalState = e.split(i).reverse().reduce((e, t)=>{
+                        const r = t.trim();
+                        const a = r.indexOf(c);
+                        if (a !== -1) {
+                            const o = r.slice(0, a);
+                            const i = r.slice(a + 1, t.length);
+                            if ((0, n.validateKey)(o) && (0, n.validateValue)(i)) {
+                                e.set(o, i);
+                            } else {}
+                        }
+                        return e;
+                    }, new Map);
+                    if (this._internalState.size > a) {
+                        this._internalState = new Map(Array.from(this._internalState.entries()).reverse().slice(0, a));
+                    }
+                }
+                _keys() {
+                    return Array.from(this._internalState.keys()).reverse();
+                }
+                _clone() {
+                    const e = new TraceStateImpl;
+                    e._internalState = new Map(this._internalState);
+                    return e;
+                }
+            }
+            t.TraceStateImpl = TraceStateImpl;
+        },
+        564: (e, t)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.validateValue = t.validateKey = void 0;
+            const r = "[_0-9a-z-*/]";
+            const n = `[a-z]${r}{0,255}`;
+            const a = `[a-z0-9]${r}{0,240}@[a-z]${r}{0,13}`;
+            const o = new RegExp(`^(?:${n}|${a})$`);
+            const i = /^[ -~]{0,255}[!-~]$/;
+            const c = /,|=/;
+            function validateKey(e) {
+                return o.test(e);
+            }
+            t.validateKey = validateKey;
+            function validateValue(e) {
+                return i.test(e) && !c.test(e);
+            }
+            t.validateValue = validateValue;
+        },
+        98: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.createTraceState = void 0;
+            const n = r(325);
+            function createTraceState(e) {
+                return new n.TraceStateImpl(e);
+            }
+            t.createTraceState = createTraceState;
+        },
+        476: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.INVALID_SPAN_CONTEXT = t.INVALID_TRACEID = t.INVALID_SPANID = void 0;
+            const n = r(475);
+            t.INVALID_SPANID = "0000000000000000";
+            t.INVALID_TRACEID = "00000000000000000000000000000000";
+            t.INVALID_SPAN_CONTEXT = {
+                traceId: t.INVALID_TRACEID,
+                spanId: t.INVALID_SPANID,
+                traceFlags: n.TraceFlags.NONE
+            };
+        },
+        357: (e, t)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.SpanKind = void 0;
+            var r;
+            (function(e) {
+                e[e["INTERNAL"] = 0] = "INTERNAL";
+                e[e["SERVER"] = 1] = "SERVER";
+                e[e["CLIENT"] = 2] = "CLIENT";
+                e[e["PRODUCER"] = 3] = "PRODUCER";
+                e[e["CONSUMER"] = 4] = "CONSUMER";
+            })(r = t.SpanKind || (t.SpanKind = {}));
+        },
+        139: (e, t, r)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.wrapSpanContext = t.isSpanContextValid = t.isValidSpanId = t.isValidTraceId = void 0;
+            const n = r(476);
+            const a = r(403);
+            const o = /^([0-9a-f]{32})$/i;
+            const i = /^[0-9a-f]{16}$/i;
+            function isValidTraceId(e) {
+                return o.test(e) && e !== n.INVALID_TRACEID;
+            }
+            t.isValidTraceId = isValidTraceId;
+            function isValidSpanId(e) {
+                return i.test(e) && e !== n.INVALID_SPANID;
+            }
+            t.isValidSpanId = isValidSpanId;
+            function isSpanContextValid(e) {
+                return isValidTraceId(e.traceId) && isValidSpanId(e.spanId);
+            }
+            t.isSpanContextValid = isSpanContextValid;
+            function wrapSpanContext(e) {
+                return new a.NonRecordingSpan(e);
+            }
+            t.wrapSpanContext = wrapSpanContext;
+        },
+        847: (e, t)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.SpanStatusCode = void 0;
+            var r;
+            (function(e) {
+                e[e["UNSET"] = 0] = "UNSET";
+                e[e["OK"] = 1] = "OK";
+                e[e["ERROR"] = 2] = "ERROR";
+            })(r = t.SpanStatusCode || (t.SpanStatusCode = {}));
+        },
+        475: (e, t)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.TraceFlags = void 0;
+            var r;
+            (function(e) {
+                e[e["NONE"] = 0] = "NONE";
+                e[e["SAMPLED"] = 1] = "SAMPLED";
+            })(r = t.TraceFlags || (t.TraceFlags = {}));
+        },
+        521: (e, t)=>{
+            Object.defineProperty(t, "__esModule", {
+                value: true
+            });
+            t.VERSION = void 0;
+            t.VERSION = "1.6.0";
+        }
+    };
+    var t = {};
+    function __nccwpck_require__(r) {
+        var n = t[r];
+        if (n !== undefined) {
+            return n.exports;
+        }
+        var a = t[r] = {
+            exports: {}
+        };
+        var o = true;
+        try {
+            e[r].call(a.exports, a, a.exports, __nccwpck_require__);
+            o = false;
+        } finally{
+            if (o) delete t[r];
+        }
+        return a.exports;
+    }
+    if (typeof __nccwpck_require__ !== "undefined") __nccwpck_require__.ab = __dirname + "/";
+    var r = {};
+    (()=>{
+        var e = r;
+        Object.defineProperty(e, "__esModule", {
+            value: true
+        });
+        e.trace = e.propagation = e.metrics = e.diag = e.context = e.INVALID_SPAN_CONTEXT = e.INVALID_TRACEID = e.INVALID_SPANID = e.isValidSpanId = e.isValidTraceId = e.isSpanContextValid = e.createTraceState = e.TraceFlags = e.SpanStatusCode = e.SpanKind = e.SamplingDecision = e.ProxyTracerProvider = e.ProxyTracer = e.defaultTextMapSetter = e.defaultTextMapGetter = e.ValueType = e.createNoopMeter = e.DiagLogLevel = e.DiagConsoleLogger = e.ROOT_CONTEXT = e.createContextKey = e.baggageEntryMetadataFromString = void 0;
+        var t = __nccwpck_require__(369);
+        Object.defineProperty(e, "baggageEntryMetadataFromString", {
+            enumerable: true,
+            get: function() {
+                return t.baggageEntryMetadataFromString;
+            }
+        });
+        var n = __nccwpck_require__(780);
+        Object.defineProperty(e, "createContextKey", {
+            enumerable: true,
+            get: function() {
+                return n.createContextKey;
+            }
+        });
+        Object.defineProperty(e, "ROOT_CONTEXT", {
+            enumerable: true,
+            get: function() {
+                return n.ROOT_CONTEXT;
+            }
+        });
+        var a = __nccwpck_require__(972);
+        Object.defineProperty(e, "DiagConsoleLogger", {
+            enumerable: true,
+            get: function() {
+                return a.DiagConsoleLogger;
+            }
+        });
+        var o = __nccwpck_require__(957);
+        Object.defineProperty(e, "DiagLogLevel", {
+            enumerable: true,
+            get: function() {
+                return o.DiagLogLevel;
+            }
+        });
+        var i = __nccwpck_require__(102);
+        Object.defineProperty(e, "createNoopMeter", {
+            enumerable: true,
+            get: function() {
+                return i.createNoopMeter;
+            }
+        });
+        var c = __nccwpck_require__(901);
+        Object.defineProperty(e, "ValueType", {
+            enumerable: true,
+            get: function() {
+                return c.ValueType;
+            }
+        });
+        var s = __nccwpck_require__(194);
+        Object.defineProperty(e, "defaultTextMapGetter", {
+            enumerable: true,
+            get: function() {
+                return s.defaultTextMapGetter;
+            }
+        });
+        Object.defineProperty(e, "defaultTextMapSetter", {
+            enumerable: true,
+            get: function() {
+                return s.defaultTextMapSetter;
+            }
+        });
+        var u = __nccwpck_require__(125);
+        Object.defineProperty(e, "ProxyTracer", {
+            enumerable: true,
+            get: function() {
+                return u.ProxyTracer;
+            }
+        });
+        var l = __nccwpck_require__(846);
+        Object.defineProperty(e, "ProxyTracerProvider", {
+            enumerable: true,
+            get: function() {
+                return l.ProxyTracerProvider;
+            }
+        });
+        var g = __nccwpck_require__(996);
+        Object.defineProperty(e, "SamplingDecision", {
+            enumerable: true,
+            get: function() {
+                return g.SamplingDecision;
+            }
+        });
+        var p = __nccwpck_require__(357);
+        Object.defineProperty(e, "SpanKind", {
+            enumerable: true,
+            get: function() {
+                return p.SpanKind;
+            }
+        });
+        var d = __nccwpck_require__(847);
+        Object.defineProperty(e, "SpanStatusCode", {
+            enumerable: true,
+            get: function() {
+                return d.SpanStatusCode;
+            }
+        });
+        var _ = __nccwpck_require__(475);
+        Object.defineProperty(e, "TraceFlags", {
+            enumerable: true,
+            get: function() {
+                return _.TraceFlags;
+            }
+        });
+        var f = __nccwpck_require__(98);
+        Object.defineProperty(e, "createTraceState", {
+            enumerable: true,
+            get: function() {
+                return f.createTraceState;
+            }
+        });
+        var b = __nccwpck_require__(139);
+        Object.defineProperty(e, "isSpanContextValid", {
+            enumerable: true,
+            get: function() {
+                return b.isSpanContextValid;
+            }
+        });
+        Object.defineProperty(e, "isValidTraceId", {
+            enumerable: true,
+            get: function() {
+                return b.isValidTraceId;
+            }
+        });
+        Object.defineProperty(e, "isValidSpanId", {
+            enumerable: true,
+            get: function() {
+                return b.isValidSpanId;
+            }
+        });
+        var v = __nccwpck_require__(476);
+        Object.defineProperty(e, "INVALID_SPANID", {
+            enumerable: true,
+            get: function() {
+                return v.INVALID_SPANID;
+            }
+        });
+        Object.defineProperty(e, "INVALID_TRACEID", {
+            enumerable: true,
+            get: function() {
+                return v.INVALID_TRACEID;
+            }
+        });
+        Object.defineProperty(e, "INVALID_SPAN_CONTEXT", {
+            enumerable: true,
+            get: function() {
+                return v.INVALID_SPAN_CONTEXT;
+            }
+        });
+        const O = __nccwpck_require__(67);
+        Object.defineProperty(e, "context", {
+            enumerable: true,
+            get: function() {
+                return O.context;
+            }
+        });
+        const P = __nccwpck_require__(506);
+        Object.defineProperty(e, "diag", {
+            enumerable: true,
+            get: function() {
+                return P.diag;
+            }
+        });
+        const N = __nccwpck_require__(886);
+        Object.defineProperty(e, "metrics", {
+            enumerable: true,
+            get: function() {
+                return N.metrics;
+            }
+        });
+        const S = __nccwpck_require__(939);
+        Object.defineProperty(e, "propagation", {
+            enumerable: true,
+            get: function() {
+                return S.propagation;
+            }
+        });
+        const C = __nccwpck_require__(845);
+        Object.defineProperty(e, "trace", {
+            enumerable: true,
+            get: function() {
+                return C.trace;
+            }
+        });
+        e["default"] = {
+            context: O.context,
+            diag: P.diag,
+            metrics: N.metrics,
+            propagation: S.propagation,
+            trace: C.trace
+        };
+    })();
+    module.exports = r;
+})();
+
+
+/***/ }),
+
+/***/ 1053:
+/***/ ((module) => {
+
+"use strict";
+var __dirname = "/";
+
+(()=>{
+    "use strict";
+    if (typeof __nccwpck_require__ !== "undefined") __nccwpck_require__.ab = __dirname + "/";
+    var e = {};
+    (()=>{
+        var r = e;
+        /*!
+ * cookie
+ * Copyright(c) 2012-2014 Roman Shtylman
+ * Copyright(c) 2015 Douglas Christopher Wilson
+ * MIT Licensed
+ */ r.parse = parse;
+        r.serialize = serialize;
+        var i = decodeURIComponent;
+        var t = encodeURIComponent;
+        var a = /; */;
+        var n = /^[\u0009\u0020-\u007e\u0080-\u00ff]+$/;
+        function parse(e, r) {
+            if (typeof e !== "string") {
+                throw new TypeError("argument str must be a string");
+            }
+            var t = {};
+            var n = r || {};
+            var o = e.split(a);
+            var s = n.decode || i;
+            for(var p = 0; p < o.length; p++){
+                var f = o[p];
+                var u = f.indexOf("=");
+                if (u < 0) {
+                    continue;
+                }
+                var v = f.substr(0, u).trim();
+                var c = f.substr(++u, f.length).trim();
+                if ('"' == c[0]) {
+                    c = c.slice(1, -1);
+                }
+                if (undefined == t[v]) {
+                    t[v] = tryDecode(c, s);
+                }
+            }
+            return t;
+        }
+        function serialize(e, r, i) {
+            var a = i || {};
+            var o = a.encode || t;
+            if (typeof o !== "function") {
+                throw new TypeError("option encode is invalid");
+            }
+            if (!n.test(e)) {
+                throw new TypeError("argument name is invalid");
+            }
+            var s = o(r);
+            if (s && !n.test(s)) {
+                throw new TypeError("argument val is invalid");
+            }
+            var p = e + "=" + s;
+            if (null != a.maxAge) {
+                var f = a.maxAge - 0;
+                if (isNaN(f) || !isFinite(f)) {
+                    throw new TypeError("option maxAge is invalid");
+                }
+                p += "; Max-Age=" + Math.floor(f);
+            }
+            if (a.domain) {
+                if (!n.test(a.domain)) {
+                    throw new TypeError("option domain is invalid");
+                }
+                p += "; Domain=" + a.domain;
+            }
+            if (a.path) {
+                if (!n.test(a.path)) {
+                    throw new TypeError("option path is invalid");
+                }
+                p += "; Path=" + a.path;
+            }
+            if (a.expires) {
+                if (typeof a.expires.toUTCString !== "function") {
+                    throw new TypeError("option expires is invalid");
+                }
+                p += "; Expires=" + a.expires.toUTCString();
+            }
+            if (a.httpOnly) {
+                p += "; HttpOnly";
+            }
+            if (a.secure) {
+                p += "; Secure";
+            }
+            if (a.sameSite) {
+                var u = typeof a.sameSite === "string" ? a.sameSite.toLowerCase() : a.sameSite;
+                switch(u){
+                    case true:
+                        p += "; SameSite=Strict";
+                        break;
+                    case "lax":
+                        p += "; SameSite=Lax";
+                        break;
+                    case "strict":
+                        p += "; SameSite=Strict";
+                        break;
+                    case "none":
+                        p += "; SameSite=None";
+                        break;
+                    default:
+                        throw new TypeError("option sameSite is invalid");
+                }
+            }
+            return p;
+        }
+        function tryDecode(e, r) {
+            try {
+                return r(e);
+            } catch (r) {
+                return e;
+            }
+        }
+    })();
+    module.exports = e;
+})();
+
+
+/***/ }),
+
+/***/ 687:
+/***/ ((module) => {
+
+"use strict";
+// Note: This file is JS because it's used by the taskfile-swc.js file, which is JS.
+// Keep file changes in sync with the corresponding `.d.ts` files.
+/**
+ * These are the browser versions that support all of the following:
+ * static import: https://caniuse.com/es6-module
+ * dynamic import: https://caniuse.com/es6-module-dynamic-import
+ * import.meta: https://caniuse.com/mdn-javascript_operators_import_meta
+ */ 
+const MODERN_BROWSERSLIST_TARGET = [
+    "chrome 64",
+    "edge 79",
+    "firefox 67",
+    "opera 51",
+    "safari 12"
+];
+module.exports = MODERN_BROWSERSLIST_TARGET; //# sourceMappingURL=modern-browserslist-target.js.map
+
+
+/***/ }),
+
+/***/ 3241:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+0 && (0);
+function _export(target, all) {
+    for(var name in all)Object.defineProperty(target, name, {
+        enumerable: true,
+        get: all[name]
+    });
+}
+_export(exports, {
+    withRequest: function() {
+        return withRequest;
+    },
+    getTestReqInfo: function() {
+        return getTestReqInfo;
+    }
+});
+const _nodeasync_hooks = __webpack_require__(2067);
+const testStorage = new _nodeasync_hooks.AsyncLocalStorage();
+function extractTestInfoFromRequest(req, reader) {
+    const proxyPortHeader = reader.header(req, "next-test-proxy-port");
+    if (!proxyPortHeader) {
+        return undefined;
+    }
+    const url = reader.url(req);
+    const proxyPort = Number(proxyPortHeader);
+    const testData = reader.header(req, "next-test-data") || "";
+    return {
+        url,
+        proxyPort,
+        testData
+    };
+}
+function withRequest(req, reader, fn) {
+    const testReqInfo = extractTestInfoFromRequest(req, reader);
+    if (!testReqInfo) {
+        return fn();
+    }
+    return testStorage.run(testReqInfo, fn);
+}
+function getTestReqInfo(req, reader) {
+    const testReqInfo = testStorage.getStore();
+    if (testReqInfo) {
+        return testReqInfo;
+    }
+    if (req && reader) {
+        return extractTestInfoFromRequest(req, reader);
+    }
+    return undefined;
+} //# sourceMappingURL=context.js.map
+
+
+/***/ }),
+
+/***/ 5178:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+/* provided dependency */ var Buffer = __webpack_require__(6195)["Buffer"];
+
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+0 && (0);
+function _export(target, all) {
+    for(var name in all)Object.defineProperty(target, name, {
+        enumerable: true,
+        get: all[name]
+    });
+}
+_export(exports, {
+    reader: function() {
+        return reader;
+    },
+    handleFetch: function() {
+        return handleFetch;
+    },
+    interceptFetch: function() {
+        return interceptFetch;
+    }
+});
+const _context = __webpack_require__(3241);
+const reader = {
+    url (req) {
+        return req.url;
+    },
+    header (req, name) {
+        return req.headers.get(name);
+    }
+};
+function getTestStack() {
+    let stack = (new Error().stack ?? "").split("\n");
+    // Skip the first line and find first non-empty line.
+    for(let i = 1; i < stack.length; i++){
+        if (stack[i].length > 0) {
+            stack = stack.slice(i);
+            break;
+        }
+    }
+    // Filter out franmework lines.
+    stack = stack.filter((f)=>!f.includes("/next/dist/"));
+    // At most 5 lines.
+    stack = stack.slice(0, 5);
+    // Cleanup some internal info and trim.
+    stack = stack.map((s)=>s.replace("webpack-internal:///(rsc)/", "").trim());
+    return stack.join("    ");
+}
+async function buildProxyRequest(testData, request) {
+    const { url, method, headers, body, cache, credentials, integrity, mode, redirect, referrer, referrerPolicy } = request;
+    return {
+        testData,
+        api: "fetch",
+        request: {
+            url,
+            method,
+            headers: [
+                ...Array.from(headers),
+                [
+                    "next-test-stack",
+                    getTestStack()
+                ]
+            ],
+            body: body ? Buffer.from(await request.arrayBuffer()).toString("base64") : null,
+            cache,
+            credentials,
+            integrity,
+            mode,
+            redirect,
+            referrer,
+            referrerPolicy
+        }
+    };
+}
+function buildResponse(proxyResponse) {
+    const { status, headers, body } = proxyResponse.response;
+    return new Response(body ? Buffer.from(body, "base64") : null, {
+        status,
+        headers: new Headers(headers)
+    });
+}
+async function handleFetch(originalFetch, request) {
+    const testInfo = (0, _context.getTestReqInfo)(request, reader);
+    if (!testInfo) {
+        throw new Error(`No test info for ${request.method} ${request.url}`);
+    }
+    const { testData, proxyPort } = testInfo;
+    const proxyRequest = await buildProxyRequest(testData, request);
+    const resp = await originalFetch(`http://localhost:${proxyPort}`, {
+        method: "POST",
+        body: JSON.stringify(proxyRequest),
+        next: {
+            // @ts-ignore
+            internal: true
+        }
+    });
+    if (!resp.ok) {
+        throw new Error(`Proxy request failed: ${resp.status}`);
+    }
+    const proxyResponse = await resp.json();
+    const { api } = proxyResponse;
+    switch(api){
+        case "continue":
+            return originalFetch(request);
+        case "abort":
+        case "unhandled":
+            throw new Error(`Proxy request aborted [${request.method} ${request.url}]`);
+        default:
+            break;
+    }
+    return buildResponse(proxyResponse);
+}
+function interceptFetch(originalFetch) {
+    __webpack_require__.g.fetch = function testFetch(input, init) {
+        var _init_next;
+        // Passthrough internal requests.
+        // @ts-ignore
+        if (init == null ? void 0 : (_init_next = init.next) == null ? void 0 : _init_next.internal) {
+            return originalFetch(input, init);
+        }
+        return handleFetch(originalFetch, new Request(input, init));
+    };
+    return ()=>{
+        __webpack_require__.g.fetch = originalFetch;
+    };
+} //# sourceMappingURL=fetch.js.map
+
+
+/***/ }),
+
+/***/ 3457:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+0 && (0);
+function _export(target, all) {
+    for(var name in all)Object.defineProperty(target, name, {
+        enumerable: true,
+        get: all[name]
+    });
+}
+_export(exports, {
+    interceptTestApis: function() {
+        return interceptTestApis;
+    },
+    wrapRequestHandler: function() {
+        return wrapRequestHandler;
+    }
+});
+const _context = __webpack_require__(3241);
+const _fetch = __webpack_require__(5178);
+function interceptTestApis() {
+    return (0, _fetch.interceptFetch)(__webpack_require__.g.fetch);
+}
+function wrapRequestHandler(handler) {
+    return (req, fn)=>(0, _context.withRequest)(req, _fetch.reader, ()=>handler(req, fn));
+} //# sourceMappingURL=server-edge.js.map
+
+
+/***/ }),
+
+/***/ 9186:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   P: () => (/* binding */ createAsyncLocalStorage)
+/* harmony export */ });
+const sharedAsyncLocalStorageNotAvailableError = new Error("Invariant: AsyncLocalStorage accessed in runtime where it is not available");
+class FakeAsyncLocalStorage {
+    disable() {
+        throw sharedAsyncLocalStorageNotAvailableError;
+    }
+    getStore() {
+        // This fake implementation of AsyncLocalStorage always returns `undefined`.
+        return undefined;
+    }
+    run() {
+        throw sharedAsyncLocalStorageNotAvailableError;
+    }
+    exit() {
+        throw sharedAsyncLocalStorageNotAvailableError;
+    }
+    enterWith() {
+        throw sharedAsyncLocalStorageNotAvailableError;
+    }
+}
+const maybeGlobalAsyncLocalStorage = globalThis.AsyncLocalStorage;
+function createAsyncLocalStorage() {
+    if (maybeGlobalAsyncLocalStorage) {
+        return new maybeGlobalAsyncLocalStorage();
+    }
+    return new FakeAsyncLocalStorage();
+} //# sourceMappingURL=async-local-storage.js.map
+
+
+/***/ })
+
+},
+/******/ __webpack_require__ => { // webpackRuntimeModules
+/******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+/******/ var __webpack_exports__ = (__webpack_exec__(4610));
+/******/ (_ENTRIES = typeof _ENTRIES === "undefined" ? {} : _ENTRIES)["middleware_src/middleware"] = __webpack_exports__;
+/******/ }
+]);
+//# sourceMappingURL=middleware.js.map;
+  export default (function () {
+    const module = { exports: {}, loaded: false };
+    const fn = (function(module,exports) {var b=Object.create;var p=Object.defineProperty;var w=Object.getOwnPropertyDescriptor;var T=Object.getOwnPropertyNames;var P=Object.getPrototypeOf,L=Object.prototype.hasOwnProperty;var h=e=>p(e,"__esModule",{value:!0});var _=(e,n)=>{h(e);for(var t in n)p(e,t,{get:n[t],enumerable:!0})},U=(e,n,t)=>{if(n&&typeof n=="object"||typeof n=="function")for(let i of T(n))!L.call(e,i)&&i!=="default"&&p(e,i,{get:()=>n[i],enumerable:!(t=w(n,i))||t.enumerable});return e},A=e=>U(h(p(e!=null?b(P(e)):{},"default",e&&e.__esModule&&"default"in e?{get:()=>e.default,enumerable:!0}:{value:e,enumerable:!0})),e);_(exports,{default:()=>N});var R=A(require("async_hooks")),S="@next/request-context",f=Symbol.for(S),C=Symbol.for("internal.storage");function O(){let e=globalThis;if(!e[f]){let n=new R.AsyncLocalStorage,t={get:()=>n.getStore(),[C]:n};e[f]=t}return e[f]}var q=O();function m(e,n){return q[C].run(e,n)}function y(e){let n={};return e&&e.forEach((t,i)=>{n[i]=t,i.toLowerCase()==="set-cookie"&&(n[i]=M(t))}),n}function M(e){let n=[],t=0,i,a,g,o,r;function x(){for(;t<e.length&&/\s/.test(e.charAt(t));)t+=1;return t<e.length}function s(){return a=e.charAt(t),a!=="="&&a!==";"&&a!==","}for(;t<e.length;){for(i=t,r=!1;x();)if(a=e.charAt(t),a===","){for(g=t,t+=1,x(),o=t;t<e.length&&s();)t+=1;t<e.length&&e.charAt(t)==="="?(r=!0,t=o,n.push(e.substring(i,g)),i=t):t=g+1}else t+=1;(!r||t>=e.length)&&n.push(e.substring(i,e.length))}return n}function N(e){let n=e.staticRoutes.map(i=>({regexp:new RegExp(i.namedRegex),page:i.page})),t=e.dynamicRoutes?.map(i=>({regexp:new RegExp(i.namedRegex),page:i.page}))||[];return async function(a,g){let o=new URL(a.url).pathname,r={};if(e.nextConfig?.basePath&&o.startsWith(e.nextConfig.basePath)&&(o=o.replace(e.nextConfig.basePath,"")||"/"),e.nextConfig?.i18n)for(let s of e.nextConfig.i18n.locales){let u=new RegExp(`^/${s}($|/)`,"i");if(o.match(u)){o=o.replace(u,"/")||"/";break}}for(let s of n)if(s.regexp.exec(o)){r.name=s.page;break}if(!r.name){let s=E(o);for(let u of t||[]){if(s&&!E(u.page))continue;let d=u.regexp.exec(o);if(d){r={name:u.page,params:d.groups};break}}}let x=await m({waitUntil:g.waitUntil},()=>_ENTRIES[`middleware_${e.name}`].default.call({},{request:{url:a.url,method:a.method,headers:y(a.headers),ip:c(a.headers,l.Ip),geo:{city:c(a.headers,l.City,!0),country:c(a.headers,l.Country,!0),latitude:c(a.headers,l.Latitude),longitude:c(a.headers,l.Longitude),region:c(a.headers,l.Region,!0)},nextConfig:e.nextConfig,page:r,body:a.body}}));return x.waitUntil&&g.waitUntil(x.waitUntil),x.response}}function c(e,n,t=!1){let i=e.get(n)||void 0;return t&&i?decodeURIComponent(i):i}function E(e){return e==="/api"||e.startsWith("/api/")}var l;(function(o){o.City="x-vercel-ip-city",o.Country="x-vercel-ip-country",o.Ip="x-real-ip",o.Latitude="x-vercel-ip-latitude",o.Longitude="x-vercel-ip-longitude",o.Region="x-vercel-ip-country-region"})(l||(l={}));
+
+});
+    fn(module, module.exports);
+    return module.exports;
+  }).call({}).default(
+    {"name":"src/middleware","staticRoutes":[{"page":"/","regex":"^/(?:/)?$","routeKeys":{},"namedRegex":"^/(?:/)?$"},{"page":"/_not-found","regex":"^/_not\\-found(?:/)?$","routeKeys":{},"namedRegex":"^/_not\\-found(?:/)?$"},{"page":"/admin","regex":"^/admin(?:/)?$","routeKeys":{},"namedRegex":"^/admin(?:/)?$"},{"page":"/admin/categories","regex":"^/admin/categories(?:/)?$","routeKeys":{},"namedRegex":"^/admin/categories(?:/)?$"},{"page":"/admin/contact","regex":"^/admin/contact(?:/)?$","routeKeys":{},"namedRegex":"^/admin/contact(?:/)?$"},{"page":"/admin/contact/messages","regex":"^/admin/contact/messages(?:/)?$","routeKeys":{},"namedRegex":"^/admin/contact/messages(?:/)?$"},{"page":"/admin/products","regex":"^/admin/products(?:/)?$","routeKeys":{},"namedRegex":"^/admin/products(?:/)?$"},{"page":"/admin/products/new","regex":"^/admin/products/new(?:/)?$","routeKeys":{},"namedRegex":"^/admin/products/new(?:/)?$"},{"page":"/admin/resources","regex":"^/admin/resources(?:/)?$","routeKeys":{},"namedRegex":"^/admin/resources(?:/)?$"},{"page":"/admin/resources/events/new","regex":"^/admin/resources/events/new(?:/)?$","routeKeys":{},"namedRegex":"^/admin/resources/events/new(?:/)?$"},{"page":"/admin/resources/news/new","regex":"^/admin/resources/news/new(?:/)?$","routeKeys":{},"namedRegex":"^/admin/resources/news/new(?:/)?$"},{"page":"/cozumler","regex":"^/cozumler(?:/)?$","routeKeys":{},"namedRegex":"^/cozumler(?:/)?$"},{"page":"/cozumler/anahtar-teslim-projeler","regex":"^/cozumler/anahtar\\-teslim\\-projeler(?:/)?$","routeKeys":{},"namedRegex":"^/cozumler/anahtar\\-teslim\\-projeler(?:/)?$"},{"page":"/cozumler/ar-ge-laboratuvarlari","regex":"^/cozumler/ar\\-ge\\-laboratuvarlari(?:/)?$","routeKeys":{},"namedRegex":"^/cozumler/ar\\-ge\\-laboratuvarlari(?:/)?$"},{"page":"/cozumler/endustriyel-laboratuvar-kurulumu","regex":"^/cozumler/endustriyel\\-laboratuvar\\-kurulumu(?:/)?$","routeKeys":{},"namedRegex":"^/cozumler/endustriyel\\-laboratuvar\\-kurulumu(?:/)?$"},{"page":"/cozumler/kalite-guvence-sistemleri","regex":"^/cozumler/kalite\\-guvence\\-sistemleri(?:/)?$","routeKeys":{},"namedRegex":"^/cozumler/kalite\\-guvence\\-sistemleri(?:/)?$"},{"page":"/cozumler/otomasyon-sistemleri","regex":"^/cozumler/otomasyon\\-sistemleri(?:/)?$","routeKeys":{},"namedRegex":"^/cozumler/otomasyon\\-sistemleri(?:/)?$"},{"page":"/hakkimizda","regex":"^/hakkimizda(?:/)?$","routeKeys":{},"namedRegex":"^/hakkimizda(?:/)?$"},{"page":"/iletisim","regex":"^/iletisim(?:/)?$","routeKeys":{},"namedRegex":"^/iletisim(?:/)?$"},{"page":"/kaynaklar","regex":"^/kaynaklar(?:/)?$","routeKeys":{},"namedRegex":"^/kaynaklar(?:/)?$"},{"page":"/login","regex":"^/login(?:/)?$","routeKeys":{},"namedRegex":"^/login(?:/)?$"},{"page":"/sektorler","regex":"^/sektorler(?:/)?$","routeKeys":{},"namedRegex":"^/sektorler(?:/)?$"},{"page":"/teklif-al","regex":"^/teklif\\-al(?:/)?$","routeKeys":{},"namedRegex":"^/teklif\\-al(?:/)?$"},{"page":"/urunler","regex":"^/urunler(?:/)?$","routeKeys":{},"namedRegex":"^/urunler(?:/)?$"}],"dynamicRoutes":[{"page":"/admin/products/[id]/edit","regex":"^/admin/products/([^/]+?)/edit(?:/)?$","routeKeys":{"nxtPid":"nxtPid"},"namedRegex":"^/admin/products/(?<nxtPid>[^/]+?)/edit(?:/)?$"},{"page":"/admin/resources/events/[id]/edit","regex":"^/admin/resources/events/([^/]+?)/edit(?:/)?$","routeKeys":{"nxtPid":"nxtPid"},"namedRegex":"^/admin/resources/events/(?<nxtPid>[^/]+?)/edit(?:/)?$"},{"page":"/admin/resources/news/edit/[id]","regex":"^/admin/resources/news/edit/([^/]+?)(?:/)?$","routeKeys":{"nxtPid":"nxtPid"},"namedRegex":"^/admin/resources/news/edit/(?<nxtPid>[^/]+?)(?:/)?$"},{"page":"/api/events/[id]","regex":"^/api/events/([^/]+?)(?:/)?$","routeKeys":{"nxtPid":"nxtPid"},"namedRegex":"^/api/events/(?<nxtPid>[^/]+?)(?:/)?$"},{"page":"/api/news/[id]","regex":"^/api/news/([^/]+?)(?:/)?$","routeKeys":{"nxtPid":"nxtPid"},"namedRegex":"^/api/news/(?<nxtPid>[^/]+?)(?:/)?$"},{"page":"/api/products/[id]","regex":"^/api/products/([^/]+?)(?:/)?$","routeKeys":{"nxtPid":"nxtPid"},"namedRegex":"^/api/products/(?<nxtPid>[^/]+?)(?:/)?$"},{"page":"/kaynaklar/etkinlik/[id]","regex":"^/kaynaklar/etkinlik/([^/]+?)(?:/)?$","routeKeys":{"nxtPid":"nxtPid"},"namedRegex":"^/kaynaklar/etkinlik/(?<nxtPid>[^/]+?)(?:/)?$"},{"page":"/kaynaklar/haber/[id]","regex":"^/kaynaklar/haber/([^/]+?)(?:/)?$","routeKeys":{"nxtPid":"nxtPid"},"namedRegex":"^/kaynaklar/haber/(?<nxtPid>[^/]+?)(?:/)?$"},{"page":"/urunler/[category]","regex":"^/urunler/([^/]+?)(?:/)?$","routeKeys":{"nxtPcategory":"nxtPcategory"},"namedRegex":"^/urunler/(?<nxtPcategory>[^/]+?)(?:/)?$"},{"page":"/urunler/[category]/[subcategory]","regex":"^/urunler/([^/]+?)/([^/]+?)(?:/)?$","routeKeys":{"nxtPcategory":"nxtPcategory","nxtPsubcategory":"nxtPsubcategory"},"namedRegex":"^/urunler/(?<nxtPcategory>[^/]+?)/(?<nxtPsubcategory>[^/]+?)(?:/)?$"},{"page":"/urunler/[category]/[subcategory]/[product]","regex":"^/urunler/([^/]+?)/([^/]+?)/([^/]+?)(?:/)?$","routeKeys":{"nxtPcategory":"nxtPcategory","nxtPsubcategory":"nxtPsubcategory","nxtPproduct":"nxtPproduct"},"namedRegex":"^/urunler/(?<nxtPcategory>[^/]+?)/(?<nxtPsubcategory>[^/]+?)/(?<nxtPproduct>[^/]+?)(?:/)?$"}],"nextConfig":{"basePath":""}}
+  )
