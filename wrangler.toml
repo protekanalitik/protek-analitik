@@ -1,0 +1,57 @@
+name = "protek-analitik-production"
+pages_build_output_dir = "dist"
+compatibility_date = "2024-01-15"
+compatibility_flags = ["nodejs_compat"]
+
+[env.production]
+name = "protek-analitik-production"
+
+[env.preview]
+name = "protek-analitik-preview"
+
+# D1 Database Configuration
+[[d1_databases]]
+binding = "DB"
+database_name = "protekanalitik-d1"
+database_id = "d981f87b-d682-4d1c-985c-06cd65333db7"
+
+[[env.production.d1_databases]]
+binding = "DB"
+database_name = "protekanalitik-d1"
+database_id = "d981f87b-d682-4d1c-985c-06cd65333db7"
+
+[[env.preview.d1_databases]]
+binding = "DB"
+database_name = "protekanalitik-d1"
+database_id = "d981f87b-d682-4d1c-985c-06cd65333db7"
+
+# Environment Variables
+[vars]
+ENVIRONMENT = "development"
+JWT_SECRET = "your-jwt-secret-key-here"
+ADMIN_USERNAME = "protekadmin"
+ADMIN_PASSWORD_HASH = "$2b$12$placeholder-hash"
+
+[env.production.vars]
+ENVIRONMENT = "production"
+JWT_SECRET = "protek-production-jwt-secret-key-32-chars-min"
+ADMIN_USERNAME = "protekadmin"
+ADMIN_PASSWORD_HASH = "$2b$12$placeholder-hash"
+
+[env.preview.vars]
+ENVIRONMENT = "preview"
+
+# R2 Bucket Configuration (for file uploads)
+[[r2_buckets]]
+binding = "UPLOADS"
+bucket_name = "protekanalitik-files"
+preview_bucket_name = "protekanalitik-files"
+
+[[env.production.r2_buckets]]
+binding = "UPLOADS"
+bucket_name = "protekanalitik-files"
+
+[[env.preview.r2_buckets]]
+binding = "UPLOADS"
+bucket_name = "protekanalitik-files"
+

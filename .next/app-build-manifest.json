@@ -1,0 +1,353 @@
+{
+  "pages": {
+    "/_not-found": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/app/_not-found-af8415002db8f3b2.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/css/0e6831cd62b1d37a.css",
+      "static/chunks/app/layout-179673434c8b27ce.js"
+    ],
+    "/cozumler/anahtar-teslim-projeler/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/4890-133e2fd060d5c5d5.js",
+      "static/chunks/app/cozumler/anahtar-teslim-projeler/page-6fbdfe36ca33e88b.js"
+    ],
+    "/cozumler/endustriyel-laboratuvar-kurulumu/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/4890-133e2fd060d5c5d5.js",
+      "static/chunks/app/cozumler/endustriyel-laboratuvar-kurulumu/page-6335950d214f2853.js"
+    ],
+    "/cozumler/kalite-guvence-sistemleri/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/4890-133e2fd060d5c5d5.js",
+      "static/chunks/app/cozumler/kalite-guvence-sistemleri/page-a5b3d572356c24e8.js"
+    ],
+    "/cozumler/otomasyon-sistemleri/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/6330-081ef9d1546995a6.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/4890-133e2fd060d5c5d5.js",
+      "static/chunks/app/cozumler/otomasyon-sistemleri/page-a11dafae7e3f69bf.js"
+    ],
+    "/cozumler/ar-ge-laboratuvarlari/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/4890-133e2fd060d5c5d5.js",
+      "static/chunks/app/cozumler/ar-ge-laboratuvarlari/page-1d8878aaee71c8a5.js"
+    ],
+    "/cozumler/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/4890-133e2fd060d5c5d5.js",
+      "static/chunks/app/cozumler/page-e67edd2954e28d30.js"
+    ],
+    "/kaynaklar/etkinlik/[id]/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/4890-133e2fd060d5c5d5.js",
+      "static/chunks/app/kaynaklar/etkinlik/[id]/page-748fd37217cb1b1a.js"
+    ],
+    "/iletisim/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/4890-133e2fd060d5c5d5.js",
+      "static/chunks/app/iletisim/page-9422017aa7dca103.js"
+    ],
+    "/hakkimizda/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/4890-133e2fd060d5c5d5.js",
+      "static/chunks/app/hakkimizda/page-1eac155e2d795f6f.js"
+    ],
+    "/kaynaklar/haber/[id]/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/4890-133e2fd060d5c5d5.js",
+      "static/chunks/app/kaynaklar/haber/[id]/page-330cde82074911f0.js"
+    ],
+    "/login/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/app/login/page-200429a5a14939bd.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/919-22e7d5bfcaec0b4a.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/4890-133e2fd060d5c5d5.js",
+      "static/chunks/2958-2326f1cf5f8256f7.js",
+      "static/chunks/app/page-c2789626ff2c180a.js"
+    ],
+    "/kaynaklar/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/4890-133e2fd060d5c5d5.js",
+      "static/chunks/app/kaynaklar/page-f19413c57bcafa3d.js"
+    ],
+    "/teklif-al/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/app/teklif-al/page-d11eb3b1e2067bb9.js"
+    ],
+    "/urunler/[category]/[subcategory]/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/4890-133e2fd060d5c5d5.js",
+      "static/chunks/2958-2326f1cf5f8256f7.js",
+      "static/chunks/app/urunler/[category]/[subcategory]/page-d94c3873471d903a.js"
+    ],
+    "/sektorler/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/4890-133e2fd060d5c5d5.js",
+      "static/chunks/app/sektorler/page-dea7b2b6b4bb742a.js"
+    ],
+    "/urunler/[category]/[subcategory]/[product]/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/4890-133e2fd060d5c5d5.js",
+      "static/chunks/2958-2326f1cf5f8256f7.js",
+      "static/chunks/app/urunler/[category]/[subcategory]/[product]/page-f2e93daa42a10012.js"
+    ],
+    "/urunler/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/4890-133e2fd060d5c5d5.js",
+      "static/chunks/2958-2326f1cf5f8256f7.js",
+      "static/chunks/app/urunler/page-5ad8ec4eaef6226e.js"
+    ],
+    "/urunler/[category]/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/7506-425697d8473f4624.js",
+      "static/chunks/2767-b344af693d0917f8.js",
+      "static/chunks/4890-133e2fd060d5c5d5.js",
+      "static/chunks/2958-2326f1cf5f8256f7.js",
+      "static/chunks/app/urunler/[category]/page-22197d2b2d1f6672.js"
+    ],
+    "/admin/categories/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/2958-2326f1cf5f8256f7.js",
+      "static/chunks/app/admin/categories/page-30c6dadafac26742.js"
+    ],
+    "/admin/layout": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2695-063f111499e151c1.js",
+      "static/chunks/app/admin/layout-2a2382309acb8d4a.js"
+    ],
+    "/admin/contact/messages/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/app/admin/contact/messages/page-95f56b60689a8e5b.js"
+    ],
+    "/admin/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/app/admin/page-871d65497fd3be20.js"
+    ],
+    "/admin/contact/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/app/admin/contact/page-6fa6db72bbcfff3b.js"
+    ],
+    "/admin/products/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2958-2326f1cf5f8256f7.js",
+      "static/chunks/app/admin/products/page-c607efa869f07f94.js"
+    ],
+    "/admin/products/new/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/1832-a9a735b5c92625dc.js",
+      "static/chunks/app/admin/products/new/page-0eeccf3b5b03229e.js"
+    ],
+    "/admin/resources/news/new/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/app/admin/resources/news/new/page-1354d05083f5b36c.js"
+    ],
+    "/admin/resources/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/app/admin/resources/page-f463f4d9516e0807.js"
+    ],
+    "/admin/resources/events/new/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/app/admin/resources/events/new/page-fd752cf6982df81c.js"
+    ],
+    "/admin/products/[id]/edit/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/2958-2326f1cf5f8256f7.js",
+      "static/chunks/1832-a9a735b5c92625dc.js",
+      "static/chunks/app/admin/products/[id]/edit/page-ef8eb3cb47c30b80.js"
+    ],
+    "/admin/resources/news/edit/[id]/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/app/admin/resources/news/edit/[id]/page-e755075caa5b8c05.js"
+    ],
+    "/admin/resources/events/[id]/edit/page": [
+      "static/chunks/webpack-231119bcb290f792.js",
+      "static/chunks/fd9d1056-4efbc09fff86c10d.js",
+      "static/chunks/4938-947e9e6b5f628a16.js",
+      "static/chunks/main-app-0111d87fc3928fe7.js",
+      "static/chunks/1176-218f3a328b5f1886.js",
+      "static/chunks/app/admin/resources/events/[id]/edit/page-d63f4403666952f6.js"
+    ]
+  }
+}
