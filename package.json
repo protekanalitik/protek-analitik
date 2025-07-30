@@ -5,10 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:dev": "NODE_ENV=development next build",
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "pages:build": "npm run build && npx @cloudflare/next-on-pages",
+    "pages:build:dev": "npm run build:dev && npx @cloudflare/next-on-pages",
     "preview": "npm run pages:build && wrangler pages dev",
     "deploy": "npm run pages:build && wrangler pages deploy",
     "cf:deploy": "npm run pages:build && wrangler pages deploy dist --project-name=protek-analitik-production"
