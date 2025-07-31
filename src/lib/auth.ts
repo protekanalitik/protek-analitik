@@ -1,6 +1,6 @@
 // Authentication utilities and services
 import { SignJWT, jwtVerify } from 'jose'
-import bcrypt from 'bcryptjs'
+import { EdgePasswordUtils } from './password-edge'
 import { DatabaseUtils } from './database'
 
 // JWT Configuration
@@ -102,13 +102,12 @@ export class JWTUtils {
 export class PasswordUtils {
   // Hash password
   static async hashPassword(password: string): Promise<string> {
-    const saltRounds = 12
-    return await bcrypt.hash(password, saltRounds)
+    return await EdgePasswordUtils.hashPassword(password)
   }
 
   // Verify password
   static async verifyPassword(password: string, hashedPassword: string): Promise<boolean> {
-    return await bcrypt.compare(password, hashedPassword)
+    return await EdgePasswordUtils.verifyPassword(password, hashedPassword)
   }
 
   // Generate random password

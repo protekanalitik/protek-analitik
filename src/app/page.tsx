@@ -11,7 +11,7 @@ import About from '@/components/sections/About'
 import Contact from '@/components/sections/Contact'
 import Footer from '@/components/layout/Footer'
 
-// Force dynamic rendering to prevent static generation errors with usePathname
+// Force dynamic rendering to prevent static generation errors
 export const dynamic = 'force-dynamic'
 // Use Edge Runtime for Cloudflare Pages compatibility
 export const runtime = 'edge'

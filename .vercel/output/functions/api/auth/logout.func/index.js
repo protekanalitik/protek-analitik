@@ -1,10 +1,10 @@
 
   
   globalThis._ENTRIES = {};
-/**/;self.__BUILD_MANIFEST={"polyfillFiles":["static/chunks/polyfills-c67a75d1b6f99dc8.js"],"devFiles":[],"ampDevFiles":[],"lowPriorityFiles":["static/F3F58Ws0yITT6658bZYPl/_buildManifest.js","static/F3F58Ws0yITT6658bZYPl/_ssgManifest.js"],"rootMainFiles":["static/chunks/webpack-64a9b8d610704ad7.js","static/chunks/fd9d1056-4efbc09fff86c10d.js","static/chunks/993-00a156fd2f68067b.js","static/chunks/main-app-b5434e56c2b0ff6f.js"],"pages":{"/_app":["static/chunks/webpack-64a9b8d610704ad7.js","static/chunks/framework-b566207abf043e2e.js","static/chunks/main-b6dcccc33a0bd6ed.js","static/chunks/pages/_app-11c09b1e93f7270c.js"],"/_error":["static/chunks/webpack-64a9b8d610704ad7.js","static/chunks/framework-b566207abf043e2e.js","static/chunks/main-b6dcccc33a0bd6ed.js","static/chunks/pages/_error-7ae0e5d1f9ec0862.js"]},"ampFirstPages":[]}
+/**/;self.__BUILD_MANIFEST={"polyfillFiles":["static/chunks/polyfills-c67a75d1b6f99dc8.js"],"devFiles":[],"ampDevFiles":[],"lowPriorityFiles":["static/hUOJ7JM78aj_JYXmrfA7O/_buildManifest.js","static/hUOJ7JM78aj_JYXmrfA7O/_ssgManifest.js"],"rootMainFiles":["static/chunks/webpack-082a31737c7af4fd.js","static/chunks/fd9d1056-394c4b9237b372cc.js","static/chunks/993-f208a90c58704b1a.js","static/chunks/main-app-b5434e56c2b0ff6f.js"],"pages":{"/_app":["static/chunks/webpack-082a31737c7af4fd.js","static/chunks/framework-b566207abf043e2e.js","static/chunks/main-4b83e750c2a7d2a0.js","static/chunks/pages/_app-11c09b1e93f7270c.js"],"/_error":["static/chunks/webpack-082a31737c7af4fd.js","static/chunks/framework-b566207abf043e2e.js","static/chunks/main-4b83e750c2a7d2a0.js","static/chunks/pages/_error-7ae0e5d1f9ec0862.js"]},"ampFirstPages":[]}
 /**/;self.__REACT_LOADABLE_MANIFEST="{}"
 /**/;self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":false}"
-/**/;self.__PRERENDER_MANIFEST="{\"version\":4,\"routes\":{},\"dynamicRoutes\":{},\"notFoundRoutes\":[],\"preview\":{\"previewModeId\":\"eb652a4d9c20992daab59d60be840cf8\",\"previewModeSigningKey\":\"b47de7fd81def8299c8740dceb48ee9e8218ebd847e384a6aa15bbb56d4db62f\",\"previewModeEncryptionKey\":\"e01ab5e3fa614ee5c8cb375ebac0305ab73a0d3fa03143facfd7274b2bc4255f\"}}"
+/**/;self.__PRERENDER_MANIFEST="{\"version\":4,\"routes\":{},\"dynamicRoutes\":{},\"notFoundRoutes\":[],\"preview\":{\"previewModeId\":\"fe11fd6082bfe6b31bf9f0dbdb1ad9f8\",\"previewModeSigningKey\":\"e5b3ea9ab0b2cb08800175890eb0ea8a4e8796df9f290dd1512c8f8273e55277\",\"previewModeEncryptionKey\":\"70864eaa20a4f805778c2dff61ddbbad6cbb2aab21c7b78d3ba0604305c70b58\"}}"
 /**/;/******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({});
@@ -248,8 +248,8 @@ __webpack_require__.d(route_next_edge_ssr_entry_namespaceObject, {
   staticGenerationBailout: () => (staticGenerationBailout)
 });
 
-// EXTERNAL MODULE: ./node_modules/next/dist/esm/server/web/edge-route-module-wrapper.js + 30 modules
-var edge_route_module_wrapper = __webpack_require__(8072);
+// EXTERNAL MODULE: ./node_modules/next/dist/esm/server/web/edge-route-module-wrapper.js + 32 modules
+var edge_route_module_wrapper = __webpack_require__(1774);
 // EXTERNAL MODULE: ./node_modules/next/dist/esm/server/future/route-modules/app-route/module.compiled.js
 var module_compiled = __webpack_require__(8381);
 // EXTERNAL MODULE: ./node_modules/next/dist/esm/server/future/route-kind.js
@@ -3511,7 +3511,7 @@ var __dirname = "/";
 
 /***/ }),
 
-/***/ 8752:
+/***/ 3014:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -6515,8 +6515,8 @@ class DynamicServerError extends Error {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   o: () => (/* binding */ staticGenerationBailout)
 /* harmony export */ });
-/* harmony import */ var _hooks_server_context__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1681);
-/* harmony import */ var _static_generation_async_storage_external__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8823);
+/* harmony import */ var _hooks_server_context__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1681);
+/* harmony import */ var _static_generation_async_storage_external__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8823);
 
 
 class StaticGenBailoutError extends Error {
@@ -6532,7 +6532,7 @@ function formatErrorMessage(reason, opts) {
 }
 const staticGenerationBailout = (reason, param)=>{
     let { dynamic, link } = param === void 0 ? {} : param;
-    const staticGenerationStore = _static_generation_async_storage_external__WEBPACK_IMPORTED_MODULE_0__/* .staticGenerationAsyncStorage */ .A.getStore();
+    const staticGenerationStore = _static_generation_async_storage_external__WEBPACK_IMPORTED_MODULE_1__/* .staticGenerationAsyncStorage */ .A.getStore();
     if (!staticGenerationStore) return false;
     if (staticGenerationStore.forceStatic) {
         return true;
@@ -6555,7 +6555,7 @@ const staticGenerationBailout = (reason, param)=>{
     // to 0.
     staticGenerationStore.revalidate = 0;
     if (staticGenerationStore.isStaticGeneration) {
-        const err = new _hooks_server_context__WEBPACK_IMPORTED_MODULE_1__.DynamicServerError(message);
+        const err = new _hooks_server_context__WEBPACK_IMPORTED_MODULE_0__.DynamicServerError(message);
         staticGenerationStore.dynamicUsageDescription = reason;
         staticGenerationStore.dynamicUsageStack = err.stack;
         throw err;
@@ -8769,7 +8769,7 @@ const getTracer = (()=>{
 
 /***/ }),
 
-/***/ 8072:
+/***/ 1774:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -10029,6 +10029,166 @@ class FileSystemCache {
     }
 } //# sourceMappingURL=file-system-cache.js.map
 
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/router/utils/sorted-routes.js
+class UrlNode {
+    insert(urlPath) {
+        this._insert(urlPath.split("/").filter(Boolean), [], false);
+    }
+    smoosh() {
+        return this._smoosh();
+    }
+    _smoosh(prefix) {
+        if (prefix === void 0) prefix = "/";
+        const childrenPaths = [
+            ...this.children.keys()
+        ].sort();
+        if (this.slugName !== null) {
+            childrenPaths.splice(childrenPaths.indexOf("[]"), 1);
+        }
+        if (this.restSlugName !== null) {
+            childrenPaths.splice(childrenPaths.indexOf("[...]"), 1);
+        }
+        if (this.optionalRestSlugName !== null) {
+            childrenPaths.splice(childrenPaths.indexOf("[[...]]"), 1);
+        }
+        const routes = childrenPaths.map((c)=>this.children.get(c)._smoosh("" + prefix + c + "/")).reduce((prev, curr)=>[
+                ...prev,
+                ...curr
+            ], []);
+        if (this.slugName !== null) {
+            routes.push(...this.children.get("[]")._smoosh(prefix + "[" + this.slugName + "]/"));
+        }
+        if (!this.placeholder) {
+            const r = prefix === "/" ? "/" : prefix.slice(0, -1);
+            if (this.optionalRestSlugName != null) {
+                throw new Error('You cannot define a route with the same specificity as a optional catch-all route ("' + r + '" and "' + r + "[[..." + this.optionalRestSlugName + ']]").');
+            }
+            routes.unshift(r);
+        }
+        if (this.restSlugName !== null) {
+            routes.push(...this.children.get("[...]")._smoosh(prefix + "[..." + this.restSlugName + "]/"));
+        }
+        if (this.optionalRestSlugName !== null) {
+            routes.push(...this.children.get("[[...]]")._smoosh(prefix + "[[..." + this.optionalRestSlugName + "]]/"));
+        }
+        return routes;
+    }
+    _insert(urlPaths, slugNames, isCatchAll) {
+        if (urlPaths.length === 0) {
+            this.placeholder = false;
+            return;
+        }
+        if (isCatchAll) {
+            throw new Error("Catch-all must be the last part of the URL.");
+        }
+        // The next segment in the urlPaths list
+        let nextSegment = urlPaths[0];
+        // Check if the segment matches `[something]`
+        if (nextSegment.startsWith("[") && nextSegment.endsWith("]")) {
+            // Strip `[` and `]`, leaving only `something`
+            let segmentName = nextSegment.slice(1, -1);
+            let isOptional = false;
+            if (segmentName.startsWith("[") && segmentName.endsWith("]")) {
+                // Strip optional `[` and `]`, leaving only `something`
+                segmentName = segmentName.slice(1, -1);
+                isOptional = true;
+            }
+            if (segmentName.startsWith("...")) {
+                // Strip `...`, leaving only `something`
+                segmentName = segmentName.substring(3);
+                isCatchAll = true;
+            }
+            if (segmentName.startsWith("[") || segmentName.endsWith("]")) {
+                throw new Error("Segment names may not start or end with extra brackets ('" + segmentName + "').");
+            }
+            if (segmentName.startsWith(".")) {
+                throw new Error("Segment names may not start with erroneous periods ('" + segmentName + "').");
+            }
+            function handleSlug(previousSlug, nextSlug) {
+                if (previousSlug !== null) {
+                    // If the specific segment already has a slug but the slug is not `something`
+                    // This prevents collisions like:
+                    // pages/[post]/index.js
+                    // pages/[id]/index.js
+                    // Because currently multiple dynamic params on the same segment level are not supported
+                    if (previousSlug !== nextSlug) {
+                        // TODO: This error seems to be confusing for users, needs an error link, the description can be based on above comment.
+                        throw new Error("You cannot use different slug names for the same dynamic path ('" + previousSlug + "' !== '" + nextSlug + "').");
+                    }
+                }
+                slugNames.forEach((slug)=>{
+                    if (slug === nextSlug) {
+                        throw new Error('You cannot have the same slug name "' + nextSlug + '" repeat within a single dynamic path');
+                    }
+                    if (slug.replace(/\W/g, "") === nextSegment.replace(/\W/g, "")) {
+                        throw new Error('You cannot have the slug names "' + slug + '" and "' + nextSlug + '" differ only by non-word symbols within a single dynamic path');
+                    }
+                });
+                slugNames.push(nextSlug);
+            }
+            if (isCatchAll) {
+                if (isOptional) {
+                    if (this.restSlugName != null) {
+                        throw new Error('You cannot use both an required and optional catch-all route at the same level ("[...' + this.restSlugName + ']" and "' + urlPaths[0] + '" ).');
+                    }
+                    handleSlug(this.optionalRestSlugName, segmentName);
+                    // slugName is kept as it can only be one particular slugName
+                    this.optionalRestSlugName = segmentName;
+                    // nextSegment is overwritten to [[...]] so that it can later be sorted specifically
+                    nextSegment = "[[...]]";
+                } else {
+                    if (this.optionalRestSlugName != null) {
+                        throw new Error('You cannot use both an optional and required catch-all route at the same level ("[[...' + this.optionalRestSlugName + ']]" and "' + urlPaths[0] + '").');
+                    }
+                    handleSlug(this.restSlugName, segmentName);
+                    // slugName is kept as it can only be one particular slugName
+                    this.restSlugName = segmentName;
+                    // nextSegment is overwritten to [...] so that it can later be sorted specifically
+                    nextSegment = "[...]";
+                }
+            } else {
+                if (isOptional) {
+                    throw new Error('Optional route parameters are not yet supported ("' + urlPaths[0] + '").');
+                }
+                handleSlug(this.slugName, segmentName);
+                // slugName is kept as it can only be one particular slugName
+                this.slugName = segmentName;
+                // nextSegment is overwritten to [] so that it can later be sorted specifically
+                nextSegment = "[]";
+            }
+        }
+        // If this UrlNode doesn't have the nextSegment yet we create a new child UrlNode
+        if (!this.children.has(nextSegment)) {
+            this.children.set(nextSegment, new UrlNode());
+        }
+        this.children.get(nextSegment)._insert(urlPaths.slice(1), slugNames, isCatchAll);
+    }
+    constructor(){
+        this.placeholder = true;
+        this.children = new Map();
+        this.slugName = null;
+        this.restSlugName = null;
+        this.optionalRestSlugName = null;
+    }
+}
+function getSortedRoutes(normalizedPages) {
+    // First the UrlNode is created, and every UrlNode can have only 1 dynamic segment
+    // Eg you can't have pages/[post]/abc.js and pages/[hello]/something-else.js
+    // Only 1 dynamic segment per nesting level
+    // So in the case that is test/integration/dynamic-routing it'll be this:
+    // pages/[post]/comments.js
+    // pages/blog/[post]/comment/[id].js
+    // Both are fine because `pages/[post]` and `pages/blog` are on the same level
+    // So in this case `UrlNode` created here has `this.slugName === 'post'`
+    // And since your PR passed through `slugName` as an array basically it'd including it in too many possibilities
+    // Instead what has to be passed through is the upwards path's dynamic names
+    const root = new UrlNode();
+    // Here the `root` gets injected multiple paths, and insert will break them up into sublevels
+    normalizedPages.forEach((pagePath)=>root.insert(pagePath));
+    // Smoosh will then sort those sublevels up to the point where you get the correct route definition priority
+    return root.smoosh();
+} //# sourceMappingURL=sorted-routes.js.map
+
 ;// CONCATENATED MODULE: ./node_modules/next/dist/esm/server/future/helpers/interception-routes.js
 
 // order matters here, the first match will be used
@@ -10103,6 +10263,10 @@ function isDynamicRoute(route) {
     }
     return TEST_ROUTE.test(route);
 } //# sourceMappingURL=is-dynamic.js.map
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/router/utils/index.js
+
+ //# sourceMappingURL=index.js.map
 
 ;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/utils.js
 /**
@@ -10884,7 +11048,7 @@ var native_url = __webpack_require__(4025);
 // EXTERNAL MODULE: ./node_modules/next/dist/esm/shared/lib/i18n/normalize-locale-path.js
 var normalize_locale_path = __webpack_require__(4823);
 // EXTERNAL MODULE: ./node_modules/next/dist/compiled/path-to-regexp/index.js
-var path_to_regexp = __webpack_require__(8752);
+var path_to_regexp = __webpack_require__(3014);
 ;// CONCATENATED MODULE: ./node_modules/next/dist/esm/shared/lib/router/utils/path-match.js
 
 
@@ -12412,8 +12576,8 @@ class MutableRequestCookiesAdapter {
 /* harmony export */   x: () => (/* binding */ NextResponse)
 /* harmony export */ });
 /* harmony import */ var _next_url__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2639);
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(697);
-/* harmony import */ var _cookies__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9558);
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(697);
+/* harmony import */ var _cookies__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9558);
 
 
 
@@ -12443,9 +12607,9 @@ class NextResponse extends Response {
     constructor(body, init = {}){
         super(body, init);
         this[INTERNALS] = {
-            cookies: new _cookies__WEBPACK_IMPORTED_MODULE_1__/* .ResponseCookies */ .n(this.headers),
+            cookies: new _cookies__WEBPACK_IMPORTED_MODULE_2__/* .ResponseCookies */ .n(this.headers),
             url: init.url ? new _next_url__WEBPACK_IMPORTED_MODULE_0__/* .NextURL */ .c(init.url, {
-                headers: (0,_utils__WEBPACK_IMPORTED_MODULE_2__/* .toNodeOutgoingHttpHeaders */ .lb)(this.headers),
+                headers: (0,_utils__WEBPACK_IMPORTED_MODULE_1__/* .toNodeOutgoingHttpHeaders */ .lb)(this.headers),
                 nextConfig: init.nextConfig
             }) : undefined
         };
@@ -12479,7 +12643,7 @@ class NextResponse extends Response {
         }
         const initObj = typeof init === "object" ? init : {};
         const headers = new Headers(initObj == null ? void 0 : initObj.headers);
-        headers.set("Location", (0,_utils__WEBPACK_IMPORTED_MODULE_2__/* .validateURL */ .r4)(url));
+        headers.set("Location", (0,_utils__WEBPACK_IMPORTED_MODULE_1__/* .validateURL */ .r4)(url));
         return new NextResponse(null, {
             ...initObj,
             headers,
@@ -12488,7 +12652,7 @@ class NextResponse extends Response {
     }
     static rewrite(destination, init) {
         const headers = new Headers(init == null ? void 0 : init.headers);
-        headers.set("x-middleware-rewrite", (0,_utils__WEBPACK_IMPORTED_MODULE_2__/* .validateURL */ .r4)(destination));
+        headers.set("x-middleware-rewrite", (0,_utils__WEBPACK_IMPORTED_MODULE_1__/* .validateURL */ .r4)(destination));
         handleMiddlewareField(init, headers);
         return new NextResponse(null, {
             ...init,

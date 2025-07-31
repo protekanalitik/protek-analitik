@@ -35,7 +35,11 @@ const navigation = [
   { name: 'Kaynaklar', href: '/admin/resources', icon: DocumentTextIcon },
   { name: 'İletişim Bilgileri', href: '/admin/contact', icon: ChatBubbleLeftRightIcon },
   { name: 'İletişim Mesajları', href: '/admin/contact/messages', icon: InboxIcon },
+  { name: 'Edge Runtime', href: '/admin/edge-runtime', icon: UsersIcon },
 ]
+
+export const dynamic = 'force-dynamic'
+export const runtime = 'edge'
 
 export default function AdminLayout({ children }: AdminLayoutProps) {
   const [sidebarOpen, setSidebarOpen] = useState(false)

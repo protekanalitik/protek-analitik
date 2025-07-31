@@ -9,7 +9,13 @@ import {
   CheckCircleIcon,
   CalendarIcon
 } from '@heroicons/react/24/outline'
-import ImageUpload from '@/components/ImageUpload'
+import dynamic from 'next/dynamic'
+
+// Dynamic import için ImageUpload component'ini lazy load yap
+const ImageUpload = dynamic(() => import('@/components/ImageUpload'), {
+  loading: () => <div className="animate-pulse bg-gray-200 h-48 rounded-lg" />,
+  ssr: false
+})
 
 interface EventForm {
   title: string

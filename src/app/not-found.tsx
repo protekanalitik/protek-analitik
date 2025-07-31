@@ -1,6 +1,10 @@
 import Link from 'next/link'
+import { ExclamationTriangleIcon } from '@heroicons/react/24/outline'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
+
+// Edge Runtime for Cloudflare Pages compatibility
+export const runtime = 'edge'
 
 // Force dynamic rendering to prevent static generation errors
 export const dynamic = 'force-dynamic'

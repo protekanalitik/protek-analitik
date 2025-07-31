@@ -1,25 +1,33 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-
-// Force dynamic rendering to prevent static generation errors
-export const dynamic = 'force-dynamic'
-// Use Edge Runtime for Cloudflare Pages compatibility
-export const runtime = 'edge'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { 
   ArrowLeftIcon,
   PhotoIcon,
   PlusIcon,
+  TagIcon,
+  DocumentTextIcon,
+  CubeIcon,
+  ShieldCheckIcon,
+  FolderPlusIcon,
   XMarkIcon,
   CheckCircleIcon,
-  DocumentIcon,
-  TruckIcon,
-  ShieldCheckIcon,
-  FolderPlusIcon
+  TruckIcon
 } from '@heroicons/react/24/outline'
-import MultipleImageUpload from '@/components/MultipleImageUpload'
+import dynamicImport from 'next/dynamic'
+
+// Force dynamic rendering to prevent static generation errors
+export const dynamic = 'force-dynamic'
+// Use Edge Runtime for Cloudflare Pages compatibility
+export const runtime = 'edge'
+
+// Dynamic import için MultipleImageUpload component'ini lazy load yap
+const MultipleImageUpload = dynamicImport(() => import('@/components/MultipleImageUpload'), {
+  loading: () => <div className="animate-pulse bg-gray-200 h-48 rounded-lg" />,
+  ssr: false
+})
 
 interface ProductForm {
   name: string
@@ -587,7 +595,7 @@ export default function NewProductPage() {
                     return (
                       <div key={index} className="flex items-center justify-between p-3 bg-purple-50 rounded-lg border">
                         <div className="flex items-center space-x-2">
-                          <DocumentIcon className="w-4 h-4 text-purple-600" />
+                          <DocumentTextIcon className="w-5 h-5" />
                       <div className="text-sm">
                             <div className="font-medium text-gray-800">{name}</div>
                             <div className="text-xs text-gray-500 truncate max-w-xs">{url}</div>

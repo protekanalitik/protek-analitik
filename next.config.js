@@ -1,16 +1,32 @@
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+})
+
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
   // Force all pages to be dynamic to prevent React context and Html import errors
   output: 'standalone',
+  poweredByHeader: false,
+  reactStrictMode: true,
+  compress: true,
+  // Safe image optimization
+  images: {
+    formats: ['image/webp', 'image/avif'],
+    minimumCacheTTL: 60,
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+  },
   generateStaticParams: false,
   // Disable webpack cache for production to avoid large file size issues on Cloudflare Pages
   webpack: (config, { isServer, dev }) => {
     if (!dev) {
       config.cache = false;
-      // Disable all webpack optimizations
+      // Safe bundle size optimizations
       config.optimization = {
         ...config.optimization,
+        usedExports: true,
+        sideEffects: false,
         minimize: false,
         minimizer: [],
       };
@@ -91,4 +107,4 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig 
+module.exports = withBundleAnalyzer(nextConfig) 
