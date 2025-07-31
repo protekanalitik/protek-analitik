@@ -2,11 +2,43 @@
 
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { ChevronRightIcon, HomeIcon, BeakerIcon, CubeIcon, WrenchIcon, FlagIcon, FunnelIcon } from '@heroicons/react/24/outline'
-import { productCategories, getProductsBySubcategory } from '@/data/products'
+// Product ve Category type'ları API'den alacağız
+type Product = {
+  id: string
+  name: string
+  description: string
+  image: string
+  category: string
+  subcategory: string
+  features: string[]
+  applications: string[]
+  specifications?: Record<string, string>
+  dataSheet?: string
+  price?: string
+  created_at?: string
+  updated_at?: string
+  isWarrantied?: boolean
+  hasFreeShipping?: boolean
+}
+
+type Category = {
+  key: string
+  name: string
+  description: string
+  icon?: string
+  subcategories: Subcategory[]
+}
+
+type Subcategory = {
+  key: string
+  name: string
+  description: string
+  products: any[]
+}
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 
@@ -25,10 +57,60 @@ interface SubcategoryPageProps {
 
 export default function SubcategoryPage({ params }: SubcategoryPageProps) {
   const [sortBy, setSortBy] = useState<'name' | 'applications'>('name')
+  const [productCategories, setProductCategories] = useState<Category[]>([])
   const [ref, inView] = useInView({
     threshold: 0.1,
     triggerOnce: true,
   })
+
+  // Fetch categories from API (static import yerine)
+  const fetchCategories = async () => {
+    try {
+      // Fallback categories - static import yerine
+      const fallbackCategories: Category[] = [
+        {
+          key: 'lab-equipment',
+          name: 'Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler',
+          description: 'Laboratuvar ekipmanları ve sarf malzemeleri',
+          icon: 'beaker',
+          subcategories: [
+            { key: 'fiziksel-analiz', name: 'Fiziksel Analiz Ekipmanları', description: '', products: [] },
+            { key: 'kimyasal-analiz', name: 'Kimyasal Analiz Ekipmanları', description: '', products: [] },
+            { key: 'mikrobiyoloji', name: 'Mikrobiyoloji Analiz Ekipmanları', description: '', products: [] },
+            { key: 'test-olcu', name: 'Test, Ölçü Kontrol Sistemleri', description: '', products: [] },
+            { key: 'ar-ge', name: 'Araştırma ve Geliştirme Ekipmanları', description: '', products: [] }
+          ]
+        },
+        {
+          key: 'process-control',
+          name: 'Proses Kontrol Ve Hat Tipi Analiz Çözümleri',
+          description: 'Hat tipi analiz sistemleri',
+          icon: 'cube',
+          subcategories: [
+            { key: 'hat-tipi', name: 'Hat Tipi Analiz Sistemleri', description: '', products: [] }
+          ]
+        },
+        {
+          key: 'pilot-systems',
+          name: 'Pilot Tipi Üretim ve Proses Simülasyon Sistemleri',
+          description: 'Pilot üretim sistemleri',
+          icon: 'wrench',
+          subcategories: [
+            { key: 'karistirma', name: 'Karıştırma ve Homojenizasyon', description: '', products: [] }
+          ]
+        }
+      ]
+      setProductCategories(fallbackCategories)
+    } catch (error) {
+      console.error('Kategorileri yüklerken hata:', error)
+      setProductCategories([])
+    }
+  }
+
+  // useEffect to fetch categories on mount
+  useEffect(() => {
+    fetchCategories()
+  }, [])
 
   // Kategori ve alt kategoriyi bul
   const category = productCategories.find(cat => cat.key === params.category)
@@ -170,7 +252,7 @@ export default function SubcategoryPage({ params }: SubcategoryPageProps) {
                               <h4 className="text-xs font-semibold text-neutral-700 uppercase tracking-wide">
                                 Öne Çıkan Özellikler
                               </h4>
-                              {product.features.slice(0, 3).map((feature, idx) => (
+                              {product.features.slice(0, 3).map((feature: string, idx: number) => (
                                 <div key={idx} className="flex items-center text-xs text-neutral-500">
                                   <div className="w-1.5 h-1.5 bg-primary-400 rounded-full mr-2 flex-shrink-0"></div>
                                   <span className="line-clamp-1">{feature}</span>
@@ -184,7 +266,7 @@ export default function SubcategoryPage({ params }: SubcategoryPageProps) {
                                 Uygulama Alanları
                               </h4>
                               <div className="flex flex-wrap gap-1">
-                                {product.applications.slice(0, 3).map((app, idx) => (
+                                {product.applications.slice(0, 3).map((app: string, idx: number) => (
                                   <span
                                     key={idx}
                                     className="px-2 py-1 bg-neutral-100 text-neutral-600 text-xs rounded-full"
@@ -207,10 +289,10 @@ export default function SubcategoryPage({ params }: SubcategoryPageProps) {
                                   Teknik Özellikler
                                 </h4>
                                 <div className="text-xs text-neutral-500 space-y-1">
-                                  {Object.entries(product.specifications).slice(0, 2).map(([key, value]) => (
+                                  {Object.entries(product.specifications || {}).slice(0, 2).map(([key, value]) => (
                                     <div key={key} className="flex justify-between">
                                       <span className="font-medium">{key}:</span>
-                                      <span>{value}</span>
+                                      <span>{String(value)}</span>
                                     </div>
                                   ))}
                                 </div>

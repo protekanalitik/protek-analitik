@@ -110,28 +110,6 @@
       "wasm": [],
       "assets": []
     },
-    "/hakkimizda/page": {
-      "files": [
-        "server/server-reference-manifest.js",
-        "server/app/hakkimizda/page_client-reference-manifest.js",
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "prerender-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/hakkimizda/page.js"
-      ],
-      "name": "app/hakkimizda/page",
-      "page": "/hakkimizda/page",
-      "matchers": [
-        {
-          "regexp": "^/hakkimizda$",
-          "originalSource": "/hakkimizda"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
     "/cozumler/otomasyon-sistemleri/page": {
       "files": [
         "server/server-reference-manifest.js",
@@ -171,6 +149,50 @@
         {
           "regexp": "^/cozumler$",
           "originalSource": "/cozumler"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/hakkimizda/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/hakkimizda/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/hakkimizda/page.js"
+      ],
+      "name": "app/hakkimizda/page",
+      "page": "/hakkimizda/page",
+      "matchers": [
+        {
+          "regexp": "^/hakkimizda$",
+          "originalSource": "/hakkimizda"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/kaynaklar/haber/[id]/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/kaynaklar/haber/[id]/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/kaynaklar/haber/[id]/page.js"
+      ],
+      "name": "app/kaynaklar/haber/[id]/page",
+      "page": "/kaynaklar/haber/[id]/page",
+      "matchers": [
+        {
+          "regexp": "^/kaynaklar/haber/(?<id>[^/]+?)$",
+          "originalSource": "/kaynaklar/haber/[id]"
         }
       ],
       "wasm": [],
@@ -242,23 +264,23 @@
       "wasm": [],
       "assets": []
     },
-    "/kaynaklar/haber/[id]/page": {
+    "/urunler/[category]/[subcategory]/page": {
       "files": [
         "server/server-reference-manifest.js",
-        "server/app/kaynaklar/haber/[id]/page_client-reference-manifest.js",
+        "server/app/urunler/[category]/[subcategory]/page_client-reference-manifest.js",
         "server/middleware-build-manifest.js",
         "server/middleware-react-loadable-manifest.js",
         "server/next-font-manifest.js",
         "prerender-manifest.js",
         "server/edge-runtime-webpack.js",
-        "server/app/kaynaklar/haber/[id]/page.js"
+        "server/app/urunler/[category]/[subcategory]/page.js"
       ],
-      "name": "app/kaynaklar/haber/[id]/page",
-      "page": "/kaynaklar/haber/[id]/page",
+      "name": "app/urunler/[category]/[subcategory]/page",
+      "page": "/urunler/[category]/[subcategory]/page",
       "matchers": [
         {
-          "regexp": "^/kaynaklar/haber/(?<id>[^/]+?)$",
-          "originalSource": "/kaynaklar/haber/[id]"
+          "regexp": "^/urunler/(?<category>[^/]+?)/(?<subcategory>[^/]+?)$",
+          "originalSource": "/urunler/[category]/[subcategory]"
         }
       ],
       "wasm": [],
@@ -281,28 +303,6 @@
         {
           "regexp": "^/urunler/(?<category>[^/]+?)/(?<subcategory>[^/]+?)/(?<product>[^/]+?)$",
           "originalSource": "/urunler/[category]/[subcategory]/[product]"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
-    "/urunler/[category]/[subcategory]/page": {
-      "files": [
-        "server/server-reference-manifest.js",
-        "server/app/urunler/[category]/[subcategory]/page_client-reference-manifest.js",
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "prerender-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/urunler/[category]/[subcategory]/page.js"
-      ],
-      "name": "app/urunler/[category]/[subcategory]/page",
-      "page": "/urunler/[category]/[subcategory]/page",
-      "matchers": [
-        {
-          "regexp": "^/urunler/(?<category>[^/]+?)/(?<subcategory>[^/]+?)$",
-          "originalSource": "/urunler/[category]/[subcategory]"
         }
       ],
       "wasm": [],
@@ -372,26 +372,6 @@
       "wasm": [],
       "assets": []
     },
-    "/api/auth/login/route": {
-      "files": [
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "prerender-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/api/auth/login/route.js"
-      ],
-      "name": "app/api/auth/login/route",
-      "page": "/api/auth/login/route",
-      "matchers": [
-        {
-          "regexp": "^/api/auth/login$",
-          "originalSource": "/api/auth/login"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
     "/api/auth/me/route": {
       "files": [
         "server/middleware-build-manifest.js",
@@ -407,6 +387,26 @@
         {
           "regexp": "^/api/auth/me$",
           "originalSource": "/api/auth/me"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/api/auth/login/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/api/auth/login/route.js"
+      ],
+      "name": "app/api/auth/login/route",
+      "page": "/api/auth/login/route",
+      "matchers": [
+        {
+          "regexp": "^/api/auth/login$",
+          "originalSource": "/api/auth/login"
         }
       ],
       "wasm": [],
@@ -472,26 +472,6 @@
       "wasm": [],
       "assets": []
     },
-    "/api/contact/route": {
-      "files": [
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "prerender-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/api/contact/route.js"
-      ],
-      "name": "app/api/contact/route",
-      "page": "/api/contact/route",
-      "matchers": [
-        {
-          "regexp": "^/api/contact$",
-          "originalSource": "/api/contact"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
     "/api/events/[id]/route": {
       "files": [
         "server/middleware-build-manifest.js",
@@ -532,41 +512,21 @@
       "wasm": [],
       "assets": []
     },
-    "/api/news/route": {
+    "/api/products/[id]/route": {
       "files": [
         "server/middleware-build-manifest.js",
         "server/middleware-react-loadable-manifest.js",
         "server/next-font-manifest.js",
         "prerender-manifest.js",
         "server/edge-runtime-webpack.js",
-        "server/app/api/news/route.js"
+        "server/app/api/products/[id]/route.js"
       ],
-      "name": "app/api/news/route",
-      "page": "/api/news/route",
+      "name": "app/api/products/[id]/route",
+      "page": "/api/products/[id]/route",
       "matchers": [
         {
-          "regexp": "^/api/news$",
-          "originalSource": "/api/news"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
-    "/api/products/route": {
-      "files": [
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "prerender-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/api/products/route.js"
-      ],
-      "name": "app/api/products/route",
-      "page": "/api/products/route",
-      "matchers": [
-        {
-          "regexp": "^/api/products$",
-          "originalSource": "/api/products"
+          "regexp": "^/api/products/(?<id>[^/]+?)$",
+          "originalSource": "/api/products/[id]"
         }
       ],
       "wasm": [],
@@ -587,6 +547,26 @@
         {
           "regexp": "^/api/news/(?<id>[^/]+?)$",
           "originalSource": "/api/news/[id]"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/api/contact/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/api/contact/route.js"
+      ],
+      "name": "app/api/contact/route",
+      "page": "/api/contact/route",
+      "matchers": [
+        {
+          "regexp": "^/api/contact$",
+          "originalSource": "/api/contact"
         }
       ],
       "wasm": [],
@@ -614,23 +594,63 @@
       "wasm": [],
       "assets": []
     },
-    "/teklif-al/page": {
+    "/page": {
       "files": [
         "server/server-reference-manifest.js",
-        "server/app/teklif-al/page_client-reference-manifest.js",
+        "server/app/page_client-reference-manifest.js",
         "server/middleware-build-manifest.js",
         "server/middleware-react-loadable-manifest.js",
         "server/next-font-manifest.js",
         "prerender-manifest.js",
         "server/edge-runtime-webpack.js",
-        "server/app/teklif-al/page.js"
+        "server/app/page.js"
       ],
-      "name": "app/teklif-al/page",
-      "page": "/teklif-al/page",
+      "name": "app/page",
+      "page": "/page",
       "matchers": [
         {
-          "regexp": "^/teklif\\-al$",
-          "originalSource": "/teklif-al"
+          "regexp": "^/$",
+          "originalSource": "/"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/api/products/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/api/products/route.js"
+      ],
+      "name": "app/api/products/route",
+      "page": "/api/products/route",
+      "matchers": [
+        {
+          "regexp": "^/api/products$",
+          "originalSource": "/api/products"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/api/news/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/api/news/route.js"
+      ],
+      "name": "app/api/news/route",
+      "page": "/api/news/route",
+      "matchers": [
+        {
+          "regexp": "^/api/news$",
+          "originalSource": "/api/news"
         }
       ],
       "wasm": [],
@@ -651,6 +671,28 @@
         {
           "regexp": "^/api/upload$",
           "originalSource": "/api/upload"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/teklif-al/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/teklif-al/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/teklif-al/page.js"
+      ],
+      "name": "app/teklif-al/page",
+      "page": "/teklif-al/page",
+      "matchers": [
+        {
+          "regexp": "^/teklif\\-al$",
+          "originalSource": "/teklif-al"
         }
       ],
       "wasm": [],
@@ -678,26 +720,6 @@
       "wasm": [],
       "assets": []
     },
-    "/api/products/[id]/route": {
-      "files": [
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "prerender-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/api/products/[id]/route.js"
-      ],
-      "name": "app/api/products/[id]/route",
-      "page": "/api/products/[id]/route",
-      "matchers": [
-        {
-          "regexp": "^/api/products/(?<id>[^/]+?)$",
-          "originalSource": "/api/products/[id]"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
     "/sektorler/page": {
       "files": [
         "server/server-reference-manifest.js",
@@ -720,23 +742,89 @@
       "wasm": [],
       "assets": []
     },
-    "/page": {
+    "/admin/resources/events/new/page": {
       "files": [
         "server/server-reference-manifest.js",
-        "server/app/page_client-reference-manifest.js",
+        "server/app/admin/resources/events/new/page_client-reference-manifest.js",
         "server/middleware-build-manifest.js",
         "server/middleware-react-loadable-manifest.js",
         "server/next-font-manifest.js",
         "prerender-manifest.js",
         "server/edge-runtime-webpack.js",
-        "server/app/page.js"
+        "server/app/admin/resources/events/new/page.js"
       ],
-      "name": "app/page",
-      "page": "/page",
+      "name": "app/admin/resources/events/new/page",
+      "page": "/admin/resources/events/new/page",
       "matchers": [
         {
-          "regexp": "^/$",
-          "originalSource": "/"
+          "regexp": "^/admin/resources/events/new$",
+          "originalSource": "/admin/resources/events/new"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/admin/contact/messages/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/admin/contact/messages/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/admin/contact/messages/page.js"
+      ],
+      "name": "app/admin/contact/messages/page",
+      "page": "/admin/contact/messages/page",
+      "matchers": [
+        {
+          "regexp": "^/admin/contact/messages$",
+          "originalSource": "/admin/contact/messages"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/admin/resources/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/admin/resources/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/admin/resources/page.js"
+      ],
+      "name": "app/admin/resources/page",
+      "page": "/admin/resources/page",
+      "matchers": [
+        {
+          "regexp": "^/admin/resources$",
+          "originalSource": "/admin/resources"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/admin/categories/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/admin/categories/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/admin/categories/page.js"
+      ],
+      "name": "app/admin/categories/page",
+      "page": "/admin/categories/page",
+      "matchers": [
+        {
+          "regexp": "^/admin/categories$",
+          "originalSource": "/admin/categories"
         }
       ],
       "wasm": [],
@@ -808,28 +896,6 @@
       "wasm": [],
       "assets": []
     },
-    "/admin/page": {
-      "files": [
-        "server/server-reference-manifest.js",
-        "server/app/admin/page_client-reference-manifest.js",
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "prerender-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/admin/page.js"
-      ],
-      "name": "app/admin/page",
-      "page": "/admin/page",
-      "matchers": [
-        {
-          "regexp": "^/admin$",
-          "originalSource": "/admin"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
     "/admin/products/page": {
       "files": [
         "server/server-reference-manifest.js",
@@ -847,72 +913,6 @@
         {
           "regexp": "^/admin/products$",
           "originalSource": "/admin/products"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
-    "/admin/resources/events/new/page": {
-      "files": [
-        "server/server-reference-manifest.js",
-        "server/app/admin/resources/events/new/page_client-reference-manifest.js",
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "prerender-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/admin/resources/events/new/page.js"
-      ],
-      "name": "app/admin/resources/events/new/page",
-      "page": "/admin/resources/events/new/page",
-      "matchers": [
-        {
-          "regexp": "^/admin/resources/events/new$",
-          "originalSource": "/admin/resources/events/new"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
-    "/admin/contact/messages/page": {
-      "files": [
-        "server/server-reference-manifest.js",
-        "server/app/admin/contact/messages/page_client-reference-manifest.js",
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "prerender-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/admin/contact/messages/page.js"
-      ],
-      "name": "app/admin/contact/messages/page",
-      "page": "/admin/contact/messages/page",
-      "matchers": [
-        {
-          "regexp": "^/admin/contact/messages$",
-          "originalSource": "/admin/contact/messages"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
-    "/admin/contact/page": {
-      "files": [
-        "server/server-reference-manifest.js",
-        "server/app/admin/contact/page_client-reference-manifest.js",
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "prerender-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/admin/contact/page.js"
-      ],
-      "name": "app/admin/contact/page",
-      "page": "/admin/contact/page",
-      "matchers": [
-        {
-          "regexp": "^/admin/contact$",
-          "originalSource": "/admin/contact"
         }
       ],
       "wasm": [],
@@ -940,45 +940,23 @@
       "wasm": [],
       "assets": []
     },
-    "/admin/categories/page": {
+    "/admin/contact/page": {
       "files": [
         "server/server-reference-manifest.js",
-        "server/app/admin/categories/page_client-reference-manifest.js",
+        "server/app/admin/contact/page_client-reference-manifest.js",
         "server/middleware-build-manifest.js",
         "server/middleware-react-loadable-manifest.js",
         "server/next-font-manifest.js",
         "prerender-manifest.js",
         "server/edge-runtime-webpack.js",
-        "server/app/admin/categories/page.js"
+        "server/app/admin/contact/page.js"
       ],
-      "name": "app/admin/categories/page",
-      "page": "/admin/categories/page",
+      "name": "app/admin/contact/page",
+      "page": "/admin/contact/page",
       "matchers": [
         {
-          "regexp": "^/admin/categories$",
-          "originalSource": "/admin/categories"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
-    "/admin/resources/page": {
-      "files": [
-        "server/server-reference-manifest.js",
-        "server/app/admin/resources/page_client-reference-manifest.js",
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "prerender-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/admin/resources/page.js"
-      ],
-      "name": "app/admin/resources/page",
-      "page": "/admin/resources/page",
-      "matchers": [
-        {
-          "regexp": "^/admin/resources$",
-          "originalSource": "/admin/resources"
+          "regexp": "^/admin/contact$",
+          "originalSource": "/admin/contact"
         }
       ],
       "wasm": [],
@@ -1001,6 +979,28 @@
         {
           "regexp": "^/admin/products/(?<id>[^/]+?)/edit$",
           "originalSource": "/admin/products/[id]/edit"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/admin/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/admin/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/admin/page.js"
+      ],
+      "name": "app/admin/page",
+      "page": "/admin/page",
+      "matchers": [
+        {
+          "regexp": "^/admin$",
+          "originalSource": "/admin"
         }
       ],
       "wasm": [],

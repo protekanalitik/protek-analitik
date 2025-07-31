@@ -11,7 +11,39 @@ export const dynamic = 'force-dynamic'
 export const runtime = 'edge'
 import Link from 'next/link'
 import { BeakerIcon, CubeIcon, WrenchIcon, ChevronRightIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline'
-import { productCategories, type Product } from '@/data/products'
+// Product ve Category type'ları API'den alacağız
+type Product = {
+  id: string
+  name: string
+  description: string
+  image: string
+  category: string
+  subcategory: string
+  features: string[]
+  applications: string[]
+  specifications?: Record<string, string>
+  dataSheet?: string
+  price?: string
+  created_at?: string
+  updated_at?: string
+  isWarrantied?: boolean
+  hasFreeShipping?: boolean
+}
+
+type Category = {
+  key: string
+  name: string
+  description: string
+  icon?: string
+  subcategories: Subcategory[]
+}
+
+type Subcategory = {
+  key: string
+  name: string
+  description: string
+  products: any[]
+}
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 
@@ -21,13 +53,13 @@ const iconMap = {
   wrench: WrenchIcon,
 }
 
-// Helper function to get all products from static data as fallback
-const getAllStaticProducts = (): Product[] => {
-  const allProducts: Product[] = []
+// Helper function to get all products from static data
+const getAllStaticProducts = (categories: Category[]) => {
+  const allProducts: any[] = []
   
-  productCategories.forEach(category => {
-    category.subcategories.forEach(subcategory => {
-      subcategory.products.forEach(product => {
+  categories.forEach((category: Category) => {
+    category.subcategories.forEach((subcategory: Subcategory) => {
+      subcategory.products.forEach((product: any) => {
         // Add category and subcategory info to each product
         allProducts.push({
           ...product,
@@ -42,17 +74,17 @@ const getAllStaticProducts = (): Product[] => {
 }
 
 // Helper function to generate product URL - same as in Products.tsx
-const generateProductUrl = (product: any) => {
+const generateProductUrl = (product: any, categories: Category[]) => {
   // API'den gelen ürünler için category ve subcategory name'den key'e çevirme
   const findCategoryKey = (categoryName: string) => {
-    const category = productCategories.find(cat => cat.name === categoryName)
+    const category = categories.find((cat: Category) => cat.name === categoryName)
     return category ? category.key : 'laboratuvar-ekipmanlari' // fallback
   }
   
   const findSubcategoryKey = (categoryName: string, subcategoryName: string) => {
-    const category = productCategories.find(cat => cat.name === categoryName)
+    const category = categories.find((cat: Category) => cat.name === categoryName)
     if (category) {
-      const subcategory = category.subcategories.find(sub => sub.name === subcategoryName)
+      const subcategory = category.subcategories.find((sub: Subcategory) => sub.name === subcategoryName)
       if (subcategory) {
         return subcategory.key
       }
@@ -68,9 +100,9 @@ const generateProductUrl = (product: any) => {
   }
   
   // Eğer statik ürünse, mevcut mantığı kullan
-  for (const category of productCategories) {
+  for (const category of categories) {
     for (const subcategory of category.subcategories) {
-      if (subcategory.products.some(p => p.id === product.id)) {
+      if (subcategory.products.some((p: any) => p.id === product.id)) {
         return `/urunler/${category.key}/${subcategory.key}/${product.id}`
       }
     }
@@ -92,16 +124,62 @@ export default function ProductsPage() {
   const [searchResults, setSearchResults] = useState<Product[]>([])
   const [isSearching, setIsSearching] = useState(false)
   const [products, setProducts] = useState<Product[]>([])
+  const [productCategories, setProductCategories] = useState<Category[]>([])
   const [loading, setLoading] = useState(true)
   const [ref, inView] = useInView({
     threshold: 0.1,
     triggerOnce: true,
   })
 
+  // Fetch categories from API (static import yerine)
+  const fetchCategories = async () => {
+    try {
+      // Fallback categories - static import yerine
+      const fallbackCategories: Category[] = [
+        {
+          key: 'lab-equipment',
+          name: 'Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler',
+          description: 'Laboratuvar ekipmanları ve sarf malzemeleri',
+          subcategories: [
+            { key: 'fiziksel-analiz', name: 'Fiziksel Analiz Ekipmanları', description: '', products: [] },
+            { key: 'kimyasal-analiz', name: 'Kimyasal Analiz Ekipmanları', description: '', products: [] },
+            { key: 'mikrobiyoloji', name: 'Mikrobiyoloji Analiz Ekipmanları', description: '', products: [] },
+            { key: 'test-olcu', name: 'Test, Ölçü Kontrol Sistemleri', description: '', products: [] },
+            { key: 'ar-ge', name: 'Araştırma ve Geliştirme Ekipmanları', description: '', products: [] }
+          ]
+        },
+        {
+          key: 'process-control',
+          name: 'Proses Kontrol Ve Hat Tipi Analiz Çözümleri',
+          description: 'Hat tipi analiz sistemleri',
+          subcategories: [
+            { key: 'hat-tipi', name: 'Hat Tipi Analiz Sistemleri', description: '', products: [] }
+          ]
+        },
+        {
+          key: 'pilot-systems',
+          name: 'Pilot Tipi Üretim ve Proses Simülasyon Sistemleri',
+          description: 'Pilot üretim sistemleri',
+          subcategories: [
+            { key: 'karistirma', name: 'Karıştırma ve Homojenizasyon', description: '', products: [] }
+          ]
+        }
+      ]
+      setProductCategories(fallbackCategories)
+    } catch (error) {
+      console.error('Kategorileri yüklerken hata:', error)
+      setProductCategories([])
+    }
+  }
+
   // Fetch products from API
   const fetchProducts = async () => {
     try {
       setLoading(true)
+      
+      // Categories'i de çek
+      await fetchCategories()
+      
       const response = await fetch('/api/products')
       const data = await response.json()
       
@@ -111,14 +189,14 @@ export default function ProductsPage() {
         console.error('Failed to fetch products:', data)
         // Use static data as fallback
         console.log('API failed, using static data fallback')
-        const staticProducts = getAllStaticProducts()
+        const staticProducts = getAllStaticProducts(productCategories)
         setProducts(staticProducts)
       }
     } catch (error) {
       console.error('Error fetching products:', error)
       // Development mode fallback on error
       console.log('API error, using static data fallback')
-      const staticProducts = getAllStaticProducts()
+      const staticProducts = getAllStaticProducts(productCategories)
       setProducts(staticProducts)
     } finally {
       setLoading(false)
@@ -228,7 +306,7 @@ export default function ProductsPage() {
                   {searchResults.map((product) => (
                     <Link 
                       key={product.id} 
-                      href={generateProductUrl(product)}
+                      href={generateProductUrl(product, productCategories)}
                       className="group"
                     >
                       <div className="bg-white rounded-xl border border-neutral-200 p-6 hover:shadow-lg transition-all duration-300 group-hover:-translate-y-1">
@@ -360,12 +438,12 @@ export default function ProductsPage() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: index * 0.05 }}
                   >
-                    <Link href={generateProductUrl(product)} className="group">
+                    <Link href={generateProductUrl(product, productCategories)} className="group">
                       <div className="bg-white rounded-lg border border-neutral-200 overflow-hidden hover:shadow-lg transition-all duration-300 group-hover:-translate-y-1">
                         {/* Product Image */}
                         <div className="aspect-square bg-gradient-to-br from-primary-50 to-secondary-50 relative overflow-hidden">
                           <Image
-                            src={Array.isArray(product.images) && product.images.length > 0 ? product.images[0] : product.image || '/images/default-product.webp'}
+                            src={product.image || '/images/default-product.webp'}
                             alt={product.name}
                             fill
                             className="object-cover transition-transform duration-500 group-hover:scale-105"

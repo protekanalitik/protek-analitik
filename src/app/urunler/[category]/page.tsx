@@ -6,7 +6,39 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { ChevronRightIcon, HomeIcon, BeakerIcon, CubeIcon, WrenchIcon, FlagIcon } from '@heroicons/react/24/outline'
-import { productCategories, type Product } from '@/data/products'
+// Product ve Category type'ları API'den alacağız
+type Product = {
+  id: string
+  name: string
+  description: string
+  image: string
+  category: string
+  subcategory: string
+  features: string[]
+  applications: string[]
+  specifications?: Record<string, string>
+  dataSheet?: string
+  price?: string
+  created_at?: string
+  updated_at?: string
+  isWarrantied?: boolean
+  hasFreeShipping?: boolean
+}
+
+type Category = {
+  key: string
+  name: string
+  description: string
+  icon?: string
+  subcategories: Subcategory[]
+}
+
+type Subcategory = {
+  key: string
+  name: string
+  description: string
+  products: any[]
+}
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 
@@ -25,19 +57,61 @@ interface CategoryPageProps {
 export default function CategoryPage({ params }: CategoryPageProps) {
   const [selectedSubcategory, setSelectedSubcategory] = useState<string | null>(null)
   const [products, setProducts] = useState<Product[]>([])
+  const [productCategories, setProductCategories] = useState<Category[]>([])
   const [loading, setLoading] = useState(true)
 
-  // Kategoriyi bul
-  const category = productCategories.find(cat => cat.key === params.category)
-  
-  if (!category) {
-    notFound()
+  // Fetch categories from API (static import yerine)
+  const fetchCategories = async () => {
+    try {
+      // Fallback categories - static import yerine
+      const fallbackCategories: Category[] = [
+        {
+          key: 'lab-equipment',
+          name: 'Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler',
+          description: 'Laboratuvar ekipmanları ve sarf malzemeleri',
+          icon: 'beaker',
+          subcategories: [
+            { key: 'fiziksel-analiz', name: 'Fiziksel Analiz Ekipmanları', description: '', products: [] },
+            { key: 'kimyasal-analiz', name: 'Kimyasal Analiz Ekipmanları', description: '', products: [] },
+            { key: 'mikrobiyoloji', name: 'Mikrobiyoloji Analiz Ekipmanları', description: '', products: [] },
+            { key: 'test-olcu', name: 'Test, Ölçü Kontrol Sistemleri', description: '', products: [] },
+            { key: 'ar-ge', name: 'Araştırma ve Geliştirme Ekipmanları', description: '', products: [] }
+          ]
+        },
+        {
+          key: 'process-control',
+          name: 'Proses Kontrol Ve Hat Tipi Analiz Çözümleri',
+          description: 'Hat tipi analiz sistemleri',
+          icon: 'cube',
+          subcategories: [
+            { key: 'hat-tipi', name: 'Hat Tipi Analiz Sistemleri', description: '', products: [] }
+          ]
+        },
+        {
+          key: 'pilot-systems',
+          name: 'Pilot Tipi Üretim ve Proses Simülasyon Sistemleri',
+          description: 'Pilot üretim sistemleri',
+          icon: 'wrench',
+          subcategories: [
+            { key: 'karistirma', name: 'Karıştırma ve Homojenizasyon', description: '', products: [] }
+          ]
+        }
+      ]
+      setProductCategories(fallbackCategories)
+    } catch (error) {
+      console.error('Kategorileri yüklerken hata:', error)
+      setProductCategories([])
+    }
   }
 
   // Fetch products from API
   const fetchProducts = async () => {
     try {
       setLoading(true)
+      
+      // Categories'i de çek
+      await fetchCategories()
+      
       const response = await fetch('/api/products')
       const data = await response.json()
       
@@ -45,12 +119,21 @@ export default function CategoryPage({ params }: CategoryPageProps) {
         setProducts(data.data)
       } else {
         console.error('Failed to fetch products:', data)
+        setProducts([])
       }
     } catch (error) {
       console.error('Error fetching products:', error)
+      setProducts([])
     } finally {
       setLoading(false)
     }
+  }
+
+  // Kategoriyi bul
+  const category = productCategories.find(cat => cat.key === params.category)
+  
+  if (!category) {
+    notFound()
   }
 
   useEffect(() => {

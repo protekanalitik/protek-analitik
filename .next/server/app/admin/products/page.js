@@ -16,7 +16,7 @@ module.exports = require("node:buffer");
 
 /***/ }),
 
-/***/ 526:
+/***/ 5533:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -148,7 +148,7 @@ const routeModule = new module_compiled.AppPageRouteModule({
 });
 
 //# sourceMappingURL=app-page.js.map
-;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-edge-ssr-loader/index.js?{"absolute500Path":"","absoluteAppPath":"next/dist/pages/_app","absoluteDocumentPath":"next/dist/pages/_document","absoluteErrorPath":"next/dist/pages/_error","absolutePagePath":"private-next-app-dir/admin/products/page.tsx","buildId":"n_6juZsGz7GaZ7cb76ATH","dev":false,"isServerComponent":true,"page":"/admin/products/page","stringifiedConfig":"eyJlbnYiOnt9LCJlc2xpbnQiOnsiaWdub3JlRHVyaW5nQnVpbGRzIjpmYWxzZX0sInR5cGVzY3JpcHQiOnsiaWdub3JlQnVpbGRFcnJvcnMiOmZhbHNlLCJ0c2NvbmZpZ1BhdGgiOiJ0c2NvbmZpZy5qc29uIn0sImRpc3REaXIiOiIubmV4dCIsImNsZWFuRGlzdERpciI6dHJ1ZSwiYXNzZXRQcmVmaXgiOiIiLCJjb25maWdPcmlnaW4iOiJuZXh0LmNvbmZpZy5qcyIsInVzZUZpbGVTeXN0ZW1QdWJsaWNSb3V0ZXMiOnRydWUsImdlbmVyYXRlRXRhZ3MiOnRydWUsInBhZ2VFeHRlbnNpb25zIjpbInRzeCIsInRzIiwianN4IiwianMiXSwicG93ZXJlZEJ5SGVhZGVyIjpmYWxzZSwiY29tcHJlc3MiOmZhbHNlLCJhbmFseXRpY3NJZCI6IiIsImltYWdlcyI6eyJkZXZpY2VTaXplcyI6WzY0MCw3NTAsODI4LDEwODAsMTIwMCwxOTIwLDIwNDgsMzg0MF0sImltYWdlU2l6ZXMiOlsxNiwzMiw0OCw2NCw5NiwxMjgsMjU2LDM4NF0sInBhdGgiOiIvX25leHQvaW1hZ2UiLCJsb2FkZXIiOiJkZWZhdWx0IiwibG9hZGVyRmlsZSI6IiIsImRvbWFpbnMiOltdLCJkaXNhYmxlU3RhdGljSW1hZ2VzIjpmYWxzZSwibWluaW11bUNhY2hlVFRMIjo2MCwiZm9ybWF0cyI6WyJpbWFnZS93ZWJwIiwiaW1hZ2UvYXZpZiJdLCJkYW5nZXJvdXNseUFsbG93U1ZHIjpmYWxzZSwiY29udGVudFNlY3VyaXR5UG9saWN5Ijoic2NyaXB0LXNyYyAnbm9uZSc7IGZyYW1lLXNyYyAnbm9uZSc7IHNhbmRib3g7IiwiY29udGVudERpc3Bvc2l0aW9uVHlwZSI6ImlubGluZSIsInJlbW90ZVBhdHRlcm5zIjpbeyJwcm90b2NvbCI6Imh0dHAiLCJob3N0bmFtZSI6ImxvY2FsaG9zdCIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9LHsicHJvdG9jb2wiOiJodHRwcyIsImhvc3RuYW1lIjoicHViLTk0YzQ3ZWJjN2IxNDQ1OGViMWUwOWI2M2E4NzY4ZDcyLnIyLmRldiIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9XSwidW5vcHRpbWl6ZWQiOmZhbHNlfSwiZGV2SW5kaWNhdG9ycyI6eyJidWlsZEFjdGl2aXR5Ijp0cnVlLCJidWlsZEFjdGl2aXR5UG9zaXRpb24iOiJib3R0b20tcmlnaHQifSwib25EZW1hbmRFbnRyaWVzIjp7Im1heEluYWN0aXZlQWdlIjo2MDAwMCwicGFnZXNCdWZmZXJMZW5ndGgiOjV9LCJhbXAiOnsiY2Fub25pY2FsQmFzZSI6IiJ9LCJiYXNlUGF0aCI6IiIsInNhc3NPcHRpb25zIjp7fSwidHJhaWxpbmdTbGFzaCI6ZmFsc2UsImkxOG4iOm51bGwsInByb2R1Y3Rpb25Ccm93c2VyU291cmNlTWFwcyI6ZmFsc2UsIm9wdGltaXplRm9udHMiOnRydWUsImV4Y2x1ZGVEZWZhdWx0TW9tZW50TG9jYWxlcyI6dHJ1ZSwic2VydmVyUnVudGltZUNvbmZpZyI6e30sInB1YmxpY1J1bnRpbWVDb25maWciOnt9LCJyZWFjdFByb2R1Y3Rpb25Qcm9maWxpbmciOmZhbHNlLCJyZWFjdFN0cmljdE1vZGUiOnRydWUsImh0dHBBZ2VudE9wdGlvbnMiOnsia2VlcEFsaXZlIjp0cnVlfSwib3V0cHV0RmlsZVRyYWNpbmciOnRydWUsInN0YXRpY1BhZ2VHZW5lcmF0aW9uVGltZW91dCI6NjAsInN3Y01pbmlmeSI6ZmFsc2UsIm91dHB1dCI6InN0YW5kYWxvbmUiLCJtb2R1bGFyaXplSW1wb3J0cyI6eyJAbXVpL2ljb25zLW1hdGVyaWFsIjp7InRyYW5zZm9ybSI6IkBtdWkvaWNvbnMtbWF0ZXJpYWwve3ttZW1iZXJ9fSJ9LCJsb2Rhc2giOnsidHJhbnNmb3JtIjoibG9kYXNoL3t7bWVtYmVyfX0ifSwibmV4dC9zZXJ2ZXIiOnsidHJhbnNmb3JtIjoibmV4dC9kaXN0L3NlcnZlci93ZWIvZXhwb3J0cy97eyBrZWJhYkNhc2UgbWVtYmVyIH19In19LCJleHBlcmltZW50YWwiOnsid2luZG93SGlzdG9yeVN1cHBvcnQiOmZhbHNlLCJzZXJ2ZXJNaW5pZmljYXRpb24iOnRydWUsInNlcnZlclNvdXJjZU1hcHMiOmZhbHNlLCJjYXNlU2Vuc2l0aXZlUm91dGVzIjpmYWxzZSwidXNlRGVwbG95bWVudElkIjpmYWxzZSwidXNlRGVwbG95bWVudElkU2VydmVyQWN0aW9ucyI6ZmFsc2UsImNsaWVudFJvdXRlckZpbHRlciI6dHJ1ZSwiY2xpZW50Um91dGVyRmlsdGVyUmVkaXJlY3RzIjpmYWxzZSwiZmV0Y2hDYWNoZUtleVByZWZpeCI6IiIsIm1pZGRsZXdhcmVQcmVmZXRjaCI6ImZsZXhpYmxlIiwib3B0aW1pc3RpY0NsaWVudENhY2hlIjp0cnVlLCJtYW51YWxDbGllbnRCYXNlUGF0aCI6ZmFsc2UsImNwdXMiOjksIm1lbW9yeUJhc2VkV29ya2Vyc0NvdW50IjpmYWxzZSwiaXNyRmx1c2hUb0Rpc2siOnRydWUsIndvcmtlclRocmVhZHMiOmZhbHNlLCJvcHRpbWl6ZUNzcyI6ZmFsc2UsIm5leHRTY3JpcHRXb3JrZXJzIjpmYWxzZSwic2Nyb2xsUmVzdG9yYXRpb24iOmZhbHNlLCJleHRlcm5hbERpciI6ZmFsc2UsImRpc2FibGVPcHRpbWl6ZWRMb2FkaW5nIjpmYWxzZSwiZ3ppcFNpemUiOnRydWUsImNyYUNvbXBhdCI6ZmFsc2UsImVzbUV4dGVybmFscyI6dHJ1ZSwiaXNyTWVtb3J5Q2FjaGVTaXplIjowLCJmdWxseVNwZWNpZmllZCI6ZmFsc2UsIm91dHB1dEZpbGVUcmFjaW5nUm9vdCI6Ii9Vc2Vycy9kZW5pemhhbi9Eb2N1bWVudHMvV2luZHN1cmYvcHJvdGVrYW5hbGl0aWsiLCJzd2NUcmFjZVByb2ZpbGluZyI6ZmFsc2UsImZvcmNlU3djVHJhbnNmb3JtcyI6ZmFsc2UsImxhcmdlUGFnZURhdGFCeXRlcyI6MTI4MDAwLCJhZGp1c3RGb250RmFsbGJhY2tzIjpmYWxzZSwiYWRqdXN0Rm9udEZhbGxiYWNrc1dpdGhTaXplQWRqdXN0IjpmYWxzZSwidHlwZWRSb3V0ZXMiOmZhbHNlLCJpbnN0cnVtZW50YXRpb25Ib29rIjpmYWxzZSwiYnVuZGxlUGFnZXNFeHRlcm5hbHMiOmZhbHNlLCJwcHIiOmZhbHNlLCJ3ZWJwYWNrQnVpbGRXb3JrZXIiOmZhbHNlLCJvdXRwdXRGaWxlVHJhY2luZ0V4Y2x1ZGVzIjp7IioiOlsibm9kZV9tb2R1bGVzLyoqLyoiLCIubmV4dC9jYWNoZS8qKi8qIiwiLmdpdC8qKi8qIl19LCJzdGF0aWNQYWdlR2VuZXJhdGlvblRpbWVvdXQiOjAsIm9wdGltaXplUGFja2FnZUltcG9ydHMiOlsibHVjaWRlLXJlYWN0IiwiZGF0ZS1mbnMiLCJsb2Rhc2gtZXMiLCJyYW1kYSIsImFudGQiLCJyZWFjdC1ib290c3RyYXAiLCJhaG9va3MiLCJAYW50LWRlc2lnbi9pY29ucyIsIkBoZWFkbGVzc3VpL3JlYWN0IiwiQGhlYWRsZXNzdWktZmxvYXQvcmVhY3QiLCJAaGVyb2ljb25zL3JlYWN0LzIwL3NvbGlkIiwiQGhlcm9pY29ucy9yZWFjdC8yNC9zb2xpZCIsIkBoZXJvaWNvbnMvcmVhY3QvMjQvb3V0bGluZSIsIkB2aXN4L3Zpc3giLCJAdHJlbW9yL3JlYWN0IiwicnhqcyIsIkBtdWkvbWF0ZXJpYWwiLCJAbXVpL2ljb25zLW1hdGVyaWFsIiwicmVjaGFydHMiLCJyZWFjdC11c2UiLCJAbWF0ZXJpYWwtdWkvY29yZSIsIkBtYXRlcmlhbC11aS9pY29ucyIsIkB0YWJsZXIvaWNvbnMtcmVhY3QiLCJtdWktY29yZSIsInJlYWN0LWljb25zL2FpIiwicmVhY3QtaWNvbnMvYmkiLCJyZWFjdC1pY29ucy9icyIsInJlYWN0LWljb25zL2NnIiwicmVhY3QtaWNvbnMvY2kiLCJyZWFjdC1pY29ucy9kaSIsInJlYWN0LWljb25zL2ZhIiwicmVhY3QtaWNvbnMvZmE2IiwicmVhY3QtaWNvbnMvZmMiLCJyZWFjdC1pY29ucy9maSIsInJlYWN0LWljb25zL2dpIiwicmVhY3QtaWNvbnMvZ28iLCJyZWFjdC1pY29ucy9nciIsInJlYWN0LWljb25zL2hpIiwicmVhY3QtaWNvbnMvaGkyIiwicmVhY3QtaWNvbnMvaW0iLCJyZWFjdC1pY29ucy9pbyIsInJlYWN0LWljb25zL2lvNSIsInJlYWN0LWljb25zL2xpYSIsInJlYWN0LWljb25zL2xpYiIsInJlYWN0LWljb25zL2x1IiwicmVhY3QtaWNvbnMvbWQiLCJyZWFjdC1pY29ucy9waSIsInJlYWN0LWljb25zL3JpIiwicmVhY3QtaWNvbnMvcngiLCJyZWFjdC1pY29ucy9zaSIsInJlYWN0LWljb25zL3NsIiwicmVhY3QtaWNvbnMvdGIiLCJyZWFjdC1pY29ucy90ZmkiLCJyZWFjdC1pY29ucy90aSIsInJlYWN0LWljb25zL3ZzYyIsInJlYWN0LWljb25zL3dpIl19LCJjb25maWdGaWxlIjoiL1VzZXJzL2Rlbml6aGFuL0RvY3VtZW50cy9XaW5kc3VyZi9wcm90ZWthbmFsaXRpay9uZXh0LmNvbmZpZy5qcyIsImNvbmZpZ0ZpbGVOYW1lIjoibmV4dC5jb25maWcuanMiLCJnZW5lcmF0ZVN0YXRpY1BhcmFtcyI6ZmFsc2UsIm1pbmlmeSI6ZmFsc2V9","pagesType":"app","appDirLoader":"bmV4dC1hcHAtbG9hZGVyP25hbWU9YXBwJTJGYWRtaW4lMkZwcm9kdWN0cyUyRnBhZ2UmcGFnZT0lMkZhZG1pbiUyRnByb2R1Y3RzJTJGcGFnZSZwYWdlUGF0aD1wcml2YXRlLW5leHQtYXBwLWRpciUyRmFkbWluJTJGcHJvZHVjdHMlMkZwYWdlLnRzeCZhcHBEaXI9JTJGVXNlcnMlMkZkZW5pemhhbiUyRkRvY3VtZW50cyUyRldpbmRzdXJmJTJGcHJvdGVrYW5hbGl0aWslMkZzcmMlMkZhcHAmYXBwUGF0aHM9JTJGYWRtaW4lMkZwcm9kdWN0cyUyRnBhZ2UmcGFnZUV4dGVuc2lvbnM9dHN4JnBhZ2VFeHRlbnNpb25zPXRzJnBhZ2VFeHRlbnNpb25zPWpzeCZwYWdlRXh0ZW5zaW9ucz1qcyZiYXNlUGF0aD0mYXNzZXRQcmVmaXg9Jm5leHRDb25maWdPdXRwdXQ9c3RhbmRhbG9uZSZwcmVmZXJyZWRSZWdpb249Jm1pZGRsZXdhcmVDb25maWc9ZTMwJTNEIQ==","sriEnabled":false,"middlewareConfig":"e30="}!
+;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-edge-ssr-loader/index.js?{"absolute500Path":"","absoluteAppPath":"next/dist/pages/_app","absoluteDocumentPath":"next/dist/pages/_document","absoluteErrorPath":"next/dist/pages/_error","absolutePagePath":"private-next-app-dir/admin/products/page.tsx","buildId":"_rXw3bgx9L7Cq_v9IVkv7","dev":false,"isServerComponent":true,"page":"/admin/products/page","stringifiedConfig":"eyJlbnYiOnt9LCJlc2xpbnQiOnsiaWdub3JlRHVyaW5nQnVpbGRzIjpmYWxzZX0sInR5cGVzY3JpcHQiOnsiaWdub3JlQnVpbGRFcnJvcnMiOmZhbHNlLCJ0c2NvbmZpZ1BhdGgiOiJ0c2NvbmZpZy5qc29uIn0sImRpc3REaXIiOiIubmV4dCIsImNsZWFuRGlzdERpciI6dHJ1ZSwiYXNzZXRQcmVmaXgiOiIiLCJjb25maWdPcmlnaW4iOiJuZXh0LmNvbmZpZy5qcyIsInVzZUZpbGVTeXN0ZW1QdWJsaWNSb3V0ZXMiOnRydWUsImdlbmVyYXRlRXRhZ3MiOnRydWUsInBhZ2VFeHRlbnNpb25zIjpbInRzeCIsInRzIiwianN4IiwianMiXSwicG93ZXJlZEJ5SGVhZGVyIjpmYWxzZSwiY29tcHJlc3MiOmZhbHNlLCJhbmFseXRpY3NJZCI6IiIsImltYWdlcyI6eyJkZXZpY2VTaXplcyI6WzY0MCw3NTAsODI4LDEwODAsMTIwMCwxOTIwLDIwNDgsMzg0MF0sImltYWdlU2l6ZXMiOlsxNiwzMiw0OCw2NCw5NiwxMjgsMjU2LDM4NF0sInBhdGgiOiIvX25leHQvaW1hZ2UiLCJsb2FkZXIiOiJkZWZhdWx0IiwibG9hZGVyRmlsZSI6IiIsImRvbWFpbnMiOltdLCJkaXNhYmxlU3RhdGljSW1hZ2VzIjpmYWxzZSwibWluaW11bUNhY2hlVFRMIjo2MCwiZm9ybWF0cyI6WyJpbWFnZS93ZWJwIiwiaW1hZ2UvYXZpZiJdLCJkYW5nZXJvdXNseUFsbG93U1ZHIjpmYWxzZSwiY29udGVudFNlY3VyaXR5UG9saWN5Ijoic2NyaXB0LXNyYyAnbm9uZSc7IGZyYW1lLXNyYyAnbm9uZSc7IHNhbmRib3g7IiwiY29udGVudERpc3Bvc2l0aW9uVHlwZSI6ImlubGluZSIsInJlbW90ZVBhdHRlcm5zIjpbeyJwcm90b2NvbCI6Imh0dHAiLCJob3N0bmFtZSI6ImxvY2FsaG9zdCIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9LHsicHJvdG9jb2wiOiJodHRwcyIsImhvc3RuYW1lIjoicHViLTk0YzQ3ZWJjN2IxNDQ1OGViMWUwOWI2M2E4NzY4ZDcyLnIyLmRldiIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9XSwidW5vcHRpbWl6ZWQiOmZhbHNlfSwiZGV2SW5kaWNhdG9ycyI6eyJidWlsZEFjdGl2aXR5Ijp0cnVlLCJidWlsZEFjdGl2aXR5UG9zaXRpb24iOiJib3R0b20tcmlnaHQifSwib25EZW1hbmRFbnRyaWVzIjp7Im1heEluYWN0aXZlQWdlIjo2MDAwMCwicGFnZXNCdWZmZXJMZW5ndGgiOjV9LCJhbXAiOnsiY2Fub25pY2FsQmFzZSI6IiJ9LCJiYXNlUGF0aCI6IiIsInNhc3NPcHRpb25zIjp7fSwidHJhaWxpbmdTbGFzaCI6ZmFsc2UsImkxOG4iOm51bGwsInByb2R1Y3Rpb25Ccm93c2VyU291cmNlTWFwcyI6ZmFsc2UsIm9wdGltaXplRm9udHMiOnRydWUsImV4Y2x1ZGVEZWZhdWx0TW9tZW50TG9jYWxlcyI6dHJ1ZSwic2VydmVyUnVudGltZUNvbmZpZyI6e30sInB1YmxpY1J1bnRpbWVDb25maWciOnt9LCJyZWFjdFByb2R1Y3Rpb25Qcm9maWxpbmciOmZhbHNlLCJyZWFjdFN0cmljdE1vZGUiOnRydWUsImh0dHBBZ2VudE9wdGlvbnMiOnsia2VlcEFsaXZlIjp0cnVlfSwib3V0cHV0RmlsZVRyYWNpbmciOnRydWUsInN0YXRpY1BhZ2VHZW5lcmF0aW9uVGltZW91dCI6NjAsInN3Y01pbmlmeSI6ZmFsc2UsIm91dHB1dCI6InN0YW5kYWxvbmUiLCJtb2R1bGFyaXplSW1wb3J0cyI6eyJAbXVpL2ljb25zLW1hdGVyaWFsIjp7InRyYW5zZm9ybSI6IkBtdWkvaWNvbnMtbWF0ZXJpYWwve3ttZW1iZXJ9fSJ9LCJsb2Rhc2giOnsidHJhbnNmb3JtIjoibG9kYXNoL3t7bWVtYmVyfX0ifSwibmV4dC9zZXJ2ZXIiOnsidHJhbnNmb3JtIjoibmV4dC9kaXN0L3NlcnZlci93ZWIvZXhwb3J0cy97eyBrZWJhYkNhc2UgbWVtYmVyIH19In19LCJleHBlcmltZW50YWwiOnsid2luZG93SGlzdG9yeVN1cHBvcnQiOmZhbHNlLCJzZXJ2ZXJNaW5pZmljYXRpb24iOnRydWUsInNlcnZlclNvdXJjZU1hcHMiOmZhbHNlLCJjYXNlU2Vuc2l0aXZlUm91dGVzIjpmYWxzZSwidXNlRGVwbG95bWVudElkIjpmYWxzZSwidXNlRGVwbG95bWVudElkU2VydmVyQWN0aW9ucyI6ZmFsc2UsImNsaWVudFJvdXRlckZpbHRlciI6dHJ1ZSwiY2xpZW50Um91dGVyRmlsdGVyUmVkaXJlY3RzIjpmYWxzZSwiZmV0Y2hDYWNoZUtleVByZWZpeCI6IiIsIm1pZGRsZXdhcmVQcmVmZXRjaCI6ImZsZXhpYmxlIiwib3B0aW1pc3RpY0NsaWVudENhY2hlIjp0cnVlLCJtYW51YWxDbGllbnRCYXNlUGF0aCI6ZmFsc2UsImNwdXMiOjksIm1lbW9yeUJhc2VkV29ya2Vyc0NvdW50IjpmYWxzZSwiaXNyRmx1c2hUb0Rpc2siOnRydWUsIndvcmtlclRocmVhZHMiOmZhbHNlLCJvcHRpbWl6ZUNzcyI6ZmFsc2UsIm5leHRTY3JpcHRXb3JrZXJzIjpmYWxzZSwic2Nyb2xsUmVzdG9yYXRpb24iOmZhbHNlLCJleHRlcm5hbERpciI6ZmFsc2UsImRpc2FibGVPcHRpbWl6ZWRMb2FkaW5nIjpmYWxzZSwiZ3ppcFNpemUiOnRydWUsImNyYUNvbXBhdCI6ZmFsc2UsImVzbUV4dGVybmFscyI6dHJ1ZSwiaXNyTWVtb3J5Q2FjaGVTaXplIjowLCJmdWxseVNwZWNpZmllZCI6ZmFsc2UsIm91dHB1dEZpbGVUcmFjaW5nUm9vdCI6Ii9Vc2Vycy9kZW5pemhhbi9Eb2N1bWVudHMvV2luZHN1cmYvcHJvdGVrYW5hbGl0aWsiLCJzd2NUcmFjZVByb2ZpbGluZyI6ZmFsc2UsImZvcmNlU3djVHJhbnNmb3JtcyI6ZmFsc2UsImxhcmdlUGFnZURhdGFCeXRlcyI6MTI4MDAwLCJhZGp1c3RGb250RmFsbGJhY2tzIjpmYWxzZSwiYWRqdXN0Rm9udEZhbGxiYWNrc1dpdGhTaXplQWRqdXN0IjpmYWxzZSwidHlwZWRSb3V0ZXMiOmZhbHNlLCJpbnN0cnVtZW50YXRpb25Ib29rIjpmYWxzZSwiYnVuZGxlUGFnZXNFeHRlcm5hbHMiOmZhbHNlLCJwcHIiOmZhbHNlLCJ3ZWJwYWNrQnVpbGRXb3JrZXIiOmZhbHNlLCJvdXRwdXRGaWxlVHJhY2luZ0V4Y2x1ZGVzIjp7IioiOlsibm9kZV9tb2R1bGVzLyoqLyoiLCIubmV4dC9jYWNoZS8qKi8qIiwiLmdpdC8qKi8qIl19LCJzdGF0aWNQYWdlR2VuZXJhdGlvblRpbWVvdXQiOjAsIm9wdGltaXplUGFja2FnZUltcG9ydHMiOlsibHVjaWRlLXJlYWN0IiwiZGF0ZS1mbnMiLCJsb2Rhc2gtZXMiLCJyYW1kYSIsImFudGQiLCJyZWFjdC1ib290c3RyYXAiLCJhaG9va3MiLCJAYW50LWRlc2lnbi9pY29ucyIsIkBoZWFkbGVzc3VpL3JlYWN0IiwiQGhlYWRsZXNzdWktZmxvYXQvcmVhY3QiLCJAaGVyb2ljb25zL3JlYWN0LzIwL3NvbGlkIiwiQGhlcm9pY29ucy9yZWFjdC8yNC9zb2xpZCIsIkBoZXJvaWNvbnMvcmVhY3QvMjQvb3V0bGluZSIsIkB2aXN4L3Zpc3giLCJAdHJlbW9yL3JlYWN0IiwicnhqcyIsIkBtdWkvbWF0ZXJpYWwiLCJAbXVpL2ljb25zLW1hdGVyaWFsIiwicmVjaGFydHMiLCJyZWFjdC11c2UiLCJAbWF0ZXJpYWwtdWkvY29yZSIsIkBtYXRlcmlhbC11aS9pY29ucyIsIkB0YWJsZXIvaWNvbnMtcmVhY3QiLCJtdWktY29yZSIsInJlYWN0LWljb25zL2FpIiwicmVhY3QtaWNvbnMvYmkiLCJyZWFjdC1pY29ucy9icyIsInJlYWN0LWljb25zL2NnIiwicmVhY3QtaWNvbnMvY2kiLCJyZWFjdC1pY29ucy9kaSIsInJlYWN0LWljb25zL2ZhIiwicmVhY3QtaWNvbnMvZmE2IiwicmVhY3QtaWNvbnMvZmMiLCJyZWFjdC1pY29ucy9maSIsInJlYWN0LWljb25zL2dpIiwicmVhY3QtaWNvbnMvZ28iLCJyZWFjdC1pY29ucy9nciIsInJlYWN0LWljb25zL2hpIiwicmVhY3QtaWNvbnMvaGkyIiwicmVhY3QtaWNvbnMvaW0iLCJyZWFjdC1pY29ucy9pbyIsInJlYWN0LWljb25zL2lvNSIsInJlYWN0LWljb25zL2xpYSIsInJlYWN0LWljb25zL2xpYiIsInJlYWN0LWljb25zL2x1IiwicmVhY3QtaWNvbnMvbWQiLCJyZWFjdC1pY29ucy9waSIsInJlYWN0LWljb25zL3JpIiwicmVhY3QtaWNvbnMvcngiLCJyZWFjdC1pY29ucy9zaSIsInJlYWN0LWljb25zL3NsIiwicmVhY3QtaWNvbnMvdGIiLCJyZWFjdC1pY29ucy90ZmkiLCJyZWFjdC1pY29ucy90aSIsInJlYWN0LWljb25zL3ZzYyIsInJlYWN0LWljb25zL3dpIl19LCJjb25maWdGaWxlIjoiL1VzZXJzL2Rlbml6aGFuL0RvY3VtZW50cy9XaW5kc3VyZi9wcm90ZWthbmFsaXRpay9uZXh0LmNvbmZpZy5qcyIsImNvbmZpZ0ZpbGVOYW1lIjoibmV4dC5jb25maWcuanMiLCJnZW5lcmF0ZVN0YXRpY1BhcmFtcyI6ZmFsc2UsIm1pbmlmeSI6ZmFsc2V9","pagesType":"app","appDirLoader":"bmV4dC1hcHAtbG9hZGVyP25hbWU9YXBwJTJGYWRtaW4lMkZwcm9kdWN0cyUyRnBhZ2UmcGFnZT0lMkZhZG1pbiUyRnByb2R1Y3RzJTJGcGFnZSZwYWdlUGF0aD1wcml2YXRlLW5leHQtYXBwLWRpciUyRmFkbWluJTJGcHJvZHVjdHMlMkZwYWdlLnRzeCZhcHBEaXI9JTJGVXNlcnMlMkZkZW5pemhhbiUyRkRvY3VtZW50cyUyRldpbmRzdXJmJTJGcHJvdGVrYW5hbGl0aWslMkZzcmMlMkZhcHAmYXBwUGF0aHM9JTJGYWRtaW4lMkZwcm9kdWN0cyUyRnBhZ2UmcGFnZUV4dGVuc2lvbnM9dHN4JnBhZ2VFeHRlbnNpb25zPXRzJnBhZ2VFeHRlbnNpb25zPWpzeCZwYWdlRXh0ZW5zaW9ucz1qcyZiYXNlUGF0aD0mYXNzZXRQcmVmaXg9Jm5leHRDb25maWdPdXRwdXQ9c3RhbmRhbG9uZSZwcmVmZXJyZWRSZWdpb249Jm1pZGRsZXdhcmVDb25maWc9ZTMwJTNEIQ==","sriEnabled":false,"middlewareConfig":"e30="}!
 var _self___RSC_MANIFEST;
 
 
@@ -192,7 +192,7 @@ const page_stringifiedConfig_eyJlbnYiOnt9LCJlc2xpbnQiOnsiaWdub3JlRHVyaW5nQnVpbGR
     serverActions: isServerComponent ? serverActions : undefined,
     subresourceIntegrityManifest,
     config: nextConfig,
-    buildId: "n_6juZsGz7GaZ7cb76ATH",
+    buildId: "_rXw3bgx9L7Cq_v9IVkv7",
     nextFontManifest,
     incrementalCacheHandler
 });
@@ -230,21 +230,21 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3449));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 248));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3328))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4931))
 
 /***/ }),
 
 /***/ 5215:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1755))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3061))
 
 /***/ }),
 
 /***/ 1513:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8699))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4286))
 
 /***/ }),
 
@@ -30920,7 +30920,7 @@ module.exports = __webpack_require__(5098);
 
 /***/ }),
 
-/***/ 1755:
+/***/ 3061:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -31129,30 +31129,8 @@ function useAuth() {
     };
 }
 
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/ArrowLeftOnRectangleIcon.js
-
-/** @deprecated */ function ArrowLeftOnRectangleIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75"
-    }));
-}
-const ForwardRef = /*#__PURE__*/ react.forwardRef(ArrowLeftOnRectangleIcon);
-/* harmony default export */ const esm_ArrowLeftOnRectangleIcon = (ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ArrowLeftOnRectangleIcon.js
+var ArrowLeftOnRectangleIcon = __webpack_require__(5676);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/Bars3Icon.js
 var Bars3Icon = __webpack_require__(4294);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ChatBubbleLeftRightIcon.js
@@ -31165,30 +31143,8 @@ var CubeIcon = __webpack_require__(4738);
 var DocumentTextIcon = __webpack_require__(2883);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/HomeIcon.js
 var HomeIcon = __webpack_require__(6270);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/InboxIcon.js
-
-function InboxIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "M2.25 13.5h3.86a2.25 2.25 0 0 1 2.012 1.244l.256.512a2.25 2.25 0 0 0 2.013 1.244h3.218a2.25 2.25 0 0 0 2.013-1.244l.256-.512a2.25 2.25 0 0 1 2.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 0 0-2.15-1.588H6.911a2.25 2.25 0 0 0-2.15 1.588L2.35 13.177a2.25 2.25 0 0 0-.1.661Z"
-    }));
-}
-const InboxIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(InboxIcon);
-/* harmony default export */ const esm_InboxIcon = (InboxIcon_ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/InboxIcon.js
+var InboxIcon = __webpack_require__(2029);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/UsersIcon.js
 var UsersIcon = __webpack_require__(8103);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/XMarkIcon.js
@@ -31242,7 +31198,7 @@ const layout_navigation = [
     {
         name: "İletişim Mesajları",
         href: "/admin/contact/messages",
-        icon: esm_InboxIcon
+        icon: InboxIcon/* default */.Z
     },
     {
         name: "Edge Runtime",
@@ -31379,7 +31335,7 @@ function AdminLayout({ children }) {
                                     href: "/",
                                     className: "flex items-center space-x-3 px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg",
                                     children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ArrowLeftOnRectangleIcon, {
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(ArrowLeftOnRectangleIcon/* default */.Z, {
                                             className: "w-5 h-5"
                                         }),
                                         /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
@@ -31434,7 +31390,7 @@ function AdminLayout({ children }) {
                             href: "/",
                             className: "flex items-center space-x-3 px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg",
                             children: [
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ArrowLeftOnRectangleIcon, {
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)(ArrowLeftOnRectangleIcon/* default */.Z, {
                                     className: "w-5 h-5"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
@@ -31491,7 +31447,7 @@ function AdminLayout({ children }) {
                                             onClick: logout,
                                             className: "flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors",
                                             children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ArrowLeftOnRectangleIcon, {
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(ArrowLeftOnRectangleIcon/* default */.Z, {
                                                     className: "w-4 h-4"
                                                 }),
                                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
@@ -31520,7 +31476,7 @@ function AdminLayout({ children }) {
 
 /***/ }),
 
-/***/ 8699:
+/***/ 4286:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -31540,30 +31496,8 @@ var jsx_runtime = __webpack_require__(6485);
 var react = __webpack_require__(5579);
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__(6226);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/ArrowsUpDownIcon.js
-
-function ArrowsUpDownIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "M3 7.5 7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"
-    }));
-}
-const ForwardRef = /*#__PURE__*/ react.forwardRef(ArrowsUpDownIcon);
-/* harmony default export */ const esm_ArrowsUpDownIcon = (ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ArrowsUpDownIcon.js
+var ArrowsUpDownIcon = __webpack_require__(1385);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/BuildingOffice2Icon.js
 var BuildingOffice2Icon = __webpack_require__(2318);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ChevronRightIcon.js
@@ -31597,8 +31531,6 @@ var TrashIcon = __webpack_require__(1071);
 
 
 
-// EXTERNAL MODULE: ./src/data/products.ts
-var data_products = __webpack_require__(2757);
 ;// CONCATENATED MODULE: ./src/app/admin/products/page.tsx
 /* __next_internal_client_entry_do_not_use__ dynamic,runtime,default auto */ 
 
@@ -31609,21 +31541,98 @@ const runtime = "edge";
 
 // Essential icons for immediate use
 
-
 function ProductsPage() {
     const [products, setProducts] = (0,react.useState)([]);
     const [filteredProducts, setFilteredProducts] = (0,react.useState)([]);
+    const [productCategories, setProductCategories] = (0,react.useState)([]);
     const [searchTerm, setSearchTerm] = (0,react.useState)("");
     const [selectedCategory, setSelectedCategory] = (0,react.useState)("");
     const [selectedSubcategory, setSelectedSubcategory] = (0,react.useState)("");
     const [sortDirection, setSortDirection] = (0,react.useState)("newest");
     const [loading, setLoading] = (0,react.useState)(true);
     const [error, setError] = (0,react.useState)(null);
+    // Fetch categories from API (static import yerine)
+    const fetchCategories = async ()=>{
+        try {
+            // Fallback categories - static import yerine
+            const fallbackCategories = [
+                {
+                    key: "lab-equipment",
+                    name: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
+                    description: "Laboratuvar ekipmanları ve sarf malzemeleri",
+                    subcategories: [
+                        {
+                            key: "fiziksel-analiz",
+                            name: "Fiziksel Analiz Ekipmanları",
+                            description: "",
+                            products: []
+                        },
+                        {
+                            key: "kimyasal-analiz",
+                            name: "Kimyasal Analiz Ekipmanları",
+                            description: "",
+                            products: []
+                        },
+                        {
+                            key: "mikrobiyoloji",
+                            name: "Mikrobiyoloji Analiz Ekipmanları",
+                            description: "",
+                            products: []
+                        },
+                        {
+                            key: "test-olcu",
+                            name: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
+                            description: "",
+                            products: []
+                        },
+                        {
+                            key: "ar-ge",
+                            name: "Araştırma ve Geliştirme Ekipmanları",
+                            description: "",
+                            products: []
+                        }
+                    ]
+                },
+                {
+                    key: "process-control",
+                    name: "Proses Kontrol Ve Hat Tipi Analiz \xc7\xf6z\xfcmleri",
+                    description: "Hat tipi analiz sistemleri",
+                    subcategories: [
+                        {
+                            key: "hat-tipi",
+                            name: "Hat Tipi Analiz Sistemleri",
+                            description: "",
+                            products: []
+                        }
+                    ]
+                },
+                {
+                    key: "pilot-systems",
+                    name: "Pilot Tipi \xdcretim ve Proses Sim\xfclasyon Sistemleri",
+                    description: "Pilot \xfcretim sistemleri",
+                    subcategories: [
+                        {
+                            key: "karistirma",
+                            name: "Karıştırma ve Homojenizasyon",
+                            description: "",
+                            products: []
+                        }
+                    ]
+                }
+            ];
+            setProductCategories(fallbackCategories);
+        } catch (error) {
+            console.error("Kategorileri y\xfcklerken hata:", error);
+            setProductCategories([]);
+        }
+    };
     // Fetch products from API
     const fetchProducts = async ()=>{
         try {
             setLoading(true);
             setError(null);
+            // Categories'i de çek
+            await fetchCategories();
             const response = await fetch("/api/products", {
                 credentials: "include"
             });
@@ -31736,7 +31745,7 @@ function ProductsPage() {
     };
     const getAvailableSubcategories = ()=>{
         if (!selectedCategory) return [];
-        const category = data_products/* productCategories */.ZH.find((cat)=>cat.name === selectedCategory);
+        const category = productCategories.find((cat)=>cat.name === selectedCategory);
         return category?.subcategories || [];
     };
     // Loading state
@@ -31921,7 +31930,7 @@ function ProductsPage() {
                                         value: "",
                                         children: "T\xfcm Kategoriler"
                                     }),
-                                    data_products/* productCategories */.ZH.map((category)=>/*#__PURE__*/ (0,jsx_runtime.jsx)("option", {
+                                    productCategories.map((category)=>/*#__PURE__*/ (0,jsx_runtime.jsx)("option", {
                                             value: category.name,
                                             children: category.name
                                         }, category.key))
@@ -31947,7 +31956,7 @@ function ProductsPage() {
                                 onClick: toggleSortDirection,
                                 className: "inline-flex items-center justify-center space-x-2 px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm transition-colors",
                                 children: [
-                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ArrowsUpDownIcon, {
+                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(ArrowsUpDownIcon/* default */.Z, {
                                         className: "w-4 h-4"
                                     }),
                                     /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
@@ -32743,7 +32752,7 @@ function Footer() {
 
 /***/ }),
 
-/***/ 3328:
+/***/ 4931:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -32783,58 +32792,14 @@ var BeakerIcon = __webpack_require__(3238);
 var BookOpenIcon = __webpack_require__(6204);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/BuildingOffice2Icon.js
 var BuildingOffice2Icon = __webpack_require__(2318);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/BuildingStorefrontIcon.js
-
-function BuildingStorefrontIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "M13.5 21v-7.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349M3.75 21V9.349m0 0a3.001 3.001 0 0 0 3.75-.615A2.993 2.993 0 0 0 9.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 0 0 2.25 1.016c.896 0 1.7-.393 2.25-1.015a3.001 3.001 0 0 0 3.75.614m-16.5 0a3.004 3.004 0 0 1-.621-4.72l1.189-1.19A1.5 1.5 0 0 1 5.378 3h13.243a1.5 1.5 0 0 1 1.06.44l1.19 1.189a3 3 0 0 1-.621 4.72M6.75 18h3.75a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.75c0 .414.336.75.75.75Z"
-    }));
-}
-const ForwardRef = /*#__PURE__*/ react.forwardRef(BuildingStorefrontIcon);
-/* harmony default export */ const esm_BuildingStorefrontIcon = (ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/BuildingStorefrontIcon.js
+var BuildingStorefrontIcon = __webpack_require__(1413);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/CalendarDaysIcon.js
 var CalendarDaysIcon = __webpack_require__(555);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ChatBubbleLeftRightIcon.js
 var ChatBubbleLeftRightIcon = __webpack_require__(327);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/ChevronDownIcon.js
-
-function ChevronDownIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "m19.5 8.25-7.5 7.5-7.5-7.5"
-    }));
-}
-const ChevronDownIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(ChevronDownIcon);
-/* harmony default export */ const esm_ChevronDownIcon = (ChevronDownIcon_ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ChevronDownIcon.js
+var ChevronDownIcon = __webpack_require__(2153);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ClipboardDocumentCheckIcon.js
 var ClipboardDocumentCheckIcon = __webpack_require__(9847);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/Cog6ToothIcon.js
@@ -32843,30 +32808,8 @@ var Cog6ToothIcon = __webpack_require__(7828);
 var CogIcon = __webpack_require__(7213);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/CubeIcon.js
 var CubeIcon = __webpack_require__(4738);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/DocumentMagnifyingGlassIcon.js
-
-function DocumentMagnifyingGlassIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m5.231 13.481L15 17.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v16.5c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Zm3.75 11.625a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"
-    }));
-}
-const DocumentMagnifyingGlassIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(DocumentMagnifyingGlassIcon);
-/* harmony default export */ const esm_DocumentMagnifyingGlassIcon = (DocumentMagnifyingGlassIcon_ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/DocumentMagnifyingGlassIcon.js
+var DocumentMagnifyingGlassIcon = __webpack_require__(5323);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/DocumentTextIcon.js
 var DocumentTextIcon = __webpack_require__(2883);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/EnvelopeIcon.js
@@ -32877,30 +32820,8 @@ var FlagIcon = __webpack_require__(2270);
 var GlobeAltIcon = __webpack_require__(2305);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/HomeIcon.js
 var HomeIcon = __webpack_require__(6270);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/InformationCircleIcon.js
-
-function InformationCircleIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
-    }));
-}
-const InformationCircleIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(InformationCircleIcon);
-/* harmony default export */ const esm_InformationCircleIcon = (InformationCircleIcon_ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/InformationCircleIcon.js
+var InformationCircleIcon = __webpack_require__(95);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/LightBulbIcon.js
 var LightBulbIcon = __webpack_require__(8919);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/NewspaperIcon.js
@@ -33759,15 +33680,15 @@ function Header() {
     const getMenuIcon = (name)=>{
         switch(name){
             case "Hakkımızda":
-                return esm_InformationCircleIcon;
+                return InformationCircleIcon/* default */.Z;
             case "\xc7\xf6z\xfcmler":
                 return PuzzlePieceIcon/* default */.Z;
             case "\xdcr\xfcnler":
-                return esm_BuildingStorefrontIcon;
+                return BuildingStorefrontIcon/* default */.Z;
             case "Sekt\xf6rler":
                 return Squares2X2Icon/* default */.Z;
             case "Kaynaklar":
-                return esm_DocumentMagnifyingGlassIcon;
+                return DocumentMagnifyingGlassIcon/* default */.Z;
             default:
                 return HomeIcon/* default */.Z;
         }
@@ -33809,7 +33730,7 @@ function Header() {
                                             className: `px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 flex items-center gap-2 relative ${pathname === item.href ? "text-primary-600 bg-primary-50" : "text-neutral-700 hover:text-primary-600 hover:bg-white/60 hover:backdrop-blur-sm hover:shadow-md"}`,
                                             children: [
                                                 item.name,
-                                                item.megaMenu && /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ChevronDownIcon, {
+                                                item.megaMenu && /*#__PURE__*/ (0,jsx_runtime.jsx)(ChevronDownIcon/* default */.Z, {
                                                     className: `w-4 h-4 transition-transform ${activeMegaMenu === item.name ? "rotate-180" : ""}`
                                                 })
                                             ]
@@ -33833,7 +33754,7 @@ function Header() {
                                             className: "relative px-5 py-2.5 text-sm font-medium text-white bg-[#001328] rounded-xl hover:bg-gradient-to-r hover:from-[#001328] hover:via-[#2A50F8] hover:to-[#FF4766] transition-all duration-700 shadow-lg hover:shadow-2xl hover:scale-110 transform hover:-translate-y-2 flex items-center gap-2 overflow-hidden group before:absolute before:top-0 before:left-[-100%] before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent before:transition-all before:duration-600 hover:before:left-[100%]",
                                             children: [
                                                 "İletişim",
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ChevronDownIcon, {
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(ChevronDownIcon/* default */.Z, {
                                                     className: `w-4 h-4 transition-transform ${activeMegaMenu === "İletişim" ? "rotate-180" : ""}`
                                                 })
                                             ]
@@ -34180,7 +34101,7 @@ function Header() {
                                                             })
                                                         ]
                                                     }),
-                                                    hasSubmenu && /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ChevronDownIcon, {
+                                                    hasSubmenu && /*#__PURE__*/ (0,jsx_runtime.jsx)(ChevronDownIcon/* default */.Z, {
                                                         className: `w-5 h-5 text-neutral-400 transition-transform duration-300 ${isActive ? "rotate-180" : ""}`
                                                     })
                                                 ]
@@ -34349,1492 +34270,6 @@ function Header() {
         ]
     });
 }
-
-
-/***/ }),
-
-/***/ 2757:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   ZH: () => (/* binding */ productCategories)
-/* harmony export */ });
-/* unused harmony exports getAllProducts, getProductsByCategory, getProductsBySubcategory, getProductById, searchProducts, generateCategorySlug, generateSubcategorySlug, getProductImages */
-const productCategories = [
-    {
-        name: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-        key: "laboratuvar-ekipmanlari",
-        description: "Laboratuvar işletmeleriniz i\xe7in kapsamlı ekipman, malzeme ve kit \xe7\xf6z\xfcmleri",
-        icon: "beaker",
-        subcategories: [
-            {
-                name: "Fiziksel Analiz Ekipmanları",
-                key: "fiziksel-analiz",
-                description: "Fiziksel \xf6zellik analizi i\xe7in profesyonel ekipmanlar",
-                products: [
-                    {
-                        id: "brix-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        updated_at: "2023-12-15T10:30:00.000Z",
-                        name: "Digital Refraktometre DR-A1",
-                        description: "Brix ve refraktif indeks tayini i\xe7in otomatik sıcaklık kompanzasyonlu dijital refraktometre",
-                        overview: "Digital Refraktometre DR-A1, gıda end\xfcstrisi ve i\xe7ecek \xfcretiminde en y\xfcksek hassasiyetle Brix ve refraktif indeks \xf6l\xe7\xfcm\xfc yapan profesyonel bir laboratuvar cihazıdır.\n\nBu gelişmiş refraktometre, otomatik sıcaklık kompanzasyonu teknolojisi sayesinde \xe7evresel sıcaklık değişimlerinden etkilenmeden doğru sonu\xe7lar verir. Su ge\xe7irmez tasarımı ile zorlu laboratuvar koşullarında g\xfcvenle kullanılabilir.\n\nKolay kalibasyon \xf6zelliği ile hızlı kurulum sağlar ve rutin bakım gereksinimlerini minimize eder. \xd6zellikle şeker analizi, meyve suyu kalite kontrol\xfc ve gıda \xfcretim s\xfcre\xe7lerinde tercih edilen g\xfcvenilir bir \xe7\xf6z\xfcmd\xfcr.",
-                        image: "/images/lab-1.webp",
-                        images: [
-                            "/images/lab-1.webp",
-                            "/images/lab-2.webp",
-                            "/images/lab-3.webp",
-                            "/images/lab-4.jpg"
-                        ],
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Fiziksel Analiz Ekipmanları",
-                        features: [
-                            "Otomatik sıcaklık kompanzasyonu",
-                            "Su ge\xe7irmez tasarım",
-                            "Kolay kalibasyon"
-                        ],
-                        applications: [
-                            "Gıda end\xfcstrisi",
-                            "İ\xe7ecek \xfcretimi",
-                            "Şeker analizi"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "0-85% Brix",
-                            "Hassasiyet": "\xb10.1% Brix",
-                            "Sıcaklık Aralığı": "10-40\xb0C"
-                        }
-                    },
-                    {
-                        id: "su-aktivite-001",
-                        created_at: "2023-01-02T00:00:00.000Z",
-                        updated_at: "2024-01-10T14:20:00.000Z",
-                        name: "AquaLab 4TE Su Aktivite \xd6l\xe7er",
-                        description: "Su aktivite tayini ve sorpsiyon-desorpsiyon analizi i\xe7in y\xfcksek hassasiyetli cihaz",
-                        image: "/images/lab-2.webp",
-                        images: [
-                            "/images/lab-2.webp",
-                            "/images/lab-5.jpg",
-                            "/images/lab-6.jpg"
-                        ],
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Fiziksel Analiz Ekipmanları",
-                        features: [
-                            "Hızlı \xf6l\xe7\xfcm (5 dakika)",
-                            "Y\xfcksek hassasiyet",
-                            "Otomatik kalibasyon"
-                        ],
-                        applications: [
-                            "Gıda g\xfcvenliği",
-                            "Raf \xf6mr\xfc tayini",
-                            "Mikrobiyolojik g\xfcvenlik"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "0.000-1.000 aw",
-                            "Hassasiyet": "\xb10.003 aw",
-                            "\xd6l\xe7\xfcm S\xfcresi": "5 dakika"
-                        }
-                    },
-                    {
-                        id: "colorimeter-001",
-                        created_at: "2023-01-03T00:00:00.000Z",
-                        updated_at: "2023-11-28T09:15:00.000Z",
-                        name: "Colorimeter CR-400",
-                        description: "Organoleptik analizler i\xe7in profesyonel renk \xf6l\xe7\xfcm cihazı",
-                        image: "/images/lab-3.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Fiziksel Analiz Ekipmanları",
-                        features: [
-                            "L*a*b* renk sistemi",
-                            "Taşınabilir",
-                            "Kolay kullanım"
-                        ],
-                        applications: [
-                            "Gıda renk kontrol\xfc",
-                            "Kozmetik",
-                            "Tekstil"
-                        ],
-                        specifications: {
-                            "Illuminant": "D65, A, C",
-                            "Observer": "2\xb0, 10\xb0",
-                            "\xd6l\xe7\xfcm \xc7apı": "8mm"
-                        }
-                    },
-                    {
-                        id: "texture-001",
-                        created_at: "2023-01-04T00:00:00.000Z",
-                        updated_at: "2024-01-15T16:45:00.000Z",
-                        name: "TA.XTplus Texture Analyser",
-                        description: "Tekst\xfcrel yapı analizleri i\xe7in gelişmiş doku analiz cihazı",
-                        image: "/images/lab-4.jpg",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Fiziksel Analiz Ekipmanları",
-                        features: [
-                            "\xc7oklu test modları",
-                            "Y\xfcksek hassasiyet",
-                            "Kolay kullanım"
-                        ],
-                        applications: [
-                            "Gıda tekst\xfcr\xfc",
-                            "Malzeme testi",
-                            "Kalite kontrol"
-                        ],
-                        specifications: {
-                            "Kuvvet Aralığı": "0.1g - 50kg",
-                            "Hassasiyet": "0.1g",
-                            "Hız Aralığı": "0.01-40 mm/s"
-                        }
-                    },
-                    {
-                        id: "particle-001",
-                        created_at: "2023-01-05T00:00:00.000Z",
-                        updated_at: "2024-01-08T11:30:00.000Z",
-                        name: "Mastersizer 3000 Particle Size Analyzer",
-                        description: "Tane dağılım analizleri i\xe7in lazer difraksiyon teknolojisi",
-                        image: "/images/lab-7.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Fiziksel Analiz Ekipmanları",
-                        features: [
-                            "Lazer difraksiyon",
-                            "Geniş \xf6l\xe7\xfcm aralığı",
-                            "Yaş/kuru \xf6l\xe7\xfcm"
-                        ],
-                        applications: [
-                            "Partik\xfcl analizi",
-                            "Em\xfclsiyon analizi",
-                            "Toz karakterizasyonu"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "0.01\xb5m - 3.5mm",
-                            "Hassasiyet": "\xb11%",
-                            "\xd6l\xe7\xfcm S\xfcresi": "< 10 saniye"
-                        }
-                    },
-                    {
-                        id: "moisture-001",
-                        created_at: "2023-01-06T00:00:00.000Z",
-                        name: "MA37 Moisture Analyzer",
-                        description: "Rutubet (nem) / kuru madde tayini i\xe7in halojenlı kurutma sistemi",
-                        image: "/images/lab-10.jpg",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Fiziksel Analiz Ekipmanları",
-                        features: [
-                            "Halojen ısıtma",
-                            "Otomatik sonu\xe7landırma",
-                            "GLP/GMP uyumlu"
-                        ],
-                        applications: [
-                            "Gıda analizi",
-                            "Kimyasal analiz",
-                            "Kalite kontrol"
-                        ],
-                        specifications: {
-                            "Kapasitet": "110g",
-                            "Hassasiyet": "1mg",
-                            "Sıcaklık Aralığı": "50-160\xb0C"
-                        }
-                    },
-                    {
-                        id: "ph-meter-001",
-                        created_at: "2023-01-07T00:00:00.000Z",
-                        name: "SevenExcellence pH/Ion Meter",
-                        description: "pH tayini ve iyon selektif \xf6l\xe7\xfcmler i\xe7in gelişmiş metre",
-                        image: "/images/lab-1.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Fiziksel Analiz Ekipmanları",
-                        features: [
-                            "\xc7oklu parametre",
-                            "ISE fonksiyonu",
-                            "Veri y\xf6netimi"
-                        ],
-                        applications: [
-                            "Su analizi",
-                            "Gıda kontrol\xfc",
-                            "\xc7evre analizi"
-                        ],
-                        specifications: {
-                            "pH Aralığı": "-2.000 to 20.000",
-                            "Hassasiyet": "\xb10.001 pH",
-                            "ISE Desteği": "Var"
-                        }
-                    },
-                    {
-                        id: "density-001",
-                        created_at: "2023-01-08T00:00:00.000Z",
-                        name: "DMA 35 Portable Density Meter",
-                        description: "Yoğunluk tayini i\xe7in taşınabilir dijital yoğunlukmetre",
-                        image: "/images/lab-2.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Fiziksel Analiz Ekipmanları",
-                        features: [
-                            "Taşınabilir",
-                            "Hızlı \xf6l\xe7\xfcm",
-                            "Otomatik sıcaklık kompanzasyonu"
-                        ],
-                        applications: [
-                            "İ\xe7ecek \xfcretimi",
-                            "Alkol analizi",
-                            "Kimyasal \xfcretim"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "0-3 g/cm\xb3",
-                            "Hassasiyet": "\xb10.001 g/cm\xb3",
-                            "Numune Hacmi": "2ml"
-                        }
-                    },
-                    {
-                        id: "karl-fischer-001",
-                        created_at: "2023-01-09T00:00:00.000Z",
-                        name: "C30S Karl Fischer Coulometer",
-                        description: "Karl Fischer nem tayini i\xe7in y\xfcksek hassasiyetli coulometre",
-                        image: "/images/lab-3.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Fiziksel Analiz Ekipmanları",
-                        features: [
-                            "ppm seviyesi hassasiyet",
-                            "Otomatik drift kompanzasyonu",
-                            "Solvent recovery"
-                        ],
-                        applications: [
-                            "İla\xe7 analizi",
-                            "Petrokimya",
-                            "Plastik \xfcretim"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "10 \xb5g - 200 mg H2O",
-                            "Hassasiyet": "1 \xb5g H2O",
-                            "\xd6l\xe7\xfcm S\xfcresi": "1-5 dakika"
-                        }
-                    },
-                    {
-                        id: "viscometer-001",
-                        created_at: "2023-01-10T00:00:00.000Z",
-                        name: "DV2T Viscometer",
-                        description: "Viskozite tayini ve reolojik akışkanlık karakteristiği analizi",
-                        image: "/images/lab-4.jpg",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Fiziksel Analiz Ekipmanları",
-                        features: [
-                            "\xc7oklu spindle se\xe7eneği",
-                            "Sıcaklık kontrol\xfc",
-                            "Veri kaydı"
-                        ],
-                        applications: [
-                            "Boya \xfcretimi",
-                            "Gıda tekst\xfcr\xfc",
-                            "Kozmetik form\xfclasyon"
-                        ],
-                        specifications: {
-                            "Viskozite Aralığı": "1 - 13,000,000 cP",
-                            "Hassasiyet": "\xb11%",
-                            "Hız Aralığı": "0.01-250 RPM"
-                        }
-                    }
-                ]
-            },
-            {
-                name: "Kimyasal Analiz Ekipmanları",
-                key: "kimyasal-analiz",
-                description: "Kimyasal kompozisyon analizi i\xe7in gelişmiş cihazlar",
-                products: [
-                    {
-                        id: "protein-001",
-                        created_at: "2023-01-11T00:00:00.000Z",
-                        name: "Kjeldahl Protein Analiz Sistemi K-439",
-                        description: "Protein tayini i\xe7in otomatik Kjeldahl distilasyon sistemi",
-                        image: "/images/lab-7.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Kimyasal Analiz Ekipmanları",
-                        features: [
-                            "Otomatik distilasyon",
-                            "Steam distillation",
-                            "G\xfcvenlik sistemi"
-                        ],
-                        applications: [
-                            "Gıda protein analizi",
-                            "Yem analizi",
-                            "Araştırma"
-                        ],
-                        specifications: {
-                            "Analiz S\xfcresi": "4 dakika/numune",
-                            "Su T\xfcketimi": "< 80ml/analiz",
-                            "Geri Kazanım": "> 99.5%"
-                        }
-                    },
-                    {
-                        id: "yag-001",
-                        created_at: "2023-01-12T00:00:00.000Z",
-                        name: "SoxROC Yağ Ekstraksiyon Sistemi",
-                        description: "Yağ tayini i\xe7in hızlı Soxhlet ekstraksiyon sistemi",
-                        image: "/images/lab-10.jpg",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Kimyasal Analiz Ekipmanları",
-                        features: [
-                            "Hızlı ekstraksiyon",
-                            "\xc7\xf6z\xfcc\xfc geri kazanımı",
-                            "G\xfcvenli işlem"
-                        ],
-                        applications: [
-                            "Gıda yağ analizi",
-                            "Yem analizi",
-                            "Tarımsal \xfcr\xfcnler"
-                        ],
-                        specifications: {
-                            "Numune Kapasitesi": "6 pozisyon",
-                            "Ekstraksiyon S\xfcresi": "90-120 dakika",
-                            "\xc7\xf6z\xfcc\xfc Kapasitesi": "250ml"
-                        }
-                    },
-                    {
-                        id: "titrasyon-001",
-                        created_at: "2023-01-13T00:00:00.000Z",
-                        name: "Excellence T7 Titrator",
-                        description: "Asitlik, peroksit değeri ve sabunlaşma değeri tayini i\xe7in otomatik titrat\xf6r",
-                        image: "/images/lab-1.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Kimyasal Analiz Ekipmanları",
-                        features: [
-                            "One Click\xae titrasyonlar",
-                            "InMotion autosampler",
-                            "LabX yazılımı"
-                        ],
-                        applications: [
-                            "Toplam asitlik",
-                            "Peroksit değeri",
-                            "Sabunlaşma değeri"
-                        ],
-                        specifications: {
-                            "Hacim Aralığı": "0.01-100 ml",
-                            "Hassasiyet": "\xb10.1%",
-                            "Analiz Hızı": "100+ numune/g\xfcn"
-                        }
-                    },
-                    {
-                        id: "fiber-001",
-                        created_at: "2023-01-14T00:00:00.000Z",
-                        name: "FIWE Raw Fiber Extractor",
-                        description: "Ham sel\xfcloz, lignin ve diyet lif analizleri i\xe7in ekstraksiyon sistemi",
-                        image: "/images/lab-2.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Kimyasal Analiz Ekipmanları",
-                        features: [
-                            "Asit/baz hidroliz",
-                            "Filtrasyon sistemi",
-                            "Sıcaklık kontrol\xfc"
-                        ],
-                        applications: [
-                            "Gıda lif analizi",
-                            "Yem analizi",
-                            "Beslenme araştırmaları"
-                        ],
-                        specifications: {
-                            "Kapasitet": "6 numune",
-                            "Sıcaklık": "100\xb12\xb0C",
-                            "Filtrasyon": "Otomatik"
-                        }
-                    },
-                    {
-                        id: "salt-001",
-                        created_at: "2023-01-15T00:00:00.000Z",
-                        name: "Chloride Analyzer 926",
-                        description: "Tuz tayini i\xe7in otomatik klor\xfcr analiz cihazı",
-                        image: "/images/lab-3.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Kimyasal Analiz Ekipmanları",
-                        features: [
-                            "Potansiyometrik titrasyon",
-                            "G\xfcm\xfcş elektrot",
-                            "Otomatik sonu\xe7 hesaplama"
-                        ],
-                        applications: [
-                            "Gıda tuz analizi",
-                            "Su analizi",
-                            "End\xfcstriyel kontrol"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "0.01-25% NaCl",
-                            "Hassasiyet": "\xb10.1%",
-                            "Analiz S\xfcresi": "2-3 dakika"
-                        }
-                    },
-                    {
-                        id: "sfc-001",
-                        created_at: "2023-01-16T00:00:00.000Z",
-                        name: "SFC Analyzer NMR-SFC",
-                        description: "SFC / Katı yağ y\xfczdesi tayini i\xe7in NMR teknolojisi",
-                        image: "/images/lab-4.jpg",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Kimyasal Analiz Ekipmanları",
-                        features: [
-                            "NMR teknolojisi",
-                            "Sıcaklık programlamalı",
-                            "Hızlı analiz"
-                        ],
-                        applications: [
-                            "Margarin \xfcretimi",
-                            "\xc7ikolata end\xfcstrisi",
-                            "Yağ araştırması"
-                        ],
-                        specifications: {
-                            "SFC Aralığı": "0-100%",
-                            "Hassasiyet": "\xb10.5%",
-                            "\xd6l\xe7\xfcm S\xfcresi": "30 saniye"
-                        }
-                    },
-                    {
-                        id: "heavy-metals-001",
-                        created_at: "2023-01-17T00:00:00.000Z",
-                        name: "AAS-240 Atomic Absorption Spectrometer",
-                        description: "İz elementler ve ağır metal analizleri i\xe7in atomik absorpsiyon spektrometresi",
-                        image: "/images/lab-7.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Kimyasal Analiz Ekipmanları",
-                        features: [
-                            "\xc7ift ışın sistemi",
-                            "Zeeman background correction",
-                            "Otomatik dilution"
-                        ],
-                        applications: [
-                            "Gıda g\xfcvenliği",
-                            "Su analizi",
-                            "\xc7evre monitoringi"
-                        ],
-                        specifications: {
-                            "Elementler": "70+ element",
-                            "Hassasiyet": "ppb seviyesi",
-                            "Analiz Hızı": "100+ numune/g\xfcn"
-                        }
-                    },
-                    {
-                        id: "so2-001",
-                        created_at: "2023-01-18T00:00:00.000Z",
-                        name: "SO2 Distillation Unit 323",
-                        description: "K\xfck\xfcrt (SO2) tayini i\xe7in distilasyon \xfcnitesi",
-                        image: "/images/lab-10.jpg",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Kimyasal Analiz Ekipmanları",
-                        features: [
-                            "Steam distillation",
-                            "Otomatik SO2 tespiti",
-                            "Soğutma sistemi"
-                        ],
-                        applications: [
-                            "Şarap analizi",
-                            "Meyve suyu",
-                            "Konserve \xfcr\xfcnler"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "1-1000 mg/L",
-                            "Hassasiyet": "\xb12%",
-                            "Distilasyon S\xfcresi": "8 dakika"
-                        }
-                    },
-                    {
-                        id: "nir-001",
-                        created_at: "2023-01-19T00:00:00.000Z",
-                        name: "DS2500 NIR Analyzer",
-                        description: "NIR spektrofotometrik \xf6l\xe7\xfcm metodu ile \xe7ok hassas ve hızlı analiz",
-                        image: "/images/lab-1.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Kimyasal Analiz Ekipmanları",
-                        features: [
-                            "\xc7oklu parametre analizi",
-                            "Kalibrasyon modelleri",
-                            "Hızlı sonu\xe7"
-                        ],
-                        applications: [
-                            "Tahıl analizi",
-                            "Et \xfcr\xfcnleri",
-                            "S\xfct \xfcr\xfcnleri"
-                        ],
-                        specifications: {
-                            "Dalga Boyu": "400-2500 nm",
-                            "Analiz S\xfcresi": "< 30 saniye",
-                            "Parametreler": "20+ parametre"
-                        }
-                    }
-                ]
-            },
-            {
-                name: "Mikrobiyoloji Analiz Ekipmanları",
-                key: "mikrobiyoloji",
-                description: "Mikrobiyolojik analizler i\xe7in kapsamlı ekipman ve malzemeler",
-                products: [
-                    {
-                        id: "nutrient-agar-001",
-                        created_at: "2023-01-20T00:00:00.000Z",
-                        name: "Nutrient Agar Dehydrated Media",
-                        description: "Genel ama\xe7lı mikroorganizma k\xfclt\xfcr\xfc i\xe7in dehidrat besiyeri",
-                        image: "/images/lab-2.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Mikrobiyoloji Analiz Ekipmanları",
-                        features: [
-                            "Steril form\xfclasyon",
-                            "Kolay hazırlık",
-                            "Uzun raf \xf6mr\xfc"
-                        ],
-                        applications: [
-                            "Bakteriyel k\xfclt\xfcr",
-                            "Mikrobiyolojik analiz",
-                            "Araştırma"
-                        ],
-                        specifications: {
-                            "Paket Boyutu": "500g",
-                            "pH Değeri": "7.2 \xb1 0.2",
-                            "Raf \xd6mr\xfc": "24 ay"
-                        }
-                    },
-                    {
-                        id: "petrifilm-apc-001",
-                        created_at: "2023-01-21T00:00:00.000Z",
-                        name: "3M Petrifilm Aerobic Count Plates",
-                        description: "Toplam aerobik bakteri sayısı i\xe7in kullanıma hazır analiz plakaları",
-                        image: "/images/lab-3.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Mikrobiyoloji Analiz Ekipmanları",
-                        features: [
-                            "Kullanıma hazır",
-                            "Kolay uygulama",
-                            "Hızlı sonu\xe7"
-                        ],
-                        applications: [
-                            "Gıda g\xfcvenliği",
-                            "Su analizi",
-                            "\xc7evre kontrol\xfc"
-                        ],
-                        specifications: {
-                            "Paket İ\xe7eriği": "25 plaka",
-                            "İnk\xfcbasyon S\xfcresi": "48-72 saat",
-                            "Sıcaklık": "35\xb0C"
-                        }
-                    },
-                    {
-                        id: "petrifilm-ecoli-001",
-                        created_at: "2023-01-22T00:00:00.000Z",
-                        name: "3M Petrifilm E.coli/Coliform Count Plates",
-                        description: "E.coli ve koliform bakterileri i\xe7in \xf6zel analiz plakaları",
-                        image: "/images/lab-4.jpg",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Mikrobiyoloji Analiz Ekipmanları",
-                        features: [
-                            "Spesifik tanımlama",
-                            "Chromogenic substrat",
-                            "FDA onaylı"
-                        ],
-                        applications: [
-                            "Su analizi",
-                            "Gıda g\xfcvenliği",
-                            "Hijyen kontrol\xfc"
-                        ],
-                        specifications: {
-                            "Paket İ\xe7eriği": "25 plaka",
-                            "İnk\xfcbasyon S\xfcresi": "24-48 saat",
-                            "Sıcaklık": "35\xb0C"
-                        }
-                    },
-                    {
-                        id: "pathogen-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "Neogen Listeria Right Now Test",
-                        description: "Listeria patojen mikroorganizması i\xe7in hızlı test sistemi",
-                        image: "/images/lab-7.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Mikrobiyoloji Analiz Ekipmanları",
-                        features: [
-                            "Rapid test",
-                            "AOAC onaylı",
-                            "Y\xfcksek spesifite"
-                        ],
-                        applications: [
-                            "Gıda g\xfcvenliği",
-                            "S\xfct \xfcr\xfcnleri",
-                            "Et \xfcr\xfcnleri"
-                        ],
-                        specifications: {
-                            "Test S\xfcresi": "60 dakika",
-                            "Hassasiyet": "1 CFU/25g",
-                            "Kit İ\xe7eriği": "50 test"
-                        }
-                    },
-                    {
-                        id: "hygiene-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "SystemSURE Plus ATP Hygiene System",
-                        description: "Hijyen kontrol ve izleme sistemleri i\xe7in ATP bioluminesans",
-                        image: "/images/lab-10.jpg",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Mikrobiyoloji Analiz Ekipmanları",
-                        features: [
-                            "Anında sonu\xe7",
-                            "Sayısal okuma",
-                            "Hafıza kapasitesi"
-                        ],
-                        applications: [
-                            "Y\xfczey temizliği",
-                            "HACCP kontrol\xfc",
-                            "Sanitasyon doğrulama"
-                        ],
-                        specifications: {
-                            "Test S\xfcresi": "15 saniye",
-                            "\xd6l\xe7\xfcm Aralığı": "0-9999 RLU",
-                            "Hafıza": "2000+ test"
-                        }
-                    },
-                    {
-                        id: "dilution-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "BagMixer 400 Stomacher",
-                        description: "Kullanıma hazır dil\xfcsyon \xe7\xf6zeltileri ve homojenizasyon sistemi",
-                        image: "/images/lab-1.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Mikrobiyoloji Analiz Ekipmanları",
-                        features: [
-                            "Steril homojenizasyon",
-                            "Ayarlanabilir hız",
-                            "Timer fonksiyonu"
-                        ],
-                        applications: [
-                            "Numune hazırlama",
-                            "Mikrobiyolojik analiz",
-                            "Gıda \xf6rnekleri"
-                        ],
-                        specifications: {
-                            "Hacim Kapasitesi": "400ml",
-                            "Hız Aralığı": "4-10 darbe/saniye",
-                            "Timer": "10 saniye-10 dakika"
-                        }
-                    },
-                    {
-                        id: "membrane-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "Millipore Membrane Filtration System",
-                        description: "Membran filtrasyon sistemleri ve analitik numune hazırlık",
-                        image: "/images/lab-2.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Mikrobiyoloji Analiz Ekipmanları",
-                        features: [
-                            "0.45\xb5m membran",
-                            "Steril filtrasyon",
-                            "\xc7oklu numune"
-                        ],
-                        applications: [
-                            "Su analizi",
-                            "Sterilite testi",
-                            "Partik\xfcl analizi"
-                        ],
-                        specifications: {
-                            "Membran Boyutu": "47mm",
-                            "Por Boyutu": "0.45\xb5m",
-                            "Kapasitet": "6 numune"
-                        }
-                    },
-                    {
-                        id: "uht-sterilite-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "BacT/ALERT 3D System",
-                        description: "UHT ambalajlarda hızlı sterilite kontrol sistemleri",
-                        image: "/images/lab-3.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Mikrobiyoloji Analiz Ekipmanları",
-                        features: [
-                            "Otomatik deteksiyon",
-                            "Kolorimetrik sens\xf6r",
-                            "S\xfcrekli monit\xf6ring"
-                        ],
-                        applications: [
-                            "UHT \xfcr\xfcnler",
-                            "Sterilite kontrol\xfc",
-                            "Kalite g\xfcvence"
-                        ],
-                        specifications: {
-                            "Kapasite": "240 şişe",
-                            "Deteksiyon S\xfcresi": "6-24 saat",
-                            "Sıcaklık": "35\xb12\xb0C"
-                        }
-                    },
-                    {
-                        id: "air-quality-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "SAS Super ISO Microbial Air Sampler",
-                        description: "Hava kalitesi ve ortamdan mikrobiyolojik kirlilik kontrol \xfcr\xfcnleri",
-                        image: "/images/lab-4.jpg",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Mikrobiyoloji Analiz Ekipmanları",
-                        features: [
-                            "Aktif hava \xf6rnekleme",
-                            "ISO 14698 uyumlu",
-                            "Programlanabilir"
-                        ],
-                        applications: [
-                            "Temiz oda kontrol\xfc",
-                            "Hava kalitesi",
-                            "\xc7evre monit\xf6ringi"
-                        ],
-                        specifications: {
-                            "\xd6rnekleme Hızı": "180 L/dakika",
-                            "Plaka Boyutu": "90mm",
-                            "Pil \xd6mr\xfc": "8 saat"
-                        }
-                    },
-                    {
-                        id: "media-prep-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "MediaPrep M25 Automated Media Dispenser",
-                        description: "Otomatik besiyeri hazırlık ve steril dolum sistemleri",
-                        image: "/images/lab-7.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Mikrobiyoloji Analiz Ekipmanları",
-                        features: [
-                            "Otomatik dolum",
-                            "Hassas dozajlama",
-                            "Steril koşullar"
-                        ],
-                        applications: [
-                            "Besiyeri hazırlama",
-                            "Plaka d\xf6kme",
-                            "T\xfcp doldurma"
-                        ],
-                        specifications: {
-                            "Kapasitet": "25L",
-                            "Dolum Hassasiyeti": "\xb11%",
-                            "Sıcaklık Kontrol\xfc": "45-50\xb0C"
-                        }
-                    }
-                ]
-            },
-            {
-                name: "Molek\xfcler Biyoloji/Genetik Analiz Ekipmanları",
-                key: "molekuler-biyoloji",
-                description: "DNA/RNA analizi ve GDO tespiti i\xe7in gelişmiş sistemler",
-                products: [
-                    {
-                        id: "gdo-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "Real-Time PCR GDO Analiz Sistemi",
-                        description: "GDO/Tağşiş analizleri i\xe7in real-time PCR sistemi",
-                        image: "/images/lab-7.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Molek\xfcler Biyoloji/Genetik Analiz Ekipmanları",
-                        features: [
-                            "Real-time analiz",
-                            "\xc7oklu hedef",
-                            "Hızlı sonu\xe7"
-                        ],
-                        applications: [
-                            "GDO tespiti",
-                            "Tağşiş analizi",
-                            "T\xfcr teşhisi"
-                        ],
-                        specifications: {
-                            "Kanal Sayısı": "4 kanal",
-                            "Numune Kapasitesi": "96 well",
-                            "Analiz S\xfcresi": "2-3 saat"
-                        }
-                    }
-                ]
-            },
-            {
-                name: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
-                key: "test-olcu",
-                description: "\xc7eşitli parametrelerin \xf6l\xe7\xfcm\xfc i\xe7in test ve kontrol cihazları",
-                products: [
-                    {
-                        id: "temp-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "Testo 735-2 Precision Thermometer",
-                        description: "Sıcaklık \xf6l\xe7\xfcm cihazları - Y\xfcksek hassasiyetli dijital termometre",
-                        image: "/images/lab-1.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
-                        features: [
-                            "\xc7ift kanal",
-                            "MIN/MAX değerler",
-                            "Alarm fonksiyonu"
-                        ],
-                        applications: [
-                            "Gıda kontrol\xfc",
-                            "HVAC",
-                            "Laboratuvar"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "-200\xb0C to +1372\xb0C",
-                            "Hassasiyet": "\xb10.1\xb0C",
-                            "Yanıt S\xfcresi": "1 saniye"
-                        }
-                    },
-                    {
-                        id: "dewpoint-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "DewPoint Pro DP70",
-                        description: "\xc7iğlenme noktası sıcaklığı \xf6l\xe7\xfcm cihazları i\xe7in taşınabilir sistem",
-                        image: "/images/lab-2.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
-                        features: [
-                            "Hızlı \xf6l\xe7\xfcm",
-                            "Kalibrasyon sertifikası",
-                            "Veri logger"
-                        ],
-                        applications: [
-                            "Compressed air",
-                            "Process monitoring",
-                            "HVAC"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "-80 to +20\xb0C Td",
-                            "Hassasiyet": "\xb12\xb0C",
-                            "Equilibrium S\xfcresi": "< 5 dakika"
-                        }
-                    },
-                    {
-                        id: "humidity-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "HygroLog HL-NT2 Data Logger",
-                        description: "Bağıl nem \xf6l\xe7\xfcm cihazları i\xe7in hassas sens\xf6r teknolojisi",
-                        image: "/images/lab-3.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
-                        features: [
-                            "Veri kaydedici",
-                            "USB \xe7ıkışı",
-                            "LCD ekran"
-                        ],
-                        applications: [
-                            "Depo kontrol\xfc",
-                            "İklim kontrol\xfc",
-                            "Kalite kontrol"
-                        ],
-                        specifications: {
-                            "Nem Aralığı": "0-100% RH",
-                            "Hassasiyet": "\xb12% RH",
-                            "İşletim Sıcaklığı": "-30 to +70\xb0C"
-                        }
-                    },
-                    {
-                        id: "absolute-humidity-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "ABS-H1 Absolute Humidity Meter",
-                        description: "Mutlak nem \xf6l\xe7\xfcm cihazları i\xe7in gelişmiş sens\xf6r teknolojisi",
-                        image: "/images/lab-4.jpg",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
-                        features: [
-                            "g/m\xb3 \xf6l\xe7\xfcm\xfc",
-                            "Otomatik kompanzasyon",
-                            "Trend analizi"
-                        ],
-                        applications: [
-                            "Kurutma prosesleri",
-                            "İklim kontrol\xfc",
-                            "Enerji y\xf6netimi"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "0-2000 g/m\xb3",
-                            "Hassasiyet": "\xb13% + 0.5 g/m\xb3",
-                            "\xc7alışma Sıcaklığı": "0 to +50\xb0C"
-                        }
-                    },
-                    {
-                        id: "pressure-diff-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "DP-CALC 5825 Micromanometer",
-                        description: "Fark basın\xe7 \xf6l\xe7\xfcm cihazları i\xe7in dijital mikromanometre",
-                        image: "/images/lab-7.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
-                        features: [
-                            "\xc7ift ported",
-                            "Veri logging",
-                            "MIN/MAX/AVG"
-                        ],
-                        applications: [
-                            "HVAC testi",
-                            "Temiz oda kontrol\xfc",
-                            "Filter test"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "\xb12500 Pa",
-                            "Hassasiyet": "\xb11% + 0.25 Pa",
-                            "\xc7\xf6z\xfcn\xfcrl\xfck": "0.1 Pa"
-                        }
-                    },
-                    {
-                        id: "pressure-abs-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "DPI 104 Digital Pressure Indicator",
-                        description: "Mutlak basın\xe7 \xf6l\xe7\xfcm cihazları i\xe7in dijital g\xf6sterge",
-                        image: "/images/lab-10.jpg",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
-                        features: [
-                            "0.25% hassasiyet",
-                            "Intrinsically safe",
-                            "Min/Max kayıt"
-                        ],
-                        applications: [
-                            "Basın\xe7 kalibrasyonu",
-                            "Sistem testi",
-                            "Proses kontrol\xfc"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "0-700 bar",
-                            "Hassasiyet": "\xb10.25%",
-                            "\xc7alışma Sıcaklığı": "-10 to +50\xb0C"
-                        }
-                    },
-                    {
-                        id: "velocity-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "TSI 9545 VelociCalc Air Velocity Meter",
-                        description: "Hız \xf6l\xe7\xfcm cihazları i\xe7in \xe7ok fonksiyonlu hava hızı \xf6l\xe7er",
-                        image: "/images/lab-1.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
-                        features: [
-                            "\xc7ok parametre",
-                            "Veri logging",
-                            "USB bağlantı"
-                        ],
-                        applications: [
-                            "HVAC commissioning",
-                            "IAQ araştırması",
-                            "Fume hood test"
-                        ],
-                        specifications: {
-                            "Hız Aralığı": "0-50 m/s",
-                            "Hassasiyet": "\xb13% + 0.02 m/s",
-                            "Sıcaklık": "-18 to +93\xb0C"
-                        }
-                    },
-                    {
-                        id: "rpm-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "PCE-155 Digital Tachometer",
-                        description: "Devir \xf6l\xe7\xfcm cihazları i\xe7in temassız dijital takometere",
-                        image: "/images/lab-2.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
-                        features: [
-                            "Temassız \xf6l\xe7\xfcm",
-                            "Lazer pointer",
-                            "MIN/MAX/AVG"
-                        ],
-                        applications: [
-                            "Motor kontrol\xfc",
-                            "Fan testi",
-                            "Ekipman bakımı"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "2.5-100,000 RPM",
-                            "Hassasiyet": "\xb10.05% + 1 digit",
-                            "Mesafe": "50-500mm"
-                        }
-                    },
-                    {
-                        id: "flow-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "TSI 4040 Mass Flow Meter",
-                        description: "Debi \xf6l\xe7\xfcm cihazları i\xe7in termal mass flow metre",
-                        image: "/images/lab-3.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
-                        features: [
-                            "K\xfctlesel debi",
-                            "Sıcaklık kompanzasyonu",
-                            "Datalogging"
-                        ],
-                        applications: [
-                            "Hava debisi \xf6l\xe7\xfcm\xfc",
-                            "HVAC balancing",
-                            "Process monitoring"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "0-300 SLPM",
-                            "Hassasiyet": "\xb11.5% + 0.5% F.S.",
-                            "\xc7alışma Sıcaklığı": "0 to +50\xb0C"
-                        }
-                    },
-                    {
-                        id: "lux-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "LI-250A Light Meter",
-                        description: "L\xfcx ve ışık şiddeti \xf6l\xe7\xfcm cihazları i\xe7in quantum sens\xf6r",
-                        image: "/images/lab-4.jpg",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
-                        features: [
-                            "Quantum sens\xf6r",
-                            "Underwater kullanım",
-                            "Kalibrasyonlu"
-                        ],
-                        applications: [
-                            "Aydınlatma tasarımı",
-                            "Botanik araştırmaları",
-                            "Sera kontrol\xfc"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "0-10,000 \xb5mol m⁻\xb2 s⁻\xb9",
-                            "Hassasiyet": "\xb15%",
-                            "Dalga Boyu": "400-700 nm"
-                        }
-                    },
-                    {
-                        id: "co2-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "TSI 7545 IAQ-CALC CO2 Monitor",
-                        description: "Karbondioksit \xf6l\xe7\xfcm cihazları i\xe7in i\xe7 hava kalitesi monit\xf6r\xfc",
-                        image: "/images/lab-7.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
-                        features: [
-                            "NDIR teknolojisi",
-                            "\xc7ok parametre",
-                            "Alarm sistemi"
-                        ],
-                        applications: [
-                            "İ\xe7 hava kalitesi",
-                            "HVAC kontrol\xfc",
-                            "G\xfcvenlik izleme"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "0-5000 ppm",
-                            "Hassasiyet": "\xb150 ppm + 3%",
-                            "Sıcaklık": "0 to +50\xb0C"
-                        }
-                    },
-                    {
-                        id: "co-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "BW GasAlert Extreme CO Monitor",
-                        description: "Karbonmonoksit \xf6l\xe7\xfcm cihazları i\xe7in taşınabilir gaz dedekt\xf6r\xfc",
-                        image: "/images/lab-10.jpg",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
-                        features: [
-                            "Tek gaz deteksiyonu",
-                            "Su ge\xe7irmez",
-                            "Titreşim alarmı"
-                        ],
-                        applications: [
-                            "İş g\xfcvenliği",
-                            "Confined space",
-                            "Emergency response"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "0-1000 ppm",
-                            "Hassasiyet": "1 ppm",
-                            "Alarm Seviyeleri": "TWA, STEL, HIGH"
-                        }
-                    }
-                ]
-            },
-            {
-                name: "Ambalaj ve Malzeme Test Sistemleri",
-                key: "ambalaj-test",
-                description: "Ambalaj malzemelerinin test ve analizi i\xe7in \xf6zel sistemler",
-                products: [
-                    {
-                        id: "package-test-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "Instron 3367 Universal Testing System",
-                        description: "Ambalaj testleri i\xe7in \xe7ekme, basma ve b\xfckme test sistemi",
-                        image: "/images/lab-1.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Ambalaj ve Malzeme Test Sistemleri",
-                        features: [
-                            "\xc7ok ama\xe7lı test",
-                            "Load cell se\xe7enekleri",
-                            "Bluehill yazılımı"
-                        ],
-                        applications: [
-                            "Plastik film testi",
-                            "Kağıt testi",
-                            "Yapıştırıcı testi"
-                        ],
-                        specifications: {
-                            "Maksimum Y\xfck": "30 kN",
-                            "Test Hızı": "0.001-500 mm/min",
-                            "Hassasiyet": "\xb10.5%"
-                        }
-                    },
-                    {
-                        id: "bottle-test-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "AGR TopLoad Tester TL-30",
-                        description: "Gazlı/gazsız i\xe7eceklerde ve sıvı \xfcr\xfcnlerde kalite kontrol ekipmanları",
-                        image: "/images/lab-2.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Ambalaj ve Malzeme Test Sistemleri",
-                        features: [
-                            "Top load test",
-                            "Cam/plastik şişe",
-                            "Otomatik raporlama"
-                        ],
-                        applications: [
-                            "İ\xe7ecek end\xfcstrisi",
-                            "Şişe \xfcretimi",
-                            "Kalite kontrol\xfc"
-                        ],
-                        specifications: {
-                            "Maksimum Y\xfck": "3000 N",
-                            "Test Hızı": "5-25 mm/min",
-                            "Şişe Boyutu": "10-40mm \xe7ap"
-                        }
-                    },
-                    {
-                        id: "can-test-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "CANNEED-CBT-1000 Can Testing System",
-                        description: "PET/Preform ve metal kutu analiz cihazları i\xe7in kapsamlı test sistemi",
-                        image: "/images/lab-3.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Ambalaj ve Malzeme Test Sistemleri",
-                        features: [
-                            "\xc7ok parametre testi",
-                            "Otomatik \xf6l\xe7\xfcm",
-                            "Veri y\xf6netimi"
-                        ],
-                        applications: [
-                            "Teneke kutu \xfcretimi",
-                            "Aerosol kutular",
-                            "Metal ambalaj"
-                        ],
-                        specifications: {
-                            "Test Parametreleri": "15+ test",
-                            "Kutu Boyutu": "50-1000ml",
-                            "Hassasiyet": "\xb10.1%"
-                        }
-                    }
-                ]
-            },
-            {
-                name: "Araştırma ve Geliştirme Ekipmanları",
-                key: "arge-ekipmanlari",
-                description: "AR-GE laboratuvarları i\xe7in gelişmiş analiz ve test ekipmanları",
-                products: [
-                    {
-                        id: "shelf-life-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "VSP2 Vent Sizing Package",
-                        description: "Raf \xf6mr\xfc analizi i\xe7in gelişmiş termal analiz sistemi",
-                        image: "/images/lab-4.jpg",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Araştırma ve Geliştirme Ekipmanları",
-                        features: [
-                            "Thermal screening",
-                            "Adiabatic test",
-                            "G\xfcvenlik analizi"
-                        ],
-                        applications: [
-                            "İla\xe7 stabilitesi",
-                            "Gıda raf \xf6mr\xfc",
-                            "Kimyasal g\xfcvenlik"
-                        ],
-                        specifications: {
-                            "Sıcaklık Aralığı": "-40 to +400\xb0C",
-                            "Basın\xe7": "0-150 bar",
-                            "Numune Boyutu": "1-10 ml"
-                        }
-                    },
-                    {
-                        id: "stability-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "CLIMACELL 222 Stability Chamber",
-                        description: "\xdcr\xfcn stabilizasyon testleri i\xe7in iklim test odası",
-                        image: "/images/lab-7.webp",
-                        category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
-                        subcategory: "Araştırma ve Geliştirme Ekipmanları",
-                        features: [
-                            "Hassas kontrol",
-                            "ICH kılavuzları",
-                            "Data logging"
-                        ],
-                        applications: [
-                            "İla\xe7 stabilitesi",
-                            "Kozmetik testi",
-                            "Elektronik testi"
-                        ],
-                        specifications: {
-                            "Sıcaklık": "+5 to +70\xb0C",
-                            "Nem": "10-98% RH",
-                            "Hacim": "222 L"
-                        }
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        name: "Proses Kontrol Ve Hat Tipi Analiz \xc7\xf6z\xfcmleri",
-        key: "proses-kontrol",
-        description: "\xdcretim hattında ger\xe7ek zamanlı analiz ve kontrol \xe7\xf6z\xfcmleri",
-        icon: "cube",
-        subcategories: [
-            {
-                name: "Hat Tipi Analiz Sistemleri",
-                key: "hat-tipi-analiz",
-                description: "\xdcretim hattında ger\xe7ek zamanlı analiz sistemleri",
-                products: [
-                    {
-                        id: "nir-ft-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "FT-NIR Spektrometre FN-500",
-                        description: "NIR, FT-NIR ve NMR spektrofotometrik \xf6l\xe7\xfcm metodu ile \xe7ok hassas analiz",
-                        image: "/images/lab-3.webp",
-                        category: "Proses Kontrol Ve Hat Tipi Analiz \xc7\xf6z\xfcmleri",
-                        subcategory: "Hat Tipi Analiz Sistemleri",
-                        features: [
-                            "Ger\xe7ek zamanlı analiz",
-                            "\xc7oklu parametre",
-                            "Kolay entegrasyon"
-                        ],
-                        applications: [
-                            "Gıda \xfcretimi",
-                            "İla\xe7 sanayii",
-                            "Kimya"
-                        ],
-                        specifications: {
-                            "Dalga Boyu": "1000-2500 nm",
-                            "\xc7\xf6z\xfcn\xfcrl\xfck": "4 cm⁻\xb9",
-                            "Analiz S\xfcresi": "< 30 saniye"
-                        }
-                    },
-                    {
-                        id: "ph-redox-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "İnline pH/Redox \xd6l\xe7er",
-                        description: "pH/Redox \xf6l\xe7\xfcm\xfc i\xe7in hat tipi sens\xf6r sistemi",
-                        image: "/images/lab-4.jpg",
-                        category: "Proses Kontrol Ve Hat Tipi Analiz \xc7\xf6z\xfcmleri",
-                        subcategory: "Hat Tipi Analiz Sistemleri",
-                        features: [
-                            "S\xfcrekli \xf6l\xe7\xfcm",
-                            "Otomatik temizlik",
-                            "Alarm sistemi"
-                        ],
-                        applications: [
-                            "İ\xe7ecek \xfcretimi",
-                            "Kimya",
-                            "Su arıtma"
-                        ],
-                        specifications: {
-                            "pH Aralığı": "0-14 pH",
-                            "Hassasiyet": "\xb10.01 pH",
-                            "Sıcaklık Kompanzasyonu": "Otomatik"
-                        }
-                    }
-                ]
-            },
-            {
-                name: "Proses Sens\xf6rleri",
-                key: "proses-sensorleri",
-                description: "\xdcretim kontrol\xfc i\xe7in \xe7eşitli sens\xf6r teknolojileri",
-                products: [
-                    {
-                        id: "seviye-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "Ultrasonik Seviye Sens\xf6r\xfc",
-                        description: "Seviye sens\xf6rleri ve nokta seviye sens\xf6rleri",
-                        image: "/images/lab-7.webp",
-                        category: "Proses Kontrol Ve Hat Tipi Analiz \xc7\xf6z\xfcmleri",
-                        subcategory: "Proses Sens\xf6rleri",
-                        features: [
-                            "Temassız \xf6l\xe7\xfcm",
-                            "Y\xfcksek hassasiyet",
-                            "Kolay kurulum"
-                        ],
-                        applications: [
-                            "Tank kontrol\xfc",
-                            "Silo izleme",
-                            "Proses kontrol\xfc"
-                        ],
-                        specifications: {
-                            "\xd6l\xe7\xfcm Aralığı": "0.2-30 m",
-                            "Hassasiyet": "\xb13mm",
-                            "\xc7ıkış": "4-20mA"
-                        }
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        name: "Pilot Tipi \xdcretim ve Proses Sim\xfclasyon Sistemleri",
-        key: "pilot-uretim",
-        description: "Pilot \xf6l\xe7ekte \xfcretim ve proses geliştirme sistemleri",
-        icon: "wrench",
-        subcategories: [
-            {
-                name: "Karıştırma ve Homojenizasyon",
-                key: "karistirma",
-                description: "Karıştırma, homojenizasyon ve dağıtma ekipmanları",
-                products: [
-                    {
-                        id: "homoj-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "Pilot Homojenizat\xf6r PH-100",
-                        description: "Laboratuvar tipi y\xfcksek basın\xe7 homojenizat\xf6r\xfc",
-                        image: "/images/lab-10.jpg",
-                        category: "Pilot Tipi \xdcretim ve Proses Sim\xfclasyon Sistemleri",
-                        subcategory: "Karıştırma ve Homojenizasyon",
-                        features: [
-                            "Ayarlanabilir basın\xe7",
-                            "Kolay temizlik",
-                            "Kompakt tasarım"
-                        ],
-                        applications: [
-                            "Em\xfclsiyon \xfcretimi",
-                            "Nano partik\xfcl",
-                            "İla\xe7 form\xfclasyon"
-                        ],
-                        specifications: {
-                            "Maksimum Basın\xe7": "1500 bar",
-                            "Debi": "0.1-5 L/h",
-                            "G\xfc\xe7": "2.2 kW"
-                        }
-                    }
-                ]
-            },
-            {
-                name: "Kurutma ve İşleme",
-                key: "kurutma-isleme",
-                description: "Spray dryer, fluid bed dryer ve kurutma sistemleri",
-                products: [
-                    {
-                        id: "spray-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "Mini Spray Dryer SD-05",
-                        description: "Spray dryer / Fluid bed dryer / Kuruma ve kurutma sistemleri",
-                        image: "/images/lab-1.webp",
-                        category: "Pilot Tipi \xdcretim ve Proses Sim\xfclasyon Sistemleri",
-                        subcategory: "Kurutma ve İşleme",
-                        features: [
-                            "Kompakt tasarım",
-                            "Kolay kullanım",
-                            "Hızlı kurutma"
-                        ],
-                        applications: [
-                            "Gıda tozu",
-                            "İla\xe7 gran\xfcl\xfc",
-                            "Kimyasal \xfcr\xfcnler"
-                        ],
-                        specifications: {
-                            "Su Buharlaştırma": "0.5-1.5 L/h",
-                            "İnlet Sıcaklık": "120-220\xb0C",
-                            "Outlet Sıcaklık": "60-120\xb0C"
-                        }
-                    },
-                    {
-                        id: "lyophilizer-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "Laboratuvar Liyofilizat\xf6r\xfc LF-10",
-                        description: "Lyofilizasyon / Freeze drying (dondurarak kurutma) sistemi",
-                        image: "/images/lab-2.webp",
-                        category: "Pilot Tipi \xdcretim ve Proses Sim\xfclasyon Sistemleri",
-                        subcategory: "Kurutma ve İşleme",
-                        features: [
-                            "Otomatik kontrol",
-                            "Y\xfcksek verim",
-                            "GMP uyumlu"
-                        ],
-                        applications: [
-                            "İla\xe7 \xfcretimi",
-                            "Gıda koruma",
-                            "Biyolojik \xfcr\xfcnler"
-                        ],
-                        specifications: {
-                            "Kapasitet": "1-10 L",
-                            "Sıcaklık": "-80\xb0C to +60\xb0C",
-                            "Vakum": "0.1 mbar"
-                        }
-                    }
-                ]
-            },
-            {
-                name: "Filtrasyon ve Separasyon",
-                key: "filtrasyon",
-                description: "Filtrasyon, separasyon ve solid phase extraction sistemleri",
-                products: [
-                    {
-                        id: "membrane-mf-001",
-                        created_at: "2023-01-01T00:00:00.000Z",
-                        name: "Membran Filtrasyon Sistemi MF-200",
-                        description: "Filtrasyon ve separasyon i\xe7in membran teknolojisi",
-                        image: "/images/lab-3.webp",
-                        category: "Pilot Tipi \xdcretim ve Proses Sim\xfclasyon Sistemleri",
-                        subcategory: "Filtrasyon ve Separasyon",
-                        features: [
-                            "\xc7oklu membran se\xe7eneği",
-                            "Otomatik yıkama",
-                            "Mod\xfcler tasarım"
-                        ],
-                        applications: [
-                            "Su arıtma",
-                            "Protein saflaştırma",
-                            "Konsantrasyon"
-                        ],
-                        specifications: {
-                            "Membran Alanı": "0.1-2 m\xb2",
-                            "İşletim Basıncı": "1-10 bar",
-                            "Sıcaklık Aralığı": "5-80\xb0C"
-                        }
-                    }
-                ]
-            }
-        ]
-    }
-];
-// Tüm ürünleri düz liste olarak alma
-const getAllProducts = ()=>{
-    return productCategories.flatMap((category)=>category.subcategories.flatMap((subcategory)=>subcategory.products));
-};
-// Kategoriye göre ürünleri alma
-const getProductsByCategory = (categoryKey)=>{
-    const category = productCategories.find((cat)=>cat.key === categoryKey);
-    if (!category) return [];
-    return category.subcategories.flatMap((subcategory)=>subcategory.products);
-};
-// Alt kategoriye göre ürünleri alma
-const getProductsBySubcategory = (categoryKey, subcategoryKey)=>{
-    const category = productCategories.find((cat)=>cat.key === categoryKey);
-    if (!category) return [];
-    const subcategory = category.subcategories.find((sub)=>sub.key === subcategoryKey);
-    return subcategory ? subcategory.products : [];
-};
-// Tek ürün alma
-const getProductById = (productId)=>{
-    const allProducts = getAllProducts();
-    return allProducts.find((product)=>product.id === productId) || null;
-};
-// Arama fonksiyonu
-const searchProducts = (query)=>{
-    const allProducts = getAllProducts();
-    const searchTerm = query.toLowerCase();
-    return allProducts.filter((product)=>product.name.toLowerCase().includes(searchTerm) || product.description.toLowerCase().includes(searchTerm) || product.features.some((feature)=>feature.toLowerCase().includes(searchTerm)) || product.applications.some((app)=>app.toLowerCase().includes(searchTerm)));
-};
-// Kategori URL'leri için slug üretme
-const generateCategorySlug = (categoryName)=>{
-    return categoryName.toLowerCase().replace(/ğ/g, "g").replace(/ü/g, "u").replace(/ş/g, "s").replace(/ı/g, "i").replace(/ö/g, "o").replace(/ç/g, "c").replace(/[^a-z0-9]/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "");
-};
-// Alt kategori URL'leri için slug üretme
-const generateSubcategorySlug = (subcategoryName)=>{
-    return subcategoryName.toLowerCase().replace(/ğ/g, "g").replace(/ü/g, "u").replace(/ş/g, "s").replace(/ı/g, "i").replace(/ö/g, "o").replace(/ç/g, "c").replace(/[^a-z0-9]/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "");
-};
-// Ürün resimlerini alma fonksiyonu
-const getProductImages = (product)=>{
-    if (product.images && Array.isArray(product.images)) {
-        return product.images;
-    }
-    if (product.image) {
-        return [
-            product.image
-        ];
-    }
-    return [
-        "/images/lab-1.webp"
-    ] // Default image
-    ;
-};
 
 
 /***/ }),
@@ -42426,6 +40861,40 @@ const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(A
 
 /***/ }),
 
+/***/ 5676:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+/** @deprecated */ function ArrowLeftOnRectangleIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(ArrowLeftOnRectangleIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
 /***/ 7268:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -42489,6 +40958,40 @@ function ArrowTrendingUpIcon({ title, titleId, ...props }, svgRef) {
     }));
 }
 const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(ArrowTrendingUpIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
+/***/ 1385:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+function ArrowsUpDownIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M3 7.5 7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(ArrowsUpDownIcon);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
 
 
@@ -42664,6 +41167,40 @@ const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(B
 
 /***/ }),
 
+/***/ 1413:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+function BuildingStorefrontIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M13.5 21v-7.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349M3.75 21V9.349m0 0a3.001 3.001 0 0 0 3.75-.615A2.993 2.993 0 0 0 9.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 0 0 2.25 1.016c.896 0 1.7-.393 2.25-1.015a3.001 3.001 0 0 0 3.75.614m-16.5 0a3.004 3.004 0 0 1-.621-4.72l1.189-1.19A1.5 1.5 0 0 1 5.378 3h13.243a1.5 1.5 0 0 1 1.06.44l1.19 1.189a3 3 0 0 1-.621 4.72M6.75 18h3.75a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.75c0 .414.336.75.75.75Z"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(BuildingStorefrontIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
 /***/ 555:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -42761,6 +41298,40 @@ function CheckCircleIcon({ title, titleId, ...props }, svgRef) {
     }));
 }
 const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(CheckCircleIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
+/***/ 2153:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+function ChevronDownIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "m19.5 8.25-7.5 7.5-7.5-7.5"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(ChevronDownIcon);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
 
 
@@ -42969,6 +41540,40 @@ function CubeIcon({ title, titleId, ...props }, svgRef) {
     }));
 }
 const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(CubeIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
+/***/ 5323:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+function DocumentMagnifyingGlassIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m5.231 13.481L15 17.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v16.5c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Zm3.75 11.625a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(DocumentMagnifyingGlassIcon);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
 
 
@@ -43211,6 +41816,74 @@ function HomeIcon({ title, titleId, ...props }, svgRef) {
     }));
 }
 const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(HomeIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
+/***/ 2029:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+function InboxIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M2.25 13.5h3.86a2.25 2.25 0 0 1 2.012 1.244l.256.512a2.25 2.25 0 0 0 2.013 1.244h3.218a2.25 2.25 0 0 0 2.013-1.244l.256-.512a2.25 2.25 0 0 1 2.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 0 0-2.15-1.588H6.911a2.25 2.25 0 0 0-2.15 1.588L2.35 13.177a2.25 2.25 0 0 0-.1.661Z"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(InboxIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
+/***/ 95:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+function InformationCircleIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(InformationCircleIcon);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
 
 
@@ -56306,7 +54979,7 @@ function stagger(duration = 0.1, { startDelay = 0, from = 0, ease } = {}) {
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ var __webpack_exports__ = (__webpack_exec__(526));
+/******/ var __webpack_exports__ = (__webpack_exec__(5533));
 /******/ (_ENTRIES = typeof _ENTRIES === "undefined" ? {} : _ENTRIES)["middleware_app/admin/products/page"] = __webpack_exports__;
 /******/ }
 ]);

@@ -16,7 +16,7 @@ module.exports = require("node:buffer");
 
 /***/ }),
 
-/***/ 4242:
+/***/ 5663:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -148,7 +148,7 @@ const routeModule = new module_compiled.AppPageRouteModule({
 });
 
 //# sourceMappingURL=app-page.js.map
-;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-edge-ssr-loader/index.js?{"absolute500Path":"","absoluteAppPath":"next/dist/pages/_app","absoluteDocumentPath":"next/dist/pages/_document","absoluteErrorPath":"next/dist/pages/_error","absolutePagePath":"private-next-app-dir/admin/contact/page.tsx","buildId":"n_6juZsGz7GaZ7cb76ATH","dev":false,"isServerComponent":true,"page":"/admin/contact/page","stringifiedConfig":"eyJlbnYiOnt9LCJlc2xpbnQiOnsiaWdub3JlRHVyaW5nQnVpbGRzIjpmYWxzZX0sInR5cGVzY3JpcHQiOnsiaWdub3JlQnVpbGRFcnJvcnMiOmZhbHNlLCJ0c2NvbmZpZ1BhdGgiOiJ0c2NvbmZpZy5qc29uIn0sImRpc3REaXIiOiIubmV4dCIsImNsZWFuRGlzdERpciI6dHJ1ZSwiYXNzZXRQcmVmaXgiOiIiLCJjb25maWdPcmlnaW4iOiJuZXh0LmNvbmZpZy5qcyIsInVzZUZpbGVTeXN0ZW1QdWJsaWNSb3V0ZXMiOnRydWUsImdlbmVyYXRlRXRhZ3MiOnRydWUsInBhZ2VFeHRlbnNpb25zIjpbInRzeCIsInRzIiwianN4IiwianMiXSwicG93ZXJlZEJ5SGVhZGVyIjpmYWxzZSwiY29tcHJlc3MiOmZhbHNlLCJhbmFseXRpY3NJZCI6IiIsImltYWdlcyI6eyJkZXZpY2VTaXplcyI6WzY0MCw3NTAsODI4LDEwODAsMTIwMCwxOTIwLDIwNDgsMzg0MF0sImltYWdlU2l6ZXMiOlsxNiwzMiw0OCw2NCw5NiwxMjgsMjU2LDM4NF0sInBhdGgiOiIvX25leHQvaW1hZ2UiLCJsb2FkZXIiOiJkZWZhdWx0IiwibG9hZGVyRmlsZSI6IiIsImRvbWFpbnMiOltdLCJkaXNhYmxlU3RhdGljSW1hZ2VzIjpmYWxzZSwibWluaW11bUNhY2hlVFRMIjo2MCwiZm9ybWF0cyI6WyJpbWFnZS93ZWJwIiwiaW1hZ2UvYXZpZiJdLCJkYW5nZXJvdXNseUFsbG93U1ZHIjpmYWxzZSwiY29udGVudFNlY3VyaXR5UG9saWN5Ijoic2NyaXB0LXNyYyAnbm9uZSc7IGZyYW1lLXNyYyAnbm9uZSc7IHNhbmRib3g7IiwiY29udGVudERpc3Bvc2l0aW9uVHlwZSI6ImlubGluZSIsInJlbW90ZVBhdHRlcm5zIjpbeyJwcm90b2NvbCI6Imh0dHAiLCJob3N0bmFtZSI6ImxvY2FsaG9zdCIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9LHsicHJvdG9jb2wiOiJodHRwcyIsImhvc3RuYW1lIjoicHViLTk0YzQ3ZWJjN2IxNDQ1OGViMWUwOWI2M2E4NzY4ZDcyLnIyLmRldiIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9XSwidW5vcHRpbWl6ZWQiOmZhbHNlfSwiZGV2SW5kaWNhdG9ycyI6eyJidWlsZEFjdGl2aXR5Ijp0cnVlLCJidWlsZEFjdGl2aXR5UG9zaXRpb24iOiJib3R0b20tcmlnaHQifSwib25EZW1hbmRFbnRyaWVzIjp7Im1heEluYWN0aXZlQWdlIjo2MDAwMCwicGFnZXNCdWZmZXJMZW5ndGgiOjV9LCJhbXAiOnsiY2Fub25pY2FsQmFzZSI6IiJ9LCJiYXNlUGF0aCI6IiIsInNhc3NPcHRpb25zIjp7fSwidHJhaWxpbmdTbGFzaCI6ZmFsc2UsImkxOG4iOm51bGwsInByb2R1Y3Rpb25Ccm93c2VyU291cmNlTWFwcyI6ZmFsc2UsIm9wdGltaXplRm9udHMiOnRydWUsImV4Y2x1ZGVEZWZhdWx0TW9tZW50TG9jYWxlcyI6dHJ1ZSwic2VydmVyUnVudGltZUNvbmZpZyI6e30sInB1YmxpY1J1bnRpbWVDb25maWciOnt9LCJyZWFjdFByb2R1Y3Rpb25Qcm9maWxpbmciOmZhbHNlLCJyZWFjdFN0cmljdE1vZGUiOnRydWUsImh0dHBBZ2VudE9wdGlvbnMiOnsia2VlcEFsaXZlIjp0cnVlfSwib3V0cHV0RmlsZVRyYWNpbmciOnRydWUsInN0YXRpY1BhZ2VHZW5lcmF0aW9uVGltZW91dCI6NjAsInN3Y01pbmlmeSI6ZmFsc2UsIm91dHB1dCI6InN0YW5kYWxvbmUiLCJtb2R1bGFyaXplSW1wb3J0cyI6eyJAbXVpL2ljb25zLW1hdGVyaWFsIjp7InRyYW5zZm9ybSI6IkBtdWkvaWNvbnMtbWF0ZXJpYWwve3ttZW1iZXJ9fSJ9LCJsb2Rhc2giOnsidHJhbnNmb3JtIjoibG9kYXNoL3t7bWVtYmVyfX0ifSwibmV4dC9zZXJ2ZXIiOnsidHJhbnNmb3JtIjoibmV4dC9kaXN0L3NlcnZlci93ZWIvZXhwb3J0cy97eyBrZWJhYkNhc2UgbWVtYmVyIH19In19LCJleHBlcmltZW50YWwiOnsid2luZG93SGlzdG9yeVN1cHBvcnQiOmZhbHNlLCJzZXJ2ZXJNaW5pZmljYXRpb24iOnRydWUsInNlcnZlclNvdXJjZU1hcHMiOmZhbHNlLCJjYXNlU2Vuc2l0aXZlUm91dGVzIjpmYWxzZSwidXNlRGVwbG95bWVudElkIjpmYWxzZSwidXNlRGVwbG95bWVudElkU2VydmVyQWN0aW9ucyI6ZmFsc2UsImNsaWVudFJvdXRlckZpbHRlciI6dHJ1ZSwiY2xpZW50Um91dGVyRmlsdGVyUmVkaXJlY3RzIjpmYWxzZSwiZmV0Y2hDYWNoZUtleVByZWZpeCI6IiIsIm1pZGRsZXdhcmVQcmVmZXRjaCI6ImZsZXhpYmxlIiwib3B0aW1pc3RpY0NsaWVudENhY2hlIjp0cnVlLCJtYW51YWxDbGllbnRCYXNlUGF0aCI6ZmFsc2UsImNwdXMiOjksIm1lbW9yeUJhc2VkV29ya2Vyc0NvdW50IjpmYWxzZSwiaXNyRmx1c2hUb0Rpc2siOnRydWUsIndvcmtlclRocmVhZHMiOmZhbHNlLCJvcHRpbWl6ZUNzcyI6ZmFsc2UsIm5leHRTY3JpcHRXb3JrZXJzIjpmYWxzZSwic2Nyb2xsUmVzdG9yYXRpb24iOmZhbHNlLCJleHRlcm5hbERpciI6ZmFsc2UsImRpc2FibGVPcHRpbWl6ZWRMb2FkaW5nIjpmYWxzZSwiZ3ppcFNpemUiOnRydWUsImNyYUNvbXBhdCI6ZmFsc2UsImVzbUV4dGVybmFscyI6dHJ1ZSwiaXNyTWVtb3J5Q2FjaGVTaXplIjowLCJmdWxseVNwZWNpZmllZCI6ZmFsc2UsIm91dHB1dEZpbGVUcmFjaW5nUm9vdCI6Ii9Vc2Vycy9kZW5pemhhbi9Eb2N1bWVudHMvV2luZHN1cmYvcHJvdGVrYW5hbGl0aWsiLCJzd2NUcmFjZVByb2ZpbGluZyI6ZmFsc2UsImZvcmNlU3djVHJhbnNmb3JtcyI6ZmFsc2UsImxhcmdlUGFnZURhdGFCeXRlcyI6MTI4MDAwLCJhZGp1c3RGb250RmFsbGJhY2tzIjpmYWxzZSwiYWRqdXN0Rm9udEZhbGxiYWNrc1dpdGhTaXplQWRqdXN0IjpmYWxzZSwidHlwZWRSb3V0ZXMiOmZhbHNlLCJpbnN0cnVtZW50YXRpb25Ib29rIjpmYWxzZSwiYnVuZGxlUGFnZXNFeHRlcm5hbHMiOmZhbHNlLCJwcHIiOmZhbHNlLCJ3ZWJwYWNrQnVpbGRXb3JrZXIiOmZhbHNlLCJvdXRwdXRGaWxlVHJhY2luZ0V4Y2x1ZGVzIjp7IioiOlsibm9kZV9tb2R1bGVzLyoqLyoiLCIubmV4dC9jYWNoZS8qKi8qIiwiLmdpdC8qKi8qIl19LCJzdGF0aWNQYWdlR2VuZXJhdGlvblRpbWVvdXQiOjAsIm9wdGltaXplUGFja2FnZUltcG9ydHMiOlsibHVjaWRlLXJlYWN0IiwiZGF0ZS1mbnMiLCJsb2Rhc2gtZXMiLCJyYW1kYSIsImFudGQiLCJyZWFjdC1ib290c3RyYXAiLCJhaG9va3MiLCJAYW50LWRlc2lnbi9pY29ucyIsIkBoZWFkbGVzc3VpL3JlYWN0IiwiQGhlYWRsZXNzdWktZmxvYXQvcmVhY3QiLCJAaGVyb2ljb25zL3JlYWN0LzIwL3NvbGlkIiwiQGhlcm9pY29ucy9yZWFjdC8yNC9zb2xpZCIsIkBoZXJvaWNvbnMvcmVhY3QvMjQvb3V0bGluZSIsIkB2aXN4L3Zpc3giLCJAdHJlbW9yL3JlYWN0IiwicnhqcyIsIkBtdWkvbWF0ZXJpYWwiLCJAbXVpL2ljb25zLW1hdGVyaWFsIiwicmVjaGFydHMiLCJyZWFjdC11c2UiLCJAbWF0ZXJpYWwtdWkvY29yZSIsIkBtYXRlcmlhbC11aS9pY29ucyIsIkB0YWJsZXIvaWNvbnMtcmVhY3QiLCJtdWktY29yZSIsInJlYWN0LWljb25zL2FpIiwicmVhY3QtaWNvbnMvYmkiLCJyZWFjdC1pY29ucy9icyIsInJlYWN0LWljb25zL2NnIiwicmVhY3QtaWNvbnMvY2kiLCJyZWFjdC1pY29ucy9kaSIsInJlYWN0LWljb25zL2ZhIiwicmVhY3QtaWNvbnMvZmE2IiwicmVhY3QtaWNvbnMvZmMiLCJyZWFjdC1pY29ucy9maSIsInJlYWN0LWljb25zL2dpIiwicmVhY3QtaWNvbnMvZ28iLCJyZWFjdC1pY29ucy9nciIsInJlYWN0LWljb25zL2hpIiwicmVhY3QtaWNvbnMvaGkyIiwicmVhY3QtaWNvbnMvaW0iLCJyZWFjdC1pY29ucy9pbyIsInJlYWN0LWljb25zL2lvNSIsInJlYWN0LWljb25zL2xpYSIsInJlYWN0LWljb25zL2xpYiIsInJlYWN0LWljb25zL2x1IiwicmVhY3QtaWNvbnMvbWQiLCJyZWFjdC1pY29ucy9waSIsInJlYWN0LWljb25zL3JpIiwicmVhY3QtaWNvbnMvcngiLCJyZWFjdC1pY29ucy9zaSIsInJlYWN0LWljb25zL3NsIiwicmVhY3QtaWNvbnMvdGIiLCJyZWFjdC1pY29ucy90ZmkiLCJyZWFjdC1pY29ucy90aSIsInJlYWN0LWljb25zL3ZzYyIsInJlYWN0LWljb25zL3dpIl19LCJjb25maWdGaWxlIjoiL1VzZXJzL2Rlbml6aGFuL0RvY3VtZW50cy9XaW5kc3VyZi9wcm90ZWthbmFsaXRpay9uZXh0LmNvbmZpZy5qcyIsImNvbmZpZ0ZpbGVOYW1lIjoibmV4dC5jb25maWcuanMiLCJnZW5lcmF0ZVN0YXRpY1BhcmFtcyI6ZmFsc2UsIm1pbmlmeSI6ZmFsc2V9","pagesType":"app","appDirLoader":"bmV4dC1hcHAtbG9hZGVyP25hbWU9YXBwJTJGYWRtaW4lMkZjb250YWN0JTJGcGFnZSZwYWdlPSUyRmFkbWluJTJGY29udGFjdCUyRnBhZ2UmcGFnZVBhdGg9cHJpdmF0ZS1uZXh0LWFwcC1kaXIlMkZhZG1pbiUyRmNvbnRhY3QlMkZwYWdlLnRzeCZhcHBEaXI9JTJGVXNlcnMlMkZkZW5pemhhbiUyRkRvY3VtZW50cyUyRldpbmRzdXJmJTJGcHJvdGVrYW5hbGl0aWslMkZzcmMlMkZhcHAmYXBwUGF0aHM9JTJGYWRtaW4lMkZjb250YWN0JTJGcGFnZSZwYWdlRXh0ZW5zaW9ucz10c3gmcGFnZUV4dGVuc2lvbnM9dHMmcGFnZUV4dGVuc2lvbnM9anN4JnBhZ2VFeHRlbnNpb25zPWpzJmJhc2VQYXRoPSZhc3NldFByZWZpeD0mbmV4dENvbmZpZ091dHB1dD1zdGFuZGFsb25lJnByZWZlcnJlZFJlZ2lvbj0mbWlkZGxld2FyZUNvbmZpZz1lMzAlM0Qh","sriEnabled":false,"middlewareConfig":"e30="}!
+;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-edge-ssr-loader/index.js?{"absolute500Path":"","absoluteAppPath":"next/dist/pages/_app","absoluteDocumentPath":"next/dist/pages/_document","absoluteErrorPath":"next/dist/pages/_error","absolutePagePath":"private-next-app-dir/admin/contact/page.tsx","buildId":"_rXw3bgx9L7Cq_v9IVkv7","dev":false,"isServerComponent":true,"page":"/admin/contact/page","stringifiedConfig":"eyJlbnYiOnt9LCJlc2xpbnQiOnsiaWdub3JlRHVyaW5nQnVpbGRzIjpmYWxzZX0sInR5cGVzY3JpcHQiOnsiaWdub3JlQnVpbGRFcnJvcnMiOmZhbHNlLCJ0c2NvbmZpZ1BhdGgiOiJ0c2NvbmZpZy5qc29uIn0sImRpc3REaXIiOiIubmV4dCIsImNsZWFuRGlzdERpciI6dHJ1ZSwiYXNzZXRQcmVmaXgiOiIiLCJjb25maWdPcmlnaW4iOiJuZXh0LmNvbmZpZy5qcyIsInVzZUZpbGVTeXN0ZW1QdWJsaWNSb3V0ZXMiOnRydWUsImdlbmVyYXRlRXRhZ3MiOnRydWUsInBhZ2VFeHRlbnNpb25zIjpbInRzeCIsInRzIiwianN4IiwianMiXSwicG93ZXJlZEJ5SGVhZGVyIjpmYWxzZSwiY29tcHJlc3MiOmZhbHNlLCJhbmFseXRpY3NJZCI6IiIsImltYWdlcyI6eyJkZXZpY2VTaXplcyI6WzY0MCw3NTAsODI4LDEwODAsMTIwMCwxOTIwLDIwNDgsMzg0MF0sImltYWdlU2l6ZXMiOlsxNiwzMiw0OCw2NCw5NiwxMjgsMjU2LDM4NF0sInBhdGgiOiIvX25leHQvaW1hZ2UiLCJsb2FkZXIiOiJkZWZhdWx0IiwibG9hZGVyRmlsZSI6IiIsImRvbWFpbnMiOltdLCJkaXNhYmxlU3RhdGljSW1hZ2VzIjpmYWxzZSwibWluaW11bUNhY2hlVFRMIjo2MCwiZm9ybWF0cyI6WyJpbWFnZS93ZWJwIiwiaW1hZ2UvYXZpZiJdLCJkYW5nZXJvdXNseUFsbG93U1ZHIjpmYWxzZSwiY29udGVudFNlY3VyaXR5UG9saWN5Ijoic2NyaXB0LXNyYyAnbm9uZSc7IGZyYW1lLXNyYyAnbm9uZSc7IHNhbmRib3g7IiwiY29udGVudERpc3Bvc2l0aW9uVHlwZSI6ImlubGluZSIsInJlbW90ZVBhdHRlcm5zIjpbeyJwcm90b2NvbCI6Imh0dHAiLCJob3N0bmFtZSI6ImxvY2FsaG9zdCIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9LHsicHJvdG9jb2wiOiJodHRwcyIsImhvc3RuYW1lIjoicHViLTk0YzQ3ZWJjN2IxNDQ1OGViMWUwOWI2M2E4NzY4ZDcyLnIyLmRldiIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9XSwidW5vcHRpbWl6ZWQiOmZhbHNlfSwiZGV2SW5kaWNhdG9ycyI6eyJidWlsZEFjdGl2aXR5Ijp0cnVlLCJidWlsZEFjdGl2aXR5UG9zaXRpb24iOiJib3R0b20tcmlnaHQifSwib25EZW1hbmRFbnRyaWVzIjp7Im1heEluYWN0aXZlQWdlIjo2MDAwMCwicGFnZXNCdWZmZXJMZW5ndGgiOjV9LCJhbXAiOnsiY2Fub25pY2FsQmFzZSI6IiJ9LCJiYXNlUGF0aCI6IiIsInNhc3NPcHRpb25zIjp7fSwidHJhaWxpbmdTbGFzaCI6ZmFsc2UsImkxOG4iOm51bGwsInByb2R1Y3Rpb25Ccm93c2VyU291cmNlTWFwcyI6ZmFsc2UsIm9wdGltaXplRm9udHMiOnRydWUsImV4Y2x1ZGVEZWZhdWx0TW9tZW50TG9jYWxlcyI6dHJ1ZSwic2VydmVyUnVudGltZUNvbmZpZyI6e30sInB1YmxpY1J1bnRpbWVDb25maWciOnt9LCJyZWFjdFByb2R1Y3Rpb25Qcm9maWxpbmciOmZhbHNlLCJyZWFjdFN0cmljdE1vZGUiOnRydWUsImh0dHBBZ2VudE9wdGlvbnMiOnsia2VlcEFsaXZlIjp0cnVlfSwib3V0cHV0RmlsZVRyYWNpbmciOnRydWUsInN0YXRpY1BhZ2VHZW5lcmF0aW9uVGltZW91dCI6NjAsInN3Y01pbmlmeSI6ZmFsc2UsIm91dHB1dCI6InN0YW5kYWxvbmUiLCJtb2R1bGFyaXplSW1wb3J0cyI6eyJAbXVpL2ljb25zLW1hdGVyaWFsIjp7InRyYW5zZm9ybSI6IkBtdWkvaWNvbnMtbWF0ZXJpYWwve3ttZW1iZXJ9fSJ9LCJsb2Rhc2giOnsidHJhbnNmb3JtIjoibG9kYXNoL3t7bWVtYmVyfX0ifSwibmV4dC9zZXJ2ZXIiOnsidHJhbnNmb3JtIjoibmV4dC9kaXN0L3NlcnZlci93ZWIvZXhwb3J0cy97eyBrZWJhYkNhc2UgbWVtYmVyIH19In19LCJleHBlcmltZW50YWwiOnsid2luZG93SGlzdG9yeVN1cHBvcnQiOmZhbHNlLCJzZXJ2ZXJNaW5pZmljYXRpb24iOnRydWUsInNlcnZlclNvdXJjZU1hcHMiOmZhbHNlLCJjYXNlU2Vuc2l0aXZlUm91dGVzIjpmYWxzZSwidXNlRGVwbG95bWVudElkIjpmYWxzZSwidXNlRGVwbG95bWVudElkU2VydmVyQWN0aW9ucyI6ZmFsc2UsImNsaWVudFJvdXRlckZpbHRlciI6dHJ1ZSwiY2xpZW50Um91dGVyRmlsdGVyUmVkaXJlY3RzIjpmYWxzZSwiZmV0Y2hDYWNoZUtleVByZWZpeCI6IiIsIm1pZGRsZXdhcmVQcmVmZXRjaCI6ImZsZXhpYmxlIiwib3B0aW1pc3RpY0NsaWVudENhY2hlIjp0cnVlLCJtYW51YWxDbGllbnRCYXNlUGF0aCI6ZmFsc2UsImNwdXMiOjksIm1lbW9yeUJhc2VkV29ya2Vyc0NvdW50IjpmYWxzZSwiaXNyRmx1c2hUb0Rpc2siOnRydWUsIndvcmtlclRocmVhZHMiOmZhbHNlLCJvcHRpbWl6ZUNzcyI6ZmFsc2UsIm5leHRTY3JpcHRXb3JrZXJzIjpmYWxzZSwic2Nyb2xsUmVzdG9yYXRpb24iOmZhbHNlLCJleHRlcm5hbERpciI6ZmFsc2UsImRpc2FibGVPcHRpbWl6ZWRMb2FkaW5nIjpmYWxzZSwiZ3ppcFNpemUiOnRydWUsImNyYUNvbXBhdCI6ZmFsc2UsImVzbUV4dGVybmFscyI6dHJ1ZSwiaXNyTWVtb3J5Q2FjaGVTaXplIjowLCJmdWxseVNwZWNpZmllZCI6ZmFsc2UsIm91dHB1dEZpbGVUcmFjaW5nUm9vdCI6Ii9Vc2Vycy9kZW5pemhhbi9Eb2N1bWVudHMvV2luZHN1cmYvcHJvdGVrYW5hbGl0aWsiLCJzd2NUcmFjZVByb2ZpbGluZyI6ZmFsc2UsImZvcmNlU3djVHJhbnNmb3JtcyI6ZmFsc2UsImxhcmdlUGFnZURhdGFCeXRlcyI6MTI4MDAwLCJhZGp1c3RGb250RmFsbGJhY2tzIjpmYWxzZSwiYWRqdXN0Rm9udEZhbGxiYWNrc1dpdGhTaXplQWRqdXN0IjpmYWxzZSwidHlwZWRSb3V0ZXMiOmZhbHNlLCJpbnN0cnVtZW50YXRpb25Ib29rIjpmYWxzZSwiYnVuZGxlUGFnZXNFeHRlcm5hbHMiOmZhbHNlLCJwcHIiOmZhbHNlLCJ3ZWJwYWNrQnVpbGRXb3JrZXIiOmZhbHNlLCJvdXRwdXRGaWxlVHJhY2luZ0V4Y2x1ZGVzIjp7IioiOlsibm9kZV9tb2R1bGVzLyoqLyoiLCIubmV4dC9jYWNoZS8qKi8qIiwiLmdpdC8qKi8qIl19LCJzdGF0aWNQYWdlR2VuZXJhdGlvblRpbWVvdXQiOjAsIm9wdGltaXplUGFja2FnZUltcG9ydHMiOlsibHVjaWRlLXJlYWN0IiwiZGF0ZS1mbnMiLCJsb2Rhc2gtZXMiLCJyYW1kYSIsImFudGQiLCJyZWFjdC1ib290c3RyYXAiLCJhaG9va3MiLCJAYW50LWRlc2lnbi9pY29ucyIsIkBoZWFkbGVzc3VpL3JlYWN0IiwiQGhlYWRsZXNzdWktZmxvYXQvcmVhY3QiLCJAaGVyb2ljb25zL3JlYWN0LzIwL3NvbGlkIiwiQGhlcm9pY29ucy9yZWFjdC8yNC9zb2xpZCIsIkBoZXJvaWNvbnMvcmVhY3QvMjQvb3V0bGluZSIsIkB2aXN4L3Zpc3giLCJAdHJlbW9yL3JlYWN0IiwicnhqcyIsIkBtdWkvbWF0ZXJpYWwiLCJAbXVpL2ljb25zLW1hdGVyaWFsIiwicmVjaGFydHMiLCJyZWFjdC11c2UiLCJAbWF0ZXJpYWwtdWkvY29yZSIsIkBtYXRlcmlhbC11aS9pY29ucyIsIkB0YWJsZXIvaWNvbnMtcmVhY3QiLCJtdWktY29yZSIsInJlYWN0LWljb25zL2FpIiwicmVhY3QtaWNvbnMvYmkiLCJyZWFjdC1pY29ucy9icyIsInJlYWN0LWljb25zL2NnIiwicmVhY3QtaWNvbnMvY2kiLCJyZWFjdC1pY29ucy9kaSIsInJlYWN0LWljb25zL2ZhIiwicmVhY3QtaWNvbnMvZmE2IiwicmVhY3QtaWNvbnMvZmMiLCJyZWFjdC1pY29ucy9maSIsInJlYWN0LWljb25zL2dpIiwicmVhY3QtaWNvbnMvZ28iLCJyZWFjdC1pY29ucy9nciIsInJlYWN0LWljb25zL2hpIiwicmVhY3QtaWNvbnMvaGkyIiwicmVhY3QtaWNvbnMvaW0iLCJyZWFjdC1pY29ucy9pbyIsInJlYWN0LWljb25zL2lvNSIsInJlYWN0LWljb25zL2xpYSIsInJlYWN0LWljb25zL2xpYiIsInJlYWN0LWljb25zL2x1IiwicmVhY3QtaWNvbnMvbWQiLCJyZWFjdC1pY29ucy9waSIsInJlYWN0LWljb25zL3JpIiwicmVhY3QtaWNvbnMvcngiLCJyZWFjdC1pY29ucy9zaSIsInJlYWN0LWljb25zL3NsIiwicmVhY3QtaWNvbnMvdGIiLCJyZWFjdC1pY29ucy90ZmkiLCJyZWFjdC1pY29ucy90aSIsInJlYWN0LWljb25zL3ZzYyIsInJlYWN0LWljb25zL3dpIl19LCJjb25maWdGaWxlIjoiL1VzZXJzL2Rlbml6aGFuL0RvY3VtZW50cy9XaW5kc3VyZi9wcm90ZWthbmFsaXRpay9uZXh0LmNvbmZpZy5qcyIsImNvbmZpZ0ZpbGVOYW1lIjoibmV4dC5jb25maWcuanMiLCJnZW5lcmF0ZVN0YXRpY1BhcmFtcyI6ZmFsc2UsIm1pbmlmeSI6ZmFsc2V9","pagesType":"app","appDirLoader":"bmV4dC1hcHAtbG9hZGVyP25hbWU9YXBwJTJGYWRtaW4lMkZjb250YWN0JTJGcGFnZSZwYWdlPSUyRmFkbWluJTJGY29udGFjdCUyRnBhZ2UmcGFnZVBhdGg9cHJpdmF0ZS1uZXh0LWFwcC1kaXIlMkZhZG1pbiUyRmNvbnRhY3QlMkZwYWdlLnRzeCZhcHBEaXI9JTJGVXNlcnMlMkZkZW5pemhhbiUyRkRvY3VtZW50cyUyRldpbmRzdXJmJTJGcHJvdGVrYW5hbGl0aWslMkZzcmMlMkZhcHAmYXBwUGF0aHM9JTJGYWRtaW4lMkZjb250YWN0JTJGcGFnZSZwYWdlRXh0ZW5zaW9ucz10c3gmcGFnZUV4dGVuc2lvbnM9dHMmcGFnZUV4dGVuc2lvbnM9anN4JnBhZ2VFeHRlbnNpb25zPWpzJmJhc2VQYXRoPSZhc3NldFByZWZpeD0mbmV4dENvbmZpZ091dHB1dD1zdGFuZGFsb25lJnByZWZlcnJlZFJlZ2lvbj0mbWlkZGxld2FyZUNvbmZpZz1lMzAlM0Qh","sriEnabled":false,"middlewareConfig":"e30="}!
 var _self___RSC_MANIFEST;
 
 
@@ -192,7 +192,7 @@ const page_stringifiedConfig_eyJlbnYiOnt9LCJlc2xpbnQiOnsiaWdub3JlRHVyaW5nQnVpbGR
     serverActions: isServerComponent ? serverActions : undefined,
     subresourceIntegrityManifest,
     config: nextConfig,
-    buildId: "n_6juZsGz7GaZ7cb76ATH",
+    buildId: "_rXw3bgx9L7Cq_v9IVkv7",
     nextFontManifest,
     incrementalCacheHandler
 });
@@ -230,7 +230,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3449));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 248));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3328))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4931))
 
 /***/ }),
 
@@ -244,7 +244,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 /***/ 5215:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1755))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3061))
 
 /***/ }),
 
@@ -31260,7 +31260,7 @@ function ContactManagementPage() {
 
 /***/ }),
 
-/***/ 1755:
+/***/ 3061:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -31469,30 +31469,8 @@ function useAuth() {
     };
 }
 
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/ArrowLeftOnRectangleIcon.js
-
-/** @deprecated */ function ArrowLeftOnRectangleIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75"
-    }));
-}
-const ForwardRef = /*#__PURE__*/ react.forwardRef(ArrowLeftOnRectangleIcon);
-/* harmony default export */ const esm_ArrowLeftOnRectangleIcon = (ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ArrowLeftOnRectangleIcon.js
+var ArrowLeftOnRectangleIcon = __webpack_require__(5676);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/Bars3Icon.js
 var Bars3Icon = __webpack_require__(4294);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ChatBubbleLeftRightIcon.js
@@ -31505,30 +31483,8 @@ var CubeIcon = __webpack_require__(4738);
 var DocumentTextIcon = __webpack_require__(2883);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/HomeIcon.js
 var HomeIcon = __webpack_require__(6270);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/InboxIcon.js
-
-function InboxIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "M2.25 13.5h3.86a2.25 2.25 0 0 1 2.012 1.244l.256.512a2.25 2.25 0 0 0 2.013 1.244h3.218a2.25 2.25 0 0 0 2.013-1.244l.256-.512a2.25 2.25 0 0 1 2.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 0 0-2.15-1.588H6.911a2.25 2.25 0 0 0-2.15 1.588L2.35 13.177a2.25 2.25 0 0 0-.1.661Z"
-    }));
-}
-const InboxIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(InboxIcon);
-/* harmony default export */ const esm_InboxIcon = (InboxIcon_ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/InboxIcon.js
+var InboxIcon = __webpack_require__(2029);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/UsersIcon.js
 var UsersIcon = __webpack_require__(8103);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/XMarkIcon.js
@@ -31582,7 +31538,7 @@ const layout_navigation = [
     {
         name: "İletişim Mesajları",
         href: "/admin/contact/messages",
-        icon: esm_InboxIcon
+        icon: InboxIcon/* default */.Z
     },
     {
         name: "Edge Runtime",
@@ -31719,7 +31675,7 @@ function AdminLayout({ children }) {
                                     href: "/",
                                     className: "flex items-center space-x-3 px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg",
                                     children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ArrowLeftOnRectangleIcon, {
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(ArrowLeftOnRectangleIcon/* default */.Z, {
                                             className: "w-5 h-5"
                                         }),
                                         /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
@@ -31774,7 +31730,7 @@ function AdminLayout({ children }) {
                             href: "/",
                             className: "flex items-center space-x-3 px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg",
                             children: [
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ArrowLeftOnRectangleIcon, {
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)(ArrowLeftOnRectangleIcon/* default */.Z, {
                                     className: "w-5 h-5"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
@@ -31831,7 +31787,7 @@ function AdminLayout({ children }) {
                                             onClick: logout,
                                             className: "flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors",
                                             children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ArrowLeftOnRectangleIcon, {
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(ArrowLeftOnRectangleIcon/* default */.Z, {
                                                     className: "w-4 h-4"
                                                 }),
                                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
@@ -32409,7 +32365,7 @@ function Footer() {
 
 /***/ }),
 
-/***/ 3328:
+/***/ 4931:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -32449,58 +32405,14 @@ var BeakerIcon = __webpack_require__(3238);
 var BookOpenIcon = __webpack_require__(6204);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/BuildingOffice2Icon.js
 var BuildingOffice2Icon = __webpack_require__(2318);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/BuildingStorefrontIcon.js
-
-function BuildingStorefrontIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "M13.5 21v-7.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349M3.75 21V9.349m0 0a3.001 3.001 0 0 0 3.75-.615A2.993 2.993 0 0 0 9.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 0 0 2.25 1.016c.896 0 1.7-.393 2.25-1.015a3.001 3.001 0 0 0 3.75.614m-16.5 0a3.004 3.004 0 0 1-.621-4.72l1.189-1.19A1.5 1.5 0 0 1 5.378 3h13.243a1.5 1.5 0 0 1 1.06.44l1.19 1.189a3 3 0 0 1-.621 4.72M6.75 18h3.75a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.75c0 .414.336.75.75.75Z"
-    }));
-}
-const ForwardRef = /*#__PURE__*/ react.forwardRef(BuildingStorefrontIcon);
-/* harmony default export */ const esm_BuildingStorefrontIcon = (ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/BuildingStorefrontIcon.js
+var BuildingStorefrontIcon = __webpack_require__(1413);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/CalendarDaysIcon.js
 var CalendarDaysIcon = __webpack_require__(555);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ChatBubbleLeftRightIcon.js
 var ChatBubbleLeftRightIcon = __webpack_require__(327);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/ChevronDownIcon.js
-
-function ChevronDownIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "m19.5 8.25-7.5 7.5-7.5-7.5"
-    }));
-}
-const ChevronDownIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(ChevronDownIcon);
-/* harmony default export */ const esm_ChevronDownIcon = (ChevronDownIcon_ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ChevronDownIcon.js
+var ChevronDownIcon = __webpack_require__(2153);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ClipboardDocumentCheckIcon.js
 var ClipboardDocumentCheckIcon = __webpack_require__(9847);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/Cog6ToothIcon.js
@@ -32509,30 +32421,8 @@ var Cog6ToothIcon = __webpack_require__(7828);
 var CogIcon = __webpack_require__(7213);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/CubeIcon.js
 var CubeIcon = __webpack_require__(4738);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/DocumentMagnifyingGlassIcon.js
-
-function DocumentMagnifyingGlassIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m5.231 13.481L15 17.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v16.5c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Zm3.75 11.625a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"
-    }));
-}
-const DocumentMagnifyingGlassIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(DocumentMagnifyingGlassIcon);
-/* harmony default export */ const esm_DocumentMagnifyingGlassIcon = (DocumentMagnifyingGlassIcon_ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/DocumentMagnifyingGlassIcon.js
+var DocumentMagnifyingGlassIcon = __webpack_require__(5323);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/DocumentTextIcon.js
 var DocumentTextIcon = __webpack_require__(2883);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/EnvelopeIcon.js
@@ -32543,30 +32433,8 @@ var FlagIcon = __webpack_require__(2270);
 var GlobeAltIcon = __webpack_require__(2305);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/HomeIcon.js
 var HomeIcon = __webpack_require__(6270);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/InformationCircleIcon.js
-
-function InformationCircleIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
-    }));
-}
-const InformationCircleIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(InformationCircleIcon);
-/* harmony default export */ const esm_InformationCircleIcon = (InformationCircleIcon_ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/InformationCircleIcon.js
+var InformationCircleIcon = __webpack_require__(95);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/LightBulbIcon.js
 var LightBulbIcon = __webpack_require__(8919);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/NewspaperIcon.js
@@ -33425,15 +33293,15 @@ function Header() {
     const getMenuIcon = (name)=>{
         switch(name){
             case "Hakkımızda":
-                return esm_InformationCircleIcon;
+                return InformationCircleIcon/* default */.Z;
             case "\xc7\xf6z\xfcmler":
                 return PuzzlePieceIcon/* default */.Z;
             case "\xdcr\xfcnler":
-                return esm_BuildingStorefrontIcon;
+                return BuildingStorefrontIcon/* default */.Z;
             case "Sekt\xf6rler":
                 return Squares2X2Icon/* default */.Z;
             case "Kaynaklar":
-                return esm_DocumentMagnifyingGlassIcon;
+                return DocumentMagnifyingGlassIcon/* default */.Z;
             default:
                 return HomeIcon/* default */.Z;
         }
@@ -33475,7 +33343,7 @@ function Header() {
                                             className: `px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 flex items-center gap-2 relative ${pathname === item.href ? "text-primary-600 bg-primary-50" : "text-neutral-700 hover:text-primary-600 hover:bg-white/60 hover:backdrop-blur-sm hover:shadow-md"}`,
                                             children: [
                                                 item.name,
-                                                item.megaMenu && /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ChevronDownIcon, {
+                                                item.megaMenu && /*#__PURE__*/ (0,jsx_runtime.jsx)(ChevronDownIcon/* default */.Z, {
                                                     className: `w-4 h-4 transition-transform ${activeMegaMenu === item.name ? "rotate-180" : ""}`
                                                 })
                                             ]
@@ -33499,7 +33367,7 @@ function Header() {
                                             className: "relative px-5 py-2.5 text-sm font-medium text-white bg-[#001328] rounded-xl hover:bg-gradient-to-r hover:from-[#001328] hover:via-[#2A50F8] hover:to-[#FF4766] transition-all duration-700 shadow-lg hover:shadow-2xl hover:scale-110 transform hover:-translate-y-2 flex items-center gap-2 overflow-hidden group before:absolute before:top-0 before:left-[-100%] before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent before:transition-all before:duration-600 hover:before:left-[100%]",
                                             children: [
                                                 "İletişim",
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ChevronDownIcon, {
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(ChevronDownIcon/* default */.Z, {
                                                     className: `w-4 h-4 transition-transform ${activeMegaMenu === "İletişim" ? "rotate-180" : ""}`
                                                 })
                                             ]
@@ -33846,7 +33714,7 @@ function Header() {
                                                             })
                                                         ]
                                                     }),
-                                                    hasSubmenu && /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ChevronDownIcon, {
+                                                    hasSubmenu && /*#__PURE__*/ (0,jsx_runtime.jsx)(ChevronDownIcon/* default */.Z, {
                                                         className: `w-5 h-5 text-neutral-400 transition-transform duration-300 ${isActive ? "rotate-180" : ""}`
                                                     })
                                                 ]
@@ -40600,6 +40468,40 @@ const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(A
 
 /***/ }),
 
+/***/ 5676:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+/** @deprecated */ function ArrowLeftOnRectangleIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(ArrowLeftOnRectangleIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
 /***/ 7268:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -40838,6 +40740,40 @@ const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(B
 
 /***/ }),
 
+/***/ 1413:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+function BuildingStorefrontIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M13.5 21v-7.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349M3.75 21V9.349m0 0a3.001 3.001 0 0 0 3.75-.615A2.993 2.993 0 0 0 9.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 0 0 2.25 1.016c.896 0 1.7-.393 2.25-1.015a3.001 3.001 0 0 0 3.75.614m-16.5 0a3.004 3.004 0 0 1-.621-4.72l1.189-1.19A1.5 1.5 0 0 1 5.378 3h13.243a1.5 1.5 0 0 1 1.06.44l1.19 1.189a3 3 0 0 1-.621 4.72M6.75 18h3.75a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.75c0 .414.336.75.75.75Z"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(BuildingStorefrontIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
 /***/ 555:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -40935,6 +40871,40 @@ function CheckCircleIcon({ title, titleId, ...props }, svgRef) {
     }));
 }
 const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(CheckCircleIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
+/***/ 2153:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+function ChevronDownIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "m19.5 8.25-7.5 7.5-7.5-7.5"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(ChevronDownIcon);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
 
 
@@ -41114,6 +41084,40 @@ const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(C
 
 /***/ }),
 
+/***/ 5323:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+function DocumentMagnifyingGlassIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m5.231 13.481L15 17.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v16.5c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Zm3.75 11.625a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(DocumentMagnifyingGlassIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
 /***/ 2883:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -41279,6 +41283,74 @@ function HomeIcon({ title, titleId, ...props }, svgRef) {
     }));
 }
 const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(HomeIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
+/***/ 2029:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+function InboxIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M2.25 13.5h3.86a2.25 2.25 0 0 1 2.012 1.244l.256.512a2.25 2.25 0 0 0 2.013 1.244h3.218a2.25 2.25 0 0 0 2.013-1.244l.256-.512a2.25 2.25 0 0 1 2.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 0 0-2.15-1.588H6.911a2.25 2.25 0 0 0-2.15 1.588L2.35 13.177a2.25 2.25 0 0 0-.1.661Z"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(InboxIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
+/***/ 95:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+function InformationCircleIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(InformationCircleIcon);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
 
 
@@ -54234,7 +54306,7 @@ function stagger(duration = 0.1, { startDelay = 0, from = 0, ease } = {}) {
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ var __webpack_exports__ = (__webpack_exec__(4242));
+/******/ var __webpack_exports__ = (__webpack_exec__(5663));
 /******/ (_ENTRIES = typeof _ENTRIES === "undefined" ? {} : _ENTRIES)["middleware_app/admin/contact/page"] = __webpack_exports__;
 /******/ }
 ]);

@@ -1,21 +1,25 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, lazy, Suspense } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import Link from 'next/link'
 import { 
   ArrowLeftIcon,
-  PhotoIcon,
-  PlusIcon,
-  XMarkIcon,
-  CheckCircleIcon,
-  DocumentIcon,
-  TruckIcon,
-  ShieldCheckIcon,
-  FolderPlusIcon
+  CheckCircleIcon
 } from '@heroicons/react/24/outline'
-import { productCategories, type Product } from '@/data/products'
-import MultipleImageUpload from '@/components/MultipleImageUpload'
+import { type Product } from '@/data/products'
+
+// Dynamic imports for large components and icons
+const MultipleImageUpload = lazy(() => import('@/components/MultipleImageUpload'))
+
+// Simplified icon imports - keep most critical ones static for stability
+const PhotoIcon = lazy(() => import('@heroicons/react/24/outline').then(m => ({ default: m.PhotoIcon })))
+const PlusIcon = lazy(() => import('@heroicons/react/24/outline').then(m => ({ default: m.PlusIcon })))
+const XMarkIcon = lazy(() => import('@heroicons/react/24/outline').then(m => ({ default: m.XMarkIcon })))
+const DocumentIcon = lazy(() => import('@heroicons/react/24/outline').then(m => ({ default: m.DocumentIcon })))
+const TruckIcon = lazy(() => import('@heroicons/react/24/outline').then(m => ({ default: m.TruckIcon })))
+const ShieldCheckIcon = lazy(() => import('@heroicons/react/24/outline').then(m => ({ default: m.ShieldCheckIcon })))
+const FolderPlusIcon = lazy(() => import('@heroicons/react/24/outline').then(m => ({ default: m.FolderPlusIcon })))
 
 interface ProductForm {
   name: string
@@ -42,6 +46,7 @@ export default function EditProductPage() {
   const [loading, setLoading] = useState(true)  // API'den yükleniyor
   const [saving, setSaving] = useState(false)
   const [product, setProduct] = useState<Product | null>(null)
+  const [categories, setCategories] = useState<any[]>([])
   const [form, setForm] = useState<ProductForm>({
     name: '',
     description: '',
@@ -63,6 +68,20 @@ export default function EditProductPage() {
   const [newSpecValue, setNewSpecValue] = useState('')
   const [newCatalogUrl, setNewCatalogUrl] = useState('')
   const [newCatalogName, setNewCatalogName] = useState('')
+
+  // Fetch categories from API
+  const fetchCategories = async () => {
+    try {
+      const response = await fetch('/api/categories')
+      const data = await response.json()
+      
+      if (data.success && Array.isArray(data.data)) {
+        setCategories(data.data)
+      }
+    } catch (error) {
+      console.error('Error fetching categories:', error)
+    }
+  }
 
   // API'den ürün verisini çek
   const fetchProduct = async () => {
@@ -108,6 +127,7 @@ export default function EditProductPage() {
   }
 
   useEffect(() => {
+    fetchCategories()
     fetchProduct()
   }, [productId])
 
@@ -231,7 +251,7 @@ export default function EditProductPage() {
 
   const getAvailableSubcategories = () => {
     if (!form.category) return []
-    const category = productCategories.find(cat => cat.name === form.category)
+    const category = categories.find((cat: any) => cat.name === form.category)
     return category?.subcategories || []
   }
 
@@ -352,7 +372,7 @@ export default function EditProductPage() {
                       className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     >
                       <option value="">Kategori seçin</option>
-                      {productCategories.map((category) => (
+                      {categories.map((category: any) => (
                         <option key={category.key} value={category.name}>
                           {category.name}
                         </option>
@@ -372,7 +392,7 @@ export default function EditProductPage() {
                       className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-100"
                     >
                       <option value="">Alt kategori seçin</option>
-                      {getAvailableSubcategories().map((subcategory) => (
+                      {getAvailableSubcategories().map((subcategory: any) => (
                         <option key={subcategory.key} value={subcategory.name}>
                           {subcategory.name}
                         </option>
@@ -410,7 +430,9 @@ export default function EditProductPage() {
                     onClick={addSpecification}
                     className="px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
                   >
-                    <PlusIcon className="w-4 h-4" />
+                    <Suspense fallback={<div className="w-4 h-4 bg-white/20 rounded animate-pulse"></div>}>
+                      <PlusIcon className="w-4 h-4" />
+                    </Suspense>
                   </button>
                 </div>
                 
@@ -519,18 +541,22 @@ export default function EditProductPage() {
           <div className="space-y-6">
             {/* Resimler */}
             <div className="bg-white rounded-lg border border-gray-200 p-6">
-              <MultipleImageUpload
-                images={form.images}
-                onChange={(images) => setForm(prev => ({ ...prev, images }))}
-                label="Ürün Görselleri"
-                maxImages={8}
-              />
+              <Suspense fallback={<div className="animate-pulse bg-gray-200 h-32 rounded"></div>}>
+                <MultipleImageUpload
+                  images={form.images}
+                  onChange={(images) => setForm(prev => ({ ...prev, images }))}
+                  label="Ürün Görselleri"
+                  maxImages={8}
+                />
+              </Suspense>
             </div>
 
             {/* Ürün Avantajları */}
             <div className="bg-white rounded-lg border border-gray-200 p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
-                <ShieldCheckIcon className="w-5 h-5 mr-2 text-green-600" />
+                <Suspense fallback={<div className="w-5 h-5 mr-2 bg-green-200 rounded animate-pulse"></div>}>
+                  <ShieldCheckIcon className="w-5 h-5 mr-2 text-green-600" />
+                </Suspense>
                 Ürün Avantajları
               </h3>
               <div className="space-y-4">

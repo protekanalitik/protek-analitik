@@ -1,12 +1,12 @@
 
   
   globalThis._ENTRIES = {};
-/**/;self.__RSC_SERVER_MANIFEST="{\"node\":{},\"edge\":{},\"encryptionKey\":\"HLXhn3hxctkVErb9EGfriPQZN45Pc/2j/SFjkROsE5Y=\"}"
-/**/;globalThis.__RSC_MANIFEST=(globalThis.__RSC_MANIFEST||{});globalThis.__RSC_MANIFEST["/admin/resources/events/[id]/edit/page"]={"moduleLoading":{"prefix":"/_next/","crossOrigin":null},"ssrModuleMapping":{},"edgeSSRModuleMapping":{"449":{"*":{"id":"9344","name":"*","chunks":[],"async":false}},"1166":{"*":{"id":"6597","name":"*","chunks":[],"async":false}},"1422":{"*":{"id":"248","name":"*","chunks":[],"async":false}},"1778":{"*":{"id":"7918","name":"*","chunks":[],"async":false}},"1902":{"*":{"id":"2527","name":"*","chunks":[],"async":false}},"2472":{"*":{"id":"573","name":"*","chunks":[],"async":false}},"4758":{"*":{"id":"3916","name":"*","chunks":[],"async":false}},"5250":{"*":{"id":"3449","name":"*","chunks":[],"async":false}},"5330":{"*":{"id":"3328","name":"*","chunks":[],"async":false}},"5613":{"*":{"id":"1726","name":"*","chunks":[],"async":false}},"6039":{"*":{"id":"9292","name":"*","chunks":[],"async":false}},"6628":{"*":{"id":"8649","name":"*","chunks":[],"async":false}},"7283":{"*":{"id":"3306","name":"*","chunks":[],"async":false}},"7690":{"*":{"id":"679","name":"*","chunks":[],"async":false}},"7831":{"*":{"id":"3496","name":"*","chunks":[],"async":false}},"8599":{"*":{"id":"1084","name":"*","chunks":[],"async":false}},"8955":{"*":{"id":"702","name":"*","chunks":[],"async":false}},"9459":{"*":{"id":"1755","name":"*","chunks":[],"async":false}},"9547":{"*":{"id":"5289","name":"*","chunks":[],"async":false}}},"clientModules":{"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/app-router.js":{"id":7690,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/app-router.js":{"id":7690,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/error-boundary.js":{"id":8955,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/error-boundary.js":{"id":8955,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/layout-router.js":{"id":5613,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/layout-router.js":{"id":5613,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/not-found-boundary.js":{"id":1902,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/not-found-boundary.js":{"id":1902,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js":{"id":7831,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js":{"id":7831,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/shared/lib/app-router-context.shared-runtime.js":{"id":8599,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/shared/lib/app-router-context.shared-runtime.js":{"id":8599,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/render-from-template-context.js":{"id":1778,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/render-from-template-context.js":{"id":1778,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/shared/lib/server-inserted-html.shared-runtime.js":{"id":2472,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/shared/lib/server-inserted-html.shared-runtime.js":{"id":2472,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/shared/lib/hooks-client-context.shared-runtime.js":{"id":4758,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/shared/lib/hooks-client-context.shared-runtime.js":{"id":4758,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/shared/lib/loadable-context.shared-runtime.js":{"id":1166,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/shared/lib/loadable-context.shared-runtime.js":{"id":1166,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/globals.css":{"id":3385,"name":"*","chunks":["3185","static/chunks/app/layout-556a01feb6f17023.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/error.tsx":{"id":449,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","7601","static/chunks/app/error-57d17ebc81f9de72.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/components/layout/Footer.tsx":{"id":1422,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","9751","static/chunks/9751-e61453fd4f4fce7a.js","4166","static/chunks/4166-978d9c6e01a8e654.js","3466","static/chunks/3466-e18b7dfb8678b8de.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","9160","static/chunks/app/not-found-f237cf01b1bcdf22.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/components/layout/Header.tsx":{"id":5330,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","9751","static/chunks/9751-e61453fd4f4fce7a.js","4166","static/chunks/4166-978d9c6e01a8e654.js","3466","static/chunks/3466-e18b7dfb8678b8de.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","9160","static/chunks/app/not-found-f237cf01b1bcdf22.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/link.js":{"id":5250,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","9751","static/chunks/9751-e61453fd4f4fce7a.js","4166","static/chunks/4166-978d9c6e01a8e654.js","3466","static/chunks/3466-e18b7dfb8678b8de.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","9160","static/chunks/app/not-found-f237cf01b1bcdf22.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/link.js":{"id":5250,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","9751","static/chunks/9751-e61453fd4f4fce7a.js","4166","static/chunks/4166-978d9c6e01a8e654.js","3466","static/chunks/3466-e18b7dfb8678b8de.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","9160","static/chunks/app/not-found-f237cf01b1bcdf22.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/page.tsx":{"id":6039,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","9751","static/chunks/9751-e61453fd4f4fce7a.js","4166","static/chunks/4166-978d9c6e01a8e654.js","3466","static/chunks/3466-e18b7dfb8678b8de.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","1931","static/chunks/app/page-8f0b4b7b22795d3e.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/admin/layout.tsx":{"id":9459,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","9751","static/chunks/9751-e61453fd4f4fce7a.js","9091","static/chunks/app/admin/layout-138991843849e70f.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/admin/page.tsx":{"id":9547,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","3","static/chunks/app/admin/page-8cb28df3329a0023.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/admin/resources/page.tsx":{"id":7283,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","5463","static/chunks/app/admin/resources/page-076bb3c6aaf12239.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/admin/resources/events/[id]/edit/page.tsx":{"id":6628,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","7698","static/chunks/app/admin/resources/events/%5Bid%5D/edit/page-331615234e264481.js"],"async":false}},"entryCSSFiles":{"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/layout":["static/css/d82e42ca3c0ab6c5.css"],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/error":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/not-found":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/page":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/admin/layout":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/admin/page":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/admin/resources/page":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/admin/resources/events/[id]/edit/page":[]}}
-/**/;self.__BUILD_MANIFEST={"polyfillFiles":["static/chunks/polyfills-c67a75d1b6f99dc8.js"],"devFiles":[],"ampDevFiles":[],"lowPriorityFiles":["static/NXtuk7z5Z6RvkFyZNbEMU/_buildManifest.js","static/NXtuk7z5Z6RvkFyZNbEMU/_ssgManifest.js"],"rootMainFiles":["static/chunks/webpack-4cc13f30328d8fb5.js","static/chunks/fd9d1056-394c4b9237b372cc.js","static/chunks/993-f208a90c58704b1a.js","static/chunks/main-app-b5434e56c2b0ff6f.js"],"pages":{"/_app":["static/chunks/webpack-4cc13f30328d8fb5.js","static/chunks/framework-b566207abf043e2e.js","static/chunks/main-069b4682bc5c4efc.js","static/chunks/pages/_app-11c09b1e93f7270c.js"],"/_error":["static/chunks/webpack-4cc13f30328d8fb5.js","static/chunks/framework-b566207abf043e2e.js","static/chunks/main-069b4682bc5c4efc.js","static/chunks/pages/_error-7ae0e5d1f9ec0862.js"]},"ampFirstPages":[]}
+/**/;self.__RSC_SERVER_MANIFEST="{\"node\":{},\"edge\":{},\"encryptionKey\":\"UpML/+hRKM2tdPkuY+t/etJGv60ncDxN6I6ltIEUPC0=\"}"
+/**/;globalThis.__RSC_MANIFEST=(globalThis.__RSC_MANIFEST||{});globalThis.__RSC_MANIFEST["/admin/resources/events/[id]/edit/page"]={"moduleLoading":{"prefix":"/_next/","crossOrigin":null},"ssrModuleMapping":{},"edgeSSRModuleMapping":{"449":{"*":{"id":"9344","name":"*","chunks":[],"async":false}},"1166":{"*":{"id":"6597","name":"*","chunks":[],"async":false}},"1238":{"*":{"id":"9094","name":"*","chunks":[],"async":false}},"1400":{"*":{"id":"3061","name":"*","chunks":[],"async":false}},"1422":{"*":{"id":"248","name":"*","chunks":[],"async":false}},"1778":{"*":{"id":"7918","name":"*","chunks":[],"async":false}},"1902":{"*":{"id":"2527","name":"*","chunks":[],"async":false}},"2472":{"*":{"id":"573","name":"*","chunks":[],"async":false}},"4758":{"*":{"id":"3916","name":"*","chunks":[],"async":false}},"5250":{"*":{"id":"3449","name":"*","chunks":[],"async":false}},"5330":{"*":{"id":"4931","name":"*","chunks":[],"async":false}},"5613":{"*":{"id":"1726","name":"*","chunks":[],"async":false}},"6039":{"*":{"id":"9292","name":"*","chunks":[],"async":false}},"7283":{"*":{"id":"3306","name":"*","chunks":[],"async":false}},"7690":{"*":{"id":"679","name":"*","chunks":[],"async":false}},"7831":{"*":{"id":"3496","name":"*","chunks":[],"async":false}},"8599":{"*":{"id":"1084","name":"*","chunks":[],"async":false}},"8955":{"*":{"id":"702","name":"*","chunks":[],"async":false}},"9547":{"*":{"id":"5289","name":"*","chunks":[],"async":false}}},"clientModules":{"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/app-router.js":{"id":7690,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/app-router.js":{"id":7690,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/error-boundary.js":{"id":8955,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/error-boundary.js":{"id":8955,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/layout-router.js":{"id":5613,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/layout-router.js":{"id":5613,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/not-found-boundary.js":{"id":1902,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/not-found-boundary.js":{"id":1902,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/render-from-template-context.js":{"id":1778,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/render-from-template-context.js":{"id":1778,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js":{"id":7831,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js":{"id":7831,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/shared/lib/app-router-context.shared-runtime.js":{"id":8599,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/shared/lib/app-router-context.shared-runtime.js":{"id":8599,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/shared/lib/hooks-client-context.shared-runtime.js":{"id":4758,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/shared/lib/hooks-client-context.shared-runtime.js":{"id":4758,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/shared/lib/server-inserted-html.shared-runtime.js":{"id":2472,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/shared/lib/server-inserted-html.shared-runtime.js":{"id":2472,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/shared/lib/loadable-context.shared-runtime.js":{"id":1166,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/shared/lib/loadable-context.shared-runtime.js":{"id":1166,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/globals.css":{"id":3385,"name":"*","chunks":["3185","static/chunks/app/layout-e7beaa1ccf9bbe39.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/error.tsx":{"id":449,"name":"*","chunks":["1176","static/chunks/1176-d4d5824f0a0f6313.js","7601","static/chunks/app/error-13ed30a9752c86a9.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/components/layout/Footer.tsx":{"id":1422,"name":"*","chunks":["1176","static/chunks/1176-d4d5824f0a0f6313.js","3466","static/chunks/3466-abbdcaf212ffb38d.js","9751","static/chunks/9751-101059a65ddaf9e1.js","4166","static/chunks/4166-107699aa6e6fe391.js","5330","static/chunks/5330-5413f084c6449a61.js","1422","static/chunks/1422-06c339c6fcaaef72.js","9160","static/chunks/app/not-found-4be9412f8bf85652.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/components/layout/Header.tsx":{"id":5330,"name":"*","chunks":["1176","static/chunks/1176-d4d5824f0a0f6313.js","3466","static/chunks/3466-abbdcaf212ffb38d.js","9751","static/chunks/9751-101059a65ddaf9e1.js","4166","static/chunks/4166-107699aa6e6fe391.js","5330","static/chunks/5330-5413f084c6449a61.js","1422","static/chunks/1422-06c339c6fcaaef72.js","9160","static/chunks/app/not-found-4be9412f8bf85652.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/link.js":{"id":5250,"name":"*","chunks":["1176","static/chunks/1176-d4d5824f0a0f6313.js","3466","static/chunks/3466-abbdcaf212ffb38d.js","9751","static/chunks/9751-101059a65ddaf9e1.js","4166","static/chunks/4166-107699aa6e6fe391.js","5330","static/chunks/5330-5413f084c6449a61.js","1422","static/chunks/1422-06c339c6fcaaef72.js","9160","static/chunks/app/not-found-4be9412f8bf85652.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/link.js":{"id":5250,"name":"*","chunks":["1176","static/chunks/1176-d4d5824f0a0f6313.js","3466","static/chunks/3466-abbdcaf212ffb38d.js","9751","static/chunks/9751-101059a65ddaf9e1.js","4166","static/chunks/4166-107699aa6e6fe391.js","5330","static/chunks/5330-5413f084c6449a61.js","1422","static/chunks/1422-06c339c6fcaaef72.js","9160","static/chunks/app/not-found-4be9412f8bf85652.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/page.tsx":{"id":6039,"name":"*","chunks":["1176","static/chunks/1176-d4d5824f0a0f6313.js","3466","static/chunks/3466-abbdcaf212ffb38d.js","9751","static/chunks/9751-101059a65ddaf9e1.js","4166","static/chunks/4166-107699aa6e6fe391.js","5330","static/chunks/5330-5413f084c6449a61.js","1422","static/chunks/1422-06c339c6fcaaef72.js","1931","static/chunks/app/page-af2c1a1ed038395f.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/admin/layout.tsx":{"id":1400,"name":"*","chunks":["1176","static/chunks/1176-d4d5824f0a0f6313.js","9751","static/chunks/9751-101059a65ddaf9e1.js","9091","static/chunks/app/admin/layout-5fb2f4f3a8fc3d85.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/admin/page.tsx":{"id":9547,"name":"*","chunks":["1176","static/chunks/1176-d4d5824f0a0f6313.js","3","static/chunks/app/admin/page-61313f0db13cc239.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/admin/resources/page.tsx":{"id":7283,"name":"*","chunks":["1176","static/chunks/1176-d4d5824f0a0f6313.js","5463","static/chunks/app/admin/resources/page-4a6e5bb893bb3745.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/admin/resources/events/[id]/edit/page.tsx":{"id":1238,"name":"*","chunks":["1176","static/chunks/1176-d4d5824f0a0f6313.js","7698","static/chunks/app/admin/resources/events/%5Bid%5D/edit/page-a4b0f20495ec67f8.js"],"async":false}},"entryCSSFiles":{"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/layout":["static/css/17fa96fede9d5b3c.css"],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/error":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/not-found":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/page":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/admin/layout":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/admin/page":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/admin/resources/page":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/admin/resources/events/[id]/edit/page":[]}}
+/**/;self.__BUILD_MANIFEST={"polyfillFiles":["static/chunks/polyfills-c67a75d1b6f99dc8.js"],"devFiles":[],"ampDevFiles":[],"lowPriorityFiles":["static/_rXw3bgx9L7Cq_v9IVkv7/_buildManifest.js","static/_rXw3bgx9L7Cq_v9IVkv7/_ssgManifest.js"],"rootMainFiles":["static/chunks/webpack-b97e6fe518e97141.js","static/chunks/fd9d1056-98c08b4112521d6b.js","static/chunks/993-14b1802ec5be3dbb.js","static/chunks/main-app-b5434e56c2b0ff6f.js"],"pages":{"/_app":["static/chunks/webpack-b97e6fe518e97141.js","static/chunks/framework-b566207abf043e2e.js","static/chunks/main-069b4682bc5c4efc.js","static/chunks/pages/_app-11c09b1e93f7270c.js"],"/_error":["static/chunks/webpack-b97e6fe518e97141.js","static/chunks/framework-b566207abf043e2e.js","static/chunks/main-069b4682bc5c4efc.js","static/chunks/pages/_error-7ae0e5d1f9ec0862.js"]},"ampFirstPages":[]}
 /**/;self.__REACT_LOADABLE_MANIFEST="{}"
 /**/;self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":false}"
-/**/;self.__PRERENDER_MANIFEST="{\"version\":4,\"routes\":{},\"dynamicRoutes\":{},\"notFoundRoutes\":[],\"preview\":{\"previewModeId\":\"c15feebe183b4599009d90d30345785c\",\"previewModeSigningKey\":\"e4f5ebd6693b52469f7c330136bbffdbbffea06eed62688ebe60b2eb92a90f45\",\"previewModeEncryptionKey\":\"165f63bf1198087f5afb62855eafbdb2a071600cb29c12335ecedb1c074c4ae8\"}}"
+/**/;self.__PRERENDER_MANIFEST="{\"version\":4,\"routes\":{},\"dynamicRoutes\":{},\"notFoundRoutes\":[],\"preview\":{\"previewModeId\":\"7f4499e4e79deec4359df014fd794ff3\",\"previewModeSigningKey\":\"dea01b63e61203fc45685d4580afc77a4106ef3125f1e9c7184c8eb158076dbb\",\"previewModeEncryptionKey\":\"55af4678811be7c1c65255b06214778e422b6a9cfbd71bf5f8ceacaed4be2bf4\"}}"
 /**/;/******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({});
@@ -214,7 +214,7 @@ module.exports = require("node:buffer");
 
 /***/ }),
 
-/***/ 8809:
+/***/ 376:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -373,7 +373,7 @@ const routeModule = new module_compiled.AppPageRouteModule({
 });
 
 //# sourceMappingURL=app-page.js.map
-;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-edge-ssr-loader/index.js?{"absolute500Path":"","absoluteAppPath":"next/dist/pages/_app","absoluteDocumentPath":"next/dist/pages/_document","absoluteErrorPath":"next/dist/pages/_error","absolutePagePath":"private-next-app-dir/admin/resources/events/[id]/edit/page.tsx","buildId":"NXtuk7z5Z6RvkFyZNbEMU","dev":false,"isServerComponent":true,"page":"/admin/resources/events/[id]/edit/page","stringifiedConfig":"eyJlbnYiOnt9LCJlc2xpbnQiOnsiaWdub3JlRHVyaW5nQnVpbGRzIjpmYWxzZX0sInR5cGVzY3JpcHQiOnsiaWdub3JlQnVpbGRFcnJvcnMiOmZhbHNlLCJ0c2NvbmZpZ1BhdGgiOiJ0c2NvbmZpZy5qc29uIn0sImRpc3REaXIiOiIubmV4dCIsImNsZWFuRGlzdERpciI6dHJ1ZSwiYXNzZXRQcmVmaXgiOiIiLCJjb25maWdPcmlnaW4iOiJuZXh0LmNvbmZpZy5qcyIsInVzZUZpbGVTeXN0ZW1QdWJsaWNSb3V0ZXMiOnRydWUsImdlbmVyYXRlRXRhZ3MiOnRydWUsInBhZ2VFeHRlbnNpb25zIjpbInRzeCIsInRzIiwianN4IiwianMiXSwicG93ZXJlZEJ5SGVhZGVyIjpmYWxzZSwiY29tcHJlc3MiOmZhbHNlLCJhbmFseXRpY3NJZCI6IiIsImltYWdlcyI6eyJkZXZpY2VTaXplcyI6WzY0MCw3NTAsODI4LDEwODAsMTIwMCwxOTIwLDIwNDgsMzg0MF0sImltYWdlU2l6ZXMiOlsxNiwzMiw0OCw2NCw5NiwxMjgsMjU2LDM4NF0sInBhdGgiOiIvX25leHQvaW1hZ2UiLCJsb2FkZXIiOiJkZWZhdWx0IiwibG9hZGVyRmlsZSI6IiIsImRvbWFpbnMiOltdLCJkaXNhYmxlU3RhdGljSW1hZ2VzIjpmYWxzZSwibWluaW11bUNhY2hlVFRMIjo2MCwiZm9ybWF0cyI6WyJpbWFnZS93ZWJwIiwiaW1hZ2UvYXZpZiJdLCJkYW5nZXJvdXNseUFsbG93U1ZHIjpmYWxzZSwiY29udGVudFNlY3VyaXR5UG9saWN5Ijoic2NyaXB0LXNyYyAnbm9uZSc7IGZyYW1lLXNyYyAnbm9uZSc7IHNhbmRib3g7IiwiY29udGVudERpc3Bvc2l0aW9uVHlwZSI6ImlubGluZSIsInJlbW90ZVBhdHRlcm5zIjpbeyJwcm90b2NvbCI6Imh0dHAiLCJob3N0bmFtZSI6ImxvY2FsaG9zdCIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9LHsicHJvdG9jb2wiOiJodHRwcyIsImhvc3RuYW1lIjoicHViLTk0YzQ3ZWJjN2IxNDQ1OGViMWUwOWI2M2E4NzY4ZDcyLnIyLmRldiIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9XSwidW5vcHRpbWl6ZWQiOmZhbHNlfSwiZGV2SW5kaWNhdG9ycyI6eyJidWlsZEFjdGl2aXR5Ijp0cnVlLCJidWlsZEFjdGl2aXR5UG9zaXRpb24iOiJib3R0b20tcmlnaHQifSwib25EZW1hbmRFbnRyaWVzIjp7Im1heEluYWN0aXZlQWdlIjo2MDAwMCwicGFnZXNCdWZmZXJMZW5ndGgiOjV9LCJhbXAiOnsiY2Fub25pY2FsQmFzZSI6IiJ9LCJiYXNlUGF0aCI6IiIsInNhc3NPcHRpb25zIjp7fSwidHJhaWxpbmdTbGFzaCI6ZmFsc2UsImkxOG4iOm51bGwsInByb2R1Y3Rpb25Ccm93c2VyU291cmNlTWFwcyI6ZmFsc2UsIm9wdGltaXplRm9udHMiOnRydWUsImV4Y2x1ZGVEZWZhdWx0TW9tZW50TG9jYWxlcyI6dHJ1ZSwic2VydmVyUnVudGltZUNvbmZpZyI6e30sInB1YmxpY1J1bnRpbWVDb25maWciOnt9LCJyZWFjdFByb2R1Y3Rpb25Qcm9maWxpbmciOmZhbHNlLCJyZWFjdFN0cmljdE1vZGUiOnRydWUsImh0dHBBZ2VudE9wdGlvbnMiOnsia2VlcEFsaXZlIjp0cnVlfSwib3V0cHV0RmlsZVRyYWNpbmciOnRydWUsInN0YXRpY1BhZ2VHZW5lcmF0aW9uVGltZW91dCI6NjAsInN3Y01pbmlmeSI6ZmFsc2UsIm91dHB1dCI6InN0YW5kYWxvbmUiLCJtb2R1bGFyaXplSW1wb3J0cyI6eyJAbXVpL2ljb25zLW1hdGVyaWFsIjp7InRyYW5zZm9ybSI6IkBtdWkvaWNvbnMtbWF0ZXJpYWwve3ttZW1iZXJ9fSJ9LCJsb2Rhc2giOnsidHJhbnNmb3JtIjoibG9kYXNoL3t7bWVtYmVyfX0ifSwibmV4dC9zZXJ2ZXIiOnsidHJhbnNmb3JtIjoibmV4dC9kaXN0L3NlcnZlci93ZWIvZXhwb3J0cy97eyBrZWJhYkNhc2UgbWVtYmVyIH19In19LCJleHBlcmltZW50YWwiOnsid2luZG93SGlzdG9yeVN1cHBvcnQiOmZhbHNlLCJzZXJ2ZXJNaW5pZmljYXRpb24iOnRydWUsInNlcnZlclNvdXJjZU1hcHMiOmZhbHNlLCJjYXNlU2Vuc2l0aXZlUm91dGVzIjpmYWxzZSwidXNlRGVwbG95bWVudElkIjpmYWxzZSwidXNlRGVwbG95bWVudElkU2VydmVyQWN0aW9ucyI6ZmFsc2UsImNsaWVudFJvdXRlckZpbHRlciI6dHJ1ZSwiY2xpZW50Um91dGVyRmlsdGVyUmVkaXJlY3RzIjpmYWxzZSwiZmV0Y2hDYWNoZUtleVByZWZpeCI6IiIsIm1pZGRsZXdhcmVQcmVmZXRjaCI6ImZsZXhpYmxlIiwib3B0aW1pc3RpY0NsaWVudENhY2hlIjp0cnVlLCJtYW51YWxDbGllbnRCYXNlUGF0aCI6ZmFsc2UsImNwdXMiOjksIm1lbW9yeUJhc2VkV29ya2Vyc0NvdW50IjpmYWxzZSwiaXNyRmx1c2hUb0Rpc2siOnRydWUsIndvcmtlclRocmVhZHMiOmZhbHNlLCJvcHRpbWl6ZUNzcyI6ZmFsc2UsIm5leHRTY3JpcHRXb3JrZXJzIjpmYWxzZSwic2Nyb2xsUmVzdG9yYXRpb24iOmZhbHNlLCJleHRlcm5hbERpciI6ZmFsc2UsImRpc2FibGVPcHRpbWl6ZWRMb2FkaW5nIjpmYWxzZSwiZ3ppcFNpemUiOnRydWUsImNyYUNvbXBhdCI6ZmFsc2UsImVzbUV4dGVybmFscyI6dHJ1ZSwiaXNyTWVtb3J5Q2FjaGVTaXplIjowLCJmdWxseVNwZWNpZmllZCI6ZmFsc2UsIm91dHB1dEZpbGVUcmFjaW5nUm9vdCI6Ii9Vc2Vycy9kZW5pemhhbi9Eb2N1bWVudHMvV2luZHN1cmYvcHJvdGVrYW5hbGl0aWsiLCJzd2NUcmFjZVByb2ZpbGluZyI6ZmFsc2UsImZvcmNlU3djVHJhbnNmb3JtcyI6ZmFsc2UsImxhcmdlUGFnZURhdGFCeXRlcyI6MTI4MDAwLCJhZGp1c3RGb250RmFsbGJhY2tzIjpmYWxzZSwiYWRqdXN0Rm9udEZhbGxiYWNrc1dpdGhTaXplQWRqdXN0IjpmYWxzZSwidHlwZWRSb3V0ZXMiOmZhbHNlLCJpbnN0cnVtZW50YXRpb25Ib29rIjpmYWxzZSwiYnVuZGxlUGFnZXNFeHRlcm5hbHMiOmZhbHNlLCJwcHIiOmZhbHNlLCJ3ZWJwYWNrQnVpbGRXb3JrZXIiOmZhbHNlLCJvdXRwdXRGaWxlVHJhY2luZ0V4Y2x1ZGVzIjp7IioiOlsibm9kZV9tb2R1bGVzLyoqLyoiLCIubmV4dC9jYWNoZS8qKi8qIiwiLmdpdC8qKi8qIl19LCJzdGF0aWNQYWdlR2VuZXJhdGlvblRpbWVvdXQiOjAsIm9wdGltaXplUGFja2FnZUltcG9ydHMiOlsibHVjaWRlLXJlYWN0IiwiZGF0ZS1mbnMiLCJsb2Rhc2gtZXMiLCJyYW1kYSIsImFudGQiLCJyZWFjdC1ib290c3RyYXAiLCJhaG9va3MiLCJAYW50LWRlc2lnbi9pY29ucyIsIkBoZWFkbGVzc3VpL3JlYWN0IiwiQGhlYWRsZXNzdWktZmxvYXQvcmVhY3QiLCJAaGVyb2ljb25zL3JlYWN0LzIwL3NvbGlkIiwiQGhlcm9pY29ucy9yZWFjdC8yNC9zb2xpZCIsIkBoZXJvaWNvbnMvcmVhY3QvMjQvb3V0bGluZSIsIkB2aXN4L3Zpc3giLCJAdHJlbW9yL3JlYWN0IiwicnhqcyIsIkBtdWkvbWF0ZXJpYWwiLCJAbXVpL2ljb25zLW1hdGVyaWFsIiwicmVjaGFydHMiLCJyZWFjdC11c2UiLCJAbWF0ZXJpYWwtdWkvY29yZSIsIkBtYXRlcmlhbC11aS9pY29ucyIsIkB0YWJsZXIvaWNvbnMtcmVhY3QiLCJtdWktY29yZSIsInJlYWN0LWljb25zL2FpIiwicmVhY3QtaWNvbnMvYmkiLCJyZWFjdC1pY29ucy9icyIsInJlYWN0LWljb25zL2NnIiwicmVhY3QtaWNvbnMvY2kiLCJyZWFjdC1pY29ucy9kaSIsInJlYWN0LWljb25zL2ZhIiwicmVhY3QtaWNvbnMvZmE2IiwicmVhY3QtaWNvbnMvZmMiLCJyZWFjdC1pY29ucy9maSIsInJlYWN0LWljb25zL2dpIiwicmVhY3QtaWNvbnMvZ28iLCJyZWFjdC1pY29ucy9nciIsInJlYWN0LWljb25zL2hpIiwicmVhY3QtaWNvbnMvaGkyIiwicmVhY3QtaWNvbnMvaW0iLCJyZWFjdC1pY29ucy9pbyIsInJlYWN0LWljb25zL2lvNSIsInJlYWN0LWljb25zL2xpYSIsInJlYWN0LWljb25zL2xpYiIsInJlYWN0LWljb25zL2x1IiwicmVhY3QtaWNvbnMvbWQiLCJyZWFjdC1pY29ucy9waSIsInJlYWN0LWljb25zL3JpIiwicmVhY3QtaWNvbnMvcngiLCJyZWFjdC1pY29ucy9zaSIsInJlYWN0LWljb25zL3NsIiwicmVhY3QtaWNvbnMvdGIiLCJyZWFjdC1pY29ucy90ZmkiLCJyZWFjdC1pY29ucy90aSIsInJlYWN0LWljb25zL3ZzYyIsInJlYWN0LWljb25zL3dpIl19LCJjb25maWdGaWxlIjoiL1VzZXJzL2Rlbml6aGFuL0RvY3VtZW50cy9XaW5kc3VyZi9wcm90ZWthbmFsaXRpay9uZXh0LmNvbmZpZy5qcyIsImNvbmZpZ0ZpbGVOYW1lIjoibmV4dC5jb25maWcuanMiLCJnZW5lcmF0ZVN0YXRpY1BhcmFtcyI6ZmFsc2UsIm1pbmlmeSI6ZmFsc2V9","pagesType":"app","appDirLoader":"bmV4dC1hcHAtbG9hZGVyP25hbWU9YXBwJTJGYWRtaW4lMkZyZXNvdXJjZXMlMkZldmVudHMlMkYlNUJpZCU1RCUyRmVkaXQlMkZwYWdlJnBhZ2U9JTJGYWRtaW4lMkZyZXNvdXJjZXMlMkZldmVudHMlMkYlNUJpZCU1RCUyRmVkaXQlMkZwYWdlJnBhZ2VQYXRoPXByaXZhdGUtbmV4dC1hcHAtZGlyJTJGYWRtaW4lMkZyZXNvdXJjZXMlMkZldmVudHMlMkYlNUJpZCU1RCUyRmVkaXQlMkZwYWdlLnRzeCZhcHBEaXI9JTJGVXNlcnMlMkZkZW5pemhhbiUyRkRvY3VtZW50cyUyRldpbmRzdXJmJTJGcHJvdGVrYW5hbGl0aWslMkZzcmMlMkZhcHAmYXBwUGF0aHM9JTJGYWRtaW4lMkZyZXNvdXJjZXMlMkZldmVudHMlMkYlNUJpZCU1RCUyRmVkaXQlMkZwYWdlJnBhZ2VFeHRlbnNpb25zPXRzeCZwYWdlRXh0ZW5zaW9ucz10cyZwYWdlRXh0ZW5zaW9ucz1qc3gmcGFnZUV4dGVuc2lvbnM9anMmYmFzZVBhdGg9JmFzc2V0UHJlZml4PSZuZXh0Q29uZmlnT3V0cHV0PXN0YW5kYWxvbmUmcHJlZmVycmVkUmVnaW9uPSZtaWRkbGV3YXJlQ29uZmlnPWUzMCUzRCE=","sriEnabled":false,"middlewareConfig":"e30="}!
+;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-edge-ssr-loader/index.js?{"absolute500Path":"","absoluteAppPath":"next/dist/pages/_app","absoluteDocumentPath":"next/dist/pages/_document","absoluteErrorPath":"next/dist/pages/_error","absolutePagePath":"private-next-app-dir/admin/resources/events/[id]/edit/page.tsx","buildId":"_rXw3bgx9L7Cq_v9IVkv7","dev":false,"isServerComponent":true,"page":"/admin/resources/events/[id]/edit/page","stringifiedConfig":"eyJlbnYiOnt9LCJlc2xpbnQiOnsiaWdub3JlRHVyaW5nQnVpbGRzIjpmYWxzZX0sInR5cGVzY3JpcHQiOnsiaWdub3JlQnVpbGRFcnJvcnMiOmZhbHNlLCJ0c2NvbmZpZ1BhdGgiOiJ0c2NvbmZpZy5qc29uIn0sImRpc3REaXIiOiIubmV4dCIsImNsZWFuRGlzdERpciI6dHJ1ZSwiYXNzZXRQcmVmaXgiOiIiLCJjb25maWdPcmlnaW4iOiJuZXh0LmNvbmZpZy5qcyIsInVzZUZpbGVTeXN0ZW1QdWJsaWNSb3V0ZXMiOnRydWUsImdlbmVyYXRlRXRhZ3MiOnRydWUsInBhZ2VFeHRlbnNpb25zIjpbInRzeCIsInRzIiwianN4IiwianMiXSwicG93ZXJlZEJ5SGVhZGVyIjpmYWxzZSwiY29tcHJlc3MiOmZhbHNlLCJhbmFseXRpY3NJZCI6IiIsImltYWdlcyI6eyJkZXZpY2VTaXplcyI6WzY0MCw3NTAsODI4LDEwODAsMTIwMCwxOTIwLDIwNDgsMzg0MF0sImltYWdlU2l6ZXMiOlsxNiwzMiw0OCw2NCw5NiwxMjgsMjU2LDM4NF0sInBhdGgiOiIvX25leHQvaW1hZ2UiLCJsb2FkZXIiOiJkZWZhdWx0IiwibG9hZGVyRmlsZSI6IiIsImRvbWFpbnMiOltdLCJkaXNhYmxlU3RhdGljSW1hZ2VzIjpmYWxzZSwibWluaW11bUNhY2hlVFRMIjo2MCwiZm9ybWF0cyI6WyJpbWFnZS93ZWJwIiwiaW1hZ2UvYXZpZiJdLCJkYW5nZXJvdXNseUFsbG93U1ZHIjpmYWxzZSwiY29udGVudFNlY3VyaXR5UG9saWN5Ijoic2NyaXB0LXNyYyAnbm9uZSc7IGZyYW1lLXNyYyAnbm9uZSc7IHNhbmRib3g7IiwiY29udGVudERpc3Bvc2l0aW9uVHlwZSI6ImlubGluZSIsInJlbW90ZVBhdHRlcm5zIjpbeyJwcm90b2NvbCI6Imh0dHAiLCJob3N0bmFtZSI6ImxvY2FsaG9zdCIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9LHsicHJvdG9jb2wiOiJodHRwcyIsImhvc3RuYW1lIjoicHViLTk0YzQ3ZWJjN2IxNDQ1OGViMWUwOWI2M2E4NzY4ZDcyLnIyLmRldiIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9XSwidW5vcHRpbWl6ZWQiOmZhbHNlfSwiZGV2SW5kaWNhdG9ycyI6eyJidWlsZEFjdGl2aXR5Ijp0cnVlLCJidWlsZEFjdGl2aXR5UG9zaXRpb24iOiJib3R0b20tcmlnaHQifSwib25EZW1hbmRFbnRyaWVzIjp7Im1heEluYWN0aXZlQWdlIjo2MDAwMCwicGFnZXNCdWZmZXJMZW5ndGgiOjV9LCJhbXAiOnsiY2Fub25pY2FsQmFzZSI6IiJ9LCJiYXNlUGF0aCI6IiIsInNhc3NPcHRpb25zIjp7fSwidHJhaWxpbmdTbGFzaCI6ZmFsc2UsImkxOG4iOm51bGwsInByb2R1Y3Rpb25Ccm93c2VyU291cmNlTWFwcyI6ZmFsc2UsIm9wdGltaXplRm9udHMiOnRydWUsImV4Y2x1ZGVEZWZhdWx0TW9tZW50TG9jYWxlcyI6dHJ1ZSwic2VydmVyUnVudGltZUNvbmZpZyI6e30sInB1YmxpY1J1bnRpbWVDb25maWciOnt9LCJyZWFjdFByb2R1Y3Rpb25Qcm9maWxpbmciOmZhbHNlLCJyZWFjdFN0cmljdE1vZGUiOnRydWUsImh0dHBBZ2VudE9wdGlvbnMiOnsia2VlcEFsaXZlIjp0cnVlfSwib3V0cHV0RmlsZVRyYWNpbmciOnRydWUsInN0YXRpY1BhZ2VHZW5lcmF0aW9uVGltZW91dCI6NjAsInN3Y01pbmlmeSI6ZmFsc2UsIm91dHB1dCI6InN0YW5kYWxvbmUiLCJtb2R1bGFyaXplSW1wb3J0cyI6eyJAbXVpL2ljb25zLW1hdGVyaWFsIjp7InRyYW5zZm9ybSI6IkBtdWkvaWNvbnMtbWF0ZXJpYWwve3ttZW1iZXJ9fSJ9LCJsb2Rhc2giOnsidHJhbnNmb3JtIjoibG9kYXNoL3t7bWVtYmVyfX0ifSwibmV4dC9zZXJ2ZXIiOnsidHJhbnNmb3JtIjoibmV4dC9kaXN0L3NlcnZlci93ZWIvZXhwb3J0cy97eyBrZWJhYkNhc2UgbWVtYmVyIH19In19LCJleHBlcmltZW50YWwiOnsid2luZG93SGlzdG9yeVN1cHBvcnQiOmZhbHNlLCJzZXJ2ZXJNaW5pZmljYXRpb24iOnRydWUsInNlcnZlclNvdXJjZU1hcHMiOmZhbHNlLCJjYXNlU2Vuc2l0aXZlUm91dGVzIjpmYWxzZSwidXNlRGVwbG95bWVudElkIjpmYWxzZSwidXNlRGVwbG95bWVudElkU2VydmVyQWN0aW9ucyI6ZmFsc2UsImNsaWVudFJvdXRlckZpbHRlciI6dHJ1ZSwiY2xpZW50Um91dGVyRmlsdGVyUmVkaXJlY3RzIjpmYWxzZSwiZmV0Y2hDYWNoZUtleVByZWZpeCI6IiIsIm1pZGRsZXdhcmVQcmVmZXRjaCI6ImZsZXhpYmxlIiwib3B0aW1pc3RpY0NsaWVudENhY2hlIjp0cnVlLCJtYW51YWxDbGllbnRCYXNlUGF0aCI6ZmFsc2UsImNwdXMiOjksIm1lbW9yeUJhc2VkV29ya2Vyc0NvdW50IjpmYWxzZSwiaXNyRmx1c2hUb0Rpc2siOnRydWUsIndvcmtlclRocmVhZHMiOmZhbHNlLCJvcHRpbWl6ZUNzcyI6ZmFsc2UsIm5leHRTY3JpcHRXb3JrZXJzIjpmYWxzZSwic2Nyb2xsUmVzdG9yYXRpb24iOmZhbHNlLCJleHRlcm5hbERpciI6ZmFsc2UsImRpc2FibGVPcHRpbWl6ZWRMb2FkaW5nIjpmYWxzZSwiZ3ppcFNpemUiOnRydWUsImNyYUNvbXBhdCI6ZmFsc2UsImVzbUV4dGVybmFscyI6dHJ1ZSwiaXNyTWVtb3J5Q2FjaGVTaXplIjowLCJmdWxseVNwZWNpZmllZCI6ZmFsc2UsIm91dHB1dEZpbGVUcmFjaW5nUm9vdCI6Ii9Vc2Vycy9kZW5pemhhbi9Eb2N1bWVudHMvV2luZHN1cmYvcHJvdGVrYW5hbGl0aWsiLCJzd2NUcmFjZVByb2ZpbGluZyI6ZmFsc2UsImZvcmNlU3djVHJhbnNmb3JtcyI6ZmFsc2UsImxhcmdlUGFnZURhdGFCeXRlcyI6MTI4MDAwLCJhZGp1c3RGb250RmFsbGJhY2tzIjpmYWxzZSwiYWRqdXN0Rm9udEZhbGxiYWNrc1dpdGhTaXplQWRqdXN0IjpmYWxzZSwidHlwZWRSb3V0ZXMiOmZhbHNlLCJpbnN0cnVtZW50YXRpb25Ib29rIjpmYWxzZSwiYnVuZGxlUGFnZXNFeHRlcm5hbHMiOmZhbHNlLCJwcHIiOmZhbHNlLCJ3ZWJwYWNrQnVpbGRXb3JrZXIiOmZhbHNlLCJvdXRwdXRGaWxlVHJhY2luZ0V4Y2x1ZGVzIjp7IioiOlsibm9kZV9tb2R1bGVzLyoqLyoiLCIubmV4dC9jYWNoZS8qKi8qIiwiLmdpdC8qKi8qIl19LCJzdGF0aWNQYWdlR2VuZXJhdGlvblRpbWVvdXQiOjAsIm9wdGltaXplUGFja2FnZUltcG9ydHMiOlsibHVjaWRlLXJlYWN0IiwiZGF0ZS1mbnMiLCJsb2Rhc2gtZXMiLCJyYW1kYSIsImFudGQiLCJyZWFjdC1ib290c3RyYXAiLCJhaG9va3MiLCJAYW50LWRlc2lnbi9pY29ucyIsIkBoZWFkbGVzc3VpL3JlYWN0IiwiQGhlYWRsZXNzdWktZmxvYXQvcmVhY3QiLCJAaGVyb2ljb25zL3JlYWN0LzIwL3NvbGlkIiwiQGhlcm9pY29ucy9yZWFjdC8yNC9zb2xpZCIsIkBoZXJvaWNvbnMvcmVhY3QvMjQvb3V0bGluZSIsIkB2aXN4L3Zpc3giLCJAdHJlbW9yL3JlYWN0IiwicnhqcyIsIkBtdWkvbWF0ZXJpYWwiLCJAbXVpL2ljb25zLW1hdGVyaWFsIiwicmVjaGFydHMiLCJyZWFjdC11c2UiLCJAbWF0ZXJpYWwtdWkvY29yZSIsIkBtYXRlcmlhbC11aS9pY29ucyIsIkB0YWJsZXIvaWNvbnMtcmVhY3QiLCJtdWktY29yZSIsInJlYWN0LWljb25zL2FpIiwicmVhY3QtaWNvbnMvYmkiLCJyZWFjdC1pY29ucy9icyIsInJlYWN0LWljb25zL2NnIiwicmVhY3QtaWNvbnMvY2kiLCJyZWFjdC1pY29ucy9kaSIsInJlYWN0LWljb25zL2ZhIiwicmVhY3QtaWNvbnMvZmE2IiwicmVhY3QtaWNvbnMvZmMiLCJyZWFjdC1pY29ucy9maSIsInJlYWN0LWljb25zL2dpIiwicmVhY3QtaWNvbnMvZ28iLCJyZWFjdC1pY29ucy9nciIsInJlYWN0LWljb25zL2hpIiwicmVhY3QtaWNvbnMvaGkyIiwicmVhY3QtaWNvbnMvaW0iLCJyZWFjdC1pY29ucy9pbyIsInJlYWN0LWljb25zL2lvNSIsInJlYWN0LWljb25zL2xpYSIsInJlYWN0LWljb25zL2xpYiIsInJlYWN0LWljb25zL2x1IiwicmVhY3QtaWNvbnMvbWQiLCJyZWFjdC1pY29ucy9waSIsInJlYWN0LWljb25zL3JpIiwicmVhY3QtaWNvbnMvcngiLCJyZWFjdC1pY29ucy9zaSIsInJlYWN0LWljb25zL3NsIiwicmVhY3QtaWNvbnMvdGIiLCJyZWFjdC1pY29ucy90ZmkiLCJyZWFjdC1pY29ucy90aSIsInJlYWN0LWljb25zL3ZzYyIsInJlYWN0LWljb25zL3dpIl19LCJjb25maWdGaWxlIjoiL1VzZXJzL2Rlbml6aGFuL0RvY3VtZW50cy9XaW5kc3VyZi9wcm90ZWthbmFsaXRpay9uZXh0LmNvbmZpZy5qcyIsImNvbmZpZ0ZpbGVOYW1lIjoibmV4dC5jb25maWcuanMiLCJnZW5lcmF0ZVN0YXRpY1BhcmFtcyI6ZmFsc2UsIm1pbmlmeSI6ZmFsc2V9","pagesType":"app","appDirLoader":"bmV4dC1hcHAtbG9hZGVyP25hbWU9YXBwJTJGYWRtaW4lMkZyZXNvdXJjZXMlMkZldmVudHMlMkYlNUJpZCU1RCUyRmVkaXQlMkZwYWdlJnBhZ2U9JTJGYWRtaW4lMkZyZXNvdXJjZXMlMkZldmVudHMlMkYlNUJpZCU1RCUyRmVkaXQlMkZwYWdlJnBhZ2VQYXRoPXByaXZhdGUtbmV4dC1hcHAtZGlyJTJGYWRtaW4lMkZyZXNvdXJjZXMlMkZldmVudHMlMkYlNUJpZCU1RCUyRmVkaXQlMkZwYWdlLnRzeCZhcHBEaXI9JTJGVXNlcnMlMkZkZW5pemhhbiUyRkRvY3VtZW50cyUyRldpbmRzdXJmJTJGcHJvdGVrYW5hbGl0aWslMkZzcmMlMkZhcHAmYXBwUGF0aHM9JTJGYWRtaW4lMkZyZXNvdXJjZXMlMkZldmVudHMlMkYlNUJpZCU1RCUyRmVkaXQlMkZwYWdlJnBhZ2VFeHRlbnNpb25zPXRzeCZwYWdlRXh0ZW5zaW9ucz10cyZwYWdlRXh0ZW5zaW9ucz1qc3gmcGFnZUV4dGVuc2lvbnM9anMmYmFzZVBhdGg9JmFzc2V0UHJlZml4PSZuZXh0Q29uZmlnT3V0cHV0PXN0YW5kYWxvbmUmcHJlZmVycmVkUmVnaW9uPSZtaWRkbGV3YXJlQ29uZmlnPWUzMCUzRCE=","sriEnabled":false,"middlewareConfig":"e30="}!
 var _self___RSC_MANIFEST;
 
 
@@ -417,7 +417,7 @@ const page_stringifiedConfig_eyJlbnYiOnt9LCJlc2xpbnQiOnsiaWdub3JlRHVyaW5nQnVpbGR
     serverActions: isServerComponent ? serverActions : undefined,
     subresourceIntegrityManifest,
     config: nextConfig,
-    buildId: "NXtuk7z5Z6RvkFyZNbEMU",
+    buildId: "_rXw3bgx9L7Cq_v9IVkv7",
     nextFontManifest,
     incrementalCacheHandler
 });
@@ -455,21 +455,21 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3449));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 248));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3328))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4931))
 
 /***/ }),
 
 /***/ 5215:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1755))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3061))
 
 /***/ }),
 
 /***/ 4684:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8649))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9094))
 
 /***/ }),
 
@@ -482,6 +482,22 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ 9916:
 /***/ (() => {
+
+
+
+/***/ }),
+
+/***/ 6671:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Y: () => (/* reexport safe */ _ArrowLeftIcon_js__WEBPACK_IMPORTED_MODULE_0__.Z),
+/* harmony export */   r: () => (/* reexport safe */ _CheckCircleIcon_js__WEBPACK_IMPORTED_MODULE_1__.Z)
+/* harmony export */ });
+/* harmony import */ var _ArrowLeftIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1796);
+/* harmony import */ var _CheckCircleIcon_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(192);
+
 
 
 
@@ -31145,7 +31161,7 @@ module.exports = __webpack_require__(5098);
 
 /***/ }),
 
-/***/ 1755:
+/***/ 3061:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -31354,30 +31370,8 @@ function useAuth() {
     };
 }
 
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/ArrowLeftOnRectangleIcon.js
-
-/** @deprecated */ function ArrowLeftOnRectangleIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75"
-    }));
-}
-const ForwardRef = /*#__PURE__*/ react.forwardRef(ArrowLeftOnRectangleIcon);
-/* harmony default export */ const esm_ArrowLeftOnRectangleIcon = (ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ArrowLeftOnRectangleIcon.js
+var ArrowLeftOnRectangleIcon = __webpack_require__(5676);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/Bars3Icon.js
 var Bars3Icon = __webpack_require__(4294);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ChatBubbleLeftRightIcon.js
@@ -31390,30 +31384,8 @@ var CubeIcon = __webpack_require__(4738);
 var DocumentTextIcon = __webpack_require__(2883);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/HomeIcon.js
 var HomeIcon = __webpack_require__(6270);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/InboxIcon.js
-
-function InboxIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "M2.25 13.5h3.86a2.25 2.25 0 0 1 2.012 1.244l.256.512a2.25 2.25 0 0 0 2.013 1.244h3.218a2.25 2.25 0 0 0 2.013-1.244l.256-.512a2.25 2.25 0 0 1 2.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 0 0-2.15-1.588H6.911a2.25 2.25 0 0 0-2.15 1.588L2.35 13.177a2.25 2.25 0 0 0-.1.661Z"
-    }));
-}
-const InboxIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(InboxIcon);
-/* harmony default export */ const esm_InboxIcon = (InboxIcon_ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/InboxIcon.js
+var InboxIcon = __webpack_require__(2029);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/UsersIcon.js
 var UsersIcon = __webpack_require__(8103);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/XMarkIcon.js
@@ -31467,7 +31439,7 @@ const layout_navigation = [
     {
         name: "İletişim Mesajları",
         href: "/admin/contact/messages",
-        icon: esm_InboxIcon
+        icon: InboxIcon/* default */.Z
     },
     {
         name: "Edge Runtime",
@@ -31604,7 +31576,7 @@ function AdminLayout({ children }) {
                                     href: "/",
                                     className: "flex items-center space-x-3 px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg",
                                     children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ArrowLeftOnRectangleIcon, {
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(ArrowLeftOnRectangleIcon/* default */.Z, {
                                             className: "w-5 h-5"
                                         }),
                                         /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
@@ -31659,7 +31631,7 @@ function AdminLayout({ children }) {
                             href: "/",
                             className: "flex items-center space-x-3 px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg",
                             children: [
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ArrowLeftOnRectangleIcon, {
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)(ArrowLeftOnRectangleIcon/* default */.Z, {
                                     className: "w-5 h-5"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
@@ -31716,7 +31688,7 @@ function AdminLayout({ children }) {
                                             onClick: logout,
                                             className: "flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors",
                                             children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ArrowLeftOnRectangleIcon, {
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(ArrowLeftOnRectangleIcon/* default */.Z, {
                                                     className: "w-4 h-4"
                                                 }),
                                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
@@ -31745,37 +31717,20 @@ function AdminLayout({ children }) {
 
 /***/ }),
 
-/***/ 8649:
+/***/ 9094:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ EditEventPage)
-});
-
-// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/jsx-runtime.js
-var jsx_runtime = __webpack_require__(6485);
-// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/index.js
-var react = __webpack_require__(5579);
-// EXTERNAL MODULE: ./node_modules/next/navigation.js
-var navigation = __webpack_require__(6396);
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(6226);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ArrowLeftIcon.js
-var ArrowLeftIcon = __webpack_require__(1796);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/CheckCircleIcon.js
-var CheckCircleIcon = __webpack_require__(192);
-;// CONCATENATED MODULE: __barrel_optimize__?names=ArrowLeftIcon,CheckCircleIcon!=!./node_modules/@heroicons/react/24/outline/esm/index.js
-
-
-
-// EXTERNAL MODULE: ./src/components/ImageUpload.tsx + 1 modules
-var ImageUpload = __webpack_require__(1979);
-;// CONCATENATED MODULE: ./src/app/admin/resources/events/[id]/edit/page.tsx
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ EditEventPage)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6485);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5579);
+/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6396);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6226);
+/* harmony import */ var _barrel_optimize_names_ArrowLeftIcon_CheckCircleIcon_heroicons_react_24_outline__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6671);
+/* harmony import */ var _components_ImageUpload__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1979);
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
 
@@ -31783,12 +31738,12 @@ var ImageUpload = __webpack_require__(1979);
 
 
 function EditEventPage() {
-    const router = (0,navigation.useRouter)();
-    const params = (0,navigation.useParams)();
+    const router = (0,next_navigation__WEBPACK_IMPORTED_MODULE_2__.useRouter)();
+    const params = (0,next_navigation__WEBPACK_IMPORTED_MODULE_2__.useParams)();
     const eventId = params.id;
-    const [loading, setLoading] = (0,react.useState)(false);
-    const [event, setEvent] = (0,react.useState)(null);
-    const [form, setForm] = (0,react.useState)({
+    const [loading, setLoading] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
+    const [event, setEvent] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(null);
+    const [form, setForm] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)({
         title: "",
         description: "",
         content: "",
@@ -31822,7 +31777,7 @@ function EditEventPage() {
             label: "Konferans"
         }
     ];
-    (0,react.useEffect)(()=>{
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
         // Load existing event data from API
         const fetchEvent = async ()=>{
             try {
@@ -31884,15 +31839,15 @@ function EditEventPage() {
         }
     };
     if (!event) {
-        return /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+        return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
             className: "flex items-center justify-center min-h-screen",
-            children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                 className: "text-center",
                 children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                         className: "w-16 h-16 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"
                     }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
                         className: "text-gray-600",
                         children: "Etkinlik bilgileri y\xfckleniyor..."
                     })
@@ -31900,28 +31855,28 @@ function EditEventPage() {
             })
         });
     }
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
         className: "space-y-6",
         children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                 className: "flex items-center justify-between",
-                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                     className: "flex items-center space-x-4",
                     children: [
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)(next_link["default"], {
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
                             href: "/admin/resources",
                             className: "p-2 hover:bg-gray-100 rounded-lg transition-colors",
-                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ArrowLeftIcon/* default */.Z, {
+                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_barrel_optimize_names_ArrowLeftIcon_CheckCircleIcon_heroicons_react_24_outline__WEBPACK_IMPORTED_MODULE_4__/* .ArrowLeftIcon */ .Y, {
                                 className: "w-5 h-5"
                             })
                         }),
-                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                             children: [
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("h1", {
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h1", {
                                     className: "text-2xl font-bold text-gray-900",
                                     children: "Etkinlik D\xfczenle"
                                 }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("p", {
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                     className: "text-gray-600",
                                     children: [
                                         event.title,
@@ -31934,32 +31889,32 @@ function EditEventPage() {
                     ]
                 })
             }),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("form", {
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("form", {
                 onSubmit: handleSubmit,
                 className: "space-y-8",
-                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                     className: "grid grid-cols-1 lg:grid-cols-3 gap-8",
                     children: [
-                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                             className: "lg:col-span-2 space-y-6",
                             children: [
-                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                     className: "bg-white rounded-lg border border-gray-200 p-6",
                                     children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
                                             className: "text-lg font-semibold text-gray-900 mb-4",
                                             children: "Temel Bilgiler"
                                         }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                             className: "space-y-4",
                                             children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                     children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("label", {
+                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("label", {
                                                             className: "block text-sm font-medium text-gray-700 mb-1",
                                                             children: "Etkinlik Adı *"
                                                         }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
+                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
                                                             type: "text",
                                                             required: true,
                                                             value: form.title,
@@ -31972,13 +31927,13 @@ function EditEventPage() {
                                                         })
                                                     ]
                                                 }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                     children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("label", {
+                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("label", {
                                                             className: "block text-sm font-medium text-gray-700 mb-1",
                                                             children: "Kısa A\xe7ıklama *"
                                                         }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("textarea", {
+                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("textarea", {
                                                             required: true,
                                                             rows: 3,
                                                             value: form.description,
@@ -31991,16 +31946,16 @@ function EditEventPage() {
                                                         })
                                                     ]
                                                 }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                     className: "grid grid-cols-1 md:grid-cols-3 gap-4",
                                                     children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                             children: [
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("label", {
+                                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("label", {
                                                                     className: "block text-sm font-medium text-gray-700 mb-1",
                                                                     children: "Etkinlik T\xfcr\xfc *"
                                                                 }),
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("select", {
+                                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("select", {
                                                                     required: true,
                                                                     value: form.event_type,
                                                                     onChange: (e)=>setForm((prev)=>({
@@ -32008,20 +31963,20 @@ function EditEventPage() {
                                                                                 event_type: e.target.value
                                                                             })),
                                                                     className: "w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500",
-                                                                    children: eventTypeOptions.map((option)=>/*#__PURE__*/ (0,jsx_runtime.jsx)("option", {
+                                                                    children: eventTypeOptions.map((option)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("option", {
                                                                             value: option.value,
                                                                             children: option.label
                                                                         }, option.value))
                                                                 })
                                                             ]
                                                         }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                             children: [
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("label", {
+                                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("label", {
                                                                     className: "block text-sm font-medium text-gray-700 mb-1",
                                                                     children: "Başlangı\xe7 Tarihi *"
                                                                 }),
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
+                                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
                                                                     type: "date",
                                                                     required: true,
                                                                     value: form.start_date,
@@ -32033,13 +31988,13 @@ function EditEventPage() {
                                                                 })
                                                             ]
                                                         }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                             children: [
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("label", {
+                                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("label", {
                                                                     className: "block text-sm font-medium text-gray-700 mb-1",
                                                                     children: "Bitiş Tarihi"
                                                                 }),
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
+                                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
                                                                     type: "date",
                                                                     value: form.end_date,
                                                                     onChange: (e)=>setForm((prev)=>({
@@ -32052,13 +32007,13 @@ function EditEventPage() {
                                                         })
                                                     ]
                                                 }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                     children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("label", {
+                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("label", {
                                                             className: "block text-sm font-medium text-gray-700 mb-1",
                                                             children: "Lokasyon *"
                                                         }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
+                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
                                                             type: "text",
                                                             required: true,
                                                             value: form.location,
@@ -32075,20 +32030,20 @@ function EditEventPage() {
                                         })
                                     ]
                                 }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                     className: "bg-white rounded-lg border border-gray-200 p-6",
                                     children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
                                             className: "text-lg font-semibold text-gray-900 mb-4",
                                             children: "Etkinlik Detayları"
                                         }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                             children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("label", {
+                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("label", {
                                                     className: "block text-sm font-medium text-gray-700 mb-1",
                                                     children: "Detaylı İ\xe7erik (Markdown destekli) *"
                                                 }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("textarea", {
+                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("textarea", {
                                                     required: true,
                                                     rows: 15,
                                                     value: form.content,
@@ -32099,7 +32054,7 @@ function EditEventPage() {
                                                     className: "w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 font-mono text-sm",
                                                     placeholder: "Etkinlik detaylarını markdown formatında yazın..."
                                                 }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                                                     className: "mt-2 text-xs text-gray-500",
                                                     children: "Program, konuşmacılar, g\xfcndem gibi detayları markdown formatında ekleyebilirsiniz"
                                                 })
@@ -32109,12 +32064,12 @@ function EditEventPage() {
                                 })
                             ]
                         }),
-                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                             className: "space-y-6",
                             children: [
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                                     className: "bg-white rounded-lg border border-gray-200 p-6",
-                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ImageUpload/* default */.Z, {
+                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_ImageUpload__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
                                         value: form.image_url,
                                         onChange: (url)=>setForm((prev)=>({
                                                     ...prev,
@@ -32123,23 +32078,23 @@ function EditEventPage() {
                                         label: "Etkinlik G\xf6rseli"
                                     })
                                 }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                     className: "bg-white rounded-lg border border-gray-200 p-6",
                                     children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
                                             className: "text-lg font-semibold text-gray-900 mb-4",
                                             children: "Kayıt Bilgileri"
                                         }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                             className: "space-y-4",
                                             children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                     children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("label", {
+                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("label", {
                                                             className: "block text-sm font-medium text-gray-700 mb-1",
                                                             children: "Kayıt URL'si"
                                                         }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
+                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
                                                             type: "url",
                                                             value: form.registration_url,
                                                             onChange: (e)=>setForm((prev)=>({
@@ -32149,16 +32104,16 @@ function EditEventPage() {
                                                             className: "w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500",
                                                             placeholder: "https://example.com/kayit"
                                                         }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                                                             className: "mt-1 text-xs text-gray-500",
                                                             children: "Katılımcıların kayıt olabileceği web sayfası linki"
                                                         })
                                                     ]
                                                 }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                     className: "flex items-center",
                                                     children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
+                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
                                                             type: "checkbox",
                                                             id: "featured",
                                                             checked: form.is_featured,
@@ -32168,7 +32123,7 @@ function EditEventPage() {
                                                                     })),
                                                             className: "h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
                                                         }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("label", {
+                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("label", {
                                                             htmlFor: "featured",
                                                             className: "ml-2 block text-sm text-gray-900",
                                                             children: "\xd6ne \xe7ıkarılsın"
@@ -32179,27 +32134,27 @@ function EditEventPage() {
                                         })
                                     ]
                                 }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                                     className: "bg-white rounded-lg border border-gray-200 p-6",
-                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
+                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
                                         type: "submit",
                                         disabled: loading,
                                         className: "w-full bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2",
-                                        children: loading ? /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
+                                        children: loading ? /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
                                             children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                                                     className: "w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"
                                                 }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
                                                     children: "G\xfcncelleniyor..."
                                                 })
                                             ]
-                                        }) : /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
+                                        }) : /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
                                             children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(CheckCircleIcon/* default */.Z, {
+                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_barrel_optimize_names_ArrowLeftIcon_CheckCircleIcon_heroicons_react_24_outline__WEBPACK_IMPORTED_MODULE_4__/* .CheckCircleIcon */ .r, {
                                                     className: "w-5 h-5"
                                                 }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
                                                     children: "Etkinliği G\xfcncelle"
                                                 })
                                             ]
@@ -32974,7 +32929,7 @@ function Footer() {
 
 /***/ }),
 
-/***/ 3328:
+/***/ 4931:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -33014,58 +32969,14 @@ var BeakerIcon = __webpack_require__(3238);
 var BookOpenIcon = __webpack_require__(6204);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/BuildingOffice2Icon.js
 var BuildingOffice2Icon = __webpack_require__(2318);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/BuildingStorefrontIcon.js
-
-function BuildingStorefrontIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "M13.5 21v-7.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349M3.75 21V9.349m0 0a3.001 3.001 0 0 0 3.75-.615A2.993 2.993 0 0 0 9.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 0 0 2.25 1.016c.896 0 1.7-.393 2.25-1.015a3.001 3.001 0 0 0 3.75.614m-16.5 0a3.004 3.004 0 0 1-.621-4.72l1.189-1.19A1.5 1.5 0 0 1 5.378 3h13.243a1.5 1.5 0 0 1 1.06.44l1.19 1.189a3 3 0 0 1-.621 4.72M6.75 18h3.75a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.75c0 .414.336.75.75.75Z"
-    }));
-}
-const ForwardRef = /*#__PURE__*/ react.forwardRef(BuildingStorefrontIcon);
-/* harmony default export */ const esm_BuildingStorefrontIcon = (ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/BuildingStorefrontIcon.js
+var BuildingStorefrontIcon = __webpack_require__(1413);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/CalendarDaysIcon.js
 var CalendarDaysIcon = __webpack_require__(555);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ChatBubbleLeftRightIcon.js
 var ChatBubbleLeftRightIcon = __webpack_require__(327);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/ChevronDownIcon.js
-
-function ChevronDownIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "m19.5 8.25-7.5 7.5-7.5-7.5"
-    }));
-}
-const ChevronDownIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(ChevronDownIcon);
-/* harmony default export */ const esm_ChevronDownIcon = (ChevronDownIcon_ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ChevronDownIcon.js
+var ChevronDownIcon = __webpack_require__(2153);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ClipboardDocumentCheckIcon.js
 var ClipboardDocumentCheckIcon = __webpack_require__(9847);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/Cog6ToothIcon.js
@@ -33074,30 +32985,8 @@ var Cog6ToothIcon = __webpack_require__(7828);
 var CogIcon = __webpack_require__(7213);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/CubeIcon.js
 var CubeIcon = __webpack_require__(4738);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/DocumentMagnifyingGlassIcon.js
-
-function DocumentMagnifyingGlassIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m5.231 13.481L15 17.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v16.5c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Zm3.75 11.625a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"
-    }));
-}
-const DocumentMagnifyingGlassIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(DocumentMagnifyingGlassIcon);
-/* harmony default export */ const esm_DocumentMagnifyingGlassIcon = (DocumentMagnifyingGlassIcon_ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/DocumentMagnifyingGlassIcon.js
+var DocumentMagnifyingGlassIcon = __webpack_require__(5323);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/DocumentTextIcon.js
 var DocumentTextIcon = __webpack_require__(2883);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/EnvelopeIcon.js
@@ -33108,30 +32997,8 @@ var FlagIcon = __webpack_require__(2270);
 var GlobeAltIcon = __webpack_require__(2305);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/HomeIcon.js
 var HomeIcon = __webpack_require__(6270);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/InformationCircleIcon.js
-
-function InformationCircleIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
-    }));
-}
-const InformationCircleIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(InformationCircleIcon);
-/* harmony default export */ const esm_InformationCircleIcon = (InformationCircleIcon_ForwardRef);
-
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/InformationCircleIcon.js
+var InformationCircleIcon = __webpack_require__(95);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/LightBulbIcon.js
 var LightBulbIcon = __webpack_require__(8919);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/NewspaperIcon.js
@@ -33990,15 +33857,15 @@ function Header() {
     const getMenuIcon = (name)=>{
         switch(name){
             case "Hakkımızda":
-                return esm_InformationCircleIcon;
+                return InformationCircleIcon/* default */.Z;
             case "\xc7\xf6z\xfcmler":
                 return PuzzlePieceIcon/* default */.Z;
             case "\xdcr\xfcnler":
-                return esm_BuildingStorefrontIcon;
+                return BuildingStorefrontIcon/* default */.Z;
             case "Sekt\xf6rler":
                 return Squares2X2Icon/* default */.Z;
             case "Kaynaklar":
-                return esm_DocumentMagnifyingGlassIcon;
+                return DocumentMagnifyingGlassIcon/* default */.Z;
             default:
                 return HomeIcon/* default */.Z;
         }
@@ -34040,7 +33907,7 @@ function Header() {
                                             className: `px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 flex items-center gap-2 relative ${pathname === item.href ? "text-primary-600 bg-primary-50" : "text-neutral-700 hover:text-primary-600 hover:bg-white/60 hover:backdrop-blur-sm hover:shadow-md"}`,
                                             children: [
                                                 item.name,
-                                                item.megaMenu && /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ChevronDownIcon, {
+                                                item.megaMenu && /*#__PURE__*/ (0,jsx_runtime.jsx)(ChevronDownIcon/* default */.Z, {
                                                     className: `w-4 h-4 transition-transform ${activeMegaMenu === item.name ? "rotate-180" : ""}`
                                                 })
                                             ]
@@ -34064,7 +33931,7 @@ function Header() {
                                             className: "relative px-5 py-2.5 text-sm font-medium text-white bg-[#001328] rounded-xl hover:bg-gradient-to-r hover:from-[#001328] hover:via-[#2A50F8] hover:to-[#FF4766] transition-all duration-700 shadow-lg hover:shadow-2xl hover:scale-110 transform hover:-translate-y-2 flex items-center gap-2 overflow-hidden group before:absolute before:top-0 before:left-[-100%] before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent before:transition-all before:duration-600 hover:before:left-[100%]",
                                             children: [
                                                 "İletişim",
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ChevronDownIcon, {
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(ChevronDownIcon/* default */.Z, {
                                                     className: `w-4 h-4 transition-transform ${activeMegaMenu === "İletişim" ? "rotate-180" : ""}`
                                                 })
                                             ]
@@ -34411,7 +34278,7 @@ function Header() {
                                                             })
                                                         ]
                                                     }),
-                                                    hasSubmenu && /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ChevronDownIcon, {
+                                                    hasSubmenu && /*#__PURE__*/ (0,jsx_runtime.jsx)(ChevronDownIcon/* default */.Z, {
                                                         className: `w-5 h-5 text-neutral-400 transition-transform duration-300 ${isActive ? "rotate-180" : ""}`
                                                     })
                                                 ]
@@ -41199,6 +41066,40 @@ const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(A
 
 /***/ }),
 
+/***/ 5676:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+/** @deprecated */ function ArrowLeftOnRectangleIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(ArrowLeftOnRectangleIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
 /***/ 7268:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -41471,6 +41372,40 @@ const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(B
 
 /***/ }),
 
+/***/ 1413:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+function BuildingStorefrontIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M13.5 21v-7.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349M3.75 21V9.349m0 0a3.001 3.001 0 0 0 3.75-.615A2.993 2.993 0 0 0 9.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 0 0 2.25 1.016c.896 0 1.7-.393 2.25-1.015a3.001 3.001 0 0 0 3.75.614m-16.5 0a3.004 3.004 0 0 1-.621-4.72l1.189-1.19A1.5 1.5 0 0 1 5.378 3h13.243a1.5 1.5 0 0 1 1.06.44l1.19 1.189a3 3 0 0 1-.621 4.72M6.75 18h3.75a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.75c0 .414.336.75.75.75Z"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(BuildingStorefrontIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
 /***/ 555:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -41568,6 +41503,40 @@ function CheckCircleIcon({ title, titleId, ...props }, svgRef) {
     }));
 }
 const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(CheckCircleIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
+/***/ 2153:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+function ChevronDownIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "m19.5 8.25-7.5 7.5-7.5-7.5"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(ChevronDownIcon);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
 
 
@@ -41708,6 +41677,40 @@ function CubeIcon({ title, titleId, ...props }, svgRef) {
     }));
 }
 const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(CubeIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
+/***/ 5323:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+function DocumentMagnifyingGlassIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m5.231 13.481L15 17.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v16.5c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Zm3.75 11.625a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(DocumentMagnifyingGlassIcon);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
 
 
@@ -41878,6 +41881,74 @@ function HomeIcon({ title, titleId, ...props }, svgRef) {
     }));
 }
 const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(HomeIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
+/***/ 2029:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+function InboxIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M2.25 13.5h3.86a2.25 2.25 0 0 1 2.012 1.244l.256.512a2.25 2.25 0 0 0 2.013 1.244h3.218a2.25 2.25 0 0 0 2.013-1.244l.256-.512a2.25 2.25 0 0 1 2.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 0 0-2.15-1.588H6.911a2.25 2.25 0 0 0-2.15 1.588L2.35 13.177a2.25 2.25 0 0 0-.1.661Z"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(InboxIcon);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
+/***/ 95:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5579);
+
+function InformationCircleIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(InformationCircleIcon);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
 
 
@@ -54833,7 +54904,7 @@ function stagger(duration = 0.1, { startDelay = 0, from = 0, ease } = {}) {
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ var __webpack_exports__ = (__webpack_exec__(8809));
+/******/ var __webpack_exports__ = (__webpack_exec__(376));
 /******/ (_ENTRIES = typeof _ENTRIES === "undefined" ? {} : _ENTRIES)["middleware_app/admin/resources/events/[id]/edit/page"] = __webpack_exports__;
 /******/ }
 ]);

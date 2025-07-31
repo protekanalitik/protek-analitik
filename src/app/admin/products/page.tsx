@@ -23,13 +23,46 @@ import {
   BuildingOffice2Icon,
   ChevronRightIcon
 } from '@heroicons/react/24/outline'
-import { productCategories, type Product } from '@/data/products'
+// Product type'ı API response'undan alacağız
+type Product = {
+  id: string
+  name: string
+  description: string
+  image: string
+  category: string
+  subcategory: string
+  features: string[]
+  applications: string[]
+  specifications?: Record<string, string>
+  dataSheet?: string
+  price?: string
+  created_at?: string
+  updated_at?: string
+  isWarrantied?: boolean
+  hasFreeShipping?: boolean
+}
+
+// Category type'ları API'den alacağız
+type Category = {
+  key: string
+  name: string
+  description: string
+  subcategories: Subcategory[]
+}
+
+type Subcategory = {
+  key: string
+  name: string
+  description: string
+  products: any[]
+}
 
 type SortDirection = 'newest' | 'oldest'
 
 export default function ProductsPage() {
   const [products, setProducts] = useState<Product[]>([])
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([])
+  const [productCategories, setProductCategories] = useState<Category[]>([])
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedCategory, setSelectedCategory] = useState('')
   const [selectedSubcategory, setSelectedSubcategory] = useState('')
@@ -37,11 +70,56 @@ export default function ProductsPage() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
+  // Fetch categories from API (static import yerine)
+  const fetchCategories = async () => {
+    try {
+      // Fallback categories - static import yerine
+      const fallbackCategories: Category[] = [
+        {
+          key: 'lab-equipment',
+          name: 'Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler',
+          description: 'Laboratuvar ekipmanları ve sarf malzemeleri',
+          subcategories: [
+            { key: 'fiziksel-analiz', name: 'Fiziksel Analiz Ekipmanları', description: '', products: [] },
+            { key: 'kimyasal-analiz', name: 'Kimyasal Analiz Ekipmanları', description: '', products: [] },
+            { key: 'mikrobiyoloji', name: 'Mikrobiyoloji Analiz Ekipmanları', description: '', products: [] },
+            { key: 'test-olcu', name: 'Test, Ölçü Kontrol Sistemleri', description: '', products: [] },
+            { key: 'ar-ge', name: 'Araştırma ve Geliştirme Ekipmanları', description: '', products: [] }
+          ]
+        },
+        {
+          key: 'process-control',
+          name: 'Proses Kontrol Ve Hat Tipi Analiz Çözümleri',
+          description: 'Hat tipi analiz sistemleri',
+          subcategories: [
+            { key: 'hat-tipi', name: 'Hat Tipi Analiz Sistemleri', description: '', products: [] }
+          ]
+        },
+        {
+          key: 'pilot-systems',
+          name: 'Pilot Tipi Üretim ve Proses Simülasyon Sistemleri',
+          description: 'Pilot üretim sistemleri',
+          subcategories: [
+            { key: 'karistirma', name: 'Karıştırma ve Homojenizasyon', description: '', products: [] }
+          ]
+        }
+      ]
+      setProductCategories(fallbackCategories)
+    } catch (error) {
+      console.error('Kategorileri yüklerken hata:', error)
+      setProductCategories([])
+    }
+  }
+
   // Fetch products from API
   const fetchProducts = async () => {
     try {
       setLoading(true)
       setError(null)
+      
+      // Categories'i de çek
+      await fetchCategories()
+      
       const response = await fetch('/api/products', {
         credentials: 'include'
       })
@@ -78,8 +156,8 @@ export default function ProductsPage() {
     
     return sorted.sort((a, b) => {
       // updated_at varsa onu kullan, yoksa created_at'i kullan
-      const aTime = (a.updated_at || a.created_at) ? new Date(a.updated_at || a.created_at).getTime() : 0
-      const bTime = (b.updated_at || b.created_at) ? new Date(b.updated_at || b.created_at).getTime() : 0
+      const aTime = (a.updated_at || a.created_at) ? new Date(a.updated_at || a.created_at!).getTime() : 0
+      const bTime = (b.updated_at || b.created_at) ? new Date(b.updated_at || b.created_at!).getTime() : 0
       
       if (sortDirection === 'newest') {
         return bTime - aTime // En yeni güncellenme üstte
@@ -90,7 +168,7 @@ export default function ProductsPage() {
   }
 
   // Format date for display
-  const formatDate = (dateString: string) => {
+  const formatDate = (dateString: string | undefined) => {
     if (!dateString) return 'Tarih yok'
     
     try {

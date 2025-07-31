@@ -5,25 +5,20 @@ import { useRef, useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { BeakerIcon, CubeIcon, WrenchIcon, ArrowRightIcon, FlagIcon } from '@heroicons/react/24/outline'
-import { productCategories, type Product } from '@/data/products'
+import { type Product } from '@/data/products'
 
-const categoryList = [
-  { label: 'Tümü', key: 'all' },
-  ...productCategories.map(cat => ({ label: cat.name, key: cat.key })),
-]
-
-// Helper function to generate product URL
-const generateProductUrl = (product: any) => {
+// Helper function to generate product URL (API-based, no static imports)
+const generateProductUrl = (product: any, categories: any[] = []) => {
   // API'den gelen ürünler için category ve subcategory name'den key'e çevirme
   const findCategoryKey = (categoryName: string) => {
-    const category = productCategories.find(cat => cat.name === categoryName)
+    const category = categories.find((cat: any) => cat.name === categoryName)
     return category ? category.key : 'laboratuvar-ekipmanlari' // fallback
   }
   
   const findSubcategoryKey = (categoryName: string, subcategoryName: string) => {
-    const category = productCategories.find(cat => cat.name === categoryName)
+    const category = categories.find((cat: any) => cat.name === categoryName)
     if (category) {
-      const subcategory = category.subcategories.find(sub => sub.name === subcategoryName)
+      const subcategory = category.subcategories?.find((sub: any) => sub.name === subcategoryName)
       if (subcategory) {
         return subcategory.key
       }
@@ -36,15 +31,6 @@ const generateProductUrl = (product: any) => {
       .replace(/^-+|-+$/g, '')
       .replace(/,/g, '')
       .replace(/\s+/g, '-') || 'test-sistemleri'
-  }
-  
-  // Eğer statik ürünse, mevcut mantığı kullan
-  for (const category of productCategories) {
-    for (const subcategory of category.subcategories) {
-      if (subcategory.products.some(p => p.id === product.id)) {
-        return `/urunler/${category.key}/${subcategory.key}/${product.id}`
-      }
-    }
   }
   
   // API'den gelen dinamik ürünler için
@@ -62,8 +48,29 @@ export default function Products() {
   const [selected, setSelected] = useState('all')
   const [selectedSub, setSelectedSub] = useState<string | null>(null)
   const [products, setProducts] = useState<Product[]>([])
+  const [categories, setCategories] = useState<any[]>([])
+  const [categoryList, setCategoryList] = useState<any[]>([{ label: 'Tümü', key: 'all' }])
   const [loading, setLoading] = useState(true)
   const scrollRef = useRef<HTMLDivElement>(null)
+
+  // Fetch categories from API
+  const fetchCategories = async () => {
+    try {
+      const response = await fetch('/api/categories')
+      const data = await response.json()
+      
+      if (data.success && Array.isArray(data.data)) {
+        setCategories(data.data)
+        const categoryOptions = [
+          { label: 'Tümü', key: 'all' },
+          ...data.data.map((cat: any) => ({ label: cat.name, key: cat.key }))
+        ]
+        setCategoryList(categoryOptions)
+      }
+    } catch (error) {
+      console.error('Error fetching categories:', error)
+    }
+  }
 
   // Fetch products from API
   const fetchProducts = async () => {
@@ -85,13 +92,14 @@ export default function Products() {
   }
 
   useEffect(() => {
+    fetchCategories()
     fetchProducts()
   }, [])
 
   // Alt kategori listesi
   const subcategories = selected === 'all'
     ? []
-    : productCategories.find(cat => cat.key === selected)?.subcategories || []
+    : categories.find((cat: any) => cat.key === selected)?.subcategories || []
 
   // Seçili ürünler - API'den gelen ürünleri filtrele
   let filteredProducts = [] as Product[]
@@ -99,12 +107,12 @@ export default function Products() {
     filteredProducts = products
   } else if (selectedSub) {
     filteredProducts = products.filter(product => 
-      product.category === productCategories.find(cat => cat.key === selected)?.name &&
-      product.subcategory === productCategories.find(cat => cat.key === selected)?.subcategories.find(sub => sub.key === selectedSub)?.name
+      product.category === categories.find((cat: any) => cat.key === selected)?.name &&
+      product.subcategory === categories.find((cat: any) => cat.key === selected)?.subcategories?.find((sub: any) => sub.key === selectedSub)?.name
     )
   } else {
     filteredProducts = products.filter(product => 
-      product.category === productCategories.find(cat => cat.key === selected)?.name
+      product.category === categories.find((cat: any) => cat.key === selected)?.name
     )
   }
 
@@ -169,7 +177,7 @@ export default function Products() {
             >
               Tümü
             </button>
-            {subcategories.map(sub => (
+            {subcategories.map((sub: any) => (
               <button
                 key={sub.key}
                 onClick={() => setSelectedSub(sub.key)}
@@ -291,7 +299,7 @@ export default function Products() {
                   {/* Action Buttons */}
                   <div className="flex gap-3 mt-auto">
                     <a
-                      href={generateProductUrl(product)}
+                      href={generateProductUrl(product, categories)}
                       className="flex-1 bg-[#001328] text-white text-sm font-semibold py-3 px-4 rounded-xl hover:bg-gradient-to-r hover:from-[#001328] hover:via-[#2A50F8] hover:to-[#FF4766] transition-all duration-700 shadow-lg hover:shadow-2xl transform hover:scale-110 hover:-translate-y-2 flex items-center justify-center gap-2 group/btn relative overflow-hidden before:absolute before:top-0 before:left-[-100%] before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent before:transition-all before:duration-600 hover:before:left-[100%]"
                     >
                       İncele

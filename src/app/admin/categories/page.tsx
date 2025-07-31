@@ -1,19 +1,20 @@
 'use client'
 
-import { useState } from 'react'
-import { 
-  PlusIcon,
-  MagnifyingGlassIcon,
-  PencilIcon,
-  TrashIcon,
-  EyeIcon,
-  CogIcon,
-  ChevronRightIcon
-} from '@heroicons/react/24/outline'
-import { productCategories, type Category, type Subcategory } from '@/data/products'
+import { useState, useEffect, lazy, Suspense } from 'react'
+import { type Category, type Subcategory } from '@/data/products'
+
+// Dynamic imports for icons to reduce bundle size
+const PlusIcon = lazy(() => import('@heroicons/react/24/outline').then(m => ({ default: m.PlusIcon })))
+const MagnifyingGlassIcon = lazy(() => import('@heroicons/react/24/outline').then(m => ({ default: m.MagnifyingGlassIcon })))
+const PencilIcon = lazy(() => import('@heroicons/react/24/outline').then(m => ({ default: m.PencilIcon })))
+const TrashIcon = lazy(() => import('@heroicons/react/24/outline').then(m => ({ default: m.TrashIcon })))
+const EyeIcon = lazy(() => import('@heroicons/react/24/outline').then(m => ({ default: m.EyeIcon })))
+const CogIcon = lazy(() => import('@heroicons/react/24/outline').then(m => ({ default: m.CogIcon })))
+const ChevronRightIcon = lazy(() => import('@heroicons/react/24/outline').then(m => ({ default: m.ChevronRightIcon })))
 
 export default function CategoriesPage() {
-  const [categories, setCategories] = useState<Category[]>(productCategories)
+  const [categories, setCategories] = useState<Category[]>([])
+  const [loading, setLoading] = useState(true)
   const [searchTerm, setSearchTerm] = useState('')
   const [expandedCategory, setExpandedCategory] = useState<string | null>(null)
   const [showCategoryModal, setShowCategoryModal] = useState(false)
@@ -22,6 +23,29 @@ export default function CategoriesPage() {
   const [editingSubcategory, setEditingSubcategory] = useState<{ category: string, subcategory: Subcategory } | null>(null)
   const [categoryForm, setCategoryForm] = useState({ name: '', description: '', key: '' })
   const [subcategoryForm, setSubcategoryForm] = useState({ name: '', description: '', key: '', categoryKey: '' })
+
+  // Fetch categories from API
+  const fetchCategories = async () => {
+    try {
+      setLoading(true)
+      const response = await fetch('/api/categories')
+      const data = await response.json()
+      
+      if (data.success && Array.isArray(data.data)) {
+        setCategories(data.data)
+      } else {
+        console.error('Failed to fetch categories:', data)
+      }
+    } catch (error) {
+      console.error('Error fetching categories:', error)
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  useEffect(() => {
+    fetchCategories()
+  }, [])
 
   const filteredCategories = categories.filter(category =>
     category.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -180,7 +204,9 @@ export default function CategoriesPage() {
             onClick={handleNewCategory}
             className="inline-flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
           >
-            <PlusIcon className="w-5 h-5" />
+            <Suspense fallback={<div className="w-5 h-5 bg-white/20 rounded animate-pulse"></div>}>
+              <PlusIcon className="w-5 h-5" />
+            </Suspense>
             <span>Yeni Kategori</span>
           </button>
         </div>
@@ -189,7 +215,9 @@ export default function CategoriesPage() {
       {/* Search */}
       <div className="bg-white rounded-lg border border-gray-200 p-4">
         <div className="relative max-w-md">
-          <MagnifyingGlassIcon className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+          <Suspense fallback={<div className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 bg-gray-200 rounded animate-pulse"></div>}>
+            <MagnifyingGlassIcon className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+          </Suspense>
           <input
             type="text"
             placeholder="Kategori ara..."
@@ -214,14 +242,18 @@ export default function CategoriesPage() {
                     )}
                     className="p-2 hover:bg-gray-200 rounded-lg transition-colors"
                   >
-                    <ChevronRightIcon 
-                      className={`w-5 h-5 text-gray-500 transition-transform ${
-                        expandedCategory === category.key ? 'rotate-90' : ''
-                      }`} 
-                    />
+                    <Suspense fallback={<div className="w-5 h-5 bg-gray-200 rounded animate-pulse"></div>}>
+                      <ChevronRightIcon 
+                        className={`w-5 h-5 text-gray-500 transition-transform ${
+                          expandedCategory === category.key ? 'rotate-90' : ''
+                        }`}
+                      />
+                    </Suspense>
                   </button>
                   <div className="p-2 bg-blue-100 rounded-lg">
-                    <CogIcon className="w-6 h-6 text-blue-600" />
+                    <Suspense fallback={<div className="w-6 h-6 bg-blue-200 rounded animate-pulse"></div>}>
+                      <CogIcon className="w-6 h-6 text-blue-600" />
+                    </Suspense>
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">{category.name}</h3>
@@ -269,7 +301,9 @@ export default function CategoriesPage() {
                     onClick={() => handleNewSubcategory(category.key)}
                     className="inline-flex items-center space-x-1 text-sm bg-green-600 text-white px-3 py-1.5 rounded-lg hover:bg-green-700 transition-colors"
                   >
-                    <PlusIcon className="w-4 h-4" />
+                    <Suspense fallback={<div className="w-4 h-4 bg-white/20 rounded animate-pulse"></div>}>
+                      <PlusIcon className="w-4 h-4" />
+                    </Suspense>
                     <span>Alt Kategori Ekle</span>
                   </button>
                 </div>

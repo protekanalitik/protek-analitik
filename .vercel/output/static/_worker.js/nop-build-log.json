@@ -1,5 +1,5 @@
 {
-  "timestamp": 1753965124288,
+  "timestamp": 1753971764619,
   "outputDir": ".vercel/output/static/_worker.js",
   "versions": {
     "@cloudflare/next-on-pages": "1.13.13"
@@ -32,7 +32,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/_not-found.func.js",
-          "outputByteSize": 777762
+          "outputByteSize": 777966
         },
         {
           "relativePath": "/admin/categories.func",
@@ -55,7 +55,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/categories.func.js",
-          "outputByteSize": 844748
+          "outputByteSize": 1002553
         },
         {
           "relativePath": "/admin/contact/messages.func",
@@ -78,7 +78,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/contact/messages.func.js",
-          "outputByteSize": 809126
+          "outputByteSize": 809533
         },
         {
           "relativePath": "/admin/contact.func",
@@ -101,7 +101,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/contact.func.js",
-          "outputByteSize": 797944
+          "outputByteSize": 798269
         },
         {
           "relativePath": "/admin/products/[id]/edit.func",
@@ -124,7 +124,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/products/[id]/edit.func.js",
-          "outputByteSize": 857628
+          "outputByteSize": 1014248
         },
         {
           "relativePath": "/admin/products/new.func",
@@ -147,7 +147,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/products/new.func.js",
-          "outputByteSize": 812857
+          "outputByteSize": 813134
         },
         {
           "relativePath": "/admin/products.func",
@@ -170,7 +170,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/products.func.js",
-          "outputByteSize": 849056
+          "outputByteSize": 812394
         },
         {
           "relativePath": "/admin/resources/events/[id]/edit.func",
@@ -193,7 +193,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/resources/events/[id]/edit.func.js",
-          "outputByteSize": 805393
+          "outputByteSize": 805791
         },
         {
           "relativePath": "/admin/resources/events/new.func",
@@ -216,7 +216,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/resources/events/new.func.js",
-          "outputByteSize": 808826
+          "outputByteSize": 809153
         },
         {
           "relativePath": "/admin/resources/news/edit/[id].func",
@@ -239,7 +239,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/resources/news/edit/[id].func.js",
-          "outputByteSize": 808680
+          "outputByteSize": 809007
         },
         {
           "relativePath": "/admin/resources/news/new.func",
@@ -262,7 +262,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/resources/news/new.func.js",
-          "outputByteSize": 803586
+          "outputByteSize": 803911
         },
         {
           "relativePath": "/admin/resources.func",
@@ -285,7 +285,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/resources.func.js",
-          "outputByteSize": 803704
+          "outputByteSize": 804031
         },
         {
           "relativePath": "/admin.func",
@@ -308,7 +308,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin.func.js",
-          "outputByteSize": 799644
+          "outputByteSize": 799971
         },
         {
           "relativePath": "/api/auth/login.func",
@@ -653,7 +653,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/cozumler/anahtar-teslim-projeler.func.js",
-          "outputByteSize": 799888
+          "outputByteSize": 800094
         },
         {
           "relativePath": "/cozumler/ar-ge-laboratuvarlari.func",
@@ -676,7 +676,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/cozumler/ar-ge-laboratuvarlari.func.js",
-          "outputByteSize": 800896
+          "outputByteSize": 801100
         },
         {
           "relativePath": "/cozumler/endustriyel-laboratuvar-kurulumu.func",
@@ -699,7 +699,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/cozumler/endustriyel-laboratuvar-kurulumu.func.js",
-          "outputByteSize": 810489
+          "outputByteSize": 810697
         },
         {
           "relativePath": "/cozumler/kalite-guvence-sistemleri.func",
@@ -722,7 +722,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/cozumler/kalite-guvence-sistemleri.func.js",
-          "outputByteSize": 803326
+          "outputByteSize": 803532
         },
         {
           "relativePath": "/cozumler/otomasyon-sistemleri.func",
@@ -745,7 +745,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/cozumler/otomasyon-sistemleri.func.js",
-          "outputByteSize": 818412
+          "outputByteSize": 818894
         },
         {
           "relativePath": "/cozumler.func",
@@ -768,7 +768,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/cozumler.func.js",
-          "outputByteSize": 833680
+          "outputByteSize": 834004
         },
         {
           "relativePath": "/hakkimizda.func",
@@ -791,7 +791,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/hakkimizda.func.js",
-          "outputByteSize": 807564
+          "outputByteSize": 807836
         },
         {
           "relativePath": "/iletisim.func",
@@ -814,7 +814,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/iletisim.func.js",
-          "outputByteSize": 823936
+          "outputByteSize": 824142
         },
         {
           "relativePath": "/index.func",
@@ -838,7 +838,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/index.func.js",
-          "outputByteSize": 904665
+          "outputByteSize": 866963
         },
         {
           "relativePath": "/kaynaklar/etkinlik/[id].func",
@@ -861,7 +861,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/kaynaklar/etkinlik/[id].func.js",
-          "outputByteSize": 794441
+          "outputByteSize": 794644
         },
         {
           "relativePath": "/kaynaklar/haber/[id].func",
@@ -884,7 +884,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/kaynaklar/haber/[id].func.js",
-          "outputByteSize": 790840
+          "outputByteSize": 791043
         },
         {
           "relativePath": "/kaynaklar.func",
@@ -907,7 +907,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/kaynaklar.func.js",
-          "outputByteSize": 809060
+          "outputByteSize": 809321
         },
         {
           "relativePath": "/login.func",
@@ -930,7 +930,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/login.func.js",
-          "outputByteSize": 785733
+          "outputByteSize": 785996
         },
         {
           "relativePath": "/sektorler.func",
@@ -953,7 +953,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/sektorler.func.js",
-          "outputByteSize": 839774
+          "outputByteSize": 840250
         },
         {
           "relativePath": "/src/middleware.func",
@@ -997,7 +997,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/teklif-al.func.js",
-          "outputByteSize": 801611
+          "outputByteSize": 801995
         },
         {
           "relativePath": "/urunler/[category]/[subcategory]/[product].func",
@@ -1020,7 +1020,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/urunler/[category]/[subcategory]/[product].func.js",
-          "outputByteSize": 854588
+          "outputByteSize": 816333
         },
         {
           "relativePath": "/urunler/[category]/[subcategory].func",
@@ -1043,7 +1043,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/urunler/[category]/[subcategory].func.js",
-          "outputByteSize": 834789
+          "outputByteSize": 797921
         },
         {
           "relativePath": "/urunler/[category].func",
@@ -1066,7 +1066,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/urunler/[category].func.js",
-          "outputByteSize": 828003
+          "outputByteSize": 791163
         },
         {
           "relativePath": "/urunler.func",
@@ -1089,7 +1089,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/urunler.func.js",
-          "outputByteSize": 834618
+          "outputByteSize": 797664
         }
       ],
       "prerendered": [],
@@ -2080,73 +2080,75 @@
       "/_app.rsc.json",
       "/_document.rsc.json",
       "/_error.rsc.json",
-      "/_next/static/NXtuk7z5Z6RvkFyZNbEMU/_buildManifest.js",
-      "/_next/static/NXtuk7z5Z6RvkFyZNbEMU/_ssgManifest.js",
+      "/_next/static/_rXw3bgx9L7Cq_v9IVkv7/_buildManifest.js",
+      "/_next/static/_rXw3bgx9L7Cq_v9IVkv7/_ssgManifest.js",
       "/_next/static/chunks/1122.016890d20c63ba88.js",
-      "/_next/static/chunks/1176-7dea334b2d7500f8.js",
-      "/_next/static/chunks/1422-0a6ab547d09b4dbc.js",
-      "/_next/static/chunks/2041.5a65fa6da7bee356.js",
+      "/_next/static/chunks/1176-d4d5824f0a0f6313.js",
+      "/_next/static/chunks/1422-06c339c6fcaaef72.js",
       "/_next/static/chunks/2257.c1b26f6fb08f959e.js",
-      "/_next/static/chunks/2355.486258f52bc1d474.js",
       "/_next/static/chunks/2386.00febba67d0c86cb.js",
       "/_next/static/chunks/2707.071ad7179e77513a.js",
-      "/_next/static/chunks/2958-4d53187c68e54352.js",
       "/_next/static/chunks/3166.80c2ad9429f628d3.js",
-      "/_next/static/chunks/3466-e18b7dfb8678b8de.js",
-      "/_next/static/chunks/4116.1afb930bd2ce8c7a.js",
-      "/_next/static/chunks/4166-978d9c6e01a8e654.js",
-      "/_next/static/chunks/4403-491dc050e491a2cc.js",
+      "/_next/static/chunks/3466-abbdcaf212ffb38d.js",
+      "/_next/static/chunks/4116.49ee6868a2105173.js",
+      "/_next/static/chunks/4166-107699aa6e6fe391.js",
+      "/_next/static/chunks/4403-bf5478b93c1db311.js",
+      "/_next/static/chunks/4649.7ead504127616e26.js",
       "/_next/static/chunks/4655.758b837c6d03cfbd.js",
-      "/_next/static/chunks/5330-3cceecf7a46878ce.js",
+      "/_next/static/chunks/5330-5413f084c6449a61.js",
       "/_next/static/chunks/62.5ed464387e49a6bb.js",
-      "/_next/static/chunks/6330-9a7df6cae061ab9a.js",
-      "/_next/static/chunks/6359.3b3577b0b2f52098.js",
-      "/_next/static/chunks/9751-e61453fd4f4fce7a.js",
-      "/_next/static/chunks/993-f208a90c58704b1a.js",
-      "/_next/static/chunks/app/admin/categories/page-d4a62ae23faf0817.js",
-      "/_next/static/chunks/app/admin/contact/messages/page-3b21634a69f1a7bc.js",
-      "/_next/static/chunks/app/admin/contact/page-2a3529fc6c143f42.js",
-      "/_next/static/chunks/app/admin/layout-138991843849e70f.js",
-      "/_next/static/chunks/app/admin/page-8cb28df3329a0023.js",
-      "/_next/static/chunks/app/admin/products/[id]/edit/page-6f6c6aa4a7cda57b.js",
-      "/_next/static/chunks/app/admin/products/new/page-cbb589aa3fd7c033.js",
-      "/_next/static/chunks/app/admin/products/page-97d768d37c40d3a1.js",
-      "/_next/static/chunks/app/admin/resources/events/[id]/edit/page-331615234e264481.js",
-      "/_next/static/chunks/app/admin/resources/events/new/page-02eefc9f15a00be4.js",
-      "/_next/static/chunks/app/admin/resources/news/edit/[id]/page-cf27231e3443e902.js",
-      "/_next/static/chunks/app/admin/resources/news/new/page-a346840c931ada41.js",
-      "/_next/static/chunks/app/admin/resources/page-076bb3c6aaf12239.js",
-      "/_next/static/chunks/app/cozumler/anahtar-teslim-projeler/page-7558118a73a76f3f.js",
-      "/_next/static/chunks/app/cozumler/ar-ge-laboratuvarlari/page-1f74e9064a282669.js",
-      "/_next/static/chunks/app/cozumler/endustriyel-laboratuvar-kurulumu/page-d3c9f15f46593efa.js",
-      "/_next/static/chunks/app/cozumler/kalite-guvence-sistemleri/page-1d6b5d128e14392d.js",
-      "/_next/static/chunks/app/cozumler/otomasyon-sistemleri/page-e4d56860e5ee92ac.js",
-      "/_next/static/chunks/app/cozumler/page-f640b6a82706ea82.js",
-      "/_next/static/chunks/app/error-57d17ebc81f9de72.js",
-      "/_next/static/chunks/app/hakkimizda/page-b8ed833834553a9c.js",
-      "/_next/static/chunks/app/iletisim/page-a59179741b406431.js",
-      "/_next/static/chunks/app/kaynaklar/etkinlik/[id]/page-924e49dc8e5430eb.js",
-      "/_next/static/chunks/app/kaynaklar/haber/[id]/page-21142362ca92b69e.js",
-      "/_next/static/chunks/app/kaynaklar/page-45ffeb6c73caf4ca.js",
-      "/_next/static/chunks/app/layout-556a01feb6f17023.js",
-      "/_next/static/chunks/app/login/page-842d972e7b762829.js",
-      "/_next/static/chunks/app/not-found-f237cf01b1bcdf22.js",
-      "/_next/static/chunks/app/page-8f0b4b7b22795d3e.js",
-      "/_next/static/chunks/app/sektorler/page-00cc41e3aa60410d.js",
-      "/_next/static/chunks/app/teklif-al/page-c830f9597ccf7fee.js",
-      "/_next/static/chunks/app/urunler/[category]/[subcategory]/[product]/page-4b95feced7831a5b.js",
-      "/_next/static/chunks/app/urunler/[category]/[subcategory]/page-773f460840e9a8e0.js",
-      "/_next/static/chunks/app/urunler/[category]/page-451c8e8b92d6f6d5.js",
-      "/_next/static/chunks/app/urunler/page-b25a3335594e091d.js",
-      "/_next/static/chunks/fd9d1056-394c4b9237b372cc.js",
+      "/_next/static/chunks/6330-1400f75a1cd2d329.js",
+      "/_next/static/chunks/6359.6e2946d230312756.js",
+      "/_next/static/chunks/7239.9be74a12652ed5d7.js",
+      "/_next/static/chunks/7697.3969d45678106519.js",
+      "/_next/static/chunks/9309.832198c933f0b24e.js",
+      "/_next/static/chunks/9349.3cc6b26af7fb8af1.js",
+      "/_next/static/chunks/9751-101059a65ddaf9e1.js",
+      "/_next/static/chunks/993-14b1802ec5be3dbb.js",
+      "/_next/static/chunks/app/admin/categories/page-bc43ce7a2383613b.js",
+      "/_next/static/chunks/app/admin/contact/messages/page-8f4ba927e5046f23.js",
+      "/_next/static/chunks/app/admin/contact/page-e6896b607fc086bf.js",
+      "/_next/static/chunks/app/admin/layout-5fb2f4f3a8fc3d85.js",
+      "/_next/static/chunks/app/admin/page-61313f0db13cc239.js",
+      "/_next/static/chunks/app/admin/products/[id]/edit/page-a50d76ebb8897098.js",
+      "/_next/static/chunks/app/admin/products/new/page-37ccddb3572a0650.js",
+      "/_next/static/chunks/app/admin/products/page-332f7e0da3318ba2.js",
+      "/_next/static/chunks/app/admin/resources/events/[id]/edit/page-a4b0f20495ec67f8.js",
+      "/_next/static/chunks/app/admin/resources/events/new/page-9ffa2f4d16d7abb9.js",
+      "/_next/static/chunks/app/admin/resources/news/edit/[id]/page-d3f5f34ccdb448a8.js",
+      "/_next/static/chunks/app/admin/resources/news/new/page-f93b583a6f334c23.js",
+      "/_next/static/chunks/app/admin/resources/page-4a6e5bb893bb3745.js",
+      "/_next/static/chunks/app/cozumler/anahtar-teslim-projeler/page-b36a2bf8f10b2bb4.js",
+      "/_next/static/chunks/app/cozumler/ar-ge-laboratuvarlari/page-235ed06abffc3f73.js",
+      "/_next/static/chunks/app/cozumler/endustriyel-laboratuvar-kurulumu/page-a08f679a40176529.js",
+      "/_next/static/chunks/app/cozumler/kalite-guvence-sistemleri/page-e02c6516c9cd3a8e.js",
+      "/_next/static/chunks/app/cozumler/otomasyon-sistemleri/page-5f34c4d46327bf8a.js",
+      "/_next/static/chunks/app/cozumler/page-e5d3b23e97b4b66b.js",
+      "/_next/static/chunks/app/error-13ed30a9752c86a9.js",
+      "/_next/static/chunks/app/hakkimizda/page-29b96d4dfa9bf6ee.js",
+      "/_next/static/chunks/app/iletisim/page-d49c6b437ebe886d.js",
+      "/_next/static/chunks/app/kaynaklar/etkinlik/[id]/page-d75c820e5348f573.js",
+      "/_next/static/chunks/app/kaynaklar/haber/[id]/page-c544f690a7332495.js",
+      "/_next/static/chunks/app/kaynaklar/page-1b36b0bfe6c06cb3.js",
+      "/_next/static/chunks/app/layout-e7beaa1ccf9bbe39.js",
+      "/_next/static/chunks/app/login/page-0c10532686c68776.js",
+      "/_next/static/chunks/app/not-found-4be9412f8bf85652.js",
+      "/_next/static/chunks/app/page-af2c1a1ed038395f.js",
+      "/_next/static/chunks/app/sektorler/page-6d3cd2f798fd39ce.js",
+      "/_next/static/chunks/app/teklif-al/page-e9ddf794a260494b.js",
+      "/_next/static/chunks/app/urunler/[category]/[subcategory]/[product]/page-d3269d771ad3eaef.js",
+      "/_next/static/chunks/app/urunler/[category]/[subcategory]/page-beceddff7bc78470.js",
+      "/_next/static/chunks/app/urunler/[category]/page-1d280aba56093a92.js",
+      "/_next/static/chunks/app/urunler/page-4be944d1cac16e1a.js",
+      "/_next/static/chunks/fd9d1056-98c08b4112521d6b.js",
       "/_next/static/chunks/framework-b566207abf043e2e.js",
       "/_next/static/chunks/main-069b4682bc5c4efc.js",
       "/_next/static/chunks/main-app-b5434e56c2b0ff6f.js",
       "/_next/static/chunks/pages/_app-11c09b1e93f7270c.js",
       "/_next/static/chunks/pages/_error-7ae0e5d1f9ec0862.js",
       "/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
-      "/_next/static/chunks/webpack-4cc13f30328d8fb5.js",
-      "/_next/static/css/d82e42ca3c0ab6c5.css",
+      "/_next/static/chunks/webpack-b97e6fe518e97141.js",
+      "/_next/static/css/17fa96fede9d5b3c.css",
       "/apple-touch-icon.png",
       "/client-images/3nh.jpg",
       "/client-images/allience.jpg",

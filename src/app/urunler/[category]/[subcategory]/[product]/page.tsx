@@ -35,43 +35,35 @@ import {
   StarIcon as StarIconSolid,
   PlayIcon as PlayIconSolid 
 } from '@heroicons/react/24/solid'
-import { productCategories, type Product } from '@/data/products'
+import { type Product } from '@/data/products'
 
 // Dynamic import for layout components (safe bundle optimization)
 import dynamic from 'next/dynamic'
 const Header = dynamic(() => import('@/components/layout/Header'))
 const Footer = dynamic(() => import('@/components/layout/Footer'))
 
-// Helper functions for development mode fallback
-const findProductInStaticData = (productId: string, categoryKey: string, subcategoryKey: string): Product | null => {
+// Helper functions for API-based data fetching (no static imports)
+const findProductViaAPI = async (productId: string): Promise<Product | null> => {
   try {
-    const category = productCategories.find(cat => cat.key === categoryKey)
-    if (!category) return null
-    
-    const subcategory = category.subcategories.find(sub => sub.key === subcategoryKey)
-    if (!subcategory) return null
-    
-    const product = subcategory.products.find(prod => prod.id === productId)
-    return product || null
+    const response = await fetch(`/api/products/${productId}`)
+    const data = await response.json()
+    return data.success ? data.data : null
   } catch (error) {
-    console.error('Error finding product in static data:', error)
+    console.error('Error finding product via API:', error)
     return null
   }
 }
 
-const getRelatedProductsFromStaticData = (categoryKey: string, subcategoryKey: string, currentProductId: string): Product[] => {
+const getRelatedProductsViaAPI = async (categoryId: string, subcategoryId: string, currentProductId: string): Promise<Product[]> => {
   try {
-    const category = productCategories.find(cat => cat.key === categoryKey)
-    if (!category) return []
-    
-    const subcategory = category.subcategories.find(sub => sub.key === subcategoryKey)
-    if (!subcategory) return []
-    
-    return subcategory.products
-      .filter(product => product.id !== currentProductId)
-      .slice(0, 4)
+    const response = await fetch(`/api/products?category_id=${categoryId}&subcategory_id=${subcategoryId}&limit=5`)
+    const data = await response.json()
+    if (data.success && data.data) {
+      return data.data.filter((product: Product) => product.id !== currentProductId).slice(0, 4)
+    }
+    return []
   } catch (error) {
-    console.error('Error getting related products from static data:', error)
+    console.error('Error getting related products via API:', error)
     return []
   }
 }
@@ -131,30 +123,34 @@ export default function ProductPage({ params }: ProductPageProps) {
           setRelatedProducts(related)
         }
       } else {
-        // Development mode fallback - use static data
-        console.log('API failed, using static data fallback')
-        const fallbackProduct = findProductInStaticData(params.product, params.category, params.subcategory)
+        // API fallback - try direct product fetch
+        console.log('API failed, trying direct product fetch')
+        const fallbackProduct = await findProductViaAPI(params.product)
         if (fallbackProduct) {
           setProduct(fallbackProduct)
           
-          // Get related products from static data
-          const relatedProducts = getRelatedProductsFromStaticData(params.category, params.subcategory, params.product)
+          // Get related products via API
+          const relatedProducts = await getRelatedProductsViaAPI(fallbackProduct.category_id || '', fallbackProduct.subcategory_id || '', params.product)
           setRelatedProducts(relatedProducts)
         } else {
-          console.error('Product not found in static data either:', params.product)
+          console.error('Product not found via API either:', params.product)
         }
       }
     } catch (error) {
       console.error('Error fetching product:', error)
-      // Development mode fallback on error
-      console.log('API error, using static data fallback')
-      const fallbackProduct = findProductInStaticData(params.product, params.category, params.subcategory)
-      if (fallbackProduct) {
-        setProduct(fallbackProduct)
-        
-        // Get related products from static data
-        const relatedProducts = getRelatedProductsFromStaticData(params.category, params.subcategory, params.product)
-        setRelatedProducts(relatedProducts)
+      // API fallback on error
+      console.log('API error, trying direct product fetch')
+      try {
+        const fallbackProduct = await findProductViaAPI(params.product)
+        if (fallbackProduct) {
+          setProduct(fallbackProduct)
+          
+          // Get related products via API
+          const relatedProducts = await getRelatedProductsViaAPI(fallbackProduct.category_id || '', fallbackProduct.subcategory_id || '', params.product)
+          setRelatedProducts(relatedProducts)
+        }
+      } catch (fallbackError) {
+        console.error('Fallback API also failed:', fallbackError)
       }
     } finally {
       setLoading(false)
@@ -188,31 +184,17 @@ export default function ProductPage({ params }: ProductPageProps) {
             }
           }
         } else {
-          // Development mode fallback - use static data
-          console.log('Categories API failed, using static data fallback')
-          const staticCategory = productCategories.find(cat => cat.key === params.category)
-          if (staticCategory) {
-            setCategory({ name: staticCategory.name, key: staticCategory.key })
-            
-            const staticSubcategory = staticCategory.subcategories.find(sub => sub.key === params.subcategory)
-            if (staticSubcategory) {
-              setSubcategory({ name: staticSubcategory.name, key: staticSubcategory.key })
-            }
-          }
+          // API fallback - set basic category/subcategory info
+          console.log('Categories API failed, setting basic info')
+          setCategory({ name: params.category, key: params.category })
+          setSubcategory({ name: params.subcategory, key: params.subcategory })
         }
       } catch (error) {
         console.error('Error fetching category data:', error)
-        // Development mode fallback on error
-        console.log('Categories API error, using static data fallback')
-        const staticCategory = productCategories.find(cat => cat.key === params.category)
-        if (staticCategory) {
-          setCategory({ name: staticCategory.name, key: staticCategory.key })
-          
-          const staticSubcategory = staticCategory.subcategories.find(sub => sub.key === params.subcategory)
-          if (staticSubcategory) {
-            setSubcategory({ name: staticSubcategory.name, key: staticSubcategory.key })
-          }
-        }
+        // API fallback on error - set basic category/subcategory info
+        console.log('Categories API error, setting basic info')
+        setCategory({ name: params.category, key: params.category })
+        setSubcategory({ name: params.subcategory, key: params.subcategory })
       }
     }
     
