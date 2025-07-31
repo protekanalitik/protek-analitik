@@ -7,6 +7,8 @@ export const dynamic = 'force-dynamic'
 // Use Edge Runtime for Cloudflare Pages compatibility
 export const runtime = 'edge'
 import Link from 'next/link'
+
+// Essential icons for immediate use
 import { 
   PlusIcon,
   MagnifyingGlassIcon,

@@ -1,15 +1,18 @@
 'use client'
 
+import dynamicImport from 'next/dynamic'
 import Header from '@/components/layout/Header'
-import Hero from '@/components/sections/Hero'
-import Features from '@/components/sections/Features'
-import Solutions from '@/components/sections/Solutions'
-import Products from '@/components/sections/Products'
-import Clients from '@/components/sections/Clients'
-import Sectors from '@/components/sections/Sectors'
-import About from '@/components/sections/About'
-import Contact from '@/components/sections/Contact'
 import Footer from '@/components/layout/Footer'
+
+// Dynamic imports to reduce bundle size (safe optimization)
+const Hero = dynamicImport(() => import('@/components/sections/Hero'))
+const Features = dynamicImport(() => import('@/components/sections/Features'))
+const Solutions = dynamicImport(() => import('@/components/sections/Solutions'))
+const Products = dynamicImport(() => import('@/components/sections/Products'))
+const Clients = dynamicImport(() => import('@/components/sections/Clients'))
+const Sectors = dynamicImport(() => import('@/components/sections/Sectors'))
+const About = dynamicImport(() => import('@/components/sections/About'))
+const Contact = dynamicImport(() => import('@/components/sections/Contact'))
 
 // Force dynamic rendering to prevent static generation errors
 export const dynamic = 'force-dynamic'

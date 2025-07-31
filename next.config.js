@@ -29,6 +29,7 @@ const nextConfig = {
         sideEffects: false,
         minimize: false,
         minimizer: [],
+
       };
     }
     return config;

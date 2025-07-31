@@ -16,7 +16,7 @@ module.exports = require("node:buffer");
 
 /***/ }),
 
-/***/ 3272:
+/***/ 9371:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -130,7 +130,7 @@ const routeModule = new module_compiled.AppPageRouteModule({
 });
 
 //# sourceMappingURL=app-page.js.map
-;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-edge-ssr-loader/index.js?{"absolute500Path":"","absoluteAppPath":"next/dist/pages/_app","absoluteDocumentPath":"next/dist/pages/_document","absoluteErrorPath":"next/dist/pages/_error","absolutePagePath":"private-next-app-dir/page.tsx","buildId":"RMxP7YK9ylIykNcePB0yM","dev":false,"isServerComponent":true,"page":"/page","stringifiedConfig":"eyJlbnYiOnt9LCJlc2xpbnQiOnsiaWdub3JlRHVyaW5nQnVpbGRzIjpmYWxzZX0sInR5cGVzY3JpcHQiOnsiaWdub3JlQnVpbGRFcnJvcnMiOmZhbHNlLCJ0c2NvbmZpZ1BhdGgiOiJ0c2NvbmZpZy5qc29uIn0sImRpc3REaXIiOiIubmV4dCIsImNsZWFuRGlzdERpciI6dHJ1ZSwiYXNzZXRQcmVmaXgiOiIiLCJjb25maWdPcmlnaW4iOiJuZXh0LmNvbmZpZy5qcyIsInVzZUZpbGVTeXN0ZW1QdWJsaWNSb3V0ZXMiOnRydWUsImdlbmVyYXRlRXRhZ3MiOnRydWUsInBhZ2VFeHRlbnNpb25zIjpbInRzeCIsInRzIiwianN4IiwianMiXSwicG93ZXJlZEJ5SGVhZGVyIjpmYWxzZSwiY29tcHJlc3MiOmZhbHNlLCJhbmFseXRpY3NJZCI6IiIsImltYWdlcyI6eyJkZXZpY2VTaXplcyI6WzY0MCw3NTAsODI4LDEwODAsMTIwMCwxOTIwLDIwNDgsMzg0MF0sImltYWdlU2l6ZXMiOlsxNiwzMiw0OCw2NCw5NiwxMjgsMjU2LDM4NF0sInBhdGgiOiIvX25leHQvaW1hZ2UiLCJsb2FkZXIiOiJkZWZhdWx0IiwibG9hZGVyRmlsZSI6IiIsImRvbWFpbnMiOltdLCJkaXNhYmxlU3RhdGljSW1hZ2VzIjpmYWxzZSwibWluaW11bUNhY2hlVFRMIjo2MCwiZm9ybWF0cyI6WyJpbWFnZS93ZWJwIiwiaW1hZ2UvYXZpZiJdLCJkYW5nZXJvdXNseUFsbG93U1ZHIjpmYWxzZSwiY29udGVudFNlY3VyaXR5UG9saWN5Ijoic2NyaXB0LXNyYyAnbm9uZSc7IGZyYW1lLXNyYyAnbm9uZSc7IHNhbmRib3g7IiwiY29udGVudERpc3Bvc2l0aW9uVHlwZSI6ImlubGluZSIsInJlbW90ZVBhdHRlcm5zIjpbeyJwcm90b2NvbCI6Imh0dHAiLCJob3N0bmFtZSI6ImxvY2FsaG9zdCIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9LHsicHJvdG9jb2wiOiJodHRwcyIsImhvc3RuYW1lIjoicHViLTk0YzQ3ZWJjN2IxNDQ1OGViMWUwOWI2M2E4NzY4ZDcyLnIyLmRldiIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9XSwidW5vcHRpbWl6ZWQiOmZhbHNlfSwiZGV2SW5kaWNhdG9ycyI6eyJidWlsZEFjdGl2aXR5Ijp0cnVlLCJidWlsZEFjdGl2aXR5UG9zaXRpb24iOiJib3R0b20tcmlnaHQifSwib25EZW1hbmRFbnRyaWVzIjp7Im1heEluYWN0aXZlQWdlIjo2MDAwMCwicGFnZXNCdWZmZXJMZW5ndGgiOjV9LCJhbXAiOnsiY2Fub25pY2FsQmFzZSI6IiJ9LCJiYXNlUGF0aCI6IiIsInNhc3NPcHRpb25zIjp7fSwidHJhaWxpbmdTbGFzaCI6ZmFsc2UsImkxOG4iOm51bGwsInByb2R1Y3Rpb25Ccm93c2VyU291cmNlTWFwcyI6ZmFsc2UsIm9wdGltaXplRm9udHMiOnRydWUsImV4Y2x1ZGVEZWZhdWx0TW9tZW50TG9jYWxlcyI6dHJ1ZSwic2VydmVyUnVudGltZUNvbmZpZyI6e30sInB1YmxpY1J1bnRpbWVDb25maWciOnt9LCJyZWFjdFByb2R1Y3Rpb25Qcm9maWxpbmciOmZhbHNlLCJyZWFjdFN0cmljdE1vZGUiOnRydWUsImh0dHBBZ2VudE9wdGlvbnMiOnsia2VlcEFsaXZlIjp0cnVlfSwib3V0cHV0RmlsZVRyYWNpbmciOnRydWUsInN0YXRpY1BhZ2VHZW5lcmF0aW9uVGltZW91dCI6NjAsInN3Y01pbmlmeSI6ZmFsc2UsIm91dHB1dCI6InN0YW5kYWxvbmUiLCJtb2R1bGFyaXplSW1wb3J0cyI6eyJAbXVpL2ljb25zLW1hdGVyaWFsIjp7InRyYW5zZm9ybSI6IkBtdWkvaWNvbnMtbWF0ZXJpYWwve3ttZW1iZXJ9fSJ9LCJsb2Rhc2giOnsidHJhbnNmb3JtIjoibG9kYXNoL3t7bWVtYmVyfX0ifSwibmV4dC9zZXJ2ZXIiOnsidHJhbnNmb3JtIjoibmV4dC9kaXN0L3NlcnZlci93ZWIvZXhwb3J0cy97eyBrZWJhYkNhc2UgbWVtYmVyIH19In19LCJleHBlcmltZW50YWwiOnsid2luZG93SGlzdG9yeVN1cHBvcnQiOmZhbHNlLCJzZXJ2ZXJNaW5pZmljYXRpb24iOnRydWUsInNlcnZlclNvdXJjZU1hcHMiOmZhbHNlLCJjYXNlU2Vuc2l0aXZlUm91dGVzIjpmYWxzZSwidXNlRGVwbG95bWVudElkIjpmYWxzZSwidXNlRGVwbG95bWVudElkU2VydmVyQWN0aW9ucyI6ZmFsc2UsImNsaWVudFJvdXRlckZpbHRlciI6dHJ1ZSwiY2xpZW50Um91dGVyRmlsdGVyUmVkaXJlY3RzIjpmYWxzZSwiZmV0Y2hDYWNoZUtleVByZWZpeCI6IiIsIm1pZGRsZXdhcmVQcmVmZXRjaCI6ImZsZXhpYmxlIiwib3B0aW1pc3RpY0NsaWVudENhY2hlIjp0cnVlLCJtYW51YWxDbGllbnRCYXNlUGF0aCI6ZmFsc2UsImNwdXMiOjksIm1lbW9yeUJhc2VkV29ya2Vyc0NvdW50IjpmYWxzZSwiaXNyRmx1c2hUb0Rpc2siOnRydWUsIndvcmtlclRocmVhZHMiOmZhbHNlLCJvcHRpbWl6ZUNzcyI6ZmFsc2UsIm5leHRTY3JpcHRXb3JrZXJzIjpmYWxzZSwic2Nyb2xsUmVzdG9yYXRpb24iOmZhbHNlLCJleHRlcm5hbERpciI6ZmFsc2UsImRpc2FibGVPcHRpbWl6ZWRMb2FkaW5nIjpmYWxzZSwiZ3ppcFNpemUiOnRydWUsImNyYUNvbXBhdCI6ZmFsc2UsImVzbUV4dGVybmFscyI6dHJ1ZSwiaXNyTWVtb3J5Q2FjaGVTaXplIjowLCJmdWxseVNwZWNpZmllZCI6ZmFsc2UsIm91dHB1dEZpbGVUcmFjaW5nUm9vdCI6Ii9Vc2Vycy9kZW5pemhhbi9Eb2N1bWVudHMvV2luZHN1cmYvcHJvdGVrYW5hbGl0aWsiLCJzd2NUcmFjZVByb2ZpbGluZyI6ZmFsc2UsImZvcmNlU3djVHJhbnNmb3JtcyI6ZmFsc2UsImxhcmdlUGFnZURhdGFCeXRlcyI6MTI4MDAwLCJhZGp1c3RGb250RmFsbGJhY2tzIjpmYWxzZSwiYWRqdXN0Rm9udEZhbGxiYWNrc1dpdGhTaXplQWRqdXN0IjpmYWxzZSwidHlwZWRSb3V0ZXMiOmZhbHNlLCJpbnN0cnVtZW50YXRpb25Ib29rIjpmYWxzZSwiYnVuZGxlUGFnZXNFeHRlcm5hbHMiOmZhbHNlLCJwcHIiOmZhbHNlLCJ3ZWJwYWNrQnVpbGRXb3JrZXIiOmZhbHNlLCJvdXRwdXRGaWxlVHJhY2luZ0V4Y2x1ZGVzIjp7IioiOlsibm9kZV9tb2R1bGVzLyoqLyoiLCIubmV4dC9jYWNoZS8qKi8qIiwiLmdpdC8qKi8qIl19LCJzdGF0aWNQYWdlR2VuZXJhdGlvblRpbWVvdXQiOjAsIm9wdGltaXplUGFja2FnZUltcG9ydHMiOlsibHVjaWRlLXJlYWN0IiwiZGF0ZS1mbnMiLCJsb2Rhc2gtZXMiLCJyYW1kYSIsImFudGQiLCJyZWFjdC1ib290c3RyYXAiLCJhaG9va3MiLCJAYW50LWRlc2lnbi9pY29ucyIsIkBoZWFkbGVzc3VpL3JlYWN0IiwiQGhlYWRsZXNzdWktZmxvYXQvcmVhY3QiLCJAaGVyb2ljb25zL3JlYWN0LzIwL3NvbGlkIiwiQGhlcm9pY29ucy9yZWFjdC8yNC9zb2xpZCIsIkBoZXJvaWNvbnMvcmVhY3QvMjQvb3V0bGluZSIsIkB2aXN4L3Zpc3giLCJAdHJlbW9yL3JlYWN0IiwicnhqcyIsIkBtdWkvbWF0ZXJpYWwiLCJAbXVpL2ljb25zLW1hdGVyaWFsIiwicmVjaGFydHMiLCJyZWFjdC11c2UiLCJAbWF0ZXJpYWwtdWkvY29yZSIsIkBtYXRlcmlhbC11aS9pY29ucyIsIkB0YWJsZXIvaWNvbnMtcmVhY3QiLCJtdWktY29yZSIsInJlYWN0LWljb25zL2FpIiwicmVhY3QtaWNvbnMvYmkiLCJyZWFjdC1pY29ucy9icyIsInJlYWN0LWljb25zL2NnIiwicmVhY3QtaWNvbnMvY2kiLCJyZWFjdC1pY29ucy9kaSIsInJlYWN0LWljb25zL2ZhIiwicmVhY3QtaWNvbnMvZmE2IiwicmVhY3QtaWNvbnMvZmMiLCJyZWFjdC1pY29ucy9maSIsInJlYWN0LWljb25zL2dpIiwicmVhY3QtaWNvbnMvZ28iLCJyZWFjdC1pY29ucy9nciIsInJlYWN0LWljb25zL2hpIiwicmVhY3QtaWNvbnMvaGkyIiwicmVhY3QtaWNvbnMvaW0iLCJyZWFjdC1pY29ucy9pbyIsInJlYWN0LWljb25zL2lvNSIsInJlYWN0LWljb25zL2xpYSIsInJlYWN0LWljb25zL2xpYiIsInJlYWN0LWljb25zL2x1IiwicmVhY3QtaWNvbnMvbWQiLCJyZWFjdC1pY29ucy9waSIsInJlYWN0LWljb25zL3JpIiwicmVhY3QtaWNvbnMvcngiLCJyZWFjdC1pY29ucy9zaSIsInJlYWN0LWljb25zL3NsIiwicmVhY3QtaWNvbnMvdGIiLCJyZWFjdC1pY29ucy90ZmkiLCJyZWFjdC1pY29ucy90aSIsInJlYWN0LWljb25zL3ZzYyIsInJlYWN0LWljb25zL3dpIl19LCJjb25maWdGaWxlIjoiL1VzZXJzL2Rlbml6aGFuL0RvY3VtZW50cy9XaW5kc3VyZi9wcm90ZWthbmFsaXRpay9uZXh0LmNvbmZpZy5qcyIsImNvbmZpZ0ZpbGVOYW1lIjoibmV4dC5jb25maWcuanMiLCJnZW5lcmF0ZVN0YXRpY1BhcmFtcyI6ZmFsc2UsIm1pbmlmeSI6ZmFsc2V9","pagesType":"app","appDirLoader":"bmV4dC1hcHAtbG9hZGVyP25hbWU9YXBwJTJGcGFnZSZwYWdlPSUyRnBhZ2UmcGFnZVBhdGg9cHJpdmF0ZS1uZXh0LWFwcC1kaXIlMkZwYWdlLnRzeCZhcHBEaXI9JTJGVXNlcnMlMkZkZW5pemhhbiUyRkRvY3VtZW50cyUyRldpbmRzdXJmJTJGcHJvdGVrYW5hbGl0aWslMkZzcmMlMkZhcHAmYXBwUGF0aHM9JTJGcGFnZSZwYWdlRXh0ZW5zaW9ucz10c3gmcGFnZUV4dGVuc2lvbnM9dHMmcGFnZUV4dGVuc2lvbnM9anN4JnBhZ2VFeHRlbnNpb25zPWpzJmJhc2VQYXRoPSZhc3NldFByZWZpeD0mbmV4dENvbmZpZ091dHB1dD1zdGFuZGFsb25lJnByZWZlcnJlZFJlZ2lvbj0mbWlkZGxld2FyZUNvbmZpZz1lMzAlM0Qh","sriEnabled":false,"middlewareConfig":"e30="}!
+;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-edge-ssr-loader/index.js?{"absolute500Path":"","absoluteAppPath":"next/dist/pages/_app","absoluteDocumentPath":"next/dist/pages/_document","absoluteErrorPath":"next/dist/pages/_error","absolutePagePath":"private-next-app-dir/page.tsx","buildId":"n_6juZsGz7GaZ7cb76ATH","dev":false,"isServerComponent":true,"page":"/page","stringifiedConfig":"eyJlbnYiOnt9LCJlc2xpbnQiOnsiaWdub3JlRHVyaW5nQnVpbGRzIjpmYWxzZX0sInR5cGVzY3JpcHQiOnsiaWdub3JlQnVpbGRFcnJvcnMiOmZhbHNlLCJ0c2NvbmZpZ1BhdGgiOiJ0c2NvbmZpZy5qc29uIn0sImRpc3REaXIiOiIubmV4dCIsImNsZWFuRGlzdERpciI6dHJ1ZSwiYXNzZXRQcmVmaXgiOiIiLCJjb25maWdPcmlnaW4iOiJuZXh0LmNvbmZpZy5qcyIsInVzZUZpbGVTeXN0ZW1QdWJsaWNSb3V0ZXMiOnRydWUsImdlbmVyYXRlRXRhZ3MiOnRydWUsInBhZ2VFeHRlbnNpb25zIjpbInRzeCIsInRzIiwianN4IiwianMiXSwicG93ZXJlZEJ5SGVhZGVyIjpmYWxzZSwiY29tcHJlc3MiOmZhbHNlLCJhbmFseXRpY3NJZCI6IiIsImltYWdlcyI6eyJkZXZpY2VTaXplcyI6WzY0MCw3NTAsODI4LDEwODAsMTIwMCwxOTIwLDIwNDgsMzg0MF0sImltYWdlU2l6ZXMiOlsxNiwzMiw0OCw2NCw5NiwxMjgsMjU2LDM4NF0sInBhdGgiOiIvX25leHQvaW1hZ2UiLCJsb2FkZXIiOiJkZWZhdWx0IiwibG9hZGVyRmlsZSI6IiIsImRvbWFpbnMiOltdLCJkaXNhYmxlU3RhdGljSW1hZ2VzIjpmYWxzZSwibWluaW11bUNhY2hlVFRMIjo2MCwiZm9ybWF0cyI6WyJpbWFnZS93ZWJwIiwiaW1hZ2UvYXZpZiJdLCJkYW5nZXJvdXNseUFsbG93U1ZHIjpmYWxzZSwiY29udGVudFNlY3VyaXR5UG9saWN5Ijoic2NyaXB0LXNyYyAnbm9uZSc7IGZyYW1lLXNyYyAnbm9uZSc7IHNhbmRib3g7IiwiY29udGVudERpc3Bvc2l0aW9uVHlwZSI6ImlubGluZSIsInJlbW90ZVBhdHRlcm5zIjpbeyJwcm90b2NvbCI6Imh0dHAiLCJob3N0bmFtZSI6ImxvY2FsaG9zdCIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9LHsicHJvdG9jb2wiOiJodHRwcyIsImhvc3RuYW1lIjoicHViLTk0YzQ3ZWJjN2IxNDQ1OGViMWUwOWI2M2E4NzY4ZDcyLnIyLmRldiIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9XSwidW5vcHRpbWl6ZWQiOmZhbHNlfSwiZGV2SW5kaWNhdG9ycyI6eyJidWlsZEFjdGl2aXR5Ijp0cnVlLCJidWlsZEFjdGl2aXR5UG9zaXRpb24iOiJib3R0b20tcmlnaHQifSwib25EZW1hbmRFbnRyaWVzIjp7Im1heEluYWN0aXZlQWdlIjo2MDAwMCwicGFnZXNCdWZmZXJMZW5ndGgiOjV9LCJhbXAiOnsiY2Fub25pY2FsQmFzZSI6IiJ9LCJiYXNlUGF0aCI6IiIsInNhc3NPcHRpb25zIjp7fSwidHJhaWxpbmdTbGFzaCI6ZmFsc2UsImkxOG4iOm51bGwsInByb2R1Y3Rpb25Ccm93c2VyU291cmNlTWFwcyI6ZmFsc2UsIm9wdGltaXplRm9udHMiOnRydWUsImV4Y2x1ZGVEZWZhdWx0TW9tZW50TG9jYWxlcyI6dHJ1ZSwic2VydmVyUnVudGltZUNvbmZpZyI6e30sInB1YmxpY1J1bnRpbWVDb25maWciOnt9LCJyZWFjdFByb2R1Y3Rpb25Qcm9maWxpbmciOmZhbHNlLCJyZWFjdFN0cmljdE1vZGUiOnRydWUsImh0dHBBZ2VudE9wdGlvbnMiOnsia2VlcEFsaXZlIjp0cnVlfSwib3V0cHV0RmlsZVRyYWNpbmciOnRydWUsInN0YXRpY1BhZ2VHZW5lcmF0aW9uVGltZW91dCI6NjAsInN3Y01pbmlmeSI6ZmFsc2UsIm91dHB1dCI6InN0YW5kYWxvbmUiLCJtb2R1bGFyaXplSW1wb3J0cyI6eyJAbXVpL2ljb25zLW1hdGVyaWFsIjp7InRyYW5zZm9ybSI6IkBtdWkvaWNvbnMtbWF0ZXJpYWwve3ttZW1iZXJ9fSJ9LCJsb2Rhc2giOnsidHJhbnNmb3JtIjoibG9kYXNoL3t7bWVtYmVyfX0ifSwibmV4dC9zZXJ2ZXIiOnsidHJhbnNmb3JtIjoibmV4dC9kaXN0L3NlcnZlci93ZWIvZXhwb3J0cy97eyBrZWJhYkNhc2UgbWVtYmVyIH19In19LCJleHBlcmltZW50YWwiOnsid2luZG93SGlzdG9yeVN1cHBvcnQiOmZhbHNlLCJzZXJ2ZXJNaW5pZmljYXRpb24iOnRydWUsInNlcnZlclNvdXJjZU1hcHMiOmZhbHNlLCJjYXNlU2Vuc2l0aXZlUm91dGVzIjpmYWxzZSwidXNlRGVwbG95bWVudElkIjpmYWxzZSwidXNlRGVwbG95bWVudElkU2VydmVyQWN0aW9ucyI6ZmFsc2UsImNsaWVudFJvdXRlckZpbHRlciI6dHJ1ZSwiY2xpZW50Um91dGVyRmlsdGVyUmVkaXJlY3RzIjpmYWxzZSwiZmV0Y2hDYWNoZUtleVByZWZpeCI6IiIsIm1pZGRsZXdhcmVQcmVmZXRjaCI6ImZsZXhpYmxlIiwib3B0aW1pc3RpY0NsaWVudENhY2hlIjp0cnVlLCJtYW51YWxDbGllbnRCYXNlUGF0aCI6ZmFsc2UsImNwdXMiOjksIm1lbW9yeUJhc2VkV29ya2Vyc0NvdW50IjpmYWxzZSwiaXNyRmx1c2hUb0Rpc2siOnRydWUsIndvcmtlclRocmVhZHMiOmZhbHNlLCJvcHRpbWl6ZUNzcyI6ZmFsc2UsIm5leHRTY3JpcHRXb3JrZXJzIjpmYWxzZSwic2Nyb2xsUmVzdG9yYXRpb24iOmZhbHNlLCJleHRlcm5hbERpciI6ZmFsc2UsImRpc2FibGVPcHRpbWl6ZWRMb2FkaW5nIjpmYWxzZSwiZ3ppcFNpemUiOnRydWUsImNyYUNvbXBhdCI6ZmFsc2UsImVzbUV4dGVybmFscyI6dHJ1ZSwiaXNyTWVtb3J5Q2FjaGVTaXplIjowLCJmdWxseVNwZWNpZmllZCI6ZmFsc2UsIm91dHB1dEZpbGVUcmFjaW5nUm9vdCI6Ii9Vc2Vycy9kZW5pemhhbi9Eb2N1bWVudHMvV2luZHN1cmYvcHJvdGVrYW5hbGl0aWsiLCJzd2NUcmFjZVByb2ZpbGluZyI6ZmFsc2UsImZvcmNlU3djVHJhbnNmb3JtcyI6ZmFsc2UsImxhcmdlUGFnZURhdGFCeXRlcyI6MTI4MDAwLCJhZGp1c3RGb250RmFsbGJhY2tzIjpmYWxzZSwiYWRqdXN0Rm9udEZhbGxiYWNrc1dpdGhTaXplQWRqdXN0IjpmYWxzZSwidHlwZWRSb3V0ZXMiOmZhbHNlLCJpbnN0cnVtZW50YXRpb25Ib29rIjpmYWxzZSwiYnVuZGxlUGFnZXNFeHRlcm5hbHMiOmZhbHNlLCJwcHIiOmZhbHNlLCJ3ZWJwYWNrQnVpbGRXb3JrZXIiOmZhbHNlLCJvdXRwdXRGaWxlVHJhY2luZ0V4Y2x1ZGVzIjp7IioiOlsibm9kZV9tb2R1bGVzLyoqLyoiLCIubmV4dC9jYWNoZS8qKi8qIiwiLmdpdC8qKi8qIl19LCJzdGF0aWNQYWdlR2VuZXJhdGlvblRpbWVvdXQiOjAsIm9wdGltaXplUGFja2FnZUltcG9ydHMiOlsibHVjaWRlLXJlYWN0IiwiZGF0ZS1mbnMiLCJsb2Rhc2gtZXMiLCJyYW1kYSIsImFudGQiLCJyZWFjdC1ib290c3RyYXAiLCJhaG9va3MiLCJAYW50LWRlc2lnbi9pY29ucyIsIkBoZWFkbGVzc3VpL3JlYWN0IiwiQGhlYWRsZXNzdWktZmxvYXQvcmVhY3QiLCJAaGVyb2ljb25zL3JlYWN0LzIwL3NvbGlkIiwiQGhlcm9pY29ucy9yZWFjdC8yNC9zb2xpZCIsIkBoZXJvaWNvbnMvcmVhY3QvMjQvb3V0bGluZSIsIkB2aXN4L3Zpc3giLCJAdHJlbW9yL3JlYWN0IiwicnhqcyIsIkBtdWkvbWF0ZXJpYWwiLCJAbXVpL2ljb25zLW1hdGVyaWFsIiwicmVjaGFydHMiLCJyZWFjdC11c2UiLCJAbWF0ZXJpYWwtdWkvY29yZSIsIkBtYXRlcmlhbC11aS9pY29ucyIsIkB0YWJsZXIvaWNvbnMtcmVhY3QiLCJtdWktY29yZSIsInJlYWN0LWljb25zL2FpIiwicmVhY3QtaWNvbnMvYmkiLCJyZWFjdC1pY29ucy9icyIsInJlYWN0LWljb25zL2NnIiwicmVhY3QtaWNvbnMvY2kiLCJyZWFjdC1pY29ucy9kaSIsInJlYWN0LWljb25zL2ZhIiwicmVhY3QtaWNvbnMvZmE2IiwicmVhY3QtaWNvbnMvZmMiLCJyZWFjdC1pY29ucy9maSIsInJlYWN0LWljb25zL2dpIiwicmVhY3QtaWNvbnMvZ28iLCJyZWFjdC1pY29ucy9nciIsInJlYWN0LWljb25zL2hpIiwicmVhY3QtaWNvbnMvaGkyIiwicmVhY3QtaWNvbnMvaW0iLCJyZWFjdC1pY29ucy9pbyIsInJlYWN0LWljb25zL2lvNSIsInJlYWN0LWljb25zL2xpYSIsInJlYWN0LWljb25zL2xpYiIsInJlYWN0LWljb25zL2x1IiwicmVhY3QtaWNvbnMvbWQiLCJyZWFjdC1pY29ucy9waSIsInJlYWN0LWljb25zL3JpIiwicmVhY3QtaWNvbnMvcngiLCJyZWFjdC1pY29ucy9zaSIsInJlYWN0LWljb25zL3NsIiwicmVhY3QtaWNvbnMvdGIiLCJyZWFjdC1pY29ucy90ZmkiLCJyZWFjdC1pY29ucy90aSIsInJlYWN0LWljb25zL3ZzYyIsInJlYWN0LWljb25zL3dpIl19LCJjb25maWdGaWxlIjoiL1VzZXJzL2Rlbml6aGFuL0RvY3VtZW50cy9XaW5kc3VyZi9wcm90ZWthbmFsaXRpay9uZXh0LmNvbmZpZy5qcyIsImNvbmZpZ0ZpbGVOYW1lIjoibmV4dC5jb25maWcuanMiLCJnZW5lcmF0ZVN0YXRpY1BhcmFtcyI6ZmFsc2UsIm1pbmlmeSI6ZmFsc2V9","pagesType":"app","appDirLoader":"bmV4dC1hcHAtbG9hZGVyP25hbWU9YXBwJTJGcGFnZSZwYWdlPSUyRnBhZ2UmcGFnZVBhdGg9cHJpdmF0ZS1uZXh0LWFwcC1kaXIlMkZwYWdlLnRzeCZhcHBEaXI9JTJGVXNlcnMlMkZkZW5pemhhbiUyRkRvY3VtZW50cyUyRldpbmRzdXJmJTJGcHJvdGVrYW5hbGl0aWslMkZzcmMlMkZhcHAmYXBwUGF0aHM9JTJGcGFnZSZwYWdlRXh0ZW5zaW9ucz10c3gmcGFnZUV4dGVuc2lvbnM9dHMmcGFnZUV4dGVuc2lvbnM9anN4JnBhZ2VFeHRlbnNpb25zPWpzJmJhc2VQYXRoPSZhc3NldFByZWZpeD0mbmV4dENvbmZpZ091dHB1dD1zdGFuZGFsb25lJnByZWZlcnJlZFJlZ2lvbj0mbWlkZGxld2FyZUNvbmZpZz1lMzAlM0Qh","sriEnabled":false,"middlewareConfig":"e30="}!
 var _self___RSC_MANIFEST;
 
 
@@ -174,7 +174,7 @@ const page_stringifiedConfig_eyJlbnYiOnt9LCJlc2xpbnQiOnsiaWdub3JlRHVyaW5nQnVpbGR
     serverActions: isServerComponent ? serverActions : undefined,
     subresourceIntegrityManifest,
     config: nextConfig,
-    buildId: "RMxP7YK9ylIykNcePB0yM",
+    buildId: "n_6juZsGz7GaZ7cb76ATH",
     nextFontManifest,
     incrementalCacheHandler
 });
@@ -233,7 +233,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 /***/ 3167:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1666))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9292))
 
 /***/ }),
 
@@ -30871,6 +30871,169 @@ function wrapRequestHandler(handler) {
 
 /***/ }),
 
+/***/ 595:
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return dynamic;
+    }
+}));
+const _interop_require_default = __webpack_require__(5646);
+const _react = /*#__PURE__*/ _interop_require_default._(__webpack_require__(5579));
+const _loadable = /*#__PURE__*/ _interop_require_default._(__webpack_require__(5512));
+// Normalize loader to return the module as form { default: Component } for `React.lazy`.
+// Also for backward compatible since next/dynamic allows to resolve a component directly with loader
+// Client component reference proxy need to be converted to a module.
+function convertModule(mod) {
+    return {
+        default: (mod == null ? void 0 : mod.default) || mod
+    };
+}
+function dynamic(dynamicOptions, options) {
+    const loadableFn = _loadable.default;
+    const loadableOptions = {
+        // A loading component is not required, so we default it
+        loading: (param)=>{
+            let { error, isLoading, pastDelay } = param;
+            if (!pastDelay) return null;
+            if (false) {}
+            return null;
+        }
+    };
+    if (typeof dynamicOptions === "function") {
+        loadableOptions.loader = dynamicOptions;
+    }
+    Object.assign(loadableOptions, options);
+    const loaderFn = loadableOptions.loader;
+    const loader = ()=>loaderFn != null ? loaderFn().then(convertModule) : Promise.resolve(convertModule(()=>null));
+    return loadableFn({
+        ...loadableOptions,
+        loader: loader
+    });
+}
+if ((typeof exports.default === "function" || typeof exports.default === "object" && exports.default !== null) && typeof exports.default.__esModule === "undefined") {
+    Object.defineProperty(exports.default, "__esModule", {
+        value: true
+    });
+    Object.assign(exports.default, exports);
+    module.exports = exports.default;
+} //# sourceMappingURL=app-dynamic.js.map
+
+
+/***/ }),
+
+/***/ 23:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+/* __next_internal_client_entry_do_not_use__  cjs */ 
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "NoSSR", ({
+    enumerable: true,
+    get: function() {
+        return NoSSR;
+    }
+}));
+const _nossrerror = __webpack_require__(1464);
+function NoSSR(param) {
+    let { children } = param;
+    if (true) {
+        (0, _nossrerror.throwWithNoSSR)();
+    }
+    return children;
+} //# sourceMappingURL=dynamic-no-ssr.js.map
+
+
+/***/ }),
+
+/***/ 5512:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return _default;
+    }
+}));
+const _interop_require_default = __webpack_require__(5646);
+const _react = /*#__PURE__*/ _interop_require_default._(__webpack_require__(5579));
+const _dynamicnossr = __webpack_require__(23);
+function Loadable(options) {
+    const opts = Object.assign({
+        loader: null,
+        loading: null,
+        ssr: true
+    }, options);
+    opts.lazy = /*#__PURE__*/ _react.default.lazy(opts.loader);
+    function LoadableComponent(props) {
+        const Loading = opts.loading;
+        const fallbackElement = /*#__PURE__*/ _react.default.createElement(Loading, {
+            isLoading: true,
+            pastDelay: true,
+            error: null
+        });
+        const Wrap = opts.ssr ? _react.default.Fragment : _dynamicnossr.NoSSR;
+        const Lazy = opts.lazy;
+        return /*#__PURE__*/ _react.default.createElement(_react.default.Suspense, {
+            fallback: fallbackElement
+        }, /*#__PURE__*/ _react.default.createElement(Wrap, null, /*#__PURE__*/ _react.default.createElement(Lazy, props)));
+    }
+    LoadableComponent.displayName = "LoadableComponent";
+    return LoadableComponent;
+}
+const _default = Loadable; //# sourceMappingURL=loadable.js.map
+
+
+/***/ }),
+
+/***/ 1464:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+// This has to be a shared module which is shared between client component error boundary and dynamic component
+
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+0 && (0);
+function _export(target, all) {
+    for(var name in all)Object.defineProperty(target, name, {
+        enumerable: true,
+        get: all[name]
+    });
+}
+_export(exports, {
+    NEXT_DYNAMIC_NO_SSR_CODE: function() {
+        return NEXT_DYNAMIC_NO_SSR_CODE;
+    },
+    throwWithNoSSR: function() {
+        return throwWithNoSSR;
+    }
+});
+const NEXT_DYNAMIC_NO_SSR_CODE = "NEXT_DYNAMIC_NO_SSR_CODE";
+function throwWithNoSSR() {
+    const error = new Error(NEXT_DYNAMIC_NO_SSR_CODE);
+    error.digest = NEXT_DYNAMIC_NO_SSR_CODE;
+    throw error;
+} //# sourceMappingURL=no-ssr-error.js.map
+
+
+/***/ }),
+
 /***/ 7237:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -30964,3577 +31127,100 @@ function Error({ error, reset }) {
 
 /***/ }),
 
-/***/ 1666:
+/***/ 9292:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ HomePage),
-  dynamic: () => (/* binding */ dynamic),
-  runtime: () => (/* binding */ runtime)
-});
-
-// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/jsx-runtime.js
-var jsx_runtime = __webpack_require__(6485);
-// EXTERNAL MODULE: ./src/components/layout/Header.tsx + 5 modules
-var Header = __webpack_require__(3328);
-// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/index.mjs + 290 modules
-var es = __webpack_require__(2069);
-// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/index.js
-var react = __webpack_require__(5579);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/solid/esm/ArrowRightIcon.js
-
-function ArrowRightIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 24 24",
-        fill: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        fillRule: "evenodd",
-        d: "M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z",
-        clipRule: "evenodd"
-    }));
-}
-const ForwardRef = /*#__PURE__*/ react.forwardRef(ArrowRightIcon);
-/* harmony default export */ const esm_ArrowRightIcon = (ForwardRef);
-
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/solid/esm/BeakerIcon.js
-
-function BeakerIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 24 24",
-        fill: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        fillRule: "evenodd",
-        d: "M10.5 3.798v5.02a3 3 0 0 1-.879 2.121l-2.377 2.377a9.845 9.845 0 0 1 5.091 1.013 8.315 8.315 0 0 0 5.713.636l.285-.071-3.954-3.955a3 3 0 0 1-.879-2.121v-5.02a23.614 23.614 0 0 0-3 0Zm4.5.138a.75.75 0 0 0 .093-1.495A24.837 24.837 0 0 0 12 2.25a25.048 25.048 0 0 0-3.093.191A.75.75 0 0 0 9 3.936v4.882a1.5 1.5 0 0 1-.44 1.06l-6.293 6.294c-1.62 1.621-.903 4.475 1.471 4.88 2.686.46 5.447.698 8.262.698 2.816 0 5.576-.239 8.262-.697 2.373-.406 3.092-3.26 1.47-4.881L15.44 9.879A1.5 1.5 0 0 1 15 8.818V3.936Z",
-        clipRule: "evenodd"
-    }));
-}
-const BeakerIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(BeakerIcon);
-/* harmony default export */ const esm_BeakerIcon = (BeakerIcon_ForwardRef);
-
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/solid/esm/ChatBubbleLeftRightIcon.js
-
-function ChatBubbleLeftRightIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 24 24",
-        fill: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        d: "M4.913 2.658c2.075-.27 4.19-.408 6.337-.408 2.147 0 4.262.139 6.337.408 1.922.25 3.291 1.861 3.405 3.727a4.403 4.403 0 0 0-1.032-.211 50.89 50.89 0 0 0-8.42 0c-2.358.196-4.04 2.19-4.04 4.434v4.286a4.47 4.47 0 0 0 2.433 3.984L7.28 21.53A.75.75 0 0 1 6 21v-4.03a48.527 48.527 0 0 1-1.087-.128C2.905 16.58 1.5 14.833 1.5 12.862V6.638c0-1.97 1.405-3.718 3.413-3.979Z"
-    }), /*#__PURE__*/ react.createElement("path", {
-        d: "M15.75 7.5c-1.376 0-2.739.057-4.086.169C10.124 7.797 9 9.103 9 10.609v4.285c0 1.507 1.128 2.814 2.67 2.94 1.243.102 2.5.157 3.768.165l2.782 2.781a.75.75 0 0 0 1.28-.53v-2.39l.33-.026c1.542-.125 2.67-1.433 2.67-2.94v-4.286c0-1.505-1.125-2.811-2.664-2.94A49.392 49.392 0 0 0 15.75 7.5Z"
-    }));
-}
-const ChatBubbleLeftRightIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(ChatBubbleLeftRightIcon);
-/* harmony default export */ const esm_ChatBubbleLeftRightIcon = (ChatBubbleLeftRightIcon_ForwardRef);
-
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/solid/esm/CheckCircleIcon.js
-
-function CheckCircleIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 24 24",
-        fill: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        fillRule: "evenodd",
-        d: "M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z",
-        clipRule: "evenodd"
-    }));
-}
-const CheckCircleIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(CheckCircleIcon);
-/* harmony default export */ const esm_CheckCircleIcon = (CheckCircleIcon_ForwardRef);
-
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/solid/esm/CogIcon.js
-
-function CogIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 24 24",
-        fill: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        d: "M17.004 10.407c.138.435-.216.842-.672.842h-3.465a.75.75 0 0 1-.65-.375l-1.732-3c-.229-.396-.053-.907.393-1.004a5.252 5.252 0 0 1 6.126 3.537ZM8.12 8.464c.307-.338.838-.235 1.066.16l1.732 3a.75.75 0 0 1 0 .75l-1.732 3c-.229.397-.76.5-1.067.161A5.23 5.23 0 0 1 6.75 12a5.23 5.23 0 0 1 1.37-3.536ZM10.878 17.13c-.447-.098-.623-.608-.394-1.004l1.733-3.002a.75.75 0 0 1 .65-.375h3.465c.457 0 .81.407.672.842a5.252 5.252 0 0 1-6.126 3.539Z"
-    }), /*#__PURE__*/ react.createElement("path", {
-        fillRule: "evenodd",
-        d: "M21 12.75a.75.75 0 1 0 0-1.5h-.783a8.22 8.22 0 0 0-.237-1.357l.734-.267a.75.75 0 1 0-.513-1.41l-.735.268a8.24 8.24 0 0 0-.689-1.192l.6-.503a.75.75 0 1 0-.964-1.149l-.6.504a8.3 8.3 0 0 0-1.054-.885l.391-.678a.75.75 0 1 0-1.299-.75l-.39.676a8.188 8.188 0 0 0-1.295-.47l.136-.77a.75.75 0 0 0-1.477-.26l-.136.77a8.36 8.36 0 0 0-1.377 0l-.136-.77a.75.75 0 1 0-1.477.26l.136.77c-.448.121-.88.28-1.294.47l-.39-.676a.75.75 0 0 0-1.3.75l.392.678a8.29 8.29 0 0 0-1.054.885l-.6-.504a.75.75 0 1 0-.965 1.149l.6.503a8.243 8.243 0 0 0-.689 1.192L3.8 8.216a.75.75 0 1 0-.513 1.41l.735.267a8.222 8.222 0 0 0-.238 1.356h-.783a.75.75 0 0 0 0 1.5h.783c.042.464.122.917.238 1.356l-.735.268a.75.75 0 0 0 .513 1.41l.735-.268c.197.417.428.816.69 1.191l-.6.504a.75.75 0 0 0 .963 1.15l.601-.505c.326.323.679.62 1.054.885l-.392.68a.75.75 0 0 0 1.3.75l.39-.679c.414.192.847.35 1.294.471l-.136.77a.75.75 0 0 0 1.477.261l.137-.772a8.332 8.332 0 0 0 1.376 0l.136.772a.75.75 0 1 0 1.477-.26l-.136-.771a8.19 8.19 0 0 0 1.294-.47l.391.677a.75.75 0 0 0 1.3-.75l-.393-.679a8.29 8.29 0 0 0 1.054-.885l.601.504a.75.75 0 0 0 .964-1.15l-.6-.503c.261-.375.492-.774.69-1.191l.735.267a.75.75 0 1 0 .512-1.41l-.734-.267c.115-.439.195-.892.237-1.356h.784Zm-2.657-3.06a6.744 6.744 0 0 0-1.19-2.053 6.784 6.784 0 0 0-1.82-1.51A6.705 6.705 0 0 0 12 5.25a6.8 6.8 0 0 0-1.225.11 6.7 6.7 0 0 0-2.15.793 6.784 6.784 0 0 0-2.952 3.489.76.76 0 0 1-.036.098A6.74 6.74 0 0 0 5.251 12a6.74 6.74 0 0 0 3.366 5.842l.009.005a6.704 6.704 0 0 0 2.18.798l.022.003a6.792 6.792 0 0 0 2.368-.004 6.704 6.704 0 0 0 2.205-.811 6.785 6.785 0 0 0 1.762-1.484l.009-.01.009-.01a6.743 6.743 0 0 0 1.18-2.066c.253-.707.39-1.469.39-2.263a6.74 6.74 0 0 0-.408-2.309Z",
-        clipRule: "evenodd"
-    }));
-}
-const CogIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(CogIcon);
-/* harmony default export */ const esm_CogIcon = (CogIcon_ForwardRef);
-
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/solid/esm/PlayIcon.js
-
-function PlayIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 24 24",
-        fill: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        fillRule: "evenodd",
-        d: "M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z",
-        clipRule: "evenodd"
-    }));
-}
-const PlayIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(PlayIcon);
-/* harmony default export */ const esm_PlayIcon = (PlayIcon_ForwardRef);
-
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/solid/esm/ShieldCheckIcon.js
-
-function ShieldCheckIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 24 24",
-        fill: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        fillRule: "evenodd",
-        d: "M12.516 2.17a.75.75 0 0 0-1.032 0 11.209 11.209 0 0 1-7.877 3.08.75.75 0 0 0-.722.515A12.74 12.74 0 0 0 2.25 9.75c0 5.942 4.064 10.933 9.563 12.348a.749.749 0 0 0 .374 0c5.499-1.415 9.563-6.406 9.563-12.348 0-1.39-.223-2.73-.635-3.985a.75.75 0 0 0-.722-.516l-.143.001c-2.996 0-5.717-1.17-7.734-3.08Zm3.094 8.016a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z",
-        clipRule: "evenodd"
-    }));
-}
-const ShieldCheckIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(ShieldCheckIcon);
-/* harmony default export */ const esm_ShieldCheckIcon = (ShieldCheckIcon_ForwardRef);
-
-;// CONCATENATED MODULE: __barrel_optimize__?names=ArrowRightIcon,BeakerIcon,ChatBubbleLeftRightIcon,CheckCircleIcon,CogIcon,PlayIcon,ShieldCheckIcon!=!./node_modules/@heroicons/react/24/solid/esm/index.js
-
-
-
-
-
-
-
-
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(7237);
-;// CONCATENATED MODULE: ./src/components/sections/Hero.tsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-
-const features = [
-    {
-        icon: esm_BeakerIcon,
-        title: "Analiz Teknolojileri",
-        description: "En gelişmiş laboratuvar analiz cihazları",
-        gradient: "from-blue-500 to-cyan-500",
-        bgGradient: "from-blue-50 to-cyan-50",
-        delay: 0
-    },
-    {
-        icon: esm_CogIcon,
-        title: "Otomasyon Sistemleri",
-        description: "Akıllı laboratuvar otomasyon \xe7\xf6z\xfcmleri",
-        gradient: "from-purple-500 to-pink-500",
-        bgGradient: "from-purple-50 to-pink-50",
-        delay: 0.1
-    },
-    {
-        icon: esm_ShieldCheckIcon,
-        title: "Kalite G\xfcvencesi",
-        description: "Uluslararası standartlarda hizmet",
-        gradient: "from-green-500 to-emerald-500",
-        bgGradient: "from-green-50 to-emerald-50",
-        delay: 0.2
-    },
-    {
-        icon: esm_ChatBubbleLeftRightIcon,
-        title: "Teknik Destek",
-        description: "7/24 uzman destek hizmeti",
-        gradient: "from-orange-500 to-red-500",
-        bgGradient: "from-orange-50 to-red-50",
-        delay: 0.3
-    }
-];
-const rotatingWords = [
-    "Yenilik\xe7i",
-    "Sertifikalı",
-    "D\xfcnya Standartlarında",
-    "Ar-Ge Odaklı",
-    "Anahtar Teslim",
-    "360\xb0",
-    "Y\xfcksek Teknolojili",
-    "G\xfcvenilir",
-    "Entegre"
-];
-const promoImages = [
-    "/images/promo-images/banner-lab.jpg",
-    "/images/promo-images/banner-lab2.jpg",
-    "/images/promo-images/banner-lab3.jpg"
-];
-function Hero() {
-    const [currentWord, setCurrentWord] = (0,react.useState)(0);
-    const [currentImage, setCurrentImage] = (0,react.useState)(0);
-    const [isImageLoaded, setIsImageLoaded] = (0,react.useState)(false);
-    const [hoveredFeature, setHoveredFeature] = (0,react.useState)(null);
-    const containerRef = (0,react.useRef)(null);
-    const { scrollY } = (0,es/* useScroll */.vO)();
-    const y1 = (0,es/* useTransform */.Hm)(scrollY, [
-        0,
-        300
-    ], [
-        0,
-        -50
-    ]);
-    const y2 = (0,es/* useTransform */.Hm)(scrollY, [
-        0,
-        300
-    ], [
-        0,
-        -25
-    ]);
-    const opacity = (0,es/* useTransform */.Hm)(scrollY, [
-        0,
-        300
-    ], [
-        1,
-        0.8
-    ]);
-    (0,react.useEffect)(()=>{
-        const wordInterval = setInterval(()=>{
-            setCurrentWord((prev)=>(prev + 1) % rotatingWords.length);
-        }, 2200);
-        const imageInterval = setInterval(()=>{
-            setCurrentImage((prev)=>(prev + 1) % promoImages.length);
-        }, 3000);
-        return ()=>{
-            clearInterval(wordInterval);
-            clearInterval(imageInterval);
-        };
-    }, []);
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("section", {
-        className: "relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-neutral-50 via-blue-50/30 to-red-50/20",
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                className: "absolute inset-0 bg-pattern opacity-30"
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "absolute inset-0 overflow-hidden",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                        animate: {
-                            rotate: [
-                                0,
-                                360
-                            ],
-                            x: [
-                                0,
-                                50,
-                                0
-                            ],
-                            y: [
-                                0,
-                                -30,
-                                0
-                            ]
-                        },
-                        transition: {
-                            duration: 20,
-                            repeat: Infinity,
-                            ease: "linear"
-                        },
-                        className: "absolute top-20 right-20 w-20 h-20 bg-gradient-to-r from-primary-200 to-secondary-200 rounded-full blur-xl opacity-60"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                        animate: {
-                            rotate: [
-                                360,
-                                0
-                            ],
-                            x: [
-                                0,
-                                -40,
-                                0
-                            ],
-                            y: [
-                                0,
-                                40,
-                                0
-                            ]
-                        },
-                        transition: {
-                            duration: 25,
-                            repeat: Infinity,
-                            ease: "linear"
-                        },
-                        className: "absolute bottom-32 left-32 w-32 h-32 bg-gradient-to-r from-secondary-200 to-accent-200 rounded-full blur-xl opacity-40"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                className: "container-custom relative z-10 pt-16 md:pt-16 lg:pt-16",
-                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                    className: "grid lg:grid-cols-2 gap-8 items-center",
-                    children: [
-                        /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                            initial: {
-                                opacity: 0,
-                                x: -50
-                            },
-                            animate: {
-                                opacity: 1,
-                                x: 0
-                            },
-                            transition: {
-                                duration: 0.8
-                            },
-                            className: "space-y-6 pt-8 md:pt-0",
-                            children: [
-                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                    className: "space-y-4",
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                                            initial: {
-                                                opacity: 0,
-                                                y: 20
-                                            },
-                                            animate: {
-                                                opacity: 1,
-                                                y: 0
-                                            },
-                                            transition: {
-                                                delay: 0.2,
-                                                duration: 0.6
-                                            },
-                                            whileHover: {
-                                                scale: 1.05,
-                                                y: -2
-                                            },
-                                            className: "inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-primary-50 to-secondary-50 text-primary-700 rounded-full text-caption font-medium border border-primary-200/50 shadow-lg backdrop-blur-sm cursor-pointer group",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_BeakerIcon, {
-                                                    className: "w-4 h-4 group-hover:text-primary-600 transition-colors"
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                    className: "bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent font-bold",
-                                                    children: "T\xfcrkiye’nin Laboratuvar Teknolojileri Lideri"
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                                    className: "w-2 h-2 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full",
-                                                    animate: {
-                                                        scale: [
-                                                            1,
-                                                            1.2,
-                                                            1
-                                                        ],
-                                                        opacity: [
-                                                            0.7,
-                                                            1,
-                                                            0.7
-                                                        ]
-                                                    },
-                                                    transition: {
-                                                        duration: 2,
-                                                        repeat: Infinity,
-                                                        ease: "easeInOut"
-                                                    }
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("h1", {
-                                            className: "font-display font-bold text-neutral-900 leading-tight text-3xl lg:text-4xl xl:text-5xl",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                    className: "inline-block min-w-[140px] align-top",
-                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* AnimatePresence */.M_, {
-                                                        mode: "wait",
-                                                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.span, {
-                                                            initial: {
-                                                                opacity: 0,
-                                                                scale: 1.2,
-                                                                filter: "blur(8px)"
-                                                            },
-                                                            animate: {
-                                                                opacity: 1,
-                                                                scale: 1,
-                                                                filter: "blur(0px)"
-                                                            },
-                                                            exit: {
-                                                                opacity: 0,
-                                                                scale: 0.8,
-                                                                filter: "blur(12px)"
-                                                            },
-                                                            transition: {
-                                                                duration: 0.7,
-                                                                ease: "easeInOut"
-                                                            },
-                                                            className: "bg-gradient-to-r from-[#2A50F8] via-primary-500 to-secondary-500 bg-clip-text text-transparent font-bold",
-                                                            style: {
-                                                                display: "inline-block"
-                                                            },
-                                                            children: rotatingWords[currentWord]
-                                                        }, rotatingWords[currentWord])
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                                "Laboratuvar",
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                                "\xc7\xf6z\xfcmleri"
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
-                                            className: "text-body text-neutral-600 max-w-lg",
-                                            children: "Laboratuvar teknolojilerinde 20+ yıllık deneyimimizle, g\xfcvenilir analiz cihazları, otomasyon sistemleri ve anahtar teslim laboratuvar kurulum hizmetleri sunuyoruz."
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                                    initial: {
-                                        opacity: 0,
-                                        y: 20
-                                    },
-                                    animate: {
-                                        opacity: 1,
-                                        y: 0
-                                    },
-                                    transition: {
-                                        delay: 0.4,
-                                        duration: 0.6
-                                    },
-                                    className: "flex flex-wrap gap-3",
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("a", {
-                                            href: "/cozumler",
-                                            className: "btn-primary px-5 py-2.5",
-                                            children: [
-                                                "\xc7\xf6z\xfcmlerimizi Keşfedin",
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ArrowRightIcon, {
-                                                    className: "w-4 h-4"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("button", {
-                                            className: "btn-outline px-5 py-2.5 group",
-                                            onClick: ()=>{
-                                                const videoSection = document.getElementById("tanitim-videosu");
-                                                if (videoSection) {
-                                                    videoSection.scrollIntoView({
-                                                        behavior: "smooth",
-                                                        block: "center"
-                                                    });
-                                                }
-                                            },
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_PlayIcon, {
-                                                    className: "w-4 h-4 group-hover:scale-110 transition-transform"
-                                                }),
-                                                "Tanıtım Videosu"
-                                            ]
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                                    initial: {
-                                        opacity: 0,
-                                        y: 20
-                                    },
-                                    animate: {
-                                        opacity: 1,
-                                        y: 0
-                                    },
-                                    transition: {
-                                        delay: 0.6,
-                                        duration: 0.6
-                                    },
-                                    className: "flex flex-row flex-wrap justify-start gap-6 pt-4 border-t border-neutral-200",
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                    className: "text-xl lg:text-2xl font-bold text-[#2A50F8]",
-                                                    children: "500+"
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                    className: "text-caption text-neutral-600",
-                                                    children: "Tamamlanan Proje"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                    className: "text-xl lg:text-2xl font-bold text-secondary-600",
-                                                    children: "20+"
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                    className: "text-caption text-neutral-600",
-                                                    children: "Yıllık Deneyim"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                    className: "text-xl lg:text-2xl font-bold text-accent-600",
-                                                    children: "1000+"
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                    className: "text-caption text-neutral-600",
-                                                    children: "Mutlu M\xfcşteri"
-                                                })
-                                            ]
-                                        })
-                                    ]
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                            ref: containerRef,
-                            initial: {
-                                opacity: 0,
-                                x: 50
-                            },
-                            animate: {
-                                opacity: 1,
-                                x: 0
-                            },
-                            transition: {
-                                duration: 0.8
-                            },
-                            className: "relative",
-                            style: {
-                                opacity
-                            },
-                            children: [
-                                /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                                    className: "relative p-6 rounded-3xl bg-white/60 backdrop-blur-xl border border-white/40 shadow-2xl",
-                                    style: {
-                                        y: y1
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                            className: "absolute inset-0 rounded-3xl bg-gradient-to-br from-blue-50/50 via-purple-50/30 to-pink-50/50"
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                            className: "absolute top-4 right-4 w-16 h-16 bg-gradient-to-br from-primary-200/60 to-secondary-200/60 rounded-full blur-2xl"
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                            className: "relative z-10 space-y-4",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                    className: "grid grid-cols-2 gap-3",
-                                                    children: features.map((feature, index)=>{
-                                                        const IconComponent = feature.icon;
-                                                        const isHovered = hoveredFeature === index;
-                                                        return /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                                                            initial: {
-                                                                opacity: 0,
-                                                                scale: 0.8,
-                                                                rotateY: -15
-                                                            },
-                                                            animate: {
-                                                                opacity: 1,
-                                                                scale: 1,
-                                                                rotateY: 0
-                                                            },
-                                                            transition: {
-                                                                delay: 0.8 + feature.delay,
-                                                                duration: 0.6,
-                                                                type: "spring",
-                                                                stiffness: 100
-                                                            },
-                                                            whileHover: {
-                                                                scale: 1.02,
-                                                                y: -2,
-                                                                transition: {
-                                                                    duration: 0.2
-                                                                }
-                                                            },
-                                                            style: {
-                                                                y: y2
-                                                            },
-                                                            className: "group relative cursor-pointer",
-                                                            onMouseEnter: ()=>setHoveredFeature(index),
-                                                            onMouseLeave: ()=>setHoveredFeature(null),
-                                                            children: [
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                                    className: "absolute inset-0 -rotate-45 rounded-2xl bg-gradient-to-br opacity-10 group-hover:opacity-20 transition-opacity duration-300",
-                                                                    style: {
-                                                                        background: `linear-gradient(135deg, ${feature.gradient.replace("from-", "").replace("to-", ", ")})`,
-                                                                        clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)"
-                                                                    }
-                                                                }),
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                                                    className: `relative p-4 rounded-2xl bg-white/80 backdrop-blur-sm border border-white/60 shadow-lg transition-all duration-300 ${isHovered ? "shadow-xl border-white/80" : ""}`,
-                                                                    animate: {
-                                                                        backgroundColor: isHovered ? "rgba(255,255,255,0.95)" : "rgba(255,255,255,0.8)"
-                                                                    },
-                                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                                        className: "flex items-center gap-4",
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                                                className: "relative flex-shrink-0",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                                                                        className: `w-12 h-12 rounded-xl bg-gradient-to-br ${feature.gradient} p-3 group-hover:scale-110 transition-transform duration-300 shadow-lg`,
-                                                                                        animate: {
-                                                                                            rotate: isHovered ? 5 : 0
-                                                                                        },
-                                                                                        transition: {
-                                                                                            duration: 0.3
-                                                                                        },
-                                                                                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(IconComponent, {
-                                                                                            className: "w-full h-full text-white"
-                                                                                        })
-                                                                                    }),
-                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                                                                        className: "absolute -top-1 -right-1",
-                                                                                        initial: {
-                                                                                            scale: 0
-                                                                                        },
-                                                                                        animate: {
-                                                                                            scale: isHovered ? 1 : 0
-                                                                                        },
-                                                                                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_CheckCircleIcon, {
-                                                                                            className: "w-4 h-4 text-green-500"
-                                                                                        })
-                                                                                    })
-                                                                                ]
-                                                                            }),
-                                                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                                                className: "flex-1 min-w-0",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
-                                                                                        className: "font-semibold text-sm text-neutral-900 leading-tight mb-1",
-                                                                                        children: feature.title
-                                                                                    }),
-                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.p, {
-                                                                                        className: "text-xs text-neutral-600 leading-relaxed",
-                                                                                        animate: {
-                                                                                            opacity: isHovered ? 1 : 0.8
-                                                                                        },
-                                                                                        children: feature.description
-                                                                                    }),
-                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                                                                        className: "h-1 bg-neutral-100 rounded-full overflow-hidden mt-2",
-                                                                                        initial: {
-                                                                                            opacity: 0
-                                                                                        },
-                                                                                        animate: {
-                                                                                            opacity: isHovered ? 1 : 0
-                                                                                        },
-                                                                                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                                                                            className: `h-full bg-gradient-to-r ${feature.gradient} rounded-full`,
-                                                                                            initial: {
-                                                                                                width: 0
-                                                                                            },
-                                                                                            animate: {
-                                                                                                width: isHovered ? "85%" : 0
-                                                                                            },
-                                                                                            transition: {
-                                                                                                duration: 0.8,
-                                                                                                delay: 0.2
-                                                                                            }
-                                                                                        })
-                                                                                    })
-                                                                                ]
-                                                                            })
-                                                                        ]
-                                                                    })
-                                                                }),
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* AnimatePresence */.M_, {
-                                                                    children: isHovered && /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                                                        className: "absolute inset-0 pointer-events-none",
-                                                                        initial: {
-                                                                            opacity: 0
-                                                                        },
-                                                                        animate: {
-                                                                            opacity: 1
-                                                                        },
-                                                                        exit: {
-                                                                            opacity: 0
-                                                                        },
-                                                                        children: [
-                                                                            ...Array(3)
-                                                                        ].map((_, i)=>/*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                                                                className: `absolute w-1 h-1 bg-gradient-to-r ${feature.gradient} rounded-full`,
-                                                                                initial: {
-                                                                                    x: "50%",
-                                                                                    y: "50%",
-                                                                                    scale: 0
-                                                                                },
-                                                                                animate: {
-                                                                                    x: `${50 + (i - 1) * 30}%`,
-                                                                                    y: `${30 + i * 20}%`,
-                                                                                    scale: 1
-                                                                                },
-                                                                                transition: {
-                                                                                    duration: 0.6,
-                                                                                    delay: i * 0.1
-                                                                                }
-                                                                            }, i))
-                                                                    })
-                                                                })
-                                                            ]
-                                                        }, index);
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                                    initial: {
-                                                        opacity: 0,
-                                                        scale: 0.9
-                                                    },
-                                                    animate: {
-                                                        opacity: 1,
-                                                        scale: 1
-                                                    },
-                                                    transition: {
-                                                        delay: 1.4,
-                                                        duration: 0.6
-                                                    },
-                                                    className: "relative mt-6 overflow-hidden rounded-2xl group cursor-pointer",
-                                                    whileHover: {
-                                                        scale: 1.02
-                                                    },
-                                                    style: {
-                                                        y: y2
-                                                    },
-                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                        className: "relative h-40 bg-gradient-to-r from-neutral-100 to-neutral-50 rounded-2xl overflow-hidden",
-                                                        children: [
-                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* AnimatePresence */.M_, {
-                                                                mode: "wait",
-                                                                initial: false,
-                                                                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                                                    initial: {
-                                                                        opacity: 0,
-                                                                        x: 20
-                                                                    },
-                                                                    animate: {
-                                                                        opacity: 1,
-                                                                        x: 0
-                                                                    },
-                                                                    exit: {
-                                                                        opacity: 0,
-                                                                        x: -20
-                                                                    },
-                                                                    transition: {
-                                                                        duration: 0.5,
-                                                                        ease: "easeInOut"
-                                                                    },
-                                                                    className: "absolute inset-0",
-                                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(next_image["default"], {
-                                                                        src: promoImages[currentImage],
-                                                                        alt: "Modern Laboratuvar",
-                                                                        className: "w-full h-full object-cover",
-                                                                        width: 800,
-                                                                        height: 400,
-                                                                        priority: true,
-                                                                        onLoadingComplete: ()=>setIsImageLoaded(true),
-                                                                        style: {
-                                                                            opacity: isImageLoaded ? 1 : 0,
-                                                                            transition: "opacity 0.3s"
-                                                                        }
-                                                                    })
-                                                                }, currentImage)
-                                                            }),
-                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                                className: "absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent"
-                                                            }),
-                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                                className: "absolute inset-0 bg-gradient-to-r from-primary-500/20 to-secondary-500/20 mix-blend-multiply"
-                                                            }),
-                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                                className: "absolute bottom-4 left-4 right-4",
-                                                                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                                    className: "space-y-1",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("h4", {
-                                                                            className: "text-white text-sm font-semibold drop-shadow-md",
-                                                                            children: "Modern Laboratuvar"
-                                                                        }),
-                                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
-                                                                            className: "text-white/95 text-xs drop-shadow-md",
-                                                                            children: "İleri Teknoloji Ekipmanları"
-                                                                        })
-                                                                    ]
-                                                                })
-                                                            })
-                                                        ]
-                                                    })
-                                                })
-                                            ]
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                    initial: {
-                                        opacity: 0,
-                                        scale: 0,
-                                        rotate: -180
-                                    },
-                                    animate: {
-                                        opacity: 1,
-                                        scale: 1,
-                                        rotate: 0
-                                    },
-                                    transition: {
-                                        delay: 1.6,
-                                        duration: 0.8,
-                                        type: "spring"
-                                    },
-                                    className: "absolute -top-3 -right-3 group cursor-pointer",
-                                    whileHover: {
-                                        scale: 1.1,
-                                        rotate: 5
-                                    },
-                                    children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                        className: "relative",
-                                        children: [
-                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                className: "w-16 h-16 bg-gradient-to-br from-emerald-500 to-green-600 shadow-lg",
-                                                style: {
-                                                    clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)"
-                                                }
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                className: "absolute inset-0 flex flex-col items-center justify-center text-white",
-                                                children: [
-                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                        className: "text-xs font-bold leading-tight",
-                                                        children: "ISO"
-                                                    }),
-                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                        className: "text-xs font-medium leading-tight",
-                                                        children: "9001"
-                                                    })
-                                                ]
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                className: "absolute inset-0 bg-emerald-400/20 blur-xl rounded-full scale-150 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                                            })
-                                        ]
-                                    })
-                                })
-                            ]
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                initial: {
-                    opacity: 0
-                },
-                animate: {
-                    opacity: 1
-                },
-                transition: {
-                    delay: 2,
-                    duration: 0.5
-                },
-                className: "absolute bottom-8 left-1/2 transform -translate-x-1/2",
-                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                    animate: {
-                        y: [
-                            0,
-                            10,
-                            0
-                        ]
-                    },
-                    transition: {
-                        duration: 2,
-                        repeat: Infinity
-                    },
-                    className: "w-6 h-10 border-2 border-neutral-300 rounded-full flex justify-center",
-                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                        animate: {
-                            y: [
-                                0,
-                                12,
-                                0
-                            ]
-                        },
-                        transition: {
-                            duration: 2,
-                            repeat: Infinity,
-                            delay: 0.5
-                        },
-                        className: "w-1 h-3 bg-neutral-400 rounded-full mt-2"
-                    })
-                })
-            })
-        ]
-    });
-}
-
-// EXTERNAL MODULE: ./node_modules/react-intersection-observer/dist/index.mjs
-var dist = __webpack_require__(6493);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/BeakerIcon.js
-var outline_esm_BeakerIcon = __webpack_require__(3238);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ClockIcon.js
-var ClockIcon = __webpack_require__(854);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/CogIcon.js
-var outline_esm_CogIcon = __webpack_require__(7213);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/GlobeAltIcon.js
-var GlobeAltIcon = __webpack_require__(2305);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/LightBulbIcon.js
-var LightBulbIcon = __webpack_require__(8919);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ShieldCheckIcon.js
-var outline_esm_ShieldCheckIcon = __webpack_require__(8996);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/TrophyIcon.js
-var TrophyIcon = __webpack_require__(9005);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/UsersIcon.js
-var UsersIcon = __webpack_require__(8103);
-;// CONCATENATED MODULE: __barrel_optimize__?names=BeakerIcon,ClockIcon,CogIcon,GlobeAltIcon,LightBulbIcon,ShieldCheckIcon,TrophyIcon,UsersIcon!=!./node_modules/@heroicons/react/24/outline/esm/index.js
-
-
-
-
-
-
-
-
-
-;// CONCATENATED MODULE: ./src/components/sections/Features.tsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-const Features_features = [
-    {
-        icon: outline_esm_BeakerIcon/* default */.Z,
-        title: "Gelişmiş Analiz Teknolojileri",
-        description: "En son teknoloji analiz cihazları ile y\xfcksek hassasiyetli \xf6l\xe7\xfcmler",
-        color: "from-primary-500 to-primary-600"
-    },
-    {
-        icon: outline_esm_CogIcon/* default */.Z,
-        title: "Otomasyon Sistemleri",
-        description: "Akıllı laboratuvar otomasyon \xe7\xf6z\xfcmleri ile verimliliği artırın",
-        color: "from-secondary-500 to-secondary-600"
-    },
-    {
-        icon: outline_esm_ShieldCheckIcon/* default */.Z,
-        title: "Kalite G\xfcvencesi",
-        description: "ISO standartlarında hizmet ve sertifikalı \xe7\xf6z\xfcmler",
-        color: "from-accent-500 to-accent-600"
-    },
-    {
-        icon: ClockIcon/* default */.Z,
-        title: "24/7 Teknik Destek",
-        description: "Kesintisiz hizmet i\xe7in s\xfcrekli teknik destek ve bakım",
-        color: "from-orange-500 to-red-500"
-    },
-    {
-        icon: UsersIcon/* default */.Z,
-        title: "Uzman Ekip",
-        description: "Alanında uzman m\xfchendis ve teknisyen kadrosu",
-        color: "from-purple-500 to-pink-500"
-    },
-    {
-        icon: GlobeAltIcon/* default */.Z,
-        title: "Global \xc7\xf6z\xfcmler",
-        description: "Uluslararası standartlarda yerel hizmet anlayışı",
-        color: "from-teal-500 to-cyan-500"
-    },
-    {
-        icon: TrophyIcon/* default */.Z,
-        title: "20+ Yıl Deneyim",
-        description: "Sekt\xf6rdeki k\xf6kl\xfc deneyimimiz g\xfcvencesinde",
-        color: "from-yellow-500 to-orange-500"
-    },
-    {
-        icon: LightBulbIcon/* default */.Z,
-        title: "İnovatif Yaklaşım",
-        description: "S\xfcrekli gelişim ve yenilik\xe7i \xe7\xf6z\xfcmler",
-        color: "from-indigo-500 to-blue-500"
-    }
-];
-function Features() {
-    const [ref, inView] = (0,dist/* useInView */.YD)({
-        triggerOnce: true,
-        threshold: 0.1
-    });
-    return /*#__PURE__*/ (0,jsx_runtime.jsx)("section", {
-        ref: ref,
-        className: "py-12 lg:py-16 bg-white",
-        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-            className: "container-custom",
-            children: [
-                /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                    initial: {
-                        opacity: 0,
-                        y: 30
-                    },
-                    animate: inView ? {
-                        opacity: 1,
-                        y: 0
-                    } : {},
-                    transition: {
-                        duration: 0.6
-                    },
-                    className: "text-center space-y-3 mb-10",
-                    children: [
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("h2", {
-                            className: "text-gradient",
-                            children: "Neden Protek Analitik?"
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
-                            className: "text-body text-neutral-600 max-w-2xl mx-auto",
-                            children: "Laboratuvar teknolojilerinde \xf6nc\xfc konumumuz, kaliteli hizmet anlayışımız ve m\xfcşteri odaklı yaklaşımımızla sekt\xf6rde fark yaratan \xe7\xf6z\xfcmler sunuyoruz."
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                    className: "grid md:grid-cols-2 lg:grid-cols-4 gap-6",
-                    children: Features_features.map((feature, index)=>{
-                        const IconComponent = feature.icon;
-                        return /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                            initial: {
-                                opacity: 0,
-                                y: 30
-                            },
-                            animate: inView ? {
-                                opacity: 1,
-                                y: 0
-                            } : {},
-                            transition: {
-                                duration: 0.6,
-                                delay: index * 0.1
-                            },
-                            className: "group",
-                            children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                className: "card-hover p-4 text-center space-y-3 h-full",
-                                children: [
-                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                        className: "mx-auto w-12 h-12 relative",
-                                        children: [
-                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                className: `absolute inset-0 bg-gradient-to-r ${feature.color} rounded-xl rotate-6 group-hover:rotate-12 transition-transform duration-300`
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                className: `relative bg-gradient-to-r ${feature.color} rounded-xl flex items-center justify-center w-full h-full group-hover:scale-110 transition-transform duration-300`,
-                                                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(IconComponent, {
-                                                    className: "w-6 h-6 text-white"
-                                                })
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                        className: "space-y-1",
-                                        children: [
-                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("h4", {
-                                                className: "font-semibold text-neutral-900 group-hover:text-primary-600 transition-colors text-sm leading-tight",
-                                                children: feature.title
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
-                                                className: "text-caption text-neutral-600 leading-snug",
-                                                children: feature.description
-                                            })
-                                        ]
-                                    })
-                                ]
-                            })
-                        }, index);
-                    })
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                    initial: {
-                        opacity: 0,
-                        y: 30
-                    },
-                    animate: inView ? {
-                        opacity: 1,
-                        y: 0
-                    } : {},
-                    transition: {
-                        duration: 0.6,
-                        delay: 0.8
-                    },
-                    className: "text-center mt-10",
-                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "bg-gradient-to-r from-primary-50 to-secondary-50 rounded-2xl p-6 lg:p-8",
-                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                            className: "space-y-4",
-                            children: [
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
-                                    className: "font-bold text-neutral-900 text-lg lg:text-xl",
-                                    children: "Laboratuvarınız İ\xe7in En İyi \xc7\xf6z\xfcm\xfc Birlikte Bulalım"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
-                                    className: "text-body-sm text-neutral-600 max-w-xl mx-auto",
-                                    children: "Uzman ekibimiz, ihtiya\xe7larınıza \xf6zel laboratuvar \xe7\xf6z\xfcmleri geliştirmek i\xe7in sizlerle birlikte \xe7alışmaya hazır."
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                    className: "flex flex-wrap justify-center gap-3",
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                            href: "/teklif-al",
-                                            className: "btn-primary",
-                                            children: "\xdccretsiz Teklif Alın"
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                            href: "/iletisim",
-                                            className: "btn-outline",
-                                            children: "Uzmanlarımızla G\xf6r\xfcş\xfcn"
-                                        })
-                                    ]
-                                })
-                            ]
-                        })
-                    })
-                })
-            ]
-        })
-    });
-}
-
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(6226);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/AcademicCapIcon.js
-var AcademicCapIcon = __webpack_require__(7080);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ArrowRightIcon.js
-var outline_esm_ArrowRightIcon = __webpack_require__(7268);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/CheckIcon.js
-var CheckIcon = __webpack_require__(655);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/RocketLaunchIcon.js
-var RocketLaunchIcon = __webpack_require__(1043);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/SparklesIcon.js
-var SparklesIcon = __webpack_require__(2359);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/WrenchScrewdriverIcon.js
-var WrenchScrewdriverIcon = __webpack_require__(238);
-;// CONCATENATED MODULE: __barrel_optimize__?names=AcademicCapIcon,ArrowRightIcon,BeakerIcon,CheckIcon,CogIcon,RocketLaunchIcon,ShieldCheckIcon,SparklesIcon,WrenchScrewdriverIcon!=!./node_modules/@heroicons/react/24/outline/esm/index.js
-
-
-
-
-
-
-
-
-
-
-;// CONCATENATED MODULE: ./src/components/sections/Solutions.tsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-
-
-
-const solutions = [
-    {
-        id: "endustriyel",
-        icon: outline_esm_BeakerIcon/* default */.Z,
-        title: "End\xfcstriyel Laboratuvar Kurulumu",
-        subtitle: "Modern ve verimli laboratuvar alanları",
-        description: "Sekt\xf6r\xfcn\xfcze \xf6zel tasarlanmış, en son teknoloji ile donatılmış laboratuvar kurulum \xe7\xf6z\xfcmleri sunuyoruz. Planlama aşamasından teslime kadar her adımda yanınızdayız.",
-        image: "/images/lab-1.jpg",
-        features: [
-            "Laboratuvar Dizayn ve Planlama",
-            "Cihaz Se\xe7imi ve Entegrasyonu",
-            "İş G\xfcvenliği Sistemleri",
-            "Otomasyon ve Veri Y\xf6netimi",
-            "7/24 Teknik Destek"
-        ],
-        benefits: [
-            "Verimlilik artışı %40",
-            "Maliyet tasarrufu %25",
-            "Hızlı kurulum s\xfcreci"
-        ],
-        href: "/cozumler/endustriyel-laboratuvar-kurulumu",
-        badge: "Pop\xfcler"
-    },
-    {
-        id: "otomasyon",
-        icon: outline_esm_CogIcon/* default */.Z,
-        title: "Laboratuvar Otomasyon Sistemleri",
-        subtitle: "Akıllı otomasyon ile verimlilik",
-        description: "LIMS yazılımları, robotik sistemler ve akıllı sens\xf6rlerle laboratuvar s\xfcre\xe7lerinizi tamamen otomatize edin. İnsan hatasını minimuma indirirken verimliliği maksimuma \xe7ıkarın.",
-        image: "/images/lab-2.jpg",
-        features: [
-            "LIMS Yazılım Entegrasyonu",
-            "Robotik Numune İşleme",
-            "Akıllı Sens\xf6r Ağları",
-            "Ger\xe7ek Zamanlı Monitoring",
-            "Uzaktan Kontrol Sistemi"
-        ],
-        benefits: [
-            "Hata oranı %90 azalma",
-            "İşlem hızı 3x artış",
-            "Tam izlenebilirlik"
-        ],
-        href: "/cozumler/otomasyon-sistemleri",
-        badge: "Yenilik\xe7i"
-    },
-    {
-        id: "anahtar-teslim",
-        icon: WrenchScrewdriverIcon/* default */.Z,
-        title: "Anahtar Teslim Projeler",
-        subtitle: "Baştan sona komple \xe7\xf6z\xfcm",
-        description: "Konsept tasarımından devreye almaya kadar t\xfcm s\xfcre\xe7leri y\xf6netiyoruz. Tek noktadan koordinasyon ile proje s\xfcrenizi kısaltır, kaliteyi artırırız.",
-        image: "/images/lab-3.jpg",
-        features: [
-            "Proje Y\xf6netimi ve Koordinasyon",
-            "Anahtar Teslim Uygulama",
-            "Eğitim ve Operasyonel Destek",
-            "Kalite G\xfcvence Sistemleri",
-            "Garanti ve Bakım Hizmetleri"
-        ],
-        benefits: [
-            "Tek koordinat\xf6r avantajı",
-            "Zamanında teslim garantisi",
-            "Uzun d\xf6nem destek"
-        ],
-        href: "/cozumler/anahtar-teslim-projeler",
-        badge: "G\xfcvenilir"
-    },
-    {
-        id: "arge",
-        icon: AcademicCapIcon/* default */.Z,
-        title: "AR-GE Laboratuvarları",
-        subtitle: "Araştırma odaklı \xf6zel tasarım",
-        description: "\xdcniversiteler ve araştırma kurumları i\xe7in \xf6zel geliştirilen, esneklik ve genişletilebilirlik odaklı laboratuvar \xe7\xf6z\xfcmleri.",
-        image: "/images/lab-4.jpg",
-        features: [
-            "Mod\xfcler ve Esnek Tasarım",
-            "Araştırma Ekipmanları",
-            "Akademik İş Birlikleri",
-            "\xd6ğrenci Eğitim Programları",
-            "S\xfcrd\xfcr\xfclebilir Teknolojiler"
-        ],
-        benefits: [
-            "Araştırma kapasitesi artışı",
-            "Akademik iş birliği fırsatları",
-            "S\xfcrd\xfcr\xfclebilir \xe7\xf6z\xfcmler"
-        ],
-        href: "/cozumler/ar-ge-laboratuvarlari",
-        badge: "Akademik"
-    },
-    {
-        id: "kalite-guvence",
-        icon: outline_esm_ShieldCheckIcon/* default */.Z,
-        title: "Kalite G\xfcvence Sistemleri",
-        subtitle: "ISO standartları ile kalite y\xf6netimi",
-        description: "ISO 17025, GLP ve GMP standartlarına uygun kalite g\xfcvence sistemleri kurarak laboratuvarınızın akreditasyon s\xfcre\xe7lerini destekliyoruz.",
-        image: "/images/lab-7.jpg",
-        features: [
-            "ISO 17025 Akreditasyon Desteği",
-            "Kalite Y\xf6netim Sistemleri",
-            "Dok\xfcman Y\xf6netimi",
-            "İ\xe7 Denetim S\xfcre\xe7leri",
-            "S\xfcrekli İyileştirme Programları"
-        ],
-        benefits: [
-            "Uluslararası tanınırlık",
-            "M\xfcşteri g\xfcveni artışı",
-            "S\xfcre\xe7 standardizasyonu"
-        ],
-        href: "/cozumler/kalite-guvence-sistemleri",
-        badge: "Sertifikalı"
-    }
-];
-function Solutions() {
-    const [ref, inView] = (0,dist/* useInView */.YD)({
-        triggerOnce: true,
-        threshold: 0.1
-    });
-    const [activeTab, setActiveTab] = (0,react.useState)(0);
-    const activeSolution = solutions[activeTab];
-    const [isPaused, setIsPaused] = (0,react.useState)(false);
-    // Auto-cycle through tabs
-    (0,react.useEffect)(()=>{
-        if (isPaused) return;
-        const interval = setInterval(()=>{
-            setActiveTab((prev)=>(prev + 1) % solutions.length);
-        }, 10000) // 10 saniye olarak yavaşlattık
-        ;
-        return ()=>clearInterval(interval);
-    }, [
-        isPaused
-    ]);
-    const getBadgeColor = (badge)=>{
-        switch(badge){
-            case "Pop\xfcler":
-                return "bg-gradient-to-r from-orange-500 to-red-500";
-            case "Yenilik\xe7i":
-                return "bg-gradient-to-r from-purple-500 to-blue-500";
-            case "G\xfcvenilir":
-                return "bg-gradient-to-r from-green-500 to-emerald-500";
-            case "Akademik":
-                return "bg-gradient-to-r from-indigo-500 to-purple-500";
-            case "Sertifikalı":
-                return "bg-gradient-to-r from-cyan-500 to-teal-500";
-            default:
-                return "bg-gradient-to-r from-primary-500 to-secondary-500";
-        }
-    };
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("section", {
-        ref: ref,
-        className: "py-16 lg:py-20 bg-gradient-to-br from-[#001328] via-[#000a1a] to-black relative overflow-hidden",
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "absolute inset-0 opacity-30",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "absolute inset-0 bg-gradient-to-r from-[#001328]/20 to-black/30"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "absolute top-0 left-0 w-96 h-96 bg-[#001328]/10 rounded-full blur-3xl shadow-2xl"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "absolute bottom-0 right-0 w-96 h-96 bg-[#001328]/15 rounded-full blur-3xl shadow-2xl"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "absolute top-1/2 left-1/2 w-64 h-64 bg-[#001328]/8 rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2 shadow-xl"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-[#001328]/10"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "container-custom relative z-10",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                        initial: {
-                            opacity: 0,
-                            y: 30
-                        },
-                        animate: inView ? {
-                            opacity: 1,
-                            y: 0
-                        } : {},
-                        transition: {
-                            duration: 0.6
-                        },
-                        className: "text-center space-y-4 mb-12",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                className: "inline-flex items-center gap-2 px-3 py-1.5 bg-white/10 backdrop-blur-sm rounded-full border border-white/20",
-                                children: [
-                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(SparklesIcon/* default */.Z, {
-                                        className: "w-4 h-4 text-secondary-400"
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                        className: "text-white/90 text-label",
-                                        children: "\xc7\xf6z\xfcmlerimiz"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("h2", {
-                                className: "font-bold text-white",
-                                children: [
-                                    "Laboratuvarınız İ\xe7in",
-                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                        className: "block bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent",
-                                        children: "\xd6zel Tasarlanmış \xc7\xf6z\xfcmler"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
-                                className: "text-body-lg text-neutral-300 max-w-2xl mx-auto",
-                                children: "25+ yıllık deneyimimizle sekt\xf6r\xfcn\xfcze \xf6zel, yenilik\xe7i ve s\xfcrd\xfcr\xfclebilir laboratuvar \xe7\xf6z\xfcmleri sunuyoruz."
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "max-w-5xl mx-auto",
-                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                            className: "grid lg:grid-cols-12 gap-4 lg:gap-6",
-                            children: [
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                    className: "lg:col-span-5",
-                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                        initial: {
-                                            opacity: 0,
-                                            x: -30
-                                        },
-                                        animate: inView ? {
-                                            opacity: 1,
-                                            x: 0
-                                        } : {},
-                                        transition: {
-                                            duration: 0.6,
-                                            delay: 0.2
-                                        },
-                                        className: "grid grid-rows-5 gap-2 h-full",
-                                        children: solutions.map((solution, index)=>{
-                                            const IconComponent = solution.icon;
-                                            const isActive = activeTab === index;
-                                            return /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.button, {
-                                                onClick: ()=>setActiveTab(index),
-                                                onMouseEnter: ()=>setIsPaused(true),
-                                                onMouseLeave: ()=>setIsPaused(false),
-                                                className: `w-full text-left p-3 lg:p-4 rounded-xl border transition-all duration-500 group h-full flex flex-col justify-between ${isActive ? "bg-white/10 border-white/30 backdrop-blur-sm scale-[1.02]" : "bg-white/5 border-white/10 hover:bg-white/8 hover:border-white/20"}`,
-                                                whileHover: {
-                                                    scale: isActive ? 1.02 : 1.01
-                                                },
-                                                whileTap: {
-                                                    scale: 0.98
-                                                },
-                                                children: [
-                                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                        className: "flex items-start gap-3 flex-grow",
-                                                        children: [
-                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                                className: `w-8 h-8 rounded-lg flex items-center justify-center transition-all duration-300 ${isActive ? "bg-gradient-to-br from-primary-500 to-secondary-500 scale-110" : "bg-white/10 group-hover:bg-white/20"}`,
-                                                                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(IconComponent, {
-                                                                    className: `w-4 h-4 transition-colors ${isActive ? "text-white" : "text-white/70"}`
-                                                                })
-                                                            }),
-                                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                                className: "flex-1 min-w-0",
-                                                                children: [
-                                                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                                        className: "flex items-center justify-between gap-2 mb-1",
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("h5", {
-                                                                                className: `text-sm font-semibold transition-colors leading-tight ${isActive ? "text-white" : "text-white/80"}`,
-                                                                                children: solution.title
-                                                                            }),
-                                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                                                className: `px-1.5 py-0.5 text-caption font-medium text-white rounded-full flex-shrink-0 ${getBadgeColor(solution.badge)}`,
-                                                                                children: solution.badge
-                                                                            })
-                                                                        ]
-                                                                    }),
-                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
-                                                                        className: `text-caption transition-colors leading-tight ${isActive ? "text-white/90" : "text-white/60"}`,
-                                                                        children: solution.subtitle
-                                                                    })
-                                                                ]
-                                                            })
-                                                        ]
-                                                    }),
-                                                    isActive && !isPaused && /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                                        className: "mt-3 w-full h-0.5 bg-white/20 rounded-full overflow-hidden",
-                                                        initial: {
-                                                            opacity: 0
-                                                        },
-                                                        animate: {
-                                                            opacity: 1
-                                                        },
-                                                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                                            className: "h-full bg-gradient-to-r from-primary-400 to-secondary-400 rounded-full",
-                                                            initial: {
-                                                                width: "0%"
-                                                            },
-                                                            animate: {
-                                                                width: "100%"
-                                                            },
-                                                            transition: {
-                                                                duration: 10,
-                                                                ease: "linear"
-                                                            }
-                                                        }, activeTab)
-                                                    })
-                                                ]
-                                            }, solution.id);
-                                        })
-                                    })
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                    className: "lg:col-span-7",
-                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* AnimatePresence */.M_, {
-                                        mode: "wait",
-                                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                                            initial: {
-                                                opacity: 0,
-                                                x: 30
-                                            },
-                                            animate: {
-                                                opacity: 1,
-                                                x: 0
-                                            },
-                                            exit: {
-                                                opacity: 0,
-                                                x: -30
-                                            },
-                                            transition: {
-                                                duration: 0.5
-                                            },
-                                            className: "bg-white/5 backdrop-blur-sm rounded-3xl border border-white/10 overflow-hidden",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                    className: "relative h-40 lg:h-48 overflow-hidden",
-                                                    children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(next_image["default"], {
-                                                            src: activeSolution.image,
-                                                            alt: activeSolution.title,
-                                                            className: "w-full h-full object-cover transition-transform duration-700 hover:scale-110",
-                                                            fill: true,
-                                                            sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                            className: "absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                            className: "absolute top-4 left-4",
-                                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                                className: `px-2 py-1 text-caption font-medium text-white rounded-full ${getBadgeColor(activeSolution.badge)}`,
-                                                                children: activeSolution.badge
-                                                            })
-                                                        })
-                                                    ]
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                    className: "p-4 lg:p-5 space-y-3",
-                                                    children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                            children: [
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
-                                                                    className: "text-lg font-bold text-white mb-2",
-                                                                    children: activeSolution.title
-                                                                }),
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
-                                                                    className: "text-neutral-300 text-body-sm",
-                                                                    children: activeSolution.description
-                                                                })
-                                                            ]
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                            className: "grid md:grid-cols-2 gap-4",
-                                                            children: [
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("h6", {
-                                                                            className: "text-white font-semibold mb-3 flex items-center gap-2",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(CheckIcon/* default */.Z, {
-                                                                                    className: "w-4 h-4 text-primary-400"
-                                                                                }),
-                                                                                "\xd6zellikler"
-                                                                            ]
-                                                                        }),
-                                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("ul", {
-                                                                            className: "space-y-2",
-                                                                            children: activeSolution.features.slice(0, 3).map((feature, index)=>/*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.li, {
-                                                                                    initial: {
-                                                                                        opacity: 0,
-                                                                                        x: -20
-                                                                                    },
-                                                                                    animate: {
-                                                                                        opacity: 1,
-                                                                                        x: 0
-                                                                                    },
-                                                                                    transition: {
-                                                                                        delay: index * 0.1
-                                                                                    },
-                                                                                    className: "flex items-center gap-2 text-caption text-neutral-300",
-                                                                                    children: [
-                                                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                                                            className: "w-1 h-1 bg-primary-400 rounded-full"
-                                                                                        }),
-                                                                                        feature
-                                                                                    ]
-                                                                                }, index))
-                                                                        })
-                                                                    ]
-                                                                }),
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("h6", {
-                                                                            className: "text-white font-semibold mb-3 flex items-center gap-2",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(RocketLaunchIcon/* default */.Z, {
-                                                                                    className: "w-4 h-4 text-secondary-400"
-                                                                                }),
-                                                                                "Avantajlar"
-                                                                            ]
-                                                                        }),
-                                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("ul", {
-                                                                            className: "space-y-2",
-                                                                            children: activeSolution.benefits.map((benefit, index)=>/*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.li, {
-                                                                                    initial: {
-                                                                                        opacity: 0,
-                                                                                        x: -20
-                                                                                    },
-                                                                                    animate: {
-                                                                                        opacity: 1,
-                                                                                        x: 0
-                                                                                    },
-                                                                                    transition: {
-                                                                                        delay: index * 0.1 + 0.3
-                                                                                    },
-                                                                                    className: "flex items-center gap-2 text-caption text-neutral-300",
-                                                                                    children: [
-                                                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(SparklesIcon/* default */.Z, {
-                                                                                            className: "w-3 h-3 text-secondary-400"
-                                                                                        }),
-                                                                                        benefit
-                                                                                    ]
-                                                                                }, index))
-                                                                        })
-                                                                    ]
-                                                                })
-                                                            ]
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                            className: "flex flex-col sm:flex-row gap-3 pt-2",
-                                                            children: [
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)(next_link["default"], {
-                                                                    href: activeSolution.href,
-                                                                    className: "flex-1 bg-[#001328] text-white px-5 py-3 rounded-xl font-semibold hover:bg-gradient-to-r hover:from-[#001328] hover:via-[#2A50F8] hover:to-[#FF4766] transition-all duration-700 hover:scale-110 transform hover:-translate-y-2 shadow-lg hover:shadow-2xl flex items-center justify-center gap-2 group text-body-sm relative overflow-hidden before:absolute before:top-0 before:left-[-100%] before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent before:transition-all before:duration-600 hover:before:left-[100%]",
-                                                                    children: [
-                                                                        "Detayları İncele",
-                                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(outline_esm_ArrowRightIcon/* default */.Z, {
-                                                                            className: "w-4 h-4 group-hover:translate-x-1 transition-all duration-300"
-                                                                        })
-                                                                    ]
-                                                                }),
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(next_link["default"], {
-                                                                    href: "/teklif-al",
-                                                                    className: "px-5 py-3 bg-white/10 text-white rounded-xl font-semibold hover:bg-white/20 transition-colors border border-white/20 text-body-sm text-center",
-                                                                    children: "Teklif Al"
-                                                                })
-                                                            ]
-                                                        })
-                                                    ]
-                                                })
-                                            ]
-                                        }, activeTab)
-                                    })
-                                })
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                        initial: {
-                            opacity: 0,
-                            y: 30
-                        },
-                        animate: inView ? {
-                            opacity: 1,
-                            y: 0
-                        } : {},
-                        transition: {
-                            duration: 0.6,
-                            delay: 1
-                        },
-                        className: "text-center mt-12",
-                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)(next_link["default"], {
-                            href: "/cozumler",
-                            className: "inline-flex items-center gap-2 bg-white text-neutral-900 px-6 py-3 rounded-xl font-bold text-base transition-all duration-300 hover:scale-105 hover:shadow-2xl group",
-                            children: [
-                                "T\xfcm \xc7\xf6z\xfcmlerimizi Keşfedin",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)(outline_esm_ArrowRightIcon/* default */.Z, {
-                                    className: "w-5 h-5 group-hover:translate-x-1 transition-transform"
-                                })
-                            ]
-                        })
-                    })
-                ]
-            })
-        ]
-    });
-}
-
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/CubeIcon.js
-var CubeIcon = __webpack_require__(4738);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/FlagIcon.js
-var FlagIcon = __webpack_require__(2270);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/WrenchIcon.js
-var WrenchIcon = __webpack_require__(3327);
-;// CONCATENATED MODULE: __barrel_optimize__?names=ArrowRightIcon,BeakerIcon,CubeIcon,FlagIcon,WrenchIcon!=!./node_modules/@heroicons/react/24/outline/esm/index.js
-
-
-
-
-
-
-// EXTERNAL MODULE: ./src/data/products.ts
-var data_products = __webpack_require__(2757);
-;// CONCATENATED MODULE: ./src/components/sections/Products.tsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-
-
-const categoryList = [
-    {
-        label: "T\xfcm\xfc",
-        key: "all"
-    },
-    ...data_products/* productCategories */.ZH.map((cat)=>({
-            label: cat.name,
-            key: cat.key
-        }))
-];
-// Helper function to generate product URL
-const generateProductUrl = (product)=>{
-    // API'den gelen ürünler için category ve subcategory name'den key'e çevirme
-    const findCategoryKey = (categoryName)=>{
-        const category = data_products/* productCategories */.ZH.find((cat)=>cat.name === categoryName);
-        return category ? category.key : "laboratuvar-ekipmanlari" // fallback
-        ;
-    };
-    const findSubcategoryKey = (categoryName, subcategoryName)=>{
-        const category = data_products/* productCategories */.ZH.find((cat)=>cat.name === categoryName);
-        if (category) {
-            const subcategory = category.subcategories.find((sub)=>sub.name === subcategoryName);
-            if (subcategory) {
-                return subcategory.key;
-            }
-        }
-        // Fallback: subcategory name'den key oluştur
-        return subcategoryName.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").replace(/,/g, "").replace(/\s+/g, "-") || "test-sistemleri";
-    };
-    // Eğer statik ürünse, mevcut mantığı kullan
-    for (const category of data_products/* productCategories */.ZH){
-        for (const subcategory of category.subcategories){
-            if (subcategory.products.some((p)=>p.id === product.id)) {
-                return `/urunler/${category.key}/${subcategory.key}/${product.id}`;
-            }
-        }
-    }
-    // API'den gelen dinamik ürünler için
-    if (product.category && product.subcategory) {
-        const categoryKey = findCategoryKey(product.category);
-        const subcategoryKey = findSubcategoryKey(product.category, product.subcategory);
-        return `/urunler/${categoryKey}/${subcategoryKey}/${product.id}`;
-    }
-    // Son fallback
-    return `/urunler/laboratuvar-ekipmanlari/test-sistemleri/${product.id}`;
-};
-function Products() {
-    const [selected, setSelected] = (0,react.useState)("all");
-    const [selectedSub, setSelectedSub] = (0,react.useState)(null);
-    const [products, setProducts] = (0,react.useState)([]);
-    const [loading, setLoading] = (0,react.useState)(true);
-    const scrollRef = (0,react.useRef)(null);
-    // Fetch products from API
-    const fetchProducts = async ()=>{
-        try {
-            setLoading(true);
-            const response = await fetch("/api/products");
-            const data = await response.json();
-            if (data.success && Array.isArray(data.data)) {
-                setProducts(data.data);
-            } else {
-                console.error("Failed to fetch products:", data);
-            }
-        } catch (error) {
-            console.error("Error fetching products:", error);
-        } finally{
-            setLoading(false);
-        }
-    };
-    (0,react.useEffect)(()=>{
-        fetchProducts();
-    }, []);
-    // Alt kategori listesi
-    const subcategories = selected === "all" ? [] : data_products/* productCategories */.ZH.find((cat)=>cat.key === selected)?.subcategories || [];
-    // Seçili ürünler - API'den gelen ürünleri filtrele
-    let filteredProducts = [];
-    if (selected === "all") {
-        filteredProducts = products;
-    } else if (selectedSub) {
-        filteredProducts = products.filter((product)=>product.category === data_products/* productCategories */.ZH.find((cat)=>cat.key === selected)?.name && product.subcategory === data_products/* productCategories */.ZH.find((cat)=>cat.key === selected)?.subcategories.find((sub)=>sub.key === selectedSub)?.name);
-    } else {
-        filteredProducts = products.filter((product)=>product.category === data_products/* productCategories */.ZH.find((cat)=>cat.key === selected)?.name);
-    }
-    // Yatay scroll fonksiyonları
-    const scroll = (dir)=>{
-        if (!scrollRef.current) return;
-        const { scrollLeft, clientWidth } = scrollRef.current;
-        const scrollAmount = clientWidth * 0.8;
-        scrollRef.current.scrollTo({
-            left: dir === "left" ? scrollLeft - scrollAmount : scrollLeft + scrollAmount,
-            behavior: "smooth"
-        });
-    };
-    if (loading) {
-        return /*#__PURE__*/ (0,jsx_runtime.jsx)("section", {
-            className: "section-padding bg-white",
-            children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "container-custom",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                        className: "text-center space-y-4 mb-8",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)("h2", {
-                                className: "text-gradient",
-                                children: "\xdcr\xfcnlerimiz"
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
-                                className: "text-body-lg text-neutral-600 max-w-3xl mx-auto",
-                                children: "\xdcr\xfcnler y\xfckleniyor..."
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "flex justify-center items-center h-40",
-                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                            className: "animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600"
-                        })
-                    })
-                ]
-            })
-        });
-    }
-    return /*#__PURE__*/ (0,jsx_runtime.jsx)("section", {
-        className: "section-padding bg-white",
-        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-            className: "container-custom",
-            children: [
-                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                    className: "text-center space-y-4 mb-8",
-                    children: [
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("h2", {
-                            className: "text-gradient",
-                            children: "\xdcr\xfcnlerimiz"
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
-                            className: "text-body-lg text-neutral-600 max-w-3xl mx-auto",
-                            children: "Laboratuvarınızın her t\xfcrl\xfc ihtiyacı i\xe7in geniş \xfcr\xfcn yelpazemizle hizmetinizdeyiz."
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                    className: "flex flex-wrap justify-center gap-2 mb-4",
-                    children: categoryList.map((cat)=>/*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
-                            onClick: ()=>{
-                                setSelected(cat.key);
-                                setSelectedSub(null);
-                            },
-                            className: `px-5 py-2 rounded-full border text-body-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2
-                ${selected === cat.key ? "bg-primary-600 text-white border-primary-600 shadow-md" : "bg-white text-primary-600 border-primary-100 hover:bg-primary-50"}`,
-                            children: cat.label
-                        }, cat.key))
-                }),
-                subcategories.length > 0 && /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                    className: "flex flex-wrap justify-center gap-2 mb-6",
-                    children: [
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
-                            onClick: ()=>setSelectedSub(null),
-                            className: `px-4 py-1.5 rounded-full border text-caption font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2
-                  ${selectedSub === null ? "bg-accent-500 text-white border-accent-500 shadow" : "bg-white text-primary-600 border-primary-100 hover:bg-primary-50"}`,
-                            children: "T\xfcm\xfc"
-                        }),
-                        subcategories.map((sub)=>/*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
-                                onClick: ()=>setSelectedSub(sub.key),
-                                className: `px-4 py-1.5 rounded-full border text-caption font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2
-                  ${selectedSub === sub.key ? "bg-accent-500 text-white border-accent-500 shadow" : "bg-white text-primary-600 border-primary-100 hover:bg-primary-50"}`,
-                                children: sub.name
-                            }, sub.key))
-                    ]
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                    className: "relative",
-                    children: [
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
-                            onClick: ()=>scroll("left"),
-                            className: "hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-primary-100 border border-primary-200 rounded-full w-8 h-8 items-center justify-center shadow transition-all",
-                            "aria-label": "Sola kaydır",
-                            style: {
-                                boxShadow: "0 2px 8px 0 rgba(0,0,0,0.07)"
-                            },
-                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("svg", {
-                                width: "16",
-                                height: "16",
-                                fill: "none",
-                                stroke: "currentColor",
-                                strokeWidth: "2",
-                                viewBox: "0 0 24 24",
-                                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("path", {
-                                    d: "M15 19l-7-7 7-7"
-                                })
-                            })
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                            ref: scrollRef,
-                            className: "flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scroll-smooth no-scrollbar",
-                            tabIndex: 0,
-                            style: {
-                                WebkitOverflowScrolling: "touch"
-                            },
-                            children: filteredProducts.map((product, idx)=>/*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                                    className: "min-w-[280px] max-w-[300px] w-full bg-white rounded-2xl shadow-soft border border-neutral-100 group snap-start transition-all duration-500 hover:shadow-xl hover:-translate-y-2 relative overflow-hidden flex flex-col",
-                                    tabIndex: 0,
-                                    whileHover: {
-                                        scale: 1.02
-                                    },
-                                    transition: {
-                                        duration: 0.3
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                            className: "absolute inset-0 bg-gradient-to-br from-primary-50/50 to-secondary-50/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                            className: "absolute top-4 right-4 z-10",
-                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
-                                                className: "p-2 rounded-full bg-white/90 hover:bg-white border border-neutral-200 shadow-sm transition-all duration-300 hover:scale-110",
-                                                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(FlagIcon/* default */.Z, {
-                                                    className: "w-4 h-4 text-neutral-400 hover:text-primary-500 transition-colors"
-                                                })
-                                            })
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                            className: "relative w-full h-40 bg-gradient-to-br from-neutral-50 to-neutral-100 flex items-center justify-center p-4",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                    className: "relative w-full h-28",
-                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(next_image["default"], {
-                                                        src: product.image || "/images/default-product.webp",
-                                                        alt: product.name,
-                                                        fill: true,
-                                                        className: "object-contain transition-transform duration-500 group-hover:scale-110",
-                                                        sizes: "(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw",
-                                                        loading: "lazy"
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                    className: "absolute inset-0 bg-gradient-to-t from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                            className: "p-5 relative z-10 flex-1 flex flex-col",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                    className: "mb-3",
-                                                    children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("h4", {
-                                                            className: "text-lg font-bold text-neutral-900 group-hover:text-primary-600 transition-colors mb-2 leading-tight",
-                                                            children: product.name
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
-                                                            className: "text-body-sm text-neutral-600 line-clamp-2",
-                                                            children: product.description
-                                                        })
-                                                    ]
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                    className: "mb-3",
-                                                    children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("h6", {
-                                                            className: "text-label text-neutral-700 uppercase tracking-wide mb-2 flex items-center gap-2",
-                                                            children: [
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(outline_esm_BeakerIcon/* default */.Z, {
-                                                                    className: "w-3 h-3"
-                                                                }),
-                                                                "\xd6zellikler"
-                                                            ]
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                            className: "flex flex-wrap gap-1",
-                                                            children: [
-                                                                product.features?.slice(0, 3).map((feature, index)=>/*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                                        className: "px-2 py-1 bg-primary-50 text-primary-700 text-caption rounded-md border border-primary-100",
-                                                                        children: feature
-                                                                    }, index)),
-                                                                product.features && product.features.length > 3 && /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
-                                                                    className: "px-2 py-1 bg-neutral-100 text-neutral-600 text-caption rounded-md",
-                                                                    children: [
-                                                                        "+",
-                                                                        product.features.length - 3,
-                                                                        " daha"
-                                                                    ]
-                                                                })
-                                                            ]
-                                                        })
-                                                    ]
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                    className: "mb-4",
-                                                    children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("h6", {
-                                                            className: "text-label text-neutral-700 uppercase tracking-wide mb-2 flex items-center gap-2",
-                                                            children: [
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(CubeIcon/* default */.Z, {
-                                                                    className: "w-3 h-3"
-                                                                }),
-                                                                "Uygulama Alanları"
-                                                            ]
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                            className: "flex flex-wrap gap-1",
-                                                            children: [
-                                                                product.applications?.slice(0, 2).map((app, index)=>/*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                                        className: "px-2 py-1 bg-secondary-50 text-secondary-700 text-caption rounded-md border border-secondary-100",
-                                                                        children: app
-                                                                    }, index)),
-                                                                product.applications && product.applications.length > 2 && /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
-                                                                    className: "px-2 py-1 bg-neutral-100 text-neutral-600 text-xs rounded-md",
-                                                                    children: [
-                                                                        "+",
-                                                                        product.applications.length - 2,
-                                                                        " alan"
-                                                                    ]
-                                                                })
-                                                            ]
-                                                        })
-                                                    ]
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                    className: "flex gap-3 mt-auto",
-                                                    children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("a", {
-                                                            href: generateProductUrl(product),
-                                                            className: "flex-1 bg-[#001328] text-white text-sm font-semibold py-3 px-4 rounded-xl hover:bg-gradient-to-r hover:from-[#001328] hover:via-[#2A50F8] hover:to-[#FF4766] transition-all duration-700 shadow-lg hover:shadow-2xl transform hover:scale-110 hover:-translate-y-2 flex items-center justify-center gap-2 group/btn relative overflow-hidden before:absolute before:top-0 before:left-[-100%] before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent before:transition-all before:duration-600 hover:before:left-[100%]",
-                                                            children: [
-                                                                "İncele",
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(outline_esm_ArrowRightIcon/* default */.Z, {
-                                                                    className: "w-4 h-4 group-hover/btn:translate-x-1 transition-all duration-300"
-                                                                })
-                                                            ]
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
-                                                            className: "p-3 border-2 border-primary-200 text-primary-600 rounded-xl hover:bg-primary-50 hover:border-primary-300 transition-all duration-300 flex items-center justify-center",
-                                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(WrenchIcon/* default */.Z, {
-                                                                className: "w-4 h-4"
-                                                            })
-                                                        })
-                                                    ]
-                                                })
-                                            ]
-                                        })
-                                    ]
-                                }, product.id || idx))
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
-                            onClick: ()=>scroll("right"),
-                            className: "hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-primary-100 border border-primary-200 rounded-full w-8 h-8 items-center justify-center shadow transition-all",
-                            "aria-label": "Sağa kaydır",
-                            style: {
-                                boxShadow: "0 2px 8px 0 rgba(0,0,0,0.07)"
-                            },
-                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("svg", {
-                                width: "16",
-                                height: "16",
-                                fill: "none",
-                                stroke: "currentColor",
-                                strokeWidth: "2",
-                                viewBox: "0 0 24 24",
-                                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("path", {
-                                    d: "M9 5l7 7-7 7"
-                                })
-                            })
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                    className: "text-center mt-10",
-                    children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("a", {
-                        href: "/urunler",
-                        className: "btn-primary",
-                        children: [
-                            "T\xfcm \xdcr\xfcnleri G\xf6r\xfcnt\xfcle",
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)(outline_esm_ArrowRightIcon/* default */.Z, {
-                                className: "w-5 h-5"
-                            })
-                        ]
-                    })
-                })
-            ]
-        })
-    });
-}
-
-;// CONCATENATED MODULE: ./src/components/sections/Clients.tsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-const clientLogos = [
-    {
-        name: "Behr",
-        logo: "/client-images/behr.jpg"
-    },
-    {
-        name: "Novasina",
-        logo: "/client-images/novasina.jpg"
-    },
-    {
-        name: "Alliance",
-        logo: "/client-images/allience.jpg"
-    },
-    {
-        name: "Atago",
-        logo: "/client-images/atago.jpg"
-    },
-    {
-        name: "Awerness",
-        logo: "/client-images/awernes.jpg"
-    },
-    {
-        name: "Interline",
-        logo: "/client-images/interline.jpg"
-    },
-    {
-        name: "Foodtech",
-        logo: "/client-images/foodtech.jpg"
-    },
-    {
-        name: "Atre2",
-        logo: "/client-images/atre2.jpg"
-    },
-    {
-        name: "Apera",
-        logo: "/client-images/apera.jpg"
-    },
-    {
-        name: "WaterID",
-        logo: "/client-images/waterid.jpg"
-    },
-    {
-        name: "Orion",
-        logo: "/client-images/orion.jpg"
-    },
-    {
-        name: "LabPlus",
-        logo: "/client-images/labplus.jpg"
-    },
-    {
-        name: "Mazyme",
-        logo: "/client-images/mazyme.jpg"
-    },
-    {
-        name: "Xebios",
-        logo: "/client-images/xebios.jpg"
-    },
-    {
-        name: "Chemo",
-        logo: "/client-images/chemo.jpg"
-    },
-    {
-        name: "Harrer",
-        logo: "/client-images/harrer.jpg"
-    },
-    {
-        name: "3NH",
-        logo: "/client-images/3nh.jpg"
-    },
-    {
-        name: "Maselli",
-        logo: "/client-images/maselli.jpg"
-    },
-    {
-        name: "Pentair",
-        logo: "/client-images/pentair.jpg"
-    },
-    {
-        name: "Moist",
-        logo: "/client-images/moist.jpg"
-    },
-    {
-        name: "Neogen",
-        logo: "/client-images/neogen.jpg"
-    },
-    {
-        name: "Gold Standard",
-        logo: "/client-images/goldstandard.jpg"
-    },
-    {
-        name: "Miris",
-        logo: "/client-images/miris.png"
-    }
-];
-// Animated Counter Component
-function AnimatedCounter({ value, suffix = "", duration = 2 }) {
-    const ref = (0,react.useRef)(null);
-    const isInView = (0,es/* useInView */.JC)(ref, {
-        once: true
-    });
-    const motionValue = (0,es/* useMotionValue */.c$)(0);
-    const springValue = (0,es/* useSpring */.q_)(motionValue, {
-        duration: duration * 1000
-    });
-    const [displayValue, setDisplayValue] = (0,react.useState)(0);
-    (0,react.useEffect)(()=>{
-        if (isInView) {
-            motionValue.set(value);
-        }
-    }, [
-        isInView,
-        motionValue,
-        value
-    ]);
-    (0,react.useEffect)(()=>{
-        return springValue.onChange((latest)=>{
-            setDisplayValue(Math.round(latest));
-        });
-    }, [
-        springValue
-    ]);
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-        ref: ref,
-        className: "text-4xl font-bold text-gradient mb-2",
-        children: [
-            displayValue,
-            suffix
-        ]
-    });
-}
-function Clients() {
-    const [hoveredLogo, setHoveredLogo] = (0,react.useState)(null);
-    const [hoveredStat, setHoveredStat] = (0,react.useState)(null);
-    // Double the logos for seamless infinite scroll
-    const doubledLogos = [
-        ...clientLogos,
-        ...clientLogos
-    ];
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("section", {
-        id: "clients-section",
-        className: "section-padding bg-white relative overflow-hidden",
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                className: "absolute inset-0 bg-pattern opacity-30"
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "container-custom relative z-10",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                        className: "text-center mb-16",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                                initial: {
-                                    opacity: 0,
-                                    y: 20
-                                },
-                                whileInView: {
-                                    opacity: 1,
-                                    y: 0
-                                },
-                                viewport: {
-                                    once: true
-                                },
-                                transition: {
-                                    duration: 0.6
-                                },
-                                className: "inline-flex items-center gap-2 bg-gradient-to-r from-primary-100 to-secondary-100 rounded-full px-6 py-2 mb-6",
-                                children: [
-                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                        className: "w-2 h-2 rounded-full bg-gradient-to-r from-primary-500 to-secondary-500"
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                        className: "text-label text-neutral-700",
-                                        children: "G\xfcvenilir Ortaklarımız"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.h2, {
-                                initial: {
-                                    opacity: 0,
-                                    y: 20
-                                },
-                                whileInView: {
-                                    opacity: 1,
-                                    y: 0
-                                },
-                                viewport: {
-                                    once: true
-                                },
-                                transition: {
-                                    duration: 0.6,
-                                    delay: 0.1
-                                },
-                                className: "font-bold text-neutral-900 mb-4",
-                                children: [
-                                    "D\xfcnya \xc7apında ",
-                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                        className: "text-gradient",
-                                        children: "G\xfcvenilir Markalar"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.p, {
-                                initial: {
-                                    opacity: 0,
-                                    y: 20
-                                },
-                                whileInView: {
-                                    opacity: 1,
-                                    y: 0
-                                },
-                                viewport: {
-                                    once: true
-                                },
-                                transition: {
-                                    duration: 0.6,
-                                    delay: 0.2
-                                },
-                                className: "text-body-lg text-neutral-600 max-w-2xl mx-auto",
-                                children: "25+ yıllık deneyimimizle, d\xfcnya standartlarında analitik \xe7\xf6z\xfcmler sunuyoruz. Prestijli markaların T\xfcrkiye temsilcisi olarak hizmet veriyoruz."
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                        initial: {
-                            opacity: 0,
-                            y: 20
-                        },
-                        whileInView: {
-                            opacity: 1,
-                            y: 0
-                        },
-                        viewport: {
-                            once: true
-                        },
-                        transition: {
-                            duration: 0.6,
-                            delay: 0.3
-                        },
-                        className: "grid grid-cols-1 md:grid-cols-3 gap-8 mb-16",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                className: "text-center group cursor-pointer",
-                                onMouseEnter: ()=>setHoveredStat("brands"),
-                                onMouseLeave: ()=>setHoveredStat(null),
-                                whileHover: {
-                                    scale: 1.05
-                                },
-                                transition: {
-                                    duration: 0.3
-                                },
-                                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                    className: "bg-gradient-to-br from-white to-primary-50 rounded-2xl p-6 border border-primary-100 group-hover:border-primary-200 transition-all duration-300 group-hover:shadow-xl group-hover:shadow-primary-500/10",
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(AnimatedCounter, {
-                                            value: 25,
-                                            suffix: "+",
-                                            duration: 2.5
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                            className: "text-body text-neutral-600 font-medium group-hover:text-primary-600 transition-colors",
-                                            children: "Uluslararası Marka"
-                                        }),
-                                        hoveredStat === "brands" && /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                            initial: {
-                                                opacity: 0,
-                                                height: 0
-                                            },
-                                            animate: {
-                                                opacity: 1,
-                                                height: "auto"
-                                            },
-                                            className: "mt-3 pt-3 border-t border-primary-100",
-                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                className: "text-caption text-primary-600 font-medium",
-                                                children: "D\xfcnya \xe7apında g\xfcvenilir markalar"
-                                            })
-                                        })
-                                    ]
-                                })
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                className: "text-center group cursor-pointer",
-                                onMouseEnter: ()=>setHoveredStat("customers"),
-                                onMouseLeave: ()=>setHoveredStat(null),
-                                whileHover: {
-                                    scale: 1.05
-                                },
-                                transition: {
-                                    duration: 0.3
-                                },
-                                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                    className: "bg-gradient-to-br from-white to-secondary-50 rounded-2xl p-6 border border-secondary-100 group-hover:border-secondary-200 transition-all duration-300 group-hover:shadow-xl group-hover:shadow-secondary-500/10",
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(AnimatedCounter, {
-                                            value: 1000,
-                                            suffix: "+",
-                                            duration: 3
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                            className: "text-body text-neutral-600 font-medium group-hover:text-secondary-600 transition-colors",
-                                            children: "Mutlu M\xfcşteri"
-                                        }),
-                                        hoveredStat === "customers" && /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                            initial: {
-                                                opacity: 0,
-                                                height: 0
-                                            },
-                                            animate: {
-                                                opacity: 1,
-                                                height: "auto"
-                                            },
-                                            className: "mt-3 pt-3 border-t border-secondary-100",
-                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                className: "text-caption text-secondary-600 font-medium",
-                                                children: "T\xfcrkiye geneli memnun m\xfcşteriler"
-                                            })
-                                        })
-                                    ]
-                                })
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                className: "text-center group cursor-pointer",
-                                onMouseEnter: ()=>setHoveredStat("experience"),
-                                onMouseLeave: ()=>setHoveredStat(null),
-                                whileHover: {
-                                    scale: 1.05
-                                },
-                                transition: {
-                                    duration: 0.3
-                                },
-                                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                    className: "bg-gradient-to-br from-white to-accent-50 rounded-2xl p-6 border border-accent-100 group-hover:border-accent-200 transition-all duration-300 group-hover:shadow-xl group-hover:shadow-accent-500/10",
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(AnimatedCounter, {
-                                            value: 15,
-                                            suffix: "+",
-                                            duration: 2
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                            className: "text-body text-neutral-600 font-medium group-hover:text-accent-600 transition-colors",
-                                            children: "Sekt\xf6r Deneyimi"
-                                        }),
-                                        hoveredStat === "experience" && /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                            initial: {
-                                                opacity: 0,
-                                                height: 0
-                                            },
-                                            animate: {
-                                                opacity: 1,
-                                                height: "auto"
-                                            },
-                                            className: "mt-3 pt-3 border-t border-accent-100",
-                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                className: "text-caption text-accent-600 font-medium",
-                                                children: "Farklı end\xfcstri alanlarında uzman"
-                                            })
-                                        })
-                                    ]
-                                })
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                        className: "relative py-8",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                className: "overflow-hidden mb-12 pb-8",
-                                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                    className: "flex space-x-12",
-                                    animate: {
-                                        x: [
-                                            "0%",
-                                            "-50%"
-                                        ]
-                                    },
-                                    transition: {
-                                        x: {
-                                            repeat: Infinity,
-                                            repeatType: "loop",
-                                            duration: 30,
-                                            ease: "linear"
-                                        }
-                                    },
-                                    children: doubledLogos.map((client, index)=>/*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                            className: "flex-shrink-0 group relative",
-                                            onMouseEnter: ()=>setHoveredLogo(`top-${client.name}`),
-                                            onMouseLeave: ()=>setHoveredLogo(null),
-                                            whileHover: {
-                                                scale: 1.08,
-                                                y: -4
-                                            },
-                                            transition: {
-                                                duration: 0.3,
-                                                ease: "easeOut"
-                                            },
-                                            children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                className: "w-36 h-24 bg-white rounded-2xl border border-neutral-200/50 flex items-center justify-center transition-all duration-300 relative overflow-hidden group-hover:border-primary-200 group-hover:shadow-xl group-hover:shadow-primary-500/10",
-                                                children: [
-                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                        className: "absolute inset-0 bg-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                                                    }),
-                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(next_image["default"], {
-                                                        src: client.logo,
-                                                        alt: client.name,
-                                                        width: 96,
-                                                        height: 48,
-                                                        className: "max-w-28 max-h-16 object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300 relative z-10"
-                                                    }),
-                                                    hoveredLogo === `top-${client.name}` && /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                                                        initial: {
-                                                            opacity: 0,
-                                                            y: 10,
-                                                            scale: 0.8
-                                                        },
-                                                        animate: {
-                                                            opacity: 1,
-                                                            y: 0,
-                                                            scale: 1
-                                                        },
-                                                        className: "absolute -bottom-12 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-primary-600 to-secondary-600 text-white text-sm px-4 py-2 rounded-xl whitespace-nowrap z-30 shadow-lg font-medium",
-                                                        children: [
-                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                                className: "absolute -top-1 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-primary-600 rotate-45"
-                                                            }),
-                                                            client.name
-                                                        ]
-                                                    })
-                                                ]
-                                            })
-                                        }, `top-${index}`))
-                                })
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                className: "overflow-hidden pb-8",
-                                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                    className: "flex space-x-12",
-                                    animate: {
-                                        x: [
-                                            "-50%",
-                                            "0%"
-                                        ]
-                                    },
-                                    transition: {
-                                        x: {
-                                            repeat: Infinity,
-                                            repeatType: "loop",
-                                            duration: 25,
-                                            ease: "linear"
-                                        }
-                                    },
-                                    children: doubledLogos.reverse().map((client, index)=>/*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                            className: "flex-shrink-0 group relative",
-                                            onMouseEnter: ()=>setHoveredLogo(`bottom-${client.name}`),
-                                            onMouseLeave: ()=>setHoveredLogo(null),
-                                            whileHover: {
-                                                scale: 1.08,
-                                                y: -4
-                                            },
-                                            transition: {
-                                                duration: 0.3,
-                                                ease: "easeOut"
-                                            },
-                                            children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                className: "w-36 h-24 bg-white rounded-2xl border border-neutral-200/50 flex items-center justify-center transition-all duration-300 relative overflow-hidden group-hover:border-accent-200 group-hover:shadow-xl group-hover:shadow-accent-500/10",
-                                                children: [
-                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                        className: "absolute inset-0 bg-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                                                    }),
-                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(next_image["default"], {
-                                                        src: client.logo,
-                                                        alt: client.name,
-                                                        width: 96,
-                                                        height: 48,
-                                                        className: "max-w-28 max-h-16 object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300 relative z-10"
-                                                    }),
-                                                    hoveredLogo === `bottom-${client.name}` && /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                                                        initial: {
-                                                            opacity: 0,
-                                                            y: 10,
-                                                            scale: 0.8
-                                                        },
-                                                        animate: {
-                                                            opacity: 1,
-                                                            y: 0,
-                                                            scale: 1
-                                                        },
-                                                        className: "absolute -bottom-12 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-accent-600 to-primary-600 text-white text-sm px-4 py-2 rounded-xl whitespace-nowrap z-30 shadow-lg font-medium",
-                                                        children: [
-                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                                className: "absolute -top-1 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-accent-600 rotate-45"
-                                                            }),
-                                                            client.name
-                                                        ]
-                                                    })
-                                                ]
-                                            })
-                                        }, `bottom-${index}`))
-                                })
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                        initial: {
-                            opacity: 0,
-                            y: 20
-                        },
-                        whileInView: {
-                            opacity: 1,
-                            y: 0
-                        },
-                        viewport: {
-                            once: true
-                        },
-                        transition: {
-                            duration: 0.6,
-                            delay: 0.4
-                        },
-                        className: "text-center mt-16",
-                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                            className: "bg-gradient-to-br from-neutral-50 to-neutral-100 rounded-3xl p-8 md:p-12",
-                            children: [
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
-                                    className: "text-2xl font-bold text-neutral-900 mb-4",
-                                    children: "Siz de Bu G\xfcvenilir Ağa Katılın"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
-                                    className: "text-neutral-600 mb-6 max-w-xl mx-auto",
-                                    children: "D\xfcnya standartlarında analitik \xe7\xf6z\xfcmler i\xe7in bizimle iletişime ge\xe7in. Uzman ekibimiz size en uygun \xe7\xf6z\xfcm\xfc sunar."
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                    className: "flex flex-col sm:flex-row gap-4 justify-center",
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.a, {
-                                            href: "/iletisim",
-                                            className: "btn-primary",
-                                            whileHover: {
-                                                scale: 1.05
-                                            },
-                                            whileTap: {
-                                                scale: 0.95
-                                            },
-                                            children: "İletişime Ge\xe7in"
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.a, {
-                                            href: "/hakkimizda/referanslar",
-                                            className: "btn-outline",
-                                            whileHover: {
-                                                scale: 1.05
-                                            },
-                                            whileTap: {
-                                                scale: 0.95
-                                            },
-                                            children: "Referanslarımızı İnceleyin"
-                                        })
-                                    ]
-                                })
-                            ]
-                        })
-                    })
-                ]
-            })
-        ]
-    });
-}
-
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/CakeIcon.js
-
-function CakeIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.871c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513M15 8.25v-1.5m-6 1.5v-1.5m12 9.75-1.5.75a3.354 3.354 0 0 1-3 0 3.354 3.354 0 0 0-3 0 3.354 3.354 0 0 1-3 0 3.354 3.354 0 0 0-3 0 3.354 3.354 0 0 1-3 0L3 16.5m15-3.379a48.474 48.474 0 0 0-6-.371c-2.032 0-4.034.126-6 .371m12 0c.39.049.777.102 1.163.16 1.07.16 1.837 1.094 1.837 2.175v5.169c0 .621-.504 1.125-1.125 1.125H4.125A1.125 1.125 0 0 1 3 20.625v-5.17c0-1.08.768-2.014 1.837-2.174A47.78 47.78 0 0 1 6 13.12M12.265 3.11a.375.375 0 1 1-.53 0L12 2.845l.265.265Zm-3 0a.375.375 0 1 1-.53 0L9 2.845l.265.265Zm6 0a.375.375 0 1 1-.53 0L15 2.845l.265.265Z"
-    }));
-}
-const CakeIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(CakeIcon);
-/* harmony default export */ const esm_CakeIcon = (CakeIcon_ForwardRef);
-
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/CircleStackIcon.js
-var CircleStackIcon = __webpack_require__(5136);
-;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/GlobeAmericasIcon.js
-
-function GlobeAmericasIcon({ title, titleId, ...props }, svgRef) {
-    return /*#__PURE__*/ react.createElement("svg", Object.assign({
-        xmlns: "http://www.w3.org/2000/svg",
-        fill: "none",
-        viewBox: "0 0 24 24",
-        strokeWidth: 1.5,
-        stroke: "currentColor",
-        "aria-hidden": "true",
-        "data-slot": "icon",
-        ref: svgRef,
-        "aria-labelledby": titleId
-    }, props), title ? /*#__PURE__*/ react.createElement("title", {
-        id: titleId
-    }, title) : null, /*#__PURE__*/ react.createElement("path", {
-        strokeLinecap: "round",
-        strokeLinejoin: "round",
-        d: "m6.115 5.19.319 1.913A6 6 0 0 0 8.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 0 0 2.288-4.042 1.087 1.087 0 0 0-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 0 1-.98-.314l-.295-.295a1.125 1.125 0 0 1 0-1.591l.13-.132a1.125 1.125 0 0 1 1.3-.21l.603.302a.809.809 0 0 0 1.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 0 0 1.528-1.732l.146-.292M6.115 5.19A9 9 0 1 0 17.18 4.64M6.115 5.19A8.965 8.965 0 0 1 12 3c1.929 0 3.716.607 5.18 1.64"
-    }));
-}
-const GlobeAmericasIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(GlobeAmericasIcon);
-/* harmony default export */ const esm_GlobeAmericasIcon = (GlobeAmericasIcon_ForwardRef);
-
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/SunIcon.js
-var SunIcon = __webpack_require__(8062);
-;// CONCATENATED MODULE: __barrel_optimize__?names=AcademicCapIcon,ArrowRightIcon,BeakerIcon,CakeIcon,CircleStackIcon,GlobeAmericasIcon,SparklesIcon,SunIcon!=!./node_modules/@heroicons/react/24/outline/esm/index.js
-
-
-
-
-
-
-
-
-
-;// CONCATENATED MODULE: ./src/components/sections/Sectors.tsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-const sectors = [
-    {
-        name: "Gıda & İ\xe7ecek",
-        icon: esm_CakeIcon,
-        description: "Gıda g\xfcvenliği ve kalite analizi \xe7\xf6z\xfcmleri",
-        color: "from-emerald-500 to-green-600",
-        bgColor: "from-emerald-50 to-green-50",
-        projects: "150+",
-        specialty: "HACCP Uyumlu"
-    },
-    {
-        name: "S\xfct & S\xfct \xdcr\xfcnleri",
-        icon: CircleStackIcon/* default */.Z,
-        description: "S\xfct \xfcr\xfcnleri analiz ve kalite kontrol \xe7\xf6z\xfcmleri",
-        color: "from-blue-500 to-indigo-600",
-        bgColor: "from-blue-50 to-indigo-50",
-        projects: "80+",
-        specialty: "ISO 22000"
-    },
-    {
-        name: "Su & Atıksu",
-        icon: esm_GlobeAmericasIcon,
-        description: "Su kalitesi ve \xe7evre analizleri",
-        color: "from-cyan-500 to-blue-600",
-        bgColor: "from-cyan-50 to-blue-50",
-        projects: "200+",
-        specialty: "\xc7evre Dostu"
-    },
-    {
-        name: "Tarım & Hayvancılık",
-        icon: SunIcon/* default */.Z,
-        description: "Tarımsal \xfcr\xfcn ve hayvan sağlığı analizleri",
-        color: "from-amber-500 to-orange-600",
-        bgColor: "from-amber-50 to-orange-50",
-        projects: "120+",
-        specialty: "Organik Sertifika"
-    },
-    {
-        name: "Kimya & Petrokimya",
-        icon: outline_esm_BeakerIcon/* default */.Z,
-        description: "End\xfcstriyel kimyasal analizler ve test hizmetleri",
-        color: "from-purple-500 to-violet-600",
-        bgColor: "from-purple-50 to-violet-50",
-        projects: "90+",
-        specialty: "End\xfcstri 4.0"
-    },
-    {
-        name: "Ar-Ge & \xdcniversiteler",
-        icon: AcademicCapIcon/* default */.Z,
-        description: "Araştırma ve eğitim kurumları i\xe7in \xf6zel \xe7\xf6z\xfcmler",
-        color: "from-pink-500 to-rose-600",
-        bgColor: "from-pink-50 to-rose-50",
-        projects: "60+",
-        specialty: "İnovasyon"
-    }
-];
-function Sectors() {
-    const [ref, inView] = (0,dist/* useInView */.YD)({
-        triggerOnce: true,
-        threshold: 0.1
-    });
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("section", {
-        ref: ref,
-        className: "py-20 lg:py-24 bg-gradient-to-br from-neutral-50 via-white to-neutral-100 relative overflow-hidden",
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "absolute inset-0 opacity-30",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "absolute top-0 left-0 w-96 h-96 bg-primary-200/20 rounded-full blur-3xl"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "absolute bottom-0 right-0 w-96 h-96 bg-secondary-200/20 rounded-full blur-3xl"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "absolute top-1/2 left-1/2 w-64 h-64 bg-accent-200/10 rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "container-custom relative z-10",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                        initial: {
-                            opacity: 0,
-                            y: 30
-                        },
-                        animate: inView ? {
-                            opacity: 1,
-                            y: 0
-                        } : {},
-                        transition: {
-                            duration: 0.6
-                        },
-                        className: "text-center space-y-6 mb-16",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                className: "inline-flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full border border-neutral-200 shadow-sm",
-                                children: [
-                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(SparklesIcon/* default */.Z, {
-                                        className: "w-4 h-4 text-primary-500"
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                        className: "text-label font-medium text-neutral-700",
-                                        children: "Uzmanlık Alanlarımız"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("h2", {
-                                className: "text-gradient font-bold",
-                                children: [
-                                    "Hizmet Verdiğimiz",
-                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                        className: "block",
-                                        children: "Sekt\xf6rler"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
-                                className: "text-body-lg text-neutral-600 max-w-3xl mx-auto leading-relaxed",
-                                children: "25+ yıllık deneyimimizle farklı sekt\xf6rlerde \xf6zelleşmiş laboratuvar \xe7\xf6z\xfcmleri sunuyor, her alanda en y\xfcksek kalite standartlarını sağlıyoruz."
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8",
-                        children: sectors.map((sector, index)=>{
-                            const IconComponent = sector.icon;
-                            return /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                initial: {
-                                    opacity: 0,
-                                    y: 30
-                                },
-                                animate: inView ? {
-                                    opacity: 1,
-                                    y: 0
-                                } : {},
-                                transition: {
-                                    duration: 0.6,
-                                    delay: index * 0.1
-                                },
-                                className: "group",
-                                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                    className: "relative bg-white rounded-2xl lg:rounded-3xl p-6 lg:p-8 shadow-sm hover:shadow-2xl transition-all duration-500 border border-neutral-100/50 hover:border-neutral-200/50 group-hover:scale-[1.02] overflow-hidden h-full",
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                            className: `absolute inset-0 bg-gradient-to-br ${sector.bgColor} opacity-0 group-hover:opacity-60 transition-all duration-500`
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                            className: "relative z-10 space-y-6",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                    className: "flex items-start justify-between",
-                                                    children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                            className: `w-14 h-14 rounded-2xl bg-gradient-to-br ${sector.color} flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300`,
-                                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(IconComponent, {
-                                                                className: "w-7 h-7 text-white"
-                                                            })
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                            className: "flex flex-col gap-2 items-end",
-                                                            children: [
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                                    className: "inline-flex items-center px-3 py-1.5 bg-white/90 backdrop-blur-sm rounded-full border border-neutral-200/50 shadow-sm",
-                                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
-                                                                        className: "text-xs font-semibold text-neutral-700",
-                                                                        children: [
-                                                                            sector.projects,
-                                                                            " Proje"
-                                                                        ]
-                                                                    })
-                                                                }),
-                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                                    className: "inline-flex items-center px-3 py-1.5 bg-neutral-100/90 backdrop-blur-sm rounded-full border border-neutral-200/40",
-                                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                                        className: "text-xs font-medium text-neutral-600",
-                                                                        children: sector.specialty
-                                                                    })
-                                                                })
-                                                            ]
-                                                        })
-                                                    ]
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                    className: "space-y-3",
-                                                    children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
-                                                            className: "text-xl font-bold text-neutral-900 group-hover:text-primary-600 transition-colors leading-tight",
-                                                            children: sector.name
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
-                                                            className: "text-body text-neutral-600 leading-relaxed",
-                                                            children: sector.description
-                                                        })
-                                                    ]
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                            className: "absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-white/10 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                            className: "absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-to-tr from-white/5 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                                        })
-                                    ]
-                                })
-                            }, index);
-                        })
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                        initial: {
-                            opacity: 0,
-                            y: 30
-                        },
-                        animate: inView ? {
-                            opacity: 1,
-                            y: 0
-                        } : {},
-                        transition: {
-                            duration: 0.6,
-                            delay: 0.8
-                        },
-                        className: "text-center mt-16",
-                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                            className: "bg-gradient-to-br from-white to-neutral-50 rounded-3xl p-8 lg:p-12 shadow-xl border border-neutral-100",
-                            children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                className: "space-y-6 max-w-2xl mx-auto",
-                                children: [
-                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                        className: "w-16 h-16 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-2xl flex items-center justify-center mx-auto shadow-lg",
-                                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(SparklesIcon/* default */.Z, {
-                                            className: "w-8 h-8 text-white"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
-                                        className: "text-2xl lg:text-3xl font-bold text-neutral-900",
-                                        children: "Sekt\xf6r\xfcn\xfcze \xd6zel \xc7\xf6z\xfcm Arıyorsunuz?"
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
-                                        className: "text-body-lg text-neutral-600 leading-relaxed",
-                                        children: "Uzman ekibimiz, ihtiya\xe7larınıza g\xf6re \xf6zelleştirilmiş laboratuvar \xe7\xf6z\xfcmleri geliştirmek i\xe7in sizlerle birlikte \xe7alışmaya hazır."
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                        className: "flex flex-col sm:flex-row gap-4 justify-center",
-                                        children: [
-                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("a", {
-                                                href: "/iletisim",
-                                                className: "btn-primary group",
-                                                children: [
-                                                    "\xdccretsiz Danışmanlık Alın",
-                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(outline_esm_ArrowRightIcon/* default */.Z, {
-                                                        className: "w-5 h-5 group-hover:translate-x-1 transition-transform"
-                                                    })
-                                                ]
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                                href: "/cozumler",
-                                                className: "btn-outline",
-                                                children: "T\xfcm \xc7\xf6z\xfcmlerimizi İnceleyin"
-                                            })
-                                        ]
-                                    })
-                                ]
-                            })
-                        })
-                    })
-                ]
-            })
-        ]
-    });
-}
-
-;// CONCATENATED MODULE: ./src/components/sections/About.tsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-function About() {
-    const [ref, inView] = (0,dist/* useInView */.YD)({
-        triggerOnce: true,
-        threshold: 0.1
-    });
-    return /*#__PURE__*/ (0,jsx_runtime.jsx)("section", {
-        id: "protek-hakkinda",
-        ref: ref,
-        className: "section-padding bg-white overflow-x-hidden",
-        children: /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-            className: "container-custom",
-            children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "grid lg:grid-cols-2 gap-12 items-center",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                        initial: {
-                            opacity: 0,
-                            x: -50
-                        },
-                        animate: inView ? {
-                            opacity: 1,
-                            x: 0
-                        } : {},
-                        transition: {
-                            duration: 0.8
-                        },
-                        className: "space-y-6",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)("h2", {
-                                className: "text-gradient",
-                                children: "Protek Analitik Hakkında"
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
-                                className: "text-body-lg text-neutral-600",
-                                children: "20 yılı aşkın deneyimimizle laboratuvar teknolojileri alanında T\xfcrkiye'nin \xf6nde gelen firmalarından biriyiz. M\xfcşterilerimize en kaliteli hizmeti sunmak i\xe7in s\xfcrekli gelişen teknolojileri takip ediyor ve uzman ekibimizle \xe7\xf6z\xfcmler \xfcretiyoruz."
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                className: "space-y-4",
-                                children: [
-                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                        className: "flex items-center gap-3",
-                                        children: [
-                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                className: "w-2 h-2 bg-primary-500 rounded-full"
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                className: "text-body text-neutral-700",
-                                                children: "ISO 9001:2015 Kalite Y\xf6netim Sistemi"
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                        className: "flex items-center gap-3",
-                                        children: [
-                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                className: "w-2 h-2 bg-secondary-500 rounded-full"
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                className: "text-body text-neutral-700",
-                                                children: "500+ Başarıyla Tamamlanan Proje"
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                        className: "flex items-center gap-3",
-                                        children: [
-                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                className: "w-2 h-2 bg-accent-500 rounded-full"
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                className: "text-body text-neutral-700",
-                                                children: "1000+ Memnun M\xfcşteri"
-                                            })
-                                        ]
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                href: "/hakkimizda",
-                                className: "btn-primary",
-                                children: "Daha Fazla Bilgi"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                        initial: {
-                            opacity: 0,
-                            x: 50
-                        },
-                        animate: inView ? {
-                            opacity: 1,
-                            x: 0
-                        } : {},
-                        transition: {
-                            duration: 0.8
-                        },
-                        className: "relative w-full max-w-[600px] mx-auto lg:mx-0",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                id: "tanitim-videosu",
-                                className: "relative bg-neutral-900 rounded-3xl overflow-hidden shadow-2xl w-full",
-                                children: [
-                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                        className: "bg-neutral-800 px-4 py-3 flex items-center justify-between",
-                                        children: [
-                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                className: "flex items-center gap-2",
-                                                children: [
-                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                        className: "w-3 h-3 bg-red-500 rounded-full"
-                                                    }),
-                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                        className: "w-3 h-3 bg-yellow-500 rounded-full"
-                                                    }),
-                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                        className: "w-3 h-3 bg-green-500 rounded-full"
-                                                    })
-                                                ]
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                className: "text-white text-sm font-medium truncate",
-                                                children: "Protek Analitik Tanıtım Videosu"
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                        className: "relative w-full pb-[75%]",
-                                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)("iframe", {
-                                            src: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7328309007935291392?compact=1",
-                                            className: "absolute top-0 left-0 w-full h-full border-0",
-                                            allowFullScreen: true,
-                                            title: "Protek Analitik Tanıtım Videosu"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                        className: "bg-neutral-800 px-4 py-2 flex items-center justify-between",
-                                        children: [
-                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                className: "flex items-center gap-2 text-white text-sm",
-                                                children: [
-                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                        className: "w-2 h-2 bg-red-500 rounded-full"
-                                                    }),
-                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                        children: "LinkedIn Video"
-                                                    })
-                                                ]
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                                className: "text-white text-sm",
-                                                children: "HD • 4:3"
-                                            })
-                                        ]
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                className: "absolute -top-3 -right-3 bg-gradient-to-r from-primary-500 to-secondary-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg",
-                                children: "Yeni Video"
-                            })
-                        ]
-                    })
-                ]
-            })
-        })
-    });
-}
-
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/EnvelopeIcon.js
-var EnvelopeIcon = __webpack_require__(7279);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/MapPinIcon.js
-var MapPinIcon = __webpack_require__(9205);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/PhoneIcon.js
-var PhoneIcon = __webpack_require__(4922);
-;// CONCATENATED MODULE: __barrel_optimize__?names=EnvelopeIcon,MapPinIcon,PhoneIcon!=!./node_modules/@heroicons/react/24/outline/esm/index.js
-
-
-
-
-;// CONCATENATED MODULE: ./src/components/sections/Contact.tsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-
-function Contact() {
-    const [ref, inView] = (0,dist/* useInView */.YD)({
-        triggerOnce: true,
-        threshold: 0.1
-    });
-    const [formData, setFormData] = (0,react.useState)({
-        firstName: "",
-        lastName: "",
-        email: "",
-        phone: "",
-        company: "",
-        subject: "",
-        message: "",
-        messageType: "genel"
-    });
-    const [isSubmitting, setIsSubmitting] = (0,react.useState)(false);
-    const [submitStatus, setSubmitStatus] = (0,react.useState)("idle");
-    const handleInputChange = (e)=>{
-        const { name, value } = e.target;
-        setFormData((prev)=>({
-                ...prev,
-                [name]: value
-            }));
-    };
-    const handleSubmit = async (e)=>{
-        e.preventDefault();
-        setIsSubmitting(true);
-        setSubmitStatus("idle");
-        try {
-            const response = await fetch("/api/contact", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({
-                    first_name: formData.firstName,
-                    last_name: formData.lastName,
-                    email: formData.email,
-                    phone: formData.phone,
-                    company: formData.company,
-                    subject: formData.subject,
-                    message: formData.message,
-                    message_type: formData.messageType,
-                    source: "website-contact-form"
-                })
-            });
-            if (response.ok) {
-                setSubmitStatus("success");
-                setFormData({
-                    firstName: "",
-                    lastName: "",
-                    email: "",
-                    phone: "",
-                    company: "",
-                    subject: "",
-                    message: "",
-                    messageType: "genel"
-                });
-            } else {
-                setSubmitStatus("error");
-            }
-        } catch (error) {
-            console.error("Form submission error:", error);
-            setSubmitStatus("error");
-        } finally{
-            setIsSubmitting(false);
-        }
-    };
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("section", {
-        ref: ref,
-        className: "section-padding bg-gradient-to-br from-black via-[#000510] to-[#001328] text-white relative overflow-hidden",
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "absolute inset-0 opacity-10",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "absolute inset-0 bg-gradient-to-t from-black to-[#001328]/20"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "absolute top-0 right-0 w-96 h-96 bg-[#001328]/15 rounded-full blur-3xl"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "absolute bottom-0 left-0 w-80 h-80 bg-black/30 rounded-full blur-3xl"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "container-custom relative z-10",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
-                        initial: {
-                            opacity: 0,
-                            y: 30
-                        },
-                        animate: inView ? {
-                            opacity: 1,
-                            y: 0
-                        } : {},
-                        transition: {
-                            duration: 0.6
-                        },
-                        className: "text-center space-y-4 mb-16",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)("h2", {
-                                className: "text-white",
-                                children: "İletişime Ge\xe7in"
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
-                                className: "text-body-lg text-neutral-300 max-w-3xl mx-auto",
-                                children: "Projeleriniz i\xe7in uzman ekibimizden destek almak istiyorsanız, bizimle iletişime ge\xe7in."
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                        className: "grid lg:grid-cols-3 gap-8",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                initial: {
-                                    opacity: 0,
-                                    y: 30
-                                },
-                                animate: inView ? {
-                                    opacity: 1,
-                                    y: 0
-                                } : {},
-                                transition: {
-                                    duration: 0.6,
-                                    delay: 0.2
-                                },
-                                className: "space-y-6",
-                                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                    className: "space-y-4",
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                            className: "flex items-center gap-3",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(PhoneIcon/* default */.Z, {
-                                                    className: "w-6 h-6 text-primary-400"
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                    children: "+90 (216) 329 39 60 Pbx"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                            className: "flex items-center gap-3",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(PhoneIcon/* default */.Z, {
-                                                    className: "w-6 h-6 text-primary-400"
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                    children: "+90 (216) 329 37 70 Pbx"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                            className: "flex items-center gap-3",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(EnvelopeIcon/* default */.Z, {
-                                                    className: "w-6 h-6 text-primary-400"
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                    children: "info@protekanalitik.com"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                            className: "flex items-center gap-3",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(MapPinIcon/* default */.Z, {
-                                                    className: "w-6 h-6 text-primary-400"
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                    children: "Atakent Mah. Dicle Cad. No:29"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                            className: "flex items-center gap-3 pl-9",
-                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                                children: "34760 \xdcmraniye / İstanbul / T\xdcRKİYE"
-                                            })
-                                        })
-                                    ]
-                                })
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
-                                initial: {
-                                    opacity: 0,
-                                    y: 30
-                                },
-                                animate: inView ? {
-                                    opacity: 1,
-                                    y: 0
-                                } : {},
-                                transition: {
-                                    duration: 0.6,
-                                    delay: 0.4
-                                },
-                                className: "lg:col-span-2",
-                                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("form", {
-                                    onSubmit: handleSubmit,
-                                    className: "space-y-4",
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                            className: "grid md:grid-cols-2 gap-4",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
-                                                    type: "text",
-                                                    name: "firstName",
-                                                    value: formData.firstName,
-                                                    onChange: handleInputChange,
-                                                    placeholder: "Adınız",
-                                                    required: true,
-                                                    className: "input bg-neutral-900 border-neutral-800 text-white placeholder-neutral-500 focus:border-primary-500 focus:ring-primary-500"
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
-                                                    type: "text",
-                                                    name: "lastName",
-                                                    value: formData.lastName,
-                                                    onChange: handleInputChange,
-                                                    placeholder: "Soyadınız",
-                                                    className: "input bg-neutral-900 border-neutral-800 text-white placeholder-neutral-500 focus:border-primary-500 focus:ring-primary-500"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                            className: "grid md:grid-cols-2 gap-4",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
-                                                    type: "email",
-                                                    name: "email",
-                                                    value: formData.email,
-                                                    onChange: handleInputChange,
-                                                    placeholder: "E-posta",
-                                                    required: true,
-                                                    className: "input bg-neutral-900 border-neutral-800 text-white placeholder-neutral-500 focus:border-primary-500 focus:ring-primary-500"
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
-                                                    type: "tel",
-                                                    name: "phone",
-                                                    value: formData.phone,
-                                                    onChange: handleInputChange,
-                                                    placeholder: "Telefon",
-                                                    className: "input bg-neutral-900 border-neutral-800 text-white placeholder-neutral-500 focus:border-primary-500 focus:ring-primary-500"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
-                                            type: "text",
-                                            name: "company",
-                                            value: formData.company,
-                                            onChange: handleInputChange,
-                                            placeholder: "Şirket",
-                                            className: "input bg-neutral-900 border-neutral-800 text-white placeholder-neutral-500 focus:border-primary-500 focus:ring-primary-500"
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                            className: "grid md:grid-cols-2 gap-4",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("select", {
-                                                    name: "messageType",
-                                                    value: formData.messageType,
-                                                    onChange: handleInputChange,
-                                                    className: "input bg-neutral-900 border-neutral-800 text-white focus:border-primary-500 focus:ring-primary-500",
-                                                    children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("option", {
-                                                            value: "genel",
-                                                            children: "Genel Bilgi"
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("option", {
-                                                            value: "teklif-talebi",
-                                                            children: "Teklif Talebi"
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("option", {
-                                                            value: "teknik-destek",
-                                                            children: "Teknik Destek"
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("option", {
-                                                            value: "satis",
-                                                            children: "Satış"
-                                                        }),
-                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("option", {
-                                                            value: "is-birligi",
-                                                            children: "İş Birliği"
-                                                        })
-                                                    ]
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
-                                                    type: "text",
-                                                    name: "subject",
-                                                    value: formData.subject,
-                                                    onChange: handleInputChange,
-                                                    placeholder: "Konu",
-                                                    required: true,
-                                                    className: "input bg-neutral-900 border-neutral-800 text-white placeholder-neutral-500 focus:border-primary-500 focus:ring-primary-500"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("textarea", {
-                                            rows: 4,
-                                            name: "message",
-                                            value: formData.message,
-                                            onChange: handleInputChange,
-                                            placeholder: "Mesajınız",
-                                            required: true,
-                                            className: "input bg-neutral-900 border-neutral-800 text-white placeholder-neutral-500 focus:border-primary-500 focus:ring-primary-500 resize-none"
-                                        }),
-                                        submitStatus === "success" && /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                            className: "p-4 bg-green-900/30 border border-green-700 rounded-lg text-green-300",
-                                            children: "Mesajınız başarıyla g\xf6nderildi! En kısa s\xfcrede size d\xf6n\xfcş yapacağız."
-                                        }),
-                                        submitStatus === "error" && /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                                            className: "p-4 bg-red-900/30 border border-red-700 rounded-lg text-red-300",
-                                            children: "Mesaj g\xf6nderilirken bir hata oluştu. L\xfctfen tekrar deneyiniz."
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
-                                            type: "submit",
-                                            disabled: isSubmitting,
-                                            className: "btn-primary w-full disabled:opacity-50 disabled:cursor-not-allowed",
-                                            children: isSubmitting ? "G\xf6nderiliyor..." : "Mesaj G\xf6nder"
-                                        })
-                                    ]
-                                })
-                            })
-                        ]
-                    })
-                ]
-            })
-        ]
-    });
-}
-
-// EXTERNAL MODULE: ./src/components/layout/Footer.tsx + 1 modules
-var Footer = __webpack_require__(248);
-;// CONCATENATED MODULE: ./src/app/page.tsx
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ HomePage),
+/* harmony export */   dynamic: () => (/* binding */ dynamic),
+/* harmony export */   runtime: () => (/* binding */ runtime)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6485);
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(595);
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_layout_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3328);
+/* harmony import */ var _components_layout_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(248);
 /* __next_internal_client_entry_do_not_use__ dynamic,runtime,default auto */ 
 
 
 
-
-
-
-
-
-
-
+// Dynamic imports to reduce bundle size (safe optimization)
+const Hero = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 3397)), {
+    loadableGenerated: {
+        modules: [
+            "/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/page.tsx -> " + "@/components/sections/Hero"
+        ]
+    }
+});
+const Features = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 1767)), {
+    loadableGenerated: {
+        modules: [
+            "/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/page.tsx -> " + "@/components/sections/Features"
+        ]
+    }
+});
+const Solutions = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 1150)), {
+    loadableGenerated: {
+        modules: [
+            "/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/page.tsx -> " + "@/components/sections/Solutions"
+        ]
+    }
+});
+const Products = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 7849)), {
+    loadableGenerated: {
+        modules: [
+            "/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/page.tsx -> " + "@/components/sections/Products"
+        ]
+    }
+});
+const Clients = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 9786)), {
+    loadableGenerated: {
+        modules: [
+            "/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/page.tsx -> " + "@/components/sections/Clients"
+        ]
+    }
+});
+const Sectors = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 5347)), {
+    loadableGenerated: {
+        modules: [
+            "/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/page.tsx -> " + "@/components/sections/Sectors"
+        ]
+    }
+});
+const About = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 5034)), {
+    loadableGenerated: {
+        modules: [
+            "/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/page.tsx -> " + "@/components/sections/About"
+        ]
+    }
+});
+const Contact = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 4364)), {
+    loadableGenerated: {
+        modules: [
+            "/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/page.tsx -> " + "@/components/sections/Contact"
+        ]
+    }
+});
 // Force dynamic rendering to prevent static generation errors
 const dynamic = "force-dynamic";
 // Use Edge Runtime for Cloudflare Pages compatibility
 const runtime = "edge";
 function HomePage() {
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("main", {
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("main", {
         className: "min-h-screen",
         children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(Header["default"], {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(Hero, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(Features, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(Solutions, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(Products, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(Clients, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(Sectors, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(About, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(Contact, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(Footer["default"], {})
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_layout_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {}),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Hero, {}),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Features, {}),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Solutions, {}),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Products, {}),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Clients, {}),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Sectors, {}),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(About, {}),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Contact, {}),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_layout_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {})
         ]
     });
 }
@@ -36632,6 +33318,3702 @@ function Header() {
 
 /***/ }),
 
+/***/ 5034:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ About)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6485);
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2069);
+/* harmony import */ var react_intersection_observer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6493);
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+function About() {
+    const [ref, inView] = (0,react_intersection_observer__WEBPACK_IMPORTED_MODULE_2__/* .useInView */ .YD)({
+        triggerOnce: true,
+        threshold: 0.1
+    });
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("section", {
+        id: "protek-hakkinda",
+        ref: ref,
+        className: "section-padding bg-white overflow-x-hidden",
+        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+            className: "container-custom",
+            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: "grid lg:grid-cols-2 gap-12 items-center",
+                children: [
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_1__/* .motion */ .EA.div, {
+                        initial: {
+                            opacity: 0,
+                            x: -50
+                        },
+                        animate: inView ? {
+                            opacity: 1,
+                            x: 0
+                        } : {},
+                        transition: {
+                            duration: 0.8
+                        },
+                        className: "space-y-6",
+                        children: [
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h2", {
+                                className: "text-gradient",
+                                children: "Protek Analitik Hakkında"
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                className: "text-body-lg text-neutral-600",
+                                children: "20 yılı aşkın deneyimimizle laboratuvar teknolojileri alanında T\xfcrkiye'nin \xf6nde gelen firmalarından biriyiz. M\xfcşterilerimize en kaliteli hizmeti sunmak i\xe7in s\xfcrekli gelişen teknolojileri takip ediyor ve uzman ekibimizle \xe7\xf6z\xfcmler \xfcretiyoruz."
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "space-y-4",
+                                children: [
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                        className: "flex items-center gap-3",
+                                        children: [
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                                className: "w-2 h-2 bg-primary-500 rounded-full"
+                                            }),
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                                className: "text-body text-neutral-700",
+                                                children: "ISO 9001:2015 Kalite Y\xf6netim Sistemi"
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                        className: "flex items-center gap-3",
+                                        children: [
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                                className: "w-2 h-2 bg-secondary-500 rounded-full"
+                                            }),
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                                className: "text-body text-neutral-700",
+                                                children: "500+ Başarıyla Tamamlanan Proje"
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                        className: "flex items-center gap-3",
+                                        children: [
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                                className: "w-2 h-2 bg-accent-500 rounded-full"
+                                            }),
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                                className: "text-body text-neutral-700",
+                                                children: "1000+ Memnun M\xfcşteri"
+                                            })
+                                        ]
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+                                href: "/hakkimizda",
+                                className: "btn-primary",
+                                children: "Daha Fazla Bilgi"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_1__/* .motion */ .EA.div, {
+                        initial: {
+                            opacity: 0,
+                            x: 50
+                        },
+                        animate: inView ? {
+                            opacity: 1,
+                            x: 0
+                        } : {},
+                        transition: {
+                            duration: 0.8
+                        },
+                        className: "relative w-full max-w-[600px] mx-auto lg:mx-0",
+                        children: [
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                id: "tanitim-videosu",
+                                className: "relative bg-neutral-900 rounded-3xl overflow-hidden shadow-2xl w-full",
+                                children: [
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                        className: "bg-neutral-800 px-4 py-3 flex items-center justify-between",
+                                        children: [
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                className: "flex items-center gap-2",
+                                                children: [
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                                        className: "w-3 h-3 bg-red-500 rounded-full"
+                                                    }),
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                                        className: "w-3 h-3 bg-yellow-500 rounded-full"
+                                                    }),
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                                        className: "w-3 h-3 bg-green-500 rounded-full"
+                                                    })
+                                                ]
+                                            }),
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                                className: "text-white text-sm font-medium truncate",
+                                                children: "Protek Analitik Tanıtım Videosu"
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                        className: "relative w-full pb-[75%]",
+                                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
+                                            src: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7328309007935291392?compact=1",
+                                            className: "absolute top-0 left-0 w-full h-full border-0",
+                                            allowFullScreen: true,
+                                            title: "Protek Analitik Tanıtım Videosu"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                        className: "bg-neutral-800 px-4 py-2 flex items-center justify-between",
+                                        children: [
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                className: "flex items-center gap-2 text-white text-sm",
+                                                children: [
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                                        className: "w-2 h-2 bg-red-500 rounded-full"
+                                                    }),
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                                        children: "LinkedIn Video"
+                                                    })
+                                                ]
+                                            }),
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                                className: "text-white text-sm",
+                                                children: "HD • 4:3"
+                                            })
+                                        ]
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                className: "absolute -top-3 -right-3 bg-gradient-to-r from-primary-500 to-secondary-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg",
+                                children: "Yeni Video"
+                            })
+                        ]
+                    })
+                ]
+            })
+        })
+    });
+}
+
+
+/***/ }),
+
+/***/ 9786:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Clients)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6485);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5579);
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2069);
+/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7237);
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+const clientLogos = [
+    {
+        name: "Behr",
+        logo: "/client-images/behr.jpg"
+    },
+    {
+        name: "Novasina",
+        logo: "/client-images/novasina.jpg"
+    },
+    {
+        name: "Alliance",
+        logo: "/client-images/allience.jpg"
+    },
+    {
+        name: "Atago",
+        logo: "/client-images/atago.jpg"
+    },
+    {
+        name: "Awerness",
+        logo: "/client-images/awernes.jpg"
+    },
+    {
+        name: "Interline",
+        logo: "/client-images/interline.jpg"
+    },
+    {
+        name: "Foodtech",
+        logo: "/client-images/foodtech.jpg"
+    },
+    {
+        name: "Atre2",
+        logo: "/client-images/atre2.jpg"
+    },
+    {
+        name: "Apera",
+        logo: "/client-images/apera.jpg"
+    },
+    {
+        name: "WaterID",
+        logo: "/client-images/waterid.jpg"
+    },
+    {
+        name: "Orion",
+        logo: "/client-images/orion.jpg"
+    },
+    {
+        name: "LabPlus",
+        logo: "/client-images/labplus.jpg"
+    },
+    {
+        name: "Mazyme",
+        logo: "/client-images/mazyme.jpg"
+    },
+    {
+        name: "Xebios",
+        logo: "/client-images/xebios.jpg"
+    },
+    {
+        name: "Chemo",
+        logo: "/client-images/chemo.jpg"
+    },
+    {
+        name: "Harrer",
+        logo: "/client-images/harrer.jpg"
+    },
+    {
+        name: "3NH",
+        logo: "/client-images/3nh.jpg"
+    },
+    {
+        name: "Maselli",
+        logo: "/client-images/maselli.jpg"
+    },
+    {
+        name: "Pentair",
+        logo: "/client-images/pentair.jpg"
+    },
+    {
+        name: "Moist",
+        logo: "/client-images/moist.jpg"
+    },
+    {
+        name: "Neogen",
+        logo: "/client-images/neogen.jpg"
+    },
+    {
+        name: "Gold Standard",
+        logo: "/client-images/goldstandard.jpg"
+    },
+    {
+        name: "Miris",
+        logo: "/client-images/miris.png"
+    }
+];
+// Animated Counter Component
+function AnimatedCounter({ value, suffix = "", duration = 2 }) {
+    const ref = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(null);
+    const isInView = (0,framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .useInView */ .JC)(ref, {
+        once: true
+    });
+    const motionValue = (0,framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .useMotionValue */ .c$)(0);
+    const springValue = (0,framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .useSpring */ .q_)(motionValue, {
+        duration: duration * 1000
+    });
+    const [displayValue, setDisplayValue] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(0);
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        if (isInView) {
+            motionValue.set(value);
+        }
+    }, [
+        isInView,
+        motionValue,
+        value
+    ]);
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        return springValue.onChange((latest)=>{
+            setDisplayValue(Math.round(latest));
+        });
+    }, [
+        springValue
+    ]);
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        ref: ref,
+        className: "text-4xl font-bold text-gradient mb-2",
+        children: [
+            displayValue,
+            suffix
+        ]
+    });
+}
+function Clients() {
+    const [hoveredLogo, setHoveredLogo] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(null);
+    const [hoveredStat, setHoveredStat] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(null);
+    // Double the logos for seamless infinite scroll
+    const doubledLogos = [
+        ...clientLogos,
+        ...clientLogos
+    ];
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
+        id: "clients-section",
+        className: "section-padding bg-white relative overflow-hidden",
+        children: [
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                className: "absolute inset-0 bg-pattern opacity-30"
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: "container-custom relative z-10",
+                children: [
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                        className: "text-center mb-16",
+                        children: [
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.div, {
+                                initial: {
+                                    opacity: 0,
+                                    y: 20
+                                },
+                                whileInView: {
+                                    opacity: 1,
+                                    y: 0
+                                },
+                                viewport: {
+                                    once: true
+                                },
+                                transition: {
+                                    duration: 0.6
+                                },
+                                className: "inline-flex items-center gap-2 bg-gradient-to-r from-primary-100 to-secondary-100 rounded-full px-6 py-2 mb-6",
+                                children: [
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                        className: "w-2 h-2 rounded-full bg-gradient-to-r from-primary-500 to-secondary-500"
+                                    }),
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                        className: "text-label text-neutral-700",
+                                        children: "G\xfcvenilir Ortaklarımız"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.h2, {
+                                initial: {
+                                    opacity: 0,
+                                    y: 20
+                                },
+                                whileInView: {
+                                    opacity: 1,
+                                    y: 0
+                                },
+                                viewport: {
+                                    once: true
+                                },
+                                transition: {
+                                    duration: 0.6,
+                                    delay: 0.1
+                                },
+                                className: "font-bold text-neutral-900 mb-4",
+                                children: [
+                                    "D\xfcnya \xc7apında ",
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                        className: "text-gradient",
+                                        children: "G\xfcvenilir Markalar"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.p, {
+                                initial: {
+                                    opacity: 0,
+                                    y: 20
+                                },
+                                whileInView: {
+                                    opacity: 1,
+                                    y: 0
+                                },
+                                viewport: {
+                                    once: true
+                                },
+                                transition: {
+                                    duration: 0.6,
+                                    delay: 0.2
+                                },
+                                className: "text-body-lg text-neutral-600 max-w-2xl mx-auto",
+                                children: "25+ yıllık deneyimimizle, d\xfcnya standartlarında analitik \xe7\xf6z\xfcmler sunuyoruz. Prestijli markaların T\xfcrkiye temsilcisi olarak hizmet veriyoruz."
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.div, {
+                        initial: {
+                            opacity: 0,
+                            y: 20
+                        },
+                        whileInView: {
+                            opacity: 1,
+                            y: 0
+                        },
+                        viewport: {
+                            once: true
+                        },
+                        transition: {
+                            duration: 0.6,
+                            delay: 0.3
+                        },
+                        className: "grid grid-cols-1 md:grid-cols-3 gap-8 mb-16",
+                        children: [
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.div, {
+                                className: "text-center group cursor-pointer",
+                                onMouseEnter: ()=>setHoveredStat("brands"),
+                                onMouseLeave: ()=>setHoveredStat(null),
+                                whileHover: {
+                                    scale: 1.05
+                                },
+                                transition: {
+                                    duration: 0.3
+                                },
+                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: "bg-gradient-to-br from-white to-primary-50 rounded-2xl p-6 border border-primary-100 group-hover:border-primary-200 transition-all duration-300 group-hover:shadow-xl group-hover:shadow-primary-500/10",
+                                    children: [
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(AnimatedCounter, {
+                                            value: 25,
+                                            suffix: "+",
+                                            duration: 2.5
+                                        }),
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                            className: "text-body text-neutral-600 font-medium group-hover:text-primary-600 transition-colors",
+                                            children: "Uluslararası Marka"
+                                        }),
+                                        hoveredStat === "brands" && /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.div, {
+                                            initial: {
+                                                opacity: 0,
+                                                height: 0
+                                            },
+                                            animate: {
+                                                opacity: 1,
+                                                height: "auto"
+                                            },
+                                            className: "mt-3 pt-3 border-t border-primary-100",
+                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                                className: "text-caption text-primary-600 font-medium",
+                                                children: "D\xfcnya \xe7apında g\xfcvenilir markalar"
+                                            })
+                                        })
+                                    ]
+                                })
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.div, {
+                                className: "text-center group cursor-pointer",
+                                onMouseEnter: ()=>setHoveredStat("customers"),
+                                onMouseLeave: ()=>setHoveredStat(null),
+                                whileHover: {
+                                    scale: 1.05
+                                },
+                                transition: {
+                                    duration: 0.3
+                                },
+                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: "bg-gradient-to-br from-white to-secondary-50 rounded-2xl p-6 border border-secondary-100 group-hover:border-secondary-200 transition-all duration-300 group-hover:shadow-xl group-hover:shadow-secondary-500/10",
+                                    children: [
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(AnimatedCounter, {
+                                            value: 1000,
+                                            suffix: "+",
+                                            duration: 3
+                                        }),
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                            className: "text-body text-neutral-600 font-medium group-hover:text-secondary-600 transition-colors",
+                                            children: "Mutlu M\xfcşteri"
+                                        }),
+                                        hoveredStat === "customers" && /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.div, {
+                                            initial: {
+                                                opacity: 0,
+                                                height: 0
+                                            },
+                                            animate: {
+                                                opacity: 1,
+                                                height: "auto"
+                                            },
+                                            className: "mt-3 pt-3 border-t border-secondary-100",
+                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                                className: "text-caption text-secondary-600 font-medium",
+                                                children: "T\xfcrkiye geneli memnun m\xfcşteriler"
+                                            })
+                                        })
+                                    ]
+                                })
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.div, {
+                                className: "text-center group cursor-pointer",
+                                onMouseEnter: ()=>setHoveredStat("experience"),
+                                onMouseLeave: ()=>setHoveredStat(null),
+                                whileHover: {
+                                    scale: 1.05
+                                },
+                                transition: {
+                                    duration: 0.3
+                                },
+                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: "bg-gradient-to-br from-white to-accent-50 rounded-2xl p-6 border border-accent-100 group-hover:border-accent-200 transition-all duration-300 group-hover:shadow-xl group-hover:shadow-accent-500/10",
+                                    children: [
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(AnimatedCounter, {
+                                            value: 15,
+                                            suffix: "+",
+                                            duration: 2
+                                        }),
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                            className: "text-body text-neutral-600 font-medium group-hover:text-accent-600 transition-colors",
+                                            children: "Sekt\xf6r Deneyimi"
+                                        }),
+                                        hoveredStat === "experience" && /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.div, {
+                                            initial: {
+                                                opacity: 0,
+                                                height: 0
+                                            },
+                                            animate: {
+                                                opacity: 1,
+                                                height: "auto"
+                                            },
+                                            className: "mt-3 pt-3 border-t border-accent-100",
+                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                                className: "text-caption text-accent-600 font-medium",
+                                                children: "Farklı end\xfcstri alanlarında uzman"
+                                            })
+                                        })
+                                    ]
+                                })
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                        className: "relative py-8",
+                        children: [
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                className: "overflow-hidden mb-12 pb-8",
+                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.div, {
+                                    className: "flex space-x-12",
+                                    animate: {
+                                        x: [
+                                            "0%",
+                                            "-50%"
+                                        ]
+                                    },
+                                    transition: {
+                                        x: {
+                                            repeat: Infinity,
+                                            repeatType: "loop",
+                                            duration: 30,
+                                            ease: "linear"
+                                        }
+                                    },
+                                    children: doubledLogos.map((client, index)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.div, {
+                                            className: "flex-shrink-0 group relative",
+                                            onMouseEnter: ()=>setHoveredLogo(`top-${client.name}`),
+                                            onMouseLeave: ()=>setHoveredLogo(null),
+                                            whileHover: {
+                                                scale: 1.08,
+                                                y: -4
+                                            },
+                                            transition: {
+                                                duration: 0.3,
+                                                ease: "easeOut"
+                                            },
+                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                className: "w-36 h-24 bg-white rounded-2xl border border-neutral-200/50 flex items-center justify-center transition-all duration-300 relative overflow-hidden group-hover:border-primary-200 group-hover:shadow-xl group-hover:shadow-primary-500/10",
+                                                children: [
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                                        className: "absolute inset-0 bg-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                                                    }),
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(next_image__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                                                        src: client.logo,
+                                                        alt: client.name,
+                                                        width: 96,
+                                                        height: 48,
+                                                        className: "max-w-28 max-h-16 object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300 relative z-10"
+                                                    }),
+                                                    hoveredLogo === `top-${client.name}` && /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.div, {
+                                                        initial: {
+                                                            opacity: 0,
+                                                            y: 10,
+                                                            scale: 0.8
+                                                        },
+                                                        animate: {
+                                                            opacity: 1,
+                                                            y: 0,
+                                                            scale: 1
+                                                        },
+                                                        className: "absolute -bottom-12 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-primary-600 to-secondary-600 text-white text-sm px-4 py-2 rounded-xl whitespace-nowrap z-30 shadow-lg font-medium",
+                                                        children: [
+                                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                                                className: "absolute -top-1 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-primary-600 rotate-45"
+                                                            }),
+                                                            client.name
+                                                        ]
+                                                    })
+                                                ]
+                                            })
+                                        }, `top-${index}`))
+                                })
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                className: "overflow-hidden pb-8",
+                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.div, {
+                                    className: "flex space-x-12",
+                                    animate: {
+                                        x: [
+                                            "-50%",
+                                            "0%"
+                                        ]
+                                    },
+                                    transition: {
+                                        x: {
+                                            repeat: Infinity,
+                                            repeatType: "loop",
+                                            duration: 25,
+                                            ease: "linear"
+                                        }
+                                    },
+                                    children: doubledLogos.reverse().map((client, index)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.div, {
+                                            className: "flex-shrink-0 group relative",
+                                            onMouseEnter: ()=>setHoveredLogo(`bottom-${client.name}`),
+                                            onMouseLeave: ()=>setHoveredLogo(null),
+                                            whileHover: {
+                                                scale: 1.08,
+                                                y: -4
+                                            },
+                                            transition: {
+                                                duration: 0.3,
+                                                ease: "easeOut"
+                                            },
+                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                className: "w-36 h-24 bg-white rounded-2xl border border-neutral-200/50 flex items-center justify-center transition-all duration-300 relative overflow-hidden group-hover:border-accent-200 group-hover:shadow-xl group-hover:shadow-accent-500/10",
+                                                children: [
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                                        className: "absolute inset-0 bg-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                                                    }),
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(next_image__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                                                        src: client.logo,
+                                                        alt: client.name,
+                                                        width: 96,
+                                                        height: 48,
+                                                        className: "max-w-28 max-h-16 object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300 relative z-10"
+                                                    }),
+                                                    hoveredLogo === `bottom-${client.name}` && /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.div, {
+                                                        initial: {
+                                                            opacity: 0,
+                                                            y: 10,
+                                                            scale: 0.8
+                                                        },
+                                                        animate: {
+                                                            opacity: 1,
+                                                            y: 0,
+                                                            scale: 1
+                                                        },
+                                                        className: "absolute -bottom-12 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-accent-600 to-primary-600 text-white text-sm px-4 py-2 rounded-xl whitespace-nowrap z-30 shadow-lg font-medium",
+                                                        children: [
+                                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                                                className: "absolute -top-1 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-accent-600 rotate-45"
+                                                            }),
+                                                            client.name
+                                                        ]
+                                                    })
+                                                ]
+                                            })
+                                        }, `bottom-${index}`))
+                                })
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.div, {
+                        initial: {
+                            opacity: 0,
+                            y: 20
+                        },
+                        whileInView: {
+                            opacity: 1,
+                            y: 0
+                        },
+                        viewport: {
+                            once: true
+                        },
+                        transition: {
+                            duration: 0.6,
+                            delay: 0.4
+                        },
+                        className: "text-center mt-16",
+                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            className: "bg-gradient-to-br from-neutral-50 to-neutral-100 rounded-3xl p-8 md:p-12",
+                            children: [
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
+                                    className: "text-2xl font-bold text-neutral-900 mb-4",
+                                    children: "Siz de Bu G\xfcvenilir Ağa Katılın"
+                                }),
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                    className: "text-neutral-600 mb-6 max-w-xl mx-auto",
+                                    children: "D\xfcnya standartlarında analitik \xe7\xf6z\xfcmler i\xe7in bizimle iletişime ge\xe7in. Uzman ekibimiz size en uygun \xe7\xf6z\xfcm\xfc sunar."
+                                }),
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: "flex flex-col sm:flex-row gap-4 justify-center",
+                                    children: [
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.a, {
+                                            href: "/iletisim",
+                                            className: "btn-primary",
+                                            whileHover: {
+                                                scale: 1.05
+                                            },
+                                            whileTap: {
+                                                scale: 0.95
+                                            },
+                                            children: "İletişime Ge\xe7in"
+                                        }),
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .EA.a, {
+                                            href: "/hakkimizda/referanslar",
+                                            className: "btn-outline",
+                                            whileHover: {
+                                                scale: 1.05
+                                            },
+                                            whileTap: {
+                                                scale: 0.95
+                                            },
+                                            children: "Referanslarımızı İnceleyin"
+                                        })
+                                    ]
+                                })
+                            ]
+                        })
+                    })
+                ]
+            })
+        ]
+    });
+}
+
+
+/***/ }),
+
+/***/ 4364:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ Contact)
+});
+
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(6485);
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/index.js
+var react = __webpack_require__(5579);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/index.mjs + 290 modules
+var es = __webpack_require__(2069);
+// EXTERNAL MODULE: ./node_modules/react-intersection-observer/dist/index.mjs
+var dist = __webpack_require__(6493);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/EnvelopeIcon.js
+var EnvelopeIcon = __webpack_require__(7279);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/MapPinIcon.js
+var MapPinIcon = __webpack_require__(9205);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/PhoneIcon.js
+var PhoneIcon = __webpack_require__(4922);
+;// CONCATENATED MODULE: __barrel_optimize__?names=EnvelopeIcon,MapPinIcon,PhoneIcon!=!./node_modules/@heroicons/react/24/outline/esm/index.js
+
+
+
+
+;// CONCATENATED MODULE: ./src/components/sections/Contact.tsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+
+function Contact() {
+    const [ref, inView] = (0,dist/* useInView */.YD)({
+        triggerOnce: true,
+        threshold: 0.1
+    });
+    const [formData, setFormData] = (0,react.useState)({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        company: "",
+        subject: "",
+        message: "",
+        messageType: "genel"
+    });
+    const [isSubmitting, setIsSubmitting] = (0,react.useState)(false);
+    const [submitStatus, setSubmitStatus] = (0,react.useState)("idle");
+    const handleInputChange = (e)=>{
+        const { name, value } = e.target;
+        setFormData((prev)=>({
+                ...prev,
+                [name]: value
+            }));
+    };
+    const handleSubmit = async (e)=>{
+        e.preventDefault();
+        setIsSubmitting(true);
+        setSubmitStatus("idle");
+        try {
+            const response = await fetch("/api/contact", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    first_name: formData.firstName,
+                    last_name: formData.lastName,
+                    email: formData.email,
+                    phone: formData.phone,
+                    company: formData.company,
+                    subject: formData.subject,
+                    message: formData.message,
+                    message_type: formData.messageType,
+                    source: "website-contact-form"
+                })
+            });
+            if (response.ok) {
+                setSubmitStatus("success");
+                setFormData({
+                    firstName: "",
+                    lastName: "",
+                    email: "",
+                    phone: "",
+                    company: "",
+                    subject: "",
+                    message: "",
+                    messageType: "genel"
+                });
+            } else {
+                setSubmitStatus("error");
+            }
+        } catch (error) {
+            console.error("Form submission error:", error);
+            setSubmitStatus("error");
+        } finally{
+            setIsSubmitting(false);
+        }
+    };
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("section", {
+        ref: ref,
+        className: "section-padding bg-gradient-to-br from-black via-[#000510] to-[#001328] text-white relative overflow-hidden",
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                className: "absolute inset-0 opacity-10",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "absolute inset-0 bg-gradient-to-t from-black to-[#001328]/20"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "absolute top-0 right-0 w-96 h-96 bg-[#001328]/15 rounded-full blur-3xl"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "absolute bottom-0 left-0 w-80 h-80 bg-black/30 rounded-full blur-3xl"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                className: "container-custom relative z-10",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
+                        initial: {
+                            opacity: 0,
+                            y: 30
+                        },
+                        animate: inView ? {
+                            opacity: 1,
+                            y: 0
+                        } : {},
+                        transition: {
+                            duration: 0.6
+                        },
+                        className: "text-center space-y-4 mb-16",
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime.jsx)("h2", {
+                                className: "text-white",
+                                children: "İletişime Ge\xe7in"
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                className: "text-body-lg text-neutral-300 max-w-3xl mx-auto",
+                                children: "Projeleriniz i\xe7in uzman ekibimizden destek almak istiyorsanız, bizimle iletişime ge\xe7in."
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                        className: "grid lg:grid-cols-3 gap-8",
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                                initial: {
+                                    opacity: 0,
+                                    y: 30
+                                },
+                                animate: inView ? {
+                                    opacity: 1,
+                                    y: 0
+                                } : {},
+                                transition: {
+                                    duration: 0.6,
+                                    delay: 0.2
+                                },
+                                className: "space-y-6",
+                                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                    className: "space-y-4",
+                                    children: [
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            className: "flex items-center gap-3",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(PhoneIcon/* default */.Z, {
+                                                    className: "w-6 h-6 text-primary-400"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                                    children: "+90 (216) 329 39 60 Pbx"
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            className: "flex items-center gap-3",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(PhoneIcon/* default */.Z, {
+                                                    className: "w-6 h-6 text-primary-400"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                                    children: "+90 (216) 329 37 70 Pbx"
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            className: "flex items-center gap-3",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(EnvelopeIcon/* default */.Z, {
+                                                    className: "w-6 h-6 text-primary-400"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                                    children: "info@protekanalitik.com"
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            className: "flex items-center gap-3",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(MapPinIcon/* default */.Z, {
+                                                    className: "w-6 h-6 text-primary-400"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                                    children: "Atakent Mah. Dicle Cad. No:29"
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                            className: "flex items-center gap-3 pl-9",
+                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                                children: "34760 \xdcmraniye / İstanbul / T\xdcRKİYE"
+                                            })
+                                        })
+                                    ]
+                                })
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                                initial: {
+                                    opacity: 0,
+                                    y: 30
+                                },
+                                animate: inView ? {
+                                    opacity: 1,
+                                    y: 0
+                                } : {},
+                                transition: {
+                                    duration: 0.6,
+                                    delay: 0.4
+                                },
+                                className: "lg:col-span-2",
+                                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("form", {
+                                    onSubmit: handleSubmit,
+                                    className: "space-y-4",
+                                    children: [
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            className: "grid md:grid-cols-2 gap-4",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
+                                                    type: "text",
+                                                    name: "firstName",
+                                                    value: formData.firstName,
+                                                    onChange: handleInputChange,
+                                                    placeholder: "Adınız",
+                                                    required: true,
+                                                    className: "input bg-neutral-900 border-neutral-800 text-white placeholder-neutral-500 focus:border-primary-500 focus:ring-primary-500"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
+                                                    type: "text",
+                                                    name: "lastName",
+                                                    value: formData.lastName,
+                                                    onChange: handleInputChange,
+                                                    placeholder: "Soyadınız",
+                                                    className: "input bg-neutral-900 border-neutral-800 text-white placeholder-neutral-500 focus:border-primary-500 focus:ring-primary-500"
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            className: "grid md:grid-cols-2 gap-4",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
+                                                    type: "email",
+                                                    name: "email",
+                                                    value: formData.email,
+                                                    onChange: handleInputChange,
+                                                    placeholder: "E-posta",
+                                                    required: true,
+                                                    className: "input bg-neutral-900 border-neutral-800 text-white placeholder-neutral-500 focus:border-primary-500 focus:ring-primary-500"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
+                                                    type: "tel",
+                                                    name: "phone",
+                                                    value: formData.phone,
+                                                    onChange: handleInputChange,
+                                                    placeholder: "Telefon",
+                                                    className: "input bg-neutral-900 border-neutral-800 text-white placeholder-neutral-500 focus:border-primary-500 focus:ring-primary-500"
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
+                                            type: "text",
+                                            name: "company",
+                                            value: formData.company,
+                                            onChange: handleInputChange,
+                                            placeholder: "Şirket",
+                                            className: "input bg-neutral-900 border-neutral-800 text-white placeholder-neutral-500 focus:border-primary-500 focus:ring-primary-500"
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            className: "grid md:grid-cols-2 gap-4",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("select", {
+                                                    name: "messageType",
+                                                    value: formData.messageType,
+                                                    onChange: handleInputChange,
+                                                    className: "input bg-neutral-900 border-neutral-800 text-white focus:border-primary-500 focus:ring-primary-500",
+                                                    children: [
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("option", {
+                                                            value: "genel",
+                                                            children: "Genel Bilgi"
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("option", {
+                                                            value: "teklif-talebi",
+                                                            children: "Teklif Talebi"
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("option", {
+                                                            value: "teknik-destek",
+                                                            children: "Teknik Destek"
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("option", {
+                                                            value: "satis",
+                                                            children: "Satış"
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("option", {
+                                                            value: "is-birligi",
+                                                            children: "İş Birliği"
+                                                        })
+                                                    ]
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("input", {
+                                                    type: "text",
+                                                    name: "subject",
+                                                    value: formData.subject,
+                                                    onChange: handleInputChange,
+                                                    placeholder: "Konu",
+                                                    required: true,
+                                                    className: "input bg-neutral-900 border-neutral-800 text-white placeholder-neutral-500 focus:border-primary-500 focus:ring-primary-500"
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("textarea", {
+                                            rows: 4,
+                                            name: "message",
+                                            value: formData.message,
+                                            onChange: handleInputChange,
+                                            placeholder: "Mesajınız",
+                                            required: true,
+                                            className: "input bg-neutral-900 border-neutral-800 text-white placeholder-neutral-500 focus:border-primary-500 focus:ring-primary-500 resize-none"
+                                        }),
+                                        submitStatus === "success" && /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                            className: "p-4 bg-green-900/30 border border-green-700 rounded-lg text-green-300",
+                                            children: "Mesajınız başarıyla g\xf6nderildi! En kısa s\xfcrede size d\xf6n\xfcş yapacağız."
+                                        }),
+                                        submitStatus === "error" && /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                            className: "p-4 bg-red-900/30 border border-red-700 rounded-lg text-red-300",
+                                            children: "Mesaj g\xf6nderilirken bir hata oluştu. L\xfctfen tekrar deneyiniz."
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
+                                            type: "submit",
+                                            disabled: isSubmitting,
+                                            className: "btn-primary w-full disabled:opacity-50 disabled:cursor-not-allowed",
+                                            children: isSubmitting ? "G\xf6nderiliyor..." : "Mesaj G\xf6nder"
+                                        })
+                                    ]
+                                })
+                            })
+                        ]
+                    })
+                ]
+            })
+        ]
+    });
+}
+
+
+/***/ }),
+
+/***/ 1767:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ Features)
+});
+
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(6485);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/index.mjs + 290 modules
+var es = __webpack_require__(2069);
+// EXTERNAL MODULE: ./node_modules/react-intersection-observer/dist/index.mjs
+var dist = __webpack_require__(6493);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/BeakerIcon.js
+var BeakerIcon = __webpack_require__(3238);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ClockIcon.js
+var ClockIcon = __webpack_require__(854);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/CogIcon.js
+var CogIcon = __webpack_require__(7213);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/GlobeAltIcon.js
+var GlobeAltIcon = __webpack_require__(2305);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/LightBulbIcon.js
+var LightBulbIcon = __webpack_require__(8919);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ShieldCheckIcon.js
+var ShieldCheckIcon = __webpack_require__(8996);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/TrophyIcon.js
+var TrophyIcon = __webpack_require__(9005);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/UsersIcon.js
+var UsersIcon = __webpack_require__(8103);
+;// CONCATENATED MODULE: __barrel_optimize__?names=BeakerIcon,ClockIcon,CogIcon,GlobeAltIcon,LightBulbIcon,ShieldCheckIcon,TrophyIcon,UsersIcon!=!./node_modules/@heroicons/react/24/outline/esm/index.js
+
+
+
+
+
+
+
+
+
+;// CONCATENATED MODULE: ./src/components/sections/Features.tsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+const features = [
+    {
+        icon: BeakerIcon/* default */.Z,
+        title: "Gelişmiş Analiz Teknolojileri",
+        description: "En son teknoloji analiz cihazları ile y\xfcksek hassasiyetli \xf6l\xe7\xfcmler",
+        color: "from-primary-500 to-primary-600"
+    },
+    {
+        icon: CogIcon/* default */.Z,
+        title: "Otomasyon Sistemleri",
+        description: "Akıllı laboratuvar otomasyon \xe7\xf6z\xfcmleri ile verimliliği artırın",
+        color: "from-secondary-500 to-secondary-600"
+    },
+    {
+        icon: ShieldCheckIcon/* default */.Z,
+        title: "Kalite G\xfcvencesi",
+        description: "ISO standartlarında hizmet ve sertifikalı \xe7\xf6z\xfcmler",
+        color: "from-accent-500 to-accent-600"
+    },
+    {
+        icon: ClockIcon/* default */.Z,
+        title: "24/7 Teknik Destek",
+        description: "Kesintisiz hizmet i\xe7in s\xfcrekli teknik destek ve bakım",
+        color: "from-orange-500 to-red-500"
+    },
+    {
+        icon: UsersIcon/* default */.Z,
+        title: "Uzman Ekip",
+        description: "Alanında uzman m\xfchendis ve teknisyen kadrosu",
+        color: "from-purple-500 to-pink-500"
+    },
+    {
+        icon: GlobeAltIcon/* default */.Z,
+        title: "Global \xc7\xf6z\xfcmler",
+        description: "Uluslararası standartlarda yerel hizmet anlayışı",
+        color: "from-teal-500 to-cyan-500"
+    },
+    {
+        icon: TrophyIcon/* default */.Z,
+        title: "20+ Yıl Deneyim",
+        description: "Sekt\xf6rdeki k\xf6kl\xfc deneyimimiz g\xfcvencesinde",
+        color: "from-yellow-500 to-orange-500"
+    },
+    {
+        icon: LightBulbIcon/* default */.Z,
+        title: "İnovatif Yaklaşım",
+        description: "S\xfcrekli gelişim ve yenilik\xe7i \xe7\xf6z\xfcmler",
+        color: "from-indigo-500 to-blue-500"
+    }
+];
+function Features() {
+    const [ref, inView] = (0,dist/* useInView */.YD)({
+        triggerOnce: true,
+        threshold: 0.1
+    });
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)("section", {
+        ref: ref,
+        className: "py-12 lg:py-16 bg-white",
+        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+            className: "container-custom",
+            children: [
+                /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
+                    initial: {
+                        opacity: 0,
+                        y: 30
+                    },
+                    animate: inView ? {
+                        opacity: 1,
+                        y: 0
+                    } : {},
+                    transition: {
+                        duration: 0.6
+                    },
+                    className: "text-center space-y-3 mb-10",
+                    children: [
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)("h2", {
+                            className: "text-gradient",
+                            children: "Neden Protek Analitik?"
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                            className: "text-body text-neutral-600 max-w-2xl mx-auto",
+                            children: "Laboratuvar teknolojilerinde \xf6nc\xfc konumumuz, kaliteli hizmet anlayışımız ve m\xfcşteri odaklı yaklaşımımızla sekt\xf6rde fark yaratan \xe7\xf6z\xfcmler sunuyoruz."
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                    className: "grid md:grid-cols-2 lg:grid-cols-4 gap-6",
+                    children: features.map((feature, index)=>{
+                        const IconComponent = feature.icon;
+                        return /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                            initial: {
+                                opacity: 0,
+                                y: 30
+                            },
+                            animate: inView ? {
+                                opacity: 1,
+                                y: 0
+                            } : {},
+                            transition: {
+                                duration: 0.6,
+                                delay: index * 0.1
+                            },
+                            className: "group",
+                            children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                className: "card-hover p-4 text-center space-y-3 h-full",
+                                children: [
+                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                        className: "mx-auto w-12 h-12 relative",
+                                        children: [
+                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                className: `absolute inset-0 bg-gradient-to-r ${feature.color} rounded-xl rotate-6 group-hover:rotate-12 transition-transform duration-300`
+                                            }),
+                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                className: `relative bg-gradient-to-r ${feature.color} rounded-xl flex items-center justify-center w-full h-full group-hover:scale-110 transition-transform duration-300`,
+                                                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(IconComponent, {
+                                                    className: "w-6 h-6 text-white"
+                                                })
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                        className: "space-y-1",
+                                        children: [
+                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("h4", {
+                                                className: "font-semibold text-neutral-900 group-hover:text-primary-600 transition-colors text-sm leading-tight",
+                                                children: feature.title
+                                            }),
+                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                className: "text-caption text-neutral-600 leading-snug",
+                                                children: feature.description
+                                            })
+                                        ]
+                                    })
+                                ]
+                            })
+                        }, index);
+                    })
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                    initial: {
+                        opacity: 0,
+                        y: 30
+                    },
+                    animate: inView ? {
+                        opacity: 1,
+                        y: 0
+                    } : {},
+                    transition: {
+                        duration: 0.6,
+                        delay: 0.8
+                    },
+                    className: "text-center mt-10",
+                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "bg-gradient-to-r from-primary-50 to-secondary-50 rounded-2xl p-6 lg:p-8",
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                            className: "space-y-4",
+                            children: [
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
+                                    className: "font-bold text-neutral-900 text-lg lg:text-xl",
+                                    children: "Laboratuvarınız İ\xe7in En İyi \xc7\xf6z\xfcm\xfc Birlikte Bulalım"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                    className: "text-body-sm text-neutral-600 max-w-xl mx-auto",
+                                    children: "Uzman ekibimiz, ihtiya\xe7larınıza \xf6zel laboratuvar \xe7\xf6z\xfcmleri geliştirmek i\xe7in sizlerle birlikte \xe7alışmaya hazır."
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                    className: "flex flex-wrap justify-center gap-3",
+                                    children: [
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                            href: "/teklif-al",
+                                            className: "btn-primary",
+                                            children: "\xdccretsiz Teklif Alın"
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                            href: "/iletisim",
+                                            className: "btn-outline",
+                                            children: "Uzmanlarımızla G\xf6r\xfcş\xfcn"
+                                        })
+                                    ]
+                                })
+                            ]
+                        })
+                    })
+                })
+            ]
+        })
+    });
+}
+
+
+/***/ }),
+
+/***/ 3397:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ Hero)
+});
+
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(6485);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/index.mjs + 290 modules
+var es = __webpack_require__(2069);
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/index.js
+var react = __webpack_require__(5579);
+;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/solid/esm/ArrowRightIcon.js
+
+function ArrowRightIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24",
+        fill: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react.createElement("path", {
+        fillRule: "evenodd",
+        d: "M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z",
+        clipRule: "evenodd"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react.forwardRef(ArrowRightIcon);
+/* harmony default export */ const esm_ArrowRightIcon = (ForwardRef);
+
+;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/solid/esm/BeakerIcon.js
+
+function BeakerIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24",
+        fill: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react.createElement("path", {
+        fillRule: "evenodd",
+        d: "M10.5 3.798v5.02a3 3 0 0 1-.879 2.121l-2.377 2.377a9.845 9.845 0 0 1 5.091 1.013 8.315 8.315 0 0 0 5.713.636l.285-.071-3.954-3.955a3 3 0 0 1-.879-2.121v-5.02a23.614 23.614 0 0 0-3 0Zm4.5.138a.75.75 0 0 0 .093-1.495A24.837 24.837 0 0 0 12 2.25a25.048 25.048 0 0 0-3.093.191A.75.75 0 0 0 9 3.936v4.882a1.5 1.5 0 0 1-.44 1.06l-6.293 6.294c-1.62 1.621-.903 4.475 1.471 4.88 2.686.46 5.447.698 8.262.698 2.816 0 5.576-.239 8.262-.697 2.373-.406 3.092-3.26 1.47-4.881L15.44 9.879A1.5 1.5 0 0 1 15 8.818V3.936Z",
+        clipRule: "evenodd"
+    }));
+}
+const BeakerIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(BeakerIcon);
+/* harmony default export */ const esm_BeakerIcon = (BeakerIcon_ForwardRef);
+
+;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/solid/esm/ChatBubbleLeftRightIcon.js
+
+function ChatBubbleLeftRightIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24",
+        fill: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react.createElement("path", {
+        d: "M4.913 2.658c2.075-.27 4.19-.408 6.337-.408 2.147 0 4.262.139 6.337.408 1.922.25 3.291 1.861 3.405 3.727a4.403 4.403 0 0 0-1.032-.211 50.89 50.89 0 0 0-8.42 0c-2.358.196-4.04 2.19-4.04 4.434v4.286a4.47 4.47 0 0 0 2.433 3.984L7.28 21.53A.75.75 0 0 1 6 21v-4.03a48.527 48.527 0 0 1-1.087-.128C2.905 16.58 1.5 14.833 1.5 12.862V6.638c0-1.97 1.405-3.718 3.413-3.979Z"
+    }), /*#__PURE__*/ react.createElement("path", {
+        d: "M15.75 7.5c-1.376 0-2.739.057-4.086.169C10.124 7.797 9 9.103 9 10.609v4.285c0 1.507 1.128 2.814 2.67 2.94 1.243.102 2.5.157 3.768.165l2.782 2.781a.75.75 0 0 0 1.28-.53v-2.39l.33-.026c1.542-.125 2.67-1.433 2.67-2.94v-4.286c0-1.505-1.125-2.811-2.664-2.94A49.392 49.392 0 0 0 15.75 7.5Z"
+    }));
+}
+const ChatBubbleLeftRightIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(ChatBubbleLeftRightIcon);
+/* harmony default export */ const esm_ChatBubbleLeftRightIcon = (ChatBubbleLeftRightIcon_ForwardRef);
+
+;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/solid/esm/CheckCircleIcon.js
+
+function CheckCircleIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24",
+        fill: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react.createElement("path", {
+        fillRule: "evenodd",
+        d: "M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z",
+        clipRule: "evenodd"
+    }));
+}
+const CheckCircleIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(CheckCircleIcon);
+/* harmony default export */ const esm_CheckCircleIcon = (CheckCircleIcon_ForwardRef);
+
+;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/solid/esm/CogIcon.js
+
+function CogIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24",
+        fill: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react.createElement("path", {
+        d: "M17.004 10.407c.138.435-.216.842-.672.842h-3.465a.75.75 0 0 1-.65-.375l-1.732-3c-.229-.396-.053-.907.393-1.004a5.252 5.252 0 0 1 6.126 3.537ZM8.12 8.464c.307-.338.838-.235 1.066.16l1.732 3a.75.75 0 0 1 0 .75l-1.732 3c-.229.397-.76.5-1.067.161A5.23 5.23 0 0 1 6.75 12a5.23 5.23 0 0 1 1.37-3.536ZM10.878 17.13c-.447-.098-.623-.608-.394-1.004l1.733-3.002a.75.75 0 0 1 .65-.375h3.465c.457 0 .81.407.672.842a5.252 5.252 0 0 1-6.126 3.539Z"
+    }), /*#__PURE__*/ react.createElement("path", {
+        fillRule: "evenodd",
+        d: "M21 12.75a.75.75 0 1 0 0-1.5h-.783a8.22 8.22 0 0 0-.237-1.357l.734-.267a.75.75 0 1 0-.513-1.41l-.735.268a8.24 8.24 0 0 0-.689-1.192l.6-.503a.75.75 0 1 0-.964-1.149l-.6.504a8.3 8.3 0 0 0-1.054-.885l.391-.678a.75.75 0 1 0-1.299-.75l-.39.676a8.188 8.188 0 0 0-1.295-.47l.136-.77a.75.75 0 0 0-1.477-.26l-.136.77a8.36 8.36 0 0 0-1.377 0l-.136-.77a.75.75 0 1 0-1.477.26l.136.77c-.448.121-.88.28-1.294.47l-.39-.676a.75.75 0 0 0-1.3.75l.392.678a8.29 8.29 0 0 0-1.054.885l-.6-.504a.75.75 0 1 0-.965 1.149l.6.503a8.243 8.243 0 0 0-.689 1.192L3.8 8.216a.75.75 0 1 0-.513 1.41l.735.267a8.222 8.222 0 0 0-.238 1.356h-.783a.75.75 0 0 0 0 1.5h.783c.042.464.122.917.238 1.356l-.735.268a.75.75 0 0 0 .513 1.41l.735-.268c.197.417.428.816.69 1.191l-.6.504a.75.75 0 0 0 .963 1.15l.601-.505c.326.323.679.62 1.054.885l-.392.68a.75.75 0 0 0 1.3.75l.39-.679c.414.192.847.35 1.294.471l-.136.77a.75.75 0 0 0 1.477.261l.137-.772a8.332 8.332 0 0 0 1.376 0l.136.772a.75.75 0 1 0 1.477-.26l-.136-.771a8.19 8.19 0 0 0 1.294-.47l.391.677a.75.75 0 0 0 1.3-.75l-.393-.679a8.29 8.29 0 0 0 1.054-.885l.601.504a.75.75 0 0 0 .964-1.15l-.6-.503c.261-.375.492-.774.69-1.191l.735.267a.75.75 0 1 0 .512-1.41l-.734-.267c.115-.439.195-.892.237-1.356h.784Zm-2.657-3.06a6.744 6.744 0 0 0-1.19-2.053 6.784 6.784 0 0 0-1.82-1.51A6.705 6.705 0 0 0 12 5.25a6.8 6.8 0 0 0-1.225.11 6.7 6.7 0 0 0-2.15.793 6.784 6.784 0 0 0-2.952 3.489.76.76 0 0 1-.036.098A6.74 6.74 0 0 0 5.251 12a6.74 6.74 0 0 0 3.366 5.842l.009.005a6.704 6.704 0 0 0 2.18.798l.022.003a6.792 6.792 0 0 0 2.368-.004 6.704 6.704 0 0 0 2.205-.811 6.785 6.785 0 0 0 1.762-1.484l.009-.01.009-.01a6.743 6.743 0 0 0 1.18-2.066c.253-.707.39-1.469.39-2.263a6.74 6.74 0 0 0-.408-2.309Z",
+        clipRule: "evenodd"
+    }));
+}
+const CogIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(CogIcon);
+/* harmony default export */ const esm_CogIcon = (CogIcon_ForwardRef);
+
+;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/solid/esm/PlayIcon.js
+
+function PlayIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24",
+        fill: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react.createElement("path", {
+        fillRule: "evenodd",
+        d: "M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z",
+        clipRule: "evenodd"
+    }));
+}
+const PlayIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(PlayIcon);
+/* harmony default export */ const esm_PlayIcon = (PlayIcon_ForwardRef);
+
+;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/solid/esm/ShieldCheckIcon.js
+
+function ShieldCheckIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24",
+        fill: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react.createElement("path", {
+        fillRule: "evenodd",
+        d: "M12.516 2.17a.75.75 0 0 0-1.032 0 11.209 11.209 0 0 1-7.877 3.08.75.75 0 0 0-.722.515A12.74 12.74 0 0 0 2.25 9.75c0 5.942 4.064 10.933 9.563 12.348a.749.749 0 0 0 .374 0c5.499-1.415 9.563-6.406 9.563-12.348 0-1.39-.223-2.73-.635-3.985a.75.75 0 0 0-.722-.516l-.143.001c-2.996 0-5.717-1.17-7.734-3.08Zm3.094 8.016a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z",
+        clipRule: "evenodd"
+    }));
+}
+const ShieldCheckIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(ShieldCheckIcon);
+/* harmony default export */ const esm_ShieldCheckIcon = (ShieldCheckIcon_ForwardRef);
+
+;// CONCATENATED MODULE: __barrel_optimize__?names=ArrowRightIcon,BeakerIcon,ChatBubbleLeftRightIcon,CheckCircleIcon,CogIcon,PlayIcon,ShieldCheckIcon!=!./node_modules/@heroicons/react/24/solid/esm/index.js
+
+
+
+
+
+
+
+
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(7237);
+;// CONCATENATED MODULE: ./src/components/sections/Hero.tsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+
+const features = [
+    {
+        icon: esm_BeakerIcon,
+        title: "Analiz Teknolojileri",
+        description: "En gelişmiş laboratuvar analiz cihazları",
+        gradient: "from-blue-500 to-cyan-500",
+        bgGradient: "from-blue-50 to-cyan-50",
+        delay: 0
+    },
+    {
+        icon: esm_CogIcon,
+        title: "Otomasyon Sistemleri",
+        description: "Akıllı laboratuvar otomasyon \xe7\xf6z\xfcmleri",
+        gradient: "from-purple-500 to-pink-500",
+        bgGradient: "from-purple-50 to-pink-50",
+        delay: 0.1
+    },
+    {
+        icon: esm_ShieldCheckIcon,
+        title: "Kalite G\xfcvencesi",
+        description: "Uluslararası standartlarda hizmet",
+        gradient: "from-green-500 to-emerald-500",
+        bgGradient: "from-green-50 to-emerald-50",
+        delay: 0.2
+    },
+    {
+        icon: esm_ChatBubbleLeftRightIcon,
+        title: "Teknik Destek",
+        description: "7/24 uzman destek hizmeti",
+        gradient: "from-orange-500 to-red-500",
+        bgGradient: "from-orange-50 to-red-50",
+        delay: 0.3
+    }
+];
+const rotatingWords = [
+    "Yenilik\xe7i",
+    "Sertifikalı",
+    "D\xfcnya Standartlarında",
+    "Ar-Ge Odaklı",
+    "Anahtar Teslim",
+    "360\xb0",
+    "Y\xfcksek Teknolojili",
+    "G\xfcvenilir",
+    "Entegre"
+];
+const promoImages = [
+    "/images/promo-images/banner-lab.jpg",
+    "/images/promo-images/banner-lab2.jpg",
+    "/images/promo-images/banner-lab3.jpg"
+];
+function Hero() {
+    const [currentWord, setCurrentWord] = (0,react.useState)(0);
+    const [currentImage, setCurrentImage] = (0,react.useState)(0);
+    const [isImageLoaded, setIsImageLoaded] = (0,react.useState)(false);
+    const [hoveredFeature, setHoveredFeature] = (0,react.useState)(null);
+    const containerRef = (0,react.useRef)(null);
+    const { scrollY } = (0,es/* useScroll */.vO)();
+    const y1 = (0,es/* useTransform */.Hm)(scrollY, [
+        0,
+        300
+    ], [
+        0,
+        -50
+    ]);
+    const y2 = (0,es/* useTransform */.Hm)(scrollY, [
+        0,
+        300
+    ], [
+        0,
+        -25
+    ]);
+    const opacity = (0,es/* useTransform */.Hm)(scrollY, [
+        0,
+        300
+    ], [
+        1,
+        0.8
+    ]);
+    (0,react.useEffect)(()=>{
+        const wordInterval = setInterval(()=>{
+            setCurrentWord((prev)=>(prev + 1) % rotatingWords.length);
+        }, 2200);
+        const imageInterval = setInterval(()=>{
+            setCurrentImage((prev)=>(prev + 1) % promoImages.length);
+        }, 3000);
+        return ()=>{
+            clearInterval(wordInterval);
+            clearInterval(imageInterval);
+        };
+    }, []);
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("section", {
+        className: "relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-neutral-50 via-blue-50/30 to-red-50/20",
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                className: "absolute inset-0 bg-pattern opacity-30"
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                className: "absolute inset-0 overflow-hidden",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                        animate: {
+                            rotate: [
+                                0,
+                                360
+                            ],
+                            x: [
+                                0,
+                                50,
+                                0
+                            ],
+                            y: [
+                                0,
+                                -30,
+                                0
+                            ]
+                        },
+                        transition: {
+                            duration: 20,
+                            repeat: Infinity,
+                            ease: "linear"
+                        },
+                        className: "absolute top-20 right-20 w-20 h-20 bg-gradient-to-r from-primary-200 to-secondary-200 rounded-full blur-xl opacity-60"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                        animate: {
+                            rotate: [
+                                360,
+                                0
+                            ],
+                            x: [
+                                0,
+                                -40,
+                                0
+                            ],
+                            y: [
+                                0,
+                                40,
+                                0
+                            ]
+                        },
+                        transition: {
+                            duration: 25,
+                            repeat: Infinity,
+                            ease: "linear"
+                        },
+                        className: "absolute bottom-32 left-32 w-32 h-32 bg-gradient-to-r from-secondary-200 to-accent-200 rounded-full blur-xl opacity-40"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                className: "container-custom relative z-10 pt-16 md:pt-16 lg:pt-16",
+                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                    className: "grid lg:grid-cols-2 gap-8 items-center",
+                    children: [
+                        /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
+                            initial: {
+                                opacity: 0,
+                                x: -50
+                            },
+                            animate: {
+                                opacity: 1,
+                                x: 0
+                            },
+                            transition: {
+                                duration: 0.8
+                            },
+                            className: "space-y-6 pt-8 md:pt-0",
+                            children: [
+                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                    className: "space-y-4",
+                                    children: [
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
+                                            initial: {
+                                                opacity: 0,
+                                                y: 20
+                                            },
+                                            animate: {
+                                                opacity: 1,
+                                                y: 0
+                                            },
+                                            transition: {
+                                                delay: 0.2,
+                                                duration: 0.6
+                                            },
+                                            whileHover: {
+                                                scale: 1.05,
+                                                y: -2
+                                            },
+                                            className: "inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-primary-50 to-secondary-50 text-primary-700 rounded-full text-caption font-medium border border-primary-200/50 shadow-lg backdrop-blur-sm cursor-pointer group",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_BeakerIcon, {
+                                                    className: "w-4 h-4 group-hover:text-primary-600 transition-colors"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                                    className: "bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent font-bold",
+                                                    children: "T\xfcrkiye’nin Laboratuvar Teknolojileri Lideri"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                                                    className: "w-2 h-2 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full",
+                                                    animate: {
+                                                        scale: [
+                                                            1,
+                                                            1.2,
+                                                            1
+                                                        ],
+                                                        opacity: [
+                                                            0.7,
+                                                            1,
+                                                            0.7
+                                                        ]
+                                                    },
+                                                    transition: {
+                                                        duration: 2,
+                                                        repeat: Infinity,
+                                                        ease: "easeInOut"
+                                                    }
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("h1", {
+                                            className: "font-display font-bold text-neutral-900 leading-tight text-3xl lg:text-4xl xl:text-5xl",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                                    className: "inline-block min-w-[140px] align-top",
+                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* AnimatePresence */.M_, {
+                                                        mode: "wait",
+                                                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.span, {
+                                                            initial: {
+                                                                opacity: 0,
+                                                                scale: 1.2,
+                                                                filter: "blur(8px)"
+                                                            },
+                                                            animate: {
+                                                                opacity: 1,
+                                                                scale: 1,
+                                                                filter: "blur(0px)"
+                                                            },
+                                                            exit: {
+                                                                opacity: 0,
+                                                                scale: 0.8,
+                                                                filter: "blur(12px)"
+                                                            },
+                                                            transition: {
+                                                                duration: 0.7,
+                                                                ease: "easeInOut"
+                                                            },
+                                                            className: "bg-gradient-to-r from-[#2A50F8] via-primary-500 to-secondary-500 bg-clip-text text-transparent font-bold",
+                                                            style: {
+                                                                display: "inline-block"
+                                                            },
+                                                            children: rotatingWords[currentWord]
+                                                        }, rotatingWords[currentWord])
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                                "Laboratuvar",
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                                "\xc7\xf6z\xfcmleri"
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                            className: "text-body text-neutral-600 max-w-lg",
+                                            children: "Laboratuvar teknolojilerinde 20+ yıllık deneyimimizle, g\xfcvenilir analiz cihazları, otomasyon sistemleri ve anahtar teslim laboratuvar kurulum hizmetleri sunuyoruz."
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
+                                    initial: {
+                                        opacity: 0,
+                                        y: 20
+                                    },
+                                    animate: {
+                                        opacity: 1,
+                                        y: 0
+                                    },
+                                    transition: {
+                                        delay: 0.4,
+                                        duration: 0.6
+                                    },
+                                    className: "flex flex-wrap gap-3",
+                                    children: [
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("a", {
+                                            href: "/cozumler",
+                                            className: "btn-primary px-5 py-2.5",
+                                            children: [
+                                                "\xc7\xf6z\xfcmlerimizi Keşfedin",
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_ArrowRightIcon, {
+                                                    className: "w-4 h-4"
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("button", {
+                                            className: "btn-outline px-5 py-2.5 group",
+                                            onClick: ()=>{
+                                                const videoSection = document.getElementById("tanitim-videosu");
+                                                if (videoSection) {
+                                                    videoSection.scrollIntoView({
+                                                        behavior: "smooth",
+                                                        block: "center"
+                                                    });
+                                                }
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_PlayIcon, {
+                                                    className: "w-4 h-4 group-hover:scale-110 transition-transform"
+                                                }),
+                                                "Tanıtım Videosu"
+                                            ]
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
+                                    initial: {
+                                        opacity: 0,
+                                        y: 20
+                                    },
+                                    animate: {
+                                        opacity: 1,
+                                        y: 0
+                                    },
+                                    transition: {
+                                        delay: 0.6,
+                                        duration: 0.6
+                                    },
+                                    className: "flex flex-row flex-wrap justify-start gap-6 pt-4 border-t border-neutral-200",
+                                    children: [
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                    className: "text-xl lg:text-2xl font-bold text-[#2A50F8]",
+                                                    children: "500+"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                    className: "text-caption text-neutral-600",
+                                                    children: "Tamamlanan Proje"
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                    className: "text-xl lg:text-2xl font-bold text-secondary-600",
+                                                    children: "20+"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                    className: "text-caption text-neutral-600",
+                                                    children: "Yıllık Deneyim"
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                    className: "text-xl lg:text-2xl font-bold text-accent-600",
+                                                    children: "1000+"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                    className: "text-caption text-neutral-600",
+                                                    children: "Mutlu M\xfcşteri"
+                                                })
+                                            ]
+                                        })
+                                    ]
+                                })
+                            ]
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
+                            ref: containerRef,
+                            initial: {
+                                opacity: 0,
+                                x: 50
+                            },
+                            animate: {
+                                opacity: 1,
+                                x: 0
+                            },
+                            transition: {
+                                duration: 0.8
+                            },
+                            className: "relative",
+                            style: {
+                                opacity
+                            },
+                            children: [
+                                /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
+                                    className: "relative p-6 rounded-3xl bg-white/60 backdrop-blur-xl border border-white/40 shadow-2xl",
+                                    style: {
+                                        y: y1
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                            className: "absolute inset-0 rounded-3xl bg-gradient-to-br from-blue-50/50 via-purple-50/30 to-pink-50/50"
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                            className: "absolute top-4 right-4 w-16 h-16 bg-gradient-to-br from-primary-200/60 to-secondary-200/60 rounded-full blur-2xl"
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            className: "relative z-10 space-y-4",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                    className: "grid grid-cols-2 gap-3",
+                                                    children: features.map((feature, index)=>{
+                                                        const IconComponent = feature.icon;
+                                                        const isHovered = hoveredFeature === index;
+                                                        return /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
+                                                            initial: {
+                                                                opacity: 0,
+                                                                scale: 0.8,
+                                                                rotateY: -15
+                                                            },
+                                                            animate: {
+                                                                opacity: 1,
+                                                                scale: 1,
+                                                                rotateY: 0
+                                                            },
+                                                            transition: {
+                                                                delay: 0.8 + feature.delay,
+                                                                duration: 0.6,
+                                                                type: "spring",
+                                                                stiffness: 100
+                                                            },
+                                                            whileHover: {
+                                                                scale: 1.02,
+                                                                y: -2,
+                                                                transition: {
+                                                                    duration: 0.2
+                                                                }
+                                                            },
+                                                            style: {
+                                                                y: y2
+                                                            },
+                                                            className: "group relative cursor-pointer",
+                                                            onMouseEnter: ()=>setHoveredFeature(index),
+                                                            onMouseLeave: ()=>setHoveredFeature(null),
+                                                            children: [
+                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                                    className: "absolute inset-0 -rotate-45 rounded-2xl bg-gradient-to-br opacity-10 group-hover:opacity-20 transition-opacity duration-300",
+                                                                    style: {
+                                                                        background: `linear-gradient(135deg, ${feature.gradient.replace("from-", "").replace("to-", ", ")})`,
+                                                                        clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)"
+                                                                    }
+                                                                }),
+                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                                                                    className: `relative p-4 rounded-2xl bg-white/80 backdrop-blur-sm border border-white/60 shadow-lg transition-all duration-300 ${isHovered ? "shadow-xl border-white/80" : ""}`,
+                                                                    animate: {
+                                                                        backgroundColor: isHovered ? "rgba(255,255,255,0.95)" : "rgba(255,255,255,0.8)"
+                                                                    },
+                                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                                        className: "flex items-center gap-4",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                                                className: "relative flex-shrink-0",
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                                                                                        className: `w-12 h-12 rounded-xl bg-gradient-to-br ${feature.gradient} p-3 group-hover:scale-110 transition-transform duration-300 shadow-lg`,
+                                                                                        animate: {
+                                                                                            rotate: isHovered ? 5 : 0
+                                                                                        },
+                                                                                        transition: {
+                                                                                            duration: 0.3
+                                                                                        },
+                                                                                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(IconComponent, {
+                                                                                            className: "w-full h-full text-white"
+                                                                                        })
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                                                                                        className: "absolute -top-1 -right-1",
+                                                                                        initial: {
+                                                                                            scale: 0
+                                                                                        },
+                                                                                        animate: {
+                                                                                            scale: isHovered ? 1 : 0
+                                                                                        },
+                                                                                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(esm_CheckCircleIcon, {
+                                                                                            className: "w-4 h-4 text-green-500"
+                                                                                        })
+                                                                                    })
+                                                                                ]
+                                                                            }),
+                                                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                                                className: "flex-1 min-w-0",
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
+                                                                                        className: "font-semibold text-sm text-neutral-900 leading-tight mb-1",
+                                                                                        children: feature.title
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.p, {
+                                                                                        className: "text-xs text-neutral-600 leading-relaxed",
+                                                                                        animate: {
+                                                                                            opacity: isHovered ? 1 : 0.8
+                                                                                        },
+                                                                                        children: feature.description
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                                                                                        className: "h-1 bg-neutral-100 rounded-full overflow-hidden mt-2",
+                                                                                        initial: {
+                                                                                            opacity: 0
+                                                                                        },
+                                                                                        animate: {
+                                                                                            opacity: isHovered ? 1 : 0
+                                                                                        },
+                                                                                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                                                                                            className: `h-full bg-gradient-to-r ${feature.gradient} rounded-full`,
+                                                                                            initial: {
+                                                                                                width: 0
+                                                                                            },
+                                                                                            animate: {
+                                                                                                width: isHovered ? "85%" : 0
+                                                                                            },
+                                                                                            transition: {
+                                                                                                duration: 0.8,
+                                                                                                delay: 0.2
+                                                                                            }
+                                                                                        })
+                                                                                    })
+                                                                                ]
+                                                                            })
+                                                                        ]
+                                                                    })
+                                                                }),
+                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* AnimatePresence */.M_, {
+                                                                    children: isHovered && /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                                                                        className: "absolute inset-0 pointer-events-none",
+                                                                        initial: {
+                                                                            opacity: 0
+                                                                        },
+                                                                        animate: {
+                                                                            opacity: 1
+                                                                        },
+                                                                        exit: {
+                                                                            opacity: 0
+                                                                        },
+                                                                        children: [
+                                                                            ...Array(3)
+                                                                        ].map((_, i)=>/*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                                                                                className: `absolute w-1 h-1 bg-gradient-to-r ${feature.gradient} rounded-full`,
+                                                                                initial: {
+                                                                                    x: "50%",
+                                                                                    y: "50%",
+                                                                                    scale: 0
+                                                                                },
+                                                                                animate: {
+                                                                                    x: `${50 + (i - 1) * 30}%`,
+                                                                                    y: `${30 + i * 20}%`,
+                                                                                    scale: 1
+                                                                                },
+                                                                                transition: {
+                                                                                    duration: 0.6,
+                                                                                    delay: i * 0.1
+                                                                                }
+                                                                            }, i))
+                                                                    })
+                                                                })
+                                                            ]
+                                                        }, index);
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                                                    initial: {
+                                                        opacity: 0,
+                                                        scale: 0.9
+                                                    },
+                                                    animate: {
+                                                        opacity: 1,
+                                                        scale: 1
+                                                    },
+                                                    transition: {
+                                                        delay: 1.4,
+                                                        duration: 0.6
+                                                    },
+                                                    className: "relative mt-6 overflow-hidden rounded-2xl group cursor-pointer",
+                                                    whileHover: {
+                                                        scale: 1.02
+                                                    },
+                                                    style: {
+                                                        y: y2
+                                                    },
+                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                        className: "relative h-40 bg-gradient-to-r from-neutral-100 to-neutral-50 rounded-2xl overflow-hidden",
+                                                        children: [
+                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* AnimatePresence */.M_, {
+                                                                mode: "wait",
+                                                                initial: false,
+                                                                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                                                                    initial: {
+                                                                        opacity: 0,
+                                                                        x: 20
+                                                                    },
+                                                                    animate: {
+                                                                        opacity: 1,
+                                                                        x: 0
+                                                                    },
+                                                                    exit: {
+                                                                        opacity: 0,
+                                                                        x: -20
+                                                                    },
+                                                                    transition: {
+                                                                        duration: 0.5,
+                                                                        ease: "easeInOut"
+                                                                    },
+                                                                    className: "absolute inset-0",
+                                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(next_image["default"], {
+                                                                        src: promoImages[currentImage],
+                                                                        alt: "Modern Laboratuvar",
+                                                                        className: "w-full h-full object-cover",
+                                                                        width: 800,
+                                                                        height: 400,
+                                                                        priority: true,
+                                                                        onLoadingComplete: ()=>setIsImageLoaded(true),
+                                                                        style: {
+                                                                            opacity: isImageLoaded ? 1 : 0,
+                                                                            transition: "opacity 0.3s"
+                                                                        }
+                                                                    })
+                                                                }, currentImage)
+                                                            }),
+                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                                className: "absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent"
+                                                            }),
+                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                                className: "absolute inset-0 bg-gradient-to-r from-primary-500/20 to-secondary-500/20 mix-blend-multiply"
+                                                            }),
+                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                                className: "absolute bottom-4 left-4 right-4",
+                                                                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                                    className: "space-y-1",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("h4", {
+                                                                            className: "text-white text-sm font-semibold drop-shadow-md",
+                                                                            children: "Modern Laboratuvar"
+                                                                        }),
+                                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                                            className: "text-white/95 text-xs drop-shadow-md",
+                                                                            children: "İleri Teknoloji Ekipmanları"
+                                                                        })
+                                                                    ]
+                                                                })
+                                                            })
+                                                        ]
+                                                    })
+                                                })
+                                            ]
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                                    initial: {
+                                        opacity: 0,
+                                        scale: 0,
+                                        rotate: -180
+                                    },
+                                    animate: {
+                                        opacity: 1,
+                                        scale: 1,
+                                        rotate: 0
+                                    },
+                                    transition: {
+                                        delay: 1.6,
+                                        duration: 0.8,
+                                        type: "spring"
+                                    },
+                                    className: "absolute -top-3 -right-3 group cursor-pointer",
+                                    whileHover: {
+                                        scale: 1.1,
+                                        rotate: 5
+                                    },
+                                    children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                        className: "relative",
+                                        children: [
+                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                className: "w-16 h-16 bg-gradient-to-br from-emerald-500 to-green-600 shadow-lg",
+                                                style: {
+                                                    clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)"
+                                                }
+                                            }),
+                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                className: "absolute inset-0 flex flex-col items-center justify-center text-white",
+                                                children: [
+                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                                        className: "text-xs font-bold leading-tight",
+                                                        children: "ISO"
+                                                    }),
+                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                                        className: "text-xs font-medium leading-tight",
+                                                        children: "9001"
+                                                    })
+                                                ]
+                                            }),
+                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                className: "absolute inset-0 bg-emerald-400/20 blur-xl rounded-full scale-150 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                                            })
+                                        ]
+                                    })
+                                })
+                            ]
+                        })
+                    ]
+                })
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                initial: {
+                    opacity: 0
+                },
+                animate: {
+                    opacity: 1
+                },
+                transition: {
+                    delay: 2,
+                    duration: 0.5
+                },
+                className: "absolute bottom-8 left-1/2 transform -translate-x-1/2",
+                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                    animate: {
+                        y: [
+                            0,
+                            10,
+                            0
+                        ]
+                    },
+                    transition: {
+                        duration: 2,
+                        repeat: Infinity
+                    },
+                    className: "w-6 h-10 border-2 border-neutral-300 rounded-full flex justify-center",
+                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                        animate: {
+                            y: [
+                                0,
+                                12,
+                                0
+                            ]
+                        },
+                        transition: {
+                            duration: 2,
+                            repeat: Infinity,
+                            delay: 0.5
+                        },
+                        className: "w-1 h-3 bg-neutral-400 rounded-full mt-2"
+                    })
+                })
+            })
+        ]
+    });
+}
+
+
+/***/ }),
+
+/***/ 7849:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ Products)
+});
+
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(6485);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/index.mjs + 290 modules
+var es = __webpack_require__(2069);
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/index.js
+var react = __webpack_require__(5579);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(7237);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ArrowRightIcon.js
+var ArrowRightIcon = __webpack_require__(7268);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/BeakerIcon.js
+var BeakerIcon = __webpack_require__(3238);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/CubeIcon.js
+var CubeIcon = __webpack_require__(4738);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/FlagIcon.js
+var FlagIcon = __webpack_require__(2270);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/WrenchIcon.js
+var WrenchIcon = __webpack_require__(3327);
+;// CONCATENATED MODULE: __barrel_optimize__?names=ArrowRightIcon,BeakerIcon,CubeIcon,FlagIcon,WrenchIcon!=!./node_modules/@heroicons/react/24/outline/esm/index.js
+
+
+
+
+
+
+// EXTERNAL MODULE: ./src/data/products.ts
+var data_products = __webpack_require__(2757);
+;// CONCATENATED MODULE: ./src/components/sections/Products.tsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+
+
+const categoryList = [
+    {
+        label: "T\xfcm\xfc",
+        key: "all"
+    },
+    ...data_products/* productCategories */.ZH.map((cat)=>({
+            label: cat.name,
+            key: cat.key
+        }))
+];
+// Helper function to generate product URL
+const generateProductUrl = (product)=>{
+    // API'den gelen ürünler için category ve subcategory name'den key'e çevirme
+    const findCategoryKey = (categoryName)=>{
+        const category = data_products/* productCategories */.ZH.find((cat)=>cat.name === categoryName);
+        return category ? category.key : "laboratuvar-ekipmanlari" // fallback
+        ;
+    };
+    const findSubcategoryKey = (categoryName, subcategoryName)=>{
+        const category = data_products/* productCategories */.ZH.find((cat)=>cat.name === categoryName);
+        if (category) {
+            const subcategory = category.subcategories.find((sub)=>sub.name === subcategoryName);
+            if (subcategory) {
+                return subcategory.key;
+            }
+        }
+        // Fallback: subcategory name'den key oluştur
+        return subcategoryName.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").replace(/,/g, "").replace(/\s+/g, "-") || "test-sistemleri";
+    };
+    // Eğer statik ürünse, mevcut mantığı kullan
+    for (const category of data_products/* productCategories */.ZH){
+        for (const subcategory of category.subcategories){
+            if (subcategory.products.some((p)=>p.id === product.id)) {
+                return `/urunler/${category.key}/${subcategory.key}/${product.id}`;
+            }
+        }
+    }
+    // API'den gelen dinamik ürünler için
+    if (product.category && product.subcategory) {
+        const categoryKey = findCategoryKey(product.category);
+        const subcategoryKey = findSubcategoryKey(product.category, product.subcategory);
+        return `/urunler/${categoryKey}/${subcategoryKey}/${product.id}`;
+    }
+    // Son fallback
+    return `/urunler/laboratuvar-ekipmanlari/test-sistemleri/${product.id}`;
+};
+function Products() {
+    const [selected, setSelected] = (0,react.useState)("all");
+    const [selectedSub, setSelectedSub] = (0,react.useState)(null);
+    const [products, setProducts] = (0,react.useState)([]);
+    const [loading, setLoading] = (0,react.useState)(true);
+    const scrollRef = (0,react.useRef)(null);
+    // Fetch products from API
+    const fetchProducts = async ()=>{
+        try {
+            setLoading(true);
+            const response = await fetch("/api/products");
+            const data = await response.json();
+            if (data.success && Array.isArray(data.data)) {
+                setProducts(data.data);
+            } else {
+                console.error("Failed to fetch products:", data);
+            }
+        } catch (error) {
+            console.error("Error fetching products:", error);
+        } finally{
+            setLoading(false);
+        }
+    };
+    (0,react.useEffect)(()=>{
+        fetchProducts();
+    }, []);
+    // Alt kategori listesi
+    const subcategories = selected === "all" ? [] : data_products/* productCategories */.ZH.find((cat)=>cat.key === selected)?.subcategories || [];
+    // Seçili ürünler - API'den gelen ürünleri filtrele
+    let filteredProducts = [];
+    if (selected === "all") {
+        filteredProducts = products;
+    } else if (selectedSub) {
+        filteredProducts = products.filter((product)=>product.category === data_products/* productCategories */.ZH.find((cat)=>cat.key === selected)?.name && product.subcategory === data_products/* productCategories */.ZH.find((cat)=>cat.key === selected)?.subcategories.find((sub)=>sub.key === selectedSub)?.name);
+    } else {
+        filteredProducts = products.filter((product)=>product.category === data_products/* productCategories */.ZH.find((cat)=>cat.key === selected)?.name);
+    }
+    // Yatay scroll fonksiyonları
+    const scroll = (dir)=>{
+        if (!scrollRef.current) return;
+        const { scrollLeft, clientWidth } = scrollRef.current;
+        const scrollAmount = clientWidth * 0.8;
+        scrollRef.current.scrollTo({
+            left: dir === "left" ? scrollLeft - scrollAmount : scrollLeft + scrollAmount,
+            behavior: "smooth"
+        });
+    };
+    if (loading) {
+        return /*#__PURE__*/ (0,jsx_runtime.jsx)("section", {
+            className: "section-padding bg-white",
+            children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                className: "container-custom",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                        className: "text-center space-y-4 mb-8",
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime.jsx)("h2", {
+                                className: "text-gradient",
+                                children: "\xdcr\xfcnlerimiz"
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                className: "text-body-lg text-neutral-600 max-w-3xl mx-auto",
+                                children: "\xdcr\xfcnler y\xfckleniyor..."
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "flex justify-center items-center h-40",
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                            className: "animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600"
+                        })
+                    })
+                ]
+            })
+        });
+    }
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)("section", {
+        className: "section-padding bg-white",
+        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+            className: "container-custom",
+            children: [
+                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                    className: "text-center space-y-4 mb-8",
+                    children: [
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)("h2", {
+                            className: "text-gradient",
+                            children: "\xdcr\xfcnlerimiz"
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                            className: "text-body-lg text-neutral-600 max-w-3xl mx-auto",
+                            children: "Laboratuvarınızın her t\xfcrl\xfc ihtiyacı i\xe7in geniş \xfcr\xfcn yelpazemizle hizmetinizdeyiz."
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                    className: "flex flex-wrap justify-center gap-2 mb-4",
+                    children: categoryList.map((cat)=>/*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
+                            onClick: ()=>{
+                                setSelected(cat.key);
+                                setSelectedSub(null);
+                            },
+                            className: `px-5 py-2 rounded-full border text-body-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2
+                ${selected === cat.key ? "bg-primary-600 text-white border-primary-600 shadow-md" : "bg-white text-primary-600 border-primary-100 hover:bg-primary-50"}`,
+                            children: cat.label
+                        }, cat.key))
+                }),
+                subcategories.length > 0 && /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                    className: "flex flex-wrap justify-center gap-2 mb-6",
+                    children: [
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
+                            onClick: ()=>setSelectedSub(null),
+                            className: `px-4 py-1.5 rounded-full border text-caption font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2
+                  ${selectedSub === null ? "bg-accent-500 text-white border-accent-500 shadow" : "bg-white text-primary-600 border-primary-100 hover:bg-primary-50"}`,
+                            children: "T\xfcm\xfc"
+                        }),
+                        subcategories.map((sub)=>/*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
+                                onClick: ()=>setSelectedSub(sub.key),
+                                className: `px-4 py-1.5 rounded-full border text-caption font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2
+                  ${selectedSub === sub.key ? "bg-accent-500 text-white border-accent-500 shadow" : "bg-white text-primary-600 border-primary-100 hover:bg-primary-50"}`,
+                                children: sub.name
+                            }, sub.key))
+                    ]
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                    className: "relative",
+                    children: [
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
+                            onClick: ()=>scroll("left"),
+                            className: "hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-primary-100 border border-primary-200 rounded-full w-8 h-8 items-center justify-center shadow transition-all",
+                            "aria-label": "Sola kaydır",
+                            style: {
+                                boxShadow: "0 2px 8px 0 rgba(0,0,0,0.07)"
+                            },
+                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("svg", {
+                                width: "16",
+                                height: "16",
+                                fill: "none",
+                                stroke: "currentColor",
+                                strokeWidth: "2",
+                                viewBox: "0 0 24 24",
+                                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("path", {
+                                    d: "M15 19l-7-7 7-7"
+                                })
+                            })
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                            ref: scrollRef,
+                            className: "flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scroll-smooth no-scrollbar",
+                            tabIndex: 0,
+                            style: {
+                                WebkitOverflowScrolling: "touch"
+                            },
+                            children: filteredProducts.map((product, idx)=>/*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
+                                    className: "min-w-[280px] max-w-[300px] w-full bg-white rounded-2xl shadow-soft border border-neutral-100 group snap-start transition-all duration-500 hover:shadow-xl hover:-translate-y-2 relative overflow-hidden flex flex-col",
+                                    tabIndex: 0,
+                                    whileHover: {
+                                        scale: 1.02
+                                    },
+                                    transition: {
+                                        duration: 0.3
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                            className: "absolute inset-0 bg-gradient-to-br from-primary-50/50 to-secondary-50/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                            className: "absolute top-4 right-4 z-10",
+                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
+                                                className: "p-2 rounded-full bg-white/90 hover:bg-white border border-neutral-200 shadow-sm transition-all duration-300 hover:scale-110",
+                                                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(FlagIcon/* default */.Z, {
+                                                    className: "w-4 h-4 text-neutral-400 hover:text-primary-500 transition-colors"
+                                                })
+                                            })
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            className: "relative w-full h-40 bg-gradient-to-br from-neutral-50 to-neutral-100 flex items-center justify-center p-4",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                    className: "relative w-full h-28",
+                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(next_image["default"], {
+                                                        src: product.image || "/images/default-product.webp",
+                                                        alt: product.name,
+                                                        fill: true,
+                                                        className: "object-contain transition-transform duration-500 group-hover:scale-110",
+                                                        sizes: "(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw",
+                                                        loading: "lazy"
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                    className: "absolute inset-0 bg-gradient-to-t from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            className: "p-5 relative z-10 flex-1 flex flex-col",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                    className: "mb-3",
+                                                    children: [
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("h4", {
+                                                            className: "text-lg font-bold text-neutral-900 group-hover:text-primary-600 transition-colors mb-2 leading-tight",
+                                                            children: product.name
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                            className: "text-body-sm text-neutral-600 line-clamp-2",
+                                                            children: product.description
+                                                        })
+                                                    ]
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                    className: "mb-3",
+                                                    children: [
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("h6", {
+                                                            className: "text-label text-neutral-700 uppercase tracking-wide mb-2 flex items-center gap-2",
+                                                            children: [
+                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(BeakerIcon/* default */.Z, {
+                                                                    className: "w-3 h-3"
+                                                                }),
+                                                                "\xd6zellikler"
+                                                            ]
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                            className: "flex flex-wrap gap-1",
+                                                            children: [
+                                                                product.features?.slice(0, 3).map((feature, index)=>/*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                                                        className: "px-2 py-1 bg-primary-50 text-primary-700 text-caption rounded-md border border-primary-100",
+                                                                        children: feature
+                                                                    }, index)),
+                                                                product.features && product.features.length > 3 && /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
+                                                                    className: "px-2 py-1 bg-neutral-100 text-neutral-600 text-caption rounded-md",
+                                                                    children: [
+                                                                        "+",
+                                                                        product.features.length - 3,
+                                                                        " daha"
+                                                                    ]
+                                                                })
+                                                            ]
+                                                        })
+                                                    ]
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                    className: "mb-4",
+                                                    children: [
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("h6", {
+                                                            className: "text-label text-neutral-700 uppercase tracking-wide mb-2 flex items-center gap-2",
+                                                            children: [
+                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(CubeIcon/* default */.Z, {
+                                                                    className: "w-3 h-3"
+                                                                }),
+                                                                "Uygulama Alanları"
+                                                            ]
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                            className: "flex flex-wrap gap-1",
+                                                            children: [
+                                                                product.applications?.slice(0, 2).map((app, index)=>/*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                                                        className: "px-2 py-1 bg-secondary-50 text-secondary-700 text-caption rounded-md border border-secondary-100",
+                                                                        children: app
+                                                                    }, index)),
+                                                                product.applications && product.applications.length > 2 && /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
+                                                                    className: "px-2 py-1 bg-neutral-100 text-neutral-600 text-xs rounded-md",
+                                                                    children: [
+                                                                        "+",
+                                                                        product.applications.length - 2,
+                                                                        " alan"
+                                                                    ]
+                                                                })
+                                                            ]
+                                                        })
+                                                    ]
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                    className: "flex gap-3 mt-auto",
+                                                    children: [
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("a", {
+                                                            href: generateProductUrl(product),
+                                                            className: "flex-1 bg-[#001328] text-white text-sm font-semibold py-3 px-4 rounded-xl hover:bg-gradient-to-r hover:from-[#001328] hover:via-[#2A50F8] hover:to-[#FF4766] transition-all duration-700 shadow-lg hover:shadow-2xl transform hover:scale-110 hover:-translate-y-2 flex items-center justify-center gap-2 group/btn relative overflow-hidden before:absolute before:top-0 before:left-[-100%] before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent before:transition-all before:duration-600 hover:before:left-[100%]",
+                                                            children: [
+                                                                "İncele",
+                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(ArrowRightIcon/* default */.Z, {
+                                                                    className: "w-4 h-4 group-hover/btn:translate-x-1 transition-all duration-300"
+                                                                })
+                                                            ]
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
+                                                            className: "p-3 border-2 border-primary-200 text-primary-600 rounded-xl hover:bg-primary-50 hover:border-primary-300 transition-all duration-300 flex items-center justify-center",
+                                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(WrenchIcon/* default */.Z, {
+                                                                className: "w-4 h-4"
+                                                            })
+                                                        })
+                                                    ]
+                                                })
+                                            ]
+                                        })
+                                    ]
+                                }, product.id || idx))
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
+                            onClick: ()=>scroll("right"),
+                            className: "hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-primary-100 border border-primary-200 rounded-full w-8 h-8 items-center justify-center shadow transition-all",
+                            "aria-label": "Sağa kaydır",
+                            style: {
+                                boxShadow: "0 2px 8px 0 rgba(0,0,0,0.07)"
+                            },
+                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("svg", {
+                                width: "16",
+                                height: "16",
+                                fill: "none",
+                                stroke: "currentColor",
+                                strokeWidth: "2",
+                                viewBox: "0 0 24 24",
+                                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("path", {
+                                    d: "M9 5l7 7-7 7"
+                                })
+                            })
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                    className: "text-center mt-10",
+                    children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("a", {
+                        href: "/urunler",
+                        className: "btn-primary",
+                        children: [
+                            "T\xfcm \xdcr\xfcnleri G\xf6r\xfcnt\xfcle",
+                            /*#__PURE__*/ (0,jsx_runtime.jsx)(ArrowRightIcon/* default */.Z, {
+                                className: "w-5 h-5"
+                            })
+                        ]
+                    })
+                })
+            ]
+        })
+    });
+}
+
+
+/***/ }),
+
+/***/ 5347:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ Sectors)
+});
+
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(6485);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/index.mjs + 290 modules
+var es = __webpack_require__(2069);
+// EXTERNAL MODULE: ./node_modules/react-intersection-observer/dist/index.mjs
+var dist = __webpack_require__(6493);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/AcademicCapIcon.js
+var AcademicCapIcon = __webpack_require__(7080);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ArrowRightIcon.js
+var ArrowRightIcon = __webpack_require__(7268);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/BeakerIcon.js
+var BeakerIcon = __webpack_require__(3238);
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/index.js
+var react = __webpack_require__(5579);
+;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/CakeIcon.js
+
+function CakeIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.871c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513M15 8.25v-1.5m-6 1.5v-1.5m12 9.75-1.5.75a3.354 3.354 0 0 1-3 0 3.354 3.354 0 0 0-3 0 3.354 3.354 0 0 1-3 0 3.354 3.354 0 0 0-3 0 3.354 3.354 0 0 1-3 0L3 16.5m15-3.379a48.474 48.474 0 0 0-6-.371c-2.032 0-4.034.126-6 .371m12 0c.39.049.777.102 1.163.16 1.07.16 1.837 1.094 1.837 2.175v5.169c0 .621-.504 1.125-1.125 1.125H4.125A1.125 1.125 0 0 1 3 20.625v-5.17c0-1.08.768-2.014 1.837-2.174A47.78 47.78 0 0 1 6 13.12M12.265 3.11a.375.375 0 1 1-.53 0L12 2.845l.265.265Zm-3 0a.375.375 0 1 1-.53 0L9 2.845l.265.265Zm6 0a.375.375 0 1 1-.53 0L15 2.845l.265.265Z"
+    }));
+}
+const ForwardRef = /*#__PURE__*/ react.forwardRef(CakeIcon);
+/* harmony default export */ const esm_CakeIcon = (ForwardRef);
+
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/CircleStackIcon.js
+var CircleStackIcon = __webpack_require__(5136);
+;// CONCATENATED MODULE: ./node_modules/@heroicons/react/24/outline/esm/GlobeAmericasIcon.js
+
+function GlobeAmericasIcon({ title, titleId, ...props }, svgRef) {
+    return /*#__PURE__*/ react.createElement("svg", Object.assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        strokeWidth: 1.5,
+        stroke: "currentColor",
+        "aria-hidden": "true",
+        "data-slot": "icon",
+        ref: svgRef,
+        "aria-labelledby": titleId
+    }, props), title ? /*#__PURE__*/ react.createElement("title", {
+        id: titleId
+    }, title) : null, /*#__PURE__*/ react.createElement("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "m6.115 5.19.319 1.913A6 6 0 0 0 8.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 0 0 2.288-4.042 1.087 1.087 0 0 0-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 0 1-.98-.314l-.295-.295a1.125 1.125 0 0 1 0-1.591l.13-.132a1.125 1.125 0 0 1 1.3-.21l.603.302a.809.809 0 0 0 1.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 0 0 1.528-1.732l.146-.292M6.115 5.19A9 9 0 1 0 17.18 4.64M6.115 5.19A8.965 8.965 0 0 1 12 3c1.929 0 3.716.607 5.18 1.64"
+    }));
+}
+const GlobeAmericasIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(GlobeAmericasIcon);
+/* harmony default export */ const esm_GlobeAmericasIcon = (GlobeAmericasIcon_ForwardRef);
+
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/SparklesIcon.js
+var SparklesIcon = __webpack_require__(2359);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/SunIcon.js
+var SunIcon = __webpack_require__(8062);
+;// CONCATENATED MODULE: __barrel_optimize__?names=AcademicCapIcon,ArrowRightIcon,BeakerIcon,CakeIcon,CircleStackIcon,GlobeAmericasIcon,SparklesIcon,SunIcon!=!./node_modules/@heroicons/react/24/outline/esm/index.js
+
+
+
+
+
+
+
+
+
+;// CONCATENATED MODULE: ./src/components/sections/Sectors.tsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+const sectors = [
+    {
+        name: "Gıda & İ\xe7ecek",
+        icon: esm_CakeIcon,
+        description: "Gıda g\xfcvenliği ve kalite analizi \xe7\xf6z\xfcmleri",
+        color: "from-emerald-500 to-green-600",
+        bgColor: "from-emerald-50 to-green-50",
+        projects: "150+",
+        specialty: "HACCP Uyumlu"
+    },
+    {
+        name: "S\xfct & S\xfct \xdcr\xfcnleri",
+        icon: CircleStackIcon/* default */.Z,
+        description: "S\xfct \xfcr\xfcnleri analiz ve kalite kontrol \xe7\xf6z\xfcmleri",
+        color: "from-blue-500 to-indigo-600",
+        bgColor: "from-blue-50 to-indigo-50",
+        projects: "80+",
+        specialty: "ISO 22000"
+    },
+    {
+        name: "Su & Atıksu",
+        icon: esm_GlobeAmericasIcon,
+        description: "Su kalitesi ve \xe7evre analizleri",
+        color: "from-cyan-500 to-blue-600",
+        bgColor: "from-cyan-50 to-blue-50",
+        projects: "200+",
+        specialty: "\xc7evre Dostu"
+    },
+    {
+        name: "Tarım & Hayvancılık",
+        icon: SunIcon/* default */.Z,
+        description: "Tarımsal \xfcr\xfcn ve hayvan sağlığı analizleri",
+        color: "from-amber-500 to-orange-600",
+        bgColor: "from-amber-50 to-orange-50",
+        projects: "120+",
+        specialty: "Organik Sertifika"
+    },
+    {
+        name: "Kimya & Petrokimya",
+        icon: BeakerIcon/* default */.Z,
+        description: "End\xfcstriyel kimyasal analizler ve test hizmetleri",
+        color: "from-purple-500 to-violet-600",
+        bgColor: "from-purple-50 to-violet-50",
+        projects: "90+",
+        specialty: "End\xfcstri 4.0"
+    },
+    {
+        name: "Ar-Ge & \xdcniversiteler",
+        icon: AcademicCapIcon/* default */.Z,
+        description: "Araştırma ve eğitim kurumları i\xe7in \xf6zel \xe7\xf6z\xfcmler",
+        color: "from-pink-500 to-rose-600",
+        bgColor: "from-pink-50 to-rose-50",
+        projects: "60+",
+        specialty: "İnovasyon"
+    }
+];
+function Sectors() {
+    const [ref, inView] = (0,dist/* useInView */.YD)({
+        triggerOnce: true,
+        threshold: 0.1
+    });
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("section", {
+        ref: ref,
+        className: "py-20 lg:py-24 bg-gradient-to-br from-neutral-50 via-white to-neutral-100 relative overflow-hidden",
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                className: "absolute inset-0 opacity-30",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "absolute top-0 left-0 w-96 h-96 bg-primary-200/20 rounded-full blur-3xl"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "absolute bottom-0 right-0 w-96 h-96 bg-secondary-200/20 rounded-full blur-3xl"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "absolute top-1/2 left-1/2 w-64 h-64 bg-accent-200/10 rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                className: "container-custom relative z-10",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
+                        initial: {
+                            opacity: 0,
+                            y: 30
+                        },
+                        animate: inView ? {
+                            opacity: 1,
+                            y: 0
+                        } : {},
+                        transition: {
+                            duration: 0.6
+                        },
+                        className: "text-center space-y-6 mb-16",
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                className: "inline-flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full border border-neutral-200 shadow-sm",
+                                children: [
+                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(SparklesIcon/* default */.Z, {
+                                        className: "w-4 h-4 text-primary-500"
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                        className: "text-label font-medium text-neutral-700",
+                                        children: "Uzmanlık Alanlarımız"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("h2", {
+                                className: "text-gradient font-bold",
+                                children: [
+                                    "Hizmet Verdiğimiz",
+                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                        className: "block",
+                                        children: "Sekt\xf6rler"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                className: "text-body-lg text-neutral-600 max-w-3xl mx-auto leading-relaxed",
+                                children: "25+ yıllık deneyimimizle farklı sekt\xf6rlerde \xf6zelleşmiş laboratuvar \xe7\xf6z\xfcmleri sunuyor, her alanda en y\xfcksek kalite standartlarını sağlıyoruz."
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8",
+                        children: sectors.map((sector, index)=>{
+                            const IconComponent = sector.icon;
+                            return /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                                initial: {
+                                    opacity: 0,
+                                    y: 30
+                                },
+                                animate: inView ? {
+                                    opacity: 1,
+                                    y: 0
+                                } : {},
+                                transition: {
+                                    duration: 0.6,
+                                    delay: index * 0.1
+                                },
+                                className: "group",
+                                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                    className: "relative bg-white rounded-2xl lg:rounded-3xl p-6 lg:p-8 shadow-sm hover:shadow-2xl transition-all duration-500 border border-neutral-100/50 hover:border-neutral-200/50 group-hover:scale-[1.02] overflow-hidden h-full",
+                                    children: [
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                            className: `absolute inset-0 bg-gradient-to-br ${sector.bgColor} opacity-0 group-hover:opacity-60 transition-all duration-500`
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            className: "relative z-10 space-y-6",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                    className: "flex items-start justify-between",
+                                                    children: [
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                            className: `w-14 h-14 rounded-2xl bg-gradient-to-br ${sector.color} flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300`,
+                                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(IconComponent, {
+                                                                className: "w-7 h-7 text-white"
+                                                            })
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                            className: "flex flex-col gap-2 items-end",
+                                                            children: [
+                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                                    className: "inline-flex items-center px-3 py-1.5 bg-white/90 backdrop-blur-sm rounded-full border border-neutral-200/50 shadow-sm",
+                                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
+                                                                        className: "text-xs font-semibold text-neutral-700",
+                                                                        children: [
+                                                                            sector.projects,
+                                                                            " Proje"
+                                                                        ]
+                                                                    })
+                                                                }),
+                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                                    className: "inline-flex items-center px-3 py-1.5 bg-neutral-100/90 backdrop-blur-sm rounded-full border border-neutral-200/40",
+                                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                                                        className: "text-xs font-medium text-neutral-600",
+                                                                        children: sector.specialty
+                                                                    })
+                                                                })
+                                                            ]
+                                                        })
+                                                    ]
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                    className: "space-y-3",
+                                                    children: [
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
+                                                            className: "text-xl font-bold text-neutral-900 group-hover:text-primary-600 transition-colors leading-tight",
+                                                            children: sector.name
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                            className: "text-body text-neutral-600 leading-relaxed",
+                                                            children: sector.description
+                                                        })
+                                                    ]
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                            className: "absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-white/10 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                            className: "absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-to-tr from-white/5 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                                        })
+                                    ]
+                                })
+                            }, index);
+                        })
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                        initial: {
+                            opacity: 0,
+                            y: 30
+                        },
+                        animate: inView ? {
+                            opacity: 1,
+                            y: 0
+                        } : {},
+                        transition: {
+                            duration: 0.6,
+                            delay: 0.8
+                        },
+                        className: "text-center mt-16",
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                            className: "bg-gradient-to-br from-white to-neutral-50 rounded-3xl p-8 lg:p-12 shadow-xl border border-neutral-100",
+                            children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                className: "space-y-6 max-w-2xl mx-auto",
+                                children: [
+                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                        className: "w-16 h-16 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-2xl flex items-center justify-center mx-auto shadow-lg",
+                                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(SparklesIcon/* default */.Z, {
+                                            className: "w-8 h-8 text-white"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
+                                        className: "text-2xl lg:text-3xl font-bold text-neutral-900",
+                                        children: "Sekt\xf6r\xfcn\xfcze \xd6zel \xc7\xf6z\xfcm Arıyorsunuz?"
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                        className: "text-body-lg text-neutral-600 leading-relaxed",
+                                        children: "Uzman ekibimiz, ihtiya\xe7larınıza g\xf6re \xf6zelleştirilmiş laboratuvar \xe7\xf6z\xfcmleri geliştirmek i\xe7in sizlerle birlikte \xe7alışmaya hazır."
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                        className: "flex flex-col sm:flex-row gap-4 justify-center",
+                                        children: [
+                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("a", {
+                                                href: "/iletisim",
+                                                className: "btn-primary group",
+                                                children: [
+                                                    "\xdccretsiz Danışmanlık Alın",
+                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(ArrowRightIcon/* default */.Z, {
+                                                        className: "w-5 h-5 group-hover:translate-x-1 transition-transform"
+                                                    })
+                                                ]
+                                            }),
+                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                                href: "/cozumler",
+                                                className: "btn-outline",
+                                                children: "T\xfcm \xc7\xf6z\xfcmlerimizi İnceleyin"
+                                            })
+                                        ]
+                                    })
+                                ]
+                            })
+                        })
+                    })
+                ]
+            })
+        ]
+    });
+}
+
+
+/***/ }),
+
+/***/ 1150:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ Solutions)
+});
+
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(6485);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/index.mjs + 290 modules
+var es = __webpack_require__(2069);
+// EXTERNAL MODULE: ./node_modules/react-intersection-observer/dist/index.mjs
+var dist = __webpack_require__(6493);
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/index.js
+var react = __webpack_require__(5579);
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__(6226);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(7237);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/AcademicCapIcon.js
+var AcademicCapIcon = __webpack_require__(7080);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ArrowRightIcon.js
+var ArrowRightIcon = __webpack_require__(7268);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/BeakerIcon.js
+var BeakerIcon = __webpack_require__(3238);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/CheckIcon.js
+var CheckIcon = __webpack_require__(655);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/CogIcon.js
+var CogIcon = __webpack_require__(7213);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/RocketLaunchIcon.js
+var RocketLaunchIcon = __webpack_require__(1043);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/ShieldCheckIcon.js
+var ShieldCheckIcon = __webpack_require__(8996);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/SparklesIcon.js
+var SparklesIcon = __webpack_require__(2359);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/WrenchScrewdriverIcon.js
+var WrenchScrewdriverIcon = __webpack_require__(238);
+;// CONCATENATED MODULE: __barrel_optimize__?names=AcademicCapIcon,ArrowRightIcon,BeakerIcon,CheckIcon,CogIcon,RocketLaunchIcon,ShieldCheckIcon,SparklesIcon,WrenchScrewdriverIcon!=!./node_modules/@heroicons/react/24/outline/esm/index.js
+
+
+
+
+
+
+
+
+
+
+;// CONCATENATED MODULE: ./src/components/sections/Solutions.tsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+
+
+
+const solutions = [
+    {
+        id: "endustriyel",
+        icon: BeakerIcon/* default */.Z,
+        title: "End\xfcstriyel Laboratuvar Kurulumu",
+        subtitle: "Modern ve verimli laboratuvar alanları",
+        description: "Sekt\xf6r\xfcn\xfcze \xf6zel tasarlanmış, en son teknoloji ile donatılmış laboratuvar kurulum \xe7\xf6z\xfcmleri sunuyoruz. Planlama aşamasından teslime kadar her adımda yanınızdayız.",
+        image: "/images/lab-1.jpg",
+        features: [
+            "Laboratuvar Dizayn ve Planlama",
+            "Cihaz Se\xe7imi ve Entegrasyonu",
+            "İş G\xfcvenliği Sistemleri",
+            "Otomasyon ve Veri Y\xf6netimi",
+            "7/24 Teknik Destek"
+        ],
+        benefits: [
+            "Verimlilik artışı %40",
+            "Maliyet tasarrufu %25",
+            "Hızlı kurulum s\xfcreci"
+        ],
+        href: "/cozumler/endustriyel-laboratuvar-kurulumu",
+        badge: "Pop\xfcler"
+    },
+    {
+        id: "otomasyon",
+        icon: CogIcon/* default */.Z,
+        title: "Laboratuvar Otomasyon Sistemleri",
+        subtitle: "Akıllı otomasyon ile verimlilik",
+        description: "LIMS yazılımları, robotik sistemler ve akıllı sens\xf6rlerle laboratuvar s\xfcre\xe7lerinizi tamamen otomatize edin. İnsan hatasını minimuma indirirken verimliliği maksimuma \xe7ıkarın.",
+        image: "/images/lab-2.jpg",
+        features: [
+            "LIMS Yazılım Entegrasyonu",
+            "Robotik Numune İşleme",
+            "Akıllı Sens\xf6r Ağları",
+            "Ger\xe7ek Zamanlı Monitoring",
+            "Uzaktan Kontrol Sistemi"
+        ],
+        benefits: [
+            "Hata oranı %90 azalma",
+            "İşlem hızı 3x artış",
+            "Tam izlenebilirlik"
+        ],
+        href: "/cozumler/otomasyon-sistemleri",
+        badge: "Yenilik\xe7i"
+    },
+    {
+        id: "anahtar-teslim",
+        icon: WrenchScrewdriverIcon/* default */.Z,
+        title: "Anahtar Teslim Projeler",
+        subtitle: "Baştan sona komple \xe7\xf6z\xfcm",
+        description: "Konsept tasarımından devreye almaya kadar t\xfcm s\xfcre\xe7leri y\xf6netiyoruz. Tek noktadan koordinasyon ile proje s\xfcrenizi kısaltır, kaliteyi artırırız.",
+        image: "/images/lab-3.jpg",
+        features: [
+            "Proje Y\xf6netimi ve Koordinasyon",
+            "Anahtar Teslim Uygulama",
+            "Eğitim ve Operasyonel Destek",
+            "Kalite G\xfcvence Sistemleri",
+            "Garanti ve Bakım Hizmetleri"
+        ],
+        benefits: [
+            "Tek koordinat\xf6r avantajı",
+            "Zamanında teslim garantisi",
+            "Uzun d\xf6nem destek"
+        ],
+        href: "/cozumler/anahtar-teslim-projeler",
+        badge: "G\xfcvenilir"
+    },
+    {
+        id: "arge",
+        icon: AcademicCapIcon/* default */.Z,
+        title: "AR-GE Laboratuvarları",
+        subtitle: "Araştırma odaklı \xf6zel tasarım",
+        description: "\xdcniversiteler ve araştırma kurumları i\xe7in \xf6zel geliştirilen, esneklik ve genişletilebilirlik odaklı laboratuvar \xe7\xf6z\xfcmleri.",
+        image: "/images/lab-4.jpg",
+        features: [
+            "Mod\xfcler ve Esnek Tasarım",
+            "Araştırma Ekipmanları",
+            "Akademik İş Birlikleri",
+            "\xd6ğrenci Eğitim Programları",
+            "S\xfcrd\xfcr\xfclebilir Teknolojiler"
+        ],
+        benefits: [
+            "Araştırma kapasitesi artışı",
+            "Akademik iş birliği fırsatları",
+            "S\xfcrd\xfcr\xfclebilir \xe7\xf6z\xfcmler"
+        ],
+        href: "/cozumler/ar-ge-laboratuvarlari",
+        badge: "Akademik"
+    },
+    {
+        id: "kalite-guvence",
+        icon: ShieldCheckIcon/* default */.Z,
+        title: "Kalite G\xfcvence Sistemleri",
+        subtitle: "ISO standartları ile kalite y\xf6netimi",
+        description: "ISO 17025, GLP ve GMP standartlarına uygun kalite g\xfcvence sistemleri kurarak laboratuvarınızın akreditasyon s\xfcre\xe7lerini destekliyoruz.",
+        image: "/images/lab-7.jpg",
+        features: [
+            "ISO 17025 Akreditasyon Desteği",
+            "Kalite Y\xf6netim Sistemleri",
+            "Dok\xfcman Y\xf6netimi",
+            "İ\xe7 Denetim S\xfcre\xe7leri",
+            "S\xfcrekli İyileştirme Programları"
+        ],
+        benefits: [
+            "Uluslararası tanınırlık",
+            "M\xfcşteri g\xfcveni artışı",
+            "S\xfcre\xe7 standardizasyonu"
+        ],
+        href: "/cozumler/kalite-guvence-sistemleri",
+        badge: "Sertifikalı"
+    }
+];
+function Solutions() {
+    const [ref, inView] = (0,dist/* useInView */.YD)({
+        triggerOnce: true,
+        threshold: 0.1
+    });
+    const [activeTab, setActiveTab] = (0,react.useState)(0);
+    const activeSolution = solutions[activeTab];
+    const [isPaused, setIsPaused] = (0,react.useState)(false);
+    // Auto-cycle through tabs
+    (0,react.useEffect)(()=>{
+        if (isPaused) return;
+        const interval = setInterval(()=>{
+            setActiveTab((prev)=>(prev + 1) % solutions.length);
+        }, 10000) // 10 saniye olarak yavaşlattık
+        ;
+        return ()=>clearInterval(interval);
+    }, [
+        isPaused
+    ]);
+    const getBadgeColor = (badge)=>{
+        switch(badge){
+            case "Pop\xfcler":
+                return "bg-gradient-to-r from-orange-500 to-red-500";
+            case "Yenilik\xe7i":
+                return "bg-gradient-to-r from-purple-500 to-blue-500";
+            case "G\xfcvenilir":
+                return "bg-gradient-to-r from-green-500 to-emerald-500";
+            case "Akademik":
+                return "bg-gradient-to-r from-indigo-500 to-purple-500";
+            case "Sertifikalı":
+                return "bg-gradient-to-r from-cyan-500 to-teal-500";
+            default:
+                return "bg-gradient-to-r from-primary-500 to-secondary-500";
+        }
+    };
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("section", {
+        ref: ref,
+        className: "py-16 lg:py-20 bg-gradient-to-br from-[#001328] via-[#000a1a] to-black relative overflow-hidden",
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                className: "absolute inset-0 opacity-30",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "absolute inset-0 bg-gradient-to-r from-[#001328]/20 to-black/30"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "absolute top-0 left-0 w-96 h-96 bg-[#001328]/10 rounded-full blur-3xl shadow-2xl"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "absolute bottom-0 right-0 w-96 h-96 bg-[#001328]/15 rounded-full blur-3xl shadow-2xl"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "absolute top-1/2 left-1/2 w-64 h-64 bg-[#001328]/8 rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2 shadow-xl"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-[#001328]/10"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                className: "container-custom relative z-10",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
+                        initial: {
+                            opacity: 0,
+                            y: 30
+                        },
+                        animate: inView ? {
+                            opacity: 1,
+                            y: 0
+                        } : {},
+                        transition: {
+                            duration: 0.6
+                        },
+                        className: "text-center space-y-4 mb-12",
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                className: "inline-flex items-center gap-2 px-3 py-1.5 bg-white/10 backdrop-blur-sm rounded-full border border-white/20",
+                                children: [
+                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(SparklesIcon/* default */.Z, {
+                                        className: "w-4 h-4 text-secondary-400"
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                        className: "text-white/90 text-label",
+                                        children: "\xc7\xf6z\xfcmlerimiz"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("h2", {
+                                className: "font-bold text-white",
+                                children: [
+                                    "Laboratuvarınız İ\xe7in",
+                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                        className: "block bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent",
+                                        children: "\xd6zel Tasarlanmış \xc7\xf6z\xfcmler"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                className: "text-body-lg text-neutral-300 max-w-2xl mx-auto",
+                                children: "25+ yıllık deneyimimizle sekt\xf6r\xfcn\xfcze \xf6zel, yenilik\xe7i ve s\xfcrd\xfcr\xfclebilir laboratuvar \xe7\xf6z\xfcmleri sunuyoruz."
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "max-w-5xl mx-auto",
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                            className: "grid lg:grid-cols-12 gap-4 lg:gap-6",
+                            children: [
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                    className: "lg:col-span-5",
+                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                                        initial: {
+                                            opacity: 0,
+                                            x: -30
+                                        },
+                                        animate: inView ? {
+                                            opacity: 1,
+                                            x: 0
+                                        } : {},
+                                        transition: {
+                                            duration: 0.6,
+                                            delay: 0.2
+                                        },
+                                        className: "grid grid-rows-5 gap-2 h-full",
+                                        children: solutions.map((solution, index)=>{
+                                            const IconComponent = solution.icon;
+                                            const isActive = activeTab === index;
+                                            return /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.button, {
+                                                onClick: ()=>setActiveTab(index),
+                                                onMouseEnter: ()=>setIsPaused(true),
+                                                onMouseLeave: ()=>setIsPaused(false),
+                                                className: `w-full text-left p-3 lg:p-4 rounded-xl border transition-all duration-500 group h-full flex flex-col justify-between ${isActive ? "bg-white/10 border-white/30 backdrop-blur-sm scale-[1.02]" : "bg-white/5 border-white/10 hover:bg-white/8 hover:border-white/20"}`,
+                                                whileHover: {
+                                                    scale: isActive ? 1.02 : 1.01
+                                                },
+                                                whileTap: {
+                                                    scale: 0.98
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                        className: "flex items-start gap-3 flex-grow",
+                                                        children: [
+                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                                className: `w-8 h-8 rounded-lg flex items-center justify-center transition-all duration-300 ${isActive ? "bg-gradient-to-br from-primary-500 to-secondary-500 scale-110" : "bg-white/10 group-hover:bg-white/20"}`,
+                                                                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(IconComponent, {
+                                                                    className: `w-4 h-4 transition-colors ${isActive ? "text-white" : "text-white/70"}`
+                                                                })
+                                                            }),
+                                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                                className: "flex-1 min-w-0",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                                        className: "flex items-center justify-between gap-2 mb-1",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("h5", {
+                                                                                className: `text-sm font-semibold transition-colors leading-tight ${isActive ? "text-white" : "text-white/80"}`,
+                                                                                children: solution.title
+                                                                            }),
+                                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                                                                className: `px-1.5 py-0.5 text-caption font-medium text-white rounded-full flex-shrink-0 ${getBadgeColor(solution.badge)}`,
+                                                                                children: solution.badge
+                                                                            })
+                                                                        ]
+                                                                    }),
+                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                                        className: `text-caption transition-colors leading-tight ${isActive ? "text-white/90" : "text-white/60"}`,
+                                                                        children: solution.subtitle
+                                                                    })
+                                                                ]
+                                                            })
+                                                        ]
+                                                    }),
+                                                    isActive && !isPaused && /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                                                        className: "mt-3 w-full h-0.5 bg-white/20 rounded-full overflow-hidden",
+                                                        initial: {
+                                                            opacity: 0
+                                                        },
+                                                        animate: {
+                                                            opacity: 1
+                                                        },
+                                                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                                                            className: "h-full bg-gradient-to-r from-primary-400 to-secondary-400 rounded-full",
+                                                            initial: {
+                                                                width: "0%"
+                                                            },
+                                                            animate: {
+                                                                width: "100%"
+                                                            },
+                                                            transition: {
+                                                                duration: 10,
+                                                                ease: "linear"
+                                                            }
+                                                        }, activeTab)
+                                                    })
+                                                ]
+                                            }, solution.id);
+                                        })
+                                    })
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                    className: "lg:col-span-7",
+                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* AnimatePresence */.M_, {
+                                        mode: "wait",
+                                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.div, {
+                                            initial: {
+                                                opacity: 0,
+                                                x: 30
+                                            },
+                                            animate: {
+                                                opacity: 1,
+                                                x: 0
+                                            },
+                                            exit: {
+                                                opacity: 0,
+                                                x: -30
+                                            },
+                                            transition: {
+                                                duration: 0.5
+                                            },
+                                            className: "bg-white/5 backdrop-blur-sm rounded-3xl border border-white/10 overflow-hidden",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                    className: "relative h-40 lg:h-48 overflow-hidden",
+                                                    children: [
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(next_image["default"], {
+                                                            src: activeSolution.image,
+                                                            alt: activeSolution.title,
+                                                            className: "w-full h-full object-cover transition-transform duration-700 hover:scale-110",
+                                                            fill: true,
+                                                            sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                            className: "absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                            className: "absolute top-4 left-4",
+                                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                                                className: `px-2 py-1 text-caption font-medium text-white rounded-full ${getBadgeColor(activeSolution.badge)}`,
+                                                                children: activeSolution.badge
+                                                            })
+                                                        })
+                                                    ]
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                    className: "p-4 lg:p-5 space-y-3",
+                                                    children: [
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                            children: [
+                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
+                                                                    className: "text-lg font-bold text-white mb-2",
+                                                                    children: activeSolution.title
+                                                                }),
+                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                                    className: "text-neutral-300 text-body-sm",
+                                                                    children: activeSolution.description
+                                                                })
+                                                            ]
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                            className: "grid md:grid-cols-2 gap-4",
+                                                            children: [
+                                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("h6", {
+                                                                            className: "text-white font-semibold mb-3 flex items-center gap-2",
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(CheckIcon/* default */.Z, {
+                                                                                    className: "w-4 h-4 text-primary-400"
+                                                                                }),
+                                                                                "\xd6zellikler"
+                                                                            ]
+                                                                        }),
+                                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("ul", {
+                                                                            className: "space-y-2",
+                                                                            children: activeSolution.features.slice(0, 3).map((feature, index)=>/*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.li, {
+                                                                                    initial: {
+                                                                                        opacity: 0,
+                                                                                        x: -20
+                                                                                    },
+                                                                                    animate: {
+                                                                                        opacity: 1,
+                                                                                        x: 0
+                                                                                    },
+                                                                                    transition: {
+                                                                                        delay: index * 0.1
+                                                                                    },
+                                                                                    className: "flex items-center gap-2 text-caption text-neutral-300",
+                                                                                    children: [
+                                                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                                                                            className: "w-1 h-1 bg-primary-400 rounded-full"
+                                                                                        }),
+                                                                                        feature
+                                                                                    ]
+                                                                                }, index))
+                                                                        })
+                                                                    ]
+                                                                }),
+                                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("h6", {
+                                                                            className: "text-white font-semibold mb-3 flex items-center gap-2",
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(RocketLaunchIcon/* default */.Z, {
+                                                                                    className: "w-4 h-4 text-secondary-400"
+                                                                                }),
+                                                                                "Avantajlar"
+                                                                            ]
+                                                                        }),
+                                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("ul", {
+                                                                            className: "space-y-2",
+                                                                            children: activeSolution.benefits.map((benefit, index)=>/*#__PURE__*/ (0,jsx_runtime.jsxs)(es/* motion */.EA.li, {
+                                                                                    initial: {
+                                                                                        opacity: 0,
+                                                                                        x: -20
+                                                                                    },
+                                                                                    animate: {
+                                                                                        opacity: 1,
+                                                                                        x: 0
+                                                                                    },
+                                                                                    transition: {
+                                                                                        delay: index * 0.1 + 0.3
+                                                                                    },
+                                                                                    className: "flex items-center gap-2 text-caption text-neutral-300",
+                                                                                    children: [
+                                                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(SparklesIcon/* default */.Z, {
+                                                                                            className: "w-3 h-3 text-secondary-400"
+                                                                                        }),
+                                                                                        benefit
+                                                                                    ]
+                                                                                }, index))
+                                                                        })
+                                                                    ]
+                                                                })
+                                                            ]
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                            className: "flex flex-col sm:flex-row gap-3 pt-2",
+                                                            children: [
+                                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)(next_link["default"], {
+                                                                    href: activeSolution.href,
+                                                                    className: "flex-1 bg-[#001328] text-white px-5 py-3 rounded-xl font-semibold hover:bg-gradient-to-r hover:from-[#001328] hover:via-[#2A50F8] hover:to-[#FF4766] transition-all duration-700 hover:scale-110 transform hover:-translate-y-2 shadow-lg hover:shadow-2xl flex items-center justify-center gap-2 group text-body-sm relative overflow-hidden before:absolute before:top-0 before:left-[-100%] before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent before:transition-all before:duration-600 hover:before:left-[100%]",
+                                                                    children: [
+                                                                        "Detayları İncele",
+                                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(ArrowRightIcon/* default */.Z, {
+                                                                            className: "w-4 h-4 group-hover:translate-x-1 transition-all duration-300"
+                                                                        })
+                                                                    ]
+                                                                }),
+                                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(next_link["default"], {
+                                                                    href: "/teklif-al",
+                                                                    className: "px-5 py-3 bg-white/10 text-white rounded-xl font-semibold hover:bg-white/20 transition-colors border border-white/20 text-body-sm text-center",
+                                                                    children: "Teklif Al"
+                                                                })
+                                                            ]
+                                                        })
+                                                    ]
+                                                })
+                                            ]
+                                        }, activeTab)
+                                    })
+                                })
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(es/* motion */.EA.div, {
+                        initial: {
+                            opacity: 0,
+                            y: 30
+                        },
+                        animate: inView ? {
+                            opacity: 1,
+                            y: 0
+                        } : {},
+                        transition: {
+                            duration: 0.6,
+                            delay: 1
+                        },
+                        className: "text-center mt-12",
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)(next_link["default"], {
+                            href: "/cozumler",
+                            className: "inline-flex items-center gap-2 bg-white text-neutral-900 px-6 py-3 rounded-xl font-bold text-base transition-all duration-300 hover:scale-105 hover:shadow-2xl group",
+                            children: [
+                                "T\xfcm \xc7\xf6z\xfcmlerimizi Keşfedin",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)(ArrowRightIcon/* default */.Z, {
+                                    className: "w-5 h-5 group-hover:translate-x-1 transition-transform"
+                                })
+                            ]
+                        })
+                    })
+                ]
+            })
+        ]
+    });
+}
+
+
+/***/ }),
+
 /***/ 2757:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -36659,11 +37041,11 @@ const productCategories = [
                         name: "Digital Refraktometre DR-A1",
                         description: "Brix ve refraktif indeks tayini i\xe7in otomatik sıcaklık kompanzasyonlu dijital refraktometre",
                         overview: "Digital Refraktometre DR-A1, gıda end\xfcstrisi ve i\xe7ecek \xfcretiminde en y\xfcksek hassasiyetle Brix ve refraktif indeks \xf6l\xe7\xfcm\xfc yapan profesyonel bir laboratuvar cihazıdır.\n\nBu gelişmiş refraktometre, otomatik sıcaklık kompanzasyonu teknolojisi sayesinde \xe7evresel sıcaklık değişimlerinden etkilenmeden doğru sonu\xe7lar verir. Su ge\xe7irmez tasarımı ile zorlu laboratuvar koşullarında g\xfcvenle kullanılabilir.\n\nKolay kalibasyon \xf6zelliği ile hızlı kurulum sağlar ve rutin bakım gereksinimlerini minimize eder. \xd6zellikle şeker analizi, meyve suyu kalite kontrol\xfc ve gıda \xfcretim s\xfcre\xe7lerinde tercih edilen g\xfcvenilir bir \xe7\xf6z\xfcmd\xfcr.",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         images: [
-                            "/images/lab-1.jpg",
-                            "/images/lab-2.jpg",
-                            "/images/lab-3.jpg",
+                            "/images/lab-1.webp",
+                            "/images/lab-2.webp",
+                            "/images/lab-3.webp",
                             "/images/lab-4.jpg"
                         ],
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
@@ -36690,9 +37072,9 @@ const productCategories = [
                         updated_at: "2024-01-10T14:20:00.000Z",
                         name: "AquaLab 4TE Su Aktivite \xd6l\xe7er",
                         description: "Su aktivite tayini ve sorpsiyon-desorpsiyon analizi i\xe7in y\xfcksek hassasiyetli cihaz",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         images: [
-                            "/images/lab-2.jpg",
+                            "/images/lab-2.webp",
                             "/images/lab-5.jpg",
                             "/images/lab-6.jpg"
                         ],
@@ -36720,7 +37102,7 @@ const productCategories = [
                         updated_at: "2023-11-28T09:15:00.000Z",
                         name: "Colorimeter CR-400",
                         description: "Organoleptik analizler i\xe7in profesyonel renk \xf6l\xe7\xfcm cihazı",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Fiziksel Analiz Ekipmanları",
                         features: [
@@ -36770,7 +37152,7 @@ const productCategories = [
                         updated_at: "2024-01-08T11:30:00.000Z",
                         name: "Mastersizer 3000 Particle Size Analyzer",
                         description: "Tane dağılım analizleri i\xe7in lazer difraksiyon teknolojisi",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Fiziksel Analiz Ekipmanları",
                         features: [
@@ -36818,7 +37200,7 @@ const productCategories = [
                         created_at: "2023-01-07T00:00:00.000Z",
                         name: "SevenExcellence pH/Ion Meter",
                         description: "pH tayini ve iyon selektif \xf6l\xe7\xfcmler i\xe7in gelişmiş metre",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Fiziksel Analiz Ekipmanları",
                         features: [
@@ -36842,7 +37224,7 @@ const productCategories = [
                         created_at: "2023-01-08T00:00:00.000Z",
                         name: "DMA 35 Portable Density Meter",
                         description: "Yoğunluk tayini i\xe7in taşınabilir dijital yoğunlukmetre",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Fiziksel Analiz Ekipmanları",
                         features: [
@@ -36866,7 +37248,7 @@ const productCategories = [
                         created_at: "2023-01-09T00:00:00.000Z",
                         name: "C30S Karl Fischer Coulometer",
                         description: "Karl Fischer nem tayini i\xe7in y\xfcksek hassasiyetli coulometre",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Fiziksel Analiz Ekipmanları",
                         features: [
@@ -36921,7 +37303,7 @@ const productCategories = [
                         created_at: "2023-01-11T00:00:00.000Z",
                         name: "Kjeldahl Protein Analiz Sistemi K-439",
                         description: "Protein tayini i\xe7in otomatik Kjeldahl distilasyon sistemi",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -36969,7 +37351,7 @@ const productCategories = [
                         created_at: "2023-01-13T00:00:00.000Z",
                         name: "Excellence T7 Titrator",
                         description: "Asitlik, peroksit değeri ve sabunlaşma değeri tayini i\xe7in otomatik titrat\xf6r",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -36993,7 +37375,7 @@ const productCategories = [
                         created_at: "2023-01-14T00:00:00.000Z",
                         name: "FIWE Raw Fiber Extractor",
                         description: "Ham sel\xfcloz, lignin ve diyet lif analizleri i\xe7in ekstraksiyon sistemi",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -37017,7 +37399,7 @@ const productCategories = [
                         created_at: "2023-01-15T00:00:00.000Z",
                         name: "Chloride Analyzer 926",
                         description: "Tuz tayini i\xe7in otomatik klor\xfcr analiz cihazı",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -37065,7 +37447,7 @@ const productCategories = [
                         created_at: "2023-01-17T00:00:00.000Z",
                         name: "AAS-240 Atomic Absorption Spectrometer",
                         description: "İz elementler ve ağır metal analizleri i\xe7in atomik absorpsiyon spektrometresi",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -37113,7 +37495,7 @@ const productCategories = [
                         created_at: "2023-01-19T00:00:00.000Z",
                         name: "DS2500 NIR Analyzer",
                         description: "NIR spektrofotometrik \xf6l\xe7\xfcm metodu ile \xe7ok hassas ve hızlı analiz",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -37144,7 +37526,7 @@ const productCategories = [
                         created_at: "2023-01-20T00:00:00.000Z",
                         name: "Nutrient Agar Dehydrated Media",
                         description: "Genel ama\xe7lı mikroorganizma k\xfclt\xfcr\xfc i\xe7in dehidrat besiyeri",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -37168,7 +37550,7 @@ const productCategories = [
                         created_at: "2023-01-21T00:00:00.000Z",
                         name: "3M Petrifilm Aerobic Count Plates",
                         description: "Toplam aerobik bakteri sayısı i\xe7in kullanıma hazır analiz plakaları",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -37216,7 +37598,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Neogen Listeria Right Now Test",
                         description: "Listeria patojen mikroorganizması i\xe7in hızlı test sistemi",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -37264,7 +37646,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "BagMixer 400 Stomacher",
                         description: "Kullanıma hazır dil\xfcsyon \xe7\xf6zeltileri ve homojenizasyon sistemi",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -37288,7 +37670,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Millipore Membrane Filtration System",
                         description: "Membran filtrasyon sistemleri ve analitik numune hazırlık",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -37312,7 +37694,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "BacT/ALERT 3D System",
                         description: "UHT ambalajlarda hızlı sterilite kontrol sistemleri",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -37360,7 +37742,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "MediaPrep M25 Automated Media Dispenser",
                         description: "Otomatik besiyeri hazırlık ve steril dolum sistemleri",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -37391,7 +37773,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Real-Time PCR GDO Analiz Sistemi",
                         description: "GDO/Tağşiş analizleri i\xe7in real-time PCR sistemi",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Molek\xfcler Biyoloji/Genetik Analiz Ekipmanları",
                         features: [
@@ -37422,7 +37804,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Testo 735-2 Precision Thermometer",
                         description: "Sıcaklık \xf6l\xe7\xfcm cihazları - Y\xfcksek hassasiyetli dijital termometre",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -37446,7 +37828,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "DewPoint Pro DP70",
                         description: "\xc7iğlenme noktası sıcaklığı \xf6l\xe7\xfcm cihazları i\xe7in taşınabilir sistem",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -37470,7 +37852,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "HygroLog HL-NT2 Data Logger",
                         description: "Bağıl nem \xf6l\xe7\xfcm cihazları i\xe7in hassas sens\xf6r teknolojisi",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -37518,7 +37900,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "DP-CALC 5825 Micromanometer",
                         description: "Fark basın\xe7 \xf6l\xe7\xfcm cihazları i\xe7in dijital mikromanometre",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -37566,7 +37948,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "TSI 9545 VelociCalc Air Velocity Meter",
                         description: "Hız \xf6l\xe7\xfcm cihazları i\xe7in \xe7ok fonksiyonlu hava hızı \xf6l\xe7er",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -37590,7 +37972,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "PCE-155 Digital Tachometer",
                         description: "Devir \xf6l\xe7\xfcm cihazları i\xe7in temassız dijital takometere",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -37614,7 +37996,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "TSI 4040 Mass Flow Meter",
                         description: "Debi \xf6l\xe7\xfcm cihazları i\xe7in termal mass flow metre",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -37662,7 +38044,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "TSI 7545 IAQ-CALC CO2 Monitor",
                         description: "Karbondioksit \xf6l\xe7\xfcm cihazları i\xe7in i\xe7 hava kalitesi monit\xf6r\xfc",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -37717,7 +38099,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Instron 3367 Universal Testing System",
                         description: "Ambalaj testleri i\xe7in \xe7ekme, basma ve b\xfckme test sistemi",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Ambalaj ve Malzeme Test Sistemleri",
                         features: [
@@ -37741,7 +38123,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "AGR TopLoad Tester TL-30",
                         description: "Gazlı/gazsız i\xe7eceklerde ve sıvı \xfcr\xfcnlerde kalite kontrol ekipmanları",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Ambalaj ve Malzeme Test Sistemleri",
                         features: [
@@ -37765,7 +38147,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "CANNEED-CBT-1000 Can Testing System",
                         description: "PET/Preform ve metal kutu analiz cihazları i\xe7in kapsamlı test sistemi",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Ambalaj ve Malzeme Test Sistemleri",
                         features: [
@@ -37820,7 +38202,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "CLIMACELL 222 Stability Chamber",
                         description: "\xdcr\xfcn stabilizasyon testleri i\xe7in iklim test odası",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Araştırma ve Geliştirme Ekipmanları",
                         features: [
@@ -37859,7 +38241,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "FT-NIR Spektrometre FN-500",
                         description: "NIR, FT-NIR ve NMR spektrofotometrik \xf6l\xe7\xfcm metodu ile \xe7ok hassas analiz",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Proses Kontrol Ve Hat Tipi Analiz \xc7\xf6z\xfcmleri",
                         subcategory: "Hat Tipi Analiz Sistemleri",
                         features: [
@@ -37914,7 +38296,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Ultrasonik Seviye Sens\xf6r\xfc",
                         description: "Seviye sens\xf6rleri ve nokta seviye sens\xf6rleri",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Proses Kontrol Ve Hat Tipi Analiz \xc7\xf6z\xfcmleri",
                         subcategory: "Proses Sens\xf6rleri",
                         features: [
@@ -37984,7 +38366,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Mini Spray Dryer SD-05",
                         description: "Spray dryer / Fluid bed dryer / Kuruma ve kurutma sistemleri",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Pilot Tipi \xdcretim ve Proses Sim\xfclasyon Sistemleri",
                         subcategory: "Kurutma ve İşleme",
                         features: [
@@ -38008,7 +38390,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Laboratuvar Liyofilizat\xf6r\xfc LF-10",
                         description: "Lyofilizasyon / Freeze drying (dondurarak kurutma) sistemi",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Pilot Tipi \xdcretim ve Proses Sim\xfclasyon Sistemleri",
                         subcategory: "Kurutma ve İşleme",
                         features: [
@@ -38039,7 +38421,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Membran Filtrasyon Sistemi MF-200",
                         description: "Filtrasyon ve separasyon i\xe7in membran teknolojisi",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Pilot Tipi \xdcretim ve Proses Sim\xfclasyon Sistemleri",
                         subcategory: "Filtrasyon ve Separasyon",
                         features: [
@@ -38110,7 +38492,7 @@ const getProductImages = (product)=>{
         ];
     }
     return [
-        "/images/lab-1.jpg"
+        "/images/lab-1.webp"
     ] // Default image
     ;
 };
@@ -46007,6 +46389,25 @@ function XMarkIcon({ title, titleId, ...props }, svgRef) {
 }
 const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(XMarkIcon);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
+/***/ 5646:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   _: () => (/* binding */ _interop_require_default),
+/* harmony export */   _interop_require_default: () => (/* binding */ _interop_require_default)
+/* harmony export */ });
+function _interop_require_default(obj) {
+    return obj && obj.__esModule ? obj : {
+        default: obj
+    };
+}
+
 
 
 /***/ }),
@@ -58753,7 +59154,7 @@ function useInView({ threshold, delay, trackVisibility, rootMargin, root, trigge
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ var __webpack_exports__ = (__webpack_exec__(3272));
+/******/ var __webpack_exports__ = (__webpack_exec__(9371));
 /******/ (_ENTRIES = typeof _ENTRIES === "undefined" ? {} : _ENTRIES)["middleware_app/page"] = __webpack_exports__;
 /******/ }
 ]);

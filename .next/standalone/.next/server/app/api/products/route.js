@@ -89,11 +89,11 @@ const productCategories = [
                         name: "Digital Refraktometre DR-A1",
                         description: "Brix ve refraktif indeks tayini i\xe7in otomatik sıcaklık kompanzasyonlu dijital refraktometre",
                         overview: "Digital Refraktometre DR-A1, gıda end\xfcstrisi ve i\xe7ecek \xfcretiminde en y\xfcksek hassasiyetle Brix ve refraktif indeks \xf6l\xe7\xfcm\xfc yapan profesyonel bir laboratuvar cihazıdır.\n\nBu gelişmiş refraktometre, otomatik sıcaklık kompanzasyonu teknolojisi sayesinde \xe7evresel sıcaklık değişimlerinden etkilenmeden doğru sonu\xe7lar verir. Su ge\xe7irmez tasarımı ile zorlu laboratuvar koşullarında g\xfcvenle kullanılabilir.\n\nKolay kalibasyon \xf6zelliği ile hızlı kurulum sağlar ve rutin bakım gereksinimlerini minimize eder. \xd6zellikle şeker analizi, meyve suyu kalite kontrol\xfc ve gıda \xfcretim s\xfcre\xe7lerinde tercih edilen g\xfcvenilir bir \xe7\xf6z\xfcmd\xfcr.",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         images: [
-                            "/images/lab-1.jpg",
-                            "/images/lab-2.jpg",
-                            "/images/lab-3.jpg",
+                            "/images/lab-1.webp",
+                            "/images/lab-2.webp",
+                            "/images/lab-3.webp",
                             "/images/lab-4.jpg"
                         ],
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
@@ -120,9 +120,9 @@ const productCategories = [
                         updated_at: "2024-01-10T14:20:00.000Z",
                         name: "AquaLab 4TE Su Aktivite \xd6l\xe7er",
                         description: "Su aktivite tayini ve sorpsiyon-desorpsiyon analizi i\xe7in y\xfcksek hassasiyetli cihaz",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         images: [
-                            "/images/lab-2.jpg",
+                            "/images/lab-2.webp",
                             "/images/lab-5.jpg",
                             "/images/lab-6.jpg"
                         ],
@@ -150,7 +150,7 @@ const productCategories = [
                         updated_at: "2023-11-28T09:15:00.000Z",
                         name: "Colorimeter CR-400",
                         description: "Organoleptik analizler i\xe7in profesyonel renk \xf6l\xe7\xfcm cihazı",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Fiziksel Analiz Ekipmanları",
                         features: [
@@ -200,7 +200,7 @@ const productCategories = [
                         updated_at: "2024-01-08T11:30:00.000Z",
                         name: "Mastersizer 3000 Particle Size Analyzer",
                         description: "Tane dağılım analizleri i\xe7in lazer difraksiyon teknolojisi",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Fiziksel Analiz Ekipmanları",
                         features: [
@@ -248,7 +248,7 @@ const productCategories = [
                         created_at: "2023-01-07T00:00:00.000Z",
                         name: "SevenExcellence pH/Ion Meter",
                         description: "pH tayini ve iyon selektif \xf6l\xe7\xfcmler i\xe7in gelişmiş metre",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Fiziksel Analiz Ekipmanları",
                         features: [
@@ -272,7 +272,7 @@ const productCategories = [
                         created_at: "2023-01-08T00:00:00.000Z",
                         name: "DMA 35 Portable Density Meter",
                         description: "Yoğunluk tayini i\xe7in taşınabilir dijital yoğunlukmetre",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Fiziksel Analiz Ekipmanları",
                         features: [
@@ -296,7 +296,7 @@ const productCategories = [
                         created_at: "2023-01-09T00:00:00.000Z",
                         name: "C30S Karl Fischer Coulometer",
                         description: "Karl Fischer nem tayini i\xe7in y\xfcksek hassasiyetli coulometre",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Fiziksel Analiz Ekipmanları",
                         features: [
@@ -351,7 +351,7 @@ const productCategories = [
                         created_at: "2023-01-11T00:00:00.000Z",
                         name: "Kjeldahl Protein Analiz Sistemi K-439",
                         description: "Protein tayini i\xe7in otomatik Kjeldahl distilasyon sistemi",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -399,7 +399,7 @@ const productCategories = [
                         created_at: "2023-01-13T00:00:00.000Z",
                         name: "Excellence T7 Titrator",
                         description: "Asitlik, peroksit değeri ve sabunlaşma değeri tayini i\xe7in otomatik titrat\xf6r",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -423,7 +423,7 @@ const productCategories = [
                         created_at: "2023-01-14T00:00:00.000Z",
                         name: "FIWE Raw Fiber Extractor",
                         description: "Ham sel\xfcloz, lignin ve diyet lif analizleri i\xe7in ekstraksiyon sistemi",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -447,7 +447,7 @@ const productCategories = [
                         created_at: "2023-01-15T00:00:00.000Z",
                         name: "Chloride Analyzer 926",
                         description: "Tuz tayini i\xe7in otomatik klor\xfcr analiz cihazı",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -495,7 +495,7 @@ const productCategories = [
                         created_at: "2023-01-17T00:00:00.000Z",
                         name: "AAS-240 Atomic Absorption Spectrometer",
                         description: "İz elementler ve ağır metal analizleri i\xe7in atomik absorpsiyon spektrometresi",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -543,7 +543,7 @@ const productCategories = [
                         created_at: "2023-01-19T00:00:00.000Z",
                         name: "DS2500 NIR Analyzer",
                         description: "NIR spektrofotometrik \xf6l\xe7\xfcm metodu ile \xe7ok hassas ve hızlı analiz",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -574,7 +574,7 @@ const productCategories = [
                         created_at: "2023-01-20T00:00:00.000Z",
                         name: "Nutrient Agar Dehydrated Media",
                         description: "Genel ama\xe7lı mikroorganizma k\xfclt\xfcr\xfc i\xe7in dehidrat besiyeri",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -598,7 +598,7 @@ const productCategories = [
                         created_at: "2023-01-21T00:00:00.000Z",
                         name: "3M Petrifilm Aerobic Count Plates",
                         description: "Toplam aerobik bakteri sayısı i\xe7in kullanıma hazır analiz plakaları",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -646,7 +646,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Neogen Listeria Right Now Test",
                         description: "Listeria patojen mikroorganizması i\xe7in hızlı test sistemi",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -694,7 +694,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "BagMixer 400 Stomacher",
                         description: "Kullanıma hazır dil\xfcsyon \xe7\xf6zeltileri ve homojenizasyon sistemi",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -718,7 +718,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Millipore Membrane Filtration System",
                         description: "Membran filtrasyon sistemleri ve analitik numune hazırlık",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -742,7 +742,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "BacT/ALERT 3D System",
                         description: "UHT ambalajlarda hızlı sterilite kontrol sistemleri",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -790,7 +790,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "MediaPrep M25 Automated Media Dispenser",
                         description: "Otomatik besiyeri hazırlık ve steril dolum sistemleri",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -821,7 +821,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Real-Time PCR GDO Analiz Sistemi",
                         description: "GDO/Tağşiş analizleri i\xe7in real-time PCR sistemi",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Molek\xfcler Biyoloji/Genetik Analiz Ekipmanları",
                         features: [
@@ -852,7 +852,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Testo 735-2 Precision Thermometer",
                         description: "Sıcaklık \xf6l\xe7\xfcm cihazları - Y\xfcksek hassasiyetli dijital termometre",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -876,7 +876,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "DewPoint Pro DP70",
                         description: "\xc7iğlenme noktası sıcaklığı \xf6l\xe7\xfcm cihazları i\xe7in taşınabilir sistem",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -900,7 +900,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "HygroLog HL-NT2 Data Logger",
                         description: "Bağıl nem \xf6l\xe7\xfcm cihazları i\xe7in hassas sens\xf6r teknolojisi",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -948,7 +948,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "DP-CALC 5825 Micromanometer",
                         description: "Fark basın\xe7 \xf6l\xe7\xfcm cihazları i\xe7in dijital mikromanometre",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -996,7 +996,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "TSI 9545 VelociCalc Air Velocity Meter",
                         description: "Hız \xf6l\xe7\xfcm cihazları i\xe7in \xe7ok fonksiyonlu hava hızı \xf6l\xe7er",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -1020,7 +1020,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "PCE-155 Digital Tachometer",
                         description: "Devir \xf6l\xe7\xfcm cihazları i\xe7in temassız dijital takometere",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -1044,7 +1044,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "TSI 4040 Mass Flow Meter",
                         description: "Debi \xf6l\xe7\xfcm cihazları i\xe7in termal mass flow metre",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -1092,7 +1092,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "TSI 7545 IAQ-CALC CO2 Monitor",
                         description: "Karbondioksit \xf6l\xe7\xfcm cihazları i\xe7in i\xe7 hava kalitesi monit\xf6r\xfc",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -1147,7 +1147,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Instron 3367 Universal Testing System",
                         description: "Ambalaj testleri i\xe7in \xe7ekme, basma ve b\xfckme test sistemi",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Ambalaj ve Malzeme Test Sistemleri",
                         features: [
@@ -1171,7 +1171,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "AGR TopLoad Tester TL-30",
                         description: "Gazlı/gazsız i\xe7eceklerde ve sıvı \xfcr\xfcnlerde kalite kontrol ekipmanları",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Ambalaj ve Malzeme Test Sistemleri",
                         features: [
@@ -1195,7 +1195,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "CANNEED-CBT-1000 Can Testing System",
                         description: "PET/Preform ve metal kutu analiz cihazları i\xe7in kapsamlı test sistemi",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Ambalaj ve Malzeme Test Sistemleri",
                         features: [
@@ -1250,7 +1250,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "CLIMACELL 222 Stability Chamber",
                         description: "\xdcr\xfcn stabilizasyon testleri i\xe7in iklim test odası",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Araştırma ve Geliştirme Ekipmanları",
                         features: [
@@ -1289,7 +1289,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "FT-NIR Spektrometre FN-500",
                         description: "NIR, FT-NIR ve NMR spektrofotometrik \xf6l\xe7\xfcm metodu ile \xe7ok hassas analiz",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Proses Kontrol Ve Hat Tipi Analiz \xc7\xf6z\xfcmleri",
                         subcategory: "Hat Tipi Analiz Sistemleri",
                         features: [
@@ -1344,7 +1344,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Ultrasonik Seviye Sens\xf6r\xfc",
                         description: "Seviye sens\xf6rleri ve nokta seviye sens\xf6rleri",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Proses Kontrol Ve Hat Tipi Analiz \xc7\xf6z\xfcmleri",
                         subcategory: "Proses Sens\xf6rleri",
                         features: [
@@ -1414,7 +1414,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Mini Spray Dryer SD-05",
                         description: "Spray dryer / Fluid bed dryer / Kuruma ve kurutma sistemleri",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Pilot Tipi \xdcretim ve Proses Sim\xfclasyon Sistemleri",
                         subcategory: "Kurutma ve İşleme",
                         features: [
@@ -1438,7 +1438,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Laboratuvar Liyofilizat\xf6r\xfc LF-10",
                         description: "Lyofilizasyon / Freeze drying (dondurarak kurutma) sistemi",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Pilot Tipi \xdcretim ve Proses Sim\xfclasyon Sistemleri",
                         subcategory: "Kurutma ve İşleme",
                         features: [
@@ -1469,7 +1469,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Membran Filtrasyon Sistemi MF-200",
                         description: "Filtrasyon ve separasyon i\xe7in membran teknolojisi",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Pilot Tipi \xdcretim ve Proses Sim\xfclasyon Sistemleri",
                         subcategory: "Filtrasyon ve Separasyon",
                         features: [
@@ -1540,7 +1540,7 @@ const getProductImages = (product)=>{
         ];
     }
     return [
-        "/images/lab-1.jpg"
+        "/images/lab-1.webp"
     ] // Default image
     ;
 };

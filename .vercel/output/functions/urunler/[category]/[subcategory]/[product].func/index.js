@@ -1,12 +1,12 @@
 
   
   globalThis._ENTRIES = {};
-/**/;self.__RSC_SERVER_MANIFEST="{\"node\":{},\"edge\":{},\"encryptionKey\":\"3gA7CzpuxWffFEqbsuxHLyrqVqhn9LdQiOlGnF8q4AQ=\"}"
-/**/;globalThis.__RSC_MANIFEST=(globalThis.__RSC_MANIFEST||{});globalThis.__RSC_MANIFEST["/urunler/[category]/[subcategory]/[product]/page"]={"moduleLoading":{"prefix":"/_next/","crossOrigin":null},"ssrModuleMapping":{},"edgeSSRModuleMapping":{"449":{"*":{"id":"9344","name":"*","chunks":[],"async":false}},"1134":{"*":{"id":"2710","name":"*","chunks":[],"async":false}},"1166":{"*":{"id":"6597","name":"*","chunks":[],"async":false}},"1422":{"*":{"id":"248","name":"*","chunks":[],"async":false}},"1778":{"*":{"id":"7918","name":"*","chunks":[],"async":false}},"1902":{"*":{"id":"2527","name":"*","chunks":[],"async":false}},"2472":{"*":{"id":"573","name":"*","chunks":[],"async":false}},"3939":{"*":{"id":"4346","name":"*","chunks":[],"async":false}},"4018":{"*":{"id":"4125","name":"*","chunks":[],"async":false}},"4443":{"*":{"id":"1666","name":"*","chunks":[],"async":false}},"4758":{"*":{"id":"3916","name":"*","chunks":[],"async":false}},"5250":{"*":{"id":"3449","name":"*","chunks":[],"async":false}},"5330":{"*":{"id":"3328","name":"*","chunks":[],"async":false}},"5613":{"*":{"id":"1726","name":"*","chunks":[],"async":false}},"7690":{"*":{"id":"679","name":"*","chunks":[],"async":false}},"7831":{"*":{"id":"3496","name":"*","chunks":[],"async":false}},"8599":{"*":{"id":"1084","name":"*","chunks":[],"async":false}},"8955":{"*":{"id":"702","name":"*","chunks":[],"async":false}},"9502":{"*":{"id":"1089","name":"*","chunks":[],"async":false}}},"clientModules":{"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/app-router.js":{"id":7690,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/app-router.js":{"id":7690,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/layout-router.js":{"id":5613,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/layout-router.js":{"id":5613,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/error-boundary.js":{"id":8955,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/error-boundary.js":{"id":8955,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/not-found-boundary.js":{"id":1902,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/not-found-boundary.js":{"id":1902,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/render-from-template-context.js":{"id":1778,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/render-from-template-context.js":{"id":1778,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js":{"id":7831,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js":{"id":7831,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/shared/lib/hooks-client-context.shared-runtime.js":{"id":4758,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/shared/lib/hooks-client-context.shared-runtime.js":{"id":4758,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/shared/lib/loadable-context.shared-runtime.js":{"id":1166,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/shared/lib/loadable-context.shared-runtime.js":{"id":1166,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/shared/lib/app-router-context.shared-runtime.js":{"id":8599,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/shared/lib/app-router-context.shared-runtime.js":{"id":8599,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/shared/lib/server-inserted-html.shared-runtime.js":{"id":2472,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/shared/lib/server-inserted-html.shared-runtime.js":{"id":2472,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/globals.css":{"id":3385,"name":"*","chunks":["3185","static/chunks/app/layout-556a01feb6f17023.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/error.tsx":{"id":449,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","7601","static/chunks/app/error-57d17ebc81f9de72.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/components/layout/Footer.tsx":{"id":1422,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","2695","static/chunks/2695-fb871f91c61282ff.js","1776","static/chunks/1776-d8ee12eecd2719cd.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","9160","static/chunks/app/not-found-64274ec7d8188216.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/components/layout/Header.tsx":{"id":5330,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","2695","static/chunks/2695-fb871f91c61282ff.js","1776","static/chunks/1776-d8ee12eecd2719cd.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","9160","static/chunks/app/not-found-64274ec7d8188216.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/link.js":{"id":5250,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","2695","static/chunks/2695-fb871f91c61282ff.js","1776","static/chunks/1776-d8ee12eecd2719cd.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","9160","static/chunks/app/not-found-64274ec7d8188216.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/link.js":{"id":5250,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","2695","static/chunks/2695-fb871f91c61282ff.js","1776","static/chunks/1776-d8ee12eecd2719cd.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","9160","static/chunks/app/not-found-64274ec7d8188216.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/page.tsx":{"id":4443,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","2695","static/chunks/2695-fb871f91c61282ff.js","1776","static/chunks/1776-d8ee12eecd2719cd.js","856","static/chunks/856-8de46faa14bc7327.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","2958","static/chunks/2958-2326f1cf5f8256f7.js","1931","static/chunks/app/page-0e9019bbf691ccb3.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/page.tsx":{"id":3939,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","2695","static/chunks/2695-fb871f91c61282ff.js","1776","static/chunks/1776-d8ee12eecd2719cd.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","2958","static/chunks/2958-2326f1cf5f8256f7.js","9728","static/chunks/app/urunler/page-3bdde02371c34810.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/[category]/page.tsx":{"id":1134,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","2695","static/chunks/2695-fb871f91c61282ff.js","1776","static/chunks/1776-d8ee12eecd2719cd.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","2958","static/chunks/2958-2326f1cf5f8256f7.js","6381","static/chunks/app/urunler/%5Bcategory%5D/page-9cbd0ed49c13bee9.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/[category]/[subcategory]/page.tsx":{"id":9502,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","2695","static/chunks/2695-fb871f91c61282ff.js","1776","static/chunks/1776-d8ee12eecd2719cd.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","2958","static/chunks/2958-2326f1cf5f8256f7.js","3386","static/chunks/app/urunler/%5Bcategory%5D/%5Bsubcategory%5D/page-adea1d7917393ba0.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/[category]/[subcategory]/[product]/page.tsx":{"id":4018,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","2695","static/chunks/2695-fb871f91c61282ff.js","1776","static/chunks/1776-d8ee12eecd2719cd.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","2958","static/chunks/2958-2326f1cf5f8256f7.js","416","static/chunks/app/urunler/%5Bcategory%5D/%5Bsubcategory%5D/%5Bproduct%5D/page-9d1422d06bf3db7d.js"],"async":false}},"entryCSSFiles":{"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/layout":["static/css/d82e42ca3c0ab6c5.css"],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/error":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/not-found":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/page":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/page":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/[category]/page":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/[category]/[subcategory]/page":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/[category]/[subcategory]/[product]/page":[]}}
-/**/;self.__BUILD_MANIFEST={"polyfillFiles":["static/chunks/polyfills-c67a75d1b6f99dc8.js"],"devFiles":[],"ampDevFiles":[],"lowPriorityFiles":["static/hUOJ7JM78aj_JYXmrfA7O/_buildManifest.js","static/hUOJ7JM78aj_JYXmrfA7O/_ssgManifest.js"],"rootMainFiles":["static/chunks/webpack-082a31737c7af4fd.js","static/chunks/fd9d1056-394c4b9237b372cc.js","static/chunks/993-f208a90c58704b1a.js","static/chunks/main-app-b5434e56c2b0ff6f.js"],"pages":{"/_app":["static/chunks/webpack-082a31737c7af4fd.js","static/chunks/framework-b566207abf043e2e.js","static/chunks/main-4b83e750c2a7d2a0.js","static/chunks/pages/_app-11c09b1e93f7270c.js"],"/_error":["static/chunks/webpack-082a31737c7af4fd.js","static/chunks/framework-b566207abf043e2e.js","static/chunks/main-4b83e750c2a7d2a0.js","static/chunks/pages/_error-7ae0e5d1f9ec0862.js"]},"ampFirstPages":[]}
+/**/;self.__RSC_SERVER_MANIFEST="{\"node\":{},\"edge\":{},\"encryptionKey\":\"HLXhn3hxctkVErb9EGfriPQZN45Pc/2j/SFjkROsE5Y=\"}"
+/**/;globalThis.__RSC_MANIFEST=(globalThis.__RSC_MANIFEST||{});globalThis.__RSC_MANIFEST["/urunler/[category]/[subcategory]/[product]/page"]={"moduleLoading":{"prefix":"/_next/","crossOrigin":null},"ssrModuleMapping":{},"edgeSSRModuleMapping":{"449":{"*":{"id":"9344","name":"*","chunks":[],"async":false}},"1134":{"*":{"id":"2710","name":"*","chunks":[],"async":false}},"1166":{"*":{"id":"6597","name":"*","chunks":[],"async":false}},"1422":{"*":{"id":"248","name":"*","chunks":[],"async":false}},"1778":{"*":{"id":"7918","name":"*","chunks":[],"async":false}},"1902":{"*":{"id":"2527","name":"*","chunks":[],"async":false}},"2472":{"*":{"id":"573","name":"*","chunks":[],"async":false}},"3939":{"*":{"id":"4346","name":"*","chunks":[],"async":false}},"4758":{"*":{"id":"3916","name":"*","chunks":[],"async":false}},"5170":{"*":{"id":"4125","name":"*","chunks":[],"async":false}},"5250":{"*":{"id":"3449","name":"*","chunks":[],"async":false}},"5330":{"*":{"id":"3328","name":"*","chunks":[],"async":false}},"5613":{"*":{"id":"1726","name":"*","chunks":[],"async":false}},"6039":{"*":{"id":"9292","name":"*","chunks":[],"async":false}},"7690":{"*":{"id":"679","name":"*","chunks":[],"async":false}},"7831":{"*":{"id":"3496","name":"*","chunks":[],"async":false}},"8599":{"*":{"id":"1084","name":"*","chunks":[],"async":false}},"8955":{"*":{"id":"702","name":"*","chunks":[],"async":false}},"9502":{"*":{"id":"1089","name":"*","chunks":[],"async":false}}},"clientModules":{"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/app-router.js":{"id":7690,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/app-router.js":{"id":7690,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/error-boundary.js":{"id":8955,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/error-boundary.js":{"id":8955,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/layout-router.js":{"id":5613,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/layout-router.js":{"id":5613,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/not-found-boundary.js":{"id":1902,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/not-found-boundary.js":{"id":1902,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js":{"id":7831,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js":{"id":7831,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/shared/lib/app-router-context.shared-runtime.js":{"id":8599,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/shared/lib/app-router-context.shared-runtime.js":{"id":8599,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/components/render-from-template-context.js":{"id":1778,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/components/render-from-template-context.js":{"id":1778,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/shared/lib/server-inserted-html.shared-runtime.js":{"id":2472,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/shared/lib/server-inserted-html.shared-runtime.js":{"id":2472,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/shared/lib/hooks-client-context.shared-runtime.js":{"id":4758,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/shared/lib/hooks-client-context.shared-runtime.js":{"id":4758,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/shared/lib/loadable-context.shared-runtime.js":{"id":1166,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/shared/lib/loadable-context.shared-runtime.js":{"id":1166,"name":"*","chunks":[],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/globals.css":{"id":3385,"name":"*","chunks":["3185","static/chunks/app/layout-556a01feb6f17023.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/error.tsx":{"id":449,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","7601","static/chunks/app/error-57d17ebc81f9de72.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/components/layout/Footer.tsx":{"id":1422,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","9751","static/chunks/9751-e61453fd4f4fce7a.js","4166","static/chunks/4166-978d9c6e01a8e654.js","3466","static/chunks/3466-e18b7dfb8678b8de.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","9160","static/chunks/app/not-found-f237cf01b1bcdf22.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/components/layout/Header.tsx":{"id":5330,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","9751","static/chunks/9751-e61453fd4f4fce7a.js","4166","static/chunks/4166-978d9c6e01a8e654.js","3466","static/chunks/3466-e18b7dfb8678b8de.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","9160","static/chunks/app/not-found-f237cf01b1bcdf22.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/client/link.js":{"id":5250,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","9751","static/chunks/9751-e61453fd4f4fce7a.js","4166","static/chunks/4166-978d9c6e01a8e654.js","3466","static/chunks/3466-e18b7dfb8678b8de.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","9160","static/chunks/app/not-found-f237cf01b1bcdf22.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/node_modules/next/dist/esm/client/link.js":{"id":5250,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","9751","static/chunks/9751-e61453fd4f4fce7a.js","4166","static/chunks/4166-978d9c6e01a8e654.js","3466","static/chunks/3466-e18b7dfb8678b8de.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","9160","static/chunks/app/not-found-f237cf01b1bcdf22.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/page.tsx":{"id":6039,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","9751","static/chunks/9751-e61453fd4f4fce7a.js","4166","static/chunks/4166-978d9c6e01a8e654.js","3466","static/chunks/3466-e18b7dfb8678b8de.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","1931","static/chunks/app/page-8f0b4b7b22795d3e.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/page.tsx":{"id":3939,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","9751","static/chunks/9751-e61453fd4f4fce7a.js","4166","static/chunks/4166-978d9c6e01a8e654.js","3466","static/chunks/3466-e18b7dfb8678b8de.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","2958","static/chunks/2958-4d53187c68e54352.js","9728","static/chunks/app/urunler/page-b25a3335594e091d.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/[category]/page.tsx":{"id":1134,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","9751","static/chunks/9751-e61453fd4f4fce7a.js","4166","static/chunks/4166-978d9c6e01a8e654.js","3466","static/chunks/3466-e18b7dfb8678b8de.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","2958","static/chunks/2958-4d53187c68e54352.js","6381","static/chunks/app/urunler/%5Bcategory%5D/page-451c8e8b92d6f6d5.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/[category]/[subcategory]/page.tsx":{"id":9502,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","9751","static/chunks/9751-e61453fd4f4fce7a.js","4166","static/chunks/4166-978d9c6e01a8e654.js","3466","static/chunks/3466-e18b7dfb8678b8de.js","5330","static/chunks/5330-3cceecf7a46878ce.js","1422","static/chunks/1422-0a6ab547d09b4dbc.js","2958","static/chunks/2958-4d53187c68e54352.js","3386","static/chunks/app/urunler/%5Bcategory%5D/%5Bsubcategory%5D/page-773f460840e9a8e0.js"],"async":false},"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/[category]/[subcategory]/[product]/page.tsx":{"id":5170,"name":"*","chunks":["1176","static/chunks/1176-7dea334b2d7500f8.js","9751","static/chunks/9751-e61453fd4f4fce7a.js","4166","static/chunks/4166-978d9c6e01a8e654.js","4403","static/chunks/4403-491dc050e491a2cc.js","2958","static/chunks/2958-4d53187c68e54352.js","416","static/chunks/app/urunler/%5Bcategory%5D/%5Bsubcategory%5D/%5Bproduct%5D/page-4b95feced7831a5b.js"],"async":false}},"entryCSSFiles":{"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/layout":["static/css/d82e42ca3c0ab6c5.css"],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/error":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/not-found":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/page":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/page":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/[category]/page":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/[category]/[subcategory]/page":[],"/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/[category]/[subcategory]/[product]/page":[]}}
+/**/;self.__BUILD_MANIFEST={"polyfillFiles":["static/chunks/polyfills-c67a75d1b6f99dc8.js"],"devFiles":[],"ampDevFiles":[],"lowPriorityFiles":["static/NXtuk7z5Z6RvkFyZNbEMU/_buildManifest.js","static/NXtuk7z5Z6RvkFyZNbEMU/_ssgManifest.js"],"rootMainFiles":["static/chunks/webpack-4cc13f30328d8fb5.js","static/chunks/fd9d1056-394c4b9237b372cc.js","static/chunks/993-f208a90c58704b1a.js","static/chunks/main-app-b5434e56c2b0ff6f.js"],"pages":{"/_app":["static/chunks/webpack-4cc13f30328d8fb5.js","static/chunks/framework-b566207abf043e2e.js","static/chunks/main-069b4682bc5c4efc.js","static/chunks/pages/_app-11c09b1e93f7270c.js"],"/_error":["static/chunks/webpack-4cc13f30328d8fb5.js","static/chunks/framework-b566207abf043e2e.js","static/chunks/main-069b4682bc5c4efc.js","static/chunks/pages/_error-7ae0e5d1f9ec0862.js"]},"ampFirstPages":[]}
 /**/;self.__REACT_LOADABLE_MANIFEST="{}"
 /**/;self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":false}"
-/**/;self.__PRERENDER_MANIFEST="{\"version\":4,\"routes\":{},\"dynamicRoutes\":{},\"notFoundRoutes\":[],\"preview\":{\"previewModeId\":\"fe11fd6082bfe6b31bf9f0dbdb1ad9f8\",\"previewModeSigningKey\":\"e5b3ea9ab0b2cb08800175890eb0ea8a4e8796df9f290dd1512c8f8273e55277\",\"previewModeEncryptionKey\":\"70864eaa20a4f805778c2dff61ddbbad6cbb2aab21c7b78d3ba0604305c70b58\"}}"
+/**/;self.__PRERENDER_MANIFEST="{\"version\":4,\"routes\":{},\"dynamicRoutes\":{},\"notFoundRoutes\":[],\"preview\":{\"previewModeId\":\"c15feebe183b4599009d90d30345785c\",\"previewModeSigningKey\":\"e4f5ebd6693b52469f7c330136bbffdbbffea06eed62688ebe60b2eb92a90f45\",\"previewModeEncryptionKey\":\"165f63bf1198087f5afb62855eafbdb2a071600cb29c12335ecedb1c074c4ae8\"}}"
 /**/;/******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({});
@@ -214,7 +214,7 @@ module.exports = require("node:buffer");
 
 /***/ }),
 
-/***/ 4941:
+/***/ 1998:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -364,7 +364,7 @@ const routeModule = new module_compiled.AppPageRouteModule({
 });
 
 //# sourceMappingURL=app-page.js.map
-;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-edge-ssr-loader/index.js?{"absolute500Path":"","absoluteAppPath":"next/dist/pages/_app","absoluteDocumentPath":"next/dist/pages/_document","absoluteErrorPath":"next/dist/pages/_error","absolutePagePath":"private-next-app-dir/urunler/[category]/[subcategory]/[product]/page.tsx","buildId":"hUOJ7JM78aj_JYXmrfA7O","dev":false,"isServerComponent":true,"page":"/urunler/[category]/[subcategory]/[product]/page","stringifiedConfig":"eyJlbnYiOnt9LCJlc2xpbnQiOnsiaWdub3JlRHVyaW5nQnVpbGRzIjpmYWxzZX0sInR5cGVzY3JpcHQiOnsiaWdub3JlQnVpbGRFcnJvcnMiOmZhbHNlLCJ0c2NvbmZpZ1BhdGgiOiJ0c2NvbmZpZy5qc29uIn0sImRpc3REaXIiOiIubmV4dCIsImNsZWFuRGlzdERpciI6dHJ1ZSwiYXNzZXRQcmVmaXgiOiIiLCJjb25maWdPcmlnaW4iOiJuZXh0LmNvbmZpZy5qcyIsInVzZUZpbGVTeXN0ZW1QdWJsaWNSb3V0ZXMiOnRydWUsImdlbmVyYXRlRXRhZ3MiOnRydWUsInBhZ2VFeHRlbnNpb25zIjpbInRzeCIsInRzIiwianN4IiwianMiXSwicG93ZXJlZEJ5SGVhZGVyIjpmYWxzZSwiY29tcHJlc3MiOmZhbHNlLCJhbmFseXRpY3NJZCI6IiIsImltYWdlcyI6eyJkZXZpY2VTaXplcyI6WzY0MCw3NTAsODI4LDEwODAsMTIwMCwxOTIwLDIwNDgsMzg0MF0sImltYWdlU2l6ZXMiOlsxNiwzMiw0OCw2NCw5NiwxMjgsMjU2LDM4NF0sInBhdGgiOiIvX25leHQvaW1hZ2UiLCJsb2FkZXIiOiJkZWZhdWx0IiwibG9hZGVyRmlsZSI6IiIsImRvbWFpbnMiOltdLCJkaXNhYmxlU3RhdGljSW1hZ2VzIjpmYWxzZSwibWluaW11bUNhY2hlVFRMIjo2MCwiZm9ybWF0cyI6WyJpbWFnZS93ZWJwIiwiaW1hZ2UvYXZpZiJdLCJkYW5nZXJvdXNseUFsbG93U1ZHIjpmYWxzZSwiY29udGVudFNlY3VyaXR5UG9saWN5Ijoic2NyaXB0LXNyYyAnbm9uZSc7IGZyYW1lLXNyYyAnbm9uZSc7IHNhbmRib3g7IiwiY29udGVudERpc3Bvc2l0aW9uVHlwZSI6ImlubGluZSIsInJlbW90ZVBhdHRlcm5zIjpbeyJwcm90b2NvbCI6Imh0dHAiLCJob3N0bmFtZSI6ImxvY2FsaG9zdCIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9LHsicHJvdG9jb2wiOiJodHRwcyIsImhvc3RuYW1lIjoicHViLTk0YzQ3ZWJjN2IxNDQ1OGViMWUwOWI2M2E4NzY4ZDcyLnIyLmRldiIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9XSwidW5vcHRpbWl6ZWQiOmZhbHNlfSwiZGV2SW5kaWNhdG9ycyI6eyJidWlsZEFjdGl2aXR5Ijp0cnVlLCJidWlsZEFjdGl2aXR5UG9zaXRpb24iOiJib3R0b20tcmlnaHQifSwib25EZW1hbmRFbnRyaWVzIjp7Im1heEluYWN0aXZlQWdlIjo2MDAwMCwicGFnZXNCdWZmZXJMZW5ndGgiOjV9LCJhbXAiOnsiY2Fub25pY2FsQmFzZSI6IiJ9LCJiYXNlUGF0aCI6IiIsInNhc3NPcHRpb25zIjp7fSwidHJhaWxpbmdTbGFzaCI6ZmFsc2UsImkxOG4iOm51bGwsInByb2R1Y3Rpb25Ccm93c2VyU291cmNlTWFwcyI6ZmFsc2UsIm9wdGltaXplRm9udHMiOnRydWUsImV4Y2x1ZGVEZWZhdWx0TW9tZW50TG9jYWxlcyI6dHJ1ZSwic2VydmVyUnVudGltZUNvbmZpZyI6e30sInB1YmxpY1J1bnRpbWVDb25maWciOnt9LCJyZWFjdFByb2R1Y3Rpb25Qcm9maWxpbmciOmZhbHNlLCJyZWFjdFN0cmljdE1vZGUiOnRydWUsImh0dHBBZ2VudE9wdGlvbnMiOnsia2VlcEFsaXZlIjp0cnVlfSwib3V0cHV0RmlsZVRyYWNpbmciOnRydWUsInN0YXRpY1BhZ2VHZW5lcmF0aW9uVGltZW91dCI6NjAsInN3Y01pbmlmeSI6ZmFsc2UsIm91dHB1dCI6InN0YW5kYWxvbmUiLCJtb2R1bGFyaXplSW1wb3J0cyI6eyJAbXVpL2ljb25zLW1hdGVyaWFsIjp7InRyYW5zZm9ybSI6IkBtdWkvaWNvbnMtbWF0ZXJpYWwve3ttZW1iZXJ9fSJ9LCJsb2Rhc2giOnsidHJhbnNmb3JtIjoibG9kYXNoL3t7bWVtYmVyfX0ifSwibmV4dC9zZXJ2ZXIiOnsidHJhbnNmb3JtIjoibmV4dC9kaXN0L3NlcnZlci93ZWIvZXhwb3J0cy97eyBrZWJhYkNhc2UgbWVtYmVyIH19In19LCJleHBlcmltZW50YWwiOnsid2luZG93SGlzdG9yeVN1cHBvcnQiOmZhbHNlLCJzZXJ2ZXJNaW5pZmljYXRpb24iOnRydWUsInNlcnZlclNvdXJjZU1hcHMiOmZhbHNlLCJjYXNlU2Vuc2l0aXZlUm91dGVzIjpmYWxzZSwidXNlRGVwbG95bWVudElkIjpmYWxzZSwidXNlRGVwbG95bWVudElkU2VydmVyQWN0aW9ucyI6ZmFsc2UsImNsaWVudFJvdXRlckZpbHRlciI6dHJ1ZSwiY2xpZW50Um91dGVyRmlsdGVyUmVkaXJlY3RzIjpmYWxzZSwiZmV0Y2hDYWNoZUtleVByZWZpeCI6IiIsIm1pZGRsZXdhcmVQcmVmZXRjaCI6ImZsZXhpYmxlIiwib3B0aW1pc3RpY0NsaWVudENhY2hlIjp0cnVlLCJtYW51YWxDbGllbnRCYXNlUGF0aCI6ZmFsc2UsImNwdXMiOjksIm1lbW9yeUJhc2VkV29ya2Vyc0NvdW50IjpmYWxzZSwiaXNyRmx1c2hUb0Rpc2siOnRydWUsIndvcmtlclRocmVhZHMiOmZhbHNlLCJvcHRpbWl6ZUNzcyI6ZmFsc2UsIm5leHRTY3JpcHRXb3JrZXJzIjpmYWxzZSwic2Nyb2xsUmVzdG9yYXRpb24iOmZhbHNlLCJleHRlcm5hbERpciI6ZmFsc2UsImRpc2FibGVPcHRpbWl6ZWRMb2FkaW5nIjpmYWxzZSwiZ3ppcFNpemUiOnRydWUsImNyYUNvbXBhdCI6ZmFsc2UsImVzbUV4dGVybmFscyI6dHJ1ZSwiaXNyTWVtb3J5Q2FjaGVTaXplIjowLCJmdWxseVNwZWNpZmllZCI6ZmFsc2UsIm91dHB1dEZpbGVUcmFjaW5nUm9vdCI6Ii9Vc2Vycy9kZW5pemhhbi9Eb2N1bWVudHMvV2luZHN1cmYvcHJvdGVrYW5hbGl0aWsiLCJzd2NUcmFjZVByb2ZpbGluZyI6ZmFsc2UsImZvcmNlU3djVHJhbnNmb3JtcyI6ZmFsc2UsImxhcmdlUGFnZURhdGFCeXRlcyI6MTI4MDAwLCJhZGp1c3RGb250RmFsbGJhY2tzIjpmYWxzZSwiYWRqdXN0Rm9udEZhbGxiYWNrc1dpdGhTaXplQWRqdXN0IjpmYWxzZSwidHlwZWRSb3V0ZXMiOmZhbHNlLCJpbnN0cnVtZW50YXRpb25Ib29rIjpmYWxzZSwiYnVuZGxlUGFnZXNFeHRlcm5hbHMiOmZhbHNlLCJwcHIiOmZhbHNlLCJ3ZWJwYWNrQnVpbGRXb3JrZXIiOmZhbHNlLCJvdXRwdXRGaWxlVHJhY2luZ0V4Y2x1ZGVzIjp7IioiOlsibm9kZV9tb2R1bGVzLyoqLyoiLCIubmV4dC9jYWNoZS8qKi8qIiwiLmdpdC8qKi8qIl19LCJzdGF0aWNQYWdlR2VuZXJhdGlvblRpbWVvdXQiOjAsIm9wdGltaXplUGFja2FnZUltcG9ydHMiOlsibHVjaWRlLXJlYWN0IiwiZGF0ZS1mbnMiLCJsb2Rhc2gtZXMiLCJyYW1kYSIsImFudGQiLCJyZWFjdC1ib290c3RyYXAiLCJhaG9va3MiLCJAYW50LWRlc2lnbi9pY29ucyIsIkBoZWFkbGVzc3VpL3JlYWN0IiwiQGhlYWRsZXNzdWktZmxvYXQvcmVhY3QiLCJAaGVyb2ljb25zL3JlYWN0LzIwL3NvbGlkIiwiQGhlcm9pY29ucy9yZWFjdC8yNC9zb2xpZCIsIkBoZXJvaWNvbnMvcmVhY3QvMjQvb3V0bGluZSIsIkB2aXN4L3Zpc3giLCJAdHJlbW9yL3JlYWN0IiwicnhqcyIsIkBtdWkvbWF0ZXJpYWwiLCJAbXVpL2ljb25zLW1hdGVyaWFsIiwicmVjaGFydHMiLCJyZWFjdC11c2UiLCJAbWF0ZXJpYWwtdWkvY29yZSIsIkBtYXRlcmlhbC11aS9pY29ucyIsIkB0YWJsZXIvaWNvbnMtcmVhY3QiLCJtdWktY29yZSIsInJlYWN0LWljb25zL2FpIiwicmVhY3QtaWNvbnMvYmkiLCJyZWFjdC1pY29ucy9icyIsInJlYWN0LWljb25zL2NnIiwicmVhY3QtaWNvbnMvY2kiLCJyZWFjdC1pY29ucy9kaSIsInJlYWN0LWljb25zL2ZhIiwicmVhY3QtaWNvbnMvZmE2IiwicmVhY3QtaWNvbnMvZmMiLCJyZWFjdC1pY29ucy9maSIsInJlYWN0LWljb25zL2dpIiwicmVhY3QtaWNvbnMvZ28iLCJyZWFjdC1pY29ucy9nciIsInJlYWN0LWljb25zL2hpIiwicmVhY3QtaWNvbnMvaGkyIiwicmVhY3QtaWNvbnMvaW0iLCJyZWFjdC1pY29ucy9pbyIsInJlYWN0LWljb25zL2lvNSIsInJlYWN0LWljb25zL2xpYSIsInJlYWN0LWljb25zL2xpYiIsInJlYWN0LWljb25zL2x1IiwicmVhY3QtaWNvbnMvbWQiLCJyZWFjdC1pY29ucy9waSIsInJlYWN0LWljb25zL3JpIiwicmVhY3QtaWNvbnMvcngiLCJyZWFjdC1pY29ucy9zaSIsInJlYWN0LWljb25zL3NsIiwicmVhY3QtaWNvbnMvdGIiLCJyZWFjdC1pY29ucy90ZmkiLCJyZWFjdC1pY29ucy90aSIsInJlYWN0LWljb25zL3ZzYyIsInJlYWN0LWljb25zL3dpIl19LCJjb25maWdGaWxlIjoiL1VzZXJzL2Rlbml6aGFuL0RvY3VtZW50cy9XaW5kc3VyZi9wcm90ZWthbmFsaXRpay9uZXh0LmNvbmZpZy5qcyIsImNvbmZpZ0ZpbGVOYW1lIjoibmV4dC5jb25maWcuanMiLCJnZW5lcmF0ZVN0YXRpY1BhcmFtcyI6ZmFsc2UsIm1pbmlmeSI6ZmFsc2V9","pagesType":"app","appDirLoader":"bmV4dC1hcHAtbG9hZGVyP25hbWU9YXBwJTJGdXJ1bmxlciUyRiU1QmNhdGVnb3J5JTVEJTJGJTVCc3ViY2F0ZWdvcnklNUQlMkYlNUJwcm9kdWN0JTVEJTJGcGFnZSZwYWdlPSUyRnVydW5sZXIlMkYlNUJjYXRlZ29yeSU1RCUyRiU1QnN1YmNhdGVnb3J5JTVEJTJGJTVCcHJvZHVjdCU1RCUyRnBhZ2UmcGFnZVBhdGg9cHJpdmF0ZS1uZXh0LWFwcC1kaXIlMkZ1cnVubGVyJTJGJTVCY2F0ZWdvcnklNUQlMkYlNUJzdWJjYXRlZ29yeSU1RCUyRiU1QnByb2R1Y3QlNUQlMkZwYWdlLnRzeCZhcHBEaXI9JTJGVXNlcnMlMkZkZW5pemhhbiUyRkRvY3VtZW50cyUyRldpbmRzdXJmJTJGcHJvdGVrYW5hbGl0aWslMkZzcmMlMkZhcHAmYXBwUGF0aHM9JTJGdXJ1bmxlciUyRiU1QmNhdGVnb3J5JTVEJTJGJTVCc3ViY2F0ZWdvcnklNUQlMkYlNUJwcm9kdWN0JTVEJTJGcGFnZSZwYWdlRXh0ZW5zaW9ucz10c3gmcGFnZUV4dGVuc2lvbnM9dHMmcGFnZUV4dGVuc2lvbnM9anN4JnBhZ2VFeHRlbnNpb25zPWpzJmJhc2VQYXRoPSZhc3NldFByZWZpeD0mbmV4dENvbmZpZ091dHB1dD1zdGFuZGFsb25lJnByZWZlcnJlZFJlZ2lvbj0mbWlkZGxld2FyZUNvbmZpZz1lMzAlM0Qh","sriEnabled":false,"middlewareConfig":"e30="}!
+;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-edge-ssr-loader/index.js?{"absolute500Path":"","absoluteAppPath":"next/dist/pages/_app","absoluteDocumentPath":"next/dist/pages/_document","absoluteErrorPath":"next/dist/pages/_error","absolutePagePath":"private-next-app-dir/urunler/[category]/[subcategory]/[product]/page.tsx","buildId":"NXtuk7z5Z6RvkFyZNbEMU","dev":false,"isServerComponent":true,"page":"/urunler/[category]/[subcategory]/[product]/page","stringifiedConfig":"eyJlbnYiOnt9LCJlc2xpbnQiOnsiaWdub3JlRHVyaW5nQnVpbGRzIjpmYWxzZX0sInR5cGVzY3JpcHQiOnsiaWdub3JlQnVpbGRFcnJvcnMiOmZhbHNlLCJ0c2NvbmZpZ1BhdGgiOiJ0c2NvbmZpZy5qc29uIn0sImRpc3REaXIiOiIubmV4dCIsImNsZWFuRGlzdERpciI6dHJ1ZSwiYXNzZXRQcmVmaXgiOiIiLCJjb25maWdPcmlnaW4iOiJuZXh0LmNvbmZpZy5qcyIsInVzZUZpbGVTeXN0ZW1QdWJsaWNSb3V0ZXMiOnRydWUsImdlbmVyYXRlRXRhZ3MiOnRydWUsInBhZ2VFeHRlbnNpb25zIjpbInRzeCIsInRzIiwianN4IiwianMiXSwicG93ZXJlZEJ5SGVhZGVyIjpmYWxzZSwiY29tcHJlc3MiOmZhbHNlLCJhbmFseXRpY3NJZCI6IiIsImltYWdlcyI6eyJkZXZpY2VTaXplcyI6WzY0MCw3NTAsODI4LDEwODAsMTIwMCwxOTIwLDIwNDgsMzg0MF0sImltYWdlU2l6ZXMiOlsxNiwzMiw0OCw2NCw5NiwxMjgsMjU2LDM4NF0sInBhdGgiOiIvX25leHQvaW1hZ2UiLCJsb2FkZXIiOiJkZWZhdWx0IiwibG9hZGVyRmlsZSI6IiIsImRvbWFpbnMiOltdLCJkaXNhYmxlU3RhdGljSW1hZ2VzIjpmYWxzZSwibWluaW11bUNhY2hlVFRMIjo2MCwiZm9ybWF0cyI6WyJpbWFnZS93ZWJwIiwiaW1hZ2UvYXZpZiJdLCJkYW5nZXJvdXNseUFsbG93U1ZHIjpmYWxzZSwiY29udGVudFNlY3VyaXR5UG9saWN5Ijoic2NyaXB0LXNyYyAnbm9uZSc7IGZyYW1lLXNyYyAnbm9uZSc7IHNhbmRib3g7IiwiY29udGVudERpc3Bvc2l0aW9uVHlwZSI6ImlubGluZSIsInJlbW90ZVBhdHRlcm5zIjpbeyJwcm90b2NvbCI6Imh0dHAiLCJob3N0bmFtZSI6ImxvY2FsaG9zdCIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9LHsicHJvdG9jb2wiOiJodHRwcyIsImhvc3RuYW1lIjoicHViLTk0YzQ3ZWJjN2IxNDQ1OGViMWUwOWI2M2E4NzY4ZDcyLnIyLmRldiIsInBvcnQiOiIiLCJwYXRobmFtZSI6Ii8qKiJ9XSwidW5vcHRpbWl6ZWQiOmZhbHNlfSwiZGV2SW5kaWNhdG9ycyI6eyJidWlsZEFjdGl2aXR5Ijp0cnVlLCJidWlsZEFjdGl2aXR5UG9zaXRpb24iOiJib3R0b20tcmlnaHQifSwib25EZW1hbmRFbnRyaWVzIjp7Im1heEluYWN0aXZlQWdlIjo2MDAwMCwicGFnZXNCdWZmZXJMZW5ndGgiOjV9LCJhbXAiOnsiY2Fub25pY2FsQmFzZSI6IiJ9LCJiYXNlUGF0aCI6IiIsInNhc3NPcHRpb25zIjp7fSwidHJhaWxpbmdTbGFzaCI6ZmFsc2UsImkxOG4iOm51bGwsInByb2R1Y3Rpb25Ccm93c2VyU291cmNlTWFwcyI6ZmFsc2UsIm9wdGltaXplRm9udHMiOnRydWUsImV4Y2x1ZGVEZWZhdWx0TW9tZW50TG9jYWxlcyI6dHJ1ZSwic2VydmVyUnVudGltZUNvbmZpZyI6e30sInB1YmxpY1J1bnRpbWVDb25maWciOnt9LCJyZWFjdFByb2R1Y3Rpb25Qcm9maWxpbmciOmZhbHNlLCJyZWFjdFN0cmljdE1vZGUiOnRydWUsImh0dHBBZ2VudE9wdGlvbnMiOnsia2VlcEFsaXZlIjp0cnVlfSwib3V0cHV0RmlsZVRyYWNpbmciOnRydWUsInN0YXRpY1BhZ2VHZW5lcmF0aW9uVGltZW91dCI6NjAsInN3Y01pbmlmeSI6ZmFsc2UsIm91dHB1dCI6InN0YW5kYWxvbmUiLCJtb2R1bGFyaXplSW1wb3J0cyI6eyJAbXVpL2ljb25zLW1hdGVyaWFsIjp7InRyYW5zZm9ybSI6IkBtdWkvaWNvbnMtbWF0ZXJpYWwve3ttZW1iZXJ9fSJ9LCJsb2Rhc2giOnsidHJhbnNmb3JtIjoibG9kYXNoL3t7bWVtYmVyfX0ifSwibmV4dC9zZXJ2ZXIiOnsidHJhbnNmb3JtIjoibmV4dC9kaXN0L3NlcnZlci93ZWIvZXhwb3J0cy97eyBrZWJhYkNhc2UgbWVtYmVyIH19In19LCJleHBlcmltZW50YWwiOnsid2luZG93SGlzdG9yeVN1cHBvcnQiOmZhbHNlLCJzZXJ2ZXJNaW5pZmljYXRpb24iOnRydWUsInNlcnZlclNvdXJjZU1hcHMiOmZhbHNlLCJjYXNlU2Vuc2l0aXZlUm91dGVzIjpmYWxzZSwidXNlRGVwbG95bWVudElkIjpmYWxzZSwidXNlRGVwbG95bWVudElkU2VydmVyQWN0aW9ucyI6ZmFsc2UsImNsaWVudFJvdXRlckZpbHRlciI6dHJ1ZSwiY2xpZW50Um91dGVyRmlsdGVyUmVkaXJlY3RzIjpmYWxzZSwiZmV0Y2hDYWNoZUtleVByZWZpeCI6IiIsIm1pZGRsZXdhcmVQcmVmZXRjaCI6ImZsZXhpYmxlIiwib3B0aW1pc3RpY0NsaWVudENhY2hlIjp0cnVlLCJtYW51YWxDbGllbnRCYXNlUGF0aCI6ZmFsc2UsImNwdXMiOjksIm1lbW9yeUJhc2VkV29ya2Vyc0NvdW50IjpmYWxzZSwiaXNyRmx1c2hUb0Rpc2siOnRydWUsIndvcmtlclRocmVhZHMiOmZhbHNlLCJvcHRpbWl6ZUNzcyI6ZmFsc2UsIm5leHRTY3JpcHRXb3JrZXJzIjpmYWxzZSwic2Nyb2xsUmVzdG9yYXRpb24iOmZhbHNlLCJleHRlcm5hbERpciI6ZmFsc2UsImRpc2FibGVPcHRpbWl6ZWRMb2FkaW5nIjpmYWxzZSwiZ3ppcFNpemUiOnRydWUsImNyYUNvbXBhdCI6ZmFsc2UsImVzbUV4dGVybmFscyI6dHJ1ZSwiaXNyTWVtb3J5Q2FjaGVTaXplIjowLCJmdWxseVNwZWNpZmllZCI6ZmFsc2UsIm91dHB1dEZpbGVUcmFjaW5nUm9vdCI6Ii9Vc2Vycy9kZW5pemhhbi9Eb2N1bWVudHMvV2luZHN1cmYvcHJvdGVrYW5hbGl0aWsiLCJzd2NUcmFjZVByb2ZpbGluZyI6ZmFsc2UsImZvcmNlU3djVHJhbnNmb3JtcyI6ZmFsc2UsImxhcmdlUGFnZURhdGFCeXRlcyI6MTI4MDAwLCJhZGp1c3RGb250RmFsbGJhY2tzIjpmYWxzZSwiYWRqdXN0Rm9udEZhbGxiYWNrc1dpdGhTaXplQWRqdXN0IjpmYWxzZSwidHlwZWRSb3V0ZXMiOmZhbHNlLCJpbnN0cnVtZW50YXRpb25Ib29rIjpmYWxzZSwiYnVuZGxlUGFnZXNFeHRlcm5hbHMiOmZhbHNlLCJwcHIiOmZhbHNlLCJ3ZWJwYWNrQnVpbGRXb3JrZXIiOmZhbHNlLCJvdXRwdXRGaWxlVHJhY2luZ0V4Y2x1ZGVzIjp7IioiOlsibm9kZV9tb2R1bGVzLyoqLyoiLCIubmV4dC9jYWNoZS8qKi8qIiwiLmdpdC8qKi8qIl19LCJzdGF0aWNQYWdlR2VuZXJhdGlvblRpbWVvdXQiOjAsIm9wdGltaXplUGFja2FnZUltcG9ydHMiOlsibHVjaWRlLXJlYWN0IiwiZGF0ZS1mbnMiLCJsb2Rhc2gtZXMiLCJyYW1kYSIsImFudGQiLCJyZWFjdC1ib290c3RyYXAiLCJhaG9va3MiLCJAYW50LWRlc2lnbi9pY29ucyIsIkBoZWFkbGVzc3VpL3JlYWN0IiwiQGhlYWRsZXNzdWktZmxvYXQvcmVhY3QiLCJAaGVyb2ljb25zL3JlYWN0LzIwL3NvbGlkIiwiQGhlcm9pY29ucy9yZWFjdC8yNC9zb2xpZCIsIkBoZXJvaWNvbnMvcmVhY3QvMjQvb3V0bGluZSIsIkB2aXN4L3Zpc3giLCJAdHJlbW9yL3JlYWN0IiwicnhqcyIsIkBtdWkvbWF0ZXJpYWwiLCJAbXVpL2ljb25zLW1hdGVyaWFsIiwicmVjaGFydHMiLCJyZWFjdC11c2UiLCJAbWF0ZXJpYWwtdWkvY29yZSIsIkBtYXRlcmlhbC11aS9pY29ucyIsIkB0YWJsZXIvaWNvbnMtcmVhY3QiLCJtdWktY29yZSIsInJlYWN0LWljb25zL2FpIiwicmVhY3QtaWNvbnMvYmkiLCJyZWFjdC1pY29ucy9icyIsInJlYWN0LWljb25zL2NnIiwicmVhY3QtaWNvbnMvY2kiLCJyZWFjdC1pY29ucy9kaSIsInJlYWN0LWljb25zL2ZhIiwicmVhY3QtaWNvbnMvZmE2IiwicmVhY3QtaWNvbnMvZmMiLCJyZWFjdC1pY29ucy9maSIsInJlYWN0LWljb25zL2dpIiwicmVhY3QtaWNvbnMvZ28iLCJyZWFjdC1pY29ucy9nciIsInJlYWN0LWljb25zL2hpIiwicmVhY3QtaWNvbnMvaGkyIiwicmVhY3QtaWNvbnMvaW0iLCJyZWFjdC1pY29ucy9pbyIsInJlYWN0LWljb25zL2lvNSIsInJlYWN0LWljb25zL2xpYSIsInJlYWN0LWljb25zL2xpYiIsInJlYWN0LWljb25zL2x1IiwicmVhY3QtaWNvbnMvbWQiLCJyZWFjdC1pY29ucy9waSIsInJlYWN0LWljb25zL3JpIiwicmVhY3QtaWNvbnMvcngiLCJyZWFjdC1pY29ucy9zaSIsInJlYWN0LWljb25zL3NsIiwicmVhY3QtaWNvbnMvdGIiLCJyZWFjdC1pY29ucy90ZmkiLCJyZWFjdC1pY29ucy90aSIsInJlYWN0LWljb25zL3ZzYyIsInJlYWN0LWljb25zL3dpIl19LCJjb25maWdGaWxlIjoiL1VzZXJzL2Rlbml6aGFuL0RvY3VtZW50cy9XaW5kc3VyZi9wcm90ZWthbmFsaXRpay9uZXh0LmNvbmZpZy5qcyIsImNvbmZpZ0ZpbGVOYW1lIjoibmV4dC5jb25maWcuanMiLCJnZW5lcmF0ZVN0YXRpY1BhcmFtcyI6ZmFsc2UsIm1pbmlmeSI6ZmFsc2V9","pagesType":"app","appDirLoader":"bmV4dC1hcHAtbG9hZGVyP25hbWU9YXBwJTJGdXJ1bmxlciUyRiU1QmNhdGVnb3J5JTVEJTJGJTVCc3ViY2F0ZWdvcnklNUQlMkYlNUJwcm9kdWN0JTVEJTJGcGFnZSZwYWdlPSUyRnVydW5sZXIlMkYlNUJjYXRlZ29yeSU1RCUyRiU1QnN1YmNhdGVnb3J5JTVEJTJGJTVCcHJvZHVjdCU1RCUyRnBhZ2UmcGFnZVBhdGg9cHJpdmF0ZS1uZXh0LWFwcC1kaXIlMkZ1cnVubGVyJTJGJTVCY2F0ZWdvcnklNUQlMkYlNUJzdWJjYXRlZ29yeSU1RCUyRiU1QnByb2R1Y3QlNUQlMkZwYWdlLnRzeCZhcHBEaXI9JTJGVXNlcnMlMkZkZW5pemhhbiUyRkRvY3VtZW50cyUyRldpbmRzdXJmJTJGcHJvdGVrYW5hbGl0aWslMkZzcmMlMkZhcHAmYXBwUGF0aHM9JTJGdXJ1bmxlciUyRiU1QmNhdGVnb3J5JTVEJTJGJTVCc3ViY2F0ZWdvcnklNUQlMkYlNUJwcm9kdWN0JTVEJTJGcGFnZSZwYWdlRXh0ZW5zaW9ucz10c3gmcGFnZUV4dGVuc2lvbnM9dHMmcGFnZUV4dGVuc2lvbnM9anN4JnBhZ2VFeHRlbnNpb25zPWpzJmJhc2VQYXRoPSZhc3NldFByZWZpeD0mbmV4dENvbmZpZ091dHB1dD1zdGFuZGFsb25lJnByZWZlcnJlZFJlZ2lvbj0mbWlkZGxld2FyZUNvbmZpZz1lMzAlM0Qh","sriEnabled":false,"middlewareConfig":"e30="}!
 var _self___RSC_MANIFEST;
 
 
@@ -408,7 +408,7 @@ const page_stringifiedConfig_eyJlbnYiOnt9LCJlc2xpbnQiOnsiaWdub3JlRHVyaW5nQnVpbGR
     serverActions: isServerComponent ? serverActions : undefined,
     subresourceIntegrityManifest,
     config: nextConfig,
-    buildId: "hUOJ7JM78aj_JYXmrfA7O",
+    buildId: "NXtuk7z5Z6RvkFyZNbEMU",
     nextFontManifest,
     incrementalCacheHandler
 });
@@ -31133,6 +31133,169 @@ function wrapRequestHandler(handler) {
 
 /***/ }),
 
+/***/ 595:
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return dynamic;
+    }
+}));
+const _interop_require_default = __webpack_require__(5646);
+const _react = /*#__PURE__*/ _interop_require_default._(__webpack_require__(5579));
+const _loadable = /*#__PURE__*/ _interop_require_default._(__webpack_require__(5512));
+// Normalize loader to return the module as form { default: Component } for `React.lazy`.
+// Also for backward compatible since next/dynamic allows to resolve a component directly with loader
+// Client component reference proxy need to be converted to a module.
+function convertModule(mod) {
+    return {
+        default: (mod == null ? void 0 : mod.default) || mod
+    };
+}
+function dynamic(dynamicOptions, options) {
+    const loadableFn = _loadable.default;
+    const loadableOptions = {
+        // A loading component is not required, so we default it
+        loading: (param)=>{
+            let { error, isLoading, pastDelay } = param;
+            if (!pastDelay) return null;
+            if (false) {}
+            return null;
+        }
+    };
+    if (typeof dynamicOptions === "function") {
+        loadableOptions.loader = dynamicOptions;
+    }
+    Object.assign(loadableOptions, options);
+    const loaderFn = loadableOptions.loader;
+    const loader = ()=>loaderFn != null ? loaderFn().then(convertModule) : Promise.resolve(convertModule(()=>null));
+    return loadableFn({
+        ...loadableOptions,
+        loader: loader
+    });
+}
+if ((typeof exports.default === "function" || typeof exports.default === "object" && exports.default !== null) && typeof exports.default.__esModule === "undefined") {
+    Object.defineProperty(exports.default, "__esModule", {
+        value: true
+    });
+    Object.assign(exports.default, exports);
+    module.exports = exports.default;
+} //# sourceMappingURL=app-dynamic.js.map
+
+
+/***/ }),
+
+/***/ 23:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+/* __next_internal_client_entry_do_not_use__  cjs */ 
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "NoSSR", ({
+    enumerable: true,
+    get: function() {
+        return NoSSR;
+    }
+}));
+const _nossrerror = __webpack_require__(1464);
+function NoSSR(param) {
+    let { children } = param;
+    if (true) {
+        (0, _nossrerror.throwWithNoSSR)();
+    }
+    return children;
+} //# sourceMappingURL=dynamic-no-ssr.js.map
+
+
+/***/ }),
+
+/***/ 5512:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return _default;
+    }
+}));
+const _interop_require_default = __webpack_require__(5646);
+const _react = /*#__PURE__*/ _interop_require_default._(__webpack_require__(5579));
+const _dynamicnossr = __webpack_require__(23);
+function Loadable(options) {
+    const opts = Object.assign({
+        loader: null,
+        loading: null,
+        ssr: true
+    }, options);
+    opts.lazy = /*#__PURE__*/ _react.default.lazy(opts.loader);
+    function LoadableComponent(props) {
+        const Loading = opts.loading;
+        const fallbackElement = /*#__PURE__*/ _react.default.createElement(Loading, {
+            isLoading: true,
+            pastDelay: true,
+            error: null
+        });
+        const Wrap = opts.ssr ? _react.default.Fragment : _dynamicnossr.NoSSR;
+        const Lazy = opts.lazy;
+        return /*#__PURE__*/ _react.default.createElement(_react.default.Suspense, {
+            fallback: fallbackElement
+        }, /*#__PURE__*/ _react.default.createElement(Wrap, null, /*#__PURE__*/ _react.default.createElement(Lazy, props)));
+    }
+    LoadableComponent.displayName = "LoadableComponent";
+    return LoadableComponent;
+}
+const _default = Loadable; //# sourceMappingURL=loadable.js.map
+
+
+/***/ }),
+
+/***/ 1464:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+// This has to be a shared module which is shared between client component error boundary and dynamic component
+
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+0 && (0);
+function _export(target, all) {
+    for(var name in all)Object.defineProperty(target, name, {
+        enumerable: true,
+        get: all[name]
+    });
+}
+_export(exports, {
+    NEXT_DYNAMIC_NO_SSR_CODE: function() {
+        return NEXT_DYNAMIC_NO_SSR_CODE;
+    },
+    throwWithNoSSR: function() {
+        return throwWithNoSSR;
+    }
+});
+const NEXT_DYNAMIC_NO_SSR_CODE = "NEXT_DYNAMIC_NO_SSR_CODE";
+function throwWithNoSSR() {
+    const error = new Error(NEXT_DYNAMIC_NO_SSR_CODE);
+    error.digest = NEXT_DYNAMIC_NO_SSR_CODE;
+    throw error;
+} //# sourceMappingURL=no-ssr-error.js.map
+
+
+/***/ }),
+
 /***/ 7237:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -31395,10 +31558,9 @@ const StarIcon_ForwardRef = /*#__PURE__*/ react.forwardRef(StarIcon);
 
 // EXTERNAL MODULE: ./src/data/products.ts
 var products = __webpack_require__(2757);
-// EXTERNAL MODULE: ./src/components/layout/Header.tsx + 5 modules
-var Header = __webpack_require__(3328);
-// EXTERNAL MODULE: ./src/components/layout/Footer.tsx + 1 modules
-var Footer = __webpack_require__(248);
+// EXTERNAL MODULE: ./node_modules/next/dist/shared/lib/app-dynamic.js
+var app_dynamic = __webpack_require__(595);
+var app_dynamic_default = /*#__PURE__*/__webpack_require__.n(app_dynamic);
 ;// CONCATENATED MODULE: ./src/app/urunler/[category]/[subcategory]/[product]/page.tsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
@@ -31408,11 +31570,26 @@ var Footer = __webpack_require__(248);
 
 
 
+// Essential icons for immediate use
 
 
 
+// Dynamic import for layout components (safe bundle optimization)
 
-
+const Header = app_dynamic_default()(()=>Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 3328)), {
+    loadableGenerated: {
+        modules: [
+            "/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/[category]/[subcategory]/[product]/page.tsx -> " + "@/components/layout/Header"
+        ]
+    }
+});
+const Footer = app_dynamic_default()(()=>Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 248)), {
+    loadableGenerated: {
+        modules: [
+            "/Users/denizhan/Documents/Windsurf/protekanalitik/src/app/urunler/[category]/[subcategory]/[product]/page.tsx -> " + "@/components/layout/Footer"
+        ]
+    }
+});
 // Helper functions for development mode fallback
 const findProductInStaticData = (productId, categoryKey, subcategoryKey)=>{
     try {
@@ -31575,7 +31752,7 @@ function ProductPage({ params }) {
         return /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
             className: "min-h-screen bg-neutral-50",
             children: [
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(Header["default"], {}),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(Header, {}),
                 /*#__PURE__*/ (0,jsx_runtime.jsx)("main", {
                     className: "pt-20",
                     children: /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
@@ -31594,7 +31771,7 @@ function ProductPage({ params }) {
                         })
                     })
                 }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(Footer["default"], {})
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(Footer, {})
             ]
         });
     }
@@ -31731,7 +31908,7 @@ function ProductPage({ params }) {
                     })
                 ]
             }),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(Header["default"], {}),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(Header, {}),
             /*#__PURE__*/ (0,jsx_runtime.jsxs)("main", {
                 className: "pt-20",
                 children: [
@@ -32499,7 +32676,7 @@ function ProductPage({ params }) {
                     })
                 ]
             }),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(Footer["default"], {})
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(Footer, {})
         ]
     });
 }
@@ -34624,11 +34801,11 @@ const productCategories = [
                         name: "Digital Refraktometre DR-A1",
                         description: "Brix ve refraktif indeks tayini i\xe7in otomatik sıcaklık kompanzasyonlu dijital refraktometre",
                         overview: "Digital Refraktometre DR-A1, gıda end\xfcstrisi ve i\xe7ecek \xfcretiminde en y\xfcksek hassasiyetle Brix ve refraktif indeks \xf6l\xe7\xfcm\xfc yapan profesyonel bir laboratuvar cihazıdır.\n\nBu gelişmiş refraktometre, otomatik sıcaklık kompanzasyonu teknolojisi sayesinde \xe7evresel sıcaklık değişimlerinden etkilenmeden doğru sonu\xe7lar verir. Su ge\xe7irmez tasarımı ile zorlu laboratuvar koşullarında g\xfcvenle kullanılabilir.\n\nKolay kalibasyon \xf6zelliği ile hızlı kurulum sağlar ve rutin bakım gereksinimlerini minimize eder. \xd6zellikle şeker analizi, meyve suyu kalite kontrol\xfc ve gıda \xfcretim s\xfcre\xe7lerinde tercih edilen g\xfcvenilir bir \xe7\xf6z\xfcmd\xfcr.",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         images: [
-                            "/images/lab-1.jpg",
-                            "/images/lab-2.jpg",
-                            "/images/lab-3.jpg",
+                            "/images/lab-1.webp",
+                            "/images/lab-2.webp",
+                            "/images/lab-3.webp",
                             "/images/lab-4.jpg"
                         ],
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
@@ -34655,9 +34832,9 @@ const productCategories = [
                         updated_at: "2024-01-10T14:20:00.000Z",
                         name: "AquaLab 4TE Su Aktivite \xd6l\xe7er",
                         description: "Su aktivite tayini ve sorpsiyon-desorpsiyon analizi i\xe7in y\xfcksek hassasiyetli cihaz",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         images: [
-                            "/images/lab-2.jpg",
+                            "/images/lab-2.webp",
                             "/images/lab-5.jpg",
                             "/images/lab-6.jpg"
                         ],
@@ -34685,7 +34862,7 @@ const productCategories = [
                         updated_at: "2023-11-28T09:15:00.000Z",
                         name: "Colorimeter CR-400",
                         description: "Organoleptik analizler i\xe7in profesyonel renk \xf6l\xe7\xfcm cihazı",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Fiziksel Analiz Ekipmanları",
                         features: [
@@ -34735,7 +34912,7 @@ const productCategories = [
                         updated_at: "2024-01-08T11:30:00.000Z",
                         name: "Mastersizer 3000 Particle Size Analyzer",
                         description: "Tane dağılım analizleri i\xe7in lazer difraksiyon teknolojisi",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Fiziksel Analiz Ekipmanları",
                         features: [
@@ -34783,7 +34960,7 @@ const productCategories = [
                         created_at: "2023-01-07T00:00:00.000Z",
                         name: "SevenExcellence pH/Ion Meter",
                         description: "pH tayini ve iyon selektif \xf6l\xe7\xfcmler i\xe7in gelişmiş metre",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Fiziksel Analiz Ekipmanları",
                         features: [
@@ -34807,7 +34984,7 @@ const productCategories = [
                         created_at: "2023-01-08T00:00:00.000Z",
                         name: "DMA 35 Portable Density Meter",
                         description: "Yoğunluk tayini i\xe7in taşınabilir dijital yoğunlukmetre",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Fiziksel Analiz Ekipmanları",
                         features: [
@@ -34831,7 +35008,7 @@ const productCategories = [
                         created_at: "2023-01-09T00:00:00.000Z",
                         name: "C30S Karl Fischer Coulometer",
                         description: "Karl Fischer nem tayini i\xe7in y\xfcksek hassasiyetli coulometre",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Fiziksel Analiz Ekipmanları",
                         features: [
@@ -34886,7 +35063,7 @@ const productCategories = [
                         created_at: "2023-01-11T00:00:00.000Z",
                         name: "Kjeldahl Protein Analiz Sistemi K-439",
                         description: "Protein tayini i\xe7in otomatik Kjeldahl distilasyon sistemi",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -34934,7 +35111,7 @@ const productCategories = [
                         created_at: "2023-01-13T00:00:00.000Z",
                         name: "Excellence T7 Titrator",
                         description: "Asitlik, peroksit değeri ve sabunlaşma değeri tayini i\xe7in otomatik titrat\xf6r",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -34958,7 +35135,7 @@ const productCategories = [
                         created_at: "2023-01-14T00:00:00.000Z",
                         name: "FIWE Raw Fiber Extractor",
                         description: "Ham sel\xfcloz, lignin ve diyet lif analizleri i\xe7in ekstraksiyon sistemi",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -34982,7 +35159,7 @@ const productCategories = [
                         created_at: "2023-01-15T00:00:00.000Z",
                         name: "Chloride Analyzer 926",
                         description: "Tuz tayini i\xe7in otomatik klor\xfcr analiz cihazı",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -35030,7 +35207,7 @@ const productCategories = [
                         created_at: "2023-01-17T00:00:00.000Z",
                         name: "AAS-240 Atomic Absorption Spectrometer",
                         description: "İz elementler ve ağır metal analizleri i\xe7in atomik absorpsiyon spektrometresi",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -35078,7 +35255,7 @@ const productCategories = [
                         created_at: "2023-01-19T00:00:00.000Z",
                         name: "DS2500 NIR Analyzer",
                         description: "NIR spektrofotometrik \xf6l\xe7\xfcm metodu ile \xe7ok hassas ve hızlı analiz",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Kimyasal Analiz Ekipmanları",
                         features: [
@@ -35109,7 +35286,7 @@ const productCategories = [
                         created_at: "2023-01-20T00:00:00.000Z",
                         name: "Nutrient Agar Dehydrated Media",
                         description: "Genel ama\xe7lı mikroorganizma k\xfclt\xfcr\xfc i\xe7in dehidrat besiyeri",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -35133,7 +35310,7 @@ const productCategories = [
                         created_at: "2023-01-21T00:00:00.000Z",
                         name: "3M Petrifilm Aerobic Count Plates",
                         description: "Toplam aerobik bakteri sayısı i\xe7in kullanıma hazır analiz plakaları",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -35181,7 +35358,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Neogen Listeria Right Now Test",
                         description: "Listeria patojen mikroorganizması i\xe7in hızlı test sistemi",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -35229,7 +35406,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "BagMixer 400 Stomacher",
                         description: "Kullanıma hazır dil\xfcsyon \xe7\xf6zeltileri ve homojenizasyon sistemi",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -35253,7 +35430,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Millipore Membrane Filtration System",
                         description: "Membran filtrasyon sistemleri ve analitik numune hazırlık",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -35277,7 +35454,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "BacT/ALERT 3D System",
                         description: "UHT ambalajlarda hızlı sterilite kontrol sistemleri",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -35325,7 +35502,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "MediaPrep M25 Automated Media Dispenser",
                         description: "Otomatik besiyeri hazırlık ve steril dolum sistemleri",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Mikrobiyoloji Analiz Ekipmanları",
                         features: [
@@ -35356,7 +35533,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Real-Time PCR GDO Analiz Sistemi",
                         description: "GDO/Tağşiş analizleri i\xe7in real-time PCR sistemi",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Molek\xfcler Biyoloji/Genetik Analiz Ekipmanları",
                         features: [
@@ -35387,7 +35564,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Testo 735-2 Precision Thermometer",
                         description: "Sıcaklık \xf6l\xe7\xfcm cihazları - Y\xfcksek hassasiyetli dijital termometre",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -35411,7 +35588,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "DewPoint Pro DP70",
                         description: "\xc7iğlenme noktası sıcaklığı \xf6l\xe7\xfcm cihazları i\xe7in taşınabilir sistem",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -35435,7 +35612,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "HygroLog HL-NT2 Data Logger",
                         description: "Bağıl nem \xf6l\xe7\xfcm cihazları i\xe7in hassas sens\xf6r teknolojisi",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -35483,7 +35660,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "DP-CALC 5825 Micromanometer",
                         description: "Fark basın\xe7 \xf6l\xe7\xfcm cihazları i\xe7in dijital mikromanometre",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -35531,7 +35708,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "TSI 9545 VelociCalc Air Velocity Meter",
                         description: "Hız \xf6l\xe7\xfcm cihazları i\xe7in \xe7ok fonksiyonlu hava hızı \xf6l\xe7er",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -35555,7 +35732,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "PCE-155 Digital Tachometer",
                         description: "Devir \xf6l\xe7\xfcm cihazları i\xe7in temassız dijital takometere",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -35579,7 +35756,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "TSI 4040 Mass Flow Meter",
                         description: "Debi \xf6l\xe7\xfcm cihazları i\xe7in termal mass flow metre",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -35627,7 +35804,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "TSI 7545 IAQ-CALC CO2 Monitor",
                         description: "Karbondioksit \xf6l\xe7\xfcm cihazları i\xe7in i\xe7 hava kalitesi monit\xf6r\xfc",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Test, \xd6l\xe7\xfc Kontrol Sistemleri",
                         features: [
@@ -35682,7 +35859,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Instron 3367 Universal Testing System",
                         description: "Ambalaj testleri i\xe7in \xe7ekme, basma ve b\xfckme test sistemi",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Ambalaj ve Malzeme Test Sistemleri",
                         features: [
@@ -35706,7 +35883,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "AGR TopLoad Tester TL-30",
                         description: "Gazlı/gazsız i\xe7eceklerde ve sıvı \xfcr\xfcnlerde kalite kontrol ekipmanları",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Ambalaj ve Malzeme Test Sistemleri",
                         features: [
@@ -35730,7 +35907,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "CANNEED-CBT-1000 Can Testing System",
                         description: "PET/Preform ve metal kutu analiz cihazları i\xe7in kapsamlı test sistemi",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Ambalaj ve Malzeme Test Sistemleri",
                         features: [
@@ -35785,7 +35962,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "CLIMACELL 222 Stability Chamber",
                         description: "\xdcr\xfcn stabilizasyon testleri i\xe7in iklim test odası",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler",
                         subcategory: "Araştırma ve Geliştirme Ekipmanları",
                         features: [
@@ -35824,7 +36001,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "FT-NIR Spektrometre FN-500",
                         description: "NIR, FT-NIR ve NMR spektrofotometrik \xf6l\xe7\xfcm metodu ile \xe7ok hassas analiz",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Proses Kontrol Ve Hat Tipi Analiz \xc7\xf6z\xfcmleri",
                         subcategory: "Hat Tipi Analiz Sistemleri",
                         features: [
@@ -35879,7 +36056,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Ultrasonik Seviye Sens\xf6r\xfc",
                         description: "Seviye sens\xf6rleri ve nokta seviye sens\xf6rleri",
-                        image: "/images/lab-7.jpg",
+                        image: "/images/lab-7.webp",
                         category: "Proses Kontrol Ve Hat Tipi Analiz \xc7\xf6z\xfcmleri",
                         subcategory: "Proses Sens\xf6rleri",
                         features: [
@@ -35949,7 +36126,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Mini Spray Dryer SD-05",
                         description: "Spray dryer / Fluid bed dryer / Kuruma ve kurutma sistemleri",
-                        image: "/images/lab-1.jpg",
+                        image: "/images/lab-1.webp",
                         category: "Pilot Tipi \xdcretim ve Proses Sim\xfclasyon Sistemleri",
                         subcategory: "Kurutma ve İşleme",
                         features: [
@@ -35973,7 +36150,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Laboratuvar Liyofilizat\xf6r\xfc LF-10",
                         description: "Lyofilizasyon / Freeze drying (dondurarak kurutma) sistemi",
-                        image: "/images/lab-2.jpg",
+                        image: "/images/lab-2.webp",
                         category: "Pilot Tipi \xdcretim ve Proses Sim\xfclasyon Sistemleri",
                         subcategory: "Kurutma ve İşleme",
                         features: [
@@ -36004,7 +36181,7 @@ const productCategories = [
                         created_at: "2023-01-01T00:00:00.000Z",
                         name: "Membran Filtrasyon Sistemi MF-200",
                         description: "Filtrasyon ve separasyon i\xe7in membran teknolojisi",
-                        image: "/images/lab-3.jpg",
+                        image: "/images/lab-3.webp",
                         category: "Pilot Tipi \xdcretim ve Proses Sim\xfclasyon Sistemleri",
                         subcategory: "Filtrasyon ve Separasyon",
                         features: [
@@ -36075,7 +36252,7 @@ const getProductImages = (product)=>{
         ];
     }
     return [
-        "/images/lab-1.jpg"
+        "/images/lab-1.webp"
     ] // Default image
     ;
 };
@@ -43826,6 +44003,25 @@ function XMarkIcon({ title, titleId, ...props }, svgRef) {
 }
 const ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(XMarkIcon);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);
+
+
+/***/ }),
+
+/***/ 5646:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   _: () => (/* binding */ _interop_require_default),
+/* harmony export */   _interop_require_default: () => (/* binding */ _interop_require_default)
+/* harmony export */ });
+function _interop_require_default(obj) {
+    return obj && obj.__esModule ? obj : {
+        default: obj
+    };
+}
+
 
 
 /***/ }),
@@ -56572,7 +56768,7 @@ function useInView({ threshold, delay, trackVisibility, rootMargin, root, trigge
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ var __webpack_exports__ = (__webpack_exec__(4941));
+/******/ var __webpack_exports__ = (__webpack_exec__(1998));
 /******/ (_ENTRIES = typeof _ENTRIES === "undefined" ? {} : _ENTRIES)["middleware_app/urunler/[category]/[subcategory]/[product]/page"] = __webpack_exports__;
 /******/ }
 ]);

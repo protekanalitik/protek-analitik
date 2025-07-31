@@ -7,12 +7,14 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import Head from 'next/head'
+
+// Essential icons for immediate use
 import { 
   ChevronRightIcon, 
   HomeIcon, 
   BeakerIcon, 
   CubeIcon, 
-  WrenchIcon, 
+  WrenchIcon,
   FlagIcon,
   ShareIcon,
   DocumentTextIcon,
@@ -34,8 +36,11 @@ import {
   PlayIcon as PlayIconSolid 
 } from '@heroicons/react/24/solid'
 import { productCategories, type Product } from '@/data/products'
-import Header from '@/components/layout/Header'
-import Footer from '@/components/layout/Footer'
+
+// Dynamic import for layout components (safe bundle optimization)
+import dynamic from 'next/dynamic'
+const Header = dynamic(() => import('@/components/layout/Header'))
+const Footer = dynamic(() => import('@/components/layout/Footer'))
 
 // Helper functions for development mode fallback
 const findProductInStaticData = (productId: string, categoryKey: string, subcategoryKey: string): Product | null => {
