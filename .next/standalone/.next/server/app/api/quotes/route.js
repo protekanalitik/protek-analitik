@@ -16766,7 +16766,7 @@ function local_createLocalJWKSet(jwks) {
 
 
 function isCloudflareWorkers() {
-    return typeof WebSocketPair !== "undefined" || typeof navigator !== "undefined" && navigator.userAgent === "Cloudflare-Workers" ||  true && "vercel" === "vercel";
+    return typeof WebSocketPair !== "undefined" || typeof navigator !== "undefined" && navigator.userAgent === "Cloudflare-Workers" ||  true && "edge-runtime" === "vercel";
 }
 let USER_AGENT;
 if (typeof navigator === "undefined" || !navigator.userAgent?.startsWith?.("Mozilla/5.0 ")) {
