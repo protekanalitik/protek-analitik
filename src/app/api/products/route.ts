@@ -257,13 +257,19 @@ export async function PUT(request: NextRequest) {
     }
 
     const authResult = await AuthService.verifyAccessToken(accessToken)
+
     if (!authResult.success) {
-      return errorResponse('Invalid authentication', 'AUTH_FAILED', 401)
+      return NextResponse.json(
+        { success: false, error: authResult.error || 'Yetkisiz erişim' },
+        { status: 401 }
+      )
     }
 
-    // Role check
     if (!AuthService.hasRole(authResult.user!, 'admin')) {
-      return errorResponse('Insufficient permissions', 'PERMISSION_DENIED', 403)
+      return NextResponse.json(
+        { success: false, error: 'Bu işlem için admin yetkisi gereklidir' },
+        { status: 403 }
+      )
     }
 
     if (!d1Database.isAvailable()) {
@@ -331,13 +337,19 @@ export async function DELETE(request: NextRequest) {
     }
 
     const authResult = await AuthService.verifyAccessToken(accessToken)
+
     if (!authResult.success) {
-      return errorResponse('Invalid authentication', 'AUTH_FAILED', 401)
+      return NextResponse.json(
+        { success: false, error: authResult.error || 'Yetkisiz erişim' },
+        { status: 401 }
+      )
     }
 
-    // Role check
     if (!AuthService.hasRole(authResult.user!, 'admin')) {
-      return errorResponse('Insufficient permissions', 'PERMISSION_DENIED', 403)
+      return NextResponse.json(
+        { success: false, error: 'Bu işlem için admin yetkisi gereklidir' },
+        { status: 403 }
+      )
     }
 
     if (!d1Database.isAvailable()) {

@@ -1,18 +1,12 @@
 // Authentication utilities and services
 import { SignJWT, jwtVerify } from 'jose'
-import { EdgePasswordUtils } from './password-edge'
 import { DatabaseUtils } from './database'
-
-// JWT Configuration
-const JWT_SECRET = process.env.JWT_SECRET || 'your-super-secret-jwt-key-change-in-production'
-const JWT_ACCESS_EXPIRES_IN = process.env.JWT_ACCESS_EXPIRES_IN || '15m'
-const JWT_REFRESH_EXPIRES_IN = process.env.JWT_REFRESH_EXPIRES_IN || '7d'
 
 // Types
 export interface User {
   id: string
   username: string
-  email: string
+  email?: string
   first_name?: string
   last_name?: string
   role: 'super_admin' | 'admin' | 'editor' | 'viewer'
@@ -31,20 +25,23 @@ export interface AuthResult {
 }
 
 export interface JWTPayload {
-  sub: string
+  sub: string // user id
   username: string
-  email: string
-  role: string
-  type: 'access' | 'refresh' | 'password_reset'
-  iat?: number
-  exp?: number
+  email?: string
+  role: User['role']
+  type: 'access' | 'refresh'
   [key: string]: any
 }
 
-// JWT Utilities
+// Constants
+const JWT_ACCESS_EXPIRES_IN = '15m' // 15 minutes
+const JWT_REFRESH_EXPIRES_IN = '7d' // 7 days
+
+// JWT utilities
 export class JWTUtils {
   private static getSecret(): Uint8Array {
-    return new TextEncoder().encode(JWT_SECRET)
+    const secret = process.env.JWT_SECRET || 'your-super-secret-jwt-key-change-this-in-production'
+    return new TextEncoder().encode(secret)
   }
 
   // Generate access token (short-lived)
@@ -98,16 +95,21 @@ export class JWTUtils {
   }
 }
 
-// Password utilities
+// Edge Runtime compatible password utilities
 export class PasswordUtils {
-  // Hash password
+  // Simple hash using Web Crypto API (Edge Runtime compatible)
   static async hashPassword(password: string): Promise<string> {
-    return await EdgePasswordUtils.hashPassword(password)
+    const encoder = new TextEncoder()
+    const data = encoder.encode(password + 'protek-salt-2024')
+    const hashBuffer = await crypto.subtle.digest('SHA-256', data)
+    const hashArray = Array.from(new Uint8Array(hashBuffer))
+    return hashArray.map(b => b.toString(16).padStart(2, '0')).join('')
   }
 
-  // Verify password
+  // Verify password using Web Crypto API
   static async verifyPassword(password: string, hashedPassword: string): Promise<boolean> {
-    return await EdgePasswordUtils.verifyPassword(password, hashedPassword)
+    const computedHash = await this.hashPassword(password)
+    return computedHash === hashedPassword
   }
 
   // Generate random password

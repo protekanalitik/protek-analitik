@@ -138,13 +138,19 @@ export async function POST(request: NextRequest) {
     }
 
     const authResult = await AuthService.verifyAccessToken(accessToken)
+
     if (!authResult.success) {
-      return AuthErrors.INVALID_TOKEN()
+      return NextResponse.json(
+        { success: false, error: authResult.error || 'Yetkisiz erişim' },
+        { status: 401 }
+      )
     }
 
-    // Check permissions
     if (!AuthService.hasRole(authResult.user!, 'editor')) {
-      return AuthErrors.INSUFFICIENT_PERMISSIONS()
+      return NextResponse.json(
+        { success: false, error: 'Bu işlem için editor yetkisi gereklidir' },
+        { status: 403 }
+      )
     }
 
     const eventData = await request.json()

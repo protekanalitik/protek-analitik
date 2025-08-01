@@ -43,13 +43,19 @@ export async function GET(request: NextRequest) {
     }
 
     const authResult = await AuthService.verifyAccessToken(accessToken)
+
     if (!authResult.success) {
-      return errorResponse('Invalid access token', 401)
+      return NextResponse.json(
+        { success: false, error: authResult.error || 'Yetkisiz erişim' },
+        { status: 401 }
+      )
     }
 
-    // Check permissions - only admin and editor can view quote requests
     if (!AuthService.hasRole(authResult.user!, 'admin') && !AuthService.hasRole(authResult.user!, 'editor')) {
-      return errorResponse('Insufficient permissions', 403)
+      return NextResponse.json(
+        { success: false, error: 'Bu işlem için admin veya editor yetkisi gereklidir' },
+        { status: 403 }
+      )
     }
 
     // Return mock data for Edge Runtime compatibility

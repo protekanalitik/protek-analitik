@@ -128,7 +128,9 @@ export async function middleware(request: NextRequest) {
     const response = NextResponse.next()
     response.headers.set('x-user-id', verificationResult.user!.id)
     response.headers.set('x-user-role', verificationResult.user!.role)
-    response.headers.set('x-user-email', verificationResult.user!.email)
+    if (verificationResult.user!.email) {
+      response.headers.set('x-user-email', verificationResult.user!.email)
+    }
 
     return response
 

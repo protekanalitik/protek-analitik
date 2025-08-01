@@ -136,7 +136,10 @@ export async function PUT(request: NextRequest, { params }: { params: { id: stri
 
     // Check permissions
     if (!AuthService.hasRole(authResult.user!, 'editor')) {
-      return AuthErrors.INSUFFICIENT_PERMISSIONS()
+      return NextResponse.json(
+        { success: false, error: 'Bu işlem için editor yetkisi gereklidir' },
+        { status: 403 }
+      )
     }
 
     const { id } = params
@@ -236,7 +239,10 @@ export async function DELETE(request: NextRequest, { params }: { params: { id: s
 
     // Check permissions - only admin can delete
     if (!AuthService.hasRole(authResult.user!, 'admin')) {
-      return AuthErrors.INSUFFICIENT_PERMISSIONS()
+      return NextResponse.json(
+        { success: false, error: 'Bu işlem için admin yetkisi gereklidir' },
+        { status: 403 }
+      )
     }
 
     const { id } = params

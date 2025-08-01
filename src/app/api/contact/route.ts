@@ -34,13 +34,19 @@ export async function GET(request: NextRequest) {
     }
 
     const authResult = await AuthService.verifyAccessToken(accessToken)
+
     if (!authResult.success) {
-      return AuthErrors.INVALID_TOKEN()
+      return NextResponse.json(
+        { success: false, error: authResult.error || 'Yetkisiz erişim' },
+        { status: 401 }
+      )
     }
 
-    // Check permissions - only admin can view contact messages
     if (!AuthService.hasRole(authResult.user!, 'admin')) {
-      return AuthErrors.INSUFFICIENT_PERMISSIONS()
+      return NextResponse.json(
+        { success: false, error: 'Bu işlem için admin yetkisi gereklidir' },
+        { status: 403 }
+      )
     }
 
     // Parse query parameters for filtering

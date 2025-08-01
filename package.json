@@ -19,7 +19,6 @@
     "@cloudflare/workers-types": "^4.20250726.0",
     "@heroicons/react": "^2.1.1",
     "@libsql/client": "^0.15.9",
-
     "framer-motion": "^10.16.0",
     "jose": "^6.0.12",
     "next": "14.0.4",
