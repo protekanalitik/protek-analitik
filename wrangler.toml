@@ -30,13 +30,13 @@ database_id = "d981f87b-d682-4d1c-985c-06cd65333db7"
 ENVIRONMENT = "development"
 JWT_SECRET = "your-jwt-secret-key-here"
 ADMIN_USERNAME = "protekadmin"
-ADMIN_PASSWORD_HASH = "$2b$12$zxlwehDANIuqOxovdTjWb.7yxVq4DmpZ2ITYQNIKGdd9NEB1kMD4W"
+ADMIN_PASSWORD_HASH = "c88ea408827eefc511d51f0cb5176f9cc1a683e34b352faeb22061db7c6558cb"
 
 [env.production.vars]
 ENVIRONMENT = "production"
 JWT_SECRET = "protek-production-jwt-secret-key-32-chars-min"
 ADMIN_USERNAME = "protekadmin"
-ADMIN_PASSWORD_HASH = "$2b$12$zxlwehDANIuqOxovdTjWb.7yxVq4DmpZ2ITYQNIKGdd9NEB1kMD4W"
+ADMIN_PASSWORD_HASH = "c88ea408827eefc511d51f0cb5176f9cc1a683e34b352faeb22061db7c6558cb"
 
 [env.preview.vars]
 ENVIRONMENT = "preview"
