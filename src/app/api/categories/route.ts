@@ -58,23 +58,28 @@ export async function GET(request: NextRequest) {
     // Check if we need subcategories only (for form use)
     const type = url.searchParams.get('type')
     
-    if (d1Database.isAvailable()) {
+    // Try to initialize D1 with environment context
+    const env = (globalThis as any).process?.env || (globalThis as any).env || {}
+    const { D1DatabaseManager } = await import('@/lib/d1-database')
+    const contextualD1 = new D1DatabaseManager(env)
+    
+    if (contextualD1.isAvailable()) {
       // Get from D1 database
       let categories: any[] = []
       let subcategories: any[] = []
       
       if (type === 'subcategories') {
-        const subResult = await d1Database.getRecords('subcategories', {
+        const subResult = await contextualD1.getRecords('subcategories', {
           orderBy: 'name ASC'
         })
         subcategories = subResult.success ? (subResult.data || []) : []
       } else {
-        const catResult = await d1Database.getRecords('categories', {
+        const catResult = await contextualD1.getRecords('categories', {
           orderBy: 'name ASC'
         })
         categories = catResult.success ? (catResult.data || []) : []
         
-        const subResult = await d1Database.getRecords('subcategories', {
+        const subResult = await contextualD1.getRecords('subcategories', {
           orderBy: 'name ASC'
         })
         subcategories = subResult.success ? (subResult.data || []) : []
@@ -141,7 +146,12 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    if (!d1Database.isAvailable()) {
+    // Try to initialize D1 with environment context
+    const env = (globalThis as any).process?.env || (globalThis as any).env || {}
+    const { D1DatabaseManager } = await import('@/lib/d1-database')
+    const contextualD1 = new D1DatabaseManager(env)
+
+    if (!contextualD1.isAvailable()) {
       return createErrorResponse('Database not available', 'DB_UNAVAILABLE', 503)
     }
 
@@ -203,7 +213,7 @@ export async function POST(request: NextRequest) {
     
     // Insert into D1
     const tableName = isSubcategory ? 'subcategories' : 'categories'
-    const insertResult = await d1Database.insertRecord(tableName, newItem)
+    const insertResult = await contextualD1.insertRecord(tableName, newItem)
     
     if (!insertResult.success) {
       return createErrorResponse(
