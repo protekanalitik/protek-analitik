@@ -5,9 +5,12 @@ export const runtime = 'edge'
 
 export async function POST(request: NextRequest) {
   try {
-    const { username, password } = await request.json()
+    const { username, usernameOrEmail, password, rememberMe } = await request.json()
+    
+    // Support both username and usernameOrEmail fields for compatibility
+    const loginUsername = username || usernameOrEmail
 
-    if (!username || !password) {
+    if (!loginUsername || !password) {
       return NextResponse.json(
         { success: false, error: 'Kullanıcı adı ve şifre gereklidir' },
         { status: 400 }
@@ -26,7 +29,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Authenticate user
-    const authResult = await AuthService.authenticate(username, password)
+    const authResult = await AuthService.authenticate(loginUsername, password)
 
     if (authResult.success) {
       // Clear rate limit on successful login
