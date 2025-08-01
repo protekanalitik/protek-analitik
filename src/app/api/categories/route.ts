@@ -34,7 +34,10 @@ const FALLBACK_SUBCATEGORIES = [
 ]
 
 // Get all categories and subcategories (public access available)
-export async function GET(request: NextRequest) {
+export async function GET(
+  request: NextRequest,
+  context?: { env?: any }
+) {
   try {
     const url = new URL(request.url)
     const isPublic = url.searchParams.get('public') === 'true'
@@ -58,8 +61,8 @@ export async function GET(request: NextRequest) {
     // Check if we need subcategories only (for form use)
     const type = url.searchParams.get('type')
     
-    // Try to initialize D1 with environment context
-    const env = (globalThis as any).process?.env || (globalThis as any).env || {}
+    // Try to initialize D1 with environment context from Cloudflare Pages Functions
+    const env = context?.env || (globalThis as any).process?.env || (globalThis as any).env || {}
     const { D1DatabaseManager } = await import('@/lib/d1-database')
     const contextualD1 = new D1DatabaseManager(env)
     
@@ -120,7 +123,10 @@ export async function GET(request: NextRequest) {
 }
 
 // Create new category or subcategory
-export async function POST(request: NextRequest) {
+export async function POST(
+  request: NextRequest,
+  context?: { env?: any }
+) {
   try {
     // Authentication check
     const accessToken = request.cookies.get('accessToken')?.value ||
@@ -146,8 +152,8 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // Try to initialize D1 with environment context
-    const env = (globalThis as any).process?.env || (globalThis as any).env || {}
+    // Try to initialize D1 with environment context from Cloudflare Pages Functions
+    const env = context?.env || (globalThis as any).process?.env || (globalThis as any).env || {}
     const { D1DatabaseManager } = await import('@/lib/d1-database')
     const contextualD1 = new D1DatabaseManager(env)
 

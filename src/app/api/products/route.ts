@@ -47,7 +47,10 @@ const FALLBACK_PRODUCTS = [
 ]
 
 // GET - Fetch products with pagination and filtering
-export async function GET(request: NextRequest) {
+export async function GET(
+  request: NextRequest,
+  context?: { env?: any }
+) {
   try {
     const { searchParams } = new URL(request.url)
     const isPublic = searchParams.get('public') === 'true'
@@ -76,19 +79,18 @@ export async function GET(request: NextRequest) {
     const sortBy = searchParams.get('sortBy') || 'created_at'
     const sortOrder = searchParams.get('sortOrder') || 'DESC'
 
-    // Debug: Check D1 binding status
-    const env = (globalThis as any).process?.env || (globalThis as any).env || {}
-    console.log('🔍 D1 Debug Info:', {
-      globalThis_DB: typeof (globalThis as any).DB,
-      env_DB: typeof env.DB,
-      d1Database_available: d1Database.isAvailable(),
-      environment: process.env.NODE_ENV,
-      runtime: 'edge'
-    })
-
-    // Try to initialize D1 with environment context
+    // Try to initialize D1 with environment context from Cloudflare Pages Functions
+    const env = context?.env || (globalThis as any).process?.env || (globalThis as any).env || {}
     const { D1DatabaseManager } = await import('@/lib/d1-database')
     const contextualD1 = new D1DatabaseManager(env)
+    
+    // Debug: Check D1 binding status
+    console.log('🔍 D1 Debug Info:', {
+      context_env_DB: typeof context?.env?.DB,
+      globalThis_DB: typeof (globalThis as any).DB,
+      contextualD1_available: contextualD1.isAvailable(),
+      runtime: 'edge'
+    })
 
     // Try D1 database first
     if (contextualD1.isAvailable()) {
@@ -159,7 +161,10 @@ export async function GET(request: NextRequest) {
 }
 
 // POST - Create new product (admin only)
-export async function POST(request: NextRequest) {
+export async function POST(
+  request: NextRequest,
+  context?: { env?: any }
+) {
   try {
     // Authentication check
     const accessToken = request.cookies.get('accessToken')?.value ||
