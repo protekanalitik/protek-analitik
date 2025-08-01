@@ -21,218 +21,22 @@
     }
   },
   "functions": {
-    "/api/products/route": {
-      "files": [
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/api/products/route.js"
-      ],
-      "name": "app/api/products/route",
-      "page": "/api/products/route",
-      "matchers": [
-        {
-          "regexp": "^/api/products$",
-          "originalSource": "/api/products"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
-    "/api/categories/route": {
-      "files": [
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/api/categories/route.js"
-      ],
-      "name": "app/api/categories/route",
-      "page": "/api/categories/route",
-      "matchers": [
-        {
-          "regexp": "^/api/categories$",
-          "originalSource": "/api/categories"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
-    "/login/page": {
+    "/admin/products/new/page": {
       "files": [
         "server/server-reference-manifest.js",
-        "server/app/login/page_client-reference-manifest.js",
+        "server/app/admin/products/new/page_client-reference-manifest.js",
         "server/middleware-build-manifest.js",
         "server/middleware-react-loadable-manifest.js",
         "server/next-font-manifest.js",
         "server/edge-runtime-webpack.js",
-        "server/app/login/page.js"
+        "server/app/admin/products/new/page.js"
       ],
-      "name": "app/login/page",
-      "page": "/login/page",
+      "name": "app/admin/products/new/page",
+      "page": "/admin/products/new/page",
       "matchers": [
         {
-          "regexp": "^/login$",
-          "originalSource": "/login"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
-    "/api/auth/login/route": {
-      "files": [
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/api/auth/login/route.js"
-      ],
-      "name": "app/api/auth/login/route",
-      "page": "/api/auth/login/route",
-      "matchers": [
-        {
-          "regexp": "^/api/auth/login$",
-          "originalSource": "/api/auth/login"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
-    "/urunler/[category]/page": {
-      "files": [
-        "server/server-reference-manifest.js",
-        "server/app/urunler/[category]/page_client-reference-manifest.js",
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/urunler/[category]/page.js"
-      ],
-      "name": "app/urunler/[category]/page",
-      "page": "/urunler/[category]/page",
-      "matchers": [
-        {
-          "regexp": "^/urunler/(?<category>[^/]+?)$",
-          "originalSource": "/urunler/[category]"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
-    "/api/auth/me/route": {
-      "files": [
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/api/auth/me/route.js"
-      ],
-      "name": "app/api/auth/me/route",
-      "page": "/api/auth/me/route",
-      "matchers": [
-        {
-          "regexp": "^/api/auth/me$",
-          "originalSource": "/api/auth/me"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
-    "/urunler/page": {
-      "files": [
-        "server/server-reference-manifest.js",
-        "server/app/urunler/page_client-reference-manifest.js",
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/urunler/page.js"
-      ],
-      "name": "app/urunler/page",
-      "page": "/urunler/page",
-      "matchers": [
-        {
-          "regexp": "^/urunler$",
-          "originalSource": "/urunler"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
-    "/api/events/route": {
-      "files": [
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/api/events/route.js"
-      ],
-      "name": "app/api/events/route",
-      "page": "/api/events/route",
-      "matchers": [
-        {
-          "regexp": "^/api/events$",
-          "originalSource": "/api/events"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
-    "/api/news/route": {
-      "files": [
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/api/news/route.js"
-      ],
-      "name": "app/api/news/route",
-      "page": "/api/news/route",
-      "matchers": [
-        {
-          "regexp": "^/api/news$",
-          "originalSource": "/api/news"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
-    "/not-found": {
-      "files": [
-        "server/server-reference-manifest.js",
-        "server/app/not-found_client-reference-manifest.js",
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/not-found.js"
-      ],
-      "name": "app/not-found",
-      "page": "/not-found",
-      "matchers": [
-        {
-          "regexp": "^/not\\-found$",
-          "originalSource": "/not-found"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
-    "/api/upload/route": {
-      "files": [
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/api/upload/route.js"
-      ],
-      "name": "app/api/upload/route",
-      "page": "/api/upload/route",
-      "matchers": [
-        {
-          "regexp": "^/api/upload$",
-          "originalSource": "/api/upload"
+          "regexp": "^/admin/products/new$",
+          "originalSource": "/admin/products/new"
         }
       ],
       "wasm": [],
@@ -280,22 +84,43 @@
       "wasm": [],
       "assets": []
     },
-    "/admin/products/new/page": {
+    "/admin/contact/messages/page": {
       "files": [
         "server/server-reference-manifest.js",
-        "server/app/admin/products/new/page_client-reference-manifest.js",
+        "server/app/admin/contact/messages/page_client-reference-manifest.js",
         "server/middleware-build-manifest.js",
         "server/middleware-react-loadable-manifest.js",
         "server/next-font-manifest.js",
         "server/edge-runtime-webpack.js",
-        "server/app/admin/products/new/page.js"
+        "server/app/admin/contact/messages/page.js"
       ],
-      "name": "app/admin/products/new/page",
-      "page": "/admin/products/new/page",
+      "name": "app/admin/contact/messages/page",
+      "page": "/admin/contact/messages/page",
       "matchers": [
         {
-          "regexp": "^/admin/products/new$",
-          "originalSource": "/admin/products/new"
+          "regexp": "^/admin/contact/messages$",
+          "originalSource": "/admin/contact/messages"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/admin/categories/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/admin/categories/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/admin/categories/page.js"
+      ],
+      "name": "app/admin/categories/page",
+      "page": "/admin/categories/page",
+      "matchers": [
+        {
+          "regexp": "^/admin/categories$",
+          "originalSource": "/admin/categories"
         }
       ],
       "wasm": [],

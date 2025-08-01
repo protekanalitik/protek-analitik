@@ -76,6 +76,14 @@ export async function GET(request: NextRequest) {
     const sortBy = searchParams.get('sortBy') || 'created_at'
     const sortOrder = searchParams.get('sortOrder') || 'DESC'
 
+    // Debug: Check D1 binding status
+    console.log('🔍 D1 Debug Info:', {
+      globalThis_DB: typeof (globalThis as any).DB,
+      d1Database_available: d1Database.isAvailable(),
+      environment: process.env.NODE_ENV,
+      runtime: 'edge'
+    })
+
     // Try D1 database first
     if (d1Database.isAvailable()) {
       // Build WHERE clause
