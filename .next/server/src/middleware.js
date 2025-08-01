@@ -6235,7 +6235,7 @@ function local_createLocalJWKSet(jwks) {
 
 
 function isCloudflareWorkers() {
-    return typeof WebSocketPair !== "undefined" || typeof navigator !== "undefined" && navigator.userAgent === "Cloudflare-Workers" ||  true && "vercel" === "vercel";
+    return typeof WebSocketPair !== "undefined" || typeof navigator !== "undefined" && navigator.userAgent === "Cloudflare-Workers" ||  true && "edge-runtime" === "vercel";
 }
 let USER_AGENT;
 if (typeof navigator === "undefined" || !navigator.userAgent?.startsWith?.("Mozilla/5.0 ")) {
@@ -7185,10 +7185,6 @@ class AuthService {
 // Protected routes that require authentication
 const protectedRoutes = [
     "/admin",
-    "/api/products",
-    "/api/categories",
-    "/api/news",
-    "/api/events",
     "/api/upload"
 ];
 // Public API routes that don't require authentication
@@ -7196,8 +7192,13 @@ const publicApiRoutes = [
     "/api/auth/login",
     "/api/auth/refresh",
     "/api/auth/logout",
-    "/api/products/public",
-    "/api/contact" // Contact form submission
+    "/api/products",
+    "/api/categories",
+    "/api/news",
+    "/api/events",
+    "/api/contact",
+    "/api/quotes",
+    "/api/test"
 ];
 async function middleware(request) {
     const { pathname } = request.nextUrl;

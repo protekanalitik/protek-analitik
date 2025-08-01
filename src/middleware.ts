@@ -4,10 +4,6 @@ import { AuthService } from '@/lib/auth'
 // Protected routes that require authentication
 const protectedRoutes = [
   '/admin',
-  '/api/products',
-  '/api/categories',
-  '/api/news',
-  '/api/events',
   '/api/upload'
 ]
 
@@ -16,8 +12,13 @@ const publicApiRoutes = [
   '/api/auth/login',
   '/api/auth/refresh',
   '/api/auth/logout',
-  '/api/products/public', // If you want a public products endpoint
-  '/api/contact' // Contact form submission
+  '/api/products',
+  '/api/categories',
+  '/api/news',
+  '/api/events',
+  '/api/contact',
+  '/api/quotes',
+  '/api/test'
 ]
 
 export async function middleware(request: NextRequest) {
