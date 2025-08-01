@@ -181,8 +181,13 @@ export async function POST(request: NextRequest) {
 
     const body = await request.json()
     
+    // Try to initialize D1 with environment context
+    const env = (globalThis as any).process?.env || (globalThis as any).env || {}
+    const { D1DatabaseManager } = await import('@/lib/d1-database')
+    const contextualD1 = new D1DatabaseManager(env)
+    
     // Check if D1 is available for database operations
-    const useD1 = d1Database.isAvailable()
+    const useD1 = contextualD1.isAvailable()
     
     if (!useD1) {
       console.log('D1 database not available, creating mock success response for development')
@@ -243,7 +248,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Insert product
-    const insertResult = await d1Database.insertRecord('products', productData)
+    const insertResult = await contextualD1.insertRecord('products', productData)
 
     if (!insertResult.success) {
       return errorResponse(
@@ -291,7 +296,12 @@ export async function PUT(request: NextRequest) {
       )
     }
 
-    if (!d1Database.isAvailable()) {
+    // Try to initialize D1 with environment context
+    const env = (globalThis as any).process?.env || (globalThis as any).env || {}
+    const { D1DatabaseManager } = await import('@/lib/d1-database')
+    const contextualD1 = new D1DatabaseManager(env)
+
+    if (!contextualD1.isAvailable()) {
       return errorResponse('Database not available', 'DB_UNAVAILABLE', 503)
     }
 
@@ -303,7 +313,7 @@ export async function PUT(request: NextRequest) {
     }
 
     // Check if product exists
-    const existingProduct = await d1Database.getRecordById<D1Product>('products', id)
+    const existingProduct = await contextualD1.getRecordById<D1Product>('products', id)
     if (!existingProduct.success || !existingProduct.data) {
       return errorResponse('Product not found', 'NOT_FOUND', 404)
     }
@@ -323,7 +333,7 @@ export async function PUT(request: NextRequest) {
     if (updateData.catalog_files) productUpdateData.catalog_files = D1Utils.toJson(updateData.catalog_files)
 
     // Update product
-    const updateResult = await d1Database.updateRecord('products', id, productUpdateData)
+    const updateResult = await contextualD1.updateRecord('products', id, productUpdateData)
 
     if (!updateResult.success) {
       return errorResponse(
@@ -371,7 +381,12 @@ export async function DELETE(request: NextRequest) {
       )
     }
 
-    if (!d1Database.isAvailable()) {
+    // Try to initialize D1 with environment context
+    const env = (globalThis as any).process?.env || (globalThis as any).env || {}
+    const { D1DatabaseManager } = await import('@/lib/d1-database')
+    const contextualD1 = new D1DatabaseManager(env)
+
+    if (!contextualD1.isAvailable()) {
       return errorResponse('Database not available', 'DB_UNAVAILABLE', 503)
     }
 
@@ -383,13 +398,13 @@ export async function DELETE(request: NextRequest) {
     }
 
     // Check if product exists
-    const existingProduct = await d1Database.getRecordById<D1Product>('products', id)
+    const existingProduct = await contextualD1.getRecordById<D1Product>('products', id)
     if (!existingProduct.success || !existingProduct.data) {
       return errorResponse('Product not found', 'NOT_FOUND', 404)
     }
 
     // Delete product
-    const deleteResult = await d1Database.deleteRecord('products', id)
+    const deleteResult = await contextualD1.deleteRecord('products', id)
 
     if (!deleteResult.success) {
       return errorResponse(
