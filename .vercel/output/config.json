@@ -41,7 +41,7 @@
       "continue": true
     },
     {
-      "src": "^/_next/data/AzCydwebzgQxAv9dN\\-jGh/(.*).json",
+      "src": "^/_next/data/sFxzGis0DozChoJI_LfhA/(.*).json",
       "dest": "/$1",
       "override": true,
       "continue": true,
@@ -71,7 +71,7 @@
         {
           "type": "header",
           "key": "x-prerender-revalidate",
-          "value": "a787199d446dcb35e6586106cb38de82"
+          "value": "2e476c5b675617df6c228c804c07d159"
         }
       ],
       "middlewarePath": "src/middleware",
@@ -88,7 +88,7 @@
           "key": "x-nextjs-data"
         }
       ],
-      "dest": "/_next/data/AzCydwebzgQxAv9dN-jGh/index.json",
+      "dest": "/_next/data/sFxzGis0DozChoJI_LfhA/index.json",
       "continue": true,
       "override": true
     },
@@ -100,7 +100,7 @@
           "key": "x-nextjs-data"
         }
       ],
-      "dest": "/_next/data/AzCydwebzgQxAv9dN-jGh/$1.json",
+      "dest": "/_next/data/sFxzGis0DozChoJI_LfhA/$1.json",
       "continue": true,
       "override": true
     },
@@ -138,7 +138,7 @@
       "handle": "filesystem"
     },
     {
-      "src": "^/_next/data/AzCydwebzgQxAv9dN\\-jGh/(.*).json",
+      "src": "^/_next/data/sFxzGis0DozChoJI_LfhA/(.*).json",
       "dest": "/$1",
       "continue": true,
       "has": [
@@ -211,7 +211,7 @@
           "key": "x-nextjs-data"
         }
       ],
-      "dest": "/_next/data/AzCydwebzgQxAv9dN-jGh/index.json",
+      "dest": "/_next/data/sFxzGis0DozChoJI_LfhA/index.json",
       "continue": true
     },
     {
@@ -222,51 +222,51 @@
           "key": "x-nextjs-data"
         }
       ],
-      "dest": "/_next/data/AzCydwebzgQxAv9dN-jGh/$1.json",
+      "dest": "/_next/data/sFxzGis0DozChoJI_LfhA/$1.json",
       "continue": true
     },
     {
-      "src": "^/_next/data/AzCydwebzgQxAv9dN\\-jGh/admin/products/(?<nxtPid>[^/]+?)/edit(?:/)?.json$",
+      "src": "^/_next/data/sFxzGis0DozChoJI_LfhA/admin/products/(?<nxtPid>[^/]+?)/edit(?:/)?.json$",
       "dest": "/admin/products/[id]/edit?nxtPid=$nxtPid"
     },
     {
-      "src": "^/_next/data/AzCydwebzgQxAv9dN\\-jGh/admin/resources/events/(?<nxtPid>[^/]+?)/edit(?:/)?.json$",
+      "src": "^/_next/data/sFxzGis0DozChoJI_LfhA/admin/resources/events/(?<nxtPid>[^/]+?)/edit(?:/)?.json$",
       "dest": "/admin/resources/events/[id]/edit?nxtPid=$nxtPid"
     },
     {
-      "src": "^/_next/data/AzCydwebzgQxAv9dN\\-jGh/admin/resources/news/edit/(?<nxtPid>[^/]+?)(?:/)?.json$",
+      "src": "^/_next/data/sFxzGis0DozChoJI_LfhA/admin/resources/news/edit/(?<nxtPid>[^/]+?)(?:/)?.json$",
       "dest": "/admin/resources/news/edit/[id]?nxtPid=$nxtPid"
     },
     {
-      "src": "^/_next/data/AzCydwebzgQxAv9dN\\-jGh/api/events/(?<nxtPid>[^/]+?)(?:/)?.json$",
+      "src": "^/_next/data/sFxzGis0DozChoJI_LfhA/api/events/(?<nxtPid>[^/]+?)(?:/)?.json$",
       "dest": "/api/events/[id]?nxtPid=$nxtPid"
     },
     {
-      "src": "^/_next/data/AzCydwebzgQxAv9dN\\-jGh/api/news/(?<nxtPid>[^/]+?)(?:/)?.json$",
+      "src": "^/_next/data/sFxzGis0DozChoJI_LfhA/api/news/(?<nxtPid>[^/]+?)(?:/)?.json$",
       "dest": "/api/news/[id]?nxtPid=$nxtPid"
     },
     {
-      "src": "^/_next/data/AzCydwebzgQxAv9dN\\-jGh/api/products/(?<nxtPid>[^/]+?)(?:/)?.json$",
+      "src": "^/_next/data/sFxzGis0DozChoJI_LfhA/api/products/(?<nxtPid>[^/]+?)(?:/)?.json$",
       "dest": "/api/products/[id]?nxtPid=$nxtPid"
     },
     {
-      "src": "^/_next/data/AzCydwebzgQxAv9dN\\-jGh/kaynaklar/etkinlik/(?<nxtPid>[^/]+?)(?:/)?.json$",
+      "src": "^/_next/data/sFxzGis0DozChoJI_LfhA/kaynaklar/etkinlik/(?<nxtPid>[^/]+?)(?:/)?.json$",
       "dest": "/kaynaklar/etkinlik/[id]?nxtPid=$nxtPid"
     },
     {
-      "src": "^/_next/data/AzCydwebzgQxAv9dN\\-jGh/kaynaklar/haber/(?<nxtPid>[^/]+?)(?:/)?.json$",
+      "src": "^/_next/data/sFxzGis0DozChoJI_LfhA/kaynaklar/haber/(?<nxtPid>[^/]+?)(?:/)?.json$",
       "dest": "/kaynaklar/haber/[id]?nxtPid=$nxtPid"
     },
     {
-      "src": "^/_next/data/AzCydwebzgQxAv9dN\\-jGh/urunler/(?<nxtPcategory>[^/]+?)(?:/)?.json$",
+      "src": "^/_next/data/sFxzGis0DozChoJI_LfhA/urunler/(?<nxtPcategory>[^/]+?)(?:/)?.json$",
       "dest": "/urunler/[category]?nxtPcategory=$nxtPcategory"
     },
     {
-      "src": "^/_next/data/AzCydwebzgQxAv9dN\\-jGh/urunler/(?<nxtPcategory>[^/]+?)/(?<nxtPsubcategory>[^/]+?)(?:/)?.json$",
+      "src": "^/_next/data/sFxzGis0DozChoJI_LfhA/urunler/(?<nxtPcategory>[^/]+?)/(?<nxtPsubcategory>[^/]+?)(?:/)?.json$",
       "dest": "/urunler/[category]/[subcategory]?nxtPcategory=$nxtPcategory&nxtPsubcategory=$nxtPsubcategory"
     },
     {
-      "src": "^/_next/data/AzCydwebzgQxAv9dN\\-jGh/urunler/(?<nxtPcategory>[^/]+?)/(?<nxtPsubcategory>[^/]+?)/(?<nxtPproduct>[^/]+?)(?:/)?.json$",
+      "src": "^/_next/data/sFxzGis0DozChoJI_LfhA/urunler/(?<nxtPcategory>[^/]+?)/(?<nxtPsubcategory>[^/]+?)/(?<nxtPproduct>[^/]+?)(?:/)?.json$",
       "dest": "/urunler/[category]/[subcategory]/[product]?nxtPcategory=$nxtPcategory&nxtPsubcategory=$nxtPsubcategory&nxtPproduct=$nxtPproduct"
     },
     {
@@ -358,7 +358,7 @@
       "dest": "/urunler/[category]/[subcategory]/[product]?nxtPcategory=$nxtPcategory&nxtPsubcategory=$nxtPsubcategory&nxtPproduct=$nxtPproduct"
     },
     {
-      "src": "^/_next/data/AzCydwebzgQxAv9dN\\-jGh/(.*).json",
+      "src": "^/_next/data/sFxzGis0DozChoJI_LfhA/(.*).json",
       "headers": {
         "x-nextjs-matched-path": "/$1"
       },
@@ -366,14 +366,14 @@
       "override": true
     },
     {
-      "src": "^/_next/data/AzCydwebzgQxAv9dN\\-jGh/(.*).json",
+      "src": "^/_next/data/sFxzGis0DozChoJI_LfhA/(.*).json",
       "dest": "__next_data_catchall"
     },
     {
       "handle": "hit"
     },
     {
-      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|AzCydwebzgQxAv9dN\\-jGh)/.+",
+      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|sFxzGis0DozChoJI_LfhA)/.+",
       "headers": {
         "cache-control": "public,max-age=31536000,immutable"
       },
@@ -458,12 +458,12 @@
       "path": "500",
       "contentType": "text/html; charset=utf-8"
     },
-    "_error.rsc.json": {
-      "path": "_error.rsc",
-      "contentType": "application/json"
-    },
     "_app.rsc.json": {
       "path": "_app.rsc",
+      "contentType": "application/json"
+    },
+    "_error.rsc.json": {
+      "path": "_error.rsc",
       "contentType": "application/json"
     },
     "_document.rsc.json": {

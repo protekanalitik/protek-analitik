@@ -1,5 +1,5 @@
 {
-  "timestamp": 1754047053469,
+  "timestamp": 1754049792951,
   "outputDir": ".vercel/output/static/_worker.js",
   "versions": {
     "@cloudflare/next-on-pages": "1.13.13"
@@ -147,7 +147,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/products/new.func.js",
-          "outputByteSize": 50199
+          "outputByteSize": 50201
         },
         {
           "relativePath": "/admin/products.func",
@@ -216,7 +216,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/resources/events/new.func.js",
-          "outputByteSize": 46805
+          "outputByteSize": 46803
         },
         {
           "relativePath": "/admin/resources/news/edit/[id].func",
@@ -239,7 +239,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/resources/news/edit/[id].func.js",
-          "outputByteSize": 44528
+          "outputByteSize": 44526
         },
         {
           "relativePath": "/admin/resources/news/new.func",
@@ -285,7 +285,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/resources.func.js",
-          "outputByteSize": 41479
+          "outputByteSize": 41477
         },
         {
           "relativePath": "/admin.func",
@@ -745,7 +745,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/cozumler/otomasyon-sistemleri.func.js",
-          "outputByteSize": 58441
+          "outputByteSize": 58443
         },
         {
           "relativePath": "/cozumler.func",
@@ -884,7 +884,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/kaynaklar/haber/[id].func.js",
-          "outputByteSize": 39095
+          "outputByteSize": 39093
         },
         {
           "relativePath": "/kaynaklar.func",
@@ -930,7 +930,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/login.func.js",
-          "outputByteSize": 35556
+          "outputByteSize": 35554
         },
         {
           "relativePath": "/sektorler.func",
@@ -2080,8 +2080,6 @@
       "/_app.rsc.json",
       "/_document.rsc.json",
       "/_error.rsc.json",
-      "/_next/static/AzCydwebzgQxAv9dN-jGh/_buildManifest.js",
-      "/_next/static/AzCydwebzgQxAv9dN-jGh/_ssgManifest.js",
       "/_next/static/chunks/1122.9f20dd5e55971545.js",
       "/_next/static/chunks/1176-d4d5824f0a0f6313.js",
       "/_next/static/chunks/1422-06c339c6fcaaef72.js",
@@ -2113,7 +2111,7 @@
       "/_next/static/chunks/app/admin/products/[id]/edit/page-a50d76ebb8897098.js",
       "/_next/static/chunks/app/admin/products/new/page-37ccddb3572a0650.js",
       "/_next/static/chunks/app/admin/products/page-332f7e0da3318ba2.js",
-      "/_next/static/chunks/app/admin/resources/events/[id]/edit/page-e6f837804ef81567.js",
+      "/_next/static/chunks/app/admin/resources/events/[id]/edit/page-a4b0f20495ec67f8.js",
       "/_next/static/chunks/app/admin/resources/events/new/page-9ffa2f4d16d7abb9.js",
       "/_next/static/chunks/app/admin/resources/news/edit/[id]/page-d3f5f34ccdb448a8.js",
       "/_next/static/chunks/app/admin/resources/news/new/page-f93b583a6f334c23.js",
@@ -2149,6 +2147,8 @@
       "/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
       "/_next/static/chunks/webpack-7643c4afe75ad5fd.js",
       "/_next/static/css/f2190abd589b6828.css",
+      "/_next/static/sFxzGis0DozChoJI_LfhA/_buildManifest.js",
+      "/_next/static/sFxzGis0DozChoJI_LfhA/_ssgManifest.js",
       "/apple-touch-icon.png",
       "/client-images/3nh.jpg",
       "/client-images/allience.jpg",
@@ -2419,7 +2419,7 @@
         },
         "55": {
           "consumers": 1,
-          "groupedPath": "90533bdc19e1e515159aac5488e6ceec",
+          "groupedPath": "83527352a7e9e3e052c6b849208eb8ae",
           "inlined": true,
           "byteLength": 242,
           "consumersList": [
@@ -2538,7 +2538,7 @@
         },
         "118": {
           "consumers": 1,
-          "groupedPath": "676333d771643a22ab1abd9477ba0b04",
+          "groupedPath": "68595dfdb61cb47dfa7f164c0ca6e6f4",
           "inlined": true,
           "byteLength": 250,
           "consumersList": [
@@ -2560,7 +2560,7 @@
         },
         "123": {
           "consumers": 1,
-          "groupedPath": "0623dcc19940061b105bd4bdc9426df8",
+          "groupedPath": "ba89c45b0d997ad48d4fa86fff634cbe",
           "inlined": true,
           "byteLength": 485,
           "consumersList": [
@@ -2861,6 +2861,15 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "318": {
+          "consumers": 1,
+          "groupedPath": "d04cd2d65d5a40d5f97dc9d4cab647ff",
+          "inlined": true,
+          "byteLength": 6065,
+          "consumersList": [
+            "/login.func/index.js"
+          ]
+        },
         "327": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -2965,7 +2974,7 @@
         },
         "419": {
           "consumers": 1,
-          "groupedPath": "cae0ec073a3b0b98ba749d999b1a8ab2",
+          "groupedPath": "5b74da4993c3c107ee937a9f87c702cc",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -3154,6 +3163,15 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "518": {
+          "consumers": 1,
+          "groupedPath": "441bc0242cd90e74f2585d37d94d0a49",
+          "inlined": true,
+          "byteLength": 6291,
+          "consumersList": [
+            "/admin/resources.func/index.js"
+          ]
+        },
         "555": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -3220,7 +3238,7 @@
         },
         "565": {
           "consumers": 1,
-          "groupedPath": "cbd1681afc474be82bcebdc1b04f0dba",
+          "groupedPath": "ee29ddfc6b2e2e433df12771f78c5cb1",
           "inlined": true,
           "byteLength": 234,
           "consumersList": [
@@ -3321,6 +3339,15 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "579": {
+          "consumers": 1,
+          "groupedPath": "f5446b927192e2b980fe3a314faecf69",
+          "inlined": true,
+          "byteLength": 6221,
+          "consumersList": [
+            "/kaynaklar/haber/[id].func/index.js"
+          ]
+        },
         "595": {
           "consumers": 5,
           "groupedPath": "555fb6a927609ae861b14c0a8bd62ba6",
@@ -3334,13 +3361,13 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "637": {
+        "603": {
           "consumers": 1,
-          "groupedPath": "4d75b43fc3e3aa152e08e3e0c705ed70",
+          "groupedPath": "12f8597b6d4d7c376e35b66f803562f7",
           "inlined": true,
-          "byteLength": 6333,
+          "byteLength": 6415,
           "consumersList": [
-            "/admin/products/new.func/index.js"
+            "/admin/resources/events/new.func/index.js"
           ]
         },
         "655": {
@@ -3432,6 +3459,15 @@
             "/urunler/[category].func/index.js",
             "/urunler/[category]/[subcategory].func/index.js",
             "/urunler/[category]/[subcategory]/[product].func/index.js"
+          ]
+        },
+        "685": {
+          "consumers": 1,
+          "groupedPath": "fa8b4d6940a471b266dbd1f52e5e9cea",
+          "inlined": true,
+          "byteLength": 6465,
+          "consumersList": [
+            "/admin/resources/news/edit/[id].func/index.js"
           ]
         },
         "697": {
@@ -3681,15 +3717,6 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "847": {
-          "consumers": 1,
-          "groupedPath": "11988c8d4e8cbf0eb9d2d0b70140ecf4",
-          "inlined": true,
-          "byteLength": 6275,
-          "consumersList": [
-            "/cozumler/otomasyon-sistemleri.func/index.js"
-          ]
-        },
         "854": {
           "consumers": 12,
           "newDest": "__next-on-pages-dist__/webpack/854.js",
@@ -3780,7 +3807,7 @@
         },
         "992": {
           "consumers": 1,
-          "groupedPath": "696ca23cdc169746fd4ab2b89271f53c",
+          "groupedPath": "bc7f5ef72d38b4508ce4178c214f0617",
           "inlined": true,
           "byteLength": 26143,
           "consumersList": [
@@ -3928,7 +3955,7 @@
         },
         "1089": {
           "consumers": 1,
-          "groupedPath": "9ff2e12e5b9ccb71f872dbc804b93718",
+          "groupedPath": "0ab023955c37ff80fc61534c3b17fba7",
           "inlined": true,
           "byteLength": 11186,
           "consumersList": [
@@ -4051,9 +4078,27 @@
             "/login.func/index.js"
           ]
         },
+        "1124": {
+          "consumers": 1,
+          "groupedPath": "4316c95aa5b176538e2cf16e2ae60e2e",
+          "inlined": true,
+          "byteLength": 6333,
+          "consumersList": [
+            "/admin/products/new.func/index.js"
+          ]
+        },
+        "1143": {
+          "consumers": 1,
+          "groupedPath": "6c2f8e2ea9c613a8edfab8dbee339e99",
+          "inlined": true,
+          "byteLength": 6193,
+          "consumersList": [
+            "/admin.func/index.js"
+          ]
+        },
         "1150": {
           "consumers": 1,
-          "groupedPath": "35a1f6affcfe871d79e335833f3330ba",
+          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
           "inlined": true,
           "byteLength": 11872,
           "consumersList": [
@@ -4100,6 +4145,15 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "1187": {
+          "consumers": 1,
+          "groupedPath": "242648effc20f8c06f6b7494a0dd2eb4",
+          "inlined": true,
+          "byteLength": 6275,
+          "consumersList": [
+            "/admin/contact.func/index.js"
+          ]
+        },
         "1196": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -4142,7 +4196,7 @@
         },
         "1220": {
           "consumers": 1,
-          "groupedPath": "2b3653cb82bed498436934b152bdbf89",
+          "groupedPath": "f9d3316f954bb4b249f47d54e70ce2f0",
           "inlined": true,
           "byteLength": 23190,
           "consumersList": [
@@ -4151,7 +4205,7 @@
         },
         "1273": {
           "consumers": 1,
-          "groupedPath": "15ca3cf7672b721e75d7fbc456792686",
+          "groupedPath": "3d11d090e518bbdf54e2f14750592bd7",
           "inlined": true,
           "byteLength": 248,
           "consumersList": [
@@ -4160,7 +4214,7 @@
         },
         "1358": {
           "consumers": 1,
-          "groupedPath": "35a1f6affcfe871d79e335833f3330ba",
+          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
           "inlined": true,
           "byteLength": 6791,
           "consumersList": [
@@ -4307,7 +4361,7 @@
         },
         "1456": {
           "consumers": 1,
-          "groupedPath": "ec781784d37939c4135422191b6a1aa5",
+          "groupedPath": "9abc45368395b417ae1bd486eb1e9a1a",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -4329,7 +4383,7 @@
         },
         "1478": {
           "consumers": 1,
-          "groupedPath": "696ca23cdc169746fd4ab2b89271f53c",
+          "groupedPath": "bc7f5ef72d38b4508ce4178c214f0617",
           "inlined": true,
           "byteLength": 235,
           "consumersList": [
@@ -4338,7 +4392,7 @@
         },
         "1513": {
           "consumers": 1,
-          "groupedPath": "bc53f8f6a36bcae9c8be62ddf26d7da2",
+          "groupedPath": "073f03f688104ce781b56d3337b2a12b",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -4387,29 +4441,11 @@
         },
         "1519": {
           "consumers": 1,
-          "groupedPath": "94774c1f3d7c59d57b26d1e4648a3aa1",
+          "groupedPath": "69a1390a5c0c6249bea257483506452a",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
             "/hakkimizda.func/index.js"
-          ]
-        },
-        "1532": {
-          "consumers": 1,
-          "groupedPath": "bc53f8f6a36bcae9c8be62ddf26d7da2",
-          "inlined": true,
-          "byteLength": 6283,
-          "consumersList": [
-            "/admin/products.func/index.js"
-          ]
-        },
-        "1545": {
-          "consumers": 1,
-          "groupedPath": "a83c7fa868ab35728ae3fff3ba6a7f6c",
-          "inlined": true,
-          "byteLength": 6187,
-          "consumersList": [
-            "/urunler/[category].func/index.js"
           ]
         },
         "1576": {
@@ -4559,7 +4595,7 @@
         },
         "1699": {
           "consumers": 1,
-          "groupedPath": "7dde69c390e492313ac3cb94bdf58175",
+          "groupedPath": "242648effc20f8c06f6b7494a0dd2eb4",
           "inlined": true,
           "byteLength": 239,
           "consumersList": [
@@ -4662,7 +4698,7 @@
         },
         "1767": {
           "consumers": 1,
-          "groupedPath": "35a1f6affcfe871d79e335833f3330ba",
+          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
           "inlined": true,
           "byteLength": 4167,
           "consumersList": [
@@ -5013,15 +5049,6 @@
             "/admin/resources/news/new.func/index.js"
           ]
         },
-        "2038": {
-          "consumers": 1,
-          "groupedPath": "696ca23cdc169746fd4ab2b89271f53c",
-          "inlined": true,
-          "byteLength": 6097,
-          "consumersList": [
-            "/kaynaklar.func/index.js"
-          ]
-        },
         "2051": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -5262,9 +5289,18 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "2162": {
+          "consumers": 1,
+          "groupedPath": "9abc45368395b417ae1bd486eb1e9a1a",
+          "inlined": true,
+          "byteLength": 6299,
+          "consumersList": [
+            "/cozumler/anahtar-teslim-projeler.func/index.js"
+          ]
+        },
         "2190": {
           "consumers": 1,
-          "groupedPath": "1cfcb276fbc47fc4d996a0fce84150e8",
+          "groupedPath": "f5446b927192e2b980fe3a314faecf69",
           "inlined": true,
           "byteLength": 7088,
           "consumersList": [
@@ -5378,7 +5414,7 @@
         },
         "2281": {
           "consumers": 1,
-          "groupedPath": "b98a5fb633bc28ac402100db67f6c5e2",
+          "groupedPath": "514dde7a47489c411f724231f17e048a",
           "inlined": true,
           "byteLength": 49100,
           "consumersList": [
@@ -5449,7 +5485,7 @@
         },
         "2311": {
           "consumers": 1,
-          "groupedPath": "3beda4004e17de2461fd780cf0191027",
+          "groupedPath": "4c482c053e074279251fb71afedd95a5",
           "inlined": true,
           "byteLength": 491,
           "consumersList": [
@@ -5498,7 +5534,7 @@
         },
         "2349": {
           "consumers": 1,
-          "groupedPath": "2b3653cb82bed498436934b152bdbf89",
+          "groupedPath": "f9d3316f954bb4b249f47d54e70ce2f0",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -5527,15 +5563,6 @@
             "/admin/products.func/index.js",
             "/admin/products/[id]/edit.func/index.js",
             "/urunler/[category]/[subcategory].func/index.js"
-          ]
-        },
-        "2381": {
-          "consumers": 1,
-          "groupedPath": "2b3653cb82bed498436934b152bdbf89",
-          "inlined": true,
-          "byteLength": 6415,
-          "consumersList": [
-            "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
         "2389": {
@@ -5654,7 +5681,7 @@
         },
         "2500": {
           "consumers": 1,
-          "groupedPath": "676333d771643a22ab1abd9477ba0b04",
+          "groupedPath": "68595dfdb61cb47dfa7f164c0ca6e6f4",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -5703,7 +5730,7 @@
         },
         "2530": {
           "consumers": 1,
-          "groupedPath": "b98a5fb633bc28ac402100db67f6c5e2",
+          "groupedPath": "514dde7a47489c411f724231f17e048a",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -5778,7 +5805,7 @@
         },
         "2616": {
           "consumers": 1,
-          "groupedPath": "2b3653cb82bed498436934b152bdbf89",
+          "groupedPath": "f9d3316f954bb4b249f47d54e70ce2f0",
           "inlined": true,
           "byteLength": 386,
           "consumersList": [
@@ -5809,7 +5836,7 @@
         },
         "2670": {
           "consumers": 1,
-          "groupedPath": "7e77374c71b97930caa381db25624b32",
+          "groupedPath": "d04cd2d65d5a40d5f97dc9d4cab647ff",
           "inlined": true,
           "byteLength": 479,
           "consumersList": [
@@ -5826,11 +5853,20 @@
         },
         "2710": {
           "consumers": 1,
-          "groupedPath": "a83c7fa868ab35728ae3fff3ba6a7f6c",
+          "groupedPath": "5ae81bd7621c708cff8e171ed9bfa52b",
           "inlined": true,
           "byteLength": 9864,
           "consumersList": [
             "/urunler/[category].func/index.js"
+          ]
+        },
+        "2721": {
+          "consumers": 1,
+          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
+          "inlined": true,
+          "byteLength": 6000,
+          "consumersList": [
+            "/index.func/index.js"
           ]
         },
         "2740": {
@@ -5932,15 +5968,6 @@
             "/admin/products/[id]/edit.func/index.js",
             "/admin/resources/events/[id]/edit.func/index.js",
             "/admin/resources/news/edit/[id].func/index.js"
-          ]
-        },
-        "2852": {
-          "consumers": 1,
-          "groupedPath": "8ddf304ff46807bab87f4905a0d42ae5",
-          "inlined": true,
-          "byteLength": 6481,
-          "consumersList": [
-            "/admin/resources/events/[id]/edit.func/index.js"
           ]
         },
         "2860": {
@@ -6157,14 +6184,6 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "2981": {
-          "consumers": 1,
-          "inlined": true,
-          "byteLength": 5971,
-          "consumersList": [
-            "/_not-found.func/index.js"
-          ]
-        },
         "3002": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -6207,11 +6226,20 @@
         },
         "3008": {
           "consumers": 1,
-          "groupedPath": "ec781784d37939c4135422191b6a1aa5",
+          "groupedPath": "9abc45368395b417ae1bd486eb1e9a1a",
           "inlined": true,
           "byteLength": 13163,
           "consumersList": [
             "/cozumler/anahtar-teslim-projeler.func/index.js"
+          ]
+        },
+        "3018": {
+          "consumers": 1,
+          "groupedPath": "9464a64b37b5a5d27dc9bfb09fa5308d",
+          "inlined": true,
+          "byteLength": 6275,
+          "consumersList": [
+            "/cozumler/otomasyon-sistemleri.func/index.js"
           ]
         },
         "3037": {
@@ -6241,15 +6269,6 @@
             "/admin/resources/events/new.func/index.js",
             "/admin/resources/news/edit/[id].func/index.js",
             "/admin/resources/news/new.func/index.js"
-          ]
-        },
-        "3072": {
-          "consumers": 1,
-          "groupedPath": "94774c1f3d7c59d57b26d1e4648a3aa1",
-          "inlined": true,
-          "byteLength": 6105,
-          "consumersList": [
-            "/hakkimizda.func/index.js"
           ]
         },
         "3086": {
@@ -6294,7 +6313,7 @@
         },
         "3167": {
           "consumers": 1,
-          "groupedPath": "35a1f6affcfe871d79e335833f3330ba",
+          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -6339,15 +6358,6 @@
             "/urunler/[category].func/index.js",
             "/urunler/[category]/[subcategory].func/index.js",
             "/urunler/[category]/[subcategory]/[product].func/index.js"
-          ]
-        },
-        "3222": {
-          "consumers": 1,
-          "groupedPath": "9ff2e12e5b9ccb71f872dbc804b93718",
-          "inlined": true,
-          "byteLength": 6317,
-          "consumersList": [
-            "/urunler/[category]/[subcategory].func/index.js"
           ]
         },
         "3238": {
@@ -6432,7 +6442,7 @@
         },
         "3306": {
           "consumers": 1,
-          "groupedPath": "beaaae72c79c0c9822c8ef2cc8426398",
+          "groupedPath": "441bc0242cd90e74f2585d37d94d0a49",
           "inlined": true,
           "byteLength": 9284,
           "consumersList": [
@@ -6451,6 +6461,15 @@
             "/urunler/[category].func/index.js",
             "/urunler/[category]/[subcategory].func/index.js",
             "/urunler/[category]/[subcategory]/[product].func/index.js"
+          ]
+        },
+        "3333": {
+          "consumers": 1,
+          "groupedPath": "4c482c053e074279251fb71afedd95a5",
+          "inlined": true,
+          "byteLength": 6097,
+          "consumersList": [
+            "/teklif-al.func/index.js"
           ]
         },
         "3335": {
@@ -6493,18 +6512,9 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "3396": {
-          "consumers": 1,
-          "groupedPath": "cbd1681afc474be82bcebdc1b04f0dba",
-          "inlined": true,
-          "byteLength": 6088,
-          "consumersList": [
-            "/iletisim.func/index.js"
-          ]
-        },
         "3397": {
           "consumers": 1,
-          "groupedPath": "35a1f6affcfe871d79e335833f3330ba",
+          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
           "inlined": true,
           "byteLength": 18693,
           "consumersList": [
@@ -6574,7 +6584,7 @@
         },
         "3463": {
           "consumers": 1,
-          "groupedPath": "9283bc36bbecf8c76a225f34c0952ed8",
+          "groupedPath": "51fb0cf52b618967c53f64304038ae35",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -6645,7 +6655,7 @@
         },
         "3475": {
           "consumers": 1,
-          "groupedPath": "bc53f8f6a36bcae9c8be62ddf26d7da2",
+          "groupedPath": "073f03f688104ce781b56d3337b2a12b",
           "inlined": true,
           "byteLength": 506,
           "consumersList": [
@@ -6812,15 +6822,6 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "3695": {
-          "consumers": 1,
-          "groupedPath": "b764a663ff3eaf701a743f9b7644627d",
-          "inlined": true,
-          "byteLength": 6245,
-          "consumersList": [
-            "/kaynaklar/etkinlik/[id].func/index.js"
-          ]
-        },
         "3779": {
           "consumers": 7,
           "newDest": "__next-on-pages-dist__/webpack/3779.js",
@@ -6833,6 +6834,15 @@
             "/cozumler/kalite-guvence-sistemleri.func/index.js",
             "/cozumler/otomasyon-sistemleri.func/index.js",
             "/sektorler.func/index.js"
+          ]
+        },
+        "3784": {
+          "consumers": 1,
+          "groupedPath": "ee29ddfc6b2e2e433df12771f78c5cb1",
+          "inlined": true,
+          "byteLength": 6088,
+          "consumersList": [
+            "/iletisim.func/index.js"
           ]
         },
         "3833": {
@@ -6896,7 +6906,7 @@
         },
         "3855": {
           "consumers": 1,
-          "groupedPath": "94774c1f3d7c59d57b26d1e4648a3aa1",
+          "groupedPath": "69a1390a5c0c6249bea257483506452a",
           "inlined": true,
           "byteLength": 25019,
           "consumersList": [
@@ -6941,15 +6951,6 @@
             "/urunler/[category].func/index.js",
             "/urunler/[category]/[subcategory].func/index.js",
             "/urunler/[category]/[subcategory]/[product].func/index.js"
-          ]
-        },
-        "3881": {
-          "consumers": 1,
-          "groupedPath": "90533bdc19e1e515159aac5488e6ceec",
-          "inlined": true,
-          "byteLength": 6297,
-          "consumersList": [
-            "/admin/categories.func/index.js"
           ]
         },
         "3903": {
@@ -7034,7 +7035,7 @@
         },
         "3942": {
           "consumers": 1,
-          "groupedPath": "0b2ef0a8dbaeb77200d5461ed06326ac",
+          "groupedPath": "fa8b4d6940a471b266dbd1f52e5e9cea",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -7119,15 +7120,6 @@
             "/urunler/[category].func/index.js",
             "/urunler/[category]/[subcategory].func/index.js",
             "/urunler/[category]/[subcategory]/[product].func/index.js"
-          ]
-        },
-        "3984": {
-          "consumers": 1,
-          "groupedPath": "1246114615492594e4f6c9cd73bb3677",
-          "inlined": true,
-          "byteLength": 6193,
-          "consumersList": [
-            "/admin.func/index.js"
           ]
         },
         "3985": {
@@ -7248,7 +7240,7 @@
         },
         "4116": {
           "consumers": 1,
-          "groupedPath": "616a0c786e5f87b453045a8d1b5011f2",
+          "groupedPath": "5a65eb6aa70e73ffbd6119ff9d2c272e",
           "inlined": true,
           "byteLength": 21048,
           "consumersList": [
@@ -7317,6 +7309,15 @@
             "/cozumler/kalite-guvence-sistemleri.func/index.js",
             "/cozumler/otomasyon-sistemleri.func/index.js",
             "/kaynaklar.func/index.js"
+          ]
+        },
+        "4173": {
+          "consumers": 1,
+          "groupedPath": "f4c7afe31fe24147cf045e9b340c03d0",
+          "inlined": true,
+          "byteLength": 6245,
+          "consumersList": [
+            "/kaynaklar/etkinlik/[id].func/index.js"
           ]
         },
         "4185": {
@@ -7432,22 +7433,13 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "4246": {
+        "4238": {
           "consumers": 1,
-          "groupedPath": "35a1f6affcfe871d79e335833f3330ba",
+          "groupedPath": "5b74da4993c3c107ee937a9f87c702cc",
           "inlined": true,
-          "byteLength": 6000,
+          "byteLength": 6283,
           "consumersList": [
-            "/index.func/index.js"
-          ]
-        },
-        "4260": {
-          "consumers": 1,
-          "groupedPath": "beaaae72c79c0c9822c8ef2cc8426398",
-          "inlined": true,
-          "byteLength": 6291,
-          "consumersList": [
-            "/admin/resources.func/index.js"
+            "/cozumler/ar-ge-laboratuvarlari.func/index.js"
           ]
         },
         "4263": {
@@ -7492,7 +7484,7 @@
         },
         "4286": {
           "consumers": 1,
-          "groupedPath": "bc53f8f6a36bcae9c8be62ddf26d7da2",
+          "groupedPath": "073f03f688104ce781b56d3337b2a12b",
           "inlined": true,
           "byteLength": 14370,
           "consumersList": [
@@ -7589,7 +7581,7 @@
         },
         "4346": {
           "consumers": 1,
-          "groupedPath": "0623dcc19940061b105bd4bdc9426df8",
+          "groupedPath": "ba89c45b0d997ad48d4fa86fff634cbe",
           "inlined": true,
           "byteLength": 12555,
           "consumersList": [
@@ -7598,7 +7590,7 @@
         },
         "4347": {
           "consumers": 1,
-          "groupedPath": "4d75b43fc3e3aa152e08e3e0c705ed70",
+          "groupedPath": "4316c95aa5b176538e2cf16e2ae60e2e",
           "inlined": true,
           "byteLength": 17103,
           "consumersList": [
@@ -7647,7 +7639,7 @@
         },
         "4364": {
           "consumers": 1,
-          "groupedPath": "35a1f6affcfe871d79e335833f3330ba",
+          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
           "inlined": true,
           "byteLength": 6305,
           "consumersList": [
@@ -7727,25 +7719,16 @@
         },
         "4612": {
           "consumers": 1,
-          "groupedPath": "0b2ef0a8dbaeb77200d5461ed06326ac",
+          "groupedPath": "fa8b4d6940a471b266dbd1f52e5e9cea",
           "inlined": true,
           "byteLength": 11580,
           "consumersList": [
             "/admin/resources/news/edit/[id].func/index.js"
           ]
         },
-        "4665": {
-          "consumers": 1,
-          "groupedPath": "15ca3cf7672b721e75d7fbc456792686",
-          "inlined": true,
-          "byteLength": 6365,
-          "consumersList": [
-            "/admin/contact/messages.func/index.js"
-          ]
-        },
         "4684": {
           "consumers": 1,
-          "groupedPath": "8ddf304ff46807bab87f4905a0d42ae5",
+          "groupedPath": "3ec6fbdf5edd096acc522411d8a1caaf",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -7754,7 +7737,7 @@
         },
         "4694": {
           "consumers": 1,
-          "groupedPath": "b764a663ff3eaf701a743f9b7644627d",
+          "groupedPath": "f4c7afe31fe24147cf045e9b340c03d0",
           "inlined": true,
           "byteLength": 249,
           "consumersList": [
@@ -7883,7 +7866,7 @@
         },
         "4741": {
           "consumers": 1,
-          "groupedPath": "696ca23cdc169746fd4ab2b89271f53c",
+          "groupedPath": "bc7f5ef72d38b4508ce4178c214f0617",
           "inlined": true,
           "byteLength": 48,
           "consumersList": [
@@ -7892,7 +7875,7 @@
         },
         "4814": {
           "consumers": 1,
-          "groupedPath": "15ca3cf7672b721e75d7fbc456792686",
+          "groupedPath": "3d11d090e518bbdf54e2f14750592bd7",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -7923,7 +7906,7 @@
         },
         "4829": {
           "consumers": 1,
-          "groupedPath": "94774c1f3d7c59d57b26d1e4648a3aa1",
+          "groupedPath": "69a1390a5c0c6249bea257483506452a",
           "inlined": true,
           "byteLength": 236,
           "consumersList": [
@@ -8142,7 +8125,7 @@
         },
         "4930": {
           "consumers": 1,
-          "groupedPath": "1246114615492594e4f6c9cd73bb3677",
+          "groupedPath": "6c2f8e2ea9c613a8edfab8dbee339e99",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -8189,6 +8172,15 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "4981": {
+          "consumers": 1,
+          "groupedPath": "68595dfdb61cb47dfa7f164c0ca6e6f4",
+          "inlined": true,
+          "byteLength": 6398,
+          "consumersList": [
+            "/admin/resources/news/new.func/index.js"
+          ]
+        },
         "5023": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -8231,7 +8223,7 @@
         },
         "5034": {
           "consumers": 1,
-          "groupedPath": "35a1f6affcfe871d79e335833f3330ba",
+          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
           "inlined": true,
           "byteLength": 3473,
           "consumersList": [
@@ -8280,7 +8272,7 @@
         },
         "5081": {
           "consumers": 1,
-          "groupedPath": "7e77374c71b97930caa381db25624b32",
+          "groupedPath": "d04cd2d65d5a40d5f97dc9d4cab647ff",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -8430,7 +8422,7 @@
         },
         "5191": {
           "consumers": 1,
-          "groupedPath": "7e77374c71b97930caa381db25624b32",
+          "groupedPath": "d04cd2d65d5a40d5f97dc9d4cab647ff",
           "inlined": true,
           "byteLength": 4814,
           "consumersList": [
@@ -8591,7 +8583,7 @@
         },
         "5289": {
           "consumers": 1,
-          "groupedPath": "1246114615492594e4f6c9cd73bb3677",
+          "groupedPath": "6c2f8e2ea9c613a8edfab8dbee339e99",
           "inlined": true,
           "byteLength": 7478,
           "consumersList": [
@@ -8640,7 +8632,7 @@
         },
         "5306": {
           "consumers": 1,
-          "groupedPath": "56a81a929704cb2e91e2db258b7af245",
+          "groupedPath": "9b795a42bfbd285dbdd3b05fae681798",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -8687,6 +8679,15 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "5368": {
+          "consumers": 1,
+          "groupedPath": "3d11d090e518bbdf54e2f14750592bd7",
+          "inlined": true,
+          "byteLength": 6365,
+          "consumersList": [
+            "/admin/contact/messages.func/index.js"
+          ]
+        },
         "5383": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -8724,6 +8725,24 @@
             "/urunler.func/index.js",
             "/urunler/[category].func/index.js",
             "/urunler/[category]/[subcategory].func/index.js",
+            "/urunler/[category]/[subcategory]/[product].func/index.js"
+          ]
+        },
+        "5410": {
+          "consumers": 1,
+          "groupedPath": "514dde7a47489c411f724231f17e048a",
+          "inlined": true,
+          "byteLength": 6097,
+          "consumersList": [
+            "/sektorler.func/index.js"
+          ]
+        },
+        "5415": {
+          "consumers": 1,
+          "groupedPath": "f9d3316f954bb4b249f47d54e70ce2f0",
+          "inlined": true,
+          "byteLength": 6415,
+          "consumersList": [
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
@@ -8769,7 +8788,7 @@
         },
         "5477": {
           "consumers": 1,
-          "groupedPath": "9283bc36bbecf8c76a225f34c0952ed8",
+          "groupedPath": "51fb0cf52b618967c53f64304038ae35",
           "inlined": true,
           "byteLength": 250,
           "consumersList": [
@@ -8847,7 +8866,7 @@
         },
         "5565": {
           "consumers": 1,
-          "groupedPath": "b98a5fb633bc28ac402100db67f6c5e2",
+          "groupedPath": "514dde7a47489c411f724231f17e048a",
           "inlined": true,
           "byteLength": 491,
           "consumersList": [
@@ -9266,6 +9285,15 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "5927": {
+          "consumers": 1,
+          "groupedPath": "29726a1a92770572175e8e5ba834bb64",
+          "inlined": true,
+          "byteLength": 6315,
+          "consumersList": [
+            "/cozumler/kalite-guvence-sistemleri.func/index.js"
+          ]
+        },
         "5932": {
           "consumers": 14,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
@@ -9288,6 +9316,15 @@
             "/api/upload.func/index.js"
           ]
         },
+        "5978": {
+          "consumers": 1,
+          "groupedPath": "9b795a42bfbd285dbdd3b05fae681798",
+          "inlined": true,
+          "byteLength": 6089,
+          "consumersList": [
+            "/cozumler.func/index.js"
+          ]
+        },
         "6011": {
           "consumers": 2,
           "groupedPath": "1bbb9c5845f6a8e2457a16bf6b8ee3c0",
@@ -9298,31 +9335,13 @@
             "/admin/products/[id]/edit.func/index.js"
           ]
         },
-        "6077": {
-          "consumers": 1,
-          "groupedPath": "7054c152eaaaacf4cd067b433af27c38",
-          "inlined": true,
-          "byteLength": 6415,
-          "consumersList": [
-            "/admin/resources/events/new.func/index.js"
-          ]
-        },
         "6104": {
           "consumers": 1,
-          "groupedPath": "9283bc36bbecf8c76a225f34c0952ed8",
+          "groupedPath": "51fb0cf52b618967c53f64304038ae35",
           "inlined": true,
           "byteLength": 18003,
           "consumersList": [
             "/admin/products/[id]/edit.func/index.js"
-          ]
-        },
-        "6156": {
-          "consumers": 1,
-          "groupedPath": "616a0c786e5f87b453045a8d1b5011f2",
-          "inlined": true,
-          "byteLength": 6371,
-          "consumersList": [
-            "/cozumler/endustriyel-laboratuvar-kurulumu.func/index.js"
           ]
         },
         "6157": {
@@ -9589,18 +9608,9 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "6250": {
-          "consumers": 1,
-          "groupedPath": "3beda4004e17de2461fd780cf0191027",
-          "inlined": true,
-          "byteLength": 6097,
-          "consumersList": [
-            "/teklif-al.func/index.js"
-          ]
-        },
         "6265": {
           "consumers": 1,
-          "groupedPath": "1cfcb276fbc47fc4d996a0fce84150e8",
+          "groupedPath": "f5446b927192e2b980fe3a314faecf69",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -9725,15 +9735,6 @@
             "/urunler/[category].func/index.js",
             "/urunler/[category]/[subcategory].func/index.js",
             "/urunler/[category]/[subcategory]/[product].func/index.js"
-          ]
-        },
-        "6356": {
-          "consumers": 1,
-          "groupedPath": "56a81a929704cb2e91e2db258b7af245",
-          "inlined": true,
-          "byteLength": 6089,
-          "consumersList": [
-            "/cozumler.func/index.js"
           ]
         },
         "6379": {
@@ -9952,7 +9953,7 @@
         },
         "6467": {
           "consumers": 1,
-          "groupedPath": "ec781784d37939c4135422191b6a1aa5",
+          "groupedPath": "9abc45368395b417ae1bd486eb1e9a1a",
           "inlined": true,
           "byteLength": 258,
           "consumersList": [
@@ -10017,7 +10018,7 @@
         },
         "6504": {
           "consumers": 1,
-          "groupedPath": "636812a23124d6ea60951a86d538f174",
+          "groupedPath": "29726a1a92770572175e8e5ba834bb64",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -10026,25 +10027,16 @@
         },
         "6522": {
           "consumers": 1,
-          "groupedPath": "35a1f6affcfe871d79e335833f3330ba",
+          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
           "inlined": true,
           "byteLength": 461,
           "consumersList": [
             "/index.func/index.js"
           ]
         },
-        "6555": {
-          "consumers": 1,
-          "groupedPath": "ec781784d37939c4135422191b6a1aa5",
-          "inlined": true,
-          "byteLength": 6299,
-          "consumersList": [
-            "/cozumler/anahtar-teslim-projeler.func/index.js"
-          ]
-        },
         "6587": {
           "consumers": 1,
-          "groupedPath": "b764a663ff3eaf701a743f9b7644627d",
+          "groupedPath": "f4c7afe31fe24147cf045e9b340c03d0",
           "inlined": true,
           "byteLength": 9826,
           "consumersList": [
@@ -10053,7 +10045,7 @@
         },
         "6591": {
           "consumers": 1,
-          "groupedPath": "b764a663ff3eaf701a743f9b7644627d",
+          "groupedPath": "f4c7afe31fe24147cf045e9b340c03d0",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -10294,6 +10286,15 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "7006": {
+          "consumers": 1,
+          "groupedPath": "073f03f688104ce781b56d3337b2a12b",
+          "inlined": true,
+          "byteLength": 6283,
+          "consumersList": [
+            "/admin/products.func/index.js"
+          ]
+        },
         "7049": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -10336,7 +10337,7 @@
         },
         "7067": {
           "consumers": 1,
-          "groupedPath": "7dde69c390e492313ac3cb94bdf58175",
+          "groupedPath": "242648effc20f8c06f6b7494a0dd2eb4",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -10437,7 +10438,7 @@
         },
         "7135": {
           "consumers": 1,
-          "groupedPath": "56a81a929704cb2e91e2db258b7af245",
+          "groupedPath": "9b795a42bfbd285dbdd3b05fae681798",
           "inlined": true,
           "byteLength": 46273,
           "consumersList": [
@@ -10644,15 +10645,6 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "7263": {
-          "consumers": 1,
-          "groupedPath": "9283bc36bbecf8c76a225f34c0952ed8",
-          "inlined": true,
-          "byteLength": 6399,
-          "consumersList": [
-            "/admin/products/[id]/edit.func/index.js"
-          ]
-        },
         "7268": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -10848,7 +10840,7 @@
         },
         "7384": {
           "consumers": 1,
-          "groupedPath": "7054c152eaaaacf4cd067b433af27c38",
+          "groupedPath": "12f8597b6d4d7c376e35b66f803562f7",
           "inlined": true,
           "byteLength": 13838,
           "consumersList": [
@@ -10897,7 +10889,7 @@
         },
         "7399": {
           "consumers": 1,
-          "groupedPath": "11988c8d4e8cbf0eb9d2d0b70140ecf4",
+          "groupedPath": "9464a64b37b5a5d27dc9bfb09fa5308d",
           "inlined": true,
           "byteLength": 24987,
           "consumersList": [
@@ -10917,7 +10909,7 @@
         },
         "7412": {
           "consumers": 1,
-          "groupedPath": "a83c7fa868ab35728ae3fff3ba6a7f6c",
+          "groupedPath": "5ae81bd7621c708cff8e171ed9bfa52b",
           "inlined": true,
           "byteLength": 244,
           "consumersList": [
@@ -10966,7 +10958,7 @@
         },
         "7480": {
           "consumers": 1,
-          "groupedPath": "636812a23124d6ea60951a86d538f174",
+          "groupedPath": "29726a1a92770572175e8e5ba834bb64",
           "inlined": true,
           "byteLength": 15396,
           "consumersList": [
@@ -10975,7 +10967,7 @@
         },
         "7485": {
           "consumers": 1,
-          "groupedPath": "7054c152eaaaacf4cd067b433af27c38",
+          "groupedPath": "12f8597b6d4d7c376e35b66f803562f7",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -10984,7 +10976,7 @@
         },
         "7577": {
           "consumers": 1,
-          "groupedPath": "90533bdc19e1e515159aac5488e6ceec",
+          "groupedPath": "83527352a7e9e3e052c6b849208eb8ae",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -10993,11 +10985,20 @@
         },
         "7625": {
           "consumers": 1,
-          "groupedPath": "7dde69c390e492313ac3cb94bdf58175",
+          "groupedPath": "242648effc20f8c06f6b7494a0dd2eb4",
           "inlined": true,
           "byteLength": 5812,
           "consumersList": [
             "/admin/contact.func/index.js"
+          ]
+        },
+        "7639": {
+          "consumers": 1,
+          "groupedPath": "0ab023955c37ff80fc61534c3b17fba7",
+          "inlined": true,
+          "byteLength": 6317,
+          "consumersList": [
+            "/urunler/[category]/[subcategory].func/index.js"
           ]
         },
         "7702": {
@@ -11013,7 +11014,7 @@
         },
         "7750": {
           "consumers": 1,
-          "groupedPath": "cbd1681afc474be82bcebdc1b04f0dba",
+          "groupedPath": "ee29ddfc6b2e2e433df12771f78c5cb1",
           "inlined": true,
           "byteLength": 42711,
           "consumersList": [
@@ -11102,7 +11103,7 @@
         },
         "7849": {
           "consumers": 1,
-          "groupedPath": "35a1f6affcfe871d79e335833f3330ba",
+          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
           "inlined": true,
           "byteLength": 9725,
           "consumersList": [
@@ -11280,22 +11281,22 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "7926": {
+          "consumers": 1,
+          "groupedPath": "83527352a7e9e3e052c6b849208eb8ae",
+          "inlined": true,
+          "byteLength": 6297,
+          "consumersList": [
+            "/admin/categories.func/index.js"
+          ]
+        },
         "7937": {
           "consumers": 1,
-          "groupedPath": "676333d771643a22ab1abd9477ba0b04",
+          "groupedPath": "68595dfdb61cb47dfa7f164c0ca6e6f4",
           "inlined": true,
           "byteLength": 9413,
           "consumersList": [
             "/admin/resources/news/new.func/index.js"
-          ]
-        },
-        "7978": {
-          "consumers": 1,
-          "groupedPath": "1cfcb276fbc47fc4d996a0fce84150e8",
-          "inlined": true,
-          "byteLength": 6221,
-          "consumersList": [
-            "/kaynaklar/haber/[id].func/index.js"
           ]
         },
         "8008": {
@@ -11424,7 +11425,7 @@
         },
         "8100": {
           "consumers": 1,
-          "groupedPath": "2b3653cb82bed498436934b152bdbf89",
+          "groupedPath": "f9d3316f954bb4b249f47d54e70ce2f0",
           "inlined": true,
           "byteLength": 268,
           "consumersList": [
@@ -11518,7 +11519,7 @@
         },
         "8122": {
           "consumers": 1,
-          "groupedPath": "11988c8d4e8cbf0eb9d2d0b70140ecf4",
+          "groupedPath": "9464a64b37b5a5d27dc9bfb09fa5308d",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -11592,7 +11593,7 @@
         },
         "8159": {
           "consumers": 1,
-          "groupedPath": "11988c8d4e8cbf0eb9d2d0b70140ecf4",
+          "groupedPath": "9464a64b37b5a5d27dc9bfb09fa5308d",
           "inlined": true,
           "byteLength": 255,
           "consumersList": [
@@ -11641,7 +11642,7 @@
         },
         "8261": {
           "consumers": 1,
-          "groupedPath": "8ddf304ff46807bab87f4905a0d42ae5",
+          "groupedPath": "3ec6fbdf5edd096acc522411d8a1caaf",
           "inlined": true,
           "byteLength": 258,
           "consumersList": [
@@ -11690,11 +11691,20 @@
         },
         "8277": {
           "consumers": 1,
-          "groupedPath": "56a81a929704cb2e91e2db258b7af245",
+          "groupedPath": "9b795a42bfbd285dbdd3b05fae681798",
           "inlined": true,
           "byteLength": 234,
           "consumersList": [
             "/cozumler.func/index.js"
+          ]
+        },
+        "8307": {
+          "consumers": 1,
+          "groupedPath": "5ae81bd7621c708cff8e171ed9bfa52b",
+          "inlined": true,
+          "byteLength": 6187,
+          "consumersList": [
+            "/urunler/[category].func/index.js"
           ]
         },
         "8340": {
@@ -11813,6 +11823,15 @@
             "/api/upload.func/index.js"
           ]
         },
+        "8382": {
+          "consumers": 1,
+          "groupedPath": "bc7f5ef72d38b4508ce4178c214f0617",
+          "inlined": true,
+          "byteLength": 6097,
+          "consumersList": [
+            "/kaynaklar.func/index.js"
+          ]
+        },
         "8418": {
           "consumers": 1,
           "inlined": true,
@@ -11877,7 +11896,7 @@
         },
         "8501": {
           "consumers": 1,
-          "groupedPath": "4d75b43fc3e3aa152e08e3e0c705ed70",
+          "groupedPath": "4316c95aa5b176538e2cf16e2ae60e2e",
           "inlined": true,
           "byteLength": 518,
           "consumersList": [
@@ -11897,25 +11916,16 @@
         },
         "8519": {
           "consumers": 1,
-          "groupedPath": "1246114615492594e4f6c9cd73bb3677",
+          "groupedPath": "6c2f8e2ea9c613a8edfab8dbee339e99",
           "inlined": true,
           "byteLength": 479,
           "consumersList": [
             "/admin.func/index.js"
           ]
         },
-        "8520": {
-          "consumers": 1,
-          "groupedPath": "cae0ec073a3b0b98ba749d999b1a8ab2",
-          "inlined": true,
-          "byteLength": 6283,
-          "consumersList": [
-            "/cozumler/ar-ge-laboratuvarlari.func/index.js"
-          ]
-        },
         "8545": {
           "consumers": 1,
-          "groupedPath": "beaaae72c79c0c9822c8ef2cc8426398",
+          "groupedPath": "441bc0242cd90e74f2585d37d94d0a49",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -11964,11 +11974,19 @@
         },
         "8591": {
           "consumers": 1,
-          "groupedPath": "3beda4004e17de2461fd780cf0191027",
+          "groupedPath": "4c482c053e074279251fb71afedd95a5",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
             "/teklif-al.func/index.js"
+          ]
+        },
+        "8681": {
+          "consumers": 1,
+          "inlined": true,
+          "byteLength": 5971,
+          "consumersList": [
+            "/_not-found.func/index.js"
           ]
         },
         "8684": {
@@ -12051,18 +12069,9 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "8709": {
-          "consumers": 1,
-          "groupedPath": "7e77374c71b97930caa381db25624b32",
-          "inlined": true,
-          "byteLength": 6065,
-          "consumersList": [
-            "/login.func/index.js"
-          ]
-        },
         "8711": {
           "consumers": 1,
-          "groupedPath": "616a0c786e5f87b453045a8d1b5011f2",
+          "groupedPath": "5a65eb6aa70e73ffbd6119ff9d2c272e",
           "inlined": true,
           "byteLength": 267,
           "consumersList": [
@@ -12166,25 +12175,16 @@
         },
         "8795": {
           "consumers": 1,
-          "groupedPath": "3beda4004e17de2461fd780cf0191027",
+          "groupedPath": "4c482c053e074279251fb71afedd95a5",
           "inlined": true,
           "byteLength": 17133,
           "consumersList": [
             "/teklif-al.func/index.js"
           ]
         },
-        "8808": {
-          "consumers": 1,
-          "groupedPath": "0b2ef0a8dbaeb77200d5461ed06326ac",
-          "inlined": true,
-          "byteLength": 6465,
-          "consumersList": [
-            "/admin/resources/news/edit/[id].func/index.js"
-          ]
-        },
         "8820": {
           "consumers": 1,
-          "groupedPath": "9ff2e12e5b9ccb71f872dbc804b93718",
+          "groupedPath": "0ab023955c37ff80fc61534c3b17fba7",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -12464,7 +12464,7 @@
         },
         "8936": {
           "consumers": 1,
-          "groupedPath": "9283bc36bbecf8c76a225f34c0952ed8",
+          "groupedPath": "51fb0cf52b618967c53f64304038ae35",
           "inlined": true,
           "byteLength": 5763,
           "consumersList": [
@@ -12473,7 +12473,7 @@
         },
         "8984": {
           "consumers": 1,
-          "groupedPath": "cae0ec073a3b0b98ba749d999b1a8ab2",
+          "groupedPath": "5b74da4993c3c107ee937a9f87c702cc",
           "inlined": true,
           "byteLength": 256,
           "consumersList": [
@@ -12693,7 +12693,7 @@
         },
         "9046": {
           "consumers": 1,
-          "groupedPath": "636812a23124d6ea60951a86d538f174",
+          "groupedPath": "29726a1a92770572175e8e5ba834bb64",
           "inlined": true,
           "byteLength": 260,
           "consumersList": [
@@ -12702,7 +12702,7 @@
         },
         "9094": {
           "consumers": 1,
-          "groupedPath": "8ddf304ff46807bab87f4905a0d42ae5",
+          "groupedPath": "3ec6fbdf5edd096acc522411d8a1caaf",
           "inlined": true,
           "byteLength": 8319,
           "consumersList": [
@@ -12711,7 +12711,7 @@
         },
         "9105": {
           "consumers": 1,
-          "groupedPath": "90533bdc19e1e515159aac5488e6ceec",
+          "groupedPath": "83527352a7e9e3e052c6b849208eb8ae",
           "inlined": true,
           "byteLength": 13104,
           "consumersList": [
@@ -12720,7 +12720,7 @@
         },
         "9184": {
           "consumers": 1,
-          "groupedPath": "4d75b43fc3e3aa152e08e3e0c705ed70",
+          "groupedPath": "4316c95aa5b176538e2cf16e2ae60e2e",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -12795,7 +12795,7 @@
         },
         "9220": {
           "consumers": 1,
-          "groupedPath": "0623dcc19940061b105bd4bdc9426df8",
+          "groupedPath": "ba89c45b0d997ad48d4fa86fff634cbe",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -12884,7 +12884,7 @@
         },
         "9284": {
           "consumers": 1,
-          "groupedPath": "a83c7fa868ab35728ae3fff3ba6a7f6c",
+          "groupedPath": "5ae81bd7621c708cff8e171ed9bfa52b",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -12893,7 +12893,7 @@
         },
         "9292": {
           "consumers": 1,
-          "groupedPath": "35a1f6affcfe871d79e335833f3330ba",
+          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
           "inlined": true,
           "byteLength": 1887,
           "consumersList": [
@@ -12902,20 +12902,20 @@
         },
         "9298": {
           "consumers": 1,
-          "groupedPath": "beaaae72c79c0c9822c8ef2cc8426398",
+          "groupedPath": "441bc0242cd90e74f2585d37d94d0a49",
           "inlined": true,
           "byteLength": 241,
           "consumersList": [
             "/admin/resources.func/index.js"
           ]
         },
-        "9328": {
+        "9332": {
           "consumers": 1,
-          "groupedPath": "b98a5fb633bc28ac402100db67f6c5e2",
+          "groupedPath": "ba89c45b0d997ad48d4fa86fff634cbe",
           "inlined": true,
-          "byteLength": 6097,
+          "byteLength": 6080,
           "consumersList": [
-            "/sektorler.func/index.js"
+            "/urunler.func/index.js"
           ]
         },
         "9344": {
@@ -12960,7 +12960,7 @@
         },
         "9363": {
           "consumers": 1,
-          "groupedPath": "0b2ef0a8dbaeb77200d5461ed06326ac",
+          "groupedPath": "fa8b4d6940a471b266dbd1f52e5e9cea",
           "inlined": true,
           "byteLength": 256,
           "consumersList": [
@@ -12999,11 +12999,20 @@
         },
         "9387": {
           "consumers": 1,
-          "groupedPath": "15ca3cf7672b721e75d7fbc456792686",
+          "groupedPath": "3d11d090e518bbdf54e2f14750592bd7",
           "inlined": true,
           "byteLength": 14067,
           "consumersList": [
             "/admin/contact/messages.func/index.js"
+          ]
+        },
+        "9402": {
+          "consumers": 1,
+          "groupedPath": "3ec6fbdf5edd096acc522411d8a1caaf",
+          "inlined": true,
+          "byteLength": 6481,
+          "consumersList": [
+            "/admin/resources/events/[id]/edit.func/index.js"
           ]
         },
         "9423": {
@@ -13046,6 +13055,24 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "9434": {
+          "consumers": 1,
+          "groupedPath": "69a1390a5c0c6249bea257483506452a",
+          "inlined": true,
+          "byteLength": 6105,
+          "consumersList": [
+            "/hakkimizda.func/index.js"
+          ]
+        },
+        "9439": {
+          "consumers": 1,
+          "groupedPath": "5a65eb6aa70e73ffbd6119ff9d2c272e",
+          "inlined": true,
+          "byteLength": 6371,
+          "consumersList": [
+            "/cozumler/endustriyel-laboratuvar-kurulumu.func/index.js"
+          ]
+        },
         "9454": {
           "consumers": 4,
           "newDest": "__next-on-pages-dist__/webpack/9454.js",
@@ -13081,7 +13108,7 @@
         },
         "9550": {
           "consumers": 1,
-          "groupedPath": "7054c152eaaaacf4cd067b433af27c38",
+          "groupedPath": "12f8597b6d4d7c376e35b66f803562f7",
           "inlined": true,
           "byteLength": 252,
           "consumersList": [
@@ -13112,20 +13139,11 @@
         },
         "9571": {
           "consumers": 1,
-          "groupedPath": "cae0ec073a3b0b98ba749d999b1a8ab2",
+          "groupedPath": "5b74da4993c3c107ee937a9f87c702cc",
           "inlined": true,
           "byteLength": 14467,
           "consumersList": [
             "/cozumler/ar-ge-laboratuvarlari.func/index.js"
-          ]
-        },
-        "9574": {
-          "consumers": 1,
-          "groupedPath": "0623dcc19940061b105bd4bdc9426df8",
-          "inlined": true,
-          "byteLength": 6080,
-          "consumersList": [
-            "/urunler.func/index.js"
           ]
         },
         "9577": {
@@ -13180,18 +13198,9 @@
             "/api/auth/login.func/index.js"
           ]
         },
-        "9636": {
-          "consumers": 1,
-          "groupedPath": "636812a23124d6ea60951a86d538f174",
-          "inlined": true,
-          "byteLength": 6315,
-          "consumersList": [
-            "/cozumler/kalite-guvence-sistemleri.func/index.js"
-          ]
-        },
         "9666": {
           "consumers": 1,
-          "groupedPath": "616a0c786e5f87b453045a8d1b5011f2",
+          "groupedPath": "5a65eb6aa70e73ffbd6119ff9d2c272e",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -13328,36 +13337,18 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "9773": {
-          "consumers": 1,
-          "groupedPath": "7dde69c390e492313ac3cb94bdf58175",
-          "inlined": true,
-          "byteLength": 6275,
-          "consumersList": [
-            "/admin/contact.func/index.js"
-          ]
-        },
         "9786": {
           "consumers": 1,
-          "groupedPath": "35a1f6affcfe871d79e335833f3330ba",
+          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
           "inlined": true,
           "byteLength": 10101,
           "consumersList": [
             "/index.func/index.js"
           ]
         },
-        "9798": {
-          "consumers": 1,
-          "groupedPath": "676333d771643a22ab1abd9477ba0b04",
-          "inlined": true,
-          "byteLength": 6398,
-          "consumersList": [
-            "/admin/resources/news/new.func/index.js"
-          ]
-        },
         "9842": {
           "consumers": 1,
-          "groupedPath": "9ff2e12e5b9ccb71f872dbc804b93718",
+          "groupedPath": "0ab023955c37ff80fc61534c3b17fba7",
           "inlined": true,
           "byteLength": 258,
           "consumersList": [
@@ -13500,7 +13491,7 @@
         },
         "9914": {
           "consumers": 1,
-          "groupedPath": "1cfcb276fbc47fc4d996a0fce84150e8",
+          "groupedPath": "f5446b927192e2b980fe3a314faecf69",
           "inlined": true,
           "byteLength": 246,
           "consumersList": [
@@ -13545,6 +13536,15 @@
             "/urunler/[category].func/index.js",
             "/urunler/[category]/[subcategory].func/index.js",
             "/urunler/[category]/[subcategory]/[product].func/index.js"
+          ]
+        },
+        "9918": {
+          "consumers": 1,
+          "groupedPath": "51fb0cf52b618967c53f64304038ae35",
+          "inlined": true,
+          "byteLength": 6399,
+          "consumersList": [
+            "/admin/products/[id]/edit.func/index.js"
           ]
         },
         "9930": {
@@ -13639,7 +13639,7 @@
         },
         "9988": {
           "consumers": 1,
-          "groupedPath": "cbd1681afc474be82bcebdc1b04f0dba",
+          "groupedPath": "ee29ddfc6b2e2e433df12771f78c5cb1",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
