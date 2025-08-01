@@ -61,28 +61,34 @@ export async function GET(
     // Check if we need subcategories only (for form use)
     const type = url.searchParams.get('type')
     
-    // Try to initialize D1 with environment context from Cloudflare Pages Functions
-    const env = context?.env || (globalThis as any).process?.env || (globalThis as any).env || {}
+    // Initialize D1 with Cloudflare Pages global binding
     const { D1DatabaseManager } = await import('@/lib/d1-database')
-    const contextualD1 = new D1DatabaseManager(env)
+    const d1Database = new D1DatabaseManager()
     
-    if (contextualD1.isAvailable()) {
+    if (d1Database.isAvailable()) {
+      // Debug: Check D1 binding status
+      console.log(' D1 Debug Info:', {
+        globalThis_DB: typeof (globalThis as any).DB,
+        d1Database_available: d1Database.isAvailable(),
+        runtime: 'edge'
+      })
+
       // Get from D1 database
       let categories: any[] = []
       let subcategories: any[] = []
       
       if (type === 'subcategories') {
-        const subResult = await contextualD1.getRecords('subcategories', {
+        const subResult = await d1Database.getRecords('subcategories', {
           orderBy: 'name ASC'
         })
         subcategories = subResult.success ? (subResult.data || []) : []
       } else {
-        const catResult = await contextualD1.getRecords('categories', {
+        const catResult = await d1Database.getRecords('categories', {
           orderBy: 'name ASC'
         })
         categories = catResult.success ? (catResult.data || []) : []
         
-        const subResult = await contextualD1.getRecords('subcategories', {
+        const subResult = await d1Database.getRecords('subcategories', {
           orderBy: 'name ASC'
         })
         subcategories = subResult.success ? (subResult.data || []) : []
@@ -124,8 +130,7 @@ export async function GET(
 
 // Create new category or subcategory
 export async function POST(
-  request: NextRequest,
-  context?: { env?: any }
+  request: NextRequest
 ) {
   try {
     // Authentication check
@@ -152,12 +157,11 @@ export async function POST(
       )
     }
 
-    // Try to initialize D1 with environment context from Cloudflare Pages Functions
-    const env = context?.env || (globalThis as any).process?.env || (globalThis as any).env || {}
+    // Initialize D1 with Cloudflare Pages global binding
     const { D1DatabaseManager } = await import('@/lib/d1-database')
-    const contextualD1 = new D1DatabaseManager(env)
+    const d1Database = new D1DatabaseManager()
 
-    if (!contextualD1.isAvailable()) {
+    if (!d1Database.isAvailable()) {
       return createErrorResponse('Database not available', 'DB_UNAVAILABLE', 503)
     }
 
@@ -219,7 +223,7 @@ export async function POST(
     
     // Insert into D1
     const tableName = isSubcategory ? 'subcategories' : 'categories'
-    const insertResult = await contextualD1.insertRecord(tableName, newItem)
+    const insertResult = await d1Database.insertRecord(tableName, newItem)
     
     if (!insertResult.success) {
       return createErrorResponse(

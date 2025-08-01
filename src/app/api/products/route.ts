@@ -47,10 +47,7 @@ const FALLBACK_PRODUCTS = [
 ]
 
 // GET - Fetch products with pagination and filtering
-export async function GET(
-  request: NextRequest,
-  context?: { env?: any }
-) {
+export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url)
     const isPublic = searchParams.get('public') === 'true'
@@ -79,21 +76,19 @@ export async function GET(
     const sortBy = searchParams.get('sortBy') || 'created_at'
     const sortOrder = searchParams.get('sortOrder') || 'DESC'
 
-    // Try to initialize D1 with environment context from Cloudflare Pages Functions
-    const env = context?.env || (globalThis as any).process?.env || (globalThis as any).env || {}
+    // Initialize D1 with Cloudflare Pages global binding
     const { D1DatabaseManager } = await import('@/lib/d1-database')
-    const contextualD1 = new D1DatabaseManager(env)
+    const d1Database = new D1DatabaseManager()
     
     // Debug: Check D1 binding status
     console.log('🔍 D1 Debug Info:', {
-      context_env_DB: typeof context?.env?.DB,
       globalThis_DB: typeof (globalThis as any).DB,
-      contextualD1_available: contextualD1.isAvailable(),
+      d1Database_available: d1Database.isAvailable(),
       runtime: 'edge'
     })
 
     // Try D1 database first
-    if (contextualD1.isAvailable()) {
+    if (d1Database.isAvailable()) {
       // Build WHERE clause
       const conditions: string[] = ['is_active = 1']
       const params: any[] = []
@@ -115,7 +110,7 @@ export async function GET(
       const whereClause = conditions.join(' AND ')
       const offset = (page - 1) * limit
 
-      const result = await contextualD1.getRecords<D1Product>('products', {
+      const result = await d1Database.getRecords<D1Product>('products', {
         where: whereClause,
         params,
         orderBy: `${sortBy} ${sortOrder}`,
@@ -161,10 +156,7 @@ export async function GET(
 }
 
 // POST - Create new product (admin only)
-export async function POST(
-  request: NextRequest,
-  context?: { env?: any }
-) {
+export async function POST(request: NextRequest) {
   try {
     // Authentication check
     const accessToken = request.cookies.get('accessToken')?.value ||

@@ -31,18 +31,42 @@ export class D1DatabaseManager {
   private db: D1Database | null = null
 
   constructor(env?: any) {
-    // Try multiple ways to get D1 database binding
-    if (env && env.DB) {
-      // From environment context (Cloudflare Pages Functions)
-      this.db = env.DB as D1Database
-      console.log('🔗 D1 Database connected via env.DB')
-    } else if (typeof globalThis !== 'undefined' && (globalThis as any).DB) {
-      // From globalThis (Cloudflare Workers)
+    // Try multiple ways to get D1 database binding for Cloudflare Pages
+    
+    // Method 1: Direct globalThis.DB (most common for Cloudflare Pages)
+    if (typeof globalThis !== 'undefined' && (globalThis as any).DB) {
       this.db = (globalThis as any).DB as D1Database
       console.log('🔗 D1 Database connected via globalThis.DB')
-    } else {
-      console.warn('⚠️ D1 Database not found in env or globalThis')
+      return
     }
+    
+    // Method 2: Environment context (if provided)
+    if (env && env.DB) {
+      this.db = env.DB as D1Database
+      console.log('🔗 D1 Database connected via env.DB')
+      return
+    }
+    
+    // Method 3: Try process.env for development
+    if (typeof process !== 'undefined' && process.env.NODE_ENV === 'development') {
+      console.log('🔧 Development mode - D1 not available')
+      return
+    }
+    
+    // Method 4: Check Cloudflare runtime globals
+    const cfGlobals = ['DB', 'UPLOADS'] // Common Cloudflare binding names
+    for (const globalName of cfGlobals) {
+      if (typeof globalThis !== 'undefined' && (globalThis as any)[globalName]) {
+        if (globalName === 'DB') {
+          this.db = (globalThis as any)[globalName] as D1Database
+          console.log(`🔗 D1 Database connected via globalThis.${globalName}`)
+          return
+        }
+      }
+    }
+    
+    console.warn('⚠️ D1 Database not found - checked globalThis.DB, env.DB, and CF runtime globals')
+    console.log('🔍 Available globals:', Object.keys(globalThis).filter(k => k.includes('D') || k.includes('B')))
   }
 
   // Get database instance
