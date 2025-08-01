@@ -76,9 +76,18 @@ export async function GET(request: NextRequest) {
     const sortBy = searchParams.get('sortBy') || 'created_at'
     const sortOrder = searchParams.get('sortOrder') || 'DESC'
 
-    // Initialize D1 with Cloudflare Pages global binding
-    const { D1DatabaseManager } = await import('@/lib/d1-database')
-    const d1Database = new D1DatabaseManager()
+    // Initialize D1 with Cloudflare Pages getRequestContext
+    let d1Database: any
+    try {
+      const { getRequestContext } = await import('@cloudflare/next-on-pages')
+      const context = getRequestContext()
+      const { D1DatabaseManager } = await import('@/lib/d1-database')
+      d1Database = new D1DatabaseManager(context?.env)
+    } catch (error) {
+      // Fallback for non-Cloudflare environments
+      const { D1DatabaseManager } = await import('@/lib/d1-database')
+      d1Database = new D1DatabaseManager()
+    }
     
     // Debug: Check D1 binding status
     console.log('🔍 D1 Debug Info:', {

@@ -33,39 +33,41 @@ export class D1DatabaseManager {
   constructor(env?: any) {
     // Try multiple ways to get D1 database binding for Cloudflare Pages
     
-    // Method 1: Direct globalThis.DB (most common for Cloudflare Pages)
-    if (typeof globalThis !== 'undefined' && (globalThis as any).DB) {
-      this.db = (globalThis as any).DB as D1Database
-      console.log('🔗 D1 Database connected via globalThis.DB')
-      return
-    }
-    
-    // Method 2: Environment context (if provided)
+    // Method 1: Environment context (if provided)
     if (env && env.DB) {
       this.db = env.DB as D1Database
       console.log('🔗 D1 Database connected via env.DB')
       return
     }
     
-    // Method 3: Try process.env for development
+    // Method 2: Try getRequestContext for Cloudflare Pages
+    try {
+      // Dynamic import to avoid issues in non-Cloudflare environments
+      const { getRequestContext } = require('@cloudflare/next-on-pages')
+      const context = getRequestContext()
+      if (context && context.env && context.env.DB) {
+        this.db = context.env.DB as D1Database
+        console.log('🔗 D1 Database connected via getRequestContext().env.DB')
+        return
+      }
+    } catch (error: any) {
+      console.log('🔍 getRequestContext not available:', error?.message || error)
+    }
+    
+    // Method 3: Direct globalThis.DB (fallback)
+    if (typeof globalThis !== 'undefined' && (globalThis as any).DB) {
+      this.db = (globalThis as any).DB as D1Database
+      console.log('🔗 D1 Database connected via globalThis.DB')
+      return
+    }
+    
+    // Method 4: Development mode
     if (typeof process !== 'undefined' && process.env.NODE_ENV === 'development') {
       console.log('🔧 Development mode - D1 not available')
       return
     }
     
-    // Method 4: Check Cloudflare runtime globals
-    const cfGlobals = ['DB', 'UPLOADS'] // Common Cloudflare binding names
-    for (const globalName of cfGlobals) {
-      if (typeof globalThis !== 'undefined' && (globalThis as any)[globalName]) {
-        if (globalName === 'DB') {
-          this.db = (globalThis as any)[globalName] as D1Database
-          console.log(`🔗 D1 Database connected via globalThis.${globalName}`)
-          return
-        }
-      }
-    }
-    
-    console.warn('⚠️ D1 Database not found - checked globalThis.DB, env.DB, and CF runtime globals')
+    console.warn('⚠️ D1 Database not found - checked env.DB, getRequestContext(), and globalThis.DB')
     console.log('🔍 Available globals:', Object.keys(globalThis).filter(k => k.includes('D') || k.includes('B')))
   }
 

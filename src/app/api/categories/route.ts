@@ -61,9 +61,18 @@ export async function GET(
     // Check if we need subcategories only (for form use)
     const type = url.searchParams.get('type')
     
-    // Initialize D1 with Cloudflare Pages global binding
-    const { D1DatabaseManager } = await import('@/lib/d1-database')
-    const d1Database = new D1DatabaseManager()
+    // Initialize D1 with Cloudflare Pages getRequestContext
+    let d1Database: any
+    try {
+      const { getRequestContext } = await import('@cloudflare/next-on-pages')
+      const context = getRequestContext()
+      const { D1DatabaseManager } = await import('@/lib/d1-database')
+      d1Database = new D1DatabaseManager(context?.env)
+    } catch (error) {
+      // Fallback for non-Cloudflare environments
+      const { D1DatabaseManager } = await import('@/lib/d1-database')
+      d1Database = new D1DatabaseManager()
+    }
     
     if (d1Database.isAvailable()) {
       // Debug: Check D1 binding status
@@ -157,9 +166,18 @@ export async function POST(
       )
     }
 
-    // Initialize D1 with Cloudflare Pages global binding
-    const { D1DatabaseManager } = await import('@/lib/d1-database')
-    const d1Database = new D1DatabaseManager()
+    // Initialize D1 with Cloudflare Pages getRequestContext
+    let d1Database: any
+    try {
+      const { getRequestContext } = await import('@cloudflare/next-on-pages')
+      const context = getRequestContext()
+      const { D1DatabaseManager } = await import('@/lib/d1-database')
+      d1Database = new D1DatabaseManager(context?.env)
+    } catch (error) {
+      // Fallback for non-Cloudflare environments
+      const { D1DatabaseManager } = await import('@/lib/d1-database')
+      d1Database = new D1DatabaseManager()
+    }
 
     if (!d1Database.isAvailable()) {
       return createErrorResponse('Database not available', 'DB_UNAVAILABLE', 503)
