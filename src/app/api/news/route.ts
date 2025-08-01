@@ -10,7 +10,7 @@ export const dynamic = 'force-dynamic'
 // Use Edge Runtime for Cloudflare Pages compatibility
 export const runtime = 'edge'
 
-const d1Database = new D1DatabaseManager()
+// D1DatabaseManager will be initialized contextually in each handler
 
 // Get all news (requires authentication)
 export async function GET(request: NextRequest) {
@@ -37,8 +37,13 @@ export async function GET(request: NextRequest) {
     const limit = Math.min(parseInt(url.searchParams.get('limit') || '50'), 100)
     const offset = parseInt(url.searchParams.get('offset') || '0')
 
+    // Try to initialize D1 with environment context
+    const env = (globalThis as any).process?.env || (globalThis as any).env || {}
+    const { D1DatabaseManager } = await import('@/lib/d1-database')
+    const contextualD1 = new D1DatabaseManager(env)
+
     // Try D1 database first
-    if (d1Database.isAvailable()) {
+    if (contextualD1.isAvailable()) {
       try {
         // Build WHERE clause
         const conditions: string[] = []
@@ -74,12 +79,12 @@ export async function GET(request: NextRequest) {
         `
         params.push(limit, offset)
 
-        const result = await d1Database.executeQuery(query, params)
+        const result = await contextualD1.executeQuery(query, params)
         
         if (result.success && result.data) {
           // Get total count for pagination
           const countQuery = `SELECT COUNT(*) as total FROM news ${whereClause}`
-          const countResult = await d1Database.executeQuery(countQuery, params.slice(0, -2))
+          const countResult = await contextualD1.executeQuery(countQuery, params.slice(0, -2))
           const total = countResult.success ? (countResult.data?.[0] as any)?.total || 0 : 0
           
           return createSuccessResponse(
@@ -289,11 +294,16 @@ export async function POST(request: NextRequest) {
     const newsId = newsData.id || DatabaseUtils.generateId()
     const slug = newsData.slug || DatabaseUtils.generateSlug(newsData.title)
     
+    // Try to initialize D1 with environment context
+    const env = (globalThis as any).process?.env || (globalThis as any).env || {}
+    const { D1DatabaseManager } = await import('@/lib/d1-database')
+    const contextualD1 = new D1DatabaseManager(env)
+    
     // Try D1 database first
-    if (d1Database.isAvailable()) {
+    if (contextualD1.isAvailable()) {
       try {
         // Check for duplicate slug
-        const slugCheckResult = await d1Database.executeQuery(
+        const slugCheckResult = await contextualD1.executeQuery(
           'SELECT COUNT(*) as count FROM news WHERE slug = ?',
           [slug]
         )
@@ -330,7 +340,7 @@ export async function POST(request: NextRequest) {
         }
         
         // Insert into D1
-        const insertResult = await d1Database.insertRecord('news', newNews)
+        const insertResult = await contextualD1.insertRecord('news', newNews)
         
         if (insertResult.success) {
           console.log(`News created in D1: ${newNews.id} by user ${authResult.user!.username}`)

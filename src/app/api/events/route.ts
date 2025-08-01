@@ -7,7 +7,7 @@ export const dynamic = 'force-dynamic'
 export const runtime = 'edge'
 import { DatabaseUtils, ValidationUtils } from '@/lib/database'
 import { createSuccessResponse, createErrorResponse, AuthErrors, CommonErrors, DatabaseResponses, validateRequiredFields } from '@/lib/api-response'
-import { getD1Database } from '@/lib/db'
+import { D1DatabaseManager } from '@/lib/d1-database'
 
 // Mock data for development (when D1 is not available)
 const MOCK_EVENTS = [
@@ -85,19 +85,19 @@ export async function GET(request: NextRequest) {
       return AuthErrors.INVALID_TOKEN()
     }
 
-    // Get database connection
-    const db = getD1Database()
+    // Try to initialize D1 with environment context
+    const env = (globalThis as any).process?.env || (globalThis as any).env || {}
+    const contextualD1 = new D1DatabaseManager(env)
     let events: any[] = []
 
-    if (db) {
+    if (contextualD1.isAvailable()) {
       try {
         // Query events from D1 database
-        const result = await db.prepare(`
-          SELECT * FROM events 
-          ORDER BY start_date DESC, created_at DESC
-        `).all()
+        const result = await contextualD1.getRecords('events', {
+          orderBy: 'start_date DESC, created_at DESC'
+        })
 
-        events = result.results || []
+        events = result.success ? (result.data || []) : []
         console.log(`Fetched ${events.length} events from D1 database`)
       } catch (dbError) {
         console.error('D1 query error:', dbError)
@@ -212,17 +212,19 @@ export async function POST(request: NextRequest) {
     const eventId = eventData.id || DatabaseUtils.generateId()
     const slug = eventData.slug || DatabaseUtils.generateSlug(eventData.title)
     
-    // Get database connection
-    const db = getD1Database()
+    // Try to initialize D1 with environment context
+    const env = (globalThis as any).process?.env || (globalThis as any).env || {}
+    const contextualD1 = new D1DatabaseManager(env)
     
-    if (db) {
+    if (contextualD1.isAvailable()) {
       try {
         // Check for duplicate slug in D1
-        const existingEvent = await db.prepare(
-          'SELECT id FROM events WHERE slug = ?'
-        ).bind(slug).first()
+        const existingEventResult = await contextualD1.executeQuery(
+          'SELECT COUNT(*) as count FROM events WHERE slug = ?',
+          [slug]
+        )
         
-        if (existingEvent) {
+        if (existingEventResult.success && existingEventResult.data?.[0] && (existingEventResult.data[0] as any).count > 0) {
           return createErrorResponse(
             'An event with this slug already exists',
             'DUPLICATE_SLUG',
@@ -262,26 +264,14 @@ export async function POST(request: NextRequest) {
         }
         
         // Insert into D1 database
-        await db.prepare(`
-          INSERT INTO events (
-            id, title, slug, description, content, event_type, start_date, end_date,
-            location, address, registration_url, max_participants, current_participants,
-            image_url, tags, is_featured, is_published, registration_required, is_online,
-            meeting_link, meta_title, meta_description, meta_keywords,
-            created_at, updated_at, created_by
-          ) VALUES (
-            ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+        const insertResult = await contextualD1.insertRecord('events', newEvent)
+        
+        if (!insertResult.success) {
+          return createErrorResponse(
+            insertResult.error || 'Failed to create event',
+            'CREATE_FAILED'
           )
-        `).bind(
-          newEvent.id, newEvent.title, newEvent.slug, newEvent.description,
-          newEvent.content, newEvent.event_type, newEvent.start_date, newEvent.end_date,
-          newEvent.location, newEvent.address, newEvent.registration_url,
-          newEvent.max_participants, newEvent.current_participants, newEvent.image_url,
-          newEvent.tags, newEvent.is_featured, newEvent.is_published,
-          newEvent.registration_required, newEvent.is_online, newEvent.meeting_link,
-          newEvent.meta_title, newEvent.meta_description, newEvent.meta_keywords,
-          newEvent.created_at, newEvent.updated_at, newEvent.created_by
-        ).run()
+        }
         
         console.log(`Event created in D1: ${newEvent.id} by user ${authResult.user!.username}`)
         

@@ -5,7 +5,7 @@ import { AuthService } from '@/lib/auth'
 export const dynamic = 'force-dynamic'
 // Use Edge Runtime for Cloudflare Pages compatibility
 export const runtime = 'edge'
-import { d1Database, D1Utils } from '@/lib/d1-database'
+import { D1DatabaseManager, D1Utils } from '@/lib/d1-database'
 import { createSuccessResponse, createErrorResponse, AuthErrors, CommonErrors, DatabaseResponses, validateRequiredFields } from '@/lib/api-response'
 
 // Validation utilities
