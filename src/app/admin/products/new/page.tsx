@@ -49,11 +49,27 @@ interface ProductForm {
 export default function NewProductPage() {
   const router = useRouter()
   const [loading, setLoading] = useState(false)
-  const [categories, setCategories] = useState<any[]>([{ id: 'lab-equipment', name: 'Laboratuvar Ekipmanları' }])
+  const [categories, setCategories] = useState<any[]>([
+    { id: 'laboratuvar-ekipmanlari', name: 'Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler' },
+    { id: 'proses-kontrol', name: 'Proses Kontrol Ve Hat Tipi Analiz Çözümleri' },
+    { id: 'pilot-uretim', name: 'Pilot Tipi Üretim ve Proses Simülasyon Sistemleri' }
+  ])
   const [subcategories, setSubcategories] = useState<any[]>([
-    { id: 'genel-lab', category_id: 'lab-equipment', name: 'Genel Laboratuvar Ekipmanları' },
-    { id: 'fiziksel-analiz', category_id: 'lab-equipment', name: 'Fiziksel Analiz Ekipmanları' },
-    { id: 'kimyasal-analiz', category_id: 'lab-equipment', name: 'Kimyasal Analiz Ekipmanları' }
+    // Laboratuvar Ekipmanları Alt Kategorileri
+    { id: 'fiziksel-analiz', category_id: 'laboratuvar-ekipmanlari', name: 'Fiziksel Analiz Ekipmanları' },
+    { id: 'kimyasal-analiz', category_id: 'laboratuvar-ekipmanlari', name: 'Kimyasal Analiz Ekipmanları' },
+    { id: 'mikrobiyoloji-analiz', category_id: 'laboratuvar-ekipmanlari', name: 'Mikrobiyoloji Analiz Ekipmanları' },
+    { id: 'molekuler-biyoloji', category_id: 'laboratuvar-ekipmanlari', name: 'Moleküler Biyoloji/Genetik Analiz Ekipmanları' },
+    { id: 'test-olcu-kontrol', category_id: 'laboratuvar-ekipmanlari', name: 'Test, Ölçü Kontrol Sistemleri' },
+    { id: 'ambalaj-test', category_id: 'laboratuvar-ekipmanlari', name: 'Ambalaj ve Malzeme Test Sistemleri' },
+    { id: 'arastirma-gelistirme', category_id: 'laboratuvar-ekipmanlari', name: 'Araştırma ve Geliştirme Ekipmanları' },
+    // Proses Kontrol Alt Kategorileri
+    { id: 'hat-tipi-analiz', category_id: 'proses-kontrol', name: 'Hat Tipi Analiz Sistemleri' },
+    { id: 'proses-sensorleri', category_id: 'proses-kontrol', name: 'Proses Sensörleri' },
+    // Pilot Üretim Alt Kategorileri
+    { id: 'karistirma', category_id: 'pilot-uretim', name: 'Karıştırma ve Homojenizasyon' },
+    { id: 'kurutma-isleme', category_id: 'pilot-uretim', name: 'Kurutma ve İşleme' },
+    { id: 'filtrasyon-separasyon', category_id: 'pilot-uretim', name: 'Filtrasyon ve Separasyon' }
   ])
   const [form, setForm] = useState<ProductForm>({
     name: '',
@@ -95,22 +111,54 @@ export default function NewProductPage() {
           // Also get subcategories from the same response
           setSubcategories(Array.isArray(responseData.subcategories) ? responseData.subcategories : [])
         } else {
-          // Set fallback data if API fails
-          setCategories([{ id: 'lab-equipment', name: 'Laboratuvar Ekipmanları' }])
+          // Set fallback data if API fails - use complete category structure
+          setCategories([
+            { id: 'laboratuvar-ekipmanlari', name: 'Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler' },
+            { id: 'proses-kontrol', name: 'Proses Kontrol Ve Hat Tipi Analiz Çözümleri' },
+            { id: 'pilot-uretim', name: 'Pilot Tipi Üretim ve Proses Simülasyon Sistemleri' }
+          ])
           setSubcategories([
-            { id: 'genel-lab', category_id: 'lab-equipment', name: 'Genel Laboratuvar Ekipmanları' },
-            { id: 'fiziksel-analiz', category_id: 'lab-equipment', name: 'Fiziksel Analiz Ekipmanları' },
-            { id: 'kimyasal-analiz', category_id: 'lab-equipment', name: 'Kimyasal Analiz Ekipmanları' }
+            // Laboratuvar Ekipmanları Alt Kategorileri
+            { id: 'fiziksel-analiz', category_id: 'laboratuvar-ekipmanlari', name: 'Fiziksel Analiz Ekipmanları' },
+            { id: 'kimyasal-analiz', category_id: 'laboratuvar-ekipmanlari', name: 'Kimyasal Analiz Ekipmanları' },
+            { id: 'mikrobiyoloji-analiz', category_id: 'laboratuvar-ekipmanlari', name: 'Mikrobiyoloji Analiz Ekipmanları' },
+            { id: 'molekuler-biyoloji', category_id: 'laboratuvar-ekipmanlari', name: 'Moleküler Biyoloji/Genetik Analiz Ekipmanları' },
+            { id: 'test-olcu-kontrol', category_id: 'laboratuvar-ekipmanlari', name: 'Test, Ölçü Kontrol Sistemleri' },
+            { id: 'ambalaj-test', category_id: 'laboratuvar-ekipmanlari', name: 'Ambalaj ve Malzeme Test Sistemleri' },
+            { id: 'arastirma-gelistirme', category_id: 'laboratuvar-ekipmanlari', name: 'Araştırma ve Geliştirme Ekipmanları' },
+            // Proses Kontrol Alt Kategorileri
+            { id: 'hat-tipi-analiz', category_id: 'proses-kontrol', name: 'Hat Tipi Analiz Sistemleri' },
+            { id: 'proses-sensorleri', category_id: 'proses-kontrol', name: 'Proses Sensörleri' },
+            // Pilot Üretim Alt Kategorileri
+            { id: 'karistirma', category_id: 'pilot-uretim', name: 'Karıştırma ve Homojenizasyon' },
+            { id: 'kurutma-isleme', category_id: 'pilot-uretim', name: 'Kurutma ve İşleme' },
+            { id: 'filtrasyon-separasyon', category_id: 'pilot-uretim', name: 'Filtrasyon ve Separasyon' }
           ])
         }
       } catch (error) {
         console.error('Failed to fetch categories:', error)
-        // Fallback to static data if D1 fails
-        setCategories([{ id: 'lab-equipment', name: 'Laboratuvar Ekipmanları' }])
+        // Fallback to static data if D1 fails - use complete category structure
+        setCategories([
+          { id: 'laboratuvar-ekipmanlari', name: 'Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler' },
+          { id: 'proses-kontrol', name: 'Proses Kontrol Ve Hat Tipi Analiz Çözümleri' },
+          { id: 'pilot-uretim', name: 'Pilot Tipi Üretim ve Proses Simülasyon Sistemleri' }
+        ])
         setSubcategories([
-          { id: 'genel-lab', category_id: 'lab-equipment', name: 'Genel Laboratuvar Ekipmanları' },
-          { id: 'fiziksel-analiz', category_id: 'lab-equipment', name: 'Fiziksel Analiz Ekipmanları' },
-          { id: 'kimyasal-analiz', category_id: 'lab-equipment', name: 'Kimyasal Analiz Ekipmanları' }
+          // Laboratuvar Ekipmanları Alt Kategorileri
+          { id: 'fiziksel-analiz', category_id: 'laboratuvar-ekipmanlari', name: 'Fiziksel Analiz Ekipmanları' },
+          { id: 'kimyasal-analiz', category_id: 'laboratuvar-ekipmanlari', name: 'Kimyasal Analiz Ekipmanları' },
+          { id: 'mikrobiyoloji-analiz', category_id: 'laboratuvar-ekipmanlari', name: 'Mikrobiyoloji Analiz Ekipmanları' },
+          { id: 'molekuler-biyoloji', category_id: 'laboratuvar-ekipmanlari', name: 'Moleküler Biyoloji/Genetik Analiz Ekipmanları' },
+          { id: 'test-olcu-kontrol', category_id: 'laboratuvar-ekipmanlari', name: 'Test, Ölçü Kontrol Sistemleri' },
+          { id: 'ambalaj-test', category_id: 'laboratuvar-ekipmanlari', name: 'Ambalaj ve Malzeme Test Sistemleri' },
+          { id: 'arastirma-gelistirme', category_id: 'laboratuvar-ekipmanlari', name: 'Araştırma ve Geliştirme Ekipmanları' },
+          // Proses Kontrol Alt Kategorileri
+          { id: 'hat-tipi-analiz', category_id: 'proses-kontrol', name: 'Hat Tipi Analiz Sistemleri' },
+          { id: 'proses-sensorleri', category_id: 'proses-kontrol', name: 'Proses Sensörleri' },
+          // Pilot Üretim Alt Kategorileri
+          { id: 'karistirma', category_id: 'pilot-uretim', name: 'Karıştırma ve Homojenizasyon' },
+          { id: 'kurutma-isleme', category_id: 'pilot-uretim', name: 'Kurutma ve İşleme' },
+          { id: 'filtrasyon-separasyon', category_id: 'pilot-uretim', name: 'Filtrasyon ve Separasyon' }
         ])
       }
     }
