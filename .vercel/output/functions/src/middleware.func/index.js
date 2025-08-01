@@ -1,7 +1,7 @@
 
   
   globalThis._ENTRIES = {};
-/**/;self.__PRERENDER_MANIFEST="{\"version\":4,\"routes\":{},\"dynamicRoutes\":{},\"notFoundRoutes\":[],\"preview\":{\"previewModeId\":\"2e476c5b675617df6c228c804c07d159\",\"previewModeSigningKey\":\"5373ce7bf5b0c9f919475c6297ac98fb380af6c81a81ba3b41c124b4aa4f7946\",\"previewModeEncryptionKey\":\"382abcf42bcf47b9e366a65ef9463ba867aa1451d2bd03c3d847ad8aeac3845f\"}}"
+/**/;self.__PRERENDER_MANIFEST="{\"version\":4,\"routes\":{},\"dynamicRoutes\":{},\"notFoundRoutes\":[],\"preview\":{\"previewModeId\":\"11b8f091555baf3b138e2528dbd00568\",\"previewModeSigningKey\":\"44a0ea52e436aacb37154c6ffafadf1884530c3300cd754eed2961985c54cb76\",\"previewModeEncryptionKey\":\"262c6a4617f842856042b20e3dc32220b8cead5f2372c6675e97f2b9623f3e43\"}}"
 /**/;/******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({});
@@ -210,7 +210,7 @@ module.exports = require("node:buffer");
 
 /***/ }),
 
-/***/ 5257:
+/***/ 6794:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -6958,108 +6958,6 @@ async function generateSecret(alg, options) {
 
 const cryptoRuntime = "WebCryptoAPI";
 
-;// CONCATENATED MODULE: ./src/lib/password-edge.ts
-// Edge Runtime compatible password utilities using Web Crypto API
-// Replaces bcryptjs for bundle size optimization and Edge Runtime compatibility
-class password_edge_EdgePasswordUtils {
-    /**
-   * Hash password using PBKDF2 with Web Crypto API
-   * Compatible with Edge Runtime, much smaller bundle size than bcryptjs
-   */ static async hashPassword(password, salt) {
-        // Use provided salt or generate new one
-        const saltBytes = salt || crypto.getRandomValues(new Uint8Array(32));
-        // Convert password to bytes
-        const passwordBytes = new TextEncoder().encode(password);
-        // Import password as cryptographic key
-        const key = await crypto.subtle.importKey("raw", passwordBytes, {
-            name: "PBKDF2"
-        }, false, [
-            "deriveBits"
-        ]);
-        // Derive hash using PBKDF2
-        const hashBuffer = await crypto.subtle.deriveBits({
-            name: "PBKDF2",
-            salt: saltBytes,
-            iterations: 100000,
-            hash: "SHA-256"
-        }, key, 256 // 32 bytes = 256 bits
-        );
-        const hashBytes = new Uint8Array(hashBuffer);
-        // Combine salt and hash for storage
-        // Format: salt (32 bytes) + hash (32 bytes) = 64 bytes total
-        const combined = new Uint8Array(64);
-        combined.set(saltBytes, 0);
-        combined.set(hashBytes, 32);
-        // Convert to base64 for storage
-        return btoa(String.fromCharCode.apply(null, Array.from(combined)));
-    }
-    /**
-   * Verify password against hash
-   * Compatible with Edge Runtime
-   */ static async verifyPassword(password, storedHash) {
-        try {
-            // Decode base64 hash
-            const combined = new Uint8Array(atob(storedHash).split("").map((char)=>char.charCodeAt(0)));
-            // Extract salt (first 32 bytes) and stored hash (last 32 bytes)
-            const salt = combined.slice(0, 32);
-            const storedHashBytes = combined.slice(32, 64);
-            // Hash the provided password with the same salt
-            const passwordBytes = new TextEncoder().encode(password);
-            const key = await crypto.subtle.importKey("raw", passwordBytes, {
-                name: "PBKDF2"
-            }, false, [
-                "deriveBits"
-            ]);
-            const hashBuffer = await crypto.subtle.deriveBits({
-                name: "PBKDF2",
-                salt: salt,
-                iterations: 100000,
-                hash: "SHA-256"
-            }, key, 256);
-            const computedHashBytes = new Uint8Array(hashBuffer);
-            // Constant-time comparison to prevent timing attacks
-            return this.constantTimeEquals(storedHashBytes, computedHashBytes);
-        } catch (error) {
-            console.error("Password verification error:", error);
-            return false;
-        }
-    }
-    /**
-   * Constant-time comparison to prevent timing attacks
-   */ static constantTimeEquals(a, b) {
-        if (a.length !== b.length) {
-            return false;
-        }
-        let result = 0;
-        for(let i = 0; i < a.length; i++){
-            result |= a[i] ^ b[i];
-        }
-        return result === 0;
-    }
-    /**
-   * Generate random password
-   * Same functionality as bcryptjs version
-   */ static generateRandomPassword(length = 12) {
-        const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*";
-        let password = "";
-        const randomBytes = crypto.getRandomValues(new Uint8Array(length));
-        for(let i = 0; i < length; i++){
-            password += chars.charAt(randomBytes[i] % chars.length);
-        }
-        return password;
-    }
-    /**
-   * Migrate existing bcrypt hash to new format
-   * For backward compatibility during migration
-   */ static async migrateBcryptHash(password, bcryptHash) {
-        // In a real migration, you would verify against bcrypt first
-        // then create new hash. For now, just create new hash
-        return await this.hashPassword(password);
-    }
-}
-// Export for compatibility
-const PasswordUtils = (/* unused pure expression or super */ null && (password_edge_EdgePasswordUtils));
-
 ;// CONCATENATED MODULE: ./src/lib/database.ts
 // Database connection utility for Cloudflare D1
 // Database connection helper
@@ -7190,15 +7088,16 @@ const ValidationUtils = {
 // Authentication utilities and services
 
 
-
-// JWT Configuration
-const JWT_SECRET = process.env.JWT_SECRET || "your-super-secret-jwt-key-change-in-production";
-const JWT_ACCESS_EXPIRES_IN = process.env.JWT_ACCESS_EXPIRES_IN || "15m";
-const JWT_REFRESH_EXPIRES_IN = process.env.JWT_REFRESH_EXPIRES_IN || "7d";
-// JWT Utilities
+// Constants
+const JWT_ACCESS_EXPIRES_IN = "15m" // 15 minutes
+;
+const JWT_REFRESH_EXPIRES_IN = "7d" // 7 days
+;
+// JWT utilities
 class JWTUtils {
     static getSecret() {
-        return new TextEncoder().encode(JWT_SECRET);
+        const secret = process.env.JWT_SECRET || "your-super-secret-jwt-key-change-this-in-production";
+        return new TextEncoder().encode(secret);
     }
     // Generate access token (short-lived)
     static async generateAccessToken(user) {
@@ -7242,15 +7141,20 @@ class JWTUtils {
         }
     }
 }
-// Password utilities
-class auth_PasswordUtils {
-    // Hash password
+// Edge Runtime compatible password utilities
+class PasswordUtils {
+    // Simple hash using Web Crypto API (Edge Runtime compatible)
     static async hashPassword(password) {
-        return await EdgePasswordUtils.hashPassword(password);
+        const encoder = new TextEncoder();
+        const data = encoder.encode(password + "protek-salt-2024");
+        const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        return hashArray.map((b)=>b.toString(16).padStart(2, "0")).join("");
     }
-    // Verify password
+    // Verify password using Web Crypto API
     static async verifyPassword(password, hashedPassword) {
-        return await EdgePasswordUtils.verifyPassword(password, hashedPassword);
+        const computedHash = await this.hashPassword(password);
+        return computedHash === hashedPassword;
     }
     // Generate random password
     static generateRandomPassword(length = 12) {
@@ -7577,7 +7481,9 @@ async function middleware(request) {
         const response = NextResponse.next();
         response.headers.set("x-user-id", verificationResult.user.id);
         response.headers.set("x-user-role", verificationResult.user.role);
-        response.headers.set("x-user-email", verificationResult.user.email);
+        if (verificationResult.user.email) {
+            response.headers.set("x-user-email", verificationResult.user.email);
+        }
         return response;
     } catch (error) {
         console.error("Middleware error:", error);
@@ -9912,7 +9818,7 @@ function createAsyncLocalStorage() {
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ var __webpack_exports__ = (__webpack_exec__(5257));
+/******/ var __webpack_exports__ = (__webpack_exec__(6794));
 /******/ (_ENTRIES = typeof _ENTRIES === "undefined" ? {} : _ENTRIES)["middleware_src/middleware"] = __webpack_exports__;
 /******/ }
 ]);

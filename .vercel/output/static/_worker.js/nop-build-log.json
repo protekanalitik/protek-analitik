@@ -1,5 +1,5 @@
 {
-  "timestamp": 1754049792951,
+  "timestamp": 1754057469650,
   "outputDir": ".vercel/output/static/_worker.js",
   "versions": {
     "@cloudflare/next-on-pages": "1.13.13"
@@ -216,7 +216,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/resources/events/new.func.js",
-          "outputByteSize": 46803
+          "outputByteSize": 46805
         },
         {
           "relativePath": "/admin/resources/news/edit/[id].func",
@@ -239,7 +239,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/resources/news/edit/[id].func.js",
-          "outputByteSize": 44526
+          "outputByteSize": 44528
         },
         {
           "relativePath": "/admin/resources/news/new.func",
@@ -262,7 +262,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/resources/news/new.func.js",
-          "outputByteSize": 42153
+          "outputByteSize": 42151
         },
         {
           "relativePath": "/admin/resources.func",
@@ -285,7 +285,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/admin/resources.func.js",
-          "outputByteSize": 41477
+          "outputByteSize": 41479
         },
         {
           "relativePath": "/admin.func",
@@ -331,7 +331,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/api/auth/login.func.js",
-          "outputByteSize": 14967
+          "outputByteSize": 14480
         },
         {
           "relativePath": "/api/auth/logout.func",
@@ -377,7 +377,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/api/auth/me.func.js",
-          "outputByteSize": 14230
+          "outputByteSize": 14200
         },
         {
           "relativePath": "/api/auth/refresh.func",
@@ -400,7 +400,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/api/auth/refresh.func.js",
-          "outputByteSize": 14465
+          "outputByteSize": 14002
         },
         {
           "relativePath": "/api/categories.func",
@@ -423,7 +423,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/api/categories.func.js",
-          "outputByteSize": 17614
+          "outputByteSize": 17738
         },
         {
           "relativePath": "/api/contact.func",
@@ -446,7 +446,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/api/contact.func.js",
-          "outputByteSize": 23382
+          "outputByteSize": 23506
         },
         {
           "relativePath": "/api/events/[id].func",
@@ -469,7 +469,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/api/events/[id].func.js",
-          "outputByteSize": 18408
+          "outputByteSize": 18653
         },
         {
           "relativePath": "/api/events.func",
@@ -492,7 +492,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/api/events.func.js",
-          "outputByteSize": 20456
+          "outputByteSize": 20581
         },
         {
           "relativePath": "/api/news/[id].func",
@@ -515,7 +515,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/api/news/[id].func.js",
-          "outputByteSize": 21155
+          "outputByteSize": 21286
         },
         {
           "relativePath": "/api/news.func",
@@ -538,7 +538,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/api/news.func.js",
-          "outputByteSize": 21906
+          "outputByteSize": 22031
         },
         {
           "relativePath": "/api/products/[id].func",
@@ -584,7 +584,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/api/products.func.js",
-          "outputByteSize": 57419
+          "outputByteSize": 57549
         },
         {
           "relativePath": "/api/quotes.func",
@@ -607,7 +607,30 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/api/quotes.func.js",
-          "outputByteSize": 14891
+          "outputByteSize": 15004
+        },
+        {
+          "relativePath": "/api/test.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/test",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/test",
+            "overrides": [
+              "/api/test.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/test.func.js",
+          "outputByteSize": 13441
         },
         {
           "relativePath": "/api/upload.func",
@@ -676,7 +699,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/cozumler/ar-ge-laboratuvarlari.func.js",
-          "outputByteSize": 46782
+          "outputByteSize": 46780
         },
         {
           "relativePath": "/cozumler/endustriyel-laboratuvar-kurulumu.func",
@@ -699,7 +722,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/cozumler/endustriyel-laboratuvar-kurulumu.func.js",
-          "outputByteSize": 54191
+          "outputByteSize": 54189
         },
         {
           "relativePath": "/cozumler/kalite-guvence-sistemleri.func",
@@ -745,7 +768,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/cozumler/otomasyon-sistemleri.func.js",
-          "outputByteSize": 58443
+          "outputByteSize": 58441
         },
         {
           "relativePath": "/cozumler.func",
@@ -884,7 +907,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/kaynaklar/haber/[id].func.js",
-          "outputByteSize": 39093
+          "outputByteSize": 39095
         },
         {
           "relativePath": "/kaynaklar.func",
@@ -930,7 +953,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/login.func.js",
-          "outputByteSize": 35554
+          "outputByteSize": 35556
         },
         {
           "relativePath": "/sektorler.func",
@@ -974,7 +997,7 @@
             "overrides": []
           },
           "outputPath": "__next-on-pages-dist__/functions/src/middleware.func.js",
-          "outputByteSize": 152640
+          "outputByteSize": 151414
         },
         {
           "relativePath": "/teklif-al.func",
@@ -997,7 +1020,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/teklif-al.func.js",
-          "outputByteSize": 48844
+          "outputByteSize": 48842
         },
         {
           "relativePath": "/urunler/[category]/[subcategory]/[product].func",
@@ -1616,6 +1639,26 @@
         },
         {
           "reason": "unnecessary rsc function",
+          "relativePath": "/api/test.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/test",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "14.0.4"
+            },
+            "environment": {}
+          },
+          "route": {
+            "path": "/api/test.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
           "relativePath": "/api/upload.rsc.func",
           "config": {
             "runtime": "edge",
@@ -2080,6 +2123,8 @@
       "/_app.rsc.json",
       "/_document.rsc.json",
       "/_error.rsc.json",
+      "/_next/static/V2vffGqo4sqoK7-YO4g79/_buildManifest.js",
+      "/_next/static/V2vffGqo4sqoK7-YO4g79/_ssgManifest.js",
       "/_next/static/chunks/1122.9f20dd5e55971545.js",
       "/_next/static/chunks/1176-d4d5824f0a0f6313.js",
       "/_next/static/chunks/1422-06c339c6fcaaef72.js",
@@ -2140,15 +2185,13 @@
       "/_next/static/chunks/app/urunler/page-4be944d1cac16e1a.js",
       "/_next/static/chunks/fd9d1056-98c08b4112521d6b.js",
       "/_next/static/chunks/framework-b566207abf043e2e.js",
-      "/_next/static/chunks/main-069b4682bc5c4efc.js",
       "/_next/static/chunks/main-app-b5434e56c2b0ff6f.js",
+      "/_next/static/chunks/main-eeac8bff5b3f294b.js",
       "/_next/static/chunks/pages/_app-11c09b1e93f7270c.js",
       "/_next/static/chunks/pages/_error-7ae0e5d1f9ec0862.js",
       "/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
       "/_next/static/chunks/webpack-7643c4afe75ad5fd.js",
       "/_next/static/css/f2190abd589b6828.css",
-      "/_next/static/sFxzGis0DozChoJI_LfhA/_buildManifest.js",
-      "/_next/static/sFxzGis0DozChoJI_LfhA/_ssgManifest.js",
       "/apple-touch-icon.png",
       "/client-images/3nh.jpg",
       "/client-images/allience.jpg",
@@ -2241,7 +2284,7 @@
           ]
         },
         "__BUILD_MANIFEST": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "27d10e462fba646daaa29468a0656e12",
           "newDest": "__next-on-pages-dist__/manifest/27d10e462fba646daaa29468a0656e12.js",
           "byteLength": 867,
@@ -2272,6 +2315,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -2295,7 +2339,7 @@
           ]
         },
         "__REACT_LOADABLE_MANIFEST": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "27d10e462fba646daaa29468a0656e12",
           "newDest": "__next-on-pages-dist__/manifest/27d10e462fba646daaa29468a0656e12.js",
           "byteLength": 89,
@@ -2326,6 +2370,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -2349,7 +2394,7 @@
           ]
         },
         "__NEXT_FONT_MANIFEST": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "27d10e462fba646daaa29468a0656e12",
           "newDest": "__next-on-pages-dist__/manifest/27d10e462fba646daaa29468a0656e12.js",
           "byteLength": 154,
@@ -2380,6 +2425,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -2419,7 +2465,7 @@
         },
         "55": {
           "consumers": 1,
-          "groupedPath": "83527352a7e9e3e052c6b849208eb8ae",
+          "groupedPath": "a4d70d11f667b70b644429cb33deff47",
           "inlined": true,
           "byteLength": 242,
           "consumersList": [
@@ -2467,7 +2513,7 @@
           ]
         },
         "62": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 76,
@@ -2485,13 +2531,14 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
         "72": {
           "consumers": 1,
           "inlined": true,
-          "byteLength": 1781,
+          "byteLength": 1750,
           "consumersList": [
             "/api/auth/me.func/index.js"
           ]
@@ -2538,7 +2585,7 @@
         },
         "118": {
           "consumers": 1,
-          "groupedPath": "68595dfdb61cb47dfa7f164c0ca6e6f4",
+          "groupedPath": "6a3fbf889dba2f499b8b893ed7fa4710",
           "inlined": true,
           "byteLength": 250,
           "consumersList": [
@@ -2560,7 +2607,7 @@
         },
         "123": {
           "consumers": 1,
-          "groupedPath": "ba89c45b0d997ad48d4fa86fff634cbe",
+          "groupedPath": "3af3b9a4166c4e92713fee6a342774ed",
           "inlined": true,
           "byteLength": 485,
           "consumersList": [
@@ -2607,6 +2654,15 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "146": {
+          "consumers": 1,
+          "groupedPath": "6a3fbf889dba2f499b8b893ed7fa4710",
+          "inlined": true,
+          "byteLength": 6398,
+          "consumersList": [
+            "/admin/resources/news/new.func/index.js"
+          ]
+        },
         "192": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -2648,7 +2704,7 @@
           ]
         },
         "200": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 2343,
@@ -2679,6 +2735,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -2699,6 +2756,15 @@
             "/urunler/[category].func/index.js",
             "/urunler/[category]/[subcategory].func/index.js",
             "/urunler/[category]/[subcategory]/[product].func/index.js"
+          ]
+        },
+        "218": {
+          "consumers": 1,
+          "groupedPath": "f7e4be28595827d05527f0c8bb75678a",
+          "inlined": true,
+          "byteLength": 6371,
+          "consumersList": [
+            "/cozumler/endustriyel-laboratuvar-kurulumu.func/index.js"
           ]
         },
         "228": {
@@ -2861,15 +2927,6 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "318": {
-          "consumers": 1,
-          "groupedPath": "d04cd2d65d5a40d5f97dc9d4cab647ff",
-          "inlined": true,
-          "byteLength": 6065,
-          "consumersList": [
-            "/login.func/index.js"
-          ]
-        },
         "327": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -2967,14 +3024,14 @@
         "392": {
           "consumers": 1,
           "inlined": true,
-          "byteLength": 1968,
+          "byteLength": 1527,
           "consumersList": [
             "/api/auth/refresh.func/index.js"
           ]
         },
         "419": {
           "consumers": 1,
-          "groupedPath": "5b74da4993c3c107ee937a9f87c702cc",
+          "groupedPath": "9a9ffd60e6d233223bc4ccb5dc2dcfc5",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -3030,7 +3087,7 @@
           ]
         },
         "490": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 3308,
@@ -3061,6 +3118,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -3163,15 +3221,6 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "518": {
-          "consumers": 1,
-          "groupedPath": "441bc0242cd90e74f2585d37d94d0a49",
-          "inlined": true,
-          "byteLength": 6291,
-          "consumersList": [
-            "/admin/resources.func/index.js"
-          ]
-        },
         "555": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -3238,7 +3287,7 @@
         },
         "565": {
           "consumers": 1,
-          "groupedPath": "ee29ddfc6b2e2e433df12771f78c5cb1",
+          "groupedPath": "a0f2f0cc92ca83ad291bc56d903af690",
           "inlined": true,
           "byteLength": 234,
           "consumersList": [
@@ -3286,7 +3335,7 @@
           ]
         },
         "577": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 80,
@@ -3317,6 +3366,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -3339,15 +3389,6 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "579": {
-          "consumers": 1,
-          "groupedPath": "f5446b927192e2b980fe3a314faecf69",
-          "inlined": true,
-          "byteLength": 6221,
-          "consumersList": [
-            "/kaynaklar/haber/[id].func/index.js"
-          ]
-        },
         "595": {
           "consumers": 5,
           "groupedPath": "555fb6a927609ae861b14c0a8bd62ba6",
@@ -3359,15 +3400,6 @@
             "/admin/resources/news/new.func/index.js",
             "/index.func/index.js",
             "/urunler/[category]/[subcategory]/[product].func/index.js"
-          ]
-        },
-        "603": {
-          "consumers": 1,
-          "groupedPath": "12f8597b6d4d7c376e35b66f803562f7",
-          "inlined": true,
-          "byteLength": 6415,
-          "consumersList": [
-            "/admin/resources/events/new.func/index.js"
           ]
         },
         "655": {
@@ -3461,17 +3493,8 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "685": {
-          "consumers": 1,
-          "groupedPath": "fa8b4d6940a471b266dbd1f52e5e9cea",
-          "inlined": true,
-          "byteLength": 6465,
-          "consumersList": [
-            "/admin/resources/news/edit/[id].func/index.js"
-          ]
-        },
         "697": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 1031,
@@ -3489,6 +3512,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
@@ -3652,6 +3676,15 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "776": {
+          "consumers": 1,
+          "groupedPath": "adef54dacd09f1965da6312892135892",
+          "inlined": true,
+          "byteLength": 6275,
+          "consumersList": [
+            "/cozumler/otomasyon-sistemleri.func/index.js"
+          ]
+        },
         "836": {
           "consumers": 3,
           "groupedPath": "b7b9f24a0d26d412794edeeb419f88aa",
@@ -3664,7 +3697,7 @@
           ]
         },
         "844": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 1575,
@@ -3695,6 +3728,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -3736,8 +3770,26 @@
             "/teklif-al.func/index.js"
           ]
         },
+        "855": {
+          "consumers": 1,
+          "groupedPath": "7086342aab9f77b2d33c6d3dd4ef9c33",
+          "inlined": true,
+          "byteLength": 6097,
+          "consumersList": [
+            "/teklif-al.func/index.js"
+          ]
+        },
+        "862": {
+          "consumers": 1,
+          "groupedPath": "9a9ffd60e6d233223bc4ccb5dc2dcfc5",
+          "inlined": true,
+          "byteLength": 6283,
+          "consumersList": [
+            "/cozumler/ar-ge-laboratuvarlari.func/index.js"
+          ]
+        },
         "901": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 80,
@@ -3768,6 +3820,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -3807,7 +3860,7 @@
         },
         "992": {
           "consumers": 1,
-          "groupedPath": "bc7f5ef72d38b4508ce4178c214f0617",
+          "groupedPath": "cd17e56adf4ff105aa384d637b825457",
           "inlined": true,
           "byteLength": 26143,
           "consumersList": [
@@ -3955,7 +4008,7 @@
         },
         "1089": {
           "consumers": 1,
-          "groupedPath": "0ab023955c37ff80fc61534c3b17fba7",
+          "groupedPath": "53fa87122cd6ddfa78bef6c582e76287",
           "inlined": true,
           "byteLength": 11186,
           "consumersList": [
@@ -4014,7 +4067,7 @@
           ]
         },
         "1115": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 6898,
@@ -4045,6 +4098,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -4078,27 +4132,9 @@
             "/login.func/index.js"
           ]
         },
-        "1124": {
-          "consumers": 1,
-          "groupedPath": "4316c95aa5b176538e2cf16e2ae60e2e",
-          "inlined": true,
-          "byteLength": 6333,
-          "consumersList": [
-            "/admin/products/new.func/index.js"
-          ]
-        },
-        "1143": {
-          "consumers": 1,
-          "groupedPath": "6c2f8e2ea9c613a8edfab8dbee339e99",
-          "inlined": true,
-          "byteLength": 6193,
-          "consumersList": [
-            "/admin.func/index.js"
-          ]
-        },
         "1150": {
           "consumers": 1,
-          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
+          "groupedPath": "1b1b34afd1d65d3c55581a56d022a213",
           "inlined": true,
           "byteLength": 11872,
           "consumersList": [
@@ -4145,15 +4181,6 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "1187": {
-          "consumers": 1,
-          "groupedPath": "242648effc20f8c06f6b7494a0dd2eb4",
-          "inlined": true,
-          "byteLength": 6275,
-          "consumersList": [
-            "/admin/contact.func/index.js"
-          ]
-        },
         "1196": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -4196,16 +4223,25 @@
         },
         "1220": {
           "consumers": 1,
-          "groupedPath": "f9d3316f954bb4b249f47d54e70ce2f0",
+          "groupedPath": "2c63dc92b8abb4b35ecaa1a68405820c",
           "inlined": true,
           "byteLength": 23190,
           "consumersList": [
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "1249": {
+          "consumers": 1,
+          "groupedPath": "adea9bed93ca41d1498bdefdcfd3ed54",
+          "inlined": true,
+          "byteLength": 6315,
+          "consumersList": [
+            "/cozumler/kalite-guvence-sistemleri.func/index.js"
+          ]
+        },
         "1273": {
           "consumers": 1,
-          "groupedPath": "3d11d090e518bbdf54e2f14750592bd7",
+          "groupedPath": "428230b817e8825c65815f2c5120b880",
           "inlined": true,
           "byteLength": 248,
           "consumersList": [
@@ -4214,7 +4250,7 @@
         },
         "1358": {
           "consumers": 1,
-          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
+          "groupedPath": "1b1b34afd1d65d3c55581a56d022a213",
           "inlined": true,
           "byteLength": 6791,
           "consumersList": [
@@ -4234,7 +4270,7 @@
         "1386": {
           "consumers": 1,
           "inlined": true,
-          "byteLength": 5669,
+          "byteLength": 5896,
           "consumersList": [
             "/api/events/[id].func/index.js"
           ]
@@ -4361,7 +4397,7 @@
         },
         "1456": {
           "consumers": 1,
-          "groupedPath": "9abc45368395b417ae1bd486eb1e9a1a",
+          "groupedPath": "6d584a63a246ba5e41475f24250e431d",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -4383,7 +4419,7 @@
         },
         "1478": {
           "consumers": 1,
-          "groupedPath": "bc7f5ef72d38b4508ce4178c214f0617",
+          "groupedPath": "cd17e56adf4ff105aa384d637b825457",
           "inlined": true,
           "byteLength": 235,
           "consumersList": [
@@ -4392,7 +4428,7 @@
         },
         "1513": {
           "consumers": 1,
-          "groupedPath": "073f03f688104ce781b56d3337b2a12b",
+          "groupedPath": "2887e6a825f1f9054a4822b9bddffcee",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -4441,7 +4477,7 @@
         },
         "1519": {
           "consumers": 1,
-          "groupedPath": "69a1390a5c0c6249bea257483506452a",
+          "groupedPath": "b044c2675369332a796e2282ce57be22",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -4539,8 +4575,17 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "1665": {
+          "consumers": 1,
+          "groupedPath": "92eab3c49f91d094692bae6ec1b6759f",
+          "inlined": true,
+          "byteLength": 6399,
+          "consumersList": [
+            "/admin/products/[id]/edit.func/index.js"
+          ]
+        },
         "1681": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 245,
@@ -4571,6 +4616,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -4595,7 +4641,7 @@
         },
         "1699": {
           "consumers": 1,
-          "groupedPath": "242648effc20f8c06f6b7494a0dd2eb4",
+          "groupedPath": "b78c189689138b99fdc3dcfc0337befc",
           "inlined": true,
           "byteLength": 239,
           "consumersList": [
@@ -4603,7 +4649,7 @@
           ]
         },
         "1707": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 1001,
@@ -4634,6 +4680,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -4696,9 +4743,18 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "1754": {
+          "consumers": 1,
+          "groupedPath": "52ebb287c28657ce5a03787755a0b52b",
+          "inlined": true,
+          "byteLength": 6333,
+          "consumersList": [
+            "/admin/products/new.func/index.js"
+          ]
+        },
         "1767": {
           "consumers": 1,
-          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
+          "groupedPath": "1b1b34afd1d65d3c55581a56d022a213",
           "inlined": true,
           "byteLength": 4167,
           "consumersList": [
@@ -4706,7 +4762,7 @@
           ]
         },
         "1774": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 36645,
@@ -4724,6 +4780,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
@@ -4864,7 +4921,7 @@
           ]
         },
         "1805": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 322,
@@ -4882,6 +4939,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
@@ -4937,7 +4995,7 @@
           ]
         },
         "1949": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 4382,
@@ -4955,6 +5013,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
@@ -4968,7 +5027,7 @@
           ]
         },
         "2002": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 192,
@@ -4986,6 +5045,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
@@ -5090,7 +5150,7 @@
           ]
         },
         "2067": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 95,
@@ -5121,6 +5181,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -5196,7 +5257,7 @@
           ]
         },
         "2075": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 24501,
@@ -5227,6 +5288,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -5289,18 +5351,9 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "2162": {
-          "consumers": 1,
-          "groupedPath": "9abc45368395b417ae1bd486eb1e9a1a",
-          "inlined": true,
-          "byteLength": 6299,
-          "consumersList": [
-            "/cozumler/anahtar-teslim-projeler.func/index.js"
-          ]
-        },
         "2190": {
           "consumers": 1,
-          "groupedPath": "f5446b927192e2b980fe3a314faecf69",
+          "groupedPath": "8326df4bee341be81ddac0f3dbb58dbc",
           "inlined": true,
           "byteLength": 7088,
           "consumersList": [
@@ -5318,8 +5371,17 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "2247": {
+          "consumers": 1,
+          "groupedPath": "3511ce04ed5561bad3a4785f93ce1ffa",
+          "inlined": true,
+          "byteLength": 6245,
+          "consumersList": [
+            "/kaynaklar/etkinlik/[id].func/index.js"
+          ]
+        },
         "2251": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 196,
@@ -5350,6 +5412,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -5414,7 +5477,7 @@
         },
         "2281": {
           "consumers": 1,
-          "groupedPath": "514dde7a47489c411f724231f17e048a",
+          "groupedPath": "8fb9c65d296bb68a3697245b1339fb16",
           "inlined": true,
           "byteLength": 49100,
           "consumersList": [
@@ -5422,7 +5485,7 @@
           ]
         },
         "2283": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 114,
@@ -5440,6 +5503,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
@@ -5485,7 +5549,7 @@
         },
         "2311": {
           "consumers": 1,
-          "groupedPath": "4c482c053e074279251fb71afedd95a5",
+          "groupedPath": "7086342aab9f77b2d33c6d3dd4ef9c33",
           "inlined": true,
           "byteLength": 491,
           "consumersList": [
@@ -5534,7 +5598,7 @@
         },
         "2349": {
           "consumers": 1,
-          "groupedPath": "f9d3316f954bb4b249f47d54e70ce2f0",
+          "groupedPath": "2c63dc92b8abb4b35ecaa1a68405820c",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -5565,12 +5629,30 @@
             "/urunler/[category]/[subcategory].func/index.js"
           ]
         },
+        "2386": {
+          "consumers": 1,
+          "groupedPath": "428230b817e8825c65815f2c5120b880",
+          "inlined": true,
+          "byteLength": 6365,
+          "consumersList": [
+            "/admin/contact/messages.func/index.js"
+          ]
+        },
         "2389": {
           "consumers": 1,
           "inlined": true,
-          "byteLength": 4866,
+          "byteLength": 4980,
           "consumersList": [
             "/api/categories.func/index.js"
+          ]
+        },
+        "2401": {
+          "consumers": 1,
+          "groupedPath": "23e5d128d17a5b70bb90b380f47a1725",
+          "inlined": true,
+          "byteLength": 6187,
+          "consumersList": [
+            "/urunler/[category].func/index.js"
           ]
         },
         "2428": {
@@ -5613,8 +5695,17 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "2432": {
+          "consumers": 1,
+          "groupedPath": "b044c2675369332a796e2282ce57be22",
+          "inlined": true,
+          "byteLength": 6105,
+          "consumersList": [
+            "/hakkimizda.func/index.js"
+          ]
+        },
         "2445": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 102,
@@ -5645,6 +5736,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -5681,7 +5773,7 @@
         },
         "2500": {
           "consumers": 1,
-          "groupedPath": "68595dfdb61cb47dfa7f164c0ca6e6f4",
+          "groupedPath": "6a3fbf889dba2f499b8b893ed7fa4710",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -5730,7 +5822,7 @@
         },
         "2530": {
           "consumers": 1,
-          "groupedPath": "514dde7a47489c411f724231f17e048a",
+          "groupedPath": "8fb9c65d296bb68a3697245b1339fb16",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -5738,7 +5830,7 @@
           ]
         },
         "2568": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 118,
@@ -5769,6 +5861,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -5805,7 +5898,7 @@
         },
         "2616": {
           "consumers": 1,
-          "groupedPath": "f9d3316f954bb4b249f47d54e70ce2f0",
+          "groupedPath": "2c63dc92b8abb4b35ecaa1a68405820c",
           "inlined": true,
           "byteLength": 386,
           "consumersList": [
@@ -5813,7 +5906,7 @@
           ]
         },
         "2639": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 5600,
@@ -5831,12 +5924,13 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
         "2670": {
           "consumers": 1,
-          "groupedPath": "d04cd2d65d5a40d5f97dc9d4cab647ff",
+          "groupedPath": "a7c65adb4ce82d52212b713738dae8f8",
           "inlined": true,
           "byteLength": 479,
           "consumersList": [
@@ -5846,33 +5940,24 @@
         "2674": {
           "consumers": 1,
           "inlined": true,
-          "byteLength": 42102,
+          "byteLength": 42216,
           "consumersList": [
             "/api/products.func/index.js"
           ]
         },
         "2710": {
           "consumers": 1,
-          "groupedPath": "5ae81bd7621c708cff8e171ed9bfa52b",
+          "groupedPath": "23e5d128d17a5b70bb90b380f47a1725",
           "inlined": true,
           "byteLength": 9864,
           "consumersList": [
             "/urunler/[category].func/index.js"
           ]
         },
-        "2721": {
-          "consumers": 1,
-          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
-          "inlined": true,
-          "byteLength": 6000,
-          "consumersList": [
-            "/index.func/index.js"
-          ]
-        },
         "2740": {
           "consumers": 1,
           "inlined": true,
-          "byteLength": 2485,
+          "byteLength": 2590,
           "consumersList": [
             "/api/quotes.func/index.js"
           ]
@@ -5880,7 +5965,7 @@
         "2751": {
           "consumers": 1,
           "inlined": true,
-          "byteLength": 7706,
+          "byteLength": 7821,
           "consumersList": [
             "/api/events.func/index.js"
           ]
@@ -5937,7 +6022,7 @@
           ]
         },
         "2834": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 8428,
@@ -5955,6 +6040,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
@@ -6090,8 +6176,29 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "2887": {
+          "consumers": 13,
+          "groupedPath": "5406a977c649481796cd80846319eca8",
+          "newDest": "__next-on-pages-dist__/webpack/5406a977c649481796cd80846319eca8.js",
+          "byteLength": 27432,
+          "consumersList": [
+            "/api/auth/login.func/index.js",
+            "/api/auth/me.func/index.js",
+            "/api/auth/refresh.func/index.js",
+            "/api/categories.func/index.js",
+            "/api/contact.func/index.js",
+            "/api/events.func/index.js",
+            "/api/events/[id].func/index.js",
+            "/api/news.func/index.js",
+            "/api/news/[id].func/index.js",
+            "/api/products.func/index.js",
+            "/api/products/[id].func/index.js",
+            "/api/quotes.func/index.js",
+            "/api/upload.func/index.js"
+          ]
+        },
         "2898": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 7291,
@@ -6122,6 +6229,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -6184,6 +6292,24 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "2938": {
+          "consumers": 1,
+          "groupedPath": "a7c65adb4ce82d52212b713738dae8f8",
+          "inlined": true,
+          "byteLength": 6065,
+          "consumersList": [
+            "/login.func/index.js"
+          ]
+        },
+        "2972": {
+          "consumers": 1,
+          "groupedPath": "6d584a63a246ba5e41475f24250e431d",
+          "inlined": true,
+          "byteLength": 6299,
+          "consumersList": [
+            "/cozumler/anahtar-teslim-projeler.func/index.js"
+          ]
+        },
         "3002": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -6226,20 +6352,20 @@
         },
         "3008": {
           "consumers": 1,
-          "groupedPath": "9abc45368395b417ae1bd486eb1e9a1a",
+          "groupedPath": "6d584a63a246ba5e41475f24250e431d",
           "inlined": true,
           "byteLength": 13163,
           "consumersList": [
             "/cozumler/anahtar-teslim-projeler.func/index.js"
           ]
         },
-        "3018": {
+        "3027": {
           "consumers": 1,
-          "groupedPath": "9464a64b37b5a5d27dc9bfb09fa5308d",
+          "groupedPath": "8326df4bee341be81ddac0f3dbb58dbc",
           "inlined": true,
-          "byteLength": 6275,
+          "byteLength": 6221,
           "consumersList": [
-            "/cozumler/otomasyon-sistemleri.func/index.js"
+            "/kaynaklar/haber/[id].func/index.js"
           ]
         },
         "3037": {
@@ -6313,7 +6439,7 @@
         },
         "3167": {
           "consumers": 1,
-          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
+          "groupedPath": "1b1b34afd1d65d3c55581a56d022a213",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -6360,6 +6486,15 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "3225": {
+          "consumers": 1,
+          "groupedPath": "8fb9c65d296bb68a3697245b1339fb16",
+          "inlined": true,
+          "byteLength": 6097,
+          "consumersList": [
+            "/sektorler.func/index.js"
+          ]
+        },
         "3238": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -6398,6 +6533,15 @@
             "/urunler/[category].func/index.js",
             "/urunler/[category]/[subcategory].func/index.js",
             "/urunler/[category]/[subcategory]/[product].func/index.js"
+          ]
+        },
+        "3260": {
+          "consumers": 1,
+          "groupedPath": "c3b3c1084a4f4274ccd1fefb5396c85c",
+          "inlined": true,
+          "byteLength": 6465,
+          "consumersList": [
+            "/admin/resources/news/edit/[id].func/index.js"
           ]
         },
         "3298": {
@@ -6442,7 +6586,7 @@
         },
         "3306": {
           "consumers": 1,
-          "groupedPath": "441bc0242cd90e74f2585d37d94d0a49",
+          "groupedPath": "e4c8d9edec5b1ee9d6f8857356692647",
           "inlined": true,
           "byteLength": 9284,
           "consumersList": [
@@ -6461,15 +6605,6 @@
             "/urunler/[category].func/index.js",
             "/urunler/[category]/[subcategory].func/index.js",
             "/urunler/[category]/[subcategory]/[product].func/index.js"
-          ]
-        },
-        "3333": {
-          "consumers": 1,
-          "groupedPath": "4c482c053e074279251fb71afedd95a5",
-          "inlined": true,
-          "byteLength": 6097,
-          "consumersList": [
-            "/teklif-al.func/index.js"
           ]
         },
         "3335": {
@@ -6514,7 +6649,7 @@
         },
         "3397": {
           "consumers": 1,
-          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
+          "groupedPath": "1b1b34afd1d65d3c55581a56d022a213",
           "inlined": true,
           "byteLength": 18693,
           "consumersList": [
@@ -6523,8 +6658,8 @@
         },
         "3442": {
           "consumers": 13,
-          "groupedPath": "d40e3625fb8013b09e896d8534a83cf9",
-          "newDest": "__next-on-pages-dist__/webpack/d40e3625fb8013b09e896d8534a83cf9.js",
+          "groupedPath": "5406a977c649481796cd80846319eca8",
+          "newDest": "__next-on-pages-dist__/webpack/5406a977c649481796cd80846319eca8.js",
           "byteLength": 895,
           "consumersList": [
             "/api/auth/login.func/index.js",
@@ -6584,7 +6719,7 @@
         },
         "3463": {
           "consumers": 1,
-          "groupedPath": "51fb0cf52b618967c53f64304038ae35",
+          "groupedPath": "92eab3c49f91d094692bae6ec1b6759f",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -6632,7 +6767,7 @@
           ]
         },
         "3471": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 422,
@@ -6650,12 +6785,13 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
         "3475": {
           "consumers": 1,
-          "groupedPath": "073f03f688104ce781b56d3337b2a12b",
+          "groupedPath": "2887e6a825f1f9054a4822b9bddffcee",
           "inlined": true,
           "byteLength": 506,
           "consumersList": [
@@ -6836,15 +6972,6 @@
             "/sektorler.func/index.js"
           ]
         },
-        "3784": {
-          "consumers": 1,
-          "groupedPath": "ee29ddfc6b2e2e433df12771f78c5cb1",
-          "inlined": true,
-          "byteLength": 6088,
-          "consumersList": [
-            "/iletisim.func/index.js"
-          ]
-        },
         "3833": {
           "consumers": 4,
           "newDest": "__next-on-pages-dist__/webpack/3833.js",
@@ -6899,14 +7026,14 @@
         "3842": {
           "consumers": 1,
           "inlined": true,
-          "byteLength": 8172,
+          "byteLength": 8293,
           "consumersList": [
             "/api/news/[id].func/index.js"
           ]
         },
         "3855": {
           "consumers": 1,
-          "groupedPath": "69a1390a5c0c6249bea257483506452a",
+          "groupedPath": "b044c2675369332a796e2282ce57be22",
           "inlined": true,
           "byteLength": 25019,
           "consumersList": [
@@ -7035,7 +7162,7 @@
         },
         "3942": {
           "consumers": 1,
-          "groupedPath": "fa8b4d6940a471b266dbd1f52e5e9cea",
+          "groupedPath": "c3b3c1084a4f4274ccd1fefb5396c85c",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -7174,7 +7301,7 @@
           ]
         },
         "4025": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 4224,
@@ -7192,11 +7319,12 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
         "4040": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 96,
@@ -7214,33 +7342,21 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
-        "4110": {
-          "consumers": 13,
-          "groupedPath": "d40e3625fb8013b09e896d8534a83cf9",
-          "newDest": "__next-on-pages-dist__/webpack/d40e3625fb8013b09e896d8534a83cf9.js",
-          "byteLength": 27512,
+        "4057": {
+          "consumers": 1,
+          "inlined": true,
+          "byteLength": 5971,
           "consumersList": [
-            "/api/auth/login.func/index.js",
-            "/api/auth/me.func/index.js",
-            "/api/auth/refresh.func/index.js",
-            "/api/categories.func/index.js",
-            "/api/contact.func/index.js",
-            "/api/events.func/index.js",
-            "/api/events/[id].func/index.js",
-            "/api/news.func/index.js",
-            "/api/news/[id].func/index.js",
-            "/api/products.func/index.js",
-            "/api/products/[id].func/index.js",
-            "/api/quotes.func/index.js",
-            "/api/upload.func/index.js"
+            "/_not-found.func/index.js"
           ]
         },
         "4116": {
           "consumers": 1,
-          "groupedPath": "5a65eb6aa70e73ffbd6119ff9d2c272e",
+          "groupedPath": "f7e4be28595827d05527f0c8bb75678a",
           "inlined": true,
           "byteLength": 21048,
           "consumersList": [
@@ -7309,15 +7425,6 @@
             "/cozumler/kalite-guvence-sistemleri.func/index.js",
             "/cozumler/otomasyon-sistemleri.func/index.js",
             "/kaynaklar.func/index.js"
-          ]
-        },
-        "4173": {
-          "consumers": 1,
-          "groupedPath": "f4c7afe31fe24147cf045e9b340c03d0",
-          "inlined": true,
-          "byteLength": 6245,
-          "consumersList": [
-            "/kaynaklar/etkinlik/[id].func/index.js"
           ]
         },
         "4185": {
@@ -7433,15 +7540,6 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "4238": {
-          "consumers": 1,
-          "groupedPath": "5b74da4993c3c107ee937a9f87c702cc",
-          "inlined": true,
-          "byteLength": 6283,
-          "consumersList": [
-            "/cozumler/ar-ge-laboratuvarlari.func/index.js"
-          ]
-        },
         "4263": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -7484,7 +7582,7 @@
         },
         "4286": {
           "consumers": 1,
-          "groupedPath": "073f03f688104ce781b56d3337b2a12b",
+          "groupedPath": "2887e6a825f1f9054a4822b9bddffcee",
           "inlined": true,
           "byteLength": 14370,
           "consumersList": [
@@ -7534,7 +7632,7 @@
         "4310": {
           "consumers": 1,
           "inlined": true,
-          "byteLength": 10505,
+          "byteLength": 10619,
           "consumersList": [
             "/api/contact.func/index.js"
           ]
@@ -7581,7 +7679,7 @@
         },
         "4346": {
           "consumers": 1,
-          "groupedPath": "ba89c45b0d997ad48d4fa86fff634cbe",
+          "groupedPath": "3af3b9a4166c4e92713fee6a342774ed",
           "inlined": true,
           "byteLength": 12555,
           "consumersList": [
@@ -7590,7 +7688,7 @@
         },
         "4347": {
           "consumers": 1,
-          "groupedPath": "4316c95aa5b176538e2cf16e2ae60e2e",
+          "groupedPath": "52ebb287c28657ce5a03787755a0b52b",
           "inlined": true,
           "byteLength": 17103,
           "consumersList": [
@@ -7639,7 +7737,7 @@
         },
         "4364": {
           "consumers": 1,
-          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
+          "groupedPath": "1b1b34afd1d65d3c55581a56d022a213",
           "inlined": true,
           "byteLength": 6305,
           "consumersList": [
@@ -7719,7 +7817,7 @@
         },
         "4612": {
           "consumers": 1,
-          "groupedPath": "fa8b4d6940a471b266dbd1f52e5e9cea",
+          "groupedPath": "c3b3c1084a4f4274ccd1fefb5396c85c",
           "inlined": true,
           "byteLength": 11580,
           "consumersList": [
@@ -7728,7 +7826,7 @@
         },
         "4684": {
           "consumers": 1,
-          "groupedPath": "3ec6fbdf5edd096acc522411d8a1caaf",
+          "groupedPath": "1262426f8e807d938155497b77c7b89b",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -7737,7 +7835,7 @@
         },
         "4694": {
           "consumers": 1,
-          "groupedPath": "f4c7afe31fe24147cf045e9b340c03d0",
+          "groupedPath": "3511ce04ed5561bad3a4785f93ce1ffa",
           "inlined": true,
           "byteLength": 249,
           "consumersList": [
@@ -7866,7 +7964,7 @@
         },
         "4741": {
           "consumers": 1,
-          "groupedPath": "bc7f5ef72d38b4508ce4178c214f0617",
+          "groupedPath": "cd17e56adf4ff105aa384d637b825457",
           "inlined": true,
           "byteLength": 48,
           "consumersList": [
@@ -7875,7 +7973,7 @@
         },
         "4814": {
           "consumers": 1,
-          "groupedPath": "3d11d090e518bbdf54e2f14750592bd7",
+          "groupedPath": "428230b817e8825c65815f2c5120b880",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -7883,7 +7981,7 @@
           ]
         },
         "4823": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 262,
@@ -7901,12 +7999,13 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
         "4829": {
           "consumers": 1,
-          "groupedPath": "69a1390a5c0c6249bea257483506452a",
+          "groupedPath": "b044c2675369332a796e2282ce57be22",
           "inlined": true,
           "byteLength": 236,
           "consumersList": [
@@ -8125,7 +8224,7 @@
         },
         "4930": {
           "consumers": 1,
-          "groupedPath": "6c2f8e2ea9c613a8edfab8dbee339e99",
+          "groupedPath": "a78f70ba31d7cf3b38907d713a37fe77",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -8172,15 +8271,6 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "4981": {
-          "consumers": 1,
-          "groupedPath": "68595dfdb61cb47dfa7f164c0ca6e6f4",
-          "inlined": true,
-          "byteLength": 6398,
-          "consumersList": [
-            "/admin/resources/news/new.func/index.js"
-          ]
-        },
         "5023": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -8223,7 +8313,7 @@
         },
         "5034": {
           "consumers": 1,
-          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
+          "groupedPath": "1b1b34afd1d65d3c55581a56d022a213",
           "inlined": true,
           "byteLength": 3473,
           "consumersList": [
@@ -8272,7 +8362,7 @@
         },
         "5081": {
           "consumers": 1,
-          "groupedPath": "d04cd2d65d5a40d5f97dc9d4cab647ff",
+          "groupedPath": "a7c65adb4ce82d52212b713738dae8f8",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -8327,6 +8417,15 @@
             "/urunler/[category].func/index.js",
             "/urunler/[category]/[subcategory].func/index.js",
             "/urunler/[category]/[subcategory]/[product].func/index.js"
+          ]
+        },
+        "5135": {
+          "consumers": 1,
+          "groupedPath": "a0f2f0cc92ca83ad291bc56d903af690",
+          "inlined": true,
+          "byteLength": 6088,
+          "consumersList": [
+            "/iletisim.func/index.js"
           ]
         },
         "5136": {
@@ -8422,7 +8521,7 @@
         },
         "5191": {
           "consumers": 1,
-          "groupedPath": "d04cd2d65d5a40d5f97dc9d4cab647ff",
+          "groupedPath": "a7c65adb4ce82d52212b713738dae8f8",
           "inlined": true,
           "byteLength": 4814,
           "consumersList": [
@@ -8541,6 +8640,15 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "5252": {
+          "consumers": 1,
+          "groupedPath": "46e921eb2c8c67f384763b43f659cf5c",
+          "inlined": true,
+          "byteLength": 6089,
+          "consumersList": [
+            "/cozumler.func/index.js"
+          ]
+        },
         "5277": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -8583,7 +8691,7 @@
         },
         "5289": {
           "consumers": 1,
-          "groupedPath": "6c2f8e2ea9c613a8edfab8dbee339e99",
+          "groupedPath": "a78f70ba31d7cf3b38907d713a37fe77",
           "inlined": true,
           "byteLength": 7478,
           "consumersList": [
@@ -8632,7 +8740,7 @@
         },
         "5306": {
           "consumers": 1,
-          "groupedPath": "9b795a42bfbd285dbdd3b05fae681798",
+          "groupedPath": "46e921eb2c8c67f384763b43f659cf5c",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -8679,15 +8787,6 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "5368": {
-          "consumers": 1,
-          "groupedPath": "3d11d090e518bbdf54e2f14750592bd7",
-          "inlined": true,
-          "byteLength": 6365,
-          "consumersList": [
-            "/admin/contact/messages.func/index.js"
-          ]
-        },
         "5383": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -8725,24 +8824,6 @@
             "/urunler.func/index.js",
             "/urunler/[category].func/index.js",
             "/urunler/[category]/[subcategory].func/index.js",
-            "/urunler/[category]/[subcategory]/[product].func/index.js"
-          ]
-        },
-        "5410": {
-          "consumers": 1,
-          "groupedPath": "514dde7a47489c411f724231f17e048a",
-          "inlined": true,
-          "byteLength": 6097,
-          "consumersList": [
-            "/sektorler.func/index.js"
-          ]
-        },
-        "5415": {
-          "consumers": 1,
-          "groupedPath": "f9d3316f954bb4b249f47d54e70ce2f0",
-          "inlined": true,
-          "byteLength": 6415,
-          "consumersList": [
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
@@ -8788,7 +8869,7 @@
         },
         "5477": {
           "consumers": 1,
-          "groupedPath": "51fb0cf52b618967c53f64304038ae35",
+          "groupedPath": "92eab3c49f91d094692bae6ec1b6759f",
           "inlined": true,
           "byteLength": 250,
           "consumersList": [
@@ -8822,6 +8903,15 @@
             "/kaynaklar/etkinlik/[id].func/index.js",
             "/kaynaklar/haber/[id].func/index.js",
             "/urunler/[category]/[subcategory]/[product].func/index.js"
+          ]
+        },
+        "5533": {
+          "consumers": 1,
+          "groupedPath": "f2145b7efd7a7d5d6d848bc1c15125e5",
+          "inlined": true,
+          "byteLength": 6415,
+          "consumersList": [
+            "/admin/resources/events/new.func/index.js"
           ]
         },
         "5540": {
@@ -8866,7 +8956,7 @@
         },
         "5565": {
           "consumers": 1,
-          "groupedPath": "514dde7a47489c411f724231f17e048a",
+          "groupedPath": "8fb9c65d296bb68a3697245b1339fb16",
           "inlined": true,
           "byteLength": 491,
           "consumersList": [
@@ -8914,7 +9004,7 @@
           ]
         },
         "5616": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 81,
@@ -8945,6 +9035,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -9132,7 +9223,7 @@
           ]
         },
         "5683": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 1888,
@@ -9150,6 +9241,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
@@ -9203,6 +9295,15 @@
             "/urunler/[category].func/index.js",
             "/urunler/[category]/[subcategory].func/index.js",
             "/urunler/[category]/[subcategory]/[product].func/index.js"
+          ]
+        },
+        "5775": {
+          "consumers": 1,
+          "groupedPath": "53fa87122cd6ddfa78bef6c582e76287",
+          "inlined": true,
+          "byteLength": 6317,
+          "consumersList": [
+            "/urunler/[category]/[subcategory].func/index.js"
           ]
         },
         "5789": {
@@ -9285,17 +9386,8 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "5927": {
-          "consumers": 1,
-          "groupedPath": "29726a1a92770572175e8e5ba834bb64",
-          "inlined": true,
-          "byteLength": 6315,
-          "consumersList": [
-            "/cozumler/kalite-guvence-sistemleri.func/index.js"
-          ]
-        },
         "5932": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 1698,
@@ -9313,16 +9405,8 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
-          ]
-        },
-        "5978": {
-          "consumers": 1,
-          "groupedPath": "9b795a42bfbd285dbdd3b05fae681798",
-          "inlined": true,
-          "byteLength": 6089,
-          "consumersList": [
-            "/cozumler.func/index.js"
           ]
         },
         "6011": {
@@ -9335,9 +9419,18 @@
             "/admin/products/[id]/edit.func/index.js"
           ]
         },
+        "6066": {
+          "consumers": 1,
+          "groupedPath": "cd17e56adf4ff105aa384d637b825457",
+          "inlined": true,
+          "byteLength": 6097,
+          "consumersList": [
+            "/kaynaklar.func/index.js"
+          ]
+        },
         "6104": {
           "consumers": 1,
-          "groupedPath": "51fb0cf52b618967c53f64304038ae35",
+          "groupedPath": "92eab3c49f91d094692bae6ec1b6759f",
           "inlined": true,
           "byteLength": 18003,
           "consumersList": [
@@ -9435,7 +9528,7 @@
           ]
         },
         "6195": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 90,
@@ -9466,6 +9559,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -9610,7 +9704,7 @@
         },
         "6265": {
           "consumers": 1,
-          "groupedPath": "f5446b927192e2b980fe3a314faecf69",
+          "groupedPath": "8326df4bee341be81ddac0f3dbb58dbc",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -9738,7 +9832,7 @@
           ]
         },
         "6379": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 81,
@@ -9769,6 +9863,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -9953,7 +10048,7 @@
         },
         "6467": {
           "consumers": 1,
-          "groupedPath": "9abc45368395b417ae1bd486eb1e9a1a",
+          "groupedPath": "6d584a63a246ba5e41475f24250e431d",
           "inlined": true,
           "byteLength": 258,
           "consumersList": [
@@ -10018,7 +10113,7 @@
         },
         "6504": {
           "consumers": 1,
-          "groupedPath": "29726a1a92770572175e8e5ba834bb64",
+          "groupedPath": "adea9bed93ca41d1498bdefdcfd3ed54",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -10027,7 +10122,7 @@
         },
         "6522": {
           "consumers": 1,
-          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
+          "groupedPath": "1b1b34afd1d65d3c55581a56d022a213",
           "inlined": true,
           "byteLength": 461,
           "consumersList": [
@@ -10036,7 +10131,7 @@
         },
         "6587": {
           "consumers": 1,
-          "groupedPath": "f4c7afe31fe24147cf045e9b340c03d0",
+          "groupedPath": "3511ce04ed5561bad3a4785f93ce1ffa",
           "inlined": true,
           "byteLength": 9826,
           "consumersList": [
@@ -10045,7 +10140,7 @@
         },
         "6591": {
           "consumers": 1,
-          "groupedPath": "f4c7afe31fe24147cf045e9b340c03d0",
+          "groupedPath": "3511ce04ed5561bad3a4785f93ce1ffa",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -10141,6 +10236,15 @@
             "/admin/resources/events/[id]/edit.func/index.js"
           ]
         },
+        "6792": {
+          "consumers": 1,
+          "groupedPath": "b78c189689138b99fdc3dcfc0337befc",
+          "inlined": true,
+          "byteLength": 6275,
+          "consumersList": [
+            "/admin/contact.func/index.js"
+          ]
+        },
         "6835": {
           "consumers": 3,
           "groupedPath": "7930da9f65c85d5398ed67ddff95f86f",
@@ -10152,8 +10256,17 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "6862": {
+          "consumers": 1,
+          "groupedPath": "e4c8d9edec5b1ee9d6f8857356692647",
+          "inlined": true,
+          "byteLength": 6291,
+          "consumersList": [
+            "/admin/resources.func/index.js"
+          ]
+        },
         "6869": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 3106,
@@ -10184,6 +10297,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -10286,15 +10400,6 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "7006": {
-          "consumers": 1,
-          "groupedPath": "073f03f688104ce781b56d3337b2a12b",
-          "inlined": true,
-          "byteLength": 6283,
-          "consumersList": [
-            "/admin/products.func/index.js"
-          ]
-        },
         "7049": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -10337,7 +10442,7 @@
         },
         "7067": {
           "consumers": 1,
-          "groupedPath": "242648effc20f8c06f6b7494a0dd2eb4",
+          "groupedPath": "b78c189689138b99fdc3dcfc0337befc",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -10384,8 +10489,17 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "7105": {
+          "consumers": 1,
+          "groupedPath": "a78f70ba31d7cf3b38907d713a37fe77",
+          "inlined": true,
+          "byteLength": 6193,
+          "consumersList": [
+            "/admin.func/index.js"
+          ]
+        },
         "7108": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 1789,
@@ -10403,6 +10517,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
@@ -10438,7 +10553,7 @@
         },
         "7135": {
           "consumers": 1,
-          "groupedPath": "9b795a42bfbd285dbdd3b05fae681798",
+          "groupedPath": "46e921eb2c8c67f384763b43f659cf5c",
           "inlined": true,
           "byteLength": 46273,
           "consumersList": [
@@ -10686,7 +10801,7 @@
           ]
         },
         "7274": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 126,
@@ -10704,6 +10819,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
@@ -10840,7 +10956,7 @@
         },
         "7384": {
           "consumers": 1,
-          "groupedPath": "12f8597b6d4d7c376e35b66f803562f7",
+          "groupedPath": "f2145b7efd7a7d5d6d848bc1c15125e5",
           "inlined": true,
           "byteLength": 13838,
           "consumersList": [
@@ -10889,7 +11005,7 @@
         },
         "7399": {
           "consumers": 1,
-          "groupedPath": "9464a64b37b5a5d27dc9bfb09fa5308d",
+          "groupedPath": "adef54dacd09f1965da6312892135892",
           "inlined": true,
           "byteLength": 24987,
           "consumersList": [
@@ -10909,7 +11025,7 @@
         },
         "7412": {
           "consumers": 1,
-          "groupedPath": "5ae81bd7621c708cff8e171ed9bfa52b",
+          "groupedPath": "23e5d128d17a5b70bb90b380f47a1725",
           "inlined": true,
           "byteLength": 244,
           "consumersList": [
@@ -10956,9 +11072,18 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "7464": {
+          "consumers": 1,
+          "groupedPath": "a4d70d11f667b70b644429cb33deff47",
+          "inlined": true,
+          "byteLength": 6297,
+          "consumersList": [
+            "/admin/categories.func/index.js"
+          ]
+        },
         "7480": {
           "consumers": 1,
-          "groupedPath": "29726a1a92770572175e8e5ba834bb64",
+          "groupedPath": "adea9bed93ca41d1498bdefdcfd3ed54",
           "inlined": true,
           "byteLength": 15396,
           "consumersList": [
@@ -10967,7 +11092,7 @@
         },
         "7485": {
           "consumers": 1,
-          "groupedPath": "12f8597b6d4d7c376e35b66f803562f7",
+          "groupedPath": "f2145b7efd7a7d5d6d848bc1c15125e5",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -10976,7 +11101,7 @@
         },
         "7577": {
           "consumers": 1,
-          "groupedPath": "83527352a7e9e3e052c6b849208eb8ae",
+          "groupedPath": "a4d70d11f667b70b644429cb33deff47",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -10985,20 +11110,20 @@
         },
         "7625": {
           "consumers": 1,
-          "groupedPath": "242648effc20f8c06f6b7494a0dd2eb4",
+          "groupedPath": "b78c189689138b99fdc3dcfc0337befc",
           "inlined": true,
           "byteLength": 5812,
           "consumersList": [
             "/admin/contact.func/index.js"
           ]
         },
-        "7639": {
+        "7674": {
           "consumers": 1,
-          "groupedPath": "0ab023955c37ff80fc61534c3b17fba7",
+          "groupedPath": "2c63dc92b8abb4b35ecaa1a68405820c",
           "inlined": true,
-          "byteLength": 6317,
+          "byteLength": 6415,
           "consumersList": [
-            "/urunler/[category]/[subcategory].func/index.js"
+            "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
         "7702": {
@@ -11014,7 +11139,7 @@
         },
         "7750": {
           "consumers": 1,
-          "groupedPath": "ee29ddfc6b2e2e433df12771f78c5cb1",
+          "groupedPath": "a0f2f0cc92ca83ad291bc56d903af690",
           "inlined": true,
           "byteLength": 42711,
           "consumersList": [
@@ -11103,7 +11228,7 @@
         },
         "7849": {
           "consumers": 1,
-          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
+          "groupedPath": "1b1b34afd1d65d3c55581a56d022a213",
           "inlined": true,
           "byteLength": 9725,
           "consumersList": [
@@ -11241,6 +11366,15 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "7913": {
+          "consumers": 1,
+          "groupedPath": "1262426f8e807d938155497b77c7b89b",
+          "inlined": true,
+          "byteLength": 6481,
+          "consumersList": [
+            "/admin/resources/events/[id]/edit.func/index.js"
+          ]
+        },
         "7918": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -11281,18 +11415,9 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "7926": {
-          "consumers": 1,
-          "groupedPath": "83527352a7e9e3e052c6b849208eb8ae",
-          "inlined": true,
-          "byteLength": 6297,
-          "consumersList": [
-            "/admin/categories.func/index.js"
-          ]
-        },
         "7937": {
           "consumers": 1,
-          "groupedPath": "68595dfdb61cb47dfa7f164c0ca6e6f4",
+          "groupedPath": "6a3fbf889dba2f499b8b893ed7fa4710",
           "inlined": true,
           "byteLength": 9413,
           "consumersList": [
@@ -11350,6 +11475,15 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "8034": {
+          "consumers": 1,
+          "groupedPath": "3af3b9a4166c4e92713fee6a342774ed",
+          "inlined": true,
+          "byteLength": 6080,
+          "consumersList": [
+            "/urunler.func/index.js"
+          ]
+        },
         "8039": {
           "consumers": 32,
           "groupedPath": "57399dedcd952a6de47bc902eeb9c090",
@@ -11402,7 +11536,7 @@
           ]
         },
         "8079": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 10797,
@@ -11420,12 +11554,13 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
         "8100": {
           "consumers": 1,
-          "groupedPath": "f9d3316f954bb4b249f47d54e70ce2f0",
+          "groupedPath": "2c63dc92b8abb4b35ecaa1a68405820c",
           "inlined": true,
           "byteLength": 268,
           "consumersList": [
@@ -11496,7 +11631,7 @@
           ]
         },
         "8119": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 1477,
@@ -11514,12 +11649,13 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
         "8122": {
           "consumers": 1,
-          "groupedPath": "9464a64b37b5a5d27dc9bfb09fa5308d",
+          "groupedPath": "adef54dacd09f1965da6312892135892",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -11538,7 +11674,7 @@
           ]
         },
         "8145": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 836,
@@ -11569,6 +11705,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -11593,7 +11730,7 @@
         },
         "8159": {
           "consumers": 1,
-          "groupedPath": "9464a64b37b5a5d27dc9bfb09fa5308d",
+          "groupedPath": "adef54dacd09f1965da6312892135892",
           "inlined": true,
           "byteLength": 255,
           "consumersList": [
@@ -11642,7 +11779,7 @@
         },
         "8261": {
           "consumers": 1,
-          "groupedPath": "3ec6fbdf5edd096acc522411d8a1caaf",
+          "groupedPath": "1262426f8e807d938155497b77c7b89b",
           "inlined": true,
           "byteLength": 258,
           "consumersList": [
@@ -11691,24 +11828,15 @@
         },
         "8277": {
           "consumers": 1,
-          "groupedPath": "9b795a42bfbd285dbdd3b05fae681798",
+          "groupedPath": "46e921eb2c8c67f384763b43f659cf5c",
           "inlined": true,
           "byteLength": 234,
           "consumersList": [
             "/cozumler.func/index.js"
           ]
         },
-        "8307": {
-          "consumers": 1,
-          "groupedPath": "5ae81bd7621c708cff8e171ed9bfa52b",
-          "inlined": true,
-          "byteLength": 6187,
-          "consumersList": [
-            "/urunler/[category].func/index.js"
-          ]
-        },
         "8340": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 102,
@@ -11739,6 +11867,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -11802,7 +11931,7 @@
           ]
         },
         "8381": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 68,
@@ -11820,22 +11949,14 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
-          ]
-        },
-        "8382": {
-          "consumers": 1,
-          "groupedPath": "bc7f5ef72d38b4508ce4178c214f0617",
-          "inlined": true,
-          "byteLength": 6097,
-          "consumersList": [
-            "/kaynaklar.func/index.js"
           ]
         },
         "8418": {
           "consumers": 1,
           "inlined": true,
-          "byteLength": 9034,
+          "byteLength": 9149,
           "consumersList": [
             "/api/news.func/index.js"
           ]
@@ -11896,7 +12017,7 @@
         },
         "8501": {
           "consumers": 1,
-          "groupedPath": "4316c95aa5b176538e2cf16e2ae60e2e",
+          "groupedPath": "52ebb287c28657ce5a03787755a0b52b",
           "inlined": true,
           "byteLength": 518,
           "consumersList": [
@@ -11916,7 +12037,7 @@
         },
         "8519": {
           "consumers": 1,
-          "groupedPath": "6c2f8e2ea9c613a8edfab8dbee339e99",
+          "groupedPath": "a78f70ba31d7cf3b38907d713a37fe77",
           "inlined": true,
           "byteLength": 479,
           "consumersList": [
@@ -11925,11 +12046,19 @@
         },
         "8545": {
           "consumers": 1,
-          "groupedPath": "441bc0242cd90e74f2585d37d94d0a49",
+          "groupedPath": "e4c8d9edec5b1ee9d6f8857356692647",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
             "/admin/resources.func/index.js"
+          ]
+        },
+        "8547": {
+          "consumers": 1,
+          "inlined": true,
+          "byteLength": 1189,
+          "consumersList": [
+            "/api/test.func/index.js"
           ]
         },
         "8578": {
@@ -11974,19 +12103,11 @@
         },
         "8591": {
           "consumers": 1,
-          "groupedPath": "4c482c053e074279251fb71afedd95a5",
+          "groupedPath": "7086342aab9f77b2d33c6d3dd4ef9c33",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
             "/teklif-al.func/index.js"
-          ]
-        },
-        "8681": {
-          "consumers": 1,
-          "inlined": true,
-          "byteLength": 5971,
-          "consumersList": [
-            "/_not-found.func/index.js"
           ]
         },
         "8684": {
@@ -12071,7 +12192,7 @@
         },
         "8711": {
           "consumers": 1,
-          "groupedPath": "5a65eb6aa70e73ffbd6119ff9d2c272e",
+          "groupedPath": "f7e4be28595827d05527f0c8bb75678a",
           "inlined": true,
           "byteLength": 267,
           "consumersList": [
@@ -12079,7 +12200,7 @@
           ]
         },
         "8724": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 564,
@@ -12097,6 +12218,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
@@ -12152,7 +12274,7 @@
           ]
         },
         "8752": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 4895,
@@ -12170,12 +12292,13 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
         "8795": {
           "consumers": 1,
-          "groupedPath": "4c482c053e074279251fb71afedd95a5",
+          "groupedPath": "7086342aab9f77b2d33c6d3dd4ef9c33",
           "inlined": true,
           "byteLength": 17133,
           "consumersList": [
@@ -12184,7 +12307,7 @@
         },
         "8820": {
           "consumers": 1,
-          "groupedPath": "0ab023955c37ff80fc61534c3b17fba7",
+          "groupedPath": "53fa87122cd6ddfa78bef6c582e76287",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -12192,7 +12315,7 @@
           ]
         },
         "8823": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 102,
@@ -12223,6 +12346,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -12246,7 +12370,7 @@
           ]
         },
         "8855": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 26243,
@@ -12277,6 +12401,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -12350,7 +12475,7 @@
           ]
         },
         "8885": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 1710,
@@ -12368,6 +12493,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
@@ -12464,7 +12590,7 @@
         },
         "8936": {
           "consumers": 1,
-          "groupedPath": "51fb0cf52b618967c53f64304038ae35",
+          "groupedPath": "92eab3c49f91d094692bae6ec1b6759f",
           "inlined": true,
           "byteLength": 5763,
           "consumersList": [
@@ -12473,7 +12599,7 @@
         },
         "8984": {
           "consumers": 1,
-          "groupedPath": "5b74da4993c3c107ee937a9f87c702cc",
+          "groupedPath": "9a9ffd60e6d233223bc4ccb5dc2dcfc5",
           "inlined": true,
           "byteLength": 256,
           "consumersList": [
@@ -12693,7 +12819,7 @@
         },
         "9046": {
           "consumers": 1,
-          "groupedPath": "29726a1a92770572175e8e5ba834bb64",
+          "groupedPath": "adea9bed93ca41d1498bdefdcfd3ed54",
           "inlined": true,
           "byteLength": 260,
           "consumersList": [
@@ -12702,7 +12828,7 @@
         },
         "9094": {
           "consumers": 1,
-          "groupedPath": "3ec6fbdf5edd096acc522411d8a1caaf",
+          "groupedPath": "1262426f8e807d938155497b77c7b89b",
           "inlined": true,
           "byteLength": 8319,
           "consumersList": [
@@ -12711,7 +12837,7 @@
         },
         "9105": {
           "consumers": 1,
-          "groupedPath": "83527352a7e9e3e052c6b849208eb8ae",
+          "groupedPath": "a4d70d11f667b70b644429cb33deff47",
           "inlined": true,
           "byteLength": 13104,
           "consumersList": [
@@ -12720,7 +12846,7 @@
         },
         "9184": {
           "consumers": 1,
-          "groupedPath": "4316c95aa5b176538e2cf16e2ae60e2e",
+          "groupedPath": "52ebb287c28657ce5a03787755a0b52b",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -12728,7 +12854,7 @@
           ]
         },
         "9186": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 328,
@@ -12759,6 +12885,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -12795,7 +12922,7 @@
         },
         "9220": {
           "consumers": 1,
-          "groupedPath": "ba89c45b0d997ad48d4fa86fff634cbe",
+          "groupedPath": "3af3b9a4166c4e92713fee6a342774ed",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -12884,7 +13011,7 @@
         },
         "9284": {
           "consumers": 1,
-          "groupedPath": "5ae81bd7621c708cff8e171ed9bfa52b",
+          "groupedPath": "23e5d128d17a5b70bb90b380f47a1725",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -12893,7 +13020,7 @@
         },
         "9292": {
           "consumers": 1,
-          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
+          "groupedPath": "1b1b34afd1d65d3c55581a56d022a213",
           "inlined": true,
           "byteLength": 1887,
           "consumersList": [
@@ -12902,20 +13029,11 @@
         },
         "9298": {
           "consumers": 1,
-          "groupedPath": "441bc0242cd90e74f2585d37d94d0a49",
+          "groupedPath": "e4c8d9edec5b1ee9d6f8857356692647",
           "inlined": true,
           "byteLength": 241,
           "consumersList": [
             "/admin/resources.func/index.js"
-          ]
-        },
-        "9332": {
-          "consumers": 1,
-          "groupedPath": "ba89c45b0d997ad48d4fa86fff634cbe",
-          "inlined": true,
-          "byteLength": 6080,
-          "consumersList": [
-            "/urunler.func/index.js"
           ]
         },
         "9344": {
@@ -12960,7 +13078,7 @@
         },
         "9363": {
           "consumers": 1,
-          "groupedPath": "fa8b4d6940a471b266dbd1f52e5e9cea",
+          "groupedPath": "c3b3c1084a4f4274ccd1fefb5396c85c",
           "inlined": true,
           "byteLength": 256,
           "consumersList": [
@@ -12999,20 +13117,11 @@
         },
         "9387": {
           "consumers": 1,
-          "groupedPath": "3d11d090e518bbdf54e2f14750592bd7",
+          "groupedPath": "428230b817e8825c65815f2c5120b880",
           "inlined": true,
           "byteLength": 14067,
           "consumersList": [
             "/admin/contact/messages.func/index.js"
-          ]
-        },
-        "9402": {
-          "consumers": 1,
-          "groupedPath": "3ec6fbdf5edd096acc522411d8a1caaf",
-          "inlined": true,
-          "byteLength": 6481,
-          "consumersList": [
-            "/admin/resources/events/[id]/edit.func/index.js"
           ]
         },
         "9423": {
@@ -13055,24 +13164,6 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
-        "9434": {
-          "consumers": 1,
-          "groupedPath": "69a1390a5c0c6249bea257483506452a",
-          "inlined": true,
-          "byteLength": 6105,
-          "consumersList": [
-            "/hakkimizda.func/index.js"
-          ]
-        },
-        "9439": {
-          "consumers": 1,
-          "groupedPath": "5a65eb6aa70e73ffbd6119ff9d2c272e",
-          "inlined": true,
-          "byteLength": 6371,
-          "consumersList": [
-            "/cozumler/endustriyel-laboratuvar-kurulumu.func/index.js"
-          ]
-        },
         "9454": {
           "consumers": 4,
           "newDest": "__next-on-pages-dist__/webpack/9454.js",
@@ -13085,7 +13176,7 @@
           ]
         },
         "9462": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 4894,
@@ -13103,12 +13194,13 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
         "9550": {
           "consumers": 1,
-          "groupedPath": "12f8597b6d4d7c376e35b66f803562f7",
+          "groupedPath": "f2145b7efd7a7d5d6d848bc1c15125e5",
           "inlined": true,
           "byteLength": 252,
           "consumersList": [
@@ -13116,7 +13208,7 @@
           ]
         },
         "9558": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 133,
@@ -13134,12 +13226,13 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
         "9571": {
           "consumers": 1,
-          "groupedPath": "5b74da4993c3c107ee937a9f87c702cc",
+          "groupedPath": "9a9ffd60e6d233223bc4ccb5dc2dcfc5",
           "inlined": true,
           "byteLength": 14467,
           "consumersList": [
@@ -13147,7 +13240,7 @@
           ]
         },
         "9577": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 1827,
@@ -13165,11 +13258,12 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
         "9605": {
-          "consumers": 14,
+          "consumers": 15,
           "groupedPath": "4b3a42bf8d5260165fea84e5f5b56af3",
           "newDest": "__next-on-pages-dist__/webpack/4b3a42bf8d5260165fea84e5f5b56af3.js",
           "byteLength": 1660,
@@ -13187,20 +13281,21 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js"
           ]
         },
         "9607": {
           "consumers": 1,
           "inlined": true,
-          "byteLength": 2446,
+          "byteLength": 1947,
           "consumersList": [
             "/api/auth/login.func/index.js"
           ]
         },
         "9666": {
           "consumers": 1,
-          "groupedPath": "5a65eb6aa70e73ffbd6119ff9d2c272e",
+          "groupedPath": "f7e4be28595827d05527f0c8bb75678a",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
@@ -13339,16 +13434,25 @@
         },
         "9786": {
           "consumers": 1,
-          "groupedPath": "ddfc9910d9d75e5338fba14f2c1a5f54",
+          "groupedPath": "1b1b34afd1d65d3c55581a56d022a213",
           "inlined": true,
           "byteLength": 10101,
           "consumersList": [
             "/index.func/index.js"
           ]
         },
+        "9836": {
+          "consumers": 1,
+          "groupedPath": "1b1b34afd1d65d3c55581a56d022a213",
+          "inlined": true,
+          "byteLength": 6000,
+          "consumersList": [
+            "/index.func/index.js"
+          ]
+        },
         "9842": {
           "consumers": 1,
-          "groupedPath": "0ab023955c37ff80fc61534c3b17fba7",
+          "groupedPath": "53fa87122cd6ddfa78bef6c582e76287",
           "inlined": true,
           "byteLength": 258,
           "consumersList": [
@@ -13356,7 +13460,7 @@
           ]
         },
         "9845": {
-          "consumers": 46,
+          "consumers": 47,
           "groupedPath": "3707fa33ba11f90cbf9a3297711bb536",
           "newDest": "__next-on-pages-dist__/webpack/3707fa33ba11f90cbf9a3297711bb536.js",
           "byteLength": 7266,
@@ -13387,6 +13491,7 @@
             "/api/products.func/index.js",
             "/api/products/[id].func/index.js",
             "/api/quotes.func/index.js",
+            "/api/test.func/index.js",
             "/api/upload.func/index.js",
             "/cozumler.func/index.js",
             "/cozumler/anahtar-teslim-projeler.func/index.js",
@@ -13489,9 +13594,18 @@
             "/urunler/[category]/[subcategory]/[product].func/index.js"
           ]
         },
+        "9861": {
+          "consumers": 1,
+          "groupedPath": "2887e6a825f1f9054a4822b9bddffcee",
+          "inlined": true,
+          "byteLength": 6283,
+          "consumersList": [
+            "/admin/products.func/index.js"
+          ]
+        },
         "9914": {
           "consumers": 1,
-          "groupedPath": "f5446b927192e2b980fe3a314faecf69",
+          "groupedPath": "8326df4bee341be81ddac0f3dbb58dbc",
           "inlined": true,
           "byteLength": 246,
           "consumersList": [
@@ -13536,15 +13650,6 @@
             "/urunler/[category].func/index.js",
             "/urunler/[category]/[subcategory].func/index.js",
             "/urunler/[category]/[subcategory]/[product].func/index.js"
-          ]
-        },
-        "9918": {
-          "consumers": 1,
-          "groupedPath": "51fb0cf52b618967c53f64304038ae35",
-          "inlined": true,
-          "byteLength": 6399,
-          "consumersList": [
-            "/admin/products/[id]/edit.func/index.js"
           ]
         },
         "9930": {
@@ -13639,7 +13744,7 @@
         },
         "9988": {
           "consumers": 1,
-          "groupedPath": "ee29ddfc6b2e2e433df12771f78c5cb1",
+          "groupedPath": "a0f2f0cc92ca83ad291bc56d903af690",
           "inlined": true,
           "byteLength": 49,
           "consumersList": [
