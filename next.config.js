@@ -10,26 +10,20 @@ const nextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   compress: true,
-  // Safe image optimization
-  images: {
-    formats: ['image/webp', 'image/avif'],
-    minimumCacheTTL: 60,
-    dangerouslyAllowSVG: true,
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
-  },
   generateStaticParams: false,
-  // Disable webpack cache for production to avoid large file size issues on Cloudflare Pages
+  
+  // Güvenli webpack optimizasyonları
   webpack: (config, { isServer, dev }) => {
     if (!dev) {
+      // Production için cache devre dışı
       config.cache = false;
-      // Safe bundle size optimizations
+      
+      // Edge Runtime uyumlu güvenli optimizasyonlar
       config.optimization = {
         ...config.optimization,
-        usedExports: true,
-        sideEffects: false,
-        minimize: false,
-        minimizer: [],
-
+        usedExports: true, // Tree shaking için
+        sideEffects: false, // Güvenli tree shaking
+        minimize: true, // Minification aktif
       };
     }
     return config;
@@ -50,18 +44,8 @@ const nextConfig = {
     // Disable static generation completely
     staticPageGenerationTimeout: 0,
   },
-  // Disable ALL build optimizations that might cause issues
-  swcMinify: false,
-  minify: false,
-  compress: false,
-  // Disable ESLint during build
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  // Disable TypeScript errors during build
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  // SWC minify aktif (güvenli)
+  swcMinify: true,
   images: {
     remotePatterns: [
       {
