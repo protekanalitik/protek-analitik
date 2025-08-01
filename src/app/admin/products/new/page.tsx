@@ -185,7 +185,7 @@ export default function NewProductPage() {
         overview: form.overview,
         category_id: form.category || 'lab-equipment', // D1 format
         subcategory_id: form.subcategory || 'genel-lab', // D1 format  
-        image: form.images[0] || '/images/lab-1.jpg',
+        image: form.images[0] || '', // No fallback image - let user upload their own
         images: form.images.length > 0 ? form.images : [],
         features: form.features.filter(f => f.trim() !== ''),
         applications: form.applications.filter(a => a.trim() !== ''),
