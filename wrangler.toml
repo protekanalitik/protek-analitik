@@ -3,6 +3,14 @@ pages_build_output_dir = ".vercel/output/static"
 compatibility_date = "2024-12-16"
 compatibility_flags = ["nodejs_compat_v2"]
 
+# Pages Functions Configuration
+[build]
+command = "npx @cloudflare/next-on-pages"
+
+# Enable Pages Functions
+[pages]
+functions_dir = ".vercel/output/functions"
+
 [env.production]
 name = "protek-analitik-production"
 
