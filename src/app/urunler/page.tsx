@@ -134,7 +134,52 @@ export default function ProductsPage() {
   // Fetch categories from API (static import yerine)
   const fetchCategories = async () => {
     try {
-      // Fallback categories - static import yerine
+      const response = await fetch('/api/categories?public=true')
+      if (!response.ok) {
+        throw new Error('Failed to fetch categories')
+      }
+      const result = await response.json()
+      if (result.success) {
+        // Convert API data to frontend format
+        const apiCategories = result.data.categories || []
+        const apiSubcategories = result.data.subcategories || []
+        
+        const formattedCategories: Category[] = apiCategories.map((cat: any) => ({
+          key: cat.id || cat.key,
+          name: cat.name,
+          description: cat.description || '',
+          subcategories: apiSubcategories
+            .filter((sub: any) => sub.category_id === cat.id)
+            .map((sub: any) => ({
+              key: sub.id || sub.key,
+              name: sub.name,
+              description: sub.description || '',
+              products: []
+            }))
+        }))
+        
+        setProductCategories(formattedCategories)
+      } else {
+        console.error('Categories fetch failed:', result.error)
+        // Fallback to static categories
+        const fallbackCategories: Category[] = [
+          {
+            key: 'lab-equipment',
+            name: 'Laboratuvar Ekipmanları, Sarf Malzemeler Ve Kitler',
+            description: 'Laboratuvar ekipmanları ve sarf malzemeleri',
+            subcategories: [
+              { key: 'fiziksel-analiz', name: 'Fiziksel Analiz Ekipmanları', description: '', products: [] },
+              { key: 'kimyasal-analiz', name: 'Kimyasal Analiz Ekipmanları', description: '', products: [] },
+              { key: 'mikrobiyoloji', name: 'Mikrobiyoloji Analiz Ekipmanları', description: '', products: [] },
+              { key: 'test-sistemleri', name: 'Test, Ölçü Kontrol Sistemleri', description: '', products: [] }
+            ]
+          }
+        ]
+        setProductCategories(fallbackCategories)
+      }
+    } catch (error) {
+      console.error('Kategorileri yüklerken hata:', error)
+      // Fallback to static categories on error
       const fallbackCategories: Category[] = [
         {
           key: 'lab-equipment',
@@ -144,31 +189,11 @@ export default function ProductsPage() {
             { key: 'fiziksel-analiz', name: 'Fiziksel Analiz Ekipmanları', description: '', products: [] },
             { key: 'kimyasal-analiz', name: 'Kimyasal Analiz Ekipmanları', description: '', products: [] },
             { key: 'mikrobiyoloji', name: 'Mikrobiyoloji Analiz Ekipmanları', description: '', products: [] },
-            { key: 'test-olcu', name: 'Test, Ölçü Kontrol Sistemleri', description: '', products: [] },
-            { key: 'ar-ge', name: 'Araştırma ve Geliştirme Ekipmanları', description: '', products: [] }
-          ]
-        },
-        {
-          key: 'process-control',
-          name: 'Proses Kontrol Ve Hat Tipi Analiz Çözümleri',
-          description: 'Hat tipi analiz sistemleri',
-          subcategories: [
-            { key: 'hat-tipi', name: 'Hat Tipi Analiz Sistemleri', description: '', products: [] }
-          ]
-        },
-        {
-          key: 'pilot-systems',
-          name: 'Pilot Tipi Üretim ve Proses Simülasyon Sistemleri',
-          description: 'Pilot üretim sistemleri',
-          subcategories: [
-            { key: 'karistirma', name: 'Karıştırma ve Homojenizasyon', description: '', products: [] }
+            { key: 'test-sistemleri', name: 'Test, Ölçü Kontrol Sistemleri', description: '', products: [] }
           ]
         }
       ]
       setProductCategories(fallbackCategories)
-    } catch (error) {
-      console.error('Kategorileri yüklerken hata:', error)
-      setProductCategories([])
     }
   }
 
@@ -180,7 +205,7 @@ export default function ProductsPage() {
       // Categories'i de çek
       await fetchCategories()
       
-      const response = await fetch('/api/products')
+      const response = await fetch('/api/products?public=true')
       const data = await response.json()
       
       if (data.success && Array.isArray(data.data)) {

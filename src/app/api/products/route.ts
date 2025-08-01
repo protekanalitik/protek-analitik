@@ -49,20 +49,25 @@ const FALLBACK_PRODUCTS = [
 // GET - Fetch products with pagination and filtering
 export async function GET(request: NextRequest) {
   try {
-    // Authentication check
-    const accessToken = request.cookies.get('accessToken')?.value ||
-                       request.headers.get('authorization')?.replace('Bearer ', '')
-    
-    if (!accessToken) {
-      return errorResponse('Authentication required', 'AUTH_REQUIRED', 401)
-    }
-
-    const authResult = await AuthService.verifyAccessToken(accessToken)
-    if (!authResult.success) {
-      return errorResponse('Invalid authentication', 'AUTH_FAILED', 401)
-    }
-
     const { searchParams } = new URL(request.url)
+    const isPublic = searchParams.get('public') === 'true'
+    
+    // For public access, skip authentication
+    if (!isPublic) {
+      // Authentication check for admin access
+      const accessToken = request.cookies.get('accessToken')?.value ||
+                         request.headers.get('authorization')?.replace('Bearer ', '')
+      
+      if (!accessToken) {
+        return errorResponse('Authentication required', 'AUTH_REQUIRED', 401)
+      }
+
+      const authResult = await AuthService.verifyAccessToken(accessToken)
+      if (!authResult.success) {
+        return errorResponse('Invalid authentication', 'AUTH_FAILED', 401)
+      }
+    }
+
     const page = parseInt(searchParams.get('page') || '1')
     const limit = Math.min(parseInt(searchParams.get('limit') || '20'), 100)
     const search = searchParams.get('search') || ''

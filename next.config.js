@@ -6,7 +6,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 const nextConfig = {
   // Force all pages to be dynamic to prevent React context and Html import errors
-  output: 'standalone',
   poweredByHeader: false,
   reactStrictMode: true,
   compress: true,

@@ -34,11 +34,15 @@ export async function middleware(request: NextRequest) {
     return NextResponse.next()
   }
 
+  // Check for public API access parameter
+  const url = new URL(request.url)
+  const isPublicAccess = url.searchParams.get('public') === 'true'
+  
   // Check if route requires authentication
   const isProtectedRoute = protectedRoutes.some(route => pathname.startsWith(route))
   const isPublicApiRoute = publicApiRoutes.some(route => pathname.startsWith(route))
 
-  if (!isProtectedRoute || isPublicApiRoute) {
+  if (!isProtectedRoute || isPublicApiRoute || isPublicAccess) {
     return NextResponse.next()
   }
 

@@ -33,24 +33,29 @@ const FALLBACK_SUBCATEGORIES = [
   { id: 'filtrasyon', category_id: 'pilot-uretim', name: 'Filtrasyon ve Separasyon' }
 ]
 
-// Get all categories and subcategories (requires authentication)
+// Get all categories and subcategories (public access available)
 export async function GET(request: NextRequest) {
   try {
-    // Authentication check
-    const accessToken = request.cookies.get('accessToken')?.value ||
-                       request.headers.get('authorization')?.replace('Bearer ', '')
+    const url = new URL(request.url)
+    const isPublic = url.searchParams.get('public') === 'true'
     
-    if (!accessToken) {
-      return AuthErrors.MISSING_TOKEN()
-    }
+    // For public access, skip authentication
+    if (!isPublic) {
+      // Authentication check for admin access
+      const accessToken = request.cookies.get('accessToken')?.value ||
+                         request.headers.get('authorization')?.replace('Bearer ', '')
+      
+      if (!accessToken) {
+        return AuthErrors.MISSING_TOKEN()
+      }
 
-    const authResult = await AuthService.verifyAccessToken(accessToken)
-    if (!authResult.success) {
-      return AuthErrors.INVALID_TOKEN()
+      const authResult = await AuthService.verifyAccessToken(accessToken)
+      if (!authResult.success) {
+        return AuthErrors.INVALID_TOKEN()
+      }
     }
 
     // Check if we need subcategories only (for form use)
-    const url = new URL(request.url)
     const type = url.searchParams.get('type')
     
     if (d1Database.isAvailable()) {
