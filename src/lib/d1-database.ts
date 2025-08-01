@@ -30,10 +30,18 @@ interface D1PreparedStatement {
 export class D1DatabaseManager {
   private db: D1Database | null = null
 
-  constructor() {
-    // In Cloudflare Workers environment, DB is injected
-    if (typeof globalThis !== 'undefined' && (globalThis as any).DB) {
+  constructor(env?: any) {
+    // Try multiple ways to get D1 database binding
+    if (env && env.DB) {
+      // From environment context (Cloudflare Pages Functions)
+      this.db = env.DB as D1Database
+      console.log('🔗 D1 Database connected via env.DB')
+    } else if (typeof globalThis !== 'undefined' && (globalThis as any).DB) {
+      // From globalThis (Cloudflare Workers)
       this.db = (globalThis as any).DB as D1Database
+      console.log('🔗 D1 Database connected via globalThis.DB')
+    } else {
+      console.warn('⚠️ D1 Database not found in env or globalThis')
     }
   }
 

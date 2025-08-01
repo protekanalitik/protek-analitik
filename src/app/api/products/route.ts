@@ -77,15 +77,21 @@ export async function GET(request: NextRequest) {
     const sortOrder = searchParams.get('sortOrder') || 'DESC'
 
     // Debug: Check D1 binding status
+    const env = (globalThis as any).process?.env || (globalThis as any).env || {}
     console.log('🔍 D1 Debug Info:', {
       globalThis_DB: typeof (globalThis as any).DB,
+      env_DB: typeof env.DB,
       d1Database_available: d1Database.isAvailable(),
       environment: process.env.NODE_ENV,
       runtime: 'edge'
     })
 
+    // Try to initialize D1 with environment context
+    const { D1DatabaseManager } = await import('@/lib/d1-database')
+    const contextualD1 = new D1DatabaseManager(env)
+
     // Try D1 database first
-    if (d1Database.isAvailable()) {
+    if (contextualD1.isAvailable()) {
       // Build WHERE clause
       const conditions: string[] = ['is_active = 1']
       const params: any[] = []
@@ -107,7 +113,7 @@ export async function GET(request: NextRequest) {
       const whereClause = conditions.join(' AND ')
       const offset = (page - 1) * limit
 
-      const result = await d1Database.getRecords<D1Product>('products', {
+      const result = await contextualD1.getRecords<D1Product>('products', {
         where: whereClause,
         params,
         orderBy: `${sortBy} ${sortOrder}`,
