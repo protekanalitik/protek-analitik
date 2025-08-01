@@ -1,7 +1,7 @@
 {
   "/admin/products/new/page": "app/admin/products/new/page.js",
-  "/admin/products/page": "app/admin/products/page.js",
-  "/admin/contact/messages/page": "app/admin/contact/messages/page.js",
   "/admin/categories/page": "app/admin/categories/page.js",
-  "/admin/page": "app/admin/page.js"
+  "/admin/products/page": "app/admin/products/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/contact/messages/page": "app/admin/contact/messages/page.js"
 }

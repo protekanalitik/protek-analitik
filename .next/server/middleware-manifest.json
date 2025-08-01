@@ -42,48 +42,6 @@
       "wasm": [],
       "assets": []
     },
-    "/admin/products/page": {
-      "files": [
-        "server/server-reference-manifest.js",
-        "server/app/admin/products/page_client-reference-manifest.js",
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/admin/products/page.js"
-      ],
-      "name": "app/admin/products/page",
-      "page": "/admin/products/page",
-      "matchers": [
-        {
-          "regexp": "^/admin/products$",
-          "originalSource": "/admin/products"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
-    "/admin/contact/messages/page": {
-      "files": [
-        "server/server-reference-manifest.js",
-        "server/app/admin/contact/messages/page_client-reference-manifest.js",
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/admin/contact/messages/page.js"
-      ],
-      "name": "app/admin/contact/messages/page",
-      "page": "/admin/contact/messages/page",
-      "matchers": [
-        {
-          "regexp": "^/admin/contact/messages$",
-          "originalSource": "/admin/contact/messages"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
     "/admin/categories/page": {
       "files": [
         "server/server-reference-manifest.js",
@@ -105,6 +63,27 @@
       "wasm": [],
       "assets": []
     },
+    "/admin/products/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/admin/products/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/admin/products/page.js"
+      ],
+      "name": "app/admin/products/page",
+      "page": "/admin/products/page",
+      "matchers": [
+        {
+          "regexp": "^/admin/products$",
+          "originalSource": "/admin/products"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
     "/admin/page": {
       "files": [
         "server/server-reference-manifest.js",
@@ -121,6 +100,27 @@
         {
           "regexp": "^/admin$",
           "originalSource": "/admin"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/admin/contact/messages/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/admin/contact/messages/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/admin/contact/messages/page.js"
+      ],
+      "name": "app/admin/contact/messages/page",
+      "page": "/admin/contact/messages/page",
+      "matchers": [
+        {
+          "regexp": "^/admin/contact/messages$",
+          "originalSource": "/admin/contact/messages"
         }
       ],
       "wasm": [],
