@@ -21,22 +21,22 @@
     }
   },
   "functions": {
-    "/admin/page": {
+    "/admin/products/new/page": {
       "files": [
         "server/server-reference-manifest.js",
-        "server/app/admin/page_client-reference-manifest.js",
+        "server/app/admin/products/new/page_client-reference-manifest.js",
         "server/middleware-build-manifest.js",
         "server/middleware-react-loadable-manifest.js",
         "server/next-font-manifest.js",
         "server/edge-runtime-webpack.js",
-        "server/app/admin/page.js"
+        "server/app/admin/products/new/page.js"
       ],
-      "name": "app/admin/page",
-      "page": "/admin/page",
+      "name": "app/admin/products/new/page",
+      "page": "/admin/products/new/page",
       "matchers": [
         {
-          "regexp": "^/admin$",
-          "originalSource": "/admin"
+          "regexp": "^/admin/products/new$",
+          "originalSource": "/admin/products/new"
         }
       ],
       "wasm": [],
@@ -105,22 +105,22 @@
       "wasm": [],
       "assets": []
     },
-    "/admin/products/new/page": {
+    "/admin/page": {
       "files": [
         "server/server-reference-manifest.js",
-        "server/app/admin/products/new/page_client-reference-manifest.js",
+        "server/app/admin/page_client-reference-manifest.js",
         "server/middleware-build-manifest.js",
         "server/middleware-react-loadable-manifest.js",
         "server/next-font-manifest.js",
         "server/edge-runtime-webpack.js",
-        "server/app/admin/products/new/page.js"
+        "server/app/admin/page.js"
       ],
-      "name": "app/admin/products/new/page",
-      "page": "/admin/products/new/page",
+      "name": "app/admin/page",
+      "page": "/admin/page",
       "matchers": [
         {
-          "regexp": "^/admin/products/new$",
-          "originalSource": "/admin/products/new"
+          "regexp": "^/admin$",
+          "originalSource": "/admin"
         }
       ],
       "wasm": [],
