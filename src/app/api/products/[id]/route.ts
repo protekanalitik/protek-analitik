@@ -131,16 +131,31 @@ export async function GET(
   try {
     const { id } = params
     
+    // Try to initialize D1 with environment context
+    const env = (globalThis as any).process?.env || (globalThis as any).env || {}
+    const { D1DatabaseManager } = await import('@/lib/d1-database')
+    const contextualD1 = new D1DatabaseManager(env)
+    
     // Check D1 database availability
-    const useD1 = d1Database !== null
+    const useD1 = contextualD1.isAvailable()
     
     if (useD1) {
       try {
         // Fetch product from D1 database
-        const product = await D1Utils.getProductById(id)
+        const result = await contextualD1.getRecordById<D1Product>('products', id)
         
-        if (!product) {
+        if (!result.success || !result.data) {
           return errorResponse('Product not found', 'PRODUCT_NOT_FOUND', 404)
+        }
+        
+        // Process JSON fields for frontend compatibility
+        const product = {
+          ...result.data,
+          features: D1Utils.fromJson(result.data.features || null),
+          applications: D1Utils.fromJson(result.data.applications || null),
+          specifications: D1Utils.fromJson(result.data.specifications || null),
+          images: D1Utils.fromJson(result.data.images || null),
+          catalog_files: D1Utils.fromJson(result.data.catalog_files || null)
         }
         
         return successResponse(product, 'Product fetched successfully', {
@@ -204,15 +219,41 @@ export async function PUT(
       return errorResponse('Product name is required', 'VALIDATION_ERROR', 400)
     }
     
+    // Try to initialize D1 with environment context
+    const env = (globalThis as any).process?.env || (globalThis as any).env || {}
+    const { D1DatabaseManager } = await import('@/lib/d1-database')
+    const contextualD1 = new D1DatabaseManager(env)
+    
     // Check D1 database availability
-    const useD1 = d1Database !== null
+    const useD1 = contextualD1.isAvailable()
     
     if (useD1) {
       try {
-        // Update product in D1 database
-        const product = await D1Utils.updateProduct(productId, updatedProduct)
+        // Prepare product data for D1 update
+        const productUpdateData: any = { ...updatedProduct }
         
-        return successResponse(product, 'Product updated successfully', {
+        // Convert arrays/objects to JSON strings for D1 storage
+        if (updatedProduct.features) productUpdateData.features = D1Utils.toJson(updatedProduct.features)
+        if (updatedProduct.applications) productUpdateData.applications = D1Utils.toJson(updatedProduct.applications)
+        if (updatedProduct.specifications) productUpdateData.specifications = D1Utils.toJson(updatedProduct.specifications)
+        if (updatedProduct.images) productUpdateData.images = D1Utils.toJson(updatedProduct.images)
+        if (updatedProduct.catalog_files) productUpdateData.catalog_files = D1Utils.toJson(updatedProduct.catalog_files)
+        
+        // Update product in D1 database
+        const updateResult = await contextualD1.updateRecord('products', productId, productUpdateData)
+        
+        if (!updateResult.success) {
+          return errorResponse(
+            updateResult.error || 'Failed to update product',
+            'UPDATE_FAILED'
+          )
+        }
+        
+        return successResponse({
+          id: productId,
+          ...updatedProduct,
+          updated_at: new Date().toISOString()
+        }, 'Product updated successfully', {
           source: 'd1_database',
           updated_by: authResult.user.username
         })
@@ -265,16 +306,25 @@ export async function DELETE(
     
     const productId = params.id
     
+    // Try to initialize D1 with environment context
+    const env = (globalThis as any).process?.env || (globalThis as any).env || {}
+    const { D1DatabaseManager } = await import('@/lib/d1-database')
+    const contextualD1 = new D1DatabaseManager(env)
+    
     // Check D1 database availability
-    const useD1 = d1Database !== null
+    const useD1 = contextualD1.isAvailable()
     
     if (useD1) {
       try {
         // Delete product from D1 database
-        const result = await D1Utils.deleteProduct(productId)
+        const result = await contextualD1.deleteRecord('products', productId)
         
-        if (!result) {
-          return errorResponse('Product not found', 'PRODUCT_NOT_FOUND', 404)
+        if (!result.success) {
+          return errorResponse(
+            result.error || 'Product not found',
+            'PRODUCT_NOT_FOUND',
+            404
+          )
         }
         
         return successResponse(null, 'Product deleted successfully', {
